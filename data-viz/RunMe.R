@@ -12,7 +12,13 @@
 ##
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ##
-## Outline:                                                                                                 ----
+## Outline: This is the single-call file for generating data points and visualizations for the EU Thematic
+##          reports. 
+##          
+##          PRESETTINGS:  Load settings and function definitions, data
+##          WRANGLE DATA: Create chart lists which are passed to the appropriate wrangle data function to acquire 
+##                        data points for visualizations.
+##          CREATE VIZ:   Call and apply the appropriate visualization function. 
 ##
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -26,9 +32,9 @@
 # Loading settings and functions
 source("code/settings.R")
 source("code/functions.R")
-# source("code/EUmap.R")
-# source("code/EUbars.R")
-# source("code/EUlollipop.R")
+source("code/EUDumbell.R")
+source("code/EUmap.R")
+source("code/EUScatterplot.R")
 
 # Loading data
 master_data_gpp <- read_dta(
@@ -92,28 +98,35 @@ region_names <- read.xlsx(
 ##
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-# Creating a named list to loop over
-chart_list <- c(2:3, 5, 7:8, 10:14, 16,18, 21:22, 25:26, 29,32:35, 38:42,
-                44:46)    # GPP WITH ONE VARIABLE
-chart_list_2 <- c(1, 4, 6, 9, 15, 17, 19, 23, 27, 30, 31, 36, 43) # QRQ
-names(chart_list) <- paste("Chart", chart_list)
-names(chart_list_2) <- paste("Chart", chart_list_2)
-
-
-# Applying the wrangling function to gpp charts
-data_points_gpp <- lapply(
-  chart_list,
-  function(chart_n) wrangleData(chart_n, 'gpp')
+# Creating named lists to loop over
+chart_list <- list(
+  "GPP" = c(2:3, 5, 7:8, 10:14, 16,18, 21:22, 25:26, 29,32:35, 38:42,
+                  44:46),
+  "QRQ" = c(1, 4, 6, 9, 15, 17, 19, 23, 27, 30, 31, 36, 43),
+  "Scatter" = c(20,24,28,37)
 )
 
-# Applying the wrangling function to qrq charts
-data_points_qrq <- lapply(
-  chart_list_2, 
-  function(chart_n) wrangleData(chart_n, 'qrq')
-)
+# getting names
+chart_list <- lapply(chart_list, function(vec){
+  names(vec) <- paste("Chart", vec)
+  return(vec)
+})
 
-# Combining data points from GPP and QRQ
-data_points <- c(data_points_gpp, data_points_qrq)
+data_points <-list()
+
+for (category in names(chart_list)){
+  chart_n_vector <- chart_list[[category]]
+  if (category == "GPP"){
+    result <- lapply(chart_n_vector, function(chart_n) wrangleData(chart_n, 'gpp'))
+  } else if (category == "QRQ"){
+    result <- lapply(chart_n_vector, function(chart_n) wrangleData(chart_n, 'qrq'))
+  } else if (category == "Scatter"){
+    result <- lapply(chart_n_vector, function(chart_n) wrangleData_scatter(chart_n))
+  }
+  data_points <- c(data_points, result)
+}
+
+
 
 # Collapsing and saving data points data
 data_points_df <- bind_rows(
@@ -125,22 +138,12 @@ data_points_df <- bind_rows(
           chart = str_replace(chart_n, "Chart ", "")
         )
     }
-  )
-)
+  ))
 
-# # csv with totals and demographic breakdowns
-# write_csv(data_points_df, "data_points_all.csv")
-# 
-# 
-# 
-# # regional data
-data_points_df_regional <- data_points_df %>% filter(demographic == "Total")
-data_points_df_regional <- getAvgData()
-# 
-# 
-# 
-# # saving region-level data
-write_csv(data_points_df_regional, "data_points.csv")
+# regional data 
+data_points_df_total <- getAvgData()   
+
+write_csv(data_points_df_total, "data_points.csv")
 
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -150,7 +153,9 @@ write_csv(data_points_df_regional, "data_points.csv")
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # Calling the visualizer for each chart
-# lapply(
-#   chart_list,
-#   callVisualizer
-# )
+lapply(
+   chart_list,
+   callVisualizer
+ )
+
+

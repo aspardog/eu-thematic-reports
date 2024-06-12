@@ -1,5 +1,9 @@
 genMap <- function(dta){
   
+  # instead of patchwork with the table, main maps and 3
+  # insets at the bottom, make this two elements (table and main map)
+  # assemble with patchwork and add insets on the top right corner of the map
+  
   # Creating table
   table <- dta %>%
     group_by(country_name_ltn) %>%
@@ -59,15 +63,15 @@ genMap <- function(dta){
     )
   
   tpanel <- gen_grob(table, 
-                     fit      = "fixed",
-                     scaling  = "fixed", 
-                     just     = c("left", "top"),
-                     wrapping = T)
+                     fit = "fixed",
+                     scaling = "fixed",
+                     heights = c(0.5), # Adjust the height of the table
+                     just = c("left", "top"),
+                     wrapping = TRUE)
   
   # Drawing individual panels
   panels <- imap(
-    map_layers,
-    function(panel, panel_name){
+    map_layers, function(panel, panel_name){
       
       # Merging map layers with data
       data4map <- panel %>% 
@@ -106,8 +110,8 @@ genMap <- function(dta){
       
       if (panel_name == "Main"){
         p <- p +
-          scale_y_continuous(limits = c(1445631, 5273487)) +
-          scale_x_continuous(limits = c(2581570, 5967160)) +
+          scale_y_continuous(limits = c(1445631, 5323487)) + # increase max long for more space on the right
+          scale_x_continuous(limits = c(2581570, 6017160)) +
           theme_minimal() +
           theme(
             axis.text       = element_blank(),
@@ -123,9 +127,10 @@ genMap <- function(dta){
           labs(x = panel_name) +
           theme_minimal() +
           theme(
+            panel.background = element_rect(fill = "white"),
             axis.title.x    = element_text(family = "Lato Full",
                                            face   = "plain",
-                                           size   = 13,
+                                           size   = 9,
                                            color  = "#524F4C"),
             axis.text       = element_blank(),
             legend.position = "none",
@@ -140,17 +145,31 @@ genMap <- function(dta){
       return(p)
     }
   )
+
+  main_map <- panels[["Main"]]
+  insets <- list(panels[["Canarias/Madeiras"]], panels[["Açores"]], panels[["Cyprus"]])
   
-  # Assembling the patchwork
-  layout <- "ABBB
-             ABBB
-             ABBB
-             ABBB
-             #CDE"
-  patch <- wrap_elements(tpanel) + 
-    panels[[1]] + panels[[2]] + panels[[3]] + panels[[4]] +
-    plot_layout(design = layout)
+  inset_grobs <- lapply(insets, ggplotGrob)
   
+  main_map_with_insets <- main_map +
+    annotation_custom(grob = inset_grobs[[1]], xmin = 5.5e6, xmax = 6e6, ymin = 4.3e6, ymax = 5.5e6) +
+    annotation_custom(grob = inset_grobs[[2]], xmin = 5.5e6, xmax = 6e6, ymin = 3.6e6, ymax = 4.8e6) +
+    annotation_custom(grob = inset_grobs[[3]], xmin = 5.5e6, xmax = 6e6, ymin = 2.9e6, ymax = 4.1e6)
+  
+  
+layout <- "
+  ABB
+  ABB
+  ABB
+  ABB
+"
+
+  
+patch <- wrap_elements(tpanel) + main_map_with_insets +
+  plot_layout(
+    design = layout, heights = c(1)  )
+
+
   return(patch)
   
 }
