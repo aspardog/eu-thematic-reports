@@ -136,7 +136,7 @@ getAvgData <- function(){
   
   data_out <- data_wght %>%
     select(country_name_ltn, level, nuts_id, nameSHORT, chart, value2plot, 
-           value2plot_id1, value2plot_id2) %>%
+           value2plot_id1, value2plot_id2, description) %>%
     bind_rows(
       country_avg %>% select(-weighted_value, -weighted_id1, -weighted_id2), 
       eu_avg
@@ -246,7 +246,8 @@ wrangleData <- function(chart_n, data_source){ # pass GPP or QRQ as argument
       summarise(
         value2plot = mean(target, na.rm = T),
         .groups = "keep") %>%
-      mutate(demographic = ifelse(demograph == "Total", "Total", as.character(get(vars[3])))) #make this the value of element3
+      mutate(demographic = ifelse(demograph == "Total", "Total", as.character(get(vars[3]))),
+             description = data_source) #make this the value of element3
     
     return(data2plot)
   })
