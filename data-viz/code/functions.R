@@ -163,6 +163,8 @@ wrangleData <- function(chart_n, data_source){ # pass GPP or QRQ as argument
     filter(n == chart_n) %>%
     pull(id_var1)
   
+  
+  
   topic <- outline %>%
     filter(n == chart_n) %>%
     slice(1) %>%
@@ -173,62 +175,96 @@ wrangleData <- function(chart_n, data_source){ # pass GPP or QRQ as argument
 
   # Defining a transforming function
   if (data_source == 'gpp'){
-    if (topic %in% c("Justice System Evaluation",
-                   "Law Enforcement Performance",
-                   "Criminal Justice Performance",
-                   "Security",
-                   "Trust"
-                   )) 
-      {
+    # Defining a transforming function
+    if (!is.null(topic) && length(topic) > 0){
+    if (topic %in% c("Trust", 
+                     "Security", 
+                     "Law Enforcement Performance", 
+                     "Criminal Justice Performance",
+                     "Perceptions on Authoritarian Behavior", 
+                     "Justice System Evaluation",
+                     "Civic Participation A",
+                     "Civic Participation B",
+                     "Opinions regarding Corruption",
+                     "Information Provision",
+                     "Information Requests",
+                     "Citizen Perceptions")) {
       trfunc <- function(value) {
-      case_when(
-        value <= 2  ~ 1,
-        value <= 4  ~ 0,
-        value == 98 ~ 0
-      )
+        case_when(
+          value <= 2  ~ 1,
+          value <= 4  ~ 0,
+          value == 98 ~ 0
+        )
       }
     }
-
-  
-  if (topic %in% c("Corruption Perceptions")) { # leaving this in for now -- need for scatterplots
-    trfunc <- function(value) {
-      case_when(
-        value <= 2  ~ 0,
-        value <= 4  ~ 1,
-        value == 98 ~ 0
-      )
+    if (topic %in% c("Corruption Change")) {
+      trfunc <- function(value) {
+        case_when(
+          value <= 2  ~ 1,
+          value <= 5  ~ 0,
+          value == 98 ~ 0
+        )
+      }
     }
-  }
+    if (topic %in% c("Corruption Perceptions")) {
+      trfunc <- function(value) {
+        case_when(
+          value <= 2  ~ 0,
+          value <= 4  ~ 1,
+          value == 98 ~ 0
+        )
+      }
+    }
+    if (topic %in% c("Security Violence",
+                     "Bribe Victimization",
+                     "Civic Participation A Civic Participation B",
+                     "Discrimination")) {
+      trfunc <- function(value) {
+        case_when(
+          value == 1  ~ 1,
+          value == 2  ~ 0,
+          value == 98 ~ 0
+        )
+      }
+    }
     
-  # handling A2J
-  if (topic %in% c("Problem Selection", # % yes to >= 1 question
-                   "Problem Resolution", 
-                   "Problem Description", 
-                   "Problem Evaluation",
-                   "Demographics")){
-    
-    if (id == "AJP_*_bin"){
+    if (topic %in% c("Attitudes towards Corruption")){
+      trfunc <- function(value){
+        case_when(
+          value <= 3 ~ 0,
+          value == 4 ~ 1,
+          value == 98 ~ 0
+        )
+      }
+    }
+    if (topic %in% c("Problem Selection", # % yes to >= 1 question
+                     "Problem Resolution", 
+                     "Problem Description", 
+                     "Problem Evaluation",
+                     "Demographics")){
       
+      if (id == "AJP_*_bin"){
+        
+        
+      }
       
     }
     
-  }
   
-  
-  # create demographics -- also only for GPP
+  # create demographics
   master_data <- master_data %>%
     mutate(
       gender_text = case_when(
         gend == 1 ~ "Male",
         gend == 2 ~ "Female"
       ))
-  } # end of if block
+  } }# end of if block
   
   
   # list of grouping variables -- dependent on GPP or QRQ
   grouping_vars_gpp <- list(
     "Total"   = c("country_name_ltn", "nuts_id")
-    # "Gender"  = c("country_name_ltn", "nuts_id", "gender_text")
+    #"Gender"  = c("country_name_ltn", "nuts_id", "gender_text")
   )
   
   grouping_vars_qrq <- list(
@@ -236,32 +272,32 @@ wrangleData <- function(chart_n, data_source){ # pass GPP or QRQ as argument
   )
   
   grouping_vars <- if (data_source == 'gpp') grouping_vars_gpp else grouping_vars_qrq
-  
-  
-  data2plot_list <- imap(grouping_vars, function(vars, demograph) {
+
+  #updating for imperfect QRQ data that we have now
+  data2plot_list <- imap(grouping_vars, function(vars, demograph){
     data2plot <- master_data %>%
-      select(all_of(vars), target = all_of(id)) %>%
+      # only select the ones for which n == chart_n in the chart list
+      select(all_of(vars), target = id) %>%
       {if (!is.null(trfunc)) mutate(., across(target, ~trfunc(.x))) else .} %>%
       group_by(across(all_of(vars))) %>%
       summarise(
         value2plot = mean(target, na.rm = T),
         .groups = "keep") %>%
       mutate(demographic = ifelse(demograph == "Total", "Total", as.character(get(vars[3]))),
-             description = data_source) #make this the value of element3
+             description = data_source) 
+
     
     return(data2plot)
-  })
-  
-  
-                          
-  
+})
+
+
+
   combined_data2plot <- bind_rows(data2plot_list)
   
   
   return(combined_data2plot)
-  
 }
-
+  
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ##
