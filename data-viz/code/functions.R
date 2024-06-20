@@ -154,16 +154,16 @@ getAvgData <- function(){
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 wrangleData <- function(chart_n, data_source){ # pass GPP or QRQ as argument
-  
-  # determine if data comes from GPP or QRQ data frame
-  master_data <- if (data_source == 'gpp') master_data_gpp else master_data_qrq
+ if (data_source == "qrq"){
+   master_data <- master_data_qrq
+ } else if (data_source == "gpp"){
+   master_data <- master_data_gpp
+ }
   
   # Getting variable info
   id <- outline %>%
     filter(n == chart_n) %>%
-    pull(id_var1)
-  
-  
+    pull(old_id_var)
   
   topic <- outline %>%
     filter(n == chart_n) %>%
@@ -171,10 +171,9 @@ wrangleData <- function(chart_n, data_source){ # pass GPP or QRQ as argument
     pull(topic)
   
   # don't need trfunc unless data source is gpp
-  trfunc <- NULL
 
   # Defining a transforming function
-  if (data_source == 'gpp'){
+
     # Defining a transforming function
     if (!is.null(topic) && length(topic) > 0){
     if (topic %in% c("Trust", 
@@ -228,7 +227,7 @@ wrangleData <- function(chart_n, data_source){ # pass GPP or QRQ as argument
       }
     }
     
-    if (topic %in% c("Attitudes towards Corruption")){
+    if (topic %in% c("Attitudes towards corruption")){
       trfunc <- function(value){
         case_when(
           value <= 3 ~ 0,
@@ -251,34 +250,29 @@ wrangleData <- function(chart_n, data_source){ # pass GPP or QRQ as argument
     }
     
   
-  # create demographics
-  master_data <- master_data %>%
-    mutate(
-      gender_text = case_when(
-        gend == 1 ~ "Male",
-        gend == 2 ~ "Female"
-      ))
-  } }# end of if block
-  
   
   # list of grouping variables -- dependent on GPP or QRQ
-  grouping_vars_gpp <- list(
+  grouping_vars <- list(
     "Total"   = c("country_name_ltn", "nuts_id")
     #"Gender"  = c("country_name_ltn", "nuts_id", "gender_text")
   )
   
-  grouping_vars_qrq <- list(
-    "Total"   = c("country_name_ltn", "nuts_id")
-  )
+  print(paste("id: ",id, "data_source: ", data_source))
   
-  grouping_vars <- if (data_source == 'gpp') grouping_vars_gpp else grouping_vars_qrq
-
-  #updating for imperfect QRQ data that we have now
+  if (id %in% names(master_data)){
   data2plot_list <- imap(grouping_vars, function(vars, demograph){
+    master_data <- if (data_source == 'qrq') master_data_qrq else master_data_gpp
+    print("Master data being employed: ")
+    print(length(master_data))
     data2plot <- master_data %>%
-      # only select the ones for which n == chart_n in the chart list
-      select(all_of(vars), target = id) %>%
-      {if (!is.null(trfunc)) mutate(., across(target, ~trfunc(.x))) else .} %>%
+      select(all_of(vars), target = all_of(id))
+    
+    if (data_source == 'gpp'){
+      data2plot <- data2plot %>%
+        mutate(across(target, ~trfunc(.x)))
+    }
+    
+    data2plot <- data2plot %>%
       group_by(across(all_of(vars))) %>%
       summarise(
         value2plot = mean(target, na.rm = T),
@@ -296,8 +290,11 @@ wrangleData <- function(chart_n, data_source){ # pass GPP or QRQ as argument
   
   
   return(combined_data2plot)
+  }else {
+    print(paste("ID", id, "not found in master data columns for data source ", data_source))
+  }
 }
-  
+}
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ##
