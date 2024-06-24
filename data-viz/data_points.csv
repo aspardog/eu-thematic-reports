@@ -5015,120 +5015,6 @@ Spain,regional,ES7,Canary Islands,68,0.42528735632183906,NA,NA,gpp
 Sweden,regional,SE1,Eastern Sweden,68,0.3905109489051095,NA,NA,gpp
 Sweden,regional,SE2,Southern Sweden,68,0.35564853556485354,NA,NA,gpp
 Sweden,regional,SE3,Northern Sweden,68,0.39763779527559057,NA,NA,gpp
-Austria,regional,AT1,East Austria,69,0.28,NA,NA,gpp
-Austria,regional,AT2,South Austria,69,0.328804347826087,NA,NA,gpp
-Austria,regional,AT3,West Austria,69,0.3660477453580902,NA,NA,gpp
-Belgium,regional,BE1,Brussels Region,69,0.444,NA,NA,gpp
-Belgium,regional,BE2,Flemish Region,69,0.5158730158730159,NA,NA,gpp
-Belgium,regional,BE3,Waloon Region,69,0.36964980544747084,NA,NA,gpp
-Bulgaria,regional,BG3,North and South-East,69,0.7455012853470437,NA,NA,gpp
-Bulgaria,regional,BG4,South -West/-Central,69,0.6330749354005168,NA,NA,gpp
-Croatia,regional,HR02,Pannonian Croatia,69,0.4959016393442623,NA,NA,gpp
-Croatia,regional,HR03,Adriatic Croatia,69,0.4219409282700422,NA,NA,gpp
-Croatia,regional,HR05,Zagreb,69,0.43612334801762115,NA,NA,gpp
-Croatia,regional,HR06,Northern Croatia,69,0.3643410852713178,NA,NA,gpp
-Cyprus,regional,CY0,Cyprus,69,0.42105263157894735,NA,NA,gpp
-Czechia,regional,CZ01,Prague,69,0.3435114503816794,NA,NA,gpp
-Czechia,regional,CZ02,Central Bohemia,69,0.4148148148148148,NA,NA,gpp
-Czechia,regional,CZ03,South-West,69,0.4016393442622951,NA,NA,gpp
-Czechia,regional,CZ04,North-West,69,0.33035714285714285,NA,NA,gpp
-Czechia,regional,CZ05,North-East,69,0.36507936507936506,NA,NA,gpp
-Czechia,regional,CZ06,South-East,69,0.3464566929133858,NA,NA,gpp
-Czechia,regional,CZ07,Central Moravia,69,0.2777777777777778,NA,NA,gpp
-Czechia,regional,CZ08,Moravian Silesia,69,0.4,NA,NA,gpp
-Denmark,regional,DK01,Capital (region),69,0.41832669322709165,NA,NA,gpp
-Denmark,regional,DK02,Zealand,69,0.40239043824701193,NA,NA,gpp
-Denmark,regional,DK03,South Denmark,69,0.4641350210970464,NA,NA,gpp
-Denmark,regional,DK04,Central Jutland,69,0.46124031007751937,NA,NA,gpp
-Denmark,regional,DK05,North Jutland,69,0.4351145038167939,NA,NA,gpp
-Estonia,regional,EE0,Estonia,69,0.39165009940357853,NA,NA,gpp
-Finland,regional,FI19,West Finland,69,0.44107744107744107,NA,NA,gpp
-Finland,regional,FI1B,Helsinki-Uusimaa,69,0.4673913043478261,NA,NA,gpp
-Finland,regional,FI1C,South Finland,69,0.46204620462046203,NA,NA,gpp
-Finland,regional,FI1D,North and East Finland,69,0.432,NA,NA,gpp
-France,regional,FR1,Île-de-France,69,0.375968992248062,NA,NA,gpp
-France,regional,FRB,Centre-Val de Loire,69,0.27734375,NA,NA,gpp
-France,regional,FRC,Burgundy-Franche-Comté,69,0.3035019455252918,NA,NA,gpp
-France,regional,FRD,Normandy,69,0.31983805668016196,NA,NA,gpp
-France,regional,FRE,Hauts-de-France,69,0.29831932773109243,NA,NA,gpp
-France,regional,FRF,Grand Est,69,0.2708333333333333,NA,NA,gpp
-France,regional,FRG,Loire Region,69,0.26492537313432835,NA,NA,gpp
-France,regional,FRH,Brittany ,69,0.2720306513409962,NA,NA,gpp
-France,regional,FRI,New Aquitaine,69,0.2827868852459016,NA,NA,gpp
-France,regional,FRJ,Occitania,69,0.3166023166023166,NA,NA,gpp
-France,regional,FRK,Auvergne-Rhône-Alpes,69,0.29118773946360155,NA,NA,gpp
-France,regional,FRL,PACA,69,0.3067226890756303,NA,NA,gpp
-France,regional,FRM,Corsica ,69,0.2777777777777778,NA,NA,gpp
-Germany,regional,DE1,Baden-Württemberg,69,0.3576388888888889,NA,NA,gpp
-Germany,regional,DE2,Bavaria,69,0.3320610687022901,NA,NA,gpp
-Germany,regional,DE3,Berlin,69,0.4189723320158103,NA,NA,gpp
-Germany,regional,DE4,Brandenburg,69,0.36329588014981273,NA,NA,gpp
-Germany,regional,DE5,Bremen,69,0.27702702702702703,NA,NA,gpp
-Germany,regional,DE6,Hamburg,69,0.453125,NA,NA,gpp
-Germany,regional,DE7,Hessen,69,0.45643153526970953,NA,NA,gpp
-Germany,regional,DE8,Mecklenburg-Vorpommern,69,0.375,NA,NA,gpp
-Germany,regional,DE9,Lower Saxony,69,0.3784860557768924,NA,NA,gpp
-Germany,regional,DEA,North Rhine-Westphalia,69,0.4053030303030303,NA,NA,gpp
-Germany,regional,DEB,Rhineland-Palatinate,69,0.3206751054852321,NA,NA,gpp
-Germany,regional,DEC,Saarland,69,0.39763779527559057,NA,NA,gpp
-Germany,regional,DED,Saxony,69,0.3694029850746269,NA,NA,gpp
-Germany,regional,DEE,Saxony-Anhalt,69,0.3783783783783784,NA,NA,gpp
-Germany,regional,DEF,Schleswig-Holstein,69,0.32342007434944237,NA,NA,gpp
-Germany,regional,DEG,Thuringia,69,0.34782608695652173,NA,NA,gpp
-Greece,regional,EL3,Attica,69,0.5061224489795918,NA,NA,gpp
-Greece,regional,EL4,"Aegean Islands, Crete",69,0.4312267657992565,NA,NA,gpp
-Greece,regional,EL5,North Greece,69,0.6359649122807017,NA,NA,gpp
-Greece,regional,EL6,Central Greece,69,0.5019157088122606,NA,NA,gpp
-Hungary,regional,HU1,Central Hungary,69,0.30165289256198347,NA,NA,gpp
-Hungary,regional,HU2,Transdanubia ,69,0.34600760456273766,NA,NA,gpp
-Hungary,regional,HU3,Great Plain and North,69,0.3020527859237537,NA,NA,gpp
-Ireland,regional,IE04,Northern and Western,69,0.42857142857142855,NA,NA,gpp
-Ireland,regional,IE05,Southern,69,0.5541666666666667,NA,NA,gpp
-Ireland,regional,IE06,Eastern and Midland,69,0.4942084942084942,NA,NA,gpp
-Italy,regional,ITC,North-West,69,0.2410958904109589,NA,NA,gpp
-Italy,regional,ITF,South,69,0.33985330073349634,NA,NA,gpp
-Italy,regional,ITG,Islands,69,0.32114882506527415,NA,NA,gpp
-Italy,regional,ITH,North-East,69,0.33866666666666667,NA,NA,gpp
-Italy,regional,ITI,Centre,69,0.25647668393782386,NA,NA,gpp
-Latvia,regional,LV00,Latvia,69,0.6217303822937625,NA,NA,gpp
-Lithuania,regional,LT01,Capital Region,69,0.3582887700534759,NA,NA,gpp
-Lithuania,regional,LT02,Central/Western Region,69,0.5053763440860215,NA,NA,gpp
-Luxembourg,regional,LU00,Luxembourg,69,0.5384615384615384,NA,NA,gpp
-Malta,regional,MT00,Malta,69,0.4738955823293173,NA,NA,gpp
-Netherlands,regional,NL1,North Netherlands,69,0.38795180722891565,NA,NA,gpp
-Netherlands,regional,NL2,East Netherlands,69,0.42424242424242425,NA,NA,gpp
-Netherlands,regional,NL3,West Netherlands,69,0.41530054644808745,NA,NA,gpp
-Netherlands,regional,NL4,South Netherlands,69,0.4327956989247312,NA,NA,gpp
-Poland,regional,PL2,Southern,69,0.4430051813471503,NA,NA,gpp
-Poland,regional,PL4,North-Western,69,0.5391304347826087,NA,NA,gpp
-Poland,regional,PL5,South-Western,69,0.578125,NA,NA,gpp
-Poland,regional,PL6,Northern,69,0.598404255319149,NA,NA,gpp
-Poland,regional,PL7,Central,69,0.37329700272479566,NA,NA,gpp
-Poland,regional,PL8,Eastern,69,0.6986301369863014,NA,NA,gpp
-Poland,regional,PL9,Mazowieckie,69,0.5593667546174143,NA,NA,gpp
-Portugal,regional,PT1,Continental Portugal,69,0.37065637065637064,NA,NA,gpp
-Portugal,regional,PT2,Azores,69,0.4497991967871486,NA,NA,gpp
-Portugal,regional,PT3,Madeira,69,0.5939849624060151,NA,NA,gpp
-Romania,regional,RO1,Macroregion One,69,0.6049046321525886,NA,NA,gpp
-Romania,regional,RO2,Macroregion Two,69,0.7598944591029023,NA,NA,gpp
-Romania,regional,RO3,Macroregion Three,69,0.7581047381546134,NA,NA,gpp
-Romania,regional,RO4,Macroregion Four,69,0.5702702702702702,NA,NA,gpp
-Slovakia,regional,SK01,Bratislava,69,0.2931937172774869,NA,NA,gpp
-Slovakia,regional,SK02,West Slovakia,69,0.39805825242718446,NA,NA,gpp
-Slovakia,regional,SK03,Central Slovakia,69,0.3220338983050847,NA,NA,gpp
-Slovakia,regional,SK04,East Slovakia,69,0.4110032362459547,NA,NA,gpp
-Slovenia,regional,SI03,East Slovenia,69,0.42616033755274263,NA,NA,gpp
-Slovenia,regional,SI04,West Slovenia,69,0.46153846153846156,NA,NA,gpp
-Spain,regional,ES1,North-West,69,0.4031620553359684,NA,NA,gpp
-Spain,regional,ES2,North-East,69,0.33858267716535434,NA,NA,gpp
-Spain,regional,ES3,Madrid,69,0.44715447154471544,NA,NA,gpp
-Spain,regional,ES4,Centre,69,0.4713114754098361,NA,NA,gpp
-Spain,regional,ES5,East,69,0.45703125,NA,NA,gpp
-Spain,regional,ES6,South,69,0.4122448979591837,NA,NA,gpp
-Spain,regional,ES7,Canary Islands,69,0.42528735632183906,NA,NA,gpp
-Sweden,regional,SE1,Eastern Sweden,69,0.3905109489051095,NA,NA,gpp
-Sweden,regional,SE2,Southern Sweden,69,0.35564853556485354,NA,NA,gpp
-Sweden,regional,SE3,Northern Sweden,69,0.39763779527559057,NA,NA,gpp
 Austria,regional,AT1,East Austria,71,0.6310432569974554,NA,NA,gpp
 Austria,regional,AT2,South Austria,71,0.633423180592992,NA,NA,gpp
 Austria,regional,AT3,West Austria,71,0.6493506493506493,NA,NA,gpp
@@ -10145,120 +10031,6 @@ Spain,regional,ES7,Canary Islands,150,0.7045908183632734,NA,NA,gpp
 Sweden,regional,SE1,Eastern Sweden,150,0.673992673992674,NA,NA,gpp
 Sweden,regional,SE2,Southern Sweden,150,0.7225548902195609,NA,NA,gpp
 Sweden,regional,SE3,Northern Sweden,150,0.7692307692307693,NA,NA,gpp
-Austria,regional,AT1,East Austria,151,0.7279693486590039,NA,NA,gpp
-Austria,regional,AT2,South Austria,151,0.8007915567282322,NA,NA,gpp
-Austria,regional,AT3,West Austria,151,0.764629388816645,NA,NA,gpp
-Belgium,regional,BE1,Brussels Region,151,0.549407114624506,NA,NA,gpp
-Belgium,regional,BE2,Flemish Region,151,0.6954813359528488,NA,NA,gpp
-Belgium,regional,BE3,Waloon Region,151,0.5207920792079208,NA,NA,gpp
-Bulgaria,regional,BG3,North and South-East,151,0.824,NA,NA,gpp
-Bulgaria,regional,BG4,South -West/-Central,151,0.7433155080213903,NA,NA,gpp
-Croatia,regional,HR02,Pannonian Croatia,151,0.8346774193548387,NA,NA,gpp
-Croatia,regional,HR03,Adriatic Croatia,151,0.8167330677290837,NA,NA,gpp
-Croatia,regional,HR05,Zagreb,151,0.7847082494969819,NA,NA,gpp
-Croatia,regional,HR06,Northern Croatia,151,0.8196392785571143,NA,NA,gpp
-Cyprus,regional,CY0,Cyprus,151,0.6653465346534654,NA,NA,gpp
-Czechia,regional,CZ01,Prague,151,0.6941176470588235,NA,NA,gpp
-Czechia,regional,CZ02,Central Bohemia,151,0.6705882352941176,NA,NA,gpp
-Czechia,regional,CZ03,South-West,151,0.7258064516129032,NA,NA,gpp
-Czechia,regional,CZ04,North-West,151,0.5766129032258065,NA,NA,gpp
-Czechia,regional,CZ05,North-East,151,0.7182539682539683,NA,NA,gpp
-Czechia,regional,CZ06,South-East,151,0.732,NA,NA,gpp
-Czechia,regional,CZ07,Central Moravia,151,0.7276422764227642,NA,NA,gpp
-Czechia,regional,CZ08,Moravian Silesia,151,0.6506024096385542,NA,NA,gpp
-Denmark,regional,DK01,Capital (region),151,0.8579881656804734,NA,NA,gpp
-Denmark,regional,DK02,Zealand,151,0.8962075848303394,NA,NA,gpp
-Denmark,regional,DK03,South Denmark,151,0.8906560636182903,NA,NA,gpp
-Denmark,regional,DK04,Central Jutland,151,0.9089108910891089,NA,NA,gpp
-Denmark,regional,DK05,North Jutland,151,0.882703777335984,NA,NA,gpp
-Estonia,regional,EE0,Estonia,151,0.8197507190795782,NA,NA,gpp
-Finland,regional,FI19,West Finland,151,0.8698630136986302,NA,NA,gpp
-Finland,regional,FI1B,Helsinki-Uusimaa,151,0.8236434108527132,NA,NA,gpp
-Finland,regional,FI1C,South Finland,151,0.8369028006589786,NA,NA,gpp
-Finland,regional,FI1D,North and East Finland,151,0.8764705882352941,NA,NA,gpp
-France,regional,FR1,Île-de-France,151,0.5481927710843374,NA,NA,gpp
-France,regional,FRB,Centre-Val de Loire,151,0.5595959595959596,NA,NA,gpp
-France,regional,FRC,Burgundy-Franche-Comté,151,0.6152304609218436,NA,NA,gpp
-France,regional,FRD,Normandy,151,0.5995975855130785,NA,NA,gpp
-France,regional,FRE,Hauts-de-France,151,0.5212981744421906,NA,NA,gpp
-France,regional,FRF,Grand Est,151,0.5850202429149798,NA,NA,gpp
-France,regional,FRG,Loire Region,151,0.5651302605210421,NA,NA,gpp
-France,regional,FRH,Brittany ,151,0.6498993963782697,NA,NA,gpp
-France,regional,FRI,New Aquitaine,151,0.6290322580645161,NA,NA,gpp
-France,regional,FRJ,Occitania,151,0.5553319919517102,NA,NA,gpp
-France,regional,FRK,Auvergne-Rhône-Alpes,151,0.5555555555555556,NA,NA,gpp
-France,regional,FRL,PACA,151,0.5080645161290323,NA,NA,gpp
-France,regional,FRM,Corsica ,151,0.8663101604278075,NA,NA,gpp
-Germany,regional,DE1,Baden-Württemberg,151,0.690522243713733,NA,NA,gpp
-Germany,regional,DE2,Bavaria,151,0.7586206896551724,NA,NA,gpp
-Germany,regional,DE3,Berlin,151,0.6247582205029013,NA,NA,gpp
-Germany,regional,DE4,Brandenburg,151,0.675,NA,NA,gpp
-Germany,regional,DE5,Bremen,151,0.5333333333333333,NA,NA,gpp
-Germany,regional,DE6,Hamburg,151,0.6803921568627451,NA,NA,gpp
-Germany,regional,DE7,Hessen,151,0.6994219653179191,NA,NA,gpp
-Germany,regional,DE8,Mecklenburg-Vorpommern,151,0.6764132553606238,NA,NA,gpp
-Germany,regional,DE9,Lower Saxony,151,0.7079303675048356,NA,NA,gpp
-Germany,regional,DEA,North Rhine-Westphalia,151,0.603082851637765,NA,NA,gpp
-Germany,regional,DEB,Rhineland-Palatinate,151,0.7326923076923076,NA,NA,gpp
-Germany,regional,DEC,Saarland,151,0.6784313725490196,NA,NA,gpp
-Germany,regional,DED,Saxony,151,0.6195028680688337,NA,NA,gpp
-Germany,regional,DEE,Saxony-Anhalt,151,0.607421875,NA,NA,gpp
-Germany,regional,DEF,Schleswig-Holstein,151,0.6795366795366795,NA,NA,gpp
-Germany,regional,DEG,Thuringia,151,0.6490196078431373,NA,NA,gpp
-Greece,regional,EL3,Attica,151,0.5447316103379721,NA,NA,gpp
-Greece,regional,EL4,"Aegean Islands, Crete",151,0.7848605577689243,NA,NA,gpp
-Greece,regional,EL5,North Greece,151,0.5808383233532934,NA,NA,gpp
-Greece,regional,EL6,Central Greece,151,0.5864811133200796,NA,NA,gpp
-Hungary,regional,HU1,Central Hungary,151,0.6282828282828283,NA,NA,gpp
-Hungary,regional,HU2,Transdanubia ,151,0.6586345381526104,NA,NA,gpp
-Hungary,regional,HU3,Great Plain and North,151,0.5603217158176944,NA,NA,gpp
-Ireland,regional,IE04,Northern and Western,151,0.6965944272445821,NA,NA,gpp
-Ireland,regional,IE05,Southern,151,0.6732456140350878,NA,NA,gpp
-Ireland,regional,IE06,Eastern and Midland,151,0.6031434184675835,NA,NA,gpp
-Italy,regional,ITC,North-West,151,0.45454545454545453,NA,NA,gpp
-Italy,regional,ITF,South,151,0.44285714285714284,NA,NA,gpp
-Italy,regional,ITG,Islands,151,0.5078125,NA,NA,gpp
-Italy,regional,ITH,North-East,151,0.5195822454308094,NA,NA,gpp
-Italy,regional,ITI,Centre,151,0.48627450980392156,NA,NA,gpp
-Latvia,regional,LV00,Latvia,151,0.7264529058116233,NA,NA,gpp
-Lithuania,regional,LT01,Capital Region,151,0.6684491978609626,NA,NA,gpp
-Lithuania,regional,LT02,Central/Western Region,151,0.6858288770053476,NA,NA,gpp
-Luxembourg,regional,LU00,Luxembourg,151,0.7371900826446282,NA,NA,gpp
-Malta,regional,MT00,Malta,151,0.6827309236947792,NA,NA,gpp
-Netherlands,regional,NL1,North Netherlands,151,0.7586206896551724,NA,NA,gpp
-Netherlands,regional,NL2,East Netherlands,151,0.7902374670184696,NA,NA,gpp
-Netherlands,regional,NL3,West Netherlands,151,0.7828348504551366,NA,NA,gpp
-Netherlands,regional,NL4,South Netherlands,151,0.7571801566579635,NA,NA,gpp
-Poland,regional,PL2,Southern,151,0.8168449197860963,NA,NA,gpp
-Poland,regional,PL4,North-Western,151,0.8986666666666666,NA,NA,gpp
-Poland,regional,PL5,South-Western,151,0.8397863818424566,NA,NA,gpp
-Poland,regional,PL6,Northern,151,0.8266666666666667,NA,NA,gpp
-Poland,regional,PL7,Central,151,0.92,NA,NA,gpp
-Poland,regional,PL8,Eastern,151,0.7543391188251002,NA,NA,gpp
-Poland,regional,PL9,Mazowieckie,151,0.948,NA,NA,gpp
-Portugal,regional,PT1,Continental Portugal,151,0.8223062381852552,NA,NA,gpp
-Portugal,regional,PT2,Azores,151,0.8509803921568627,NA,NA,gpp
-Portugal,regional,PT3,Madeira,151,0.6902485659655831,NA,NA,gpp
-Romania,regional,RO1,Macroregion One,151,0.8013888888888889,NA,NA,gpp
-Romania,regional,RO2,Macroregion Two,151,0.5878552971576227,NA,NA,gpp
-Romania,regional,RO3,Macroregion Three,151,0.7843388960205392,NA,NA,gpp
-Romania,regional,RO4,Macroregion Four,151,0.7513440860215054,NA,NA,gpp
-Slovakia,regional,SK01,Bratislava,151,0.5139240506329114,NA,NA,gpp
-Slovakia,regional,SK02,West Slovakia,151,0.5606557377049181,NA,NA,gpp
-Slovakia,regional,SK03,Central Slovakia,151,0.5361842105263158,NA,NA,gpp
-Slovakia,regional,SK04,East Slovakia,151,0.5268630849220104,NA,NA,gpp
-Slovenia,regional,SI03,East Slovenia,151,0.7817460317460317,NA,NA,gpp
-Slovenia,regional,SI04,West Slovenia,151,0.8190661478599222,NA,NA,gpp
-Spain,regional,ES1,North-West,151,0.8170974155069582,NA,NA,gpp
-Spain,regional,ES2,North-East,151,0.74,NA,NA,gpp
-Spain,regional,ES3,Madrid,151,0.67,NA,NA,gpp
-Spain,regional,ES4,Centre,151,0.734,NA,NA,gpp
-Spain,regional,ES5,East,151,0.6319845857418112,NA,NA,gpp
-Spain,regional,ES6,South,151,0.6429980276134122,NA,NA,gpp
-Spain,regional,ES7,Canary Islands,151,0.7045908183632734,NA,NA,gpp
-Sweden,regional,SE1,Eastern Sweden,151,0.673992673992674,NA,NA,gpp
-Sweden,regional,SE2,Southern Sweden,151,0.7225548902195609,NA,NA,gpp
-Sweden,regional,SE3,Northern Sweden,151,0.7692307692307693,NA,NA,gpp
 Austria,regional,AT1,East Austria,155,0.4353393085787452,NA,NA,gpp
 Austria,regional,AT2,South Austria,155,0.42063492063492064,NA,NA,gpp
 Austria,regional,AT3,West Austria,155,0.4471968709256845,NA,NA,gpp
@@ -19247,7 +19019,6 @@ Austria,national,AT,Austria,148,0.7233162086383976,0,0,NA
 Austria,national,AT,Austria,149,0.6797856380386456,0,0,NA
 Austria,national,AT,Austria,15,0.6912415232608629,0,0,NA
 Austria,national,AT,Austria,150,0.7558015764963337,0,0,NA
-Austria,national,AT,Austria,151,0.7558015764963337,0,0,NA
 Austria,national,AT,Austria,154,0.8748109707401308,0,0,NA
 Austria,national,AT,Austria,155,0.4366342675454782,0,0,NA
 Austria,national,AT,Austria,156,0.2136703323070666,0,0,NA
@@ -19335,7 +19106,6 @@ Austria,national,AT,Austria,63,0.7800447423666534,0,0,NA
 Austria,national,AT,Austria,64,0.6845221244975104,0,0,NA
 Austria,national,AT,Austria,65,0.774261205737829,0,0,NA
 Austria,national,AT,Austria,68,0.32072534157615895,0,0,NA
-Austria,national,AT,Austria,69,0.32072534157615895,0,0,NA
 Austria,national,AT,Austria,7,0.496035506474313,0,0,NA
 Austria,national,AT,Austria,70,0.7864997147418263,0,0,NA
 Austria,national,AT,Austria,71,0.6380955696376723,0,0,NA
@@ -19415,7 +19185,6 @@ Belgium,national,BE,Belgium,148,0.5867698842413224,0,0,NA
 Belgium,national,BE,Belgium,149,0.5573402709524887,0,0,NA
 Belgium,national,BE,Belgium,15,0.6751450378246772,0,0,NA
 Belgium,national,BE,Belgium,150,0.6248256494301146,0,0,NA
-Belgium,national,BE,Belgium,151,0.6248256494301146,0,0,NA
 Belgium,national,BE,Belgium,154,0.8535286785831087,0,0,NA
 Belgium,national,BE,Belgium,155,0.3007665571464151,0,0,NA
 Belgium,national,BE,Belgium,156,0.1518200868670389,0,0,NA
@@ -19503,7 +19272,6 @@ Belgium,national,BE,Belgium,63,0.6983892074144727,0,0,NA
 Belgium,national,BE,Belgium,64,0.6813479441915176,0,0,NA
 Belgium,national,BE,Belgium,65,0.7237172004655085,0,0,NA
 Belgium,national,BE,Belgium,68,0.46210927145182157,0,0,NA
-Belgium,national,BE,Belgium,69,0.46210927145182157,0,0,NA
 Belgium,national,BE,Belgium,7,0.3878142376166096,0,0,NA
 Belgium,national,BE,Belgium,70,0.708184732570554,0,0,NA
 Belgium,national,BE,Belgium,71,0.6935342018628365,0,0,NA
@@ -19583,7 +19351,6 @@ Bulgaria,national,BG,Bulgaria,148,0.5206987279250936,0,0,NA
 Bulgaria,national,BG,Bulgaria,149,0.4438286501976365,0,0,NA
 Bulgaria,national,BG,Bulgaria,15,0.7003587460788092,0,0,NA
 Bulgaria,national,BG,Bulgaria,150,0.7824849106274328,0,0,NA
-Bulgaria,national,BG,Bulgaria,151,0.7824849106274328,0,0,NA
 Bulgaria,national,BG,Bulgaria,154,0.4538286719600917,0,0,NA
 Bulgaria,national,BG,Bulgaria,155,0.7434596775435631,0,0,NA
 Bulgaria,national,BG,Bulgaria,156,0.6510654356167183,0,0,NA
@@ -19671,7 +19438,6 @@ Bulgaria,national,BG,Bulgaria,63,0.5269753887403321,0,0,NA
 Bulgaria,national,BG,Bulgaria,64,0.6374132693132742,0,0,NA
 Bulgaria,national,BG,Bulgaria,65,0.622902487637513,0,0,NA
 Bulgaria,national,BG,Bulgaria,68,0.6876538619896659,0,0,NA
-Bulgaria,national,BG,Bulgaria,69,0.6876538619896659,0,0,NA
 Bulgaria,national,BG,Bulgaria,7,0.2564890759539932,0,0,NA
 Bulgaria,national,BG,Bulgaria,70,0.556565660162462,0,0,NA
 Bulgaria,national,BG,Bulgaria,71,0.660698598919655,0,0,NA
@@ -19751,7 +19517,6 @@ Croatia,national,HR,Croatia,148,0.6208995505350532,0,0,NA
 Croatia,national,HR,Croatia,149,0.5564286940438163,0,0,NA
 Croatia,national,HR,Croatia,15,0.6095199585468891,0,0,NA
 Croatia,national,HR,Croatia,150,0.8155892178557533,0,0,NA
-Croatia,national,HR,Croatia,151,0.8155892178557533,0,0,NA
 Croatia,national,HR,Croatia,154,0.5320501067716947,0,0,NA
 Croatia,national,HR,Croatia,155,0.6346459900934603,0,0,NA
 Croatia,national,HR,Croatia,156,0.5693452239264409,0,0,NA
@@ -19839,7 +19604,6 @@ Croatia,national,HR,Croatia,63,0.5758643040511946,0,0,NA
 Croatia,national,HR,Croatia,64,0.6591119386904092,0,0,NA
 Croatia,national,HR,Croatia,65,0.6108159004015925,0,0,NA
 Croatia,national,HR,Croatia,68,0.43221632574096025,0,0,NA
-Croatia,national,HR,Croatia,69,0.43221632574096025,0,0,NA
 Croatia,national,HR,Croatia,7,0.34580525229239173,0,0,NA
 Croatia,national,HR,Croatia,70,0.602854732977914,0,0,NA
 Croatia,national,HR,Croatia,71,0.5860422398094536,0,0,NA
@@ -19919,7 +19683,6 @@ Cyprus,national,CY,Cyprus,148,0.48286883681620524,0,0,NA
 Cyprus,national,CY,Cyprus,149,0.3937621832358674,0,0,NA
 Cyprus,national,CY,Cyprus,15,0.555992141453831,0,0,NA
 Cyprus,national,CY,Cyprus,150,0.6653465346534654,0,0,NA
-Cyprus,national,CY,Cyprus,151,0.6653465346534654,0,0,NA
 Cyprus,national,CY,Cyprus,154,0.5393913925038897,0,0,NA
 Cyprus,national,CY,Cyprus,155,0.3743793445878848,0,0,NA
 Cyprus,national,CY,Cyprus,156,0.3018867924528302,0,0,NA
@@ -20007,7 +19770,6 @@ Cyprus,national,CY,Cyprus,63,0.6306477473144141,0,0,NA
 Cyprus,national,CY,Cyprus,64,0.6529241622574956,0,0,NA
 Cyprus,national,CY,Cyprus,65,0.6430071547623202,0,0,NA
 Cyprus,national,CY,Cyprus,68,0.42105263157894735,0,0,NA
-Cyprus,national,CY,Cyprus,69,0.42105263157894735,0,0,NA
 Cyprus,national,CY,Cyprus,7,0.3040816326530612,0,0,NA
 Cyprus,national,CY,Cyprus,70,0.6406680709376648,0,0,NA
 Cyprus,national,CY,Cyprus,71,0.5540275049115914,0,0,NA
@@ -20087,7 +19849,6 @@ Czechia,national,CZ,Czechia,148,0.6232263038306705,0,0,NA
 Czechia,national,CZ,Czechia,149,0.4380249810372111,0,0,NA
 Czechia,national,CZ,Czechia,15,0.6110785638691498,0,0,NA
 Czechia,national,CZ,Czechia,150,0.6911184220896022,0,0,NA
-Czechia,national,CZ,Czechia,151,0.6911184220896022,0,0,NA
 Czechia,national,CZ,Czechia,154,0.731298508094801,0,0,NA
 Czechia,national,CZ,Czechia,155,0.48748087069667156,0,0,NA
 Czechia,national,CZ,Czechia,156,0.349447901540881,0,0,NA
@@ -20175,7 +19936,6 @@ Czechia,national,CZ,Czechia,63,0.7531643923983569,0,0,NA
 Czechia,national,CZ,Czechia,64,0.7336584678054796,0,0,NA
 Czechia,national,CZ,Czechia,65,0.7500696677716683,0,0,NA
 Czechia,national,CZ,Czechia,68,0.3607705651470407,0,0,NA
-Czechia,national,CZ,Czechia,69,0.3607705651470407,0,0,NA
 Czechia,national,CZ,Czechia,7,0.31191428324194326,0,0,NA
 Czechia,national,CZ,Czechia,70,0.7130647093539116,0,0,NA
 Czechia,national,CZ,Czechia,71,0.6510584978284428,0,0,NA
@@ -20255,7 +20015,6 @@ Denmark,national,DK,Denmark,148,0.5421699120269469,0,0,NA
 Denmark,national,DK,Denmark,149,0.674166163215294,0,0,NA
 Denmark,national,DK,Denmark,15,0.7993043514308709,0,0,NA
 Denmark,national,DK,Denmark,150,0.8844180379927808,0,0,NA
-Denmark,national,DK,Denmark,151,0.8844180379927808,0,0,NA
 Denmark,national,DK,Denmark,154,0.9444048733749395,0,0,NA
 Denmark,national,DK,Denmark,155,0.18107193670772248,0,0,NA
 Denmark,national,DK,Denmark,156,0.128556796494755,0,0,NA
@@ -20343,7 +20102,6 @@ Denmark,national,DK,Denmark,63,0.7966416936536617,0,0,NA
 Denmark,national,DK,Denmark,64,0.7151136917934529,0,0,NA
 Denmark,national,DK,Denmark,65,0.8124885637365078,0,0,NA
 Denmark,national,DK,Denmark,68,0.43711041098312936,0,0,NA
-Denmark,national,DK,Denmark,69,0.43711041098312936,0,0,NA
 Denmark,national,DK,Denmark,7,0.6770147294663704,0,0,NA
 Denmark,national,DK,Denmark,70,0.8018619225735615,0,0,NA
 Denmark,national,DK,Denmark,71,0.7221263869414045,0,0,NA
@@ -20423,7 +20181,6 @@ Estonia,national,EE,Estonia,148,0.8172584238373712,0,0,NA
 Estonia,national,EE,Estonia,149,0.562624254473161,0,0,NA
 Estonia,national,EE,Estonia,15,0.621301775147929,0,0,NA
 Estonia,national,EE,Estonia,150,0.8197507190795782,0,0,NA
-Estonia,national,EE,Estonia,151,0.8197507190795782,0,0,NA
 Estonia,national,EE,Estonia,154,0.9049853372434018,0,0,NA
 Estonia,national,EE,Estonia,155,0.28954937679769893,0,0,NA
 Estonia,national,EE,Estonia,156,0.21284755512943432,0,0,NA
@@ -20511,7 +20268,6 @@ Estonia,national,EE,Estonia,63,0.6660954272065385,0,0,NA
 Estonia,national,EE,Estonia,64,0.7474206349206348,0,0,NA
 Estonia,national,EE,Estonia,65,0.8730593199003603,0,0,NA
 Estonia,national,EE,Estonia,68,0.39165009940357853,0,0,NA
-Estonia,national,EE,Estonia,69,0.39165009940357853,0,0,NA
 Estonia,national,EE,Estonia,7,0.41404805914972276,0,0,NA
 Estonia,national,EE,Estonia,70,0.5845639719077219,0,0,NA
 Estonia,national,EE,Estonia,71,0.6706114398422091,0,0,NA
@@ -20591,7 +20347,6 @@ Finland,national,FI,Finland,148,0.852529781174115,0,0,NA
 Finland,national,FI,Finland,149,0.6880993604310142,0,0,NA
 Finland,national,FI,Finland,15,0.7554402163132219,0,0,NA
 Finland,national,FI,Finland,150,0.8454506171781361,0,0,NA
-Finland,national,FI,Finland,151,0.8454506171781361,0,0,NA
 Finland,national,FI,Finland,154,0.8941777422588448,0,0,NA
 Finland,national,FI,Finland,155,0.21761605091167324,0,0,NA
 Finland,national,FI,Finland,156,0.1617502233224788,0,0,NA
@@ -20679,7 +20434,6 @@ Finland,national,FI,Finland,63,0.7014352390108715,0,0,NA
 Finland,national,FI,Finland,64,0.8135544045987946,0,0,NA
 Finland,national,FI,Finland,65,0.8646673745607684,0,0,NA
 Finland,national,FI,Finland,68,0.44910583749952976,0,0,NA
-Finland,national,FI,Finland,69,0.44910583749952976,0,0,NA
 Finland,national,FI,Finland,7,0.7081741751120073,0,0,NA
 Finland,national,FI,Finland,70,0.8031776740194999,0,0,NA
 Finland,national,FI,Finland,71,0.71732913246845,0,0,NA
@@ -20759,7 +20513,6 @@ France,national,FR,France,148,0.5262797170609249,0,0,NA
 France,national,FR,France,149,0.5276803076217452,0,0,NA
 France,national,FR,France,15,0.6016111415694169,0,0,NA
 France,national,FR,France,150,0.5499350142915267,0,0,NA
-France,national,FR,France,151,0.5499350142915267,0,0,NA
 France,national,FR,France,154,0.7926718666905188,0,0,NA
 France,national,FR,France,155,0.3305494769658517,0,0,NA
 France,national,FR,France,156,0.192838014329019,0,0,NA
@@ -20847,7 +20600,6 @@ France,national,FR,France,63,0.6034558775316466,0,0,NA
 France,national,FR,France,64,0.6494920934732277,0,0,NA
 France,national,FR,France,65,0.6391639018273287,0,0,NA
 France,national,FR,France,68,0.29750611322505977,0,0,NA
-France,national,FR,France,69,0.29750611322505977,0,0,NA
 France,national,FR,France,7,0.3645071026514377,0,0,NA
 France,national,FR,France,70,0.648444015846204,0,0,NA
 France,national,FR,France,71,0.6494434636415201,0,0,NA
@@ -20927,7 +20679,6 @@ Germany,national,DE,Germany,148,0.7417457699735386,0,0,NA
 Germany,national,DE,Germany,149,0.6437618157083164,0,0,NA
 Germany,national,DE,Germany,15,0.6557862723858127,0,0,NA
 Germany,national,DE,Germany,150,0.6746024246382972,0,0,NA
-Germany,national,DE,Germany,151,0.6746024246382972,0,0,NA
 Germany,national,DE,Germany,154,0.8729180884853465,0,0,NA
 Germany,national,DE,Germany,155,0.35217993569804,0,0,NA
 Germany,national,DE,Germany,156,0.2098903362081373,0,0,NA
@@ -21015,7 +20766,6 @@ Germany,national,DE,Germany,63,0.7551134580510468,0,0,NA
 Germany,national,DE,Germany,64,0.6688538531523568,0,0,NA
 Germany,national,DE,Germany,65,0.7553523533382285,0,0,NA
 Germany,national,DE,Germany,68,0.37636624119949713,0,0,NA
-Germany,national,DE,Germany,69,0.37636624119949713,0,0,NA
 Germany,national,DE,Germany,7,0.50777744960575,0,0,NA
 Germany,national,DE,Germany,70,0.7527525975662329,0,0,NA
 Germany,national,DE,Germany,71,0.6716071411150316,0,0,NA
@@ -21095,7 +20845,6 @@ Greece,national,EL,Greece,148,0.43508427445681896,0,0,NA
 Greece,national,EL,Greece,149,0.4608486055634884,0,0,NA
 Greece,national,EL,Greece,15,0.5759897437290411,0,0,NA
 Greece,national,EL,Greece,150,0.5915243885796204,0,0,NA
-Greece,national,EL,Greece,151,0.5915243885796204,0,0,NA
 Greece,national,EL,Greece,154,0.5033747073140911,0,0,NA
 Greece,national,EL,Greece,155,0.534710760275279,0,0,NA
 Greece,national,EL,Greece,156,0.5465567769451304,0,0,NA
@@ -21183,7 +20932,6 @@ Greece,national,EL,Greece,63,0.5742039151688545,0,0,NA
 Greece,national,EL,Greece,64,0.6061987783110199,0,0,NA
 Greece,national,EL,Greece,65,0.614355415298039,0,0,NA
 Greece,national,EL,Greece,68,0.5331519885907232,0,0,NA
-Greece,national,EL,Greece,69,0.5331519885907232,0,0,NA
 Greece,national,EL,Greece,7,0.46633903451198266,0,0,NA
 Greece,national,EL,Greece,70,0.5190518169934789,0,0,NA
 Greece,national,EL,Greece,71,0.6686475438310557,0,0,NA
@@ -21263,7 +21011,6 @@ Hungary,national,HU,Hungary,148,0.5488087571941382,0,0,NA
 Hungary,national,HU,Hungary,149,0.375751061100731,0,0,NA
 Hungary,national,HU,Hungary,15,0.40619163272550673,0,0,NA
 Hungary,national,HU,Hungary,150,0.6112683492252291,0,0,NA
-Hungary,national,HU,Hungary,151,0.6112683492252291,0,0,NA
 Hungary,national,HU,Hungary,154,0.6672484992187415,0,0,NA
 Hungary,national,HU,Hungary,155,0.6992448765947907,0,0,NA
 Hungary,national,HU,Hungary,156,0.6303340244145905,0,0,NA
@@ -21351,7 +21098,6 @@ Hungary,national,HU,Hungary,63,0.6005618800684561,0,0,NA
 Hungary,national,HU,Hungary,64,0.5605426221905031,0,0,NA
 Hungary,national,HU,Hungary,65,0.6337716096661591,0,0,NA
 Hungary,national,HU,Hungary,68,0.3152107663089365,0,0,NA
-Hungary,national,HU,Hungary,69,0.3152107663089365,0,0,NA
 Hungary,national,HU,Hungary,7,0.24084301606218858,0,0,NA
 Hungary,national,HU,Hungary,70,0.6002368906435416,0,0,NA
 Hungary,national,HU,Hungary,71,0.36636657225576746,0,0,NA
@@ -21431,7 +21177,6 @@ Ireland,national,IE,Ireland,148,0.7089110929359438,0,0,NA
 Ireland,national,IE,Ireland,149,0.5893310336434026,0,0,NA
 Ireland,national,IE,Ireland,15,0.6857347802748105,0,0,NA
 Ireland,national,IE,Ireland,150,0.6427893597887445,0,0,NA
-Ireland,national,IE,Ireland,151,0.6427893597887445,0,0,NA
 Ireland,national,IE,Ireland,154,0.9221249174942657,0,0,NA
 Ireland,national,IE,Ireland,155,0.22503292868892175,0,0,NA
 Ireland,national,IE,Ireland,156,0.23140341891331756,0,0,NA
@@ -21519,7 +21264,6 @@ Ireland,national,IE,Ireland,63,0.73874820237279,0,0,NA
 Ireland,national,IE,Ireland,64,0.6549973665923297,0,0,NA
 Ireland,national,IE,Ireland,65,0.7022524292913339,0,0,NA
 Ireland,national,IE,Ireland,68,0.5024305771995425,0,0,NA
-Ireland,national,IE,Ireland,69,0.5024305771995425,0,0,NA
 Ireland,national,IE,Ireland,7,0.4388717899013834,0,0,NA
 Ireland,national,IE,Ireland,70,0.6490408200889577,0,0,NA
 Ireland,national,IE,Ireland,71,0.6425280254974266,0,0,NA
@@ -21599,7 +21343,6 @@ Italy,national,IT,Italy,148,0.5948749570056309,0,0,NA
 Italy,national,IT,Italy,149,0.4724390282441108,0,0,NA
 Italy,national,IT,Italy,15,0.6817105929199075,0,0,NA
 Italy,national,IT,Italy,150,0.47669579812968527,0,0,NA
-Italy,national,IT,Italy,151,0.47669579812968527,0,0,NA
 Italy,national,IT,Italy,154,0.6260322934163748,0,0,NA
 Italy,national,IT,Italy,155,0.6300712626709264,0,0,NA
 Italy,national,IT,Italy,156,0.4511925488693664,0,0,NA
@@ -21687,7 +21430,6 @@ Italy,national,IT,Italy,63,0.5408751696556561,0,0,NA
 Italy,national,IT,Italy,64,0.6261978216099582,0,0,NA
 Italy,national,IT,Italy,65,0.5973109839645834,0,0,NA
 Italy,national,IT,Italy,68,0.29448034824542846,0,0,NA
-Italy,national,IT,Italy,69,0.29448034824542846,0,0,NA
 Italy,national,IT,Italy,7,0.36526519552119774,0,0,NA
 Italy,national,IT,Italy,70,0.5736358102908314,0,0,NA
 Italy,national,IT,Italy,71,0.6631776560525078,0,0,NA
@@ -21767,7 +21509,6 @@ Latvia,national,LV,Latvia,148,0.6152873584028873,0,0,NA
 Latvia,national,LV,Latvia,149,0.4493927125506073,0,0,NA
 Latvia,national,LV,Latvia,15,0.5575396825396826,0,0,NA
 Latvia,national,LV,Latvia,150,0.7264529058116233,0,0,NA
-Latvia,national,LV,Latvia,151,0.7264529058116233,0,0,NA
 Latvia,national,LV,Latvia,154,0.7022331743144687,0,0,NA
 Latvia,national,LV,Latvia,155,0.47,0,0,NA
 Latvia,national,LV,Latvia,156,0.35528942115768464,0,0,NA
@@ -21855,7 +21596,6 @@ Latvia,national,LV,Latvia,63,0.6084280918345244,0,0,NA
 Latvia,national,LV,Latvia,64,0.7007326007326008,0,0,NA
 Latvia,national,LV,Latvia,65,0.7316313727040917,0,0,NA
 Latvia,national,LV,Latvia,68,0.6217303822937625,0,0,NA
-Latvia,national,LV,Latvia,69,0.6217303822937625,0,0,NA
 Latvia,national,LV,Latvia,7,0.4111776447105788,0,0,NA
 Latvia,national,LV,Latvia,70,0.6069842873796691,0,0,NA
 Latvia,national,LV,Latvia,71,0.6673267326732674,0,0,NA
@@ -21935,7 +21675,6 @@ Lithuania,national,LT,Lithuania,148,0.6849369531573534,0,0,NA
 Lithuania,national,LT,Lithuania,149,0.4166300594295575,0,0,NA
 Lithuania,national,LT,Lithuania,15,0.621632720598713,0,0,NA
 Lithuania,national,LT,Lithuania,150,0.6806664302151885,0,0,NA
-Lithuania,national,LT,Lithuania,151,0.6806664302151885,0,0,NA
 Lithuania,national,LT,Lithuania,154,0.6458807322454794,0,0,NA
 Lithuania,national,LT,Lithuania,155,0.5403945008417597,0,0,NA
 Lithuania,national,LT,Lithuania,156,0.3519255105853418,0,0,NA
@@ -22023,7 +21762,6 @@ Lithuania,national,LT,Lithuania,63,0.7004154264479151,0,0,NA
 Lithuania,national,LT,Lithuania,64,0.6628717006634632,0,0,NA
 Lithuania,national,LT,Lithuania,65,0.7279077891825766,0,0,NA
 Lithuania,national,LT,Lithuania,68,0.4616855619876691,0,0,NA
-Lithuania,national,LT,Lithuania,69,0.4616855619876691,0,0,NA
 Lithuania,national,LT,Lithuania,7,0.3198117592645772,0,0,NA
 Lithuania,national,LT,Lithuania,70,0.6055859792124549,0,0,NA
 Lithuania,national,LT,Lithuania,71,0.7562864935336098,0,0,NA
@@ -22103,7 +21841,6 @@ Luxembourg,national,LU,Luxembourg,148,0.8300194931773878,0,0,NA
 Luxembourg,national,LU,Luxembourg,149,0.7290969899665551,0,0,NA
 Luxembourg,national,LU,Luxembourg,15,0.6164874551971327,0,0,NA
 Luxembourg,national,LU,Luxembourg,150,0.7371900826446282,0,0,NA
-Luxembourg,national,LU,Luxembourg,151,0.7371900826446282,0,0,NA
 Luxembourg,national,LU,Luxembourg,154,0.8665087898958865,0,0,NA
 Luxembourg,national,LU,Luxembourg,155,0.16306156405990016,0,0,NA
 Luxembourg,national,LU,Luxembourg,156,0.0779436152570481,0,0,NA
@@ -22191,7 +21928,6 @@ Luxembourg,national,LU,Luxembourg,63,0.753747795414462,0,0,NA
 Luxembourg,national,LU,Luxembourg,64,0.793939393939394,0,0,NA
 Luxembourg,national,LU,Luxembourg,65,0.7513853815937149,0,0,NA
 Luxembourg,national,LU,Luxembourg,68,0.5384615384615384,0,0,NA
-Luxembourg,national,LU,Luxembourg,69,0.5384615384615384,0,0,NA
 Luxembourg,national,LU,Luxembourg,7,0.5366666666666666,0,0,NA
 Luxembourg,national,LU,Luxembourg,70,0.7695651455026455,0,0,NA
 Luxembourg,national,LU,Luxembourg,71,0.6702127659574468,0,0,NA
@@ -22271,7 +22007,6 @@ Malta,national,MT,Malta,148,0.7933723196881093,0,0,NA
 Malta,national,MT,Malta,149,0.631578947368421,0,0,NA
 Malta,national,MT,Malta,15,0.6554307116104869,0,0,NA
 Malta,national,MT,Malta,150,0.6827309236947792,0,0,NA
-Malta,national,MT,Malta,151,0.6827309236947792,0,0,NA
 Malta,national,MT,Malta,154,0.5478131187808608,0,0,NA
 Malta,national,MT,Malta,155,0.4789579158316633,0,0,NA
 Malta,national,MT,Malta,156,0.27710843373493976,0,0,NA
@@ -22359,7 +22094,6 @@ Malta,national,MT,Malta,63,0.554171343060232,0,0,NA
 Malta,national,MT,Malta,64,0.7414141414141415,0,0,NA
 Malta,national,MT,Malta,65,0.6051553649012814,0,0,NA
 Malta,national,MT,Malta,68,0.4738955823293173,0,0,NA
-Malta,national,MT,Malta,69,0.4738955823293173,0,0,NA
 Malta,national,MT,Malta,7,0.344,0,0,NA
 Malta,national,MT,Malta,70,0.5814935064935065,0,0,NA
 Malta,national,MT,Malta,71,0.832089552238806,0,0,NA
@@ -22439,7 +22173,6 @@ Netherlands,national,NL,Netherlands,148,0.779264202705435,0,0,NA
 Netherlands,national,NL,Netherlands,149,0.6171020841536856,0,0,NA
 Netherlands,national,NL,Netherlands,15,0.6750022351616846,0,0,NA
 Netherlands,national,NL,Netherlands,150,0.7766012169396009,0,0,NA
-Netherlands,national,NL,Netherlands,151,0.7766012169396009,0,0,NA
 Netherlands,national,NL,Netherlands,154,0.8595909145784302,0,0,NA
 Netherlands,national,NL,Netherlands,155,0.17684316945539016,0,0,NA
 Netherlands,national,NL,Netherlands,156,0.13149931286029662,0,0,NA
@@ -22527,7 +22260,6 @@ Netherlands,national,NL,Netherlands,63,0.7389838943588339,0,0,NA
 Netherlands,national,NL,Netherlands,64,0.6583742540634334,0,0,NA
 Netherlands,national,NL,Netherlands,65,0.7232713109252209,0,0,NA
 Netherlands,national,NL,Netherlands,68,0.4181786436242765,0,0,NA
-Netherlands,national,NL,Netherlands,69,0.4181786436242765,0,0,NA
 Netherlands,national,NL,Netherlands,7,0.4869058268770506,0,0,NA
 Netherlands,national,NL,Netherlands,70,0.6932709762861781,0,0,NA
 Netherlands,national,NL,Netherlands,71,0.8023198486331949,0,0,NA
@@ -22607,7 +22339,6 @@ Poland,national,PL,Poland,148,0.5866560394659192,0,0,NA
 Poland,national,PL,Poland,149,0.570690950843294,0,0,NA
 Poland,national,PL,Poland,15,0.6510174575849509,0,0,NA
 Poland,national,PL,Poland,150,0.8547848133255781,0,0,NA
-Poland,national,PL,Poland,151,0.8547848133255781,0,0,NA
 Poland,national,PL,Poland,154,0.775264665834057,0,0,NA
 Poland,national,PL,Poland,155,0.26462679747942525,0,0,NA
 Poland,national,PL,Poland,156,0.31060916579193026,0,0,NA
@@ -22695,7 +22426,6 @@ Poland,national,PL,Poland,63,0.5598643634894626,0,0,NA
 Poland,national,PL,Poland,64,0.6934364263390531,0,0,NA
 Poland,national,PL,Poland,65,0.5988102934962419,0,0,NA
 Poland,national,PL,Poland,68,0.5412286270718085,0,0,NA
-Poland,national,PL,Poland,69,0.5412286270718085,0,0,NA
 Poland,national,PL,Poland,7,0.5321149978460121,0,0,NA
 Poland,national,PL,Poland,70,0.6090960695639449,0,0,NA
 Poland,national,PL,Poland,71,0.6585793497594983,0,0,NA
@@ -22775,7 +22505,6 @@ Portugal,national,PT,Portugal,148,0.5359290107879502,0,0,NA
 Portugal,national,PT,Portugal,149,0.48832310109362304,0,0,NA
 Portugal,national,PT,Portugal,15,0.760877022844142,0,0,NA
 Portugal,national,PT,Portugal,150,0.8197683828970742,0,0,NA
-Portugal,national,PT,Portugal,151,0.8197683828970742,0,0,NA
 Portugal,national,PT,Portugal,154,0.6283856231374384,0,0,NA
 Portugal,national,PT,Portugal,155,0.3689932027115687,0,0,NA
 Portugal,national,PT,Portugal,156,0.3360388957948063,0,0,NA
@@ -22863,7 +22592,6 @@ Portugal,national,PT,Portugal,63,0.576682225016797,0,0,NA
 Portugal,national,PT,Portugal,64,0.7607600132927105,0,0,NA
 Portugal,national,PT,Portugal,65,0.6401494286861094,0,0,NA
 Portugal,national,PT,Portugal,68,0.37787400915352404,0,0,NA
-Portugal,national,PT,Portugal,69,0.37787400915352404,0,0,NA
 Portugal,national,PT,Portugal,7,0.5521865567964047,0,0,NA
 Portugal,national,PT,Portugal,70,0.572140280972448,0,0,NA
 Portugal,national,PT,Portugal,71,0.7395719564720584,0,0,NA
@@ -22943,7 +22671,6 @@ Romania,national,RO,Romania,148,0.5553633664755738,0,0,NA
 Romania,national,RO,Romania,149,0.5899478850500617,0,0,NA
 Romania,national,RO,Romania,15,0.6919156181521838,0,0,NA
 Romania,national,RO,Romania,150,0.7250155093896398,0,0,NA
-Romania,national,RO,Romania,151,0.7250155093896398,0,0,NA
 Romania,national,RO,Romania,154,0.5251491244640696,0,0,NA
 Romania,national,RO,Romania,155,0.6338388685625789,0,0,NA
 Romania,national,RO,Romania,156,0.609622937934067,0,0,NA
@@ -23031,7 +22758,6 @@ Romania,national,RO,Romania,63,0.5772755482261868,0,0,NA
 Romania,national,RO,Romania,64,0.7713915829098725,0,0,NA
 Romania,national,RO,Romania,65,0.6439032459765625,0,0,NA
 Romania,national,RO,Romania,68,0.6851048303137041,0,0,NA
-Romania,national,RO,Romania,69,0.6851048303137041,0,0,NA
 Romania,national,RO,Romania,7,0.4999928324180288,0,0,NA
 Romania,national,RO,Romania,70,0.5343085087460111,0,0,NA
 Romania,national,RO,Romania,71,0.6970047622298022,0,0,NA
@@ -23111,7 +22837,6 @@ Slovakia,national,SK,Slovakia,148,0.5958106718320303,0,0,NA
 Slovakia,national,SK,Slovakia,149,0.2989970126081638,0,0,NA
 Slovakia,national,SK,Slovakia,15,0.533466903403154,0,0,NA
 Slovakia,national,SK,Slovakia,150,0.5386169569164678,0,0,NA
-Slovakia,national,SK,Slovakia,151,0.5386169569164678,0,0,NA
 Slovakia,national,SK,Slovakia,154,0.6004542575406041,0,0,NA
 Slovakia,national,SK,Slovakia,155,0.610070317249255,0,0,NA
 Slovakia,national,SK,Slovakia,156,0.4009687101365202,0,0,NA
@@ -23199,7 +22924,6 @@ Slovakia,national,SK,Slovakia,63,0.6447625975102936,0,0,NA
 Slovakia,national,SK,Slovakia,64,0.6457933919505684,0,0,NA
 Slovakia,national,SK,Slovakia,65,0.679231672309422,0,0,NA
 Slovakia,national,SK,Slovakia,68,0.36948694199288257,0,0,NA
-Slovakia,national,SK,Slovakia,69,0.36948694199288257,0,0,NA
 Slovakia,national,SK,Slovakia,7,0.18106955374071193,0,0,NA
 Slovakia,national,SK,Slovakia,70,0.6755329907513201,0,0,NA
 Slovakia,national,SK,Slovakia,71,0.5432794566372694,0,0,NA
@@ -23279,7 +23003,6 @@ Slovenia,national,SI,Slovenia,148,0.7483188729944074,0,0,NA
 Slovenia,national,SI,Slovenia,149,0.46918783617730675,0,0,NA
 Slovenia,national,SI,Slovenia,15,0.5253623315141345,0,0,NA
 Slovenia,national,SI,Slovenia,150,0.7995352344416826,0,0,NA
-Slovenia,national,SI,Slovenia,151,0.7995352344416826,0,0,NA
 Slovenia,national,SI,Slovenia,154,0.707867294674113,0,0,NA
 Slovenia,national,SI,Slovenia,155,0.5673120529304978,0,0,NA
 Slovenia,national,SI,Slovenia,156,0.5373553340759039,0,0,NA
@@ -23367,7 +23090,6 @@ Slovenia,national,SI,Slovenia,63,0.6239397106669875,0,0,NA
 Slovenia,national,SI,Slovenia,64,0.7037018547532152,0,0,NA
 Slovenia,national,SI,Slovenia,65,0.772018326874783,0,0,NA
 Slovenia,national,SI,Slovenia,68,0.44302386007376665,0,0,NA
-Slovenia,national,SI,Slovenia,69,0.44302386007376665,0,0,NA
 Slovenia,national,SI,Slovenia,7,0.26434745321323955,0,0,NA
 Slovenia,national,SI,Slovenia,70,0.7066280200008953,0,0,NA
 Slovenia,national,SI,Slovenia,71,0.6031415124713005,0,0,NA
@@ -23447,7 +23169,6 @@ Spain,national,ES,Spain,148,0.7325260186470384,0,0,NA
 Spain,national,ES,Spain,149,0.5663245269342342,0,0,NA
 Spain,national,ES,Spain,15,0.6460169158524107,0,0,NA
 Spain,national,ES,Spain,150,0.6815897522409088,0,0,NA
-Spain,national,ES,Spain,151,0.6815897522409088,0,0,NA
 Spain,national,ES,Spain,154,0.7599800335510168,0,0,NA
 Spain,national,ES,Spain,155,0.4382437436167983,0,0,NA
 Spain,national,ES,Spain,156,0.3634708409970578,0,0,NA
@@ -23535,7 +23256,6 @@ Spain,national,ES,Spain,63,0.5689376954519932,0,0,NA
 Spain,national,ES,Spain,64,0.7426811924337519,0,0,NA
 Spain,national,ES,Spain,65,0.6747248615917707,0,0,NA
 Spain,national,ES,Spain,68,0.4301779711189891,0,0,NA
-Spain,national,ES,Spain,69,0.4301779711189891,0,0,NA
 Spain,national,ES,Spain,7,0.34186541326009195,0,0,NA
 Spain,national,ES,Spain,70,0.6733210663935851,0,0,NA
 Spain,national,ES,Spain,71,0.7530204731412659,0,0,NA
@@ -23615,7 +23335,6 @@ Sweden,national,SE,Sweden,148,0.7534882596460556,0,0,NA
 Sweden,national,SE,Sweden,149,0.6299980201387858,0,0,NA
 Sweden,national,SE,Sweden,15,0.6460490583784336,0,0,NA
 Sweden,national,SE,Sweden,150,0.7109651457536816,0,0,NA
-Sweden,national,SE,Sweden,151,0.7109651457536816,0,0,NA
 Sweden,national,SE,Sweden,154,0.9447441952586115,0,0,NA
 Sweden,national,SE,Sweden,155,0.1244457874730804,0,0,NA
 Sweden,national,SE,Sweden,156,0.12747007761203855,0,0,NA
@@ -23703,7 +23422,6 @@ Sweden,national,SE,Sweden,63,0.7758443663062949,0,0,NA
 Sweden,national,SE,Sweden,64,0.692275379124348,0,0,NA
 Sweden,national,SE,Sweden,65,0.7730983363714962,0,0,NA
 Sweden,national,SE,Sweden,68,0.37660497688127864,0,0,NA
-Sweden,national,SE,Sweden,69,0.37660497688127864,0,0,NA
 Sweden,national,SE,Sweden,7,0.5564793426197384,0,0,NA
 Sweden,national,SE,Sweden,70,0.7027839316376017,0,0,NA
 Sweden,national,SE,Sweden,71,0.5989117604380909,0,0,NA
@@ -23783,7 +23501,6 @@ European Union,eu,EU,European Union,148,0.6494968431345303,0,0,NA
 European Union,eu,EU,European Union,149,0.5378200805118972,0,0,NA
 European Union,eu,EU,European Union,15,0.6373038737173277,0,0,NA
 European Union,eu,EU,European Union,150,0.7098340138639686,0,0,NA
-European Union,eu,EU,European Union,151,0.7098340138639686,0,0,NA
 European Union,eu,EU,European Union,154,0.7287673547564918,0,0,NA
 European Union,eu,EU,European Union,155,0.41756226789393686,0,0,NA
 European Union,eu,EU,European Union,156,0.32895954530647553,0,0,NA
@@ -23871,7 +23588,6 @@ European Union,eu,EU,European Union,63,0.6527877667699603,0,0,NA
 European Union,eu,EU,European Union,64,0.6910637446301673,0,0,NA
 European Union,eu,EU,European Union,65,0.701425294554556,0,0,NA
 European Union,eu,EU,European Union,68,0.44514790020157546,0,0,NA
-European Union,eu,EU,European Union,69,0.44514790020157546,0,0,NA
 European Union,eu,EU,European Union,7,0.4189480958380538,0,0,NA
 European Union,eu,EU,European Union,70,0.6544931075412823,0,0,NA
 European Union,eu,EU,European Union,71,0.6621125421778012,0,0,NA

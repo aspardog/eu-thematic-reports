@@ -98,13 +98,17 @@ region_names <- read.xlsx(
 ##
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-# Creating named lists to loop over
+# Create a named list to loop over
 chart_list <- list(
-  "GPP" = c(2:3, 5, 7:8, 10:14, 16,18, 21:22, 25:26, 29,32:35, 38:42,
-                  44:46),
-  "QRQ" = c(1, 4, 6, 9, 15, 17, 19, 23, 27, 30, 31, 36, 43),
-  "Scatter" = c(20,24,28,37)
+  "GPP" = c(3,4,7,9,10,12:17,19:23,25:27,31,32,34:36,38:40,42:48,53:56,58:62,68,
+            71:74,76,78,79,86:94,96,97,99,101,102,104:108,110,112,126,127,130,131,134,137:140,
+            143:147,149:151,155:165,167:170,172,176,177,179:182),
+  "QRQ" = c(1,2,5,6,8,11,18,24,28,29,30,33,37,49:52,57,63,64,65,70,75,77,82,84,85,95,98,
+            100,103,109,111,124,128,132,135,136,141,148,154,171,173,174,175,178,184:186),
+  "Scatter" = c(41, 80, 83, 125, 129, 133, 142)
 )
+
+
 
 # getting names
 chart_list <- lapply(chart_list, function(vec){
@@ -114,18 +118,18 @@ chart_list <- lapply(chart_list, function(vec){
 
 data_points <-list()
 
+# apply appropriate wrangling function and append to data points large list
 for (category in names(chart_list)){
   chart_n_vector <- chart_list[[category]]
-  if (category == "GPP"){
-    result <- lapply(chart_n_vector, function(chart_n) wrangleData(chart_n, 'gpp'))
-  } else if (category == "QRQ"){
+  if (category == "QRQ"){
     result <- lapply(chart_n_vector, function(chart_n) wrangleData(chart_n, 'qrq'))
-  } else if (category == "Scatter"){
-    result <- lapply(chart_n_vector, function(chart_n) wrangleData_scatter(chart_n))
+  }else if (category == "GPP"){
+    result <- lapply(chart_n_vector, function(chart_n) wrangleData(chart_n, 'gpp'))
+  }else if (category == "Scatter"){
+   result <- lapply(chart_n_vector, function(chart_n) wrangleData_scatter(chart_n))
   }
   data_points <- c(data_points, result)
 }
-
 
 
 # Collapsing and saving data points data
