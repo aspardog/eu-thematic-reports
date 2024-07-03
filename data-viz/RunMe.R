@@ -62,7 +62,9 @@ master_data_qrq <- read_dta(
 
 # Loading outline
 outline <- read.xlsx(
-  "inputs/report_outline.xlsx",
+  file.path(
+    path2EU,
+    "EU-S Data/reports/eu-thematic-reports/data-viz/inputs/report_outline.xlsx"),
   sheet = "outline"
 )
 
@@ -91,6 +93,7 @@ region_names <- read.xlsx(
   "inputs/region_labels.xlsx"
 ) %>%
   select(nuts_id, nameSHORT, pop_weight = regionpoppct)
+
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ##
