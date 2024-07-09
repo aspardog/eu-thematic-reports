@@ -3,3 +3,5 @@
 .RData
 .Ruserdata
 data-viz/inputs/report_outline.xlsx
+data-viz/output/data4web_gpp.csv
+data-viz/output/data4web_qrq.csv

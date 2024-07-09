@@ -64,86 +64,166 @@ getInsets <- function(targets){
          })
 }
 
- callVisualizer <- function(chart_n) {
-   
-   type <- outline %>%
-     filter(n == chart_n) %>%
-     slice(1) %>%
-     pull(type) 
-   
-   data4chart <- data_points[[paste("Chart", chart_n)]]
-   
-   if (type == "map"){
-     chart <- genMap(data4chart)
-   }
-   if (type == "scatterplot"){
-     chart <- scatterPlot(data4chart)
-   }
-   if (type == "dumbell"){
-     chart <- dumbellChart(data4chart)
-   }
-   
-   saveIT(
-     chart = chart, 
-     n = chart_n, 
-     w = 189.7883, 
-     h = 168.7007
-   )
-   
-   return(chart)
-   
- }
-
-getAvgData <- function(){
+callVisualizer <- function(chart_n) {
   
-  data_wght <- data_points_df %>%
-    left_join(region_names) %>%
+  type <- outline %>%
+    filter(n == chart_n) %>%
+    slice(1) %>%
+    pull(type) 
+  
+  data4chart <- data_points[[paste("Chart", chart_n)]]
+  
+  if (type == "map"){
+    chart <- genMap(data4chart)
+  }
+  if (type == "scatterplot"){
+    chart <- scatterPlot(data4chart)
+  }
+  if (type == "dumbell"){
+    chart <- dumbellChart(data4chart)
+  }
+  
+  saveIT(
+    chart = chart, 
+    n = chart_n, 
+    w = 189.7883, 
+    h = 168.7007
+  )
+  
+  return(chart)
+  
+}
+
+getAvgData <- function(data){
+  
+  data_wght <- data %>%
+    left_join(region_names,
+              by = "nuts_id") %>%
     mutate(
       weighted_value = value2plot*pop_weight,
-      weighted_id1 = value2plot_id1*pop_weight,
-      weighted_id2 = value2plot_id2*pop_weight,
-      level = "regional"
+      level          = "regional"
     )
   
   country_avg <- data_wght %>%
-    group_by(country_name_ltn, chart) %>%
+    group_by(country_name_ltn, chart_id, demographic) %>%
     summarise(
-      nuts_id    = first(nuts_id),
-      value2plot = sum(weighted_value, na.rm = T),
-      value2plot_id1 = sum(weighted_id1, na.rm = T),
-      value2plot_id2 = sum(weighted_id2, na.rm = T)
+      nuts_id        = first(nuts_id),
+      value2plot     = sum(weighted_value, na.rm = T),
+      target_var     = first(target_var),
+      .groups        = "keep"
     ) %>%
     mutate(
-      nuts_id   = substr(nuts_id, 1, 2),
-      nameSHORT = country_name_ltn,
-      level     = "national",
-      weighted_value = value2plot,  # Simple average for the European Union value. No special weights.
-      weighted_id1 = value2plot_id1,
-      weighted_id2 = value2plot_id2
+      nuts_id        = substr(nuts_id, 1, 2),
+      nameSHORT      = country_name_ltn,
+      level          = "national",
+      weighted_value = value2plot
     )
   
   eu_avg <- country_avg %>%
-    group_by(chart) %>%
+    group_by(chart_id, demographic) %>%
     summarise(
       value2plot       = mean(weighted_value, na.rm = T),
-      value2plot_id1   = mean(weighted_id1, na.rm = T),
-      value2plot_id2   = mean(weighted_id2, na.rm = T),
       country_name_ltn = "European Union",
       nuts_id          = "EU",
       nameSHORT        = "European Union",
-      level            = "eu"
+      level            = "eu",
+      target_var       = first(target_var),
+      .groups          = "keep"
     )
   
   data_out <- data_wght %>%
-    select(country_name_ltn, level, nuts_id, nameSHORT, chart, value2plot, 
-           value2plot_id1, value2plot_id2, description) %>%
+    select(country_name_ltn, level, nuts_id, nameSHORT, chart_id, target_var, demographic, value2plot) %>%
     bind_rows(
-      country_avg %>% select(-weighted_value, -weighted_id1, -weighted_id2), 
+      country_avg %>% select(-weighted_value), 
       eu_avg
     )
   
   return(data_out)
   
+}
+
+save4web <- function(data, source){
+  
+  # Matching agreed data structure
+  if (source == "GPP"){
+    data4web <- data %>%
+      select(
+        chart_id,
+        country  = country_name_ltn, 
+        level, 
+        nuts_ltn = nameSHORT,
+        nuts_id,
+        id       = target_var,
+        demographic,
+        value    = value2plot
+      ) %>%
+      left_join(
+        outline %>%
+          select(
+            chart_id,
+            question,
+            chapter    = report,
+            section    = chapter,
+            subsection = section,
+            title,
+            subtitle
+          ),
+        by = "chart_id"
+      ) %>%
+      select(
+        country, level, nuts_ltn, nuts_id, id, chapter, section, subsection, question, 
+        demographic, title, subtitle, value
+      ) %>%
+      mutate(
+        section = str_remove_all(section, "Chapter .+\\. "), 
+      )
+  }
+  if (source == "QRQ"){
+    data4web <- data %>%
+      select(
+        chart_id,
+        country   = country_name_ltn, 
+        level, 
+        nuts_ltn  = nameSHORT,
+        nuts_id,
+        indicator = target_var,
+        score     = value2plot
+      ) %>%
+      left_join(
+        outline %>%
+          select(
+            chart_id,
+            theme          = report,
+            pillar_id      = pillar,
+            pillar_name    = chapter,
+            subpillar_name = section
+          ),
+        by = "chart_id"
+      ) %>%
+      mutate(
+        pillar      = pillar_id,
+        pillar_name = str_remove_all(pillar_name, "Chapter .+\\. "), 
+        subpillar   = str_replace_all(indicator, "p_", ""),
+        subpillar   = str_replace_all(subpillar, "_", ".")
+      ) %>%
+      select(
+        country, level, nuts_ltn, nuts_id, 
+        theme, pillar, pillar_name, pillar_id, subpillar, subpillar_name,
+        indicator, score
+      )
+  }
+  
+  # Saving data locally
+  write_csv(
+    data4web,
+    file.path(
+      path2EU,
+      "EU-S Data/reports/eu-thematic-reports/data-viz/output",
+      paste0("data4web_", tolower(source), ".csv")
+    )
+  )
+  
+  print("data4web successfully saved in /outputs/ folder")
 }
 
 
@@ -153,29 +233,20 @@ getAvgData <- function(){
 ##
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-wrangleData <- function(chart_n, data_source){ # pass GPP or QRQ as argument
- if (data_source == "qrq"){
-   master_data <- master_data_qrq
- } else if (data_source == "gpp"){
-   master_data <- master_data_gpp
- }
+wrangleData <- function(figid, source){
   
-  # Getting variable info
-  id <- outline %>%
-    filter(n == chart_n) %>%
-    pull(old_id_var)
-  
-  topic <- outline %>%
-    filter(n == chart_n) %>%
-    slice(1) %>%
-    pull(topic)
-  
-  # don't need trfunc unless data source is gpp
-
-  # Defining a transforming function
-
+  if (source == "GPP"){
+    
+    # Getting variable info
+    id <- outline %>%
+      filter(chart_id %in% figid) %>%
+      pull(target_var_1)
+    
+    topic <- outline %>%
+      filter(chart_id %in% figid) %>%
+      pull(topic)
+    
     # Defining a transforming function
-    if (!is.null(topic) && length(topic) > 0){
     if (topic %in% c("Trust", 
                      "Security", 
                      "Law Enforcement Performance", 
@@ -226,7 +297,6 @@ wrangleData <- function(chart_n, data_source){ # pass GPP or QRQ as argument
         )
       }
     }
-    
     if (topic %in% c("Attitudes towards corruption")){
       trfunc <- function(value){
         case_when(
@@ -236,123 +306,451 @@ wrangleData <- function(chart_n, data_source){ # pass GPP or QRQ as argument
         )
       }
     }
-    if (topic %in% c("Problem Selection", # % yes to >= 1 question
-                     "Problem Resolution", 
-                     "Problem Description", 
-                     "Problem Evaluation",
-                     "Demographics")){
-      
-      if (id == "AJP_*_bin"){
-        
-        
+    if (topic %in% c("Transformed")){
+      trfunc <- function(value){
+        return(value)
       }
-      
     }
     
-  
-  
-  # list of grouping variables -- dependent on GPP or QRQ
-  grouping_vars <- list(
-    "Total"   = c("country_name_ltn", "nuts_id")
-    #"Gender"  = c("country_name_ltn", "nuts_id", "gender_text")
-  )
-  
-  print(paste("id: ",id, "data_source: ", data_source))
-  
-  if (id %in% names(master_data)){
-  data2plot_list <- imap(grouping_vars, function(vars, demograph){
-    master_data <- if (data_source == 'qrq') master_data_qrq else master_data_gpp
-    print("Master data being employed: ")
-    print(length(master_data))
-    data2plot <- master_data %>%
-      select(all_of(vars), target = all_of(id))
+    # Sub-setting data
+    base_variables <- c("country_name_ltn", "nuts_id", "age_groups", "gender", "iq_groups")
+    data_subset <- master_data_gpp %>%
+      select(
+        all_of(base_variables), 
+        target = all_of(id)
+      ) %>%
+      mutate(
+        
+        # Applying Transformation function (trfunc)
+        across(
+          target, 
+          ~trfunc(.x)
+        ),
+        
+        # Creating an anchor variable for grouping
+        total_anchor = "Total Sample"
+      )
     
-    if (data_source == 'gpp'){
-      data2plot <- data2plot %>%
-        mutate(across(target, ~trfunc(.x)))
-    }
+    # Getting extended (ALL) data points
+    data_points_extended_list <- lapply(
+      c("total_anchor", "age_groups", "gender", "iq_groups"), 
+      function(gvar, demograph){
+        
+        data_subset %>%
+          select(
+            country_name_ltn, nuts_id, demographic = all_of(gvar), target
+          ) %>%
+          group_by(
+            country_name_ltn, nuts_id, demographic
+          ) %>%
+          summarise(
+            value2plot = mean(target, na.rm = T),
+            .groups = "keep"
+          )
+      }
+    )
     
-    data2plot <- data2plot %>%
-      group_by(across(all_of(vars))) %>%
-      summarise(
-        value2plot = mean(target, na.rm = T),
-        .groups = "keep") %>%
-      mutate(demographic = ifelse(demograph == "Total", "Total", as.character(get(vars[3]))),
-             description = data_source) 
+    # Collapsing into a single data frame
+    data_points_extended <- bind_rows(data_points_extended_list) %>%
+      mutate(
+        chart_id   = figid,
+        target_var = id
+      ) %>%
+      filter(!is.na(demographic))
+    
+    return(data_points_extended)
+  }
+  
+  if (source == "QRQ"){
+    
+    # Getting variable info
+    id <- outline %>%
+      filter(chart_id %in% figid) %>%
+      pull(old_id_var)
+    
+    # Wrangling data
+    data_subset <- master_data_qrq %>%
+      rename(value2plot = all_of(id)) %>%
+      select(country_name_ltn = country, nuts_id = nuts, value2plot) %>%
+      mutate(
+        demographic = "Total Sample",
+        chart_id    = figid,
+        target_var  = id
+      )
+    
+    return(data_subset)
+  }
+  
+  if (source == "Special"){
 
+    # Getting chart info
+    type <- outline %>%
+      filter(chart_id %in% figid) %>%
+      pull(type)
+
+    # Special wrangling for bivariate charts
+    if (type %in% c("Dots", "Scatterplot")){
+      data2plot <- wrangleBivariate(figid = figid)
+    }
+    if (type %in% c("Map (Categorical)")){
+      data2plot <- NULL
+    }
+    if (type %in% c("Table")){
+      data2plot <- NULL
+    }
     
     return(data2plot)
-})
-
-
-
-  combined_data2plot <- bind_rows(data2plot_list)
-  
-  
-  return(combined_data2plot)
-  }else {
-    print(paste("ID", id, "not found in master data columns for data source ", data_source))
   }
-}
 }
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ##
-## 3.  Special Wrangling functions (Access to Justice, Scatterplots)                                                                         ----
+## 3.  Special Wrangling functions (Access to Justice, Bivariate)                                           ----
 ##
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-wrangleData_scatter <- function(chart_n){
+addSpecial <- function(data){
   
-  # get ID1 -- TRT
-  id1 <- outline %>% 
-    filter(n == chart_n) %>%
-    pull(id_var1)
+  # Discrimination
+  discrimination_vars <- c("DIS_sex", "DIS_age", "DIS_health", "DIS_ethni", "DIS_migration", "DIS_ses", 
+                           "DIS_location", "DIS_religion", "DIS_family", "DIS_gender", "DIS_politics")
   
-  # get id2 -- COR
-  id2 <- outline %>%
-    filter(n == chart_n) %>%
-    pull(id_var2)
-  
-  
-  # define transformation functions
-  trfunc_id1 <- function(value){
-    case_when(
-      value <= 2 ~ 1,
-      value <= 4 ~ 0,
-      value == 98 ~ 0
-    )
-  }
-  
-  trfunc_id2 <- function(value){
-    case_when(
-      value <= 2 ~ 0,
-      value <= 4 ~ 1,
-      value == 98 ~ 0
-    )
-  }
-  
-  
-  # get data2plot -- similar to wrangleData, but keep two value2plot's
-  data2plot <- master_data_gpp %>%
-    select(country_name_ltn, nuts_id, all_of(id1), all_of(id2)) %>%
+  discrimination <- data %>%
     mutate(
-      target_TRT = trfunc_id1(.data[[id1]]),
-      target_COR = trfunc_id2(.data[[id2]]),
-      demographic = "Total"
+      across(
+        all_of(discrimination_vars),
+        ~case_when(
+          .x == 1 ~ 1,
+          .x >= 2 ~ 0 
+        )
+      )
     ) %>%
-    group_by(country_name_ltn, nuts_id) %>%
+    select(
+      country_year_id, all_of(discrimination_vars)
+    ) %>%
+    pivot_longer(
+      !country_year_id,
+      names_to  = "category",
+      values_to = "value"
+    ) %>%
+    group_by(country_year_id) %>%
     summarise(
-      value2plot_id1 = mean(target_TRT, na.rm = TRUE),
-      value2plot_id2 = mean(target_COR, na.rm = TRUE),
-      .groups = "keep"
+      discrimination1 = sum(value, na.rm = T)
+    ) %>%
+    mutate(
+      discrimination1 = if_else(discrimination1 > 0, 1, 0)
     )
   
-  return(data2plot)
+  # Legal Problem prevalence
+  legalProblems <- c(
+    "A1", "A2", "A3", "B1", "B2", "B3", "B4", "C1", "C2", "C3", "C4", "D1", "D2", "D3", "D4", "D5", "D6", "E1", 
+    "E2", "E3", "F1", "F2", "G1", "G2", "G3", "H1", "H2", "H3", "I1", "J1", "J2", "J3", "J4", "K1", "K2", "K3", 
+    "L1", "L2"
+  )
+  legprob_bin <- paste0("AJP_", legalProblems, "_bin")
+  legprob_sev <- paste0("AJP_", legalProblems, "_sev")
   
-  }
+  selec_sev <- data %>%  # Extracting severity of problem selected
+    pivot_longer(
+      !c(country_year_id, AJP_problem), 
+      names_to      = c("set", ".value"), 
+      names_pattern = "AJP_(.*)_(.*)"
+    ) %>%
+    mutate(
+      sev = if_else(AJP_problem == set, sev, NA_real_)
+    ) %>%
+    group_by(country_year_id) %>%
+    summarise(
+      AJP_problem = first(AJP_problem),
+      sev_problem_selected = sum(sev, na.rm = T)
+    ) %>%
+    mutate(
+      sev_problem_selected = if_else(
+        AJP_problem == "", 
+        NA_real_, 
+        sev_problem_selected 
+      )
+    ) %>%
+    select(-AJP_problem)
+  
+  probPrev <- reduce(   # Estimating problem prevalence 
+    list(
+      
+      # Data 1: incidence
+      data %>%
+        select(country_year_id, all_of(legprob_bin)) %>%
+        pivot_longer(
+          !country_year_id,
+          names_to  = "problem",
+          values_to = "answer"
+        ) %>%
+        mutate(
+          problem = str_remove_all(problem, "AJP|_|bin")
+        ),
+      
+      # Data 2: severity
+      data %>%
+        select(country_year_id, all_of(legprob_sev)) %>%
+        pivot_longer(
+          !country_year_id,
+          names_to  = "problem",
+          values_to = "severity"
+        ) %>%
+        mutate(
+          problem = str_remove_all(problem, "AJP|_|sev")
+        )
+    ),
+    left_join,
+    by = "country_year_id"
+  ) %>%
+    mutate(
+      prevalence1 = case_when(
+        answer == 1 ~ 1,
+        answer == 2 ~ 0
+      ),
+      prevalence2 = case_when(
+        answer == 1 & severity >= 4 ~ 1,
+        answer == 1 & severity  < 4 ~ 0,
+        answer == 2 ~ 0
+      )
+    ) %>%
+    group_by(country_year_id) %>%
+    summarise(
+      across(
+        starts_with("prevalence"),
+        \(x) sum(x, na.rm = T)
+      )
+    ) %>%
+    mutate(
+      across(
+        starts_with("prevalence"),
+        \(x) if_else(x > 0, 1, 0)
+      )
+    )
+  
+  # Other special wranglings
+  agg_data <- data %>%
+    left_join(
+      selec_sev,
+      by = "country_year_id"
+    ) %>%
+    mutate(
+      
+      # Legal vulnerability: official proof of identity
+      vulnerability1 = case_when(
+        A5_1 == 1  | A5_2 == 1  ~ 1,
+        A5_1 == 99 & A5_2 == 99 ~ NA_real_,
+        A5_1 >= 2  | A5_2 >= 2  ~ 0,
+      ),
+      
+      # Legal vulnerability: official proof of housing or land tenure
+      vulnerability2 = case_when(
+        A5b == 1  ~ 1,
+        A5b <= 98 ~ 0
+      ),
+      
+      # Access to appropriate information and advice
+      access2info = case_when(
+        is.na(sev_problem_selected) ~ NA_real_,
+        sev_problem_selected <=3    ~ NA_real_,
+        AJE_infosource <= 2  ~ 1,
+        AJE_infosource <= 98 ~ 0
+      ),
+      
+      # Access to appropriate assistance and representation
+      access2rep = case_when(
+        is.na(sev_problem_selected) ~ NA_real_,
+        sev_problem_selected <=3    ~ NA_real_,
+        AJD_inst_advice == 1 & (
+          AJD_adviser_2 == 1 | AJD_adviser_3 == 1 | AJD_adviser_4 == 1 | 
+          AJD_adviser_5 == 1 | AJD_adviser_6 == 1 | AJD_adviser_8 == 1
+        ) ~ 1,
+        AJD_inst_advice == 1 & AJD_adviser_1 == 1 & AJD_expert_adviser == 1 ~ 1,
+        AJD_inst_advice == 2 & (AJD_noadvice_reason %in% c(1,3))            ~ 1,  # Friend/Family with legal background
+        AJD_inst_advice == 2 | AJD_inst_advice == 98 ~ 0
+      ),
+      
+      # Access to a dispute resolution mechanism
+      access2drm = case_when(
+        is.na(sev_problem_selected) ~ NA_real_,
+        sev_problem_selected <=3    ~ NA_real_,
+        AJR_resolution == 1 ~ 1,
+        AJR_resolution == 2 & (AJR_noresol_reason %in% c(3,5,6,7,8)) ~ 0
+        # AJR_resolution == 98 (We don't know if they really needed the DRM, so we exclude 98s)
+      ),
+      
+      # Timeliness of the resolution process
+      rp_time = case_when(
+        AJR_state_resol    %in% c(1,2,98,99) ~ NA_real_,
+        AJR_settle_noresol %in% c(1,2,98,99) ~ NA_real_,
+        is.na(sev_problem_selected) ~ NA_real_,
+        sev_problem_selected <=3    ~ NA_real_,
+        AJR_solvingtime == -9999    ~ NA_real_,
+        AJR_solvingtime == -8888    ~ 0,
+        AJR_solvingtime >  12       ~ 0,
+        AJR_solvingtime <= 12       ~ 1
+      ),
+      
+      # Costliness of the resolution process
+      rp_cost = case_when(
+        AJR_state_resol    %in% c(1,2,98,99) ~ NA_real_,
+        AJR_settle_noresol %in% c(1,2,98,99) ~ NA_real_,
+        is.na(sev_problem_selected) ~ NA_real_,
+        sev_problem_selected <=3    ~ NA_real_,
+        AJR_solvingcosts == 2       ~ 1,
+        AJR_solvingcosts == 1 & (AJR_costdiff %in% c(1,2)) ~ 1,
+        AJR_solvingcosts == 1 & (AJR_costdiff %in% c(3,4,98)) ~ 0
+      ),
+      
+      # Fairness of the resolution process
+      rp_fair = case_when(
+        AJR_state_resol    %in% c(1,2,98,99) ~ NA_real_,
+        AJR_settle_noresol %in% c(1,2,98,99) ~ NA_real_,
+        is.na(sev_problem_selected) ~ NA_real_,
+        sev_problem_selected <=3    ~ NA_real_,
+        AJR_fair == 1               ~ 1,
+        AJR_fair %in% c(2,98)       ~ 0
+      ),
+      
+      # Outcome of the resolution process
+      rp_outcome = case_when(
+        AJR_state_resol    %in% c(1,2,98,99) ~ NA_real_,
+        AJR_settle_noresol %in% c(1,2,98,99) ~ NA_real_,
+        is.na(sev_problem_selected) ~ NA_real_,
+        sev_problem_selected <=3    ~ NA_real_,
+        AJR_state_resol    == 3     ~ 0,
+        AJR_state_resol    == 4     ~ 1,
+        AJR_settle_noresol == 3     ~ 0,
+        AJR_settle_noresol == 4     ~ 1
+      ),
+      
+      # Police and Community Safety
+      psafe1 = case_when(
+        (LEP_safecom %in% c(1,2)) & (LEP_safefam %in% c(1,2)) & 
+          (LEP_policehelp %in% c(1,2)) & (LEP_kindpol %in% c(1,2)) & 
+          (LEP_polservcom %in% c(1,2)) ~ 1,
+        (LEP_safecom %in% c(3,4,98)) & (LEP_safefam %in% c(3,4,98)) & 
+          (LEP_policehelp %in% c(3,4,98)) & (LEP_kindpol %in% c(3,4,98)) & 
+          (LEP_polservcom %in% c(3,4,98)) ~ 0,
+        is.na(LEP_safecom) & is.na(LEP_safefam) & is.na(LEP_policehelp) &
+          is.na(LEP_kindpol) & is.na(LEP_polservcom) ~ NA_real_
+      ),
+      
+      # Government Services and Bribes
+      bribery1 = case_when(
+        (
+          BRB_permit_B == 1 | BRB_benefits_B == 1 | BRB_id_B == 1 |
+            BRB_school_B == 1 | BRB_health_B == 1
+        ) ~ 1,
+        (
+          BRB_permit_B == 2 | BRB_benefits_B == 2 | BRB_id_B == 2 |
+            BRB_school_B == 2 | BRB_health_B == 2
+        ) ~ 0,
+        (
+          BRB_permit_B == 98 | BRB_benefits_B == 98 | BRB_id_B == 98 |
+            BRB_school_B == 98 | BRB_health_B == 98
+        ) ~ 0,
+      )
+    ) %>%
+    select(
+      country_year_id, 
+      vulnerability1, vulnerability2, 
+      access2info, access2rep, access2drm,
+      rp_time, rp_cost, rp_fair, rp_outcome,
+      psafe1, bribery1
+    )
+  
+  # Listing individual data
+  specialData <- reduce(
+    list(
+      discrimination,
+      probPrev,
+      agg_data
+    ),
+    left_join,
+    by = "country_year_id"
+  )
+    
+  return(specialData)
+}
 
+wrangleBivariate <- function(figid){
+  
+  # Getting variable info
+  id <- c(
+    "id_1" = outline %>%
+      filter(chart_id %in% figid) %>%
+      pull(target_var_1),
+    "id_2" = outline %>%
+      filter(chart_id %in% figid) %>%
+      pull(target_var_2)
+  )
+  
+  # Wrangling data
+  data_wide <- lapply(
+    id,
+    function(tvar){
+      
+      # Defining a transformation function
+      if ( str_detect(tvar, "CPA_|IPR_|IRE_|TRT_") ){
+        trfunc <- function(value) {
+          case_when(
+            value <= 2  ~ 1,
+            value <= 4  ~ 0,
+            value == 98 ~ 0
+          )
+        } 
+      }
+      if ( str_detect(tvar, "COR_") ){
+        trfunc <- function(value) {
+          case_when(
+            value <= 2  ~ 0,
+            value <= 4  ~ 1,
+            value == 98 ~ 0
+          )
+        } 
+      }
+      
+      # Sub-setting data
+      data_subset <- master_data_gpp %>%
+        select(
+          country_name_ltn, nuts_id,
+          target = all_of(tvar)
+        ) %>%
+        mutate(
+          
+          # Recording chart ID
+          chart_id = figid,
+          
+          # Applying Transformation function (trfunc)
+          across(
+            target, 
+            ~trfunc(.x)
+          ),
+          
+          # Creating an anchor variable for grouping
+          demographic = "Total Sample"
+          
+        ) %>%
+        group_by(
+          country_name_ltn, nuts_id, chart_id, demographic
+        ) %>%
+        summarise(
+          value2plot = mean(target, na.rm = T),
+          .groups = "keep"
+        )
+      
+      return(data_subset)
+      
+    }
+  ) %>%
+    reduce(
+      left_join, 
+      by = c("country_name_ltn", "nuts_id", "demographic", "chart_id"), 
+      suffix = c("_id1", "_id2")
+    )
+  
+  return(data_wide)
+  
+}
 
-# wrangleData_A2J <- function(chart_n){
-# 
-#   }

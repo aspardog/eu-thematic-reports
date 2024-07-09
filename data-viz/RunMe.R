@@ -41,24 +41,51 @@ master_data_gpp <- read_dta(
   file.path(
     path2EU,
     "EU-S Data/eu-gpp/1. Data/3. Merge/EU_GPP_2024.dta")
+  ) %>%
+  mutate(
+    # Luxembourg age data is already categorized
+    age = case_when(
+      country_name_ltn == "Luxembourg" & age == 1 ~ 24,
+      country_name_ltn == "Luxembourg" & age == 2 ~ 34,
+      country_name_ltn == "Luxembourg" & age == 3 ~ 44,
+      country_name_ltn == "Luxembourg" & age == 4 ~ 54,
+      country_name_ltn == "Luxembourg" & age == 5 ~ 64,
+      country_name_ltn == "Luxembourg" & age == 6 ~ 65,
+      TRUE ~ age
+    ),
+    age_groups = case_when(
+      age <= 24             ~ "18-24",
+      age >= 25 & age <= 34 ~ "25-34",
+      age >= 35 & age <= 44 ~ "35-44",
+      age >= 45 & age <= 54 ~ "45-54",
+      age >= 55 & age <= 64 ~ "55-64",
+      age >= 65             ~ "+65",
+    ),
+    gender = case_when(
+      gend == 1 ~ "Male",
+      gend == 2 ~ "Female",
+      gend >= 3 ~ "Other"
+    ),
+    iq_groups = case_when(
+      income_quintile == 1 ~ "Income Quintile 1",
+      income_quintile == 2 ~ "Income Quintile 2",
+      income_quintile == 3 ~ "Income Quintile 3",
+      income_quintile == 4 ~ "Income Quintile 4",
+      income_quintile == 5 ~ "Income Quintile 5"
+    )
+  )
+master_data_gpp <- master_data_gpp %>%
+  left_join(
+    addSpecial(master_data_gpp),
+    by = "country_year_id"
   )
   
 master_data_qrq <- read_dta(
   file.path(
     path2EU,
-    "EU-S Data/eu-qrq/1. Data/eu_qrq_nuts.dta"
+    "EU-S Data/eu-qrq/1. Data/eu_qrq_nuts_final.dta"
   )
-) %>%
-  rename( # renaming so I can apply wrangleData
-    country_name_ltn = country,
-    nuts_id = nuts
-  )
-
-
-# master_data <- master_data %>%
-#   left_join(
-#     add_A2J(master_data)
-#   )
+)
 
 # Loading outline
 outline <- read.xlsx(
@@ -103,54 +130,51 @@ region_names <- read.xlsx(
 
 # Create a named list to loop over
 chart_list <- list(
-  "GPP" = c(3,4,7,9,10,12:17,19:23,25:27,31,32,34:36,38:40,42:48,53:56,58:62,68,
-            71:74,76,78,79,86:94,96,97,99,101,102,104:108,110,112,126,127,130,131,134,137:140,
-            143:147,149:151,155:165,167:170,172,176,177,179:182),
-  "QRQ" = c(1,2,5,6,8,11,18,24,28,29,30,33,37,49:52,57,63,64,65,70,75,77,82,84,85,95,98,
-            100,103,109,111,124,128,132,135,136,141,148,154,171,173,174,175,178,184:186),
-  "Scatter" = c(41, 80, 83, 125, 129, 133, 142)
+  "GPP"     = outline %>% 
+    filter(special_wrangling == F & description == "GPP") %>% 
+    pull(chart_id),
+  "QRQ"     = outline %>% 
+    filter(special_wrangling == F & description == "QRQ") %>% 
+    pull(chart_id),
+  "Special" = outline %>%
+    filter(special_wrangling == T) %>%
+    pull(chart_id)
 )
 
-
-
-# getting names
-chart_list <- lapply(chart_list, function(vec){
-  names(vec) <- paste("Chart", vec)
-  return(vec)
-})
-
-data_points <-list()
-
-# apply appropriate wrangling function and append to data points large list
-for (category in names(chart_list)){
-  chart_n_vector <- chart_list[[category]]
-  if (category == "QRQ"){
-    result <- lapply(chart_n_vector, function(chart_n) wrangleData(chart_n, 'qrq'))
-  }else if (category == "GPP"){
-    result <- lapply(chart_n_vector, function(chart_n) wrangleData(chart_n, 'gpp'))
-  }else if (category == "Scatter"){
-   result <- lapply(chart_n_vector, function(chart_n) wrangleData_scatter(chart_n))
-  }
-  data_points <- c(data_points, result)
-}
-
-
-# Collapsing and saving data points data
-data_points_df <- bind_rows(
-  imap(
-    data_points,
-    function(df, chart_n){
-      df %>%
-        mutate(
-          chart = str_replace(chart_n, "Chart ", "")
-        )
+# Getting data points
+data_points <- imap(
+  chart_list,
+  function(clist, source){
+    
+    # Applying wrangling function (different for GPP/QRQ)
+    wrangled_data_list <- lapply(
+      clist,
+      function(chart){
+        wrangled_data <- wrangleData(figid = chart, source = source)
+      }
+    )
+    
+    if (source %in% c("GPP", "QRQ")) {
+      # Getting country+EU averages
+      wrangled_data <- getAvgData(
+        bind_rows(wrangled_data_list)
+      )
+      
+      # Saving data for website
+      save4web(
+        wrangled_data %>%
+          filter(!chart_id %in% c("R1B1")), # We can skip the data from the Report1, Box 1, it is repeated
+        source = source
+      )
+      
+      return(wrangled_data)
     }
-  ))
-
-# regional data 
-data_points_df_total <- getAvgData()   
-
-write_csv(data_points_df_total, "data_points.csv")
+    if (source %in% c("Special")){
+      names(wrangled_data_list) <- chart_list[["Special"]]
+      return(wrangled_data_list)
+    }
+  }
+)
 
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -159,10 +183,5 @@ write_csv(data_points_df_total, "data_points.csv")
 ##
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-# Calling the visualizer for each chart
-lapply(
-   chart_list,
-   callVisualizer
- )
 
 
