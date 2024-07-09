@@ -565,9 +565,9 @@ addSpecial <- function(data){
           AJD_adviser_2 == 1 | AJD_adviser_3 == 1 | AJD_adviser_4 == 1 | 
           AJD_adviser_5 == 1 | AJD_adviser_6 == 1 | AJD_adviser_8 == 1
         ) ~ 1,
-        AJD_inst_advice == 1 & AJD_adviser_1 == 1 & AJD_expert_adviser == 1 ~ 1,
-        AJD_inst_advice == 2 & (AJD_noadvice_reason %in% c(1,3))            ~ 1,  # Friend/Family with legal background
-        AJD_inst_advice == 2 | AJD_inst_advice == 98 ~ 0
+        # AJD_inst_advice == 1 & AJD_adviser_1 == 1 & AJD_expert_adviser == 1 ~ 1, # Friend/Family with legal background
+        AJD_inst_advice == 2 & (AJD_noadvice_reason %in% c(1,3)) ~ 1,  
+        AJD_inst_advice == 2 | AJD_inst_advice == 98             ~ 0
       ),
       
       # Access to a dispute resolution mechanism
