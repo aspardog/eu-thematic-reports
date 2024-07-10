@@ -1,20 +1,12 @@
 genMap <- function(dta){
   
-  # instead of patchwork with the table, main maps and 3
-  # insets at the bottom, make this two elements (table and main map)
-  # assemble with patchwork and add insets on the top right corner of the map
-  
   # Creating table
   table <- dta %>%
-    group_by(country_name_ltn) %>%
-    summarise(
-      avg_value = mean(value2plot, na.rm = T),
-      .groups   = "keep"
-    ) %>%
-    
+    ungroup() %>%
+    filter(level == "national" & demographic == "Total Sample") %>%
     mutate(
       ` ` = "",
-      `%` = round(avg_value*100, 1)
+      `%` = round(value2plot*100, 1)
     ) %>%
     arrange(country_name_ltn) %>%
     select(
@@ -46,11 +38,11 @@ genMap <- function(dta){
           part  = "all") %>%
     bold(bold = FALSE, 
          part = "header") %>%
-    flextable::style(pr_t = fp_text(font.size   = 16, 
+    flextable::style(pr_t = fp_text(font.size   = 12, 
                                     color       = "#524F4C",
                                     font.family = "Lato Full"), 
                      part = "header") %>%
-    flextable::style(pr_t = fp_text(font.size   = 13, 
+    flextable::style(pr_t = fp_text(font.size   = 8, 
                                     color       = "#524F4C",
                                     font.family = "Lato Full"), 
                      part = "body") %>%
@@ -75,8 +67,10 @@ genMap <- function(dta){
       
       # Merging map layers with data
       data4map <- panel %>% 
-        left_join(dta, 
-                  by = c("polID" = "nuts_id")
+        left_join(
+          dta %>% 
+            filter(level == "regional" & demographic == "Total Sample"), 
+          by = c("polID" = "nuts_id")
         ) %>%
         mutate(
           color_group = case_when(
@@ -138,36 +132,36 @@ genMap <- function(dta){
             panel.border    = element_rect(colour    = "#e6e7e8", 
                                            fill      = NA, 
                                            linewidth = 0.75),
-            plot.margin = margin(2,2,2,2)
+            plot.margin = margin(2,0,0,2)
           )
       }
       
       return(p)
     }
   )
-
+  
+  # Inserting inset map boxes
   main_map <- panels[["Main"]]
   insets <- list(panels[["Canarias/Madeiras"]], panels[["Açores"]], panels[["Cyprus"]])
   
   inset_grobs <- lapply(insets, ggplotGrob)
   
   main_map_with_insets <- main_map +
-    annotation_custom(grob = inset_grobs[[1]], xmin = 5.5e6, xmax = 6e6, ymin = 4.3e6, ymax = 5.5e6) +
-    annotation_custom(grob = inset_grobs[[2]], xmin = 5.5e6, xmax = 6e6, ymin = 3.6e6, ymax = 4.8e6) +
-    annotation_custom(grob = inset_grobs[[3]], xmin = 5.5e6, xmax = 6e6, ymin = 2.9e6, ymax = 4.1e6)
+    annotation_custom(grob = inset_grobs[[1]], xmin = 5.5e6, xmax = 6e6, ymin = 4.1e6, ymax = 5.3e6) +
+    annotation_custom(grob = inset_grobs[[2]], xmin = 5.5e6, xmax = 6e6, ymin = 3.4e6, ymax = 4.4e6) +
+    annotation_custom(grob = inset_grobs[[3]], xmin = 5.5e6, xmax = 6e6, ymin = 2.5e6, ymax = 3.7e6)
   
   
-layout <- "
+  layout <- "
   ABB
   ABB
   ABB
   ABB
-"
-
+  "
   
-patch <- wrap_elements(tpanel) + main_map_with_insets +
-  plot_layout(
-    design = layout, heights = c(1)  )
+  patch <- wrap_elements(tpanel) + main_map_with_insets +
+    plot_layout(
+      design = layout, heights = c(1))
 
 
   return(patch)

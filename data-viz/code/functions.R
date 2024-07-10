@@ -42,12 +42,17 @@ resetDirs <- function(){
 }
 
  
-saveIT <- function(chart, n, w, h) {
+saveIT <- function(chart, figid, w, h) {
    ggsave(
      plot   = chart,
-     file   = file.path( #PLACEHOLDER UNTIL VIZ OUTPUT FINALIZED -- replace with local path
-                        "C:\\Users\\icoddington\\Github\\eu-thematic-reports\\data-viz\\output", paste0("chart_", n, ".svg"),
-                        fsep = "/"
+     file   = file.path(
+       path2EU,
+       paste0(
+         "EU-S Data/reports/eu-thematic-reports/data-viz/output/charts/",
+         str_match(figid, "R[^F]"), "/",
+         figid, ".svg"
+       ),
+       fsep = "/"
      ), 
      width  = w, 
      height = h,
@@ -64,35 +69,71 @@ getInsets <- function(targets){
          })
 }
 
-callVisualizer <- function(chart_n) {
+
+callVisualizer <- function(figid) {
+  
+  # Retrieving parameters
+  source <- outline %>%
+    filter(chart_id == figid) %>%
+    pull(description) 
+  
+  geolevel <- outline %>%
+    filter(chart_id == figid) %>%
+    pull(level)
+  
+  dem <- outline %>%
+    filter(chart_id == figid) %>%
+    pull(demographic) 
   
   type <- outline %>%
-    filter(n == chart_n) %>%
-    slice(1) %>%
-    pull(type) 
+    filter(chart_id == figid) %>%
+    pull(type)
   
-  data4chart <- data_points[[paste("Chart", chart_n)]]
-  
-  if (type == "map"){
-    chart <- genMap(data4chart)
-  }
-  if (type == "scatterplot"){
-    chart <- scatterPlot(data4chart)
-  }
-  if (type == "dumbell"){
-    chart <- dumbellChart(data4chart)
-  }
-  
-  saveIT(
-    chart = chart, 
-    n = chart_n, 
-    w = 189.7883, 
-    h = 168.7007
+  demographic_options <- list(
+    "Total"  = c("Total Sample"),
+    "Gender" = c("Female", "Male")
   )
   
-  return(chart)
+  # Retrieving data
+  data4chart <- data_points[[source]] %>%
+    filter(
+      chart_id %in% figid
+    )
   
+  # Calling the appropriate viz function
+  if (type == "Map"){
+    
+    # Drawing map
+    chart <- genMap(data4chart)
+    
+    # Saving chart locally
+    saveIT(
+      chart = chart, 
+      figid = figid, 
+      w = 189.7883, 
+      h = 168.7007
+    )
+  } else if (type == "Dumbbells") {
+    
+    # Drawing chart
+    chart <- genDumbbells(data4chart)
+    
+    # Saving chart locally
+    saveIT(
+      chart = chart, 
+      figid = figid, 
+      w = 189.7883, 
+      h = 168.7007
+    )
+    
+    
+  } else {
+    chart <- NULL
+  }
+  
+  return(chart)
 }
+
 
 getAvgData <- function(data){
   
@@ -139,8 +180,8 @@ getAvgData <- function(data){
     )
   
   return(data_out)
-  
 }
+
 
 save4web <- function(data, source){
   

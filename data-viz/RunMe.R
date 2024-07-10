@@ -183,5 +183,11 @@ data_points <- imap(
 ##
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-
-
+# Calling the visualizer for each chart
+lapply(
+  outline %>% 
+    filter(thematic_reports == T) %>% 
+    filter(type == "Dumbbells") %>%
+    pull(chart_id),
+  callVisualizer
+)
