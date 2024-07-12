@@ -137,9 +137,9 @@ chart_list <- list(
   "GPP"     = outline %>% 
     filter(special_wrangling == F & description == "GPP") %>% 
     pull(chart_id),
-  "QRQ"     = outline %>% 
-    filter(special_wrangling == F & description == "QRQ") %>% 
-    pull(chart_id),
+  # "QRQ"     = outline %>% 
+  #   filter(special_wrangling == F & description == "QRQ") %>% 
+  #   pull(chart_id),
   "Special" = outline %>%
     filter(special_wrangling == T) %>%
     pull(chart_id)
@@ -158,7 +158,7 @@ data_points <- imap(
       }
     )
     
-    if (source %in% c("GPP", "QRQ")) {
+    if (source %in% c("GPP")) { # omitted QRQ
       # Getting country+EU averages
       wrangled_data <- getAvgData(
         bind_rows(wrangled_data_list)
@@ -180,6 +180,10 @@ data_points <- imap(
   }
 )
 
+writexl::write_xlsx(data_points$Special,file.path(path2EU,
+  "EU-S Data/reports/eu-thematic-reports/data-viz/output/special_datapoints.xlsx"
+  )
+) 
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ##

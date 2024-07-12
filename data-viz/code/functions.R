@@ -434,10 +434,10 @@ wrangleData <- function(figid, source){
       data2plot <- wrangleBivariate(figid = figid)
     }
     if (type %in% c("Map (Categorical)")){
-      data2plot <- NULL
+      data2plot <- wrangleMostFrequent(figid = figid)
     }
     if (type %in% c("Table")){
-      data2plot <- NULL
+      data2plot <- wrangle_PrevalenceByCategory(figid = figid)
     }
     
     return(data2plot)
@@ -793,5 +793,287 @@ wrangleBivariate <- function(figid){
   
   return(data_wide)
   
+}
+
+
+wrangleMostFrequent <- function(figid){
+  
+  
+  discrimination_reason_vars <- c("DIS_sex",       
+                                  "DIS_age",      
+                                  "DIS_health",   
+                                  "DIS_ethni",    
+                                  "DIS_migration", 
+                                  "DIS_ses",       
+                                  "DIS_location",  
+                                  "DIS_religion",  
+                                  "DIS_family",    
+                                  "DIS_gender",    
+                                  "DIS_politics")
+  
+  
+  discrimination_instance_vars <- c("DIS_exp_1", 
+                                    "DIS_exp_2", 
+                                    "DIS_exp_3", 
+                                    "DIS_exp_4", 
+                                    "DIS_exp_5", 
+                                    "DIS_exp_6", 
+                                    "DIS_exp_7", 
+                                    "DIS_exp_8", 
+                                    "DIS_exp_9", 
+                                    "DIS_exp_10",
+                                    "DIS_exp_11",
+                                    "DIS_exp_12")
+  bribery_vars <- c("BRB_permit_B",   
+                    "BRB_benefits_B", 
+                    "BRB_id_B",       
+                    "BRB_school_B",   
+                    "BRB_health_B")   
+  
+  discrimination_full_names <- c(
+    DIS_sex = "Sex discrimination",
+    DIS_age = "Age discrimination",
+    DIS_health = "Disability or health discrimination",
+    DIS_ethni = "Ethnicity, skin color or language discrimination",
+    DIS_migration = "Migration status discrimination",
+    DIS_ses = "Socio-economic status discrimination",
+    DIS_location = "Geographic location or place of residence discrimination",
+    DIS_religion = "Religious discrimination",
+    DIS_family = "Marital and family status discrimination",
+    DIS_gender = "Sexual orientation or gender identity discrimination",
+    DIS_politics = "Political opinion discrimination"
+  )
+  
+  bribery_full_names <- c(
+    BRB_permit_B = "Permit in a local government office",
+    BRB_benefits_B = "Public benefits or government assistance",
+    BRB_id_B = "Birth certificate or government ID card",
+    BRB_school_B = "Public education service",
+    BRB_health_B = "Public health service"
+  )
+  
+  discrimination_instance_names <- c(
+    DIS_exp_1 =  "Work-related incidents",
+    DIS_exp_2 =  "Job application incidents",
+    DIS_exp_3 =  "Commercial establishment incidents",
+    DIS_exp_4 =  "Public transport or place incidents",
+    DIS_exp_5 =  "Household incidents",
+    DIS_exp_6 =  "Healthcare service incidents",
+    DIS_exp_7 =  "School or class incidents",
+    DIS_exp_8 =  "Housing search incidents",
+    DIS_exp_9 =  "Incidents with police and courts",
+    DIS_exp_10 = "Incidents with political participation",
+    DIS_exp_11 = "Social media related incidents",
+    DIS_exp_12 = "Miscellaneous"
+  )
+
+  target <- outline %>%
+    filter(chart_id %in% figid) %>%
+    pull(target_var_1)
+  
+  # most common reason for discrimination
+  if (target == "discrimination2"){
+    
+    # transform discrimination reasons to boolean (1, 0)
+    master_data_gpp[discrimination_reason_vars] <- lapply(
+      master_data_gpp[discrimination_reason_vars], 
+      function(x) ifelse(x == 1, 1,0)
+      )
+    
+    # group by nuts_id and calculate counts of each per region
+    discrimination_reason_summary <- master_data_gpp %>%
+      group_by(nuts_id) %>%
+      summarize(
+        across(all_of(discrimination_reason_vars), 
+               sum, 
+               na.rm = TRUE)) %>%
+      pivot_longer(-nuts_id, 
+                   names_to = "discrimination_reason", 
+                   values_to = "count") %>%
+      group_by(nuts_id) %>%
+      # store highest count as value2plot
+      slice_max(order_by = count, n = 1) %>%
+      ungroup() %>%
+      rename(value2plot = discrimination_reason) %>%
+      left_join(master_data_gpp %>% 
+                  select(
+                    nuts_id, 
+                    country_name_ltn
+                    ) %>% 
+                  distinct(), by = "nuts_id") %>%
+      mutate(chartid = figid) %>%
+      # replace value2plot with the descriptions in full_names
+      mutate(value2plot = case_when(
+        value2plot %in% names(discrimination_full_names) ~ discrimination_full_names[value2plot]
+      ))
+    return (discrimination_reason_summary)
+    
+    # most common bribery situation
+  } else if (target == "bribery2") {
+    master_data_gpp[bribery_vars] <- lapply(
+      master_data_gpp[bribery_vars], 
+      function(x) ifelse(x == 1, 1, 0))
+    
+    # group by nuts id and calculate counts of each situation
+    bribery_summary <- master_data_gpp %>%
+      group_by(nuts_id) %>%
+      summarize(
+        across(all_of(bribery_vars), 
+               sum, 
+               na.rm = TRUE)) %>%
+      pivot_longer(-nuts_id, 
+                   names_to = "bribery_instance", 
+                   values_to = "count") %>%
+      group_by(nuts_id) %>%
+      # value2plot should be the situation with highest count
+      slice_max(order_by = count, n = 1) %>%
+      ungroup() %>%
+      rename(value2plot = bribery_instance) %>%
+      left_join(master_data_gpp %>% 
+                  select(
+                    nuts_id, 
+                    country_name_ltn) %>% 
+                  distinct(), 
+                by = "nuts_id") %>%
+      mutate(chartid = figid)  %>%
+      # get the descriptive name of the bribery situation
+      mutate(value2plot = case_when(
+        value2plot %in% names(bribery_full_names) ~ bribery_full_names[value2plot]
+      ))
+    
+    return (bribery_summary)
+    
+  } else if (target == "discrimination3") {
+    # transform to boolean
+    master_data_gpp[discrimination_instance_vars] <- lapply(
+      master_data_gpp[discrimination_instance_vars], 
+      function(x) ifelse(x == 1, 1, 0)
+      )
+    
+    # top 3 instances overall
+    overall_summary <- master_data_gpp %>%
+      summarize(
+        across(
+          all_of(discrimination_instance_vars), 
+          sum, 
+          na.rm = TRUE)
+        ) %>%
+      pivot_longer(
+        everything(), 
+        names_to = "discrimination_instance", 
+        values_to = "count") %>%
+      arrange(desc(count)) %>%
+      slice_max(
+        order_by = count, 
+        n = 3) %>%
+      pull(discrimination_instance) 
+    
+    # most common instance of top 3 (or "other")
+    discrimination_summary <- master_data_gpp %>%
+      group_by(nuts_id) %>%
+      summarize(
+        across(
+          all_of(discrimination_instance_vars), 
+          sum, 
+          na.rm = TRUE)
+        ) %>%
+      pivot_longer(
+        -nuts_id, 
+        names_to = "discrimination_instance", 
+        values_to = "count"
+        ) %>%
+      group_by(nuts_id) %>%
+      slice_max(
+        order_by = count, 
+        n = 1
+        ) %>%
+      ungroup() %>%
+      mutate(
+        value2plot = ifelse(
+          # if the instance is in top 3 overall, store as value2plot
+          # otherwise value2plot will be other
+          discrimination_instance %in% overall_summary, 
+          discrimination_instance,
+          "other"),
+        value2plot = case_when(
+          value2plot %in% names(discrimination_instance_names) 
+          ~ discrimination_instance_names[value2plot],
+          TRUE ~ "other"
+        )) %>%
+      select(
+        nuts_id, 
+        value2plot) %>%
+      left_join(
+        master_data_gpp %>% select(
+          nuts_id, 
+          country_name_ltn) %>% distinct(), by = "nuts_id"
+        ) %>%
+      mutate(chartid = figid)
+    return (discrimination_summary)
+  }
+  
+}
+
+wrangle_PrevalenceByCategory <- function(figid){
+  legalProblems <- c(
+    "A1", "A2", "A3", "B1", "B2", "B3", "B4", "C1", "C2", "C3", "C4", 
+    "D1", "D2", "D3", "D4", "D5", "D6", "E1", "E2", "E3", "F1", "F2", 
+    "G1", "G2", "G3", "H1", "H2", "H3", "I1", "J1", "J2", "J3", "J4", 
+    "K1", "K2", "K3", "L1", "L2"
+  )
+  legprob_bin <- paste0("AJP_", legalProblems, "_bin")
+  
+  # categories for each legal problem
+  legalProblemCategories <- c(
+    rep("consumer", 3), rep("land", 4), rep("housing", 4), rep("family", 6),
+    rep("education", 3), rep("injury", 2), rep("employment", 3), rep("public services", 3),
+    rep("law enforcement", 1), rep("citizenship and ID", 4), rep("community resources", 3),
+    rep("money and debt", 2)
+  )
+  names(legalProblemCategories) <- legprob_bin
+  
+  master_data_gpp <- master_data_gpp %>%
+    mutate(
+      across(all_of(legprob_bin),
+             ~ ifelse(. == 1, 1, 0))
+      )
+  
+  legal_problem_summary <- master_data_gpp %>%
+    group_by(
+      country_name_ltn, 
+      nuts_id) %>%
+    summarise(
+      across(all_of(legprob_bin),
+             sum, na.rm = TRUE), 
+      .groups = "drop") %>%
+    pivot_longer(
+      cols = all_of(legprob_bin), 
+      names_to = "legal_problem", 
+      values_to = "count") %>%
+    mutate(
+      category = legalProblemCategories[legal_problem]
+      ) %>%
+    group_by(
+      country_name_ltn, 
+      nuts_id, 
+      category) %>%
+    summarise(
+      total_count = sum(count),
+      .groups = "drop") %>%
+    group_by(
+      country_name_ltn, 
+      nuts_id) %>%
+    slice_max(
+      total_count,
+      n = 1, 
+      with_ties = FALSE) %>%
+    ungroup() %>%
+    select(
+      country_name_ltn, 
+      nuts_id, 
+      value2plot = category) %>%
+    mutate(chartid = figid)
+  
+  return(legal_problem_summary)
 }
 
