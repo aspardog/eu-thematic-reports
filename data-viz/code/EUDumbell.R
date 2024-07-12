@@ -50,7 +50,7 @@ genDumbbells <- function(dta){
       limits = rev(
         levels(
           factor(
-            data4chart %>% 
+            data2plot %>% 
               filter(country_name_ltn != "European Union") %>%
               pull(country_name_ltn)
           )

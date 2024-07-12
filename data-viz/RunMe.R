@@ -72,6 +72,10 @@ master_data_gpp <- read_dta(
       income_quintile == 3 ~ "Income Quintile 3",
       income_quintile == 4 ~ "Income Quintile 4",
       income_quintile == 5 ~ "Income Quintile 5"
+    ),
+    urban_string = case_when(
+      urban == 1 ~ "Urban",
+      urban == 2 ~ "Rural"
     )
   )
 master_data_gpp <- master_data_gpp %>%
@@ -187,7 +191,7 @@ data_points <- imap(
 lapply(
   outline %>% 
     filter(thematic_reports == T) %>% 
-    filter(type == "Dumbbells") %>%
+    filter(type %in% c("Dumbbells", "Map")) %>%
     pull(chart_id),
   callVisualizer
 )

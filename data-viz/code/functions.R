@@ -354,7 +354,7 @@ wrangleData <- function(figid, source){
     }
     
     # Sub-setting data
-    base_variables <- c("country_name_ltn", "nuts_id", "age_groups", "gender", "iq_groups")
+    base_variables <- c("country_name_ltn", "nuts_id", "age_groups", "gender", "iq_groups", "urban_string")
     data_subset <- master_data_gpp %>%
       select(
         all_of(base_variables), 
@@ -374,7 +374,7 @@ wrangleData <- function(figid, source){
     
     # Getting extended (ALL) data points
     data_points_extended_list <- lapply(
-      c("total_anchor", "age_groups", "gender", "iq_groups"), 
+      c("total_anchor", "age_groups", "gender", "iq_groups", "urban_string"), 
       function(gvar, demograph){
         
         data_subset %>%
