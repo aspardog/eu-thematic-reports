@@ -158,7 +158,7 @@ data_points <- imap(
       }
     )
     
-    if (source %in% c("GPP")) { # omitted QRQ
+    if (source %in% c("GPP", "QRQ")) { # omitted QRQ
       # Getting country+EU averages
       wrangled_data <- getAvgData(
         bind_rows(wrangled_data_list)

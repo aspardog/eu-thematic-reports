@@ -875,7 +875,7 @@ wrangleMostFrequent <- function(figid){
     DIS_exp_11 = "Social media related incidents",
     DIS_exp_12 = "Miscellaneous"
   )
-
+  
   target <- outline %>%
     filter(chart_id %in% figid) %>%
     pull(target_var_1)
@@ -887,7 +887,7 @@ wrangleMostFrequent <- function(figid){
     master_data_gpp[discrimination_reason_vars] <- lapply(
       master_data_gpp[discrimination_reason_vars], 
       function(x) ifelse(x == 1, 1,0)
-      )
+    )
     
     # group by nuts_id and calculate counts of each per region
     discrimination_reason_summary <- master_data_gpp %>%
@@ -908,7 +908,7 @@ wrangleMostFrequent <- function(figid){
                   select(
                     nuts_id, 
                     country_name_ltn
-                    ) %>% 
+                  ) %>% 
                   distinct(), by = "nuts_id") %>%
       mutate(chartid = figid) %>%
       # replace value2plot with the descriptions in full_names
@@ -957,7 +957,7 @@ wrangleMostFrequent <- function(figid){
     master_data_gpp[discrimination_instance_vars] <- lapply(
       master_data_gpp[discrimination_instance_vars], 
       function(x) ifelse(x == 1, 1, 0)
-      )
+    )
     
     # top 3 instances overall
     overall_summary <- master_data_gpp %>%
@@ -966,7 +966,7 @@ wrangleMostFrequent <- function(figid){
           all_of(discrimination_instance_vars), 
           sum, 
           na.rm = TRUE)
-        ) %>%
+      ) %>%
       pivot_longer(
         everything(), 
         names_to = "discrimination_instance", 
@@ -985,17 +985,17 @@ wrangleMostFrequent <- function(figid){
           all_of(discrimination_instance_vars), 
           sum, 
           na.rm = TRUE)
-        ) %>%
+      ) %>%
       pivot_longer(
         -nuts_id, 
         names_to = "discrimination_instance", 
         values_to = "count"
-        ) %>%
+      ) %>%
       group_by(nuts_id) %>%
       slice_max(
         order_by = count, 
         n = 1
-        ) %>%
+      ) %>%
       ungroup() %>%
       mutate(
         value2plot = ifelse(
@@ -1016,7 +1016,7 @@ wrangleMostFrequent <- function(figid){
         master_data_gpp %>% select(
           nuts_id, 
           country_name_ltn) %>% distinct(), by = "nuts_id"
-        ) %>%
+      ) %>%
       mutate(chartid = figid)
     return (discrimination_summary)
   }
@@ -1045,12 +1045,11 @@ wrangle_PrevalenceByCategory <- function(figid){
     mutate(
       across(all_of(legprob_bin),
              ~ ifelse(. == 1, 1, 0))
-      )
+    )
   
   legal_problem_summary <- master_data_gpp %>%
     group_by(
-      country_name_ltn, 
-      nuts_id) %>%
+      country_name_ltn) %>%
     summarise(
       across(all_of(legprob_bin),
              sum, na.rm = TRUE), 
@@ -1061,26 +1060,19 @@ wrangle_PrevalenceByCategory <- function(figid){
       values_to = "count") %>%
     mutate(
       category = legalProblemCategories[legal_problem]
-      ) %>%
+    ) %>%
     group_by(
-      country_name_ltn, 
-      nuts_id, 
+      country_name_ltn,
       category) %>%
     summarise(
       total_count = sum(count),
       .groups = "drop") %>%
     group_by(
-      country_name_ltn, 
-      nuts_id) %>%
-    slice_max(
-      total_count,
-      n = 1, 
-      with_ties = FALSE) %>%
+      country_name_ltn) %>%
+    mutate(total_incidents = sum(total_count)) %>%
+    mutate(value2plot = (total_count / total_incidents) * 100) %>%
     ungroup() %>%
-    select(
-      country_name_ltn, 
-      nuts_id, 
-      value2plot = category) %>%
+    select(country_name_ltn, category, total_count, total_incidents, value2plot) %>%
     mutate(chartid = figid)
   
   return(legal_problem_summary)
