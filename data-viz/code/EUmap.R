@@ -61,6 +61,23 @@ genMap <- function(dta){
                      just = c("left", "top"),
                      wrapping = TRUE)
   
+  # Defining unique colors for map regions
+  inner_regions <- dta %>% 
+    ungroup() %>% 
+    distinct(nuts_id) %>% 
+    pull(nuts_id)
+  outer_regions <- base_map %>% 
+    filter(!polID %in% inner_regions) %>% 
+    pull(polID)
+  border_color        <- c(region_names$unique_border, 
+                           rep("#ABA1A7", length((outer_regions))))
+  names(border_color) <- c(region_names$nuts_id, 
+                           outer_regions)
+  label_color         <- c(region_names$unique_label, 
+                           rep("#212429", length((outer_regions))))
+  names(label_color)  <- c(region_names$nuts_id, 
+                           outer_regions)
+  
   # Drawing individual panels
   panels <- imap(
     map_layers, function(panel, panel_name){
@@ -81,7 +98,25 @@ genMap <- function(dta){
             value2plot >  0.75 & value2plot <= 0.90 ~ "75%-90%",
             value2plot >  0.90 & value2plot <= 1.00 ~ "90%-100%"
           ),
-          color_group = as.factor(color_group)
+          color_group  = as.factor(color_group)
+        )
+      
+      centroids <- data4map %>%
+        filter(polID %in% inner_regions) %>%
+        st_centroid() %>%
+        mutate(
+          lon = st_coordinates(.)[,1],
+          lat = st_coordinates(.)[,2],
+          tooltip = paste0(
+            "**",nameSHORT,"**<br>",
+            "_",country_name_ltn,"_<br>",
+            "Percentage:",
+            paste0(
+              format(round(value2plot*100, 1),
+                     nsmall = 1),
+              "%"
+            )
+          )
         )
       
       country_level <- data4map %>%
@@ -91,8 +126,11 @@ genMap <- function(dta){
       # Drawing plot
       p <- ggplot() +
         geom_sf(data  = data4map,
-                aes(fill = color_group),
-                color = "grey65",
+                aes(
+                  fill  = color_group,
+                  color = polID 
+                ),
+                # color = "grey65",
                 size  = 0.5) +
         geom_sf(data  = country_level,
                 fill  = NA,
@@ -100,7 +138,29 @@ genMap <- function(dta){
         scale_fill_manual("",
                           values   = cat_palette,
                           na.value = "grey95",
-                          drop = F)
+                          drop = F) +
+        scale_colour_manual("",
+                            values   = border_color,
+                            na.value = "#ABA1A7",
+                            drop = F) +
+        new_scale_colour() +
+        geom_richtext(data = centroids,
+                   aes(
+                     y      = lat,
+                     x      = lon,
+                     label  = tooltip,
+                     colour = polID,
+                   ),
+                   family   = "Lato Full",
+                   fontface = "plain",
+                   size     = 3,
+                   fill  = "white",
+                   vjust = "inward",
+                   hjust = "inward") +
+        scale_colour_manual("",
+                            values   = label_color,
+                            na.value = "#212429",
+                            drop = F)
       
       if (panel_name == "Main"){
         p <- p +
@@ -108,6 +168,8 @@ genMap <- function(dta){
           scale_x_continuous(limits = c(2581570, 6017160)) +
           theme_minimal() +
           theme(
+            axis.title.x    = element_blank(),
+            axis.title.y    = element_blank(),
             axis.text       = element_blank(),
             legend.position = "none",
             panel.grid      = element_blank(),
@@ -119,6 +181,7 @@ genMap <- function(dta){
       } else {
         p <- p +
           labs(x = panel_name) +
+          coord_sf(clip = "off") +
           theme_minimal() +
           theme(
             panel.background = element_rect(fill = "white"),
@@ -167,3 +230,13 @@ genMap <- function(dta){
   return(patch)
   
 }
+
+ggsave(
+  plot   = chart,
+  file   = "/Users/ctoruno/Downloads/new_map.svg", 
+  width  = 189.7883, 
+  height = 168.7007,
+  units  = "mm",
+  dpi    = 72,
+  device = "svg"
+)

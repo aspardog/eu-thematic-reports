@@ -123,7 +123,7 @@ map_layers <- c(
 region_names <- read.xlsx(
   "inputs/region_labels.xlsx"
 ) %>%
-  select(nuts_id, nameSHORT, pop_weight = regionpoppct)
+  select(nuts_id, nameSHORT, pop_weight = regionpoppct, unique_border = border, unique_label = label)
 
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -137,9 +137,9 @@ chart_list <- list(
   "GPP"     = outline %>% 
     filter(special_wrangling == F & description == "GPP") %>% 
     pull(chart_id),
-  # "QRQ"     = outline %>% 
-  #   filter(special_wrangling == F & description == "QRQ") %>% 
-  #   pull(chart_id),
+  "QRQ"     = outline %>%
+    filter(special_wrangling == F & description == "QRQ") %>%
+    pull(chart_id),
   "Special" = outline %>%
     filter(special_wrangling == T) %>%
     pull(chart_id)

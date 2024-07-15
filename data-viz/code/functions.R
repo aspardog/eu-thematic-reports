@@ -126,7 +126,6 @@ callVisualizer <- function(figid) {
       h = 168.7007
     )
     
-    
   } else {
     chart <- NULL
   }
@@ -261,6 +260,16 @@ save4web <- function(data, source){
       path2EU,
       "EU-S Data/reports/eu-thematic-reports/data-viz/output",
       paste0("data4web_", tolower(source), ".csv")
+    )
+  )
+  writexl::write_xlsx(
+    write_csv(
+      data4web,
+      file.path(
+        path2EU,
+        "EU-S Data/reports/eu-thematic-reports/data-viz/output",
+        paste0("data4web_", tolower(source), ".xlsx")
+      )
     )
   )
   
