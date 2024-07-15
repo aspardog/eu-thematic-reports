@@ -230,13 +230,3 @@ genMap <- function(dta){
   return(patch)
   
 }
-
-ggsave(
-  plot   = chart,
-  file   = "/Users/ctoruno/Downloads/new_map.svg", 
-  width  = 189.7883, 
-  height = 168.7007,
-  units  = "mm",
-  dpi    = 72,
-  device = "svg"
-)
