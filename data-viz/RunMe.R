@@ -35,6 +35,13 @@ source("code/functions.R")
 source("code/EUDumbell.R")
 source("code/EUmap.R")
 source("code/EUScatterplot.R")
+source("code/EUTable.R")
+source("code/EUCategoricalMap.R")
+source("code/EUDots.R")
+source("code/EULollipop.R")
+source("code/EUTable.R")
+source("code/validation.R")
+source("code/EUBars.R")
 
 # Loading data
 master_data_gpp <- read_dta(
@@ -64,7 +71,7 @@ master_data_gpp <- read_dta(
     gender = case_when(
       gend == 1 ~ "Male",
       gend == 2 ~ "Female",
-      gend >= 3 ~ "Other"
+      # gend >= 3 ~ "Other"   # omit "other"
     ),
     iq_groups = case_when(
       income_quintile == 1 ~ "Income Quintile 1",
@@ -106,7 +113,7 @@ base_map <- st_read(
     "8. Data/EU-NUTS-GIS/EU_base_map.geojson"
   )
 ) %>%
-  filter(!(polID %in% c("GL")))
+  filter(!(polID %in% c("GL", "IS")))
 
 insets <- getInsets(list(
   "Canarias/Madeiras" = c("ES7", "PT3"),
@@ -180,6 +187,8 @@ data_points <- imap(
   }
 )
 
+data_points <- impute_values(data_points)
+
 writexl::write_xlsx(data_points$Special,file.path(path2EU,
   "EU-S Data/reports/eu-thematic-reports/data-viz/output/special_datapoints.xlsx"
   )
@@ -195,7 +204,7 @@ writexl::write_xlsx(data_points$Special,file.path(path2EU,
 lapply(
   outline %>% 
     filter(thematic_reports == T) %>% 
-    filter(type %in% c("Dumbbells", "Map")) %>%
+    filter(type %in% c("Dumbbells")) %>%
     pull(chart_id),
   callVisualizer
 )

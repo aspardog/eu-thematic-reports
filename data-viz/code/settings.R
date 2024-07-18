@@ -25,7 +25,7 @@
 library(pacman)
 p_load(char = c(
   # Visualizations
-  "showtext", "ggtext", "patchwork", "cowplot", "flextable", "officer", "ggnewscale",
+  "showtext", "ggtext","grid", "patchwork", "cowplot", "flextable", "officer", "ggnewscale", "ggiraph", "ggExtra",
   
   # Data Loading
   "haven", "writexl", "openxlsx",
@@ -135,5 +135,9 @@ cat_palette <- c("0%-10%"   = "#E03849",
                  "75%-90%"  = "#0C75B6",
                  "90%-100%" = "#18538E")
 
-lpop_palette <- c("National" = "#454545",
-                  "Regional" = "#18a6ad")
+lpop_palette <- c("national" = "#454545",
+                  "regional" = "#18a6ad")
+
+cat_map_palette <- c("#49178e", "#dd58b1", "#24a0b5", "#ffc55d", "#d8d8d8" )
+
+
