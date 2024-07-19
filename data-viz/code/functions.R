@@ -72,31 +72,24 @@ getInsets <- function(targets){
 
 
 callVisualizer <- function(figid) {
-  
   # Retrieve parameters from outline
   params <- outline %>%
     filter(chart_id == figid) %>%
     select(description, level, demographic, type) %>%
     as.list()
-  
   # Define demographic options
   demographic_options <- list(
     "Total"  = c("Total Sample"),
     "Gender" = c("Female", "Male")
   )
-  
-  # Retrieve data based on source
-  if (params$description == "Special") {
+
+  if (figid %in% chart_list$Special) {
     data4chart <- data_points[["Special"]][[figid]]
   } else {
     data4chart <- data_points[[params$description]] %>%
-      filter(chart_id %in% figid)
+      filter(chart_id == figid)
   }
-  
-  # Initialize chart variable
-  chart <- NULL
-  
-  # Call the appropriate visualization function based on type
+
   if (params$type == "Map") {
     chart <- genMap(data4chart)
   }
@@ -121,12 +114,10 @@ callVisualizer <- function(figid) {
   if (params$type == "Lollipop") {
     chart <- genLollipop(data4chart)
   }
-  
   # Check if chart is still NULL, indicating an unsupported type
   if (is.null(chart)) {
     stop("Unsupported chart type")
   }
-  
   # Save chart locally
   saveIT(
     chart = chart,
@@ -134,7 +125,6 @@ callVisualizer <- function(figid) {
     w = 189.7883,
     h = 168.7007
   )
-  
   return(chart)
 }
 
@@ -872,7 +862,7 @@ wrangleMostFrequent <- function(figid) {
   calculate_sample_size <- function(data, var) {
     data %>%
       group_by(nuts_id) %>%
-      mutate(sample_size = sum(get(var) %in% c(1, 2), na.rm = TRUE)) %>%
+      mutate(count = sum(get(var) %in% c(1, 2), na.rm = TRUE)) %>%
       ungroup()
   }
   
@@ -889,10 +879,9 @@ wrangleMostFrequent <- function(figid) {
     discrimination_reason_summary <- master_data_gpp %>%
       group_by(nuts_id) %>%
       summarize(
-        across(all_of(discrimination_reason_vars), sum, na.rm = TRUE),
-        sample_size = first(sample_size)
+        across(all_of(discrimination_reason_vars), sum, na.rm = TRUE)
       ) %>%
-      pivot_longer(-c(nuts_id, sample_size), names_to = "discrimination_reason", values_to = "count") %>%
+      pivot_longer(-nuts_id, names_to = "discrimination_reason", values_to = "count") %>%
       group_by(discrimination_reason) %>%
       summarize(total_count = sum(count, na.rm = TRUE)) %>%
       arrange(desc(total_count)) %>%
@@ -907,10 +896,9 @@ wrangleMostFrequent <- function(figid) {
     discrimination_by_nuts <- master_data_gpp %>%
       group_by(nuts_id) %>%
       summarize(
-        across(all_of(discrimination_reason_vars), sum, na.rm = TRUE),
-        sample_size = first(sample_size) 
+        across(all_of(discrimination_reason_vars), sum, na.rm = TRUE)
       ) %>%
-      pivot_longer(-c(nuts_id, sample_size), names_to = "discrimination_reason", values_to = "count")
+      pivot_longer(-nuts_id, names_to = "discrimination_reason", values_to = "count")
     
     # Join with the summarized discrimination reasons
     discrimination_reason_summary <- discrimination_reason_summary %>%
@@ -945,11 +933,11 @@ wrangleMostFrequent <- function(figid) {
       group_by(nuts_id) %>%
       summarize(
         across(all_of(bribery_vars), sum, na.rm = TRUE),
-        sample_size = first(sample_size)
+        count = first(count)
       ) %>%
-      pivot_longer(-c(nuts_id, sample_size), names_to = "bribery_instance", values_to = "count") %>%
+      pivot_longer(-c(nuts_id, count), names_to = "bribery_instance", values_to = "count_of_instance") %>%
       group_by(nuts_id) %>%
-      slice_max(order_by = count, n = 1) %>%
+      slice_max(order_by = count_of_instance, n = 1) %>%
       ungroup() %>%
       rename(value2plot = bribery_instance) %>%
       left_join(master_data_gpp %>% 
@@ -975,18 +963,18 @@ wrangleMostFrequent <- function(figid) {
     
     overall_summary <- master_data_gpp %>%
       summarize(across(all_of(discrimination_instance_vars), sum, na.rm = TRUE)) %>%
-      pivot_longer(everything(), names_to = "discrimination_instance", values_to = "count") %>%
-      arrange(desc(count)) %>%
-      slice_max(order_by = count, n = 3) %>%
+      pivot_longer(everything(), names_to = "discrimination_instance", values_to = "count_of_instance") %>%
+      arrange(desc(count_of_instance)) %>%
+      slice_max(order_by = count_of_instance, n = 3) %>%
       pull(discrimination_instance) 
     
     discrimination_summary <- master_data_gpp %>%
       group_by(nuts_id) %>%
       summarize(across(all_of(discrimination_instance_vars), sum, na.rm = TRUE),
-                sample_size = first(sample_size)) %>%
-      pivot_longer(-c(nuts_id, sample_size), names_to = "discrimination_instance", values_to = "count") %>%
+                count = first(count)) %>%
+      pivot_longer(-c(nuts_id, count), names_to = "discrimination_instance", values_to = "count_disc") %>%
       group_by(nuts_id) %>%
-      slice_max(order_by = count, n = 1) %>%
+      slice_max(order_by = count_disc, n = 1) %>%
       ungroup() %>%
       mutate(value2plot = ifelse(discrimination_instance %in% overall_summary, 
                                  discrimination_instance, "other"),
@@ -994,7 +982,7 @@ wrangleMostFrequent <- function(figid) {
                value2plot %in% names(discrimination_instance_names) ~ discrimination_instance_names[value2plot],
                TRUE ~ "other"
              )) %>%
-      select(nuts_id, value2plot, sample_size) %>%
+      select(nuts_id, value2plot, count) %>%
       left_join(master_data_gpp %>% select(nuts_id, country_name_ltn) %>% distinct(), by = "nuts_id") %>%
       mutate(chartid = figid)
     
