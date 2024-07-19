@@ -869,17 +869,17 @@ wrangleMostFrequent <- function(figid) {
     filter(chart_id %in% figid) %>%
     pull(target_var_1)
   
-  calculate_sample_size <- function(data, vars) {
+  calculate_sample_size <- function(data, var) {
     data %>%
       group_by(nuts_id) %>%
-      mutate(sample_size = sum(across(all_of(vars)) == 1 | across(all_of(vars)) == 2, na.rm = TRUE)) %>%
+      mutate(sample_size = sum(get(var) %in% c(1, 2), na.rm = TRUE)) %>%
       ungroup()
   }
   
+  
   # Most common reason for discrimination
   if (target == "discrimination2"){
-    
-    master_data_gpp <- calculate_sample_size(master_data_gpp, discrimination_reason_vars)
+
     
     master_data_gpp[discrimination_reason_vars] <- lapply(
       master_data_gpp[discrimination_reason_vars], 
@@ -908,7 +908,7 @@ wrangleMostFrequent <- function(figid) {
       group_by(nuts_id) %>%
       summarize(
         across(all_of(discrimination_reason_vars), sum, na.rm = TRUE),
-        sample_size = first(sample_size) # Ensure sample_size is retained
+        sample_size = first(sample_size) 
       ) %>%
       pivot_longer(-c(nuts_id, sample_size), names_to = "discrimination_reason", values_to = "count")
     
@@ -933,7 +933,8 @@ wrangleMostFrequent <- function(figid) {
     # Most common bribery situation
   } else if (target == "bribery2") {
     
-    master_data_gpp <- calculate_sample_size(master_data_gpp, bribery_vars)
+    bribery <- c("BRB_permit_B")
+    master_data_gpp <- calculate_sample_size(master_data_gpp, bribery)
     
     master_data_gpp[bribery_vars] <- lapply(
       master_data_gpp[bribery_vars], 
@@ -964,7 +965,8 @@ wrangleMostFrequent <- function(figid) {
     # Most common instance of discrimination (discrimination3)
   } else if (target == "discrimination3") {
     
-    master_data_gpp <- calculate_sample_size(master_data_gpp, discrimination_instance_vars)
+    DIS_var <- c("DIS_exp_2")
+    master_data_gpp <- calculate_sample_size(master_data_gpp, DIS_var)
     
     master_data_gpp[discrimination_instance_vars] <- lapply(
       master_data_gpp[discrimination_instance_vars], 
