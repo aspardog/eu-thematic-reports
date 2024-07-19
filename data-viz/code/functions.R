@@ -72,11 +72,13 @@ getInsets <- function(targets){
 
 
 callVisualizer <- function(figid) {
+  
   # Retrieve parameters from outline
   params <- outline %>%
     filter(chart_id == figid) %>%
     select(description, level, demographic, type) %>%
     as.list()
+  
   # Define demographic options
   demographic_options <- list(
     "Total"  = c("Total Sample"),
@@ -87,7 +89,7 @@ callVisualizer <- function(figid) {
     data4chart <- data_points[["Special"]][[figid]]
   } else {
     data4chart <- data_points[[params$description]] %>%
-      filter(chart_id == figid)
+      filter(chart_id == figid & !is.na(value2plot))
   }
 
   if (params$type == "Map") {
@@ -114,10 +116,12 @@ callVisualizer <- function(figid) {
   if (params$type == "Lollipop") {
     chart <- genLollipop(data4chart)
   }
+  
   # Check if chart is still NULL, indicating an unsupported type
   if (is.null(chart)) {
     stop("Unsupported chart type")
   }
+  
   # Save chart locally
   saveIT(
     chart = chart,
@@ -125,9 +129,9 @@ callVisualizer <- function(figid) {
     w = 189.7883,
     h = 168.7007
   )
+  
   return(chart)
 }
-
 
 
 getAvgData <- function(data){
@@ -146,13 +150,13 @@ getAvgData <- function(data){
       nuts_id        = first(nuts_id),
       value2plot     = sum(weighted_value, na.rm = T),
       target_var     = first(target_var),
+      count          =  sum(count, na.rm = T),
       .groups        = "keep"
     ) %>%
     mutate(
       nuts_id        = substr(nuts_id, 1, 2),
       nameSHORT      = country_name_ltn,
       level          = "national",
-      # count          = count,
       weighted_value = value2plot
     )
   
@@ -165,7 +169,7 @@ getAvgData <- function(data){
       nameSHORT        = "European Union",
       level            = "eu",
       target_var       = first(target_var),
-      # count            = n,
+      count            = sum(count, na.rm = T),
       .groups          = "keep"
     )
   
@@ -177,6 +181,24 @@ getAvgData <- function(data){
     )
   
   return(data_out)
+}
+
+
+impute_values <- function(data) {
+  
+  data <- data %>%
+    mutate(
+      low_count = if_else(
+        count < 30, TRUE, FALSE,
+        missing = FALSE
+      ),
+      
+      value2plot = if_else(
+        low_count, NA, value2plot
+      )
+    )
+  
+  return(data %>% select(-low_count))
 }
 
 
@@ -808,6 +830,7 @@ wrangleBivariate <- function(figid){
 
 wrangleMostFrequent <- function(figid) {
   
+  # Defining target variables
   discrimination_reason_vars <- c("DIS_sex", "DIS_age", "DIS_health", "DIS_ethni", "DIS_migration", 
                                   "DIS_ses", "DIS_location", "DIS_religion", "DIS_family", 
                                   "DIS_gender", "DIS_politics")
@@ -818,6 +841,7 @@ wrangleMostFrequent <- function(figid) {
   
   bribery_vars <- c("BRB_permit_B", "BRB_benefits_B", "BRB_id_B", "BRB_school_B", "BRB_health_B")   
   
+  # Defining labels
   discrimination_full_names <- c(
     DIS_sex = "Sex discrimination",
     DIS_age = "Age discrimination",
@@ -855,10 +879,12 @@ wrangleMostFrequent <- function(figid) {
     DIS_exp_12 = "Miscellaneous"
   )
   
+  # Defining parameters
   target <- outline %>%
     filter(chart_id %in% figid) %>%
     pull(target_var_1)
   
+  # Sample size
   calculate_sample_size <- function(data, var) {
     data %>%
       group_by(nuts_id) %>%
@@ -866,11 +892,9 @@ wrangleMostFrequent <- function(figid) {
       ungroup()
   }
   
-  
   # Most common reason for discrimination
   if (target == "discrimination2"){
 
-    
     master_data_gpp[discrimination_reason_vars] <- lapply(
       master_data_gpp[discrimination_reason_vars], 
       function(x) ifelse(x == 1, 1, 0)
@@ -917,9 +941,10 @@ wrangleMostFrequent <- function(figid) {
       ))
     
     return(discrimination_reason_summary)
-    
-    # Most common bribery situation
-  } else if (target == "bribery2") {
+  }
+  
+  # Most common bribery situation
+  if (target == "bribery2") {
     
     bribery <- c("BRB_permit_B")
     master_data_gpp <- calculate_sample_size(master_data_gpp, bribery)
@@ -949,9 +974,10 @@ wrangleMostFrequent <- function(figid) {
       ))
     
     return(bribery_summary)
-    
-    # Most common instance of discrimination (discrimination3)
-  } else if (target == "discrimination3") {
+  }
+  
+  # Most common instance of discrimination (discrimination3)
+  if (target == "discrimination3") {
     
     DIS_var <- c("DIS_exp_2")
     master_data_gpp <- calculate_sample_size(master_data_gpp, DIS_var)

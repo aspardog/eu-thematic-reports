@@ -29,19 +29,16 @@
 ##
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-# Loading settings and functions
-source("code/settings.R")
-source("code/functions.R")
-source("code/EUDumbell.R")
-source("code/EUmap.R")
-source("code/EUScatterplot.R")
-source("code/EUTable.R")
-source("code/EUCategoricalMap.R")
-source("code/EUDots.R")
-source("code/EULollipop.R")
-source("code/EUTable.R")
-source("code/validation.R")
-source("code/EUBars.R")
+# Loading additional code modules
+modules <- c(
+  "settings", "functions", "validation",
+  "EUDumbell", "EUmap", "EUScatterplot", "EUTable", "EUCategoricalMap", "EUDots", "EULollipop", "EUBars"
+)
+for (mod in modules){
+  source(
+    paste0("code/",mod,".R")
+  )
+}
 
 # Loading data
 master_data_gpp <- read_dta(
@@ -70,8 +67,7 @@ master_data_gpp <- read_dta(
     ),
     gender = case_when(
       gend == 1 ~ "Male",
-      gend == 2 ~ "Female",
-      # gend >= 3 ~ "Other"   # omit "other"
+      gend == 2 ~ "Female"
     ),
     iq_groups = case_when(
       income_quintile == 1 ~ "Income Quintile 1",
@@ -141,8 +137,8 @@ region_names <- read.xlsx(
 
 # Create a named list to loop over
 chart_list <- list(
-  "GPP"     = outline %>% 
-    filter(special_wrangling == F & description == "GPP") %>% 
+  "GPP"     = outline %>%
+    filter(special_wrangling == F & description == "GPP") %>%
     pull(chart_id),
   "QRQ"     = outline %>%
     filter(special_wrangling == F & description == "QRQ") %>%
@@ -162,14 +158,26 @@ data_points <- imap(
       clist,
       function(chart){
         wrangled_data <- wrangleData(figid = chart, source = source)
+        
+        # Imputing low counts for these specific special charts
+        if (chart %in% c("R1F68", "R3F14")) {
+          wrangled_data <- impute_values(wrangled_data)
+        }
+        return(wrangled_data)
       }
     )
     
-    if (source %in% c("GPP", "QRQ")) { # omitted QRQ
+    if (source %in% c("GPP", "QRQ")) {
+      
       # Getting country+EU averages
       wrangled_data <- getAvgData(
         bind_rows(wrangled_data_list)
       )
+      
+      # Imputing low counts
+      if (source %in% c("GPP")){
+        wrangled_data <- impute_values(wrangled_data)
+      }
       
       # Saving data for website
       save4web(
@@ -180,14 +188,13 @@ data_points <- imap(
       
       return(wrangled_data)
     }
+    
     if (source %in% c("Special")){
       names(wrangled_data_list) <- chart_list[["Special"]]
       return(wrangled_data_list)
     }
   }
 )
-
-data_points <- impute_values(data_points)
 
 writexl::write_xlsx(data_points$Special,file.path(path2EU,
   "EU-S Data/reports/eu-thematic-reports/data-viz/output/special_datapoints.xlsx"
@@ -202,8 +209,8 @@ writexl::write_xlsx(data_points$Special,file.path(path2EU,
 
 # Calling the visualizer for each chart
 lapply(
-  outline %>% 
-    filter(thematic_reports == T) %>% 
+  outline %>%
+    filter(thematic_reports == T) %>%
     filter(type %in% c("Dumbbells")) %>%
     pull(chart_id),
   callVisualizer

@@ -106,7 +106,6 @@ genLollipop <- function(dta){
   )
   
   patch <- chart_panels[["A"]] | chart_panels[["B"]] | chart_panels[["C"]]
-  print(patch)
   return(patch)
 }
 

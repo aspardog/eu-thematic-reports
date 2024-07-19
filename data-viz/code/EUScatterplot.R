@@ -44,7 +44,6 @@ scatterPlot <- function(data2plot,
           legend.position = 'none')
   
   # Return the ggplot object
-  print(plot)
   return(plot)
 }
 

@@ -1,7 +1,3 @@
-library(ggplot2)
-library(dplyr)
-library(ggtext)
-
 gen_bars <- function(data) {
   data <- data %>%
     filter(demographic == "Total Sample", level == "national") %>%
@@ -52,14 +48,8 @@ gen_bars <- function(data) {
           panel.background = element_blank(),  # Remove panel background color
           plot.background = element_blank())   # Remove plot background color
   
-  print(plt)
   return(plt)
 }
-
-# Example usage:
-# Replace `data` with your actual dataset
-# gen_bars(data)
-
 
 
 

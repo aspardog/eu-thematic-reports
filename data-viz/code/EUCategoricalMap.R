@@ -92,7 +92,6 @@ gen_catMap <- function(dta, base_map) {
   grid.newpage()
   grid.draw(combined_grob)
   
-  print(combined_grob)
   return(combined_grob)
 }
 

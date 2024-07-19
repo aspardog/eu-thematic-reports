@@ -1,8 +1,6 @@
 genMap <- function(dta){
   
-
-
-  # Creating table
+  # Creating flextable
   table <- dta %>%
     ungroup() %>%
     filter(level == "national" & demographic == "Total Sample") %>%
@@ -19,22 +17,22 @@ genMap <- function(dta){
       odd_header = "transparent",
       odd_body   = "#e2e0df"
     ) %>%
-
+    
     padding(j = 1, padding.right = 30) %>%
     padding(j = 1, padding.left  = 10) %>%
     padding(j = 3, padding.left  = 10) %>%
-
+    
     width(j = " ", width = 0.8, unit = "mm") %>%
     width(j = "%", width = 1,   unit = "mm") %>%
-
+    
     bg(i = ~ `%` <  10, j = ' ', bg = "#E03849", part = "body") %>%
     bg(i = ~ `%` >= 10, j = ' ', bg = "#FF7900", part = "body") %>%
     bg(i = ~ `%` >= 25, j = ' ', bg = "#FFC818", part = "body") %>%
     bg(i = ~ `%` >= 50, j = ' ', bg = "#46B5FF", part = "body") %>%
     bg(i = ~ `%` >= 75, j = ' ', bg = "#0C75B6", part = "body") %>%
     bg(i = ~ `%` >= 90, j = ' ', bg = "#18538E", part = "body") %>%
-
-
+    
+    
     align(j     = 3,
           align = "center",
           part  = "all") %>%
@@ -55,14 +53,14 @@ genMap <- function(dta){
              border.bottom = fp_border("white"),
              part = "body"
     )
-
+  
   tpanel <- gen_grob(table,
                      fit = "fixed",
                      scaling = "fixed",
                      heights = c(0.5), # Adjust the height of the table
                      just = c("left", "top"),
                      wrapping = TRUE)
-
+  
   # Defining unique colors for map regions
   inner_regions <- dta %>%
     ungroup() %>%
@@ -79,11 +77,11 @@ genMap <- function(dta){
                            rep("#212429", length((outer_regions))))
   names(label_color)  <- c(region_names$nuts_id,
                            outer_regions)
-
+  
   # Drawing individual panels
   panels <- imap(
     map_layers, function(panel, panel_name){
-
+      
       # Merging map layers with data
       data4map <- panel %>%
         left_join(
@@ -102,7 +100,7 @@ genMap <- function(dta){
           ),
           color_group  = as.factor(color_group)
         )
-
+      
       centroids <- data4map %>%
         filter(polID %in% inner_regions) %>%
         st_centroid() %>%
@@ -121,11 +119,11 @@ genMap <- function(dta){
             )
           )
         ) 
-
+      
       country_level <- data4map %>%
         group_by(CNTR_CODE) %>%
         summarise()
-
+      
       # Drawing plot
       p <- ggplot() +
         geom_sf(data  = data4map,
@@ -147,24 +145,24 @@ genMap <- function(dta){
                             na.value = "#ABA1A7",
                             drop = F) +
         new_scale_colour() +
-      geom_richtext(data = centroids,
-                 aes(
-                   y      = lat,
-                   x      = lon,
-                    label  = tooltip,
-                   colour = polID,
-                 ),
-                 family   = "Lato Full",
-                 fontface = "plain",
-                 size     = 3,
-                 fill  = "white",
-                 vjust = "inward",
-                 hjust = "inward") +
-      scale_colour_manual("",
-                          values   = label_color,
-                          na.value = "#212429",
-                          drop = F)
-
+        geom_richtext(data = centroids,
+                      aes(
+                        y      = lat,
+                        x      = lon,
+                        label  = tooltip,
+                        colour = polID,
+                      ),
+                      family   = "Lato Full",
+                      fontface = "plain",
+                      size     = 3,
+                      fill  = "white",
+                      vjust = "inward",
+                      hjust = "inward") +
+        scale_colour_manual("",
+                            values   = label_color,
+                            na.value = "#212429",
+                            drop = F)
+      
       if (panel_name == "Main"){
         p <- p +
           scale_y_continuous(limits = c(1442631, 5323487)) + # increase max long for more space on the right
@@ -202,39 +200,35 @@ genMap <- function(dta){
             plot.margin = margin(2,0,0,2)
           )
       }
-
+      
       return(p)
     }
   )
-
+  
   # Inserting inset map boxes
   main_map <- panels[["Main"]]
-  insets <- list(panels[["Canarias/Madeiras"]], panels[["Açores"]], panels[["Cyprus"]])
-
+  insets   <- list(panels[["Canarias/Madeiras"]], panels[["Açores"]], panels[["Cyprus"]])
   inset_grobs <- lapply(insets, ggplotGrob)
-
+  
   main_map_with_insets <- main_map +
     annotation_custom(grob = inset_grobs[[1]], xmin = 2400000, xmax = 2600000, ymin = 4323487, ymax = 4968487) +
     annotation_custom(grob = inset_grobs[[2]], xmin = 2800000, xmax = 3000000, ymin = 4323487, ymax = 4968487) +
     annotation_custom(grob = inset_grobs[[3]], xmin = 3200000, xmax = 3400000, ymin = 4323487, ymax = 4968487)
   
-
-
+  # Chart layout (table + map)
   layout <- "
   ABB
   ABB
   ABB
   ABB
   "
-
+  
+  # Assembling patch
   patch <- wrap_elements(tpanel) + main_map_with_insets +
     plot_layout(
       design = layout, heights = c(1))
   
-  
-  print(patch)
-
   return(patch)
-
+  
 }
 

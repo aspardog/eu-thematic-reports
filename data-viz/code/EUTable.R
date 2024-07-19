@@ -66,8 +66,6 @@ genTable <- function(data) {
     ) +
     WJP_theme()  
   
-  print(plot_data)
-  
   return(plot_data)
 }
 
