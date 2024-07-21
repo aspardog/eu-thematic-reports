@@ -31,7 +31,7 @@
 
 # Loading additional code modules
 modules <- c(
-  "settings", "functions", "validation",
+  "settings", "functions",
   "EUDumbell", "EUmap", "EUScatterplot", "EUTable", "EUCategoricalMap", "EUDots", "EULollipop", "EUBars"
 )
 for (mod in modules){
