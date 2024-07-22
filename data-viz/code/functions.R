@@ -130,7 +130,12 @@ callVisualizer <- function(figid) {
     h = 168.7007
   )
   
-  return(chart)
+  return(
+    list(
+      "plot" = chart,
+      "data" = data4chart
+    )
+  )
 }
 
 

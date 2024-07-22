@@ -208,7 +208,7 @@ writexl::write_xlsx(data_points$Special,file.path(path2EU,
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # Calling the visualizer for each chart
-lapply(
+charts <- lapply(
   outline %>%
     filter(thematic_reports == T) %>%
     filter(type %in% c("Dumbbells")) %>%
