@@ -139,31 +139,58 @@ callVisualizer <- function(figid) {
 }
 
 
-getAvgData <- function(data){
+getAvgData <- function(data, source){
   
-  data_wght <- data %>%
-    left_join(region_names,
-              by = "nuts_id") %>%
-    mutate(
-      weighted_value = value2plot*pop_weight,
-      level          = "regional"
-    )
+  if (source %in% c("GPP")) {
+    data_wght <- data %>%
+      left_join(region_names,
+                by = "nuts_id") %>%
+      mutate(
+        weighted_value = value2plot*pop_weight,
+        level          = "regional"
+      )
+    
+    country_avg <- data_wght %>%
+      group_by(country_name_ltn, chart_id, demographic) %>%
+      summarise(
+        nuts_id        = first(nuts_id),
+        value2plot     = sum(weighted_value, na.rm = T),
+        target_var     = first(target_var),
+        count          = sum(count, na.rm = T),
+        .groups        = "keep"
+      ) %>%
+      mutate(
+        nuts_id        = substr(nuts_id, 1, 2),
+        nameSHORT      = country_name_ltn,
+        level          = "national",
+        weighted_value = value2plot
+      )
+  }
   
-  country_avg <- data_wght %>%
-    group_by(country_name_ltn, chart_id, demographic) %>%
-    summarise(
-      nuts_id        = first(nuts_id),
-      value2plot     = sum(weighted_value, na.rm = T),
-      target_var     = first(target_var),
-      count          =  sum(count, na.rm = T),
-      .groups        = "keep"
-    ) %>%
-    mutate(
-      nuts_id        = substr(nuts_id, 1, 2),
-      nameSHORT      = country_name_ltn,
-      level          = "national",
-      weighted_value = value2plot
-    )
+  if (source %in% c("QRQ")) {
+    
+    data_wght <- data %>%
+      filter(
+        level == "regional"
+      ) %>%
+      mutate(
+        weighted_value = NA_real_
+      ) %>%
+      left_join(
+        region_names,
+        by = "nuts_id"
+      )
+    
+    country_avg <- data %>%
+      filter(
+        level == "national"
+      ) %>%
+      mutate(
+        nameSHORT      = country_name_ltn,
+        weighted_value = value2plot
+      )
+
+  }
   
   eu_avg <- country_avg %>%
     group_by(chart_id, demographic) %>%
@@ -184,7 +211,7 @@ getAvgData <- function(data){
       country_avg %>% select(-weighted_value), 
       eu_avg
     )
-  
+
   return(data_out)
 }
 
@@ -447,12 +474,12 @@ wrangleData <- function(figid, source){
     # Wrangling data
     data_subset <- master_data_qrq %>%
       rename(value2plot = all_of(id)) %>%
-      select(country_name_ltn = country, nuts_id = nuts, value2plot) %>%
+      select(country_name_ltn = country, nuts_id = nuts, value2plot, level) %>%
       mutate(
         demographic = "Total Sample",
         chart_id    = figid,
         target_var  = id,
-        count           = n()
+        count       = n()
       )
     
     return(data_subset)

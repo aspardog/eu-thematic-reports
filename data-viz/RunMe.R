@@ -88,11 +88,36 @@ master_data_gpp <- master_data_gpp %>%
     by = "country_year_id"
   )
   
-master_data_qrq <- read_dta(
+qrq_regional <- read_dta(
   file.path(
     path2EU,
     "EU-S Data/eu-qrq/1. Data/eu_qrq_nuts_final.dta"
   )
+) %>%
+  mutate(level = "regional")
+
+qrq_national <- read_dta(
+  file.path(
+    path2EU,
+    "EU-S Data/eu-qrq/1. Data/eu_qrq_country_final.dta"
+  )
+) %>%
+  mutate(level   = "national") %>%
+  left_join(
+    qrq_regional %>%
+      group_by(country) %>%
+      summarise(
+        nuts = first(nuts)
+      ) %>%
+      mutate(
+        nuts = substr(nuts, 1, 2)
+      ),
+    by = "country"
+  )
+
+master_data_qrq <- bind_rows(
+  qrq_regional,
+  qrq_national
 )
 
 # Loading outline
@@ -172,7 +197,8 @@ data_points <- imap(
       
       # Getting country+EU averages
       wrangled_data <- getAvgData(
-        bind_rows(wrangled_data_list)
+        bind_rows(wrangled_data_list),
+        source = source
       )
       
       # Imputing low counts
@@ -197,10 +223,10 @@ data_points <- imap(
   }
 )
 
-writexl::write_xlsx(data_points$Special,file.path(path2EU,
-  "EU-S Data/reports/eu-thematic-reports/data-viz/output/special_datapoints.xlsx"
-  )
-) 
+# writexl::write_xlsx(data_points$Special,file.path(path2EU,
+#   "EU-S Data/reports/eu-thematic-reports/data-viz/output/special_datapoints.xlsx"
+#   )
+# ) 
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ##
