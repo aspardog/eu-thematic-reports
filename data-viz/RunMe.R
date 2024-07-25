@@ -32,7 +32,8 @@
 # Loading additional code modules
 modules <- c(
   "settings", "functions",
-  "EUDumbell", "EUmap", "EUScatterplot", "EUTable", "EUCategoricalMap", "EUDots", "EULollipop", "EUBars"
+  "EUDumbell", "EUmap", "EUScatterplot", "EUTable", "EUCategoricalMap", "EUDots", "EULollipop", "EUBars",
+  "similarColors"
 )
 for (mod in modules){
   source(
@@ -209,9 +210,7 @@ writexl::write_xlsx(data_points$Special,file.path(path2EU,
 
 # Calling the visualizer for each chart
 charts <- lapply(
-  outline %>%
-    filter(thematic_reports == T) %>%
-    filter(type %in% c("Dumbbells")) %>%
+  outline %>% filter(thematic_reports == T & type != "Box") %>%
     pull(chart_id),
   callVisualizer
 )

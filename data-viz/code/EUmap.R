@@ -78,6 +78,25 @@ genMap <- function(dta){
   names(label_color)  <- c(region_names$nuts_id,
                            outer_regions)
   
+  inset_dimensions <- list(
+    # y range longer than x
+    "Canarias/Madeiras" = list(
+      "x" = c(1491672, 2091880.2),
+      "y" = c(941748.3, 1541956.5 )
+    ),
+    # the y range is longer than the x
+    "Açores"  = list(
+      "x" = c(864542.6, 1407344),
+      "y" = c(2250319.3, 2793120.7)
+    ),
+    # x range is longer than y
+    "Cyprus" = list(
+      # "x" = c(6342221, 6524714),
+      "x" = c(6332001, 6525814),
+      "y" = c(1585147, 1767640)
+    )
+  )
+  
   # Drawing individual panels
   panels <- imap(
     map_layers, function(panel, panel_name){
@@ -111,7 +130,6 @@ genMap <- function(dta){
           tooltip = paste0(
             "**",nameSHORT,"**<br>",
             "_",country_name_ltn,"_<br>",
-            "Percentage:",
             paste0(
               format(round(value2plot*100, 1),
                      nsmall = 1),
@@ -144,7 +162,7 @@ genMap <- function(dta){
                             values   = border_color,
                             na.value = "#ABA1A7",
                             drop = F) +
-        new_scale_colour() +
+        new_scale_colour() + 
         geom_richtext(data = centroids,
                       aes(
                         y      = lat,
@@ -181,23 +199,23 @@ genMap <- function(dta){
           )
       } else {
         p <- p +
-          labs(x = panel_name) +
+          scale_y_continuous(limits = inset_dimensions[[panel_name]][["y"]]) +
+          scale_x_continuous(limits = inset_dimensions[[panel_name]][["x"]]) +
           coord_sf(clip = "off") +
           theme_minimal() +
           theme(
-            panel.background = element_rect(fill = "white"),
-            axis.title.x    = element_text(family = "Lato Full",
-                                           face   = "plain",
-                                           size   = 9,
-                                           color  = "#524F4C"),
+            panel.background  = element_rect(fill = NA,
+                                            color = "#e6e7e8",
+                                            linewidth = .5
+                                            ),
+            axis.title.x    = element_blank(),
+            # panel.border    = element_rect(colour    = "#e6e7e8",
+            #                                fill      = NA,
+            #                                linewidth = 0.75),
             axis.text       = element_blank(),
             axis.title.y = element_blank(),
             legend.position = "none",
-            panel.grid      = element_blank(),
-            panel.border    = element_rect(colour    = "#e6e7e8",
-                                           fill      = NA,
-                                           linewidth = 0.75),
-            plot.margin = margin(2,0,0,2)
+            panel.grid      = element_blank()
           )
       }
       
@@ -211,9 +229,9 @@ genMap <- function(dta){
   inset_grobs <- lapply(insets, ggplotGrob)
   
   main_map_with_insets <- main_map +
-    annotation_custom(grob = inset_grobs[[1]], xmin = 2400000, xmax = 2600000, ymin = 4323487, ymax = 4968487) +
-    annotation_custom(grob = inset_grobs[[2]], xmin = 2800000, xmax = 3000000, ymin = 4323487, ymax = 4968487) +
-    annotation_custom(grob = inset_grobs[[3]], xmin = 3200000, xmax = 3400000, ymin = 4323487, ymax = 4968487)
+    annotation_custom(grob = inset_grobs[[1]], ymin = 4.5e6, ymax = 5.5e6, xmin = 2.5e6, xmax = 3e6) +
+    annotation_custom(grob = inset_grobs[[2]], ymin = 4.5e6, ymax = 5.5e6, xmin = 3e6, xmax = 3.5e6) + 
+    annotation_custom(grob = inset_grobs[[3]], ymin = 4.5e6, ymax = 5.5e6, xmin = 3.5e6, xmax = 4e6)
   
   # Chart layout (table + map)
   layout <- "

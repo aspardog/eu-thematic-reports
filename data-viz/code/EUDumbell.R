@@ -18,8 +18,8 @@ genDumbbells <- function(dta) {
         value2plot > 0.75 & value2plot <= 0.90 ~ "75%-90%",
         value2plot > 0.90 & value2plot <= 1.00 ~ "90%-100%"
       ),
-      color_group = as.factor(color_group),
-      value2plot = value2plot * 100
+      color_group = as.factor(color_group)
+      # value2plot = value2plot * 100
     )
   
   data4segments <- data2plot %>%
@@ -76,7 +76,7 @@ genDumbbells <- function(dta) {
         label  = paste0(
           "<b>", nameSHORT, "</b>,<br>",
           "<i>", country_name_ltn, "</i><br>",
-          "Percentage: ", scales::percent(value2plot / 100, accuracy = 0.1)
+          "Score: ", scales::number(value2plot, accuracy = 0.01)
         )
       ),
       vjust = "inward",
@@ -96,9 +96,9 @@ genDumbbells <- function(dta) {
     ) +
     scale_y_continuous(
       expand = c(0, 0),
-      limits = c(0, 105),
-      breaks = seq(0, 100, 20),
-      labels = paste0(seq(0, 100, 20), "%")
+      limits = c(0, 1),
+      breaks = seq(0, 1, .2),
+      labels = paste0(seq(0, 1, .2))
     ) +
     coord_flip() +
     theme_minimal() +

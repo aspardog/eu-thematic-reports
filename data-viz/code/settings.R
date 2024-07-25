@@ -141,4 +141,7 @@ lpop_palette <- c("national" = "#454545",
 
 cat_map_palette <- c("#49178e", "#dd58b1", "#24a0b5", "#ffc55d", "#d8d8d8" )
 
+dots_palette <- c("Value 1" = "#49178e",
+                  "Value 2" = "#dd58b1")
+
 

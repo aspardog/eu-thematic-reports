@@ -2,30 +2,34 @@
 genTable <- function(data) {
   # Pivot and mutate data for table creation
   table_data <- data %>%
-    select(country_name_ltn, category, value2plot) %>%
+    select(country = country_name_ltn, category, value2plot) %>%
     pivot_wider(names_from = category, values_from = value2plot) %>%
-    mutate(across(everything(), ~ ifelse(is.na(.), 0, .))) %>%
-    rename(
-      "Citizenship and ID" = "citizenship and ID",
-      "Community Resources" = "community resources",
-      "Consumer" = 'consumer',
-      "Education" = "education",
-      "Employment" = "employment",
-      "Family" = "family",
-      "Housing" = "housing",
-      "Injury" = "injury",
-      "Land" = "land",
-      "Law Enforcement" = "law enforcement",
-      "Money and Debt" = "money and debt",
-      "Public Services" = "public services"
-    )
+    mutate(across(everything(), ~ ifelse(is.na(.), 0, .)))
   
   # Create flextable with theme and formatting
   prevalence_table <- table_data %>%
     flextable() %>%
     theme_zebra(odd_header = "transparent", odd_body = "#e2e0df") %>%
     colformat_double(digits = 1, suffix = "%") %>%  # Format value2plot with one decimal and %
-    set_table_properties(width = 0.9, layout = "autofit")
+    set_table_properties(width = 1, layout = "fixed", align = 'center') %>%
+    width(width = 2) %>% align_nottext_col(align = "center", header = TRUE) %>%
+    align_text_col(align = "left", header = FALSE) %>%
+    set_header_labels(
+      country = " ",
+      `citizenship and ID` = "Citizenship and ID",
+      `community resources` = "Community Resources",
+      consumer = 'Consumer',
+      education = "Education",
+      employment = "Employment",
+      family = "Family",
+      housing = "Housing",
+      injury = "Injury",
+      land = "Land",
+      `law enforcement` = "Law Enforcement",
+      `money and debt` = "Money and Debt",
+      `public services` = "Public Services"
+    )  %>% bold(part = "header") %>% fontsize(size = 18, part = "body") %>%
+    fontsize(size = 15, part = "header") 
   
   # Apply background colors based on prevalence levels
   for (i in 1:nrow(table_data)) {
@@ -60,7 +64,9 @@ genTable <- function(data) {
     theme_void() +
     coord_flip() +  # Flip coordinates for horizontal display
     theme(
-      axis.text.x = element_blank(),  # Hide x-axis labels
+      axis.text = element_text(family = "Lato Full", 
+                               size   = 11,
+                               color  = "#524F4C"), 
       axis.title.x = element_blank(),
       axis.title.y = element_blank()
     ) +
