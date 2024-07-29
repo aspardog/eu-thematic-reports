@@ -78,6 +78,7 @@ genMap <- function(dta){
   names(label_color)  <- c(region_names$nuts_id,
                            outer_regions)
   
+  # Defining inset dimensions
   inset_dimensions <- list(
     # y range longer than x
     "Canarias/Madeiras" = list(
@@ -117,7 +118,11 @@ genMap <- function(dta){
             value2plot >  0.75 & value2plot <= 0.90 ~ "75%-90%",
             value2plot >  0.90 & value2plot <= 1.00 ~ "90%-100%"
           ),
-          color_group  = as.factor(color_group)
+          color_group = factor(
+            color_group, 
+            levels = c("0%-10%",  "10%-25%", "25%-50%", 
+                       "50%-75%", "75%-90%", "90%-100%")
+          )
         )
       
       centroids <- data4map %>%
@@ -128,8 +133,8 @@ genMap <- function(dta){
           lat = st_coordinates(.)[,2],
           lat = if_else(polID == "MT00", lat + 5000, lat),
           tooltip = paste0(
-            "**",nameSHORT,"**<br>",
-            "_",country_name_ltn,"_<br>",
+            "**",str_trim(nameSHORT),"**<br>",
+            "_", str_trim(country_name_ltn),"_<br>",
             paste0(
               format(round(value2plot*100, 1),
                      nsmall = 1),
@@ -149,19 +154,20 @@ genMap <- function(dta){
                   fill  = color_group,
                   color = polID
                 ),
-                # color = "grey65",
-                size  = 0.5) +
+                size  = 0.5,
+                show.legend = c(fill = TRUE)) +
         geom_sf(data  = country_level,
                 fill  = NA,
                 color = "grey25") +
         scale_fill_manual("",
                           values   = cat_palette,
-                          na.value = "grey95",
-                          drop = F) +
+                          na.value = "#d8d8d8",
+                          drop     = F,
+                          na.translate = F) +
         scale_colour_manual("",
                             values   = border_color,
                             na.value = "#ABA1A7",
-                            drop = F) +
+                            guide    = "none") +
         new_scale_colour() + 
         geom_richtext(data = centroids,
                       aes(
@@ -179,23 +185,34 @@ genMap <- function(dta){
         scale_colour_manual("",
                             values   = label_color,
                             na.value = "#212429",
-                            drop = F)
+                            guide    = "none")
       
       if (panel_name == "Main"){
         p <- p +
-          scale_y_continuous(limits = c(1442631, 5323487)) + # increase max long for more space on the right
+          scale_y_continuous(limits = c(1442631, 5323487)) +
           scale_x_continuous(limits = c(2581570, 6017160)) +
           theme_minimal() +
           theme(
-            axis.title.x    = element_blank(),
-            axis.title.y    = element_blank(),
-            axis.text       = element_blank(),
-            legend.position = "none",
-            panel.grid      = element_blank(),
-            panel.border    = element_rect(colour    = "#e6e7e8",
-                                           fill      = NA,
-                                           linewidth = 0.75),
-            plot.margin     = margin(0,0,0,0)
+            axis.title.x     = element_blank(),
+            axis.title.y     = element_blank(),
+            axis.text        = element_blank(),
+            legend.position  = "top",
+            legend.text      = element_text(family = "Lato Full", 
+                                            face   = "plain", 
+                                            size   = 3 * .pt),
+            panel.grid       = element_blank(),
+            panel.border     = element_rect(colour    = "#e6e7e8",
+                                            fill      = NA,
+                                            linewidth = 0.75),
+            plot.margin      = margin(0,0,0,0)
+          ) +
+          guides(
+            fill = guide_legend(
+              nrow  = 1,
+              byrow = TRUE,
+              legend.key.spacing.x = unit(5, 'cm'), # not working
+              override.aes = list(size = 0.25)
+            )
           )
       } else {
         p <- p +
@@ -209,11 +226,9 @@ genMap <- function(dta){
                                             linewidth = .5
                                             ),
             axis.title.x    = element_blank(),
-            # panel.border    = element_rect(colour    = "#e6e7e8",
-            #                                fill      = NA,
-            #                                linewidth = 0.75),
+
             axis.text       = element_blank(),
-            axis.title.y = element_blank(),
+            axis.title.y    = element_blank(),
             legend.position = "none",
             panel.grid      = element_blank()
           )
@@ -230,22 +245,15 @@ genMap <- function(dta){
   
   main_map_with_insets <- main_map +
     annotation_custom(grob = inset_grobs[[1]], ymin = 4.5e6, ymax = 5.5e6, xmin = 2.5e6, xmax = 3e6) +
-    annotation_custom(grob = inset_grobs[[2]], ymin = 4.5e6, ymax = 5.5e6, xmin = 3e6, xmax = 3.5e6) + 
+    annotation_custom(grob = inset_grobs[[2]], ymin = 4.5e6, ymax = 5.5e6, xmin = 3e6,   xmax = 3.5e6) + 
     annotation_custom(grob = inset_grobs[[3]], ymin = 4.5e6, ymax = 5.5e6, xmin = 3.5e6, xmax = 4e6)
   
-  # Chart layout (table + map)
-  layout <- "
-  ABB
-  ABB
-  ABB
-  ABB
-  "
-  
-  # Assembling patch
-  patch <- wrap_elements(tpanel) + main_map_with_insets +
-    plot_layout(
-      design = layout, heights = c(1))
-  
+  patch <- plot_grid(
+    tpanel, 
+    main_map_with_insets, 
+    rel_widths = c(1, 3)
+  )
+
   return(patch)
   
 }

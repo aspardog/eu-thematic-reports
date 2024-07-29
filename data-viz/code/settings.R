@@ -26,7 +26,7 @@ library(pacman)
 p_load(char = c(
   # Visualizations
   "showtext", "ggtext", "grid", "patchwork", "cowplot", "flextable", "officer", "ggnewscale", 
-  "ggExtra",
+  "ggExtra", "relayer",
   
   # Data Loading
   "haven", "writexl", "openxlsx",
@@ -35,7 +35,7 @@ p_load(char = c(
   "tmaptools", "rmapshaper", "sf", "units",
   
   # Utilities
-  "margins", "kableExtra",
+  "margins", "kableExtra", "glue",
   
   # Good 'ol Tidyverse
   "tidyverse"
@@ -139,9 +139,49 @@ cat_palette <- c("0%-10%"   = "#E03849",
 lpop_palette <- c("national" = "#454545",
                   "regional" = "#18a6ad")
 
-cat_map_palette <- c("#49178e", "#dd58b1", "#24a0b5", "#ffc55d", "#d8d8d8" )
+cat_map_palette <- c("#49178e", "#dd58b1", "#24a0b5", "#ffc55d", "#d8d8d8")
 
 dots_palette <- c("Value 1" = "#49178e",
                   "Value 2" = "#dd58b1")
+
+scatter_palette <- c(
+  "#49178e", "#dd58b1", "#24a0b5", "#ffc55d", "#d8d8d8",
+  "#BEB7DF", "#2F4B26", "#EE6C4D", "#685044", "#99B2DD",
+  "#414288", "#DEEFB7", "#222222", "#A62639", "#F8C7CC",
+  "#36494E", "#C1AE7C", "#E16F7C", "#53131E", "#FAA275",
+  "#CDD1C4", "#6D9F71", "#D5F2E3", "#BA2D0B", "#F4F482",
+  "#E8C547", "#FBD1A2"
+) %>%
+  setNames(
+    c("Austria",
+      "Belgium",
+      "Bulgaria",
+      "Croatia",
+      "Cyprus",
+      "Czech Republic",
+      "Denmark",
+      "Estonia",
+      "Finland",
+      "France",
+      "Germany",
+      "Greece",
+      "Hungary",
+      "Ireland",
+      "Italy",
+      "Latvia",
+      "Lithuania",
+      "Luxembourg",
+      "Malta",
+      "Netherlands",
+      "Poland",
+      "Portugal",
+      "Romania",
+      "Slovakia",
+      "Slovenia",
+      "Spain",
+      "Sweden")
+  )
+
+
 
 

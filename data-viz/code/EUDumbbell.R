@@ -18,8 +18,11 @@ genDumbbells <- function(dta) {
         value2plot > 0.75 & value2plot <= 0.90 ~ "75%-90%",
         value2plot > 0.90 & value2plot <= 1.00 ~ "90%-100%"
       ),
-      color_group = as.factor(color_group)
-      # value2plot = value2plot * 100
+      color_group = factor(
+        color_group, 
+        levels = c("0%-10%",  "10%-25%", "25%-50%", 
+                   "50%-75%", "75%-90%", "90%-100%")
+      )
     )
   
   data4segments <- data2plot %>%
@@ -31,6 +34,12 @@ genDumbbells <- function(dta) {
   
   # Drawing plot
   chart <- ggplot() +
+    geom_vline(
+      xintercept = seq(0.5, nrow(data4segments)-0.5, 1),
+      color      = "gray90",
+      linetype   = "solid",
+      linewidth  = 0.15
+    ) +
     geom_segment(
       data = data4segments,
       aes(
@@ -52,7 +61,8 @@ genDumbbells <- function(dta) {
       ),
       shape  = 21,
       stroke = 0.025,
-      size   = 4
+      size   = 4,
+      show.legend = c(fill = TRUE)
     ) +
     geom_rect(
       data = data2plot,
@@ -64,8 +74,11 @@ genDumbbells <- function(dta) {
       ),
       fill = "white", colour = "black", size = 1
     ) +
-    scale_fill_manual(values = cat_palette) +
-    scale_colour_manual(values = border_color) +
+    scale_fill_manual(name   = "",
+                      values = cat_palette,
+                      drop   = FALSE) +
+    scale_colour_manual(values = border_color,
+                        guide  = "none") +
     new_scale_colour() +
     geom_richtext(
       data = data2plot,
@@ -74,8 +87,8 @@ genDumbbells <- function(dta) {
         y = value2plot,
         colour = nuts_id,
         label  = paste0(
-          "<b>", nameSHORT, "</b>,<br>",
-          "<i>", country_name_ltn, "</i><br>",
+          "<b>", str_trim(nameSHORT), "</b><br>",
+          "<i>", str_trim(country_name_ltn), "</i><br>",
           "Score: ", scales::number(value2plot, accuracy = 0.01)
         )
       ),
@@ -83,10 +96,9 @@ genDumbbells <- function(dta) {
       size  = 2.5,
       hjust = "inward",
       fill  = "white"
-      # label.color = "black",
-      # text.color  = "black"
     ) +
-    scale_colour_manual(values = label_color) +
+    scale_colour_manual(values = label_color,
+                        guide  = "none") +
     scale_x_discrete(
       limits = rev(levels(factor(
         data2plot %>%
@@ -103,12 +115,25 @@ genDumbbells <- function(dta) {
     coord_flip() +
     theme_minimal() +
     theme(
-      axis.text  = element_text(family = "Lato Full", 
-                                size   = 8,
-                                color  = "#524F4C"),
-      axis.title = element_blank(),
-      panel.grid = element_blank(),
-      legend.position = "none"
+      axis.text.y        = element_text(family = "Lato Full", 
+                                        size   = 8,
+                                        hjust  = 0,
+                                        color  = "#524F4C"),
+      axis.text.x        = element_text(family = "Lato Full", 
+                                        size   = 8,
+                                        hjust  = 0.5,
+                                        color  = "#524F4C"),
+      axis.title         = element_blank(),
+      panel.grid.major   = element_blank(),
+      panel.grid.minor   = element_blank(),
+      legend.position    = "top",
+      legend.key         = element_rect(colour = NA)
+    ) +
+    guides(
+      fill = guide_legend(
+        nrow = 1,
+        override.aes = list(colour = NA)
+      )
     )
 
   return(chart)

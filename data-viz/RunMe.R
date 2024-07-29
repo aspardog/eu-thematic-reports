@@ -32,8 +32,7 @@
 # Loading additional code modules
 modules <- c(
   "settings", "functions",
-  "EUDumbell", "EUmap", "EUScatterplot", "EUTable", "EUCategoricalMap", "EUDots", "EULollipop", "EUBars",
-  "similarColors"
+  "EUDumbbell", "EUmap", "EUScatterplot", "EUTable", "EUCategoricalMap", "EUDots", "EULollipop", "EUBars"
 )
 for (mod in modules){
   source(
@@ -144,7 +143,12 @@ insets <- getInsets(list(
 ))
 
 map_layers <- c(
-  list("Main" = base_map), 
+  list(
+    "Main" = base_map %>% 
+      filter(
+        !polID %in% c("ES7", "PT3", "PT2", "CY0")
+      )
+  ), 
   insets
 )
 
@@ -152,7 +156,17 @@ map_layers <- c(
 region_names <- read.xlsx(
   "inputs/region_labels.xlsx"
 ) %>%
-  select(nuts_id, nameSHORT, pop_weight = regionpoppct, unique_border = border, unique_label = label)
+  select(country_name_ltn = country, 
+         nuts_id, 
+         nameSHORT, 
+         pop_weight    = regionpoppct, 
+         unique_border = border, 
+         unique_label  = label)
+
+# Loading region names
+color_range <- read.xlsx(
+  "inputs/color_range.xlsx"
+)
 
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -223,10 +237,10 @@ data_points <- imap(
   }
 )
 
-# writexl::write_xlsx(data_points$Special,file.path(path2EU,
-#   "EU-S Data/reports/eu-thematic-reports/data-viz/output/special_datapoints.xlsx"
-#   )
-# ) 
+writexl::write_xlsx(data_points$Special,file.path(path2EU,
+  "EU-S Data/reports/eu-thematic-reports/data-viz/output/special_datapoints.xlsx"
+  )
+)
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ##
@@ -236,7 +250,12 @@ data_points <- imap(
 
 # Calling the visualizer for each chart
 charts <- lapply(
-  outline %>% filter(thematic_reports == T & type != "Box") %>%
+  outline %>%
+    filter(
+      (thematic_reports == T) & (type %in% c("Map"))
+    ) %>%
     pull(chart_id),
   callVisualizer
 )
+
+
