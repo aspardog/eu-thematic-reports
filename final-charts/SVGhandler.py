@@ -168,6 +168,13 @@ class svg:
                             nuts_group_element = root.find(f".//g[@id='{nuts}_tooltip']")
                             nuts_group_element.append(element)
                 
+                # Moving inset tooltips at the end of root for viz purposes
+                for nuts in ["CY0", "PT2", "ES7", "PT3"]:
+                    inset_tool_bag = root.find(f".//g[@id='{nuts}_tooltip']")
+                    bag_parent = inset_tool_bag.getparent()
+                    root.remove(bag_parent)
+                    root.append(bag_parent)
+                
                 # Hide tooltips by default
                 missing_tooltips = []
                 for nuts in unique_colors["nuts_id"].to_list():
@@ -303,8 +310,7 @@ class svg:
 
                             original_parent.remove(element)
                             nuts_group_element.append(element)
-
-                                        
+                 
                 # Hide tooltips by default
                 missing_tooltips = []
                 for nuts in unique_colors["nuts_id"].to_list():

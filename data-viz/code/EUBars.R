@@ -1,6 +1,12 @@
-gen_bars <- function(data) {
+gen_bars <- function(data, direction) {
   
   data <- data %>% filter(demographic == "Total Sample")
+  
+  if (direction %in% c("positive", "neutral")){
+    cpal  <- cat_palette
+  } else {
+    cpal  <- cat_palette_inverted
+  }
   
   # Defining unique color codes
   border_color <- color_range %>%
@@ -39,14 +45,14 @@ gen_bars <- function(data) {
                           fill = color_group, 
                           colour = country_name_ltn)) +
     geom_bar(stat        = "identity", 
-             width       = 0.9, 
+             width       = 0.75, 
              linewidth   = 0.025,
              show.legend = c(fill = TRUE)) +
     labs(y = "% of respondents", x = "Country") +
     scale_color_manual(values = border_color,
                        guide  = "none") + 
     scale_fill_manual(name   = "",
-                      values = cat_palette,
+                      values = cpal,
                       drop   = FALSE) +
     new_scale_color() + 
     geom_richtext(
@@ -64,29 +70,41 @@ gen_bars <- function(data) {
     ) +
     scale_color_manual(values = label_color,
                        guide  = "none") + 
-    scale_y_continuous(limits = c(0, 1), 
+    scale_y_continuous(limits = c(0, 1.05), 
                        labels = scales::percent_format(accuracy = 1),
-                       expand = c(0,0)) +
+                       expand = c(0,0),
+                       position = "right") +
     coord_flip() +
     theme(
-      axis.text.x = element_text(family = "Lato Full", 
-                                 face   = "plain", 
-                                 size   = 3.514598 * .pt, 
-                                 color  = "#524F4C", 
-                                 angle  = 0, 
-                                 hjust  = 1),
-      axis.text.y = element_text(family = "Lato Full", 
-                                 face   = "bold", 
-                                 size   = 3.514598 * .pt, 
-                                 color  = "#524F4C",
-                                 hjust  = 0),
+      axis.text.x      = element_text(family = "Lato Full", 
+                                      face   = "plain", 
+                                      size   = 3.514598 * .pt, 
+                                      color  = "#524F4C", 
+                                      angle  = 0, 
+                                      hjust  = 0.5),
+      axis.text.y      = element_text(family = "Lato Full", 
+                                      face   = "bold", 
+                                      size   = 3.514598 * .pt, 
+                                      color  = "#524F4C",
+                                      hjust  = 0),
       axis.ticks       = element_blank(),
       axis.title       = element_blank(),
       legend.position  = "top",
-      panel.grid.major = element_blank(),  
-      panel.grid.minor = element_blank(),  
-      panel.background = element_blank(),  
-      plot.background  = element_blank()
+      legend.text      = element_text(family = "Lato Full",
+                                      face   = "bold", 
+                                      size   = 2.914598 * .pt,
+                                      color  = "#222221",
+                                      hjust  = 0.5),
+      legend.key.size      = unit(0.15, "inches"), 
+      legend.justification = "left",
+      legend.location      = "plot", 
+      legend.margin        = margin(2,0,0,0),
+      panel.grid.major.x   = element_line(size     = 0.25,
+                                          colour   = "#a0a0a0",
+                                          linetype = "dashed"),  
+      panel.grid.minor     = element_blank(),  
+      panel.background     = element_blank(),  
+      plot.background      = element_blank()
     ) +
     guides(fill = guide_legend(nrow = 1))
   

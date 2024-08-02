@@ -73,10 +73,12 @@ getInsets <- function(targets){
 
 callVisualizer <- function(figid) {
   
+  print(glue("Working on Chart {figid}"))
+  
   # Retrieve parameters from outline
   params <- outline %>%
     filter(chart_id == figid) %>%
-    select(description, level, demographic, type) %>%
+    select(description, level, demographic, type, direction) %>%
     as.list()
   
   # Define demographic options
@@ -87,17 +89,17 @@ callVisualizer <- function(figid) {
   
   # Special legends for Dot Charts
   if (figid %in% c("R1F41", "R1F82")) {
-    params[["legend_labels"]] <- c("Congress", "Local Government")
+    params[["legend_labels"]] <- c("Congress/Parliament", "Local Government")
   }
   if (figid %in% c("R1F80", "R3F31")) {
     params[["legend_labels"]] <- c("Budget Figures", "Government Contracts")
   }
   # Special legends for Scatterplots
   if (figid %in% c("R1F79")) {
-    params[["legend_labels"]] <- c("Easy to find (%)", "Easy to find online (%)")
+    params[["legend_labels"]] <- c("Easy to find offline", "Easy to find online")
   }
   if (figid %in% c("R2F31", "R2F35", "R2F39", "R2F48")) {
-    params[["legend_labels"]] <- c("Trust (%)", "Corruption (%)")
+    params[["legend_labels"]] <- c("Trust", "Perceptions of Corruption")
   }
 
   if (figid %in% chart_list$Special) {
@@ -108,7 +110,7 @@ callVisualizer <- function(figid) {
   }
 
   if (params$type == "Map") {
-    chart <- genMap(data4chart)
+    chart <- genMap(data4chart, direction = params[["direction"]])
   }
   if (params$type == "Dumbbells") {
     chart <- genDumbbells(data4chart)
@@ -126,7 +128,7 @@ callVisualizer <- function(figid) {
     chart <- gen_dots(data4chart, legend = params[["legend_labels"]])
   }
   if (params$type == "Bars") {
-    chart <- gen_bars(data4chart)
+    chart <- gen_bars(data4chart, direction = params[["direction"]])
   }
   if (params$type == "Lollipop") {
     chart <- genLollipop(data4chart)
@@ -137,12 +139,20 @@ callVisualizer <- function(figid) {
     stop("Unsupported chart type")
   }
   
+  # Special height for lollipops
+  if (params$type == "Lollipop") {
+    h = 192.8467
+  } else {
+    h = 168.7007
+  }
+  
+  
   # Save chart locally
   saveIT(
     chart = chart,
     figid = figid,
     w = 189.7883,
-    h = 168.7007
+    h = h
   )
   
   return(
@@ -718,7 +728,7 @@ wrangleMostFrequent <- function(figid) {
     DIS_health    = "Disability or Health",
     DIS_ethni     = "Ethnicity, Skin Color or Language",
     DIS_migration = "Migration Status",
-    DIS_ses       = "Socio-economic Status",
+    DIS_ses       = "Socio-Economic Status",
     DIS_location  = "Geographic location",
     DIS_religion  = "Religion",
     DIS_family    = "Marital and Family Status",
@@ -728,7 +738,7 @@ wrangleMostFrequent <- function(figid) {
   
   bribery_full_names <- c(
     BRB_permit_B   = "Local Permits",
-    BRB_benefits_B = "PublicBbenefits",
+    BRB_benefits_B = "Public Benefits",
     BRB_id_B       = "Identity Documents",
     BRB_school_B   = "Public Education",
     BRB_health_B   = "Public Health"
@@ -795,7 +805,7 @@ wrangleMostFrequent <- function(figid) {
       ) %>%
       ungroup() %>%
       mutate(
-        discrimination_reason = ifelse(rank > 4, "other", discrimination_reason)
+        discrimination_reason = ifelse(rank > 4, "Other", discrimination_reason)
       ) %>%
       select(-rank) %>%
       group_by(discrimination_reason) %>%
@@ -812,7 +822,11 @@ wrangleMostFrequent <- function(figid) {
           \(x) sum(x, na.rm = T)
         )
       ) %>%
-      pivot_longer(-nuts_id, names_to = "discrimination_reason", values_to = "count")
+      pivot_longer(
+        -nuts_id, 
+        names_to  = "discrimination_reason", 
+        values_to = "count"
+      )
     
     # Join with the summarized discrimination reasons
     discrimination_reason_summary <- discrimination_reason_summary %>%
@@ -831,7 +845,7 @@ wrangleMostFrequent <- function(figid) {
       mutate(
         value2plot = case_when(
           value2plot %in% names(discrimination_full_names) ~ discrimination_full_names[value2plot],
-          value2plot == "other" ~ "Other"
+          value2plot == "Other" ~ "Other"
         )
       )
     
@@ -855,7 +869,11 @@ wrangleMostFrequent <- function(figid) {
         across(all_of(bribery_vars), \(x) sum(x, na.rm = T)),
         count = first(count)
       ) %>%
-      pivot_longer(-c(nuts_id, count), names_to = "bribery_instance", values_to = "count_of_instance") %>%
+      pivot_longer(
+        -c(nuts_id, count), 
+        names_to  = "bribery_instance", 
+        values_to = "count_of_instance"
+      ) %>%
       group_by(nuts_id) %>%
       slice_max(order_by = count_of_instance, n = 1) %>%
       ungroup() %>%
@@ -883,25 +901,41 @@ wrangleMostFrequent <- function(figid) {
     )
     
     overall_summary <- master_data_gpp %>%
-      summarize(across(all_of(discrimination_instance_vars), \(x) sum(x, na.rm = T))) %>%
-      pivot_longer(everything(), names_to = "discrimination_instance", values_to = "count_of_instance") %>%
+      summarize(
+        across(all_of(discrimination_instance_vars), 
+               \(x) sum(x, na.rm = T))
+      ) %>%
+      pivot_longer(
+        everything(), 
+        names_to  = "discrimination_instance", 
+        values_to = "count_of_instance"
+      ) %>%
       arrange(desc(count_of_instance)) %>%
       slice_max(order_by = count_of_instance, n = 3) %>%
       pull(discrimination_instance) 
     
     discrimination_summary <- master_data_gpp %>%
       group_by(nuts_id) %>%
-      summarize(across(all_of(discrimination_instance_vars), \(x) sum(x, na.rm = T)),
-                count = first(count)) %>%
-      pivot_longer(-c(nuts_id, count), names_to = "discrimination_instance", values_to = "count_disc") %>%
+      summarize(
+        across(
+          all_of(discrimination_instance_vars), 
+          \(x) sum(x, na.rm = T)
+        ),
+        count = first(count)
+      ) %>%
+      pivot_longer(
+        -c(nuts_id, count), 
+        names_to  = "discrimination_instance", 
+        values_to = "count_disc"
+      ) %>%
       group_by(nuts_id) %>%
       slice_max(order_by = count_disc, n = 1) %>%
       ungroup() %>%
       mutate(value2plot = ifelse(discrimination_instance %in% overall_summary, 
-                                 discrimination_instance, "other"),
+                                 discrimination_instance, "Other"),
              value2plot = case_when(
                value2plot %in% names(discrimination_instance_names) ~ discrimination_instance_names[value2plot],
-               TRUE ~ "other"
+               TRUE ~ "Other"
              )) %>%
       select(nuts_id, value2plot, count) %>%
       left_join(master_data_gpp %>% select(nuts_id, country_name_ltn) %>% distinct(), by = "nuts_id") %>%

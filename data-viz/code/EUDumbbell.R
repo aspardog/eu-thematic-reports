@@ -36,7 +36,7 @@ genDumbbells <- function(dta) {
   chart <- ggplot() +
     geom_vline(
       xintercept = seq(0.5, nrow(data4segments)-0.5, 1),
-      color      = "gray90",
+      color      = "#a0a0a0",
       linetype   = "solid",
       linewidth  = 0.15
     ) +
@@ -76,6 +76,7 @@ genDumbbells <- function(dta) {
     ) +
     scale_fill_manual(name   = "",
                       values = cat_palette,
+                      labels = c("0.00 - 0.10", "0.10 - 0.25", "0.25 - 0.50", "0.50 - 0.75", "0.75 - 0.90", "0.90 - 1.00"),
                       drop   = FALSE) +
     scale_colour_manual(values = border_color,
                         guide  = "none") +
@@ -107,10 +108,11 @@ genDumbbells <- function(dta) {
       )))
     ) +
     scale_y_continuous(
-      expand = c(0, 0),
-      limits = c(0, 1),
-      breaks = seq(0, 1, .2),
-      labels = paste0(seq(0, 1, .2))
+      expand   = c(0, 0),
+      limits   = c(0, 1),
+      breaks   = seq(0, 1, .2),
+      labels   = round(seq(0, 1, .2), 2),
+      position = "right" 
     ) +
     coord_flip() +
     theme_minimal() +
@@ -123,11 +125,25 @@ genDumbbells <- function(dta) {
                                         size   = 8,
                                         hjust  = 0.5,
                                         color  = "#524F4C"),
+      axis.line.x        = element_line(linewidth = 0.25,
+                                        colour    = "#a0a0a0",
+                                        linetype  = "solid"),
       axis.title         = element_blank(),
       panel.grid.major   = element_blank(),
       panel.grid.minor   = element_blank(),
       legend.position    = "top",
-      legend.key         = element_rect(colour = NA)
+      legend.text        = element_text(family = "Lato Full",
+                                        face   = "bold", 
+                                        size   = 2.914598 * .pt,
+                                        color  = "#222221",
+                                        hjust  = 0.5),
+      legend.key.size      = unit(0.15, "inches"), 
+      legend.justification = "left",
+      legend.location      = "plot", 
+      legend.margin        = margin(2,0,0,0),
+      panel.grid.major.x   = element_line(size     = 0.25,
+                                          colour   = "#a0a0a0",
+                                          linetype = "dashed"), 
     ) +
     guides(
       fill = guide_legend(
@@ -138,8 +154,3 @@ genDumbbells <- function(dta) {
 
   return(chart)
 }
-
-
-
-
-

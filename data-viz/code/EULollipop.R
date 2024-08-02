@@ -34,7 +34,12 @@ genLollipop <- function(dta) {
     distinct(country, nameSHORT, .keep_all = TRUE) %>%
     mutate(
       order    = row_number(),
-      axis_lab = if_else(level == "national", paste0("**", nuts_id, "**"), nuts_id)
+      axis_lab = if_else(level == "national", paste0("**", nuts_id, "**"), nuts_id),
+      tooltip  = paste0(
+        "<b>",str_replace(nameSHORT, "-", "- "),"</b>,<br>",
+        "<i>",country, "</i><br>",
+        scales::percent(value2plot, accuracy = 0.1)
+      )
     )
   
   # Drawing individual panels
@@ -43,7 +48,11 @@ genLollipop <- function(dta) {
     function(group){
       
       subset_data <- data4plot %>%
-        filter(country %in% group)
+        filter(country %in% group) %>%
+        mutate(
+          hjust    = if_else(value2plot >= 0.5, 1, 0),
+          vjust    = if_else(row_number() >= nrow(.)/2, 0, 1)
+        )
       
       bchart <- ggplot() +
         geom_segment(data = subset_data,
@@ -62,31 +71,36 @@ genLollipop <- function(dta) {
                    shape  = 21,
                    stroke = .025, 
                    size   = 4) %>% rename_geom_aes(new_aes = c("colour" = "colour2")) +
-        geom_richtext(data  = subset_data,
-                      aes(x = reorder(axis_lab, desc(order)),
-                          y = value2plot,
-                          colour3 = nuts_id,
-                          label   = paste0(
-                            "<b>",nameSHORT,"</b>,<br>",
-                            "<i>",country, "</i><br>",
-                            scales::percent(value2plot, accuracy = 0.1)
-                          ),
-                      ),
-                      vjust = "inward",
-                      size  = 2.25,
-                      hjust = "inward",
-                      fill  = "white") %>% rename_geom_aes(new_aes = c("colour" = "colour3")) +
         scale_colour_manual(aesthetics = "colour1", 
                             values = lpop_palette) + 
         scale_colour_manual(aesthetics = "colour2",
-                            values = border_color) + 
-        scale_colour_manual(aesthetics = "colour3",
-                            values   = label_color) + 
-        scale_fill_manual(values  = lpop_palette) +
+                            values = border_color) +
+        scale_fill_manual(values = lpop_palette) +
+        new_scale_colour() +
+        geom_textbox(
+          data = subset_data,
+          aes(
+            y       = value2plot,
+            x       = reorder(axis_lab, desc(order)),
+            label   = tooltip,
+            colour  = nuts_id,
+            hjust   = hjust,
+            vjust   = vjust
+          ),
+          family    = "Lato Full",
+          fontface  = "plain",
+          width     = grid::unit(0.85, "inches"),
+          size      = 3,
+          fill      = "white"
+        ) +
+        scale_colour_manual(values  = label_color) + 
+        # %>% rename_geom_aes(new_aes = c("colour" = "colour3")) +
+        # scale_colour_manual(aesthetics = "colour3",
+        #                     values  = label_color) + 
         scale_y_continuous(position = "right",
                            breaks   = seq(0, 1, 0.25),
                            labels   = paste0(seq(0, 1, 0.25) * 100, "%"),
-                           limits   = c(-0.01, 1.03),
+                           limits   = c(-0.01, 1.05),
                            expand   = expansion(mult = 0)) +
         coord_flip(clip = "off") +
         theme(
@@ -97,22 +111,23 @@ genLollipop <- function(dta) {
                                           size   = 3.063138 * .pt,
                                           color  = "#524F4C",
                                           margin = margin(10, 0, 0, 0)),
-          axis.text.y       = element_markdown(family = "Lato Full",
-                                               face   = "plain",
-                                               size   = 3.063138 * .pt,
-                                               color  = "#524F4C",
-                                               margin = margin(7, 0, 0, 0),
-                                               hjust = 0),
-          axis.line.x      = element_line(linewidth = 0.25,
-                                          colour    = "#5e5c5a",
-                                          linetype  = "solid"),
+          axis.text.y      = element_markdown(family = "Lato Full",
+                                              face   = "plain",
+                                              size   = 3.063138 * .pt,
+                                              color  = "#524F4C",
+                                              margin = margin(0, 7, 0, 0),
+                                              hjust  = 0,
+                                              vjust  = 0.5),
+          axis.line.x      = element_line(linewidth  = 0.25,
+                                          colour     = "#5e5c5a",
+                                          linetype   = "solid"),
           axis.ticks.y     = element_blank(),
           panel.grid       = element_blank(),
+          panel.background = element_blank(),
+          legend.position  = "none",
           panel.grid.major.x = element_line(linewidth = 0.25,
                                             colour = "#5e5c5a",
-                                            linetype = "dashed"),
-          panel.background = element_blank(),
-          legend.position  = "none"
+                                            linetype = "dashed")
         )
       
       return(bchart)
@@ -124,8 +139,3 @@ genLollipop <- function(dta) {
   
   return(patch)
 }
-
-
-
-
-  

@@ -137,9 +137,9 @@ base_map <- st_read(
   filter(!(polID %in% c("GL", "IS")))
 
 insets <- getInsets(list(
-  "Canarias/Madeiras" = c("ES7", "PT3"),
-  "Açores"            = "PT2",
-  "Cyprus"            = "CY0"
+  "Canarias/Madeira" = c("ES7", "PT3"),
+  "Açores"           = "PT2",
+  "Cyprus"           = "CY0"
 ))
 
 map_layers <- c(
@@ -252,10 +252,9 @@ writexl::write_xlsx(data_points$Special,file.path(path2EU,
 charts <- lapply(
   outline %>%
     filter(
-      (thematic_reports == T) & (type %in% c("Map"))
+      thematic_reports == T & type != "Box"
     ) %>%
     pull(chart_id),
+  # "R3F2",
   callVisualizer
 )
-
-

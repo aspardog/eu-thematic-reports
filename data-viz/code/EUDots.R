@@ -65,7 +65,7 @@ gen_dots <- function(data, legend) {
     ) %>% rename_geom_aes(new_aes = c("colour" = "colour2")) + 
     geom_vline(
       xintercept = seq(0.5, 26.5, 1),
-      color      = "gray90",
+      color      = "#a0a0a0",
       linetype   = "solid",
       linewidth  = 0.15
     ) +
@@ -76,11 +76,11 @@ gen_dots <- function(data, legend) {
           label = paste0(
             "<b><i>", country_name_ltn,"</i></b><br>",
             "<span style='color:#49178e;'>",
-            "<b><i>", legend[1], " ",
+            "<b><i>", legend[1], ": ",
             scales::percent(value2plot / 100, accuracy = 0.1), 
             "</i></b></span><br>",
             "<span style='color:#dd58b1;'>", 
-            "<b><i>", legend[2], " ",
+            "<b><i>", legend[2], ": ",
             scales::percent(value2plot / 100, accuracy = 0.1), 
             "</i></b></span>"
           ),
@@ -104,7 +104,7 @@ gen_dots <- function(data, legend) {
                         values     = label_color,
                         guide      = "none") + 
     scale_y_continuous(
-      limits   = c(0, 100), 
+      limits   = c(0, 105), 
       breaks   = seq(0, 100, 20), 
       labels   = paste0(seq(0, 100, 20), "%"), 
       position = "right"
@@ -124,7 +124,8 @@ gen_dots <- function(data, legend) {
                                       face   = "bold",
                                       size   = 4 * .pt,
                                       color  = "#524F4C",
-                                      margin = margin(10, 0, 0, 0)),
+                                      margin = margin(10, 0, 0, 0),
+                                      hjust  = 0.5),
       axis.text.y      = element_text(family = "Lato Full",
                                       face   = "bold",
                                       size   = 4 * .pt,
@@ -132,19 +133,32 @@ gen_dots <- function(data, legend) {
                                       margin = margin(10, 0, 0, 0),
                                       hjust = 0),
       axis.line.x      = element_line(linewidth = 0.25,
-                                      colour    = "#B0AEAB",
+                                      colour    = "#a0a0a0",
                                       linetype  = "solid"),
       axis.ticks.y       = element_blank(),
       panel.grid         = element_blank(),
       panel.grid.major.y = element_blank(),
-      panel.grid.major.x = element_blank(),
+      panel.grid.major.x = element_line(size     = 0.25,
+                                        colour   = "#a0a0a0",
+                                        linetype = "dashed"),
       panel.background   = element_blank(),
-      legend.position    = "top",
-      legend.text        = element_text(family = "Lato Full",
-                                        face   = "bold",
-                                        size   = 4 * .pt,
-                                        color  = "#524F4C",
-                                        margin = margin(10, 0, 0, 0))
+      legend.position  = "top",
+      legend.text      = element_text(family = "Lato Full",
+                                      face   = "bold", 
+                                      size   = 3.514598 * .pt,
+                                      color  = "#222221",
+                                      hjust  = 0.5),
+      legend.key.size      = unit(0.25, "inches"), 
+      legend.justification = "left",
+      legend.location      = "plot", 
+      legend.margin        = margin(2,0,0,0),
+    )+
+    guides(
+      fill = guide_legend(
+        override.aes = list(
+          colour = NA
+        )
+      )
     )
   return(plt)
 }

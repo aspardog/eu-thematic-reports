@@ -1,10 +1,9 @@
 gen_catMap <- function(dta) {
   
   # Define the colors for categories
-  category_colors   <- setNames(
-    cat_map_palette[1:length(unique_categories)], 
-    unique(dta$value2plot)
-  )
+  unique_categories <- c(sort(setdiff(unique(dta$value2plot), "Other")), "Other")
+  category_colors <- cat_map_palette[1:length(unique_categories)] %>%
+    setNames(unique_categories)
   
   # Defining unique colors for map regions
   inner_regions <- dta %>%
@@ -32,7 +31,7 @@ gen_catMap <- function(dta) {
   
   inset_dimensions <- list(
     # y range longer than x
-    "Canarias/Madeiras" = list(
+    "Canarias/Madeira" = list(
       "x" = c(1491672, 2091880.2),
       "y" = c(941748.3, 1541956.5)
     ),
@@ -65,7 +64,9 @@ gen_catMap <- function(dta) {
           "**",str_trim(nameSHORT),"**<br>",
           "_", str_trim(country_name_ltn),"_<br>",
           value2plot
-        )
+        ),
+        hjust = 0,
+        vjust = 1
       ) 
     
     # ggplot object for insets
@@ -84,20 +85,21 @@ gen_catMap <- function(dta) {
       scale_fill_manual(values       = category_colors, 
                         na.value     = "#d8d8d8") +
       new_scale_colour() +
-      geom_richtext(
+      geom_textbox(
         data = centroids,
         aes(
-          y       = lat,
-          x       = lon,
-          label   = tooltip,
-          colour  = polID,
+          y      = lat,
+          x      = lon,
+          label  = tooltip,
+          colour = polID,
+          hjust  = hjust,
+          vjust  = vjust
         ),
         family   = "Lato Full",
         fontface = "plain",
+        width    = unit(1.25, "inch"),
         size     = 3,
-        fill     = "white",
-        vjust    = "inward",
-        hjust    = "inward"
+        fill     = "white"
       ) +
       scale_colour_manual(values     = label_color,
                           guide      = "none") +
@@ -113,7 +115,7 @@ gen_catMap <- function(dta) {
         panel.background = element_blank(),
         legend.title     = element_blank(),
         legend.position  = "none",
-        panel.border     = element_rect(color = "black", 
+        panel.border     = element_rect(color = "#e6e7e8", 
                                         fill  = NA, 
                                         linewidth = 0.5)
       ) +
@@ -141,6 +143,14 @@ gen_catMap <- function(dta) {
         "**",str_trim(nameSHORT),"**<br>",
         "_", str_trim(country_name_ltn),"_<br>",
         value2plot
+      ),
+      hjust = case_when(
+        lon <  4299365 ~ 0,
+        lon >= 4299365 ~ 1,
+      ),
+      vjust = case_when(
+        lat <  3383059 ~ 0,
+        lat >= 3383059 ~ 1
       )
     ) 
   
@@ -148,8 +158,8 @@ gen_catMap <- function(dta) {
     geom_sf(
       data = data4map,
       aes(
-        fill    = value2plot,
-        colour  = polID
+        fill   = value2plot,
+        colour = polID
       ),
       size = 0.5,
       show.legend = c(fill = TRUE)
@@ -159,28 +169,31 @@ gen_catMap <- function(dta) {
             color = "grey25") +
     scale_colour_manual(values     = border_color,
                         guide      = "none") +
-    scale_fill_manual(values       = category_colors, 
+    scale_fill_manual("",
+                      values       = category_colors, 
                       na.value     = "#d8d8d8",
                       drop         = F,
                       na.translate = F) +
     new_scale_colour() +
-    geom_richtext(
+    geom_textbox(
       data = centroids,
       aes(
-        y       = lat,
-        x       = lon,
-        label   = tooltip,
-        colour  = polID,
+        y      = lat,
+        x      = lon,
+        label  = tooltip,
+        colour = polID,
+        hjust  = hjust,
+        vjust  = vjust
       ),
       family   = "Lato Full",
       fontface = "plain",
+      width    = unit(1.25, "inch"),
       size     = 3,
-      fill  = "white",
-      vjust = "inward",
-      hjust = "inward"
+      fill     = "white"
     ) +
-    scale_colour_manual(values     = label_color,
-                        guide      = "none") +
+    # coord_sf(crs = st_crs(base_map)) +
+    scale_colour_manual(values = label_color,
+                        guide  = "none") +
     scale_y_continuous(limits  = c(1442631, 5323487)) +
     scale_x_continuous(limits  = c(2581570, 6017160)) +
     theme_minimal() +
@@ -190,18 +203,32 @@ gen_catMap <- function(dta) {
       axis.text        = element_blank(),
       axis.ticks       = element_blank(),
       panel.grid       = element_blank(),
-      legend.position  = "top",
-      panel.border     = element_rect(color = "#e6e7e8", 
-                                      fill  = NA, 
+      panel.border     = element_rect(color     = "#e6e7e8", 
+                                      fill      = NA, 
                                       linewidth = 0.55),
-      panel.background = element_blank(),
-      plot.margin      = margin(0, 0, 0, 0)
+      panel.background   = element_blank(),
+      plot.margin        = margin(0, 0, 0, 0),
+      legend.text        = element_text(family = "Lato Full",
+                                        face   = "bold", 
+                                        size   = 3 * .pt,
+                                        color  = "#222221",
+                                        hjust  = 0.5,
+                                        margin = margin(0,5,0,12)),
+      legend.position      = "top",
+      legend.byrow         = TRUE, 
+      legend.key.size      = unit(0.15, "inches"), 
+      # legend.key.spacing   = unit(0.25, "inches"),
+      legend.justification = "left",
+      legend.margin        = margin(2,0,0,0),
+      
     ) + 
-    labs(fill    = "") + 
-    coord_sf(crs = st_crs(base_map)) +
     guides(
       fill = guide_legend(
-        nrow  = 1
+        nrow  = 1,
+        byrow = TRUE,
+        override.aes = list(
+          colour = NA
+        )
       )
     )
   
@@ -223,20 +250,14 @@ gen_catMap <- function(dta) {
     vp <- viewport_positions[[i]]
     
     # Add the inset grob as an annotation
-    combined_grob <- gTree(children = gList(combined_grob, grobTree(children = gList(inset_grob), vp = vp)))
+    combined_grob <- gTree(
+      children = gList(
+        combined_grob, 
+        grobTree(children = gList(inset_grob), 
+                 vp = vp)
+      )
+    )
   }
   
   return(combined_grob)
 }
-
-
-
-
-
-
-
-
-
-
-
-
