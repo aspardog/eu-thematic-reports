@@ -1,0 +1,22 @@
+country_name_ltn,level,nuts_id,nameSHORT,chart_id,target_var,demographic,value2plot,count
+Greece,regional,EL5,North Greece,R2F25,access2drm,Total Sample,NA,20
+Portugal,regional,PT1,Continental Portugal,R2F25,access2drm,Total Sample,NA,29
+Portugal,regional,PT2,Azores,R2F25,access2drm,Total Sample,NA,27
+Bulgaria,regional,BG3,North and South-East,R2F26,rp_time,Total Sample,NA,29
+France,regional,FRM,Corsica ,R2F26,rp_time,Total Sample,NA,26
+Greece,regional,EL5,North Greece,R2F26,rp_time,Total Sample,NA,25
+Portugal,regional,PT1,Continental Portugal,R2F26,rp_time,Total Sample,NA,22
+Portugal,regional,PT2,Azores,R2F26,rp_time,Total Sample,NA,27
+Greece,regional,EL5,North Greece,R2F27,rp_cost,Total Sample,NA,24
+Portugal,regional,PT1,Continental Portugal,R2F27,rp_cost,Total Sample,NA,23
+Portugal,regional,PT2,Azores,R2F27,rp_cost,Total Sample,NA,28
+Greece,regional,EL5,North Greece,R2F28,rp_fair,Total Sample,NA,25
+Portugal,regional,PT1,Continental Portugal,R2F28,rp_fair,Total Sample,NA,23
+Portugal,regional,PT2,Azores,R2F28,rp_fair,Total Sample,NA,29
+Bulgaria,regional,BG3,North and South-East,R2F29,rp_outcome,Total Sample,NA,23
+Croatia,regional,HR02,Pannonian Croatia,R2F29,rp_outcome,Total Sample,NA,27
+Czechia,regional,CZ01,Prague,R2F29,rp_outcome,Total Sample,NA,21
+France,regional,FRM,Corsica ,R2F29,rp_outcome,Total Sample,NA,20
+Greece,regional,EL5,North Greece,R2F29,rp_outcome,Total Sample,NA,14
+Portugal,regional,PT1,Continental Portugal,R2F29,rp_outcome,Total Sample,NA,15
+Portugal,regional,PT2,Azores,R2F29,rp_outcome,Total Sample,NA,18

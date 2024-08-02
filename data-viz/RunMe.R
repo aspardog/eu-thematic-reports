@@ -237,10 +237,34 @@ data_points <- imap(
   }
 )
 
-writexl::write_xlsx(data_points$Special,file.path(path2EU,
-  "EU-S Data/reports/eu-thematic-reports/data-viz/output/special_datapoints.xlsx"
+# Saving data for special charts
+writexl::write_xlsx(
+  data_points$Special,
+  file.path(
+    path2EU,
+    "EU-S Data/reports/eu-thematic-reports/data-viz/output/special_datapoints.xlsx"
   )
 )
+
+# Saving info from imputed data
+write_csv(
+  data_points$GPP %>% 
+    filter(count < 30 & count > 0),
+  file.path(
+    path2EU,
+    "EU-S Data/reports/eu-thematic-reports/data-viz/output/imputedDP_full.csv"
+  )
+)
+write_csv(
+  data_points$GPP %>% 
+    filter(demographic == "Total Sample" & count < 30 & count > 0),
+  file.path(
+    path2EU,
+    "EU-S Data/reports/eu-thematic-reports/data-viz/output/imputedDP_report.csv"
+  )
+)
+
+
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ##
