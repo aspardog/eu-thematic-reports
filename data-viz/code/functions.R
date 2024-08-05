@@ -134,6 +134,7 @@ callVisualizer <- function(figid) {
     chart <- genLollipop(data4chart)
   }
   
+  
   # Check if chart is still NULL, indicating an unsupported type
   if (is.null(chart)) {
     stop("Unsupported chart type")
@@ -280,6 +281,7 @@ save4web <- function(data, source){
         outline %>%
           select(
             chart_id,
+            direction,
             question,
             chapter    = report,
             section    = chapter,
@@ -289,9 +291,10 @@ save4web <- function(data, source){
           ),
         by = "chart_id"
       ) %>%
+      
       select(
         country, level, nuts_ltn, nuts_id, id, chapter, section, subsection, question, 
-        demographic, title, subtitle, value
+        demographic, title, subtitle, value, direction
       ) %>%
       mutate(
         section = str_remove_all(section, "Chapter .+\\. "), 
