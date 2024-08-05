@@ -223,7 +223,7 @@ data_points <- imap(
       # Saving data for website
       save4web(
         wrangled_data %>%
-          filter(!chart_id %in% c("R1B1")), # We can skip the data from the Report1, Box 1, it is repeated
+          filter(!chart_id %in% c("R1B1", "R2B1")), # We can skip the data from these Boxes. They are repeated.
         source = source
       )
       
