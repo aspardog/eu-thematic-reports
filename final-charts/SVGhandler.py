@@ -139,7 +139,10 @@ class svg:
                                 first_found = True
 
                             nuts_group_element = root.find(f".//g[@id='{nuts}_pols']")
-                            nuts_group_element.append(element)
+                            if nuts_group_element is None:
+                                print(f"Data not found for region {nuts}")
+                            else:
+                                nuts_group_element.append(element)
                 
                 # Moving coutry polygons at the end for viz purposes
                 for element in root.xpath(".//*[@style]", namespaces = namespaces):
@@ -166,14 +169,20 @@ class svg:
                                 first_found = True
 
                             nuts_group_element = root.find(f".//g[@id='{nuts}_tooltip']")
-                            nuts_group_element.append(element)
+                            if nuts_group_element is None:
+                                print(f"Data not found for region {nuts}")
+                            else:
+                                nuts_group_element.append(element)
                 
                 # Moving inset tooltips at the end of root for viz purposes
                 for nuts in ["CY0", "PT2", "ES7", "PT3"]:
                     inset_tool_bag = root.find(f".//g[@id='{nuts}_tooltip']")
-                    bag_parent = inset_tool_bag.getparent()
-                    root.remove(bag_parent)
-                    root.append(bag_parent)
+                    if inset_tool_bag is None:
+                        print(f"Data not found for inset region {nuts}")
+                    else:
+                        bag_parent = inset_tool_bag.getparent()
+                        root.remove(bag_parent)
+                        root.append(bag_parent)
                 
                 # Hide tooltips by default
                 missing_tooltips = []
