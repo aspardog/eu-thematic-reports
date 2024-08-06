@@ -17,7 +17,7 @@ genTable <- function(data) {
     set_header_labels(
       country = " ",
       `citizenship and ID` = "Citizenship and ID",
-      `community resources` = "Community Resources",
+      `community` = "Community",
       consumer = 'Consumer',
       education = "Education",
       employment = "Employment",
