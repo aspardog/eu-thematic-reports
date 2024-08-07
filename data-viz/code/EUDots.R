@@ -18,8 +18,11 @@ gen_dots <- function(data, legend) {
     mutate(
       nuts_id   = substr(nuts_id, 1, 2),
       label_pos = (value2plot_id1+value2plot_id2)/2
-    ) %>%
-    pivot_longer(
+    ) 
+  
+    hover_data <- country_avg
+  
+    country_avg <- country_avg %>% pivot_longer(
       !c(country_name_ltn, nuts_id, count, label_pos),
       values_to = "value2plot",
       names_to  = "category"
@@ -40,6 +43,10 @@ gen_dots <- function(data, legend) {
     filter(level == "national") %>% 
     pull(unique_label) %>% 
     setNames(country_avg %>% filter(category == "Value 1") %>% pull(nuts_id))
+  
+  # Filter data for richtext
+  value1_data <- country_avg %>% filter(category == "Value 1")
+  value2_data <- country_avg %>% filter(category == "Value 2")
   
   # Generate the plot
   plt <- ggplot(country_avg) +
@@ -70,18 +77,18 @@ gen_dots <- function(data, legend) {
       linewidth  = 0.15
     ) +
     geom_richtext(
-      data = country_avg %>% filter(category == "Value 1"),
+      data = hover_data,
       aes(x = country_name_ltn, 
           y = label_pos, 
           label = paste0(
             "<b><i>", country_name_ltn,"</i></b><br>",
             "<span style='color:#49178e;'>",
             "<b><i>", legend[1], ": ",
-            scales::percent(value2plot / 100, accuracy = 0.1), 
+            scales::percent(value2plot_id1 / 100, accuracy = 0.1), 
             "</i></b></span><br>",
             "<span style='color:#dd58b1;'>", 
             "<b><i>", legend[2], ": ",
-            scales::percent(value2plot / 100, accuracy = 0.1), 
+            scales::percent(value2plot_id2 / 100, accuracy = 0.1), 
             "</i></b></span>"
           ),
           colour3 = nuts_id), 
