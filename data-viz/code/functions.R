@@ -1134,7 +1134,10 @@ wrangleData <- function(figid, source){
         chart_id   = figid,
         target_var = id
       ) %>%
-      filter(!is.na(demographic))
+      filter(!is.na(demographic)) %>%
+      filter(
+        !(country_name_ltn == "Ireland" & target_var == "prevalence2")
+      )
     
     return(data_points_extended)
   }
@@ -1176,6 +1179,13 @@ wrangleData <- function(figid, source){
     }
     if (type %in% c("Table")){
       data2plot <- wrangle_PrevalenceByCategory(figid = figid)
+    }
+    
+    if (figid == "R2F20"){
+      data2plot <- data2plot %>%
+        filter(
+          !(country_name_ltn == "Ireland")
+        )
     }
     
     return(data2plot)
