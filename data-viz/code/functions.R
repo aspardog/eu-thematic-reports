@@ -1181,7 +1181,7 @@ wrangleData <- function(figid, source){
       data2plot <- wrangle_PrevalenceByCategory(figid = figid)
     }
     
-    if (figid == "R2F20"){
+    if (figid %in% c("R2F20", "R3F31")){
       data2plot <- data2plot %>%
         filter(
           !(country_name_ltn == "Ireland")
