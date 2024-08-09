@@ -1,5 +1,8 @@
 scatterPlot <- function(dta, legend) {
   
+  legend_labels <- color_range %>% filter(level == "national") %>% 
+    select(country_name_ltn = country, label = nuts_id)
+  
   # Defining unique colors
   border_color <- region_names %>%
     pull(unique_border) %>%
@@ -18,7 +21,8 @@ scatterPlot <- function(dta, legend) {
       across(
         c(value2plot_id1,value2plot_id2),
         \(x) as.numeric(x)*100
-      ),
+      )) %>% left_join(legend_labels, by = "country_name_ltn") %>%
+    mutate(
       tooltip = glue(
         "<b>{nuts_id}</b><br>",
         "<i>{country_name_ltn}</i><br>",
@@ -54,7 +58,7 @@ scatterPlot <- function(dta, legend) {
       aes(x = value2plot_id1, 
           y = value2plot_id2, 
           colour1 = nuts_id,
-          fill    = country_name_ltn),
+          fill    = label),
       shape  = 21,
       size   = 2,
       stroke = .025,
@@ -74,10 +78,9 @@ scatterPlot <- function(dta, legend) {
       y = paste(legend[2], "(%)")
     ) +
     scale_fill_manual(
-      "",
+      name = "",
       values = scatter_palette,
-      labels = color_range %>% filter (level == "national") %>% pull(nuts_id),
-      drop   = FALSE
+      drop = FALSE
     ) +
     scale_colour_manual(aesthetics = "colour1", 
                         values     = border_color,
