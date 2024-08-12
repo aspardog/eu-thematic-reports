@@ -146,8 +146,16 @@ genMap <- function(dta, direction){
           lon = st_coordinates(.)[,1],
           lat = st_coordinates(.)[,2],
           lat = if_else(polID == "MT00", lat + 5000, lat),
+          nameSHORT = str_trim(nameSHORT),
+          nameSHORT = case_when(
+            nameSHORT == "Auvergne-Rhône-Alpes"   ~ "Auvergne-Rhône- Alpes",
+            nameSHORT == "Burgundy-Franche-Comté" ~ "Burgundy- Franche-Comté",
+            nameSHORT == "Mecklenburg-Vorpommern" ~ "Mecklenburg- Vorpommern",
+            nameSHORT == "South -West/-Central"   ~ "South -West/ -Central",
+            TRUE ~ nameSHORT
+          ),
           tooltip = paste0(
-            "<b>",str_trim(nameSHORT),"</b><br>",
+            "<b>",nameSHORT,"</b><br>",
             "<i>",str_trim(country_name_ltn),"</i><br>",
             paste0(
               format(round(value2plot*100, 1),

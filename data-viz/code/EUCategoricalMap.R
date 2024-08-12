@@ -60,9 +60,17 @@ gen_catMap <- function(dta) {
         lon = st_coordinates(.)[,1],
         lat = st_coordinates(.)[,2],
         lat = if_else(polID == "MT00", lat + 5000, lat),
+        nameSHORT = str_trim(nameSHORT),
+        nameSHORT = case_when(
+          nameSHORT == "Auvergne-Rhône-Alpes"   ~ "Auvergne-Rhône- Alpes",
+          nameSHORT == "Burgundy-Franche-Comté" ~ "Burgundy- Franche-Comté",
+          nameSHORT == "Mecklenburg-Vorpommern" ~ "Mecklenburg- Vorpommern",
+          nameSHORT == "South -West/-Central"   ~ "South -West/ -Central",
+          TRUE ~ nameSHORT
+        ),
         tooltip = paste0(
-          "**",str_trim(nameSHORT),"**<br>",
-          "_", str_trim(country_name_ltn),"_<br>",
+          "**",nameSHORT,"**<br>",
+          "_",str_trim(country_name_ltn),"_<br>",
           value2plot
         ),
         hjust = 0,
@@ -139,9 +147,17 @@ gen_catMap <- function(dta) {
       lon = st_coordinates(.)[,1],
       lat = st_coordinates(.)[,2],
       lat = if_else(polID == "MT00", lat + 5000, lat),
+      nameSHORT = str_trim(nameSHORT),
+      nameSHORT = case_when(
+        nameSHORT == "Auvergne-Rhône-Alpes"   ~ "Auvergne-Rhône- Alpes",
+        nameSHORT == "Burgundy-Franche-Comté" ~ "Burgundy- Franche-Comté",
+        nameSHORT == "Mecklenburg-Vorpommern" ~ "Mecklenburg- Vorpommern",
+        nameSHORT == "South -West/-Central"   ~ "South -West/ -Central",
+        TRUE ~ nameSHORT
+      ),
       tooltip = paste0(
-        "**",str_trim(nameSHORT),"**<br>",
-        "_", str_trim(country_name_ltn),"_<br>",
+        "**",nameSHORT,"**<br>",
+        "_",str_trim(country_name_ltn),"_<br>",
         value2plot
       ),
       hjust = case_when(
