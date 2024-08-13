@@ -1,12 +1,12 @@
 genDumbbells <- function(dta) {
   
-  #  Defining unique colors
+  #  defining unique colors
   border_color        <- c(region_names$unique_border)
   names(border_color) <- c(region_names$nuts_id)
   label_color         <- c(region_names$unique_label)
   names(label_color)  <- c(region_names$nuts_id)
   
-  # Wrangling data for chart
+  # wrangling data for chart
   data2plot <- dta %>%
     filter(level == "regional" & !is.na(country_name_ltn) & !is.na(value2plot)) %>%
     mutate(
@@ -32,13 +32,38 @@ genDumbbells <- function(dta) {
       max_y = max(value2plot, na.rm = TRUE)
     )
   
+  national_averages <- dta %>% 
+    filter(level == "national" & !is.na(country_name_ltn) & !is.na(value2plot)) %>%
+    select(country_name_ltn, country_av = value2plot)
+
+  
+  # index country names for y axis
+  country_levels <- unique(data4segments$country_name_ltn)
+  country_indices <- setNames(seq_along(country_levels), country_levels)
+  
   # Drawing plot
   chart <- ggplot() +
-    geom_vline(
-      xintercept = seq(0.5, nrow(data4segments)-0.5, 1),
-      color      = "#a0a0a0",
-      linetype   = "solid",
-      linewidth  = 0.15
+    # Manually draw gridlines
+    geom_segment(
+      data = data4segments,
+      aes(
+        x = country_indices[country_name_ltn] - 0.5,
+        xend = country_indices[country_name_ltn] - 0.5,
+        y = 0,
+        yend = 1
+      ),
+      color = "#a0a0a0",
+      linetype = "solid",
+      size = 0.25
+    ) +
+    annotate(
+      "segment",
+      x     = max(country_indices) + 0.5, 
+      xend  = max(country_indices) + 0.5,   
+      y     = 0,                            
+      yend  = 1,                          
+      color = "#a0a0a0",
+      size  = 0.3
     ) +
     geom_segment(
       data = data4segments,
@@ -63,6 +88,18 @@ genDumbbells <- function(dta) {
       stroke = 0.025,
       size   = 4,
       show.legend = c(fill = TRUE)
+    ) +
+    geom_text(
+      data = national_averages,
+      aes(
+        x      = country_name_ltn, 
+        y      = -.1,
+        label  = scales::percent(country_av, accuracy = 0.1)
+      ),
+      hjust = -0.1,  
+      vjust = 0.25,  
+      color = "black",
+      size  = 3
     ) +
     geom_rect(
       data = data2plot,
@@ -90,7 +127,7 @@ genDumbbells <- function(dta) {
         label  = paste0(
           "<b>", str_trim(nameSHORT), "</b><br>",
           "<i>", str_trim(country_name_ltn), "</i><br>",
-          "Score: ", scales::number(value2plot, accuracy = 0.01)
+          scales::number(value2plot, accuracy = 0.01)
         )
       ),
       vjust = "inward",
@@ -109,25 +146,33 @@ genDumbbells <- function(dta) {
     ) +
     scale_y_continuous(
       expand   = c(0, 0),
-      limits   = c(0, 1),
+      limits   = c(-.1, 1),
       breaks   = seq(0, 1, .2),
       labels   = round(seq(0, 1, .2), 2),
       position = "right" 
     ) +
-    coord_flip() +
+    annotation_custom(
+      grob = textGrob("*Country \nAvg", 
+                      x = unit(.0125, "npc"),
+                      y = unit(1.035, "npc"), 
+                      just = c("left", "top"), 
+                      gp = gpar(col =  "#524F4C", fontsize = 6, family = "Lato Full",
+                                face = "bold"))
+    ) +
+    
+    coord_flip(clip = "off") +
     theme_minimal() +
     theme(
       axis.text.y        = element_text(family = "Lato Full", 
                                         size   = 8,
                                         hjust  = 0,
-                                        color  = "#524F4C"),
+                                        color  = "#524F4C",
+                                        margin = margin(r = 20)),
       axis.text.x        = element_text(family = "Lato Full", 
                                         size   = 8,
                                         hjust  = 0.5,
                                         color  = "#524F4C"),
-      axis.line.x        = element_line(linewidth = 0.25,
-                                        colour    = "#a0a0a0",
-                                        linetype  = "solid"),
+      axis.line.x        = element_blank(),
       axis.title         = element_blank(),
       panel.grid.major   = element_blank(),
       panel.grid.minor   = element_blank(),
@@ -143,7 +188,7 @@ genDumbbells <- function(dta) {
       legend.margin        = margin(2,0,0,0),
       panel.grid.major.x   = element_line(size     = 0.25,
                                           colour   = "#a0a0a0",
-                                          linetype = "dashed"), 
+                                          linetype = "dashed")
     ) +
     guides(
       fill = guide_legend(
