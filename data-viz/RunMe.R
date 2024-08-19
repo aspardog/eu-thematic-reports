@@ -32,7 +32,7 @@
 # Loading additional code modules
 modules <- c(
   "settings", "functions",
-  "EUDumbbell", "EUmap", "EUScatterplot", "EUTable", "EUCategoricalMap", "EUDots", "EULollipop", "EUBars"
+  "EUDumbbell", "EUmap", "EUScatterplot", "EUTable", "EUCategoricalMap", "EUDots", "EULollipop", "EUBars", "QRQ_bars"
 )
 for (mod in modules){
   source(
@@ -203,22 +203,26 @@ data_points <- imap(
         if (chart %in% c("R1F68", "R3F14")) {
           wrangled_data <- impute_values(wrangled_data)
         }
+        
         return(wrangled_data)
       }
     )
     
     if (source %in% c("GPP", "QRQ")) {
       
-      # Getting country+EU averages
-      wrangled_data <- getAvgData(
-        bind_rows(wrangled_data_list),
-        source = source
-      )
+      wrangled_data <- bind_rows(wrangled_data_list)
       
       # Imputing low counts
       if (source %in% c("GPP")){
         wrangled_data <- impute_values(wrangled_data)
       }
+      
+      # Getting country+EU averages
+      wrangled_data <- getAvgData(
+        wrangled_data,
+        source = source
+      )
+    
       
       # Saving data for website
       save4web(
@@ -275,7 +279,7 @@ write_csv(
 charts <- lapply(
   outline %>%
     filter(
-      thematic_reports == T & type != "Box"
+      thematic_reports == T & type %in% c("Bars", "Dots")
     ) %>%
     pull(chart_id),
   # "R1F67",

@@ -1,4 +1,4 @@
-gen_catMap <- function(dta) {
+gen_catMap <- function(dta, break_legend = F) {
   
   # Define the colors for categories
   unique_categories <- c(sort(setdiff(unique(dta$value2plot), "Other")), "Other")
@@ -240,7 +240,7 @@ gen_catMap <- function(dta) {
     ) + 
     guides(
       fill = guide_legend(
-        nrow  = 1,
+        nrow  = ifelse(break_legend == T, 2, 1),
         byrow = TRUE,
         override.aes = list(
           colour = NA

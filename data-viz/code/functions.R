@@ -76,6 +76,7 @@ callVisualizer <- function(figid) {
   print(glue("Working on Chart {figid}"))
   
   # Retrieve parameters from outline
+  
   params <- outline %>%
     filter(chart_id == figid) %>%
     select(description, level, demographic, type, direction) %>%
@@ -101,6 +102,7 @@ callVisualizer <- function(figid) {
   if (figid %in% c("R2F31", "R2F35", "R2F39", "R2F48")) {
     params[["legend_labels"]] <- c("Trust", "Perceptions of Corruption")
   }
+  
 
   if (figid %in% chart_list$Special) {
     data4chart <- data_points[["Special"]][[figid]]
@@ -115,11 +117,18 @@ callVisualizer <- function(figid) {
   if (params$type == "Dumbbells") {
     chart <- genDumbbells(data4chart)
   }
+  if (params$type == "QRQ Bars"){
+    chart <- gen_qrq_bars(data4chart, direction = params[["direction"]])
+  }
   if (params$type == "Table") {
     chart <- genTable(data4chart)
   }
   if (params$type == "Map (Categorical)") {
-    chart <- gen_catMap(data4chart)
+    if (figid == "R3F14"){
+      chart <- gen_catMap(data4chart, break_legend = T)
+    } else{
+      chart <- gen_catMap(data4chart)
+    }
   }
   if (params$type == "Scatterplot") {
     chart <- scatterPlot(data4chart, legend = params[["legend_labels"]])
@@ -174,11 +183,23 @@ getAvgData <- function(data, source){
         by = c("country_name_ltn", "nuts_id")
       ) %>%
       mutate(
-        weighted_value = value2plot*pop_weight,
-        level          = "regional"
+        level = "regional"
       )
     
-    country_avg <- data_wght %>%
+    data_wght_filtered <- data_wght %>% 
+      filter(!is.na(value2plot)) %>% 
+      group_by(country_name_ltn, chart_id, demographic) %>%
+      mutate(
+        total_pop_weight = sum(pop_weight, na.rm = T),
+        reweighted = pop_weight / total_pop_weight  # Adjusting pop weight for the remaining regions
+      ) %>%
+      ungroup() %>%
+      mutate(
+        weighted_value = value2plot * reweighted,
+        level          = "regional"
+        )
+    
+    country_avg <- data_wght_filtered %>%
       group_by(country_name_ltn, chart_id, demographic) %>%
       summarise(
         nuts_id        = first(nuts_id),
@@ -233,7 +254,7 @@ getAvgData <- function(data, source){
       .groups          = "keep"
     )
   
-  data_out <- data_wght %>%
+  data_out <- data_wght %>% # use original df so we don't lose the imputed values
     select(country_name_ltn, level, nuts_id, nameSHORT, chart_id, target_var, demographic, value2plot, count) %>%
     bind_rows(
       country_avg %>% select(-weighted_value), 

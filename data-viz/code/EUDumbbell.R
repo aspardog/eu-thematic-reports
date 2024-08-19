@@ -94,7 +94,7 @@ genDumbbells <- function(dta) {
       aes(
         x      = country_name_ltn, 
         y      = -.1,
-        label  = scales::percent(country_av, accuracy = 0.1)
+        label  = scales::number(country_av, accuracy = 0.01)
       ),
       hjust = -0.1,  
       vjust = 0.25,  
