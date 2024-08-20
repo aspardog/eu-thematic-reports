@@ -211,7 +211,7 @@ class svg:
                         print("Polygons for the following regions not found: " + ", ".join(missing_polygons))
                 
             # Special process for Bars
-            if self.type == "Bars":
+            if self.type in ["Bars", "QRQ Bars"]:
 
                 # Defining unique colors
                 country_borders = dict(zip(unique_colors["nuts_id"], unique_colors["unique_border"]))
@@ -347,27 +347,27 @@ class svg:
                         print("Polygons for the following regions not found: " + ", ".join(missing_points))
                 
             # We need a JS that can modify the visibility attributes of the tooltips
-            script = """
+            script = f"""
                 <script type="text/ecmascript">
                 <![CDATA[
 
-                function init(event) {
-                    if ( window.svgDocument == null ) {
+                function init(event) {{
+                    if ( window.svgDocument == null ) {{
                         svgDocument = event.target.ownerDocument;
-                        }
-                    }
+                        }}
+                    }}
 
-                function ShowTooltip(obj) {
-                    var cur = obj.id.split("_")[0];
-                    var tip = svgDocument.getElementById(cur + '_tooltip');
-                    tip.setAttribute('visibility', "visible")
-                    }
+                function ShowTooltip(obj) {{
+                    var cur_{self.id} = obj.id.split("_")[0];
+                    var tip_{self.id} = svgDocument.getElementById(cur_{self.id} + '_tooltip');
+                    tip_{self.id}.setAttribute('visibility', "visible")
+                    }}
 
-                function HideTooltip(obj) {
-                    var cur = obj.id.split("_")[0];
-                    var tip = svgDocument.getElementById(cur + '_tooltip');
-                    tip.setAttribute('visibility', "hidden")
-                    }
+                function HideTooltip(obj) {{
+                    var cur_{self.id} = obj.id.split("_")[0];
+                    var tip_{self.id} = svgDocument.getElementById(cur_{self.id} + '_tooltip');
+                    tip_{self.id}.setAttribute('visibility', "hidden")
+                    }}
 
                 ]]>
                 </script>

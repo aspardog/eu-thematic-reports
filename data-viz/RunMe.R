@@ -279,7 +279,7 @@ write_csv(
 charts <- lapply(
   outline %>%
     filter(
-      thematic_reports == T & type %in% c("Bars", "Dots")
+      thematic_reports == T & type != "Box"
     ) %>%
     pull(chart_id),
   # "R1F67",
