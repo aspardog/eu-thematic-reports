@@ -16,16 +16,12 @@ as well as produce the html reports and all of its data vizualizations. In order
 the DAU followed the specifications set by the communications and design teams. 
 
 ## Files description
-The repository is divided into to primary directories ['data-viz'] 
-(https://github.com/WJP-DAU/EU-thematic-reports/tree/main/data-viz) and ['html'] 
-(https://github.com/WJP-DAU/EU-thematic-reports/tree/main/html).
+The repository is divided into to primary directories: ['data-viz'](https://github.com/WJP-DAU/EU-thematic-reports/tree/main/data-viz) and ['html'](https://github.com/WJP-DAU/EU-thematic-reports/tree/main/html).
 
 The 'data-viz' directory contains all routines used to produce the data
 visualizations for all three reports. All final charts were produced using a 
 combination of R and Javascript, which was employed to add dynamic tooltips to the 
-static SVG's produced by ggplot. For the static charts, the [WJP-R Package]
-(https://github.com/ctoruno/WJPr) developed by [ctoruno] 
-(https://github.com/ctoruno) was used. This directory follows the DAU's usual
+static SVG's produced by ggplot. For the static charts, the [WJP-R Package](https://github.com/ctoruno/WJPr) developed by [ctoruno](https://github.com/ctoruno) was used. This directory follows the DAU's usual
 modular programming style.
 
 The data used in this project is a subset from an organization-managed merged .dta
@@ -38,9 +34,7 @@ The 'html' directory contains all the code used to produce the HTML version of t
 
 
 ## Code Logic
-This repository is split into two major directories: ['data-viz'] 
-(https://github.com/WJP-DAU/EU-thematic-reports/tree/main/data-viz) and ['html']
-(https://github.com/WJP-DAU/EU-thematic-reports/tree/main/html). 
+This repository is split into two major directories: ['data-viz'](https://github.com/WJP-DAU/EU-thematic-reports/tree/main/data-viz) and ['html'](https://github.com/WJP-DAU/EU-thematic-reports/tree/main/html). 
 
 For the data-viz
 directory, the general framework which dictates how the process is conducted is 
