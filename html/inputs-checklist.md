@@ -1,9 +1,7 @@
-# Inputs nchecklist
+# Inputs checklist
 In order to create a EU Thematic Report, we need the following elements:
 - [ ] Cover Photos
-- [ ] Title
-    - [ ] HTML
-    - [ ] PDF
+- [ ] HTML Header
 - [ ] Scrollytelling
     - [ ] Images
     - [ ] Text
@@ -20,7 +18,9 @@ In order to create a EU Thematic Report, we need the following elements:
         - [ ] Titles
         - [ ] Subtitles
         - [ ] Insights
-        - [ ] Notes
+        - [x] SVGs
+        - [ ] Notes and footnotes
+    - [ ] Visual boxes
 - [ ] Appendix
 - [ ] About the WJP
 - [ ] Methodological Materials
