@@ -16,7 +16,7 @@ In order to create a EU Thematic Report, we need the following elements:
         - [ ] Titles
         - [ ] Subtitles
         - [ ] Insights
-        - [x] SVGs
+        - [ ] SVGs
         - [ ] Notes and footnotes
     - [ ] Visual boxes
 - [ ] Appendix
