@@ -15,3 +15,5 @@ data-viz/output/special_datapoints.xlsx
 /final-charts/__pycache__
 /final-charts/R2
 /final-charts/R3
+html/example-pdf.pdf
+html/csv-schema-example.csv
