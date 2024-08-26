@@ -1,0 +1,218 @@
+id,tipo de elemento,contenido (markdown),pertenece a ,settings
+1,title,Europeans value that their Government promotes transparency and fights corruption,,
+2,scrollytelling,## The majority still think it is a force for good.,,
+,scrollytelling_img,scroll1.png,2,
+3,scrollytelling,## Men are more doubtful of their health.,,
+,scrollytelling_img,scroll2.png,3,
+4,scrollytelling,## Party like young citizens.,,
+,scrollytelling_img,scroll3.png,4,
+5,front_page_theme,Thematic Report,,
+6,front_page_title,Transparency & Corruption,,
+7,front_page_image,cover.png,,
+8,front_page_year,2024,,
+9,front_page_source,Europex Justice Barometer,,
+10,keyfinding,"###### Highlight number 1
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet metus dui, in faucibus purus suscipit non. Suspendisse tempor arcu sit amet consequat cursus. Nulla interdum commodo tempor. Donec viverra leo mauris, aliquam pretium odio aliquam id.",,
+11,keyfinding,"###### Highlight number 2
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet metus dui, in faucibus purus suscipit non. Suspendisse tempor arcu sit amet consequat cursus. Nulla interdum commodo tempor. Donec viverra leo mauris, aliquam pretium odio aliquam id.",,
+12,keyfinding,"###### Highlight number 3
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet metus dui, in faucibus purus suscipit non. Suspendisse tempor arcu sit amet consequat cursus. Nulla interdum commodo tempor. Donec viverra leo mauris, aliquam pretium odio aliquam id.",,
+13,introduction,"This data is organized into three thematic reports: 
+
+1. [Democracy & Fundamental Rights](https://github.com/)
+
+2. <a href = 'https://github.com/' target = '_blank'>Justice & Safety </a>
+
+3. Corruption & Transparency [add link] ",,
+14,executive-summary,"__Lorem ipsum dolor sit amet,__ consectetur adipiscing elit. Aliquam aliquet metus dui, in faucibus purus suscipit non. Suspendisse tempor arcu sit amet consequat cursus. Nulla interdum commodo tempor. Donec viverra leo mauris, aliquam pretium odio aliquam id.
+
+__Lorem ipsum dolor sit amet,__ consectetur adipiscing elit. Aliquam aliquet metus dui, in faucibus purus suscipit non. Suspendisse tempor arcu sit amet consequat cursus. Nulla interdum commodo tempor. Donec viverra leo mauris, aliquam pretium odio aliquam id.",,
+15,viz,Elections are free and fair,14,
+16,viz_description,Averages by age of respondents who believe elections are free and fair in their country.,15,
+17,viz_image,exsummary1.png,15,
+18,html,"__Lorem ipsum dolor sit amet,__ consectetur adipiscing elit. Aliquam aliquet metus dui, in faucibus purus suscipit non. Suspendisse tempor arcu sit amet consequat cursus. Nulla interdum commodo tempor. Donec viverra leo mauris, aliquam pretium odio aliquam id.
+
+__Lorem ipsum dolor sit amet,__ consectetur adipiscing elit. Aliquam aliquet metus dui, in faucibus purus suscipit non. Suspendisse tempor arcu sit amet consequat cursus. Nulla interdum commodo tempor. Donec viverra leo mauris, aliquam pretium odio aliquam id.",14,
+19,html,"__Lorem ipsum dolor sit amet,__ consectetur adipiscing elit. Aliquam aliquet metus dui, in faucibus purus suscipit non. Suspendisse tempor arcu sit amet consequat cursus. Nulla interdum commodo tempor. Donec viverra leo mauris, aliquam pretium odio aliquam id.
+
+__Lorem ipsum dolor sit amet,__ consectetur adipiscing elit. Aliquam aliquet metus dui, in faucibus purus suscipit non. Suspendisse tempor arcu sit amet consequat cursus. Nulla interdum commodo tempor. Donec viverra leo mauris, aliquam pretium odio aliquam id.",14,
+20,html,"__Lorem ipsum dolor sit amet,__ consectetur adipiscing elit. Aliquam aliquet metus dui, in faucibus purus suscipit non. Suspendisse tempor arcu sit amet consequat cursus. Nulla interdum commodo tempor. Donec viverra leo mauris, aliquam pretium odio aliquam id.
+
+__Lorem ipsum dolor sit amet,__ consectetur adipiscing elit. Aliquam aliquet metus dui, in faucibus purus suscipit non. Suspendisse tempor arcu sit amet consequat cursus. Nulla interdum commodo tempor. Donec viverra leo mauris, aliquam pretium odio aliquam id.",14,
+21,html,"In nonet evelesed molupisciur sit parit unt dolupturias ut ratibus, que nonectur mos aspit ma conem quia si doluptu remporae pa aute illit facepre, adit modignihil ides doluptur, soloreped quo dolliqui omnis num que sinveliti dolo eate sequi deri tecuptatia doluptio quiam voloreicae officit evelitatis es voluptur auta voluptatat litat aute lanti berchit ionsect emperum voloresto cuptur aut doluptae officab ilicipi debitati blacepr epreius doluptis dolorec erehenditae con re venet accusae ime pa dest, int fugitium eiciuntur as et at aut ab imo et quis quundaest faccume iusdae secum as aut que net rae ni voluptibus nonesediam in re, consequissim re debis volore dolestem.Olorem fugitam num ut ut re, aut utemporest aut et verunt reic torestia num rest aut accus eum ex et qui velit hillam, veliquam, illenda ndissus, vit idelent mi, veliquam re none voluptae.",14,
+ch1,chapter,# Control of Corruption,,
+23,findings,"- The prevalence of grand corruption, including corrupt public procurement practices and political graft, is a more pressing concern in the EU than street-level corruption, such as bribery in public services. The EU average score for the first type of corruption is 0.74 while for the second it is 0.53, on a scale from 0 to 1, where 1 signifies the highest possible score.
+- People in the EU perceive a much higher level of corruption among political parties and members of the legislature than among national government officials, local government officials, and the police. However, there is considerable variation in the level of concern. In Sweden, only 5% of people think that police officers are corrupt, while in Romania, Bulgaria, and Cyprus the figure exceeds 30%.
+- The efficacy of anti-corruption measures is being called into question. In all Member States, the majority of respondents believe that the measures taken by the national governments are ineffective in combating corruption and that these measures are not applied impartially.
+Commonly defined as the abuse of entrusted power for private gain, corruption is a flexible term that can be used to label very diverse acts. This pillar measures the prevalence of five types of acts of corruption in the public sector. The first two categories reflect a classic distinction in corruption studies: the difference between petty corruption, which occurs at the street level in the form of bribes to lower-ranking public agents; and grand corruption, including political corruption and corrupt procurement practices, which distorts the decision making of high-level government officials. The remaining categories explore in detail three special types of corruption: embezzlement of public funds, favoritism, and electoral corruption.",ch1,
+24,sub_chapter,## Absence of bribery,ch1,
+25,html,"This indicator explores the prevalence of bribes in administrative procedures and interactions with the police and court personnel. It assesses whether individuals in those situations have to make informal payments or gifts to receive a public service or expedite a process.
+
+- The average score for the expert indicator of absence of bribery across the 27 EU Member States is 0.74 (Figure 8.1). Scores range from 0.98 in Denmark to 0.46 in Bulgaria.
+
+- In all 27 Member States, fewer than half of respondents from the general population agree that their national government's efforts to combat corruption are effective (Figure 8.1.16) and that measures against corruption are applied impartially and without ulterior motives (Figure 8.1.17). 
+                                                                                                      
+- In 5 Member States, the majority of respondents agree that they are personally affected by corruption in their daily lives, figures range from just 10.9% in Denmark to 68.6% in Cyprus (Figure 8.1.14).   
+
+- Perceptions of corruption in government institutions are the highest regarding political parties; in 17 Member States, the majority of respondents believe that most or all political parties are involved in corrupt practices (Figure 8.1.10). Following that, in 9 Member States, the majority of respondents believe that most or all Members of Parliament/Congress are corrupt (Figure 8.1.1), and in 6 Member States, the majority believe most or all officials in the national government are corrupt (Figure 8.1.2). On the contrary, perceptions of corruption are the lowest across the EU regarding car registration officers (Figure 8.1.9), land registry officers (Figure 8.1.8), and police officers (Figure 8.1.7).",24,
+26,accordion_viz,<span>Figure 8.1</span> Absence of bribery ,24,expert
+,accordion_viz_category,Expert's Scorecard,26,
+27,accordion_viz_description,Percentage of respondents who agree that people in their country have access to affordable legal assistance and representation when they face a legal problem,26,
+28,accordion_viz_image,R3F19.svg,26,
+29,accordion_viz_note,"Note: Scores range from 0 to 1, with 1 indicating the strongest adherence to the rule of law, scores are rounded to two decimal places.",26,
+30,accordion_viz,<span>Figure 8.1.1</span> Perception of Corruption in Parliament/Congress ,24,people
+,accordion_viz_category,People's Voices,30,
+31,accordion_viz_description,Percentage of respondents who agree that people in their country have access to affordable legal assistance and representation when they face a legal problem,30,
+32,accordion_viz_image,R3F14.svg,30,
+33,accordion_viz_note,"Note: Scores range from 0 to 1, with 1 indicating the strongest adherence to the rule of law, scores are rounded to two decimal places.",30,
+34,accordion_viz,<span>Figure 8.1.2</span> Perception of Corruption in the National Government ,24,people
+,accordion_viz_category,People's Voices,34,
+35,accordion_viz_description,Percentage of respondents who agree that people in their country have access to affordable legal assistance and representation when they face a legal problem,34,
+36,accordion_viz_image,R2F25.svg,34,
+37,accordion_viz_note,"Note: Scores range from 0 to 1, with 1 indicating the strongest adherence to the rule of law, scores are rounded to two decimal places.",34,
+38,accordion_viz,<span>Figure 8.1.3</span> Perception of Corruption in the Local Government,24,people
+,accordion_viz_category,People's Voices,38,
+39,accordion_viz_description,Percentage of respondents who agree that people in their country have access to affordable legal assistance and representation when they face a legal problem,38,
+40,accordion_viz_image,R2F28.svg,38,
+41,accordion_viz_note,"Note: Scores range from 0 to 1, with 1 indicating the strongest adherence to the rule of law, scores are rounded to two decimal places.",38,
+42,sub_chapter,## Absence of corrupt electoral practices ,ch1,
+43,html,"This indicator examines the prevalence of the misuse of public funds to benefit a political campaign or to interfere with the electoral process. It also includes vote buying and cases where election officials request or receive bribes to benefit a candidate.
+- The average score for the expert indicator of absence of corrupt electoral practices across the 27 EU Member States is 0.57 (Figure 8.5). Scores range from 0.90 in Finland to 0.24 in Bulgaria.
+- In all 27 Member States, the vast majority of people think it is unacceptable for an elected official to take public funds for private use, figures range from 97.0% in Finland to 79.1% in Romania (Figure 8.5.1). 
+- Most people across the EU answered it is unacceptable for a public officer to be recruited on the basis of family ties and friendship networks, figures range from 85.6% in Italy to 49.9% in Luxembourg (Figure 8.5.2).",42,
+44,accordion_viz,<span>Figure 8.5</span> Absence of corrupt electoral practices ,42,expert
+,accordion_viz_category,Expert's Scorecard,44,
+45,accordion_viz_description,Percentage of respondents who agree that people in their country have access to affordable legal assistance and representation when they face a legal problem,44,
+46,accordion_viz_image,R2F27.svg,44,
+47,accordion_viz_note,"Note: Scores range from 0 to 1, with 1 indicating the strongest adherence to the rule of law, scores are rounded to two decimal places.",44,
+48,accordion_viz,<span>Figure 8.5.1</span> . Disagreement With Elected Officials Taking Public Funds for Private Use,42,people
+,accordion_viz_category,People's Voices,48,
+49,accordion_viz_description,Percentage of respondents who agree that people in their country have access to affordable legal assistance and representation when they face a legal problem,48,
+50,accordion_viz_image,R3F19.svg,48,
+51,accordion_viz_note,"Note: Scores range from 0 to 1, with 1 indicating the strongest adherence to the rule of law, scores are rounded to two decimal places.",48,
+52,accordion_viz,<span>Figure 8.5.2</span> Disagreement With Public Officers Recruited on Account of Family Ties or Friendship Networks,42,people
+,accordion_viz_category,People's Voices,52,
+53,accordion_viz_description,Percentage of respondents who agree that people in their country have access to affordable legal assistance and representation when they face a legal problem,52,
+54,accordion_viz_image,R2F26.svg,52,
+55,accordion_viz_note,"Note: Scores range from 0 to 1, with 1 indicating the strongest adherence to the rule of law, scores are rounded to two decimal places.",52,
+56,appendix,"To present an image that accurately portrays the rule of law as experienced by ordinary people, data in thisreport is drawn from the General Population Poll (GPP), an original data source designed and collected bythe World Justice Project (WJP). The GPP captures the experiences and perceptions of ordinary citizensconcerning the performance of the state and its agents and the actual operation of the legal framework intheir country.
+
+The General Population Poll used to collect data in South America in 2022 features several new questionsthat highlight perceptions on issues salient to the region, including corruption, authoritarian behaviors, policeperformance, criminal justice, and security. In total, the General Population Poll questionnaire includes 124perception-based questions and 85 experience-based questions, along with sociodemographic informationon all respondents. Additionally, the GPP in Colombia was administered to a sample of 1,000 respondents.
+
+**Data Collection**
+
+The GPP in Colombia was conducted for the WJP’s The Rule of Law in Colombia: Key Findings from theGeneral Population Poll 2022 with sampling, fieldwork, and data processing by Tempo Group, based inBogotá, Colombia. Tempo Group administered the surveys between May and June 2022, conducting face-to-face interviews using a multi-stage random sampling design. The target population group for this surveyincluded Colombians aged 18 years or older residing across 18 cities throughout the country.
+
+**SAMPLE SIZE & SAMPLE FRAME**
+
+The General Population Poll in Colombia represents an achieved total sample size of 1,000 interviewsdistributed proportionally across all three regions. Tempo Group based the sampling frame on the 2022projected population figures from the National Administrative Department of Statistics (DANE), acquiring aproportionally stratified sample by department, age, gender, socioeconomic status, and level of urbanization.
+
+In order to address all relevant topics while controlling the questionnaire length, the World Justice Projectsplit three of the survey modules into two versions (Option A and Option B) and randomly assigned oneoption to each respondent for each module. These modules included: Hypothetical Situations, CivicParticipation, and Institutional Performance. Aside from these modules, the questionnaires are identical. Alink to the complete survey instrument, in English and Spanish, can be found in the Appendix of this report.
+
+**SAMPLING**
+
+Regions and cities were selected to achieve a nationally representative sample of the country. Within cities,neighborhood blocks were selected using probability proportional to size sampling. In rural areas, veredazones, or sub-municipalities, were selected using probability proportional to size sampling. Each samplingunit was then selected randomly, and 6 interviews were assigned to each unit. Within the sampled segments,survey administrators performed a systematic random route to sample households and used a Kish grid toselect respondents. If the selected respondent declined to be interviewed or otherwise did not meet thecharacteristics of the target quota, the interviewer moved on to the next household.
+
+Challenges to data collection included security issues and accessibility in rural areas although ultimately, nosample units were substituted.",,
+57,about,"**THE WORLD JUSTICE PROJECT (WJP)** is an independent, multidisciplinary organization workingto create knowledge, build awareness, and stimulate action to advance the rule of law worldwide.Effective rule of law is the foundation for communities of justice, opportunity, and peace—under-pinning development, accountable government, and respect for fundamental rights.
+
+The WJP builds and supports a global, multidisciplinary movement for the rule of law through threelines of work: collecting, organizing, and analyzing original, independent rule of law data, includ-ing the World Justice Project Rule of Law Index®; supporting research, scholarship, and teachingabout the importance of the rule of law, its relationship to development, and effective strategies tostrengthen it; and connecting and building an engaged global network of policymakers and advo-cates to advance the rule of law through strategic partnerships, convenings, coordinated advocacy,and support for locally led initiatives.
+
+Learn more at: _worldjusticeproject.org._",,
+58,methodological,"**GENERAL POPULATION POLL (GPP)**
+
+The General Population Poll in Central America was designed to capture high-quality data on the realities andconcerns of ordinary people on a variety of themes related to the rule of law, including government account-ability, bribery, corruption, police performance, crime and insecurity, and migration.
+
+_World Justice Project General Population Poll 2021 – Central American Survey Instrument (English Versions A &World Justice Project General Population Poll 2021 – Central American Survey Instrument (Spanish Versions A &_
+
+**VARIABLES USED IN INFOGRAPHIC ON THE CRIMINAL JUSTICE SYSTEM**
+
+This table lists the question-level variables from the General Population Poll used to construct Chart 14.
+
+_World Justice Project Criminal Justice System Variable Map_
+
+**VARIABLES USED IN INFOGRAPHICS ON THE POLICE**
+
+This table lists the question-level variables from the General Population Poll used to construct Chart 16.
+
+_World Justice Project Police Performance Variable Map_
+
+**VARIABLES USED IN INFOGRAPHIC ON CRIME VICTIMIZATION RATES AND REPORTING**
+
+This table lists the question-level variables from the General Population Poll used to construct the “Reasonsthe crime was not reported” table in Chart 12.2.
+
+_World Justice Project Crime Rates and Reporting Variable Map_
+
+**VARIABLES USED IN INFOGRAPHIC ON PERCEPTIONS OF THE TREATMENT OF CRIME VICTIMS**
+
+This table lists the question-level variables from the General Population Poll used to construct Chart 18.
+
+_World Justice Project Victim Support Variable Map_
+
+**REGRESSION TABLES FOR REGRESSION ANALYSIS USED IN INFOGRAPHIC ON PERCEPTIONS OF SAFETY**
+
+This document includes the question-level variables from the General Population Poll used in the regressionanalysis and the regression results featured in Chart 13.2.
+
+_World Justice Project Regression Tables_",,
+59,references,"### GENERAL POPULATION POLL (GPP)
+
+The General Population Poll in Central America was designed to capture high-quality data on the realities andconcerns of ordinary people on a variety of themes related to the rule of law, including government account-ability, bribery, corruption, police performance, crime and insecurity, and migration.
+
+[World Justice Project General Population Poll 2021 – Central American Survey Instrument (English Versions A &World Justice Project General Population Poll 2021 – Central American Survey Instrument (Spanish Versions A &)](#)
+
+### VARIABLES USED IN INFOGRAPHIC ON THE CRIMINAL JUSTICE SYSTEM
+
+This table lists the question-level variables from the General Population Poll used to construct Chart 14.
+
+[World Justice Project Criminal Justice System Variable Map](#)
+
+### VARIABLES USED IN INFOGRAPHICS ON THE POLICE
+
+This table lists the question-level variables from the General Population Poll used to construct Chart 16.
+
+[World Justice Project Police Performance Variable Map](#)
+
+### VARIABLES USED IN INFOGRAPHIC ON CRIME VICTIMIZATION RATES AND REPORTING
+
+This table lists the question-level variables from the General Population Poll used to construct the “Reasonsthe crime was not reported” table in Chart 12.2.
+
+[World Justice Project Crime Rates and Reporting Variable Map](#)
+
+### VARIABLES USED IN INFOGRAPHIC ON PERCEPTIONS OF THE TREATMENT OF CRIME VICTIMS
+
+This table lists the question-level variables from the General Population Poll used to construct Chart 18.
+
+[World Justice Project Victim Support Variable Map](#)
+
+### REGRESSION TABLES FOR REGRESSION ANALYSIS USED IN INFOGRAPHIC ON PERCEPTIONS OF SAFETY
+
+This document includes the question-level variables from the General Population Poll used in the regressionanalysis and the regression results featured in Chart 13.2.
+
+[World Justice Project Regression Tables](#)",,
+60,acknowledgements,"Acknowledgements
+----------------
+
+The Rule of Law in Colombia: Key Findings from the General Population Poll 2022 was produced by the World Justice Project under the research oversight of Alejandro Ponce and the executive direction of Elizabeth Andersen.
+
+The production of this report was led by Ana María Montoya and Tanya Primiani. This report was prepared by Said Aarji, Erin Campbell, James Davis, Joshua Fuller, Skye Jacobs, Ana María Montoya, Santiago Pardo, Tanya Primiani, Hannah Rigazzi, Natalia Rodríguez Cajamarca, Victoria Thomaides, Carlos Toruño Paniagua, and Moss Woodbury.
+
+Mariana Lopez was the graphic designer for this report.
+
+Photo for cover provided by XXX via XXX.
+
+Sampling, fieldwork, and data processing in El Salvador, Belize, Nicaragua, and Panama were conducted by CID Gallup, based in Costa Rica. Data collection in Guatemala and Honduras was conducted by Mercaplan, based in Honduras.
+
+Scripting of the questionnaire in the online platform SurveyToGo was conducted by Ezekiel Agwata of Polar Solutions.
+
+The findings in this report are taken from the General Population Poll (GPP) conducted for the World Justice Project in 2022. The GPP’s conceptual framework and methodology were developed by Mark David Agrast, Juan Carlos Botero, and Alejandro Ponce. The methodology for this iteration of the GPP was developed by Lindsey Bock, Ana Cárdenas, Nora Futtner, Amy Gryskiewicz, Verónica Jaso, Ana María Montoya, Alejandro Ponce, Eréndira González Portillo, Tanya Primiani, Natalia Rodríguez Cajamarca, Victoria Thomaides, and Marcelo Torres.
+
+This report was made possible with the support of the U.S. Department of State’s Bureau of International Narcotics and Law Enforcement Affairs’ Office of Western Hemisphere (INL). The views expressed in this report are those of the survey respondents and do not necessarily represent the views of INL.
+
+© Copyright 2023 by the World Justice Project.
+
+Requests to reproduce this document should be sent to:
+
+*   Alejandro Ponce
+*   World Justice Project
+*   1025 Vermont Avenue NW, Suite 1200 Washington, DC 20005, USA
+*   Email: aponce@worldjusticeproject.org",,

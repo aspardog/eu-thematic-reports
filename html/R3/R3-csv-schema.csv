@@ -1,129 +1,289 @@
-id,tipo de elemento,contenido (markdown),pertenece a ,settings
-1,title,Europeans value that their Government promotes transparency and fights corruption,,
-2,scrollytelling,## The majority still think it is a force for good.,,
-,scrollytelling_img,scroll1.png,2,
-3,scrollytelling,## Men are more doubtful of their health.,,
-,scrollytelling_img,scroll2.png,3,
-4,scrollytelling,## Party like young citizens.,,
-,scrollytelling_img,scroll3.png,4,
-5,front_page_theme,Thematic Report,,
-6,front_page_title,Transparency & Corruption,,
-7,front_page_image,cover.png,,
-8,front_page_year,2024,,
-9,front_page_source,Europex Justice Barometer,,
-10,keyfinding,"###### Highlight number 1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet metus dui, in faucibus purus suscipit non. Suspendisse tempor arcu sit amet consequat cursus. Nulla interdum commodo tempor. Donec viverra leo mauris, aliquam pretium odio aliquam id.",,
-11,keyfinding,"###### Highlight number 2
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet metus dui, in faucibus purus suscipit non. Suspendisse tempor arcu sit amet consequat cursus. Nulla interdum commodo tempor. Donec viverra leo mauris, aliquam pretium odio aliquam id.",,
-12,keyfinding,"###### Highlight number 3
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet metus dui, in faucibus purus suscipit non. Suspendisse tempor arcu sit amet consequat cursus. Nulla interdum commodo tempor. Donec viverra leo mauris, aliquam pretium odio aliquam id.",,
-13,introduction,"This data is organized into three thematic reports: 
+id,type,content,belongs_to,settings
+front_page_theme,front_page_theme,Thematic Report,,
+front_page_title,front_page_title,Transparency & Corruption,,
+front_page_image,front_page_image,cover.jpg,,
+front_page_year,front_page_year,2024,,
+front_page_source,front_page_source,Europex Justice Barometer,,
+title,title,Europeans value that their Government promotes transparency and fights corruption,,
+scroll1,scrollytelling,The majority still think it is a force for good.,,
+scroll2,scrollytelling,Men are more doubtful of their health.,,
+scroll3,scrollytelling,Party like young citizens.,,
+,scrollytelling_img,scroll1.png,scroll1,
+,scrollytelling_img,scroll2.png,scroll2,
+,scrollytelling_img,scroll3.png,scroll3,
+introduction,introduction,"The rule of law is one of the common values upon which the European Union (EU) is founded and represents a constitutional priority shared by all Member States (Article 2 of the Treaty on EU). Adherence to this principle requires the proper functioning of democratic institutions of governance that enable the authorities to be accountable for their actions, as well as equal access to justice in impartial courts that protect people's fundamental rights. The rule of law's construction and maintenance requires specific and evidence-informed solutions at the national and subnational levels, considering people's views.
 
-1. [Democracy & Fundamental Rights](https://github.com/)
+World Justice Project EUROVOICES provides new data that captures the perceptions and experiences of people living in 110 subnational regions across the 27 EU Member States in the areas of justice, democracy, and the rule of law. It is based on surveys to more than 8,000 local and independent legal experts, as well as household surveys to more than 64,000 respondents. With this data, the World Justice Project (WJP) seeks to contribute to evidence-based decision-making processes at all government levels and help decision makers in identifying strengths, weaknesses, and policy priorities in their regions. Regional information was produced following the framework of territorial divisions of the Nomenclature of Territorial Units for Statistics (NUTS) system.
 
-2. <a href = 'https://github.com/' target = '_blank'>Justice & Safety </a>
+This data is organized into three **thematic reports**:
 
-3. Corruption & Transparency [add link] ",,
-14,executive-summary,"__Lorem ipsum dolor sit amet,__ consectetur adipiscing elit. Aliquam aliquet metus dui, in faucibus purus suscipit non. Suspendisse tempor arcu sit amet consequat cursus. Nulla interdum commodo tempor. Donec viverra leo mauris, aliquam pretium odio aliquam id.
+1. Democracy & Fundamental Rights [add link]
+2. Justice & Safety [add link]
+3. Corruption & Transparency [add link]
 
-__Lorem ipsum dolor sit amet,__ consectetur adipiscing elit. Aliquam aliquet metus dui, in faucibus purus suscipit non. Suspendisse tempor arcu sit amet consequat cursus. Nulla interdum commodo tempor. Donec viverra leo mauris, aliquam pretium odio aliquam id.",,
-15,viz,Elections are free and fair,14,
-16,viz_description,Averages by age of respondents who believe elections are free and fair in their country.,15,
-17,viz_image,exsummary1.png,15,
-18,html,"__Lorem ipsum dolor sit amet,__ consectetur adipiscing elit. Aliquam aliquet metus dui, in faucibus purus suscipit non. Suspendisse tempor arcu sit amet consequat cursus. Nulla interdum commodo tempor. Donec viverra leo mauris, aliquam pretium odio aliquam id.
+Each report contains a collection of indicators calculated using the responses of the expert surveys (Expert Scorecard) and complemented with question-level data from WJP's household surveys (People's Voices). The results of these two data collection methods are presented side-by-side, resulting in a comprehensive picture that portrays how people perceive and experience justice, governance, and the rule of law.
 
-__Lorem ipsum dolor sit amet,__ consectetur adipiscing elit. Aliquam aliquet metus dui, in faucibus purus suscipit non. Suspendisse tempor arcu sit amet consequat cursus. Nulla interdum commodo tempor. Donec viverra leo mauris, aliquam pretium odio aliquam id.",14,
-19,html,"__Lorem ipsum dolor sit amet,__ consectetur adipiscing elit. Aliquam aliquet metus dui, in faucibus purus suscipit non. Suspendisse tempor arcu sit amet consequat cursus. Nulla interdum commodo tempor. Donec viverra leo mauris, aliquam pretium odio aliquam id.
+This report (“Corruption & Transparency”) includes three chapters: (1) **Control of corruption**, (2) **Transparency and access to information**, and (3) **Administrative proceedings, regulatory enforcement, and right to property**. Each chapter contains thematic findings, definitions for each indicator included, as well as graphs with data from both the expert and household surveys (Expert Scorecard and People's Voices, respectively).
 
-__Lorem ipsum dolor sit amet,__ consectetur adipiscing elit. Aliquam aliquet metus dui, in faucibus purus suscipit non. Suspendisse tempor arcu sit amet consequat cursus. Nulla interdum commodo tempor. Donec viverra leo mauris, aliquam pretium odio aliquam id.",14,
-20,html,"__Lorem ipsum dolor sit amet,__ consectetur adipiscing elit. Aliquam aliquet metus dui, in faucibus purus suscipit non. Suspendisse tempor arcu sit amet consequat cursus. Nulla interdum commodo tempor. Donec viverra leo mauris, aliquam pretium odio aliquam id.
+1. Control of corruption: Commonly defined as the abuse of entrusted power for private gain, corruption is an umbrella term that can be used to label a variety of acts. This pillar measures the prevalence of five types of corruption in the public sector. The first two categories reflect a classic distinction in corruption studies: the difference between petty corruption, which occurs at the street level in the form of bribes to lower-ranking public agents; and grand corruption, including political corruption and corrupt procurement practices, which distorts the decision making of high-level government officials. The remaining categories explore in detail three special types of corruption: embezzlement of public funds, favoritism, and electoral corruption.
 
-__Lorem ipsum dolor sit amet,__ consectetur adipiscing elit. Aliquam aliquet metus dui, in faucibus purus suscipit non. Suspendisse tempor arcu sit amet consequat cursus. Nulla interdum commodo tempor. Donec viverra leo mauris, aliquam pretium odio aliquam id.",14,
-21,html,"In nonet evelesed molupisciur sit parit unt dolupturias ut ratibus, que nonectur mos aspit ma conem quia si doluptu remporae pa aute illit facepre, adit modignihil ides doluptur, soloreped quo dolliqui omnis num que sinveliti dolo eate sequi deri tecuptatia doluptio quiam voloreicae officit evelitatis es voluptur auta voluptatat litat aute lanti berchit ionsect emperum voloresto cuptur aut doluptae officab ilicipi debitati blacepr epreius doluptis dolorec erehenditae con re venet accusae ime pa dest, int fugitium eiciuntur as et at aut ab imo et quis quundaest faccume iusdae secum as aut que net rae ni voluptibus nonesediam in re, consequissim re debis volore dolestem.Olorem fugitam num ut ut re, aut utemporest aut et verunt reic torestia num rest aut accus eum ex et qui velit hillam, veliquam, illenda ndissus, vit idelent mi, veliquam re none voluptae.",14,
-ch1,chapter,# Control of Corruption,,
-23,findings,"- The prevalence of grand corruption, including corrupt public procurement practices and political graft, is a more pressing concern in the EU than street-level corruption, such as bribery in public services. The EU average score for the first type of corruption is 0.74 while for the second it is 0.53, on a scale from 0 to 1, where 1 signifies the highest possible score.
+2. Transparency and access to information: Transparency refers to the set of mechanisms that facilitate people's access to public information. In a general sense, the information included in this chapter can be grouped into two types of mechanisms: proactive and reactive transparency. Proactive transparency refers to those practices of public institutions that aim to make information of general interest available to the public in the most accessible way possible. This category includes information on the degree of publicity of the legal framework, the generation and dissemination of information on people's rights, and the publication of reasoning and justifications for decisions of public interest. In contrast, reactive transparency refers to the mechanisms by which a public institution responds in a clear, complete and timely manner to citizen requests for public information.
+
+3. Administrative proceedings, regulatory enforcement, and right to property: This chapter includes information on the clarity, stability, and accessibility of regulatory proceedings, specifically in the areas of trade, consumer protection, and environmental protection. Additionally, it includes information on the right to property, which is indicative of an environment where private tangible and intellectual property is protected from arbitrary expropriation. This pillar also reports on the operation of enforcement mechanisms for these regulations. Clear and stable regulations allow businesses to adequately plan their development, and efficient administrative procedures mean lower operating costs. Greater predictability in regulatory enforcement is valuable for businesses insofar as it assures that like cases will be treated equally, thus increasing business ability to plan their development. 
+
+The Expert Scorecard captures legal experts' assessments through 49 composite indicators with scores ranging from 0 to 1, where 1 is the highest possible score and 0 is the lowest possible score. Each score is calculated by aggregating a set of questions that touch on various dimensions of the concept at hand. Through expert surveys, it is possible to probe more deeply into technical aspects regarding how people interact with a complex network of institutions and the justice system.  In contrast, the data from the People's Voices database is presented at the question-level and using percentages (0 to 100%), which reflect the beliefs and experiences of the general population.
+
+The project's conceptual framework was designed building upon the tested and proven methodology of the WJP Rule of Law Index® (a rigorous quantitative tool that evaluates and ranks 142 countries across key dimensions of the rule of law), with adaptations to reflect the institutional architecture in the EU. It should be noted that the results of both tools are not directly comparable because, in this project, data from the general population poll is presented separately instead of being integrated into the aggregate scores. In addition, adjustments have been made to the conceptual framework and to the analysis of the data, including in the methods being used to calculate scores. For more information on the project's methodology, please refer to the methodology section at the end of this report [add link].
+
+Given the diversity of institutional designs across EU Member States, the questions included in our survey instruments mainly focus on outcomes experienced by individuals with respect to different justice, governance, and rule of law issues, with the understanding that these outcomes are generated by their interaction with a complex network of institutions from different levels (local, national, supranational). In this sense, we minimized mentions of government institutions, and instead focused on the perceptions and experiences of people in the city, town, or village where they live.
+
+This project is funded by the EU and complements other research activities being conducted by the WJP with the mission of advancing the rule of law worldwide. This data may also complement other monitoring tools that aim to promote a rule of law culture in the EU, including the European Commission's yearly Rule of Law Report and the EU Justice Scoreboard, among others.",,
+executive-summary,executive-summary,"Lorem ipsum odor amet, consectetuer adipiscing elit. Risus blandit ligula quam natoque in euismod duis. Eget tortor nisl placerat blandit ornare maecenas. Elit eros augue velit primis sem gravida odio. Urna aenean urna phasellus at ridiculus sociosqu lectus varius. Laoreet adipiscing aliquam aptent facilisi metus interdum? Et arcu conubia libero blandit aptent. Nec viverra scelerisque habitasse habitant ligula aliquam conubia dis. Mauris posuere sagittis quis dolor a dignissim. Varius erat ante etiam nostra placerat senectus.
+
+Sollicitudin elementum fusce pulvinar magna nec. Elit ad ut facilisis vitae; dis pharetra aliquam quam. Sem pretium maximus tristique mus convallis litora ut. Nascetur sollicitudin mollis lorem congue vel non. Vel nulla neque mi sodales congue nisi; finibus elementum convallis. Euismod rutrum consectetur per, posuere vivamus dolor faucibus. Sociosqu imperdiet nisi etiam velit sollicitudin morbi neque.
+
+Quisque primis sodales felis montes nullam, penatibus netus facilisi. Vivamus non adipiscing aptent fames praesent ultrices vel. Finibus morbi velit ultrices curae ultrices, fermentum erat placerat. Vitae a erat proin imperdiet luctus sociosqu litora. Magnis euismod orci, consequat curae suscipit condimentum. Litora praesent consectetur suspendisse penatibus parturient facilisi habitasse. Ipsum lobortis risus ultrices penatibus neque scelerisque conubia. Hendrerit aliquet non maximus ultrices, ac arcu venenatis.
+
+Cras luctus tortor auctor euismod habitasse! Scelerisque porta iaculis odio faucibus est venenatis nostra. Blandit sed dui sit rhoncus nam. Nec suscipit malesuada tempus fermentum; ipsum magna fusce tortor. Laoreet augue posuere suspendisse litora ridiculus duis. Velit volutpat volutpat nec varius luctus. Nulla leo felis malesuada elit elit rhoncus. Habitant et nulla dictum faucibus adipiscing class. Tincidunt aenean cursus malesuada luctus nascetur habitasse quisque.
+
+Fames mattis enim; ligula purus massa cubilia. Ad semper mollis sagittis lobortis facilisis a. Cubilia eget congue nam amet integer. Mauris mollis lobortis phasellus erat gravida. Aenean nisl nostra rutrum habitasse venenatis aenean magna vestibulum ipsum. Facilisis augue blandit pharetra dapibus ut non commodo vestibulum dictum. Taciti est porttitor elementum at senectus dapibus torquent. Suspendisse tortor eros auctor blandit vel nostra dis.
+
+Eget felis per donec congue tempus; auctor elementum tristique sapien. Dis gravida praesent arcu cursus viverra tincidunt. Cras convallis mi tempor odio primis ullamcorper. Tortor netus eleifend quisque fermentum dignissim luctus. Pretium vitae hendrerit; feugiat ridiculus neque dignissim magnis ultricies. Torquent pellentesque mattis per nullam vulputate leo. Fusce mus tempus ullamcorper diam purus a lacinia viverra. Lacinia tempus himenaeos phasellus porta habitasse vel tortor conubia. Curabitur nisl ridiculus viverra sed aliquet turpis diam accumsan. Fringilla nullam ultrices ex fermentum; maecenas torquent ut habitant est.
+
+Posuere posuere eu sed aenean orci scelerisque faucibus. Ex maecenas vivamus fusce facilisis montes urna. Eget bibendum nulla etiam taciti maecenas proin fermentum magna. Magnis consectetur ex ad rhoncus suscipit. Penatibus massa purus diam purus sodales tristique lectus efficitur. Condimentum fusce ut lacinia arcu diam. Nec bibendum suspendisse condimentum placerat ut aenean? Dictum ex amet a est nullam dapibus aenean eget donec. Sed lectus sed donec nunc nunc dictum nisl vulputate erat. Consectetur nibh tortor condimentum adipiscing velit!
+
+Malesuada dictum ex faucibus gravida vivamus class. Hac nascetur a sodales nunc eleifend dictum. Magna hendrerit sodales facilisi penatibus mauris scelerisque cras. Imperdiet ac elementum nulla mollis ligula scelerisque vel in. Erat auctor cubilia ac, viverra lorem tristique habitasse netus. Auctor nostra mi morbi dis maecenas. Curae efficitur hendrerit viverra varius felis justo; semper dis. Vitae magnis mollis fusce ante suspendisse posuere; in nostra. Posuere eros id pretium finibus dignissim pretium pellentesque!
+
+Quisque laoreet fames quam nullam suscipit ut viverra. Nostra risus dis vitae venenatis sapien volutpat quis porttitor. Auctor mauris class velit fusce purus suspendisse taciti morbi vel. Pretium natoque quis turpis platea sodales feugiat quam nunc. Penatibus inceptos tortor pretium, duis posuere rutrum egestas montes. Tempor penatibus torquent sed augue elementum consequat condimentum quam.",,
+ch8,chapter,Control of corruption,,
+ch8_f,findings,"- The prevalence of grand corruption, including corrupt public procurement practices and political graft, is a more pressing concern in the EU than street-level corruption, such as bribery in public services. The EU average score for the first type of corruption is 0.74 while for the second it is 0.53, on a scale from 0 to 1, where 1 signifies the highest possible score.
 - People in the EU perceive a much higher level of corruption among political parties and members of the legislature than among national government officials, local government officials, and the police. However, there is considerable variation in the level of concern. In Sweden, only 5% of people think that police officers are corrupt, while in Romania, Bulgaria, and Cyprus the figure exceeds 30%.
-- The efficacy of anti-corruption measures is being called into question. In all Member States, the majority of respondents believe that the measures taken by the national governments are ineffective in combating corruption and that these measures are not applied impartially.
-Commonly defined as the abuse of entrusted power for private gain, corruption is a flexible term that can be used to label very diverse acts. This pillar measures the prevalence of five types of acts of corruption in the public sector. The first two categories reflect a classic distinction in corruption studies: the difference between petty corruption, which occurs at the street level in the form of bribes to lower-ranking public agents; and grand corruption, including political corruption and corrupt procurement practices, which distorts the decision making of high-level government officials. The remaining categories explore in detail three special types of corruption: embezzlement of public funds, favoritism, and electoral corruption.",ch1,
-24,sub_chapter,## Absence of bribery,ch1,
-25,html,"This indicator explores the prevalence of bribes in administrative procedures and interactions with the police and court personnel. It assesses whether individuals in those situations have to make informal payments or gifts to receive a public service or expedite a process.
+- The efficacy of anti-corruption measures is being called into question. In all Member States, the majority of respondents believe that the measures taken by the national governments are ineffective in combating corruption and that these measures are not applied impartially.",ch8,
+sec8_1,sub_chapter,8.1 Absence of bribery,ch8,
+sec8_1_f,html,"This indicator explores the prevalence of bribes in administrative procedures and interactions with the police and court personnel. It assesses whether individuals in those situations have to make informal payments or gifts to receive a public service or expedite a process.
 
 - The average score for the expert indicator of absence of bribery across the 27 EU Member States is 0.74 (Figure 8.1). Scores range from 0.98 in Denmark to 0.46 in Bulgaria.
+- In all 27 Member States, fewer than half of respondents from the general population agree that their national government's efforts to combat corruption are effective (Figure 8.1.16) and that measures against corruption are applied impartially and without ulterior motives (Figure 8.1.17).
+- In 5 Member States, the majority of respondents agree that they are personally affected by corruption in their daily lives, figures range from just 10.9% in Denmark to 68.6% in Cyprus (Figure 8.1.14).
+- Perceptions of corruption in government institutions are the highest regarding political parties; in 17 Member States, the majority of respondents believe that most or all political parties are involved in corrupt practices (Figure 8.1.10). Following that, in 9 Member States, the majority of respondents believe that most or all Members of Parliament/Congress are corrupt (Figure 8.1.1), and in 6 Member States, the majority believe most or all officials in the national government are corrupt (Figure 8.1.2). On the contrary, perceptions of corruption are the lowest across the EU regarding car registration officers (Figure 8.1.9), land registry officers (Figure 8.1.8), and police officers (Figure 8.1.7).",sec8_1,
+R3F1,accordion_viz,<span>Figure 8.1</span> Absence of bribery,sec8_1,expert
+,accordion_viz_category,Expert's Scorecard,sec8_1,
+R3F1_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec8_1,
+R3F1_i,accordion_viz_image,R3F1.svg,sec8_1,
+R3F1_n,accordion_viz_note,NOTE HERE,sec8_1,
+R3F2,accordion_viz,<span>Figure 8.1.2</span> Perception of corruption in Parliament/Congress,sec8_1,people
+,accordion_viz_category,People's Voices,sec8_1,
+R3F2_d,accordion_viz_description,Percentage of respondents who believe that most or all members of Parliament/Congress are involved in corrupt practices,sec8_1,
+R3F2_i,accordion_viz_image,R3F2.svg,sec8_1,
+R3F2_n,accordion_viz_note,NOTE HERE,sec8_1,
+R3F3,accordion_viz,<span>Figure 8.1.3</span> Perception of corruption in the national government,sec8_1,people
+,accordion_viz_category,People's Voices,sec8_1,
+R3F3_d,accordion_viz_description,Percentage of respondents who believe that most or all officials working in the national government are involved in corrupt practices,sec8_1,
+R3F3_i,accordion_viz_image,R3F3.svg,sec8_1,
+R3F3_n,accordion_viz_note,NOTE HERE,sec8_1,
+R3F4,accordion_viz,<span>Figure 8.1.4</span> Perception of corruption in the local government,sec8_1,people
+,accordion_viz_category,People's Voices,sec8_1,
+R3F4_d,accordion_viz_description,Percentage of respondents who believe that most or all officials working in the local government are involved in corrupt practices,sec8_1,
+R3F4_i,accordion_viz_image,R3F4.svg,sec8_1,
+R3F4_n,accordion_viz_note,NOTE HERE,sec8_1,
+R3F5,accordion_viz,<span>Figure 8.1.4</span> Perception of corruption of judges and magistrates,sec8_1,people
+,accordion_viz_category,People's Voices,sec8_1,
+R3F5_d,accordion_viz_description,Percentage of respondents who believe that most or all judges and magistrates are involved in corrupt practices,sec8_1,
+R3F5_i,accordion_viz_image,R3F5.svg,sec8_1,
+R3F5_n,accordion_viz_note,NOTE HERE,sec8_1,
+R3F6,accordion_viz,<span>Figure 8.1.5</span> Perception of corruption of criminal investigation prosecutors,sec8_1,people
+,accordion_viz_category,People's Voices,sec8_1,
+R3F6_d,accordion_viz_description,Percentage of respondents who believe that most or all prosecutors in charge of criminal investigations,sec8_1,
+R3F6_i,accordion_viz_image,R3F6.svg,sec8_1,
+R3F6_n,accordion_viz_note,NOTE HERE,sec8_1,
+R3F7,accordion_viz,<span>Figure 8.1.6</span> Perception of corruption of public defense attorneys,sec8_1,people
+,accordion_viz_category,People's Voices,sec8_1,
+R3F7_d,accordion_viz_description,Percentage of respondents who believe that most or all public defense attorneys are involved in corrupt practices,sec8_1,
+R3F7_i,accordion_viz_image,R3F7.svg,sec8_1,
+R3F7_n,accordion_viz_note,NOTE HERE,sec8_1,
+R3F8,accordion_viz,<span>Figure 8.1.7</span> Perception of corruption of police officers,sec8_1,people
+,accordion_viz_category,People's Voices,sec8_1,
+R3F8_d,accordion_viz_description,Percentage of respondents who believe that most or all police officers are involved in corrupt practices,sec8_1,
+R3F8_i,accordion_viz_image,R3F8.svg,sec8_1,
+R3F8_n,accordion_viz_note,NOTE HERE,sec8_1,
+R3F9,accordion_viz,<span>Figure 8.1.8</span> Perception of corruption of land registry officers,sec8_1,people
+,accordion_viz_category,People's Voices,sec8_1,
+R3F9_d,accordion_viz_description,Percentage of respondents who believe that most or all land registry officers are involved in corrupt practices,sec8_1,
+R3F9_i,accordion_viz_image,R3F9.svg,sec8_1,
+R3F9_n,accordion_viz_note,NOTE HERE,sec8_1,
+R3F10,accordion_viz,<span>Figure 8.1.9</span> Perception of corruption of car registration or driver license agency officers,sec8_1,people
+,accordion_viz_category,People's Voices,sec8_1,
+R3F10_d,accordion_viz_description,Percentage of respondents who believe that most or all car registration or driver license agency officers are involved in corrupt practices,sec8_1,
+R3F10_i,accordion_viz_image,R3F10.svg,sec8_1,
+R3F10_n,accordion_viz_note,NOTE HERE,sec8_1,
+R3F11,accordion_viz,<span>Figure 8.1.10</span> Perception of corruption in political parties,sec8_1,people
+,accordion_viz_category,People's Voices,sec8_1,
+R3F11_d,accordion_viz_description,Percentage of respondents who believe that most or all political parties are involved in corrupt practices,sec8_1,
+R3F11_i,accordion_viz_image,R3F11.svg,sec8_1,
+R3F11_n,accordion_viz_note,NOTE HERE,sec8_1,
+R3F12,accordion_viz,<span>Figure 8.1.11</span> Perception of corruption in eu's institutions and agencies,sec8_1,people
+,accordion_viz_category,People's Voices,sec8_1,
+R3F12_d,accordion_viz_description,Percentage of respondents who believe that most or all officials working in the EU's institutions and agencies are involved in corrupt practices,sec8_1,
+R3F12_i,accordion_viz_image,R3F12.svg,sec8_1,
+R3F12_n,accordion_viz_note,NOTE HERE,sec8_1,
+R3F13,accordion_viz,<span>Figure 8.1.12</span> Experiences of corruption in government services,sec8_1,people
+,accordion_viz_category,People's Voices,sec8_1,
+R3F13_d,accordion_viz_description,Percentage of respondents who had to pay a bribe to receive a government service or expedite the process out of those who requested the service,sec8_1,
+R3F13_i,accordion_viz_image,R3F13.svg,sec8_1,
+R3F13_n,accordion_viz_note,NOTE HERE,sec8_1,
+R3F14,accordion_viz,<span>Figure 8.1.13</span> Main government service in which people experienced corruption,sec8_1,people
+,accordion_viz_category,People's Voices,sec8_1,
+R3F14_d,accordion_viz_description,Most frequent service in which respondents reported to have paid a bribe to receive the service or expedite the process,sec8_1,
+R3F14_i,accordion_viz_image,R3F14.svg,sec8_1,
+R3F14_n,accordion_viz_note,NOTE HERE,sec8_1,
+R3F15,accordion_viz,<span>Figure 8.1.14</span> Perception of corruption affecting people's daily lives,sec8_1,people
+,accordion_viz_category,People's Voices,sec8_1,
+R3F15_d,accordion_viz_description,Percentage of respondents who agree that they are personally affected by corruption in their daily lives,sec8_1,
+R3F15_i,accordion_viz_image,R3F15.svg,sec8_1,
+R3F15_n,accordion_viz_note,NOTE HERE,sec8_1,
+R3F16,accordion_viz,<span>Figure 8.1.15</span> Perception that citizens can make a difference in the fight against corruption,sec8_1,people
+,accordion_viz_category,People's Voices,sec8_1,
+R3F16_d,accordion_viz_description,Percentage of respondents who believe citizens can make a difference in the fight against corruption,sec8_1,
+R3F16_i,accordion_viz_image,R3F16.svg,sec8_1,
+R3F16_n,accordion_viz_note,NOTE HERE,sec8_1,
+R3F17,accordion_viz,<span>Figure 8.1.16</span> Effectiveness of measures against corruption,sec8_1,people
+,accordion_viz_category,People's Voices,sec8_1,
+R3F17_d,accordion_viz_description,Percentage of respondents who agree that the national government's measures to combat corruption are effective,sec8_1,
+R3F17_i,accordion_viz_image,R3F17.svg,sec8_1,
+R3F17_n,accordion_viz_note,NOTE HERE,sec8_1,
+R3F18,accordion_viz,<span>Figure 8.1.17</span> Impartiality in measures against corruption,sec8_1,people
+,accordion_viz_category,People's Voices,sec8_1,
+R3F18_d,accordion_viz_description,Percentage of respondents who agree that measures against corruption are applied impartially,sec8_1,
+R3F18_i,accordion_viz_image,R3F18.svg,sec8_1,
+R3F18_n,accordion_viz_note,NOTE HERE,sec8_1,
+sec8_2,sub_chapter,8.2 Absence of corrupt procurement practices,ch8,
+sec8_2_f,html,"This indicator evaluates the prevalence of grand corruption, specifically in public procurement (graft) and political processes.  This includes instances where high-ranking officials use their influence to award government contracts without competitive bidding or purchase goods at inflated prices. Additionally, this category examines whether these leaders solicit or receive informal payments in exchange of political favors, including favorable treatment, favorable votes, and access to policymakers.
 
-- In all 27 Member States, fewer than half of respondents from the general population agree that their national government's efforts to combat corruption are effective (Figure 8.1.16) and that measures against corruption are applied impartially and without ulterior motives (Figure 8.1.17). 
-                                                                                                      
-- In 5 Member States, the majority of respondents agree that they are personally affected by corruption in their daily lives, figures range from just 10.9% in Denmark to 68.6% in Cyprus (Figure 8.1.14).   
+- The average score for the expert indicator that   evaluates the extent of practices of grand corruption, including graft in public procurement and the political process among the 27 EU Member States is 0.53 (Figure 8.2). Scores range from 0.89 in Finland to 0.25 in Bulgaria.
+- In 21 Member States, the majority of respondents agree that the only way to succeed in business is to have political connections, figures range from just 19.5% in Sweden to 75.5% in Croatia (Figure 8.2.1).",sec8_2,
+R3F19,accordion_viz,<span>Figure 8.2</span> Absence of corrupt procurement practices,sec8_2,expert
+,accordion_viz_category,Expert's Scorecard,sec8_2,
+R3F19_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec8_2,
+R3F19_i,accordion_viz_image,R3F19.svg,sec8_2,
+R3F19_n,accordion_viz_note,NOTE HERE,sec8_2,
+R3F20,accordion_viz,<span>Figure 8.2.1</span> Perception that political connections are key to succeed in business,sec8_2,people
+,accordion_viz_category,People's Voices,sec8_2,
+R3F20_d,accordion_viz_description,Percentage of respondents who agree that the only way to succeed in business is to have political connections,sec8_2,
+R3F20_i,accordion_viz_image,R3F20.svg,sec8_2,
+R3F20_n,accordion_viz_note,NOTE HERE,sec8_2,
+sec8_3,sub_chapter,8.3 Absence of embezzlement,ch8,
+sec8_3_f,html,"This indicator measures the prevalence of theft or misappropriation of public funds or other state resources for personal use by public sector employees or elected officials.
 
-- Perceptions of corruption in government institutions are the highest regarding political parties; in 17 Member States, the majority of respondents believe that most or all political parties are involved in corrupt practices (Figure 8.1.10). Following that, in 9 Member States, the majority of respondents believe that most or all Members of Parliament/Congress are corrupt (Figure 8.1.1), and in 6 Member States, the majority believe most or all officials in the national government are corrupt (Figure 8.1.2). On the contrary, perceptions of corruption are the lowest across the EU regarding car registration officers (Figure 8.1.9), land registry officers (Figure 8.1.8), and police officers (Figure 8.1.7).",24,
-26,accordion_viz,<span>Figure 8.1</span> Absence of bribery ,24,expert
-,accordion_viz_category,Expert's Scorecard,26,
-27,accordion_viz_description,Percentage of respondents who agree that people in their country have access to affordable legal assistance and representation when they face a legal problem,26,
-28,accordion_viz_image,R3F19.svg,26,
-29,accordion_viz_note,"Note: Scores range from 0 to 1, with 1 indicating the strongest adherence to the rule of law, scores are rounded to two decimal places.",26,
-30,accordion_viz,<span>Figure 8.1.1</span> Perception of Corruption in Parliament/Congress ,24,people
-,accordion_viz_category,People's Voices,30,
-31,accordion_viz_description,Percentage of respondents who agree that people in their country have access to affordable legal assistance and representation when they face a legal problem,30,
-32,accordion_viz_image,R3F14.svg,30,
-33,accordion_viz_note,"Note: Scores range from 0 to 1, with 1 indicating the strongest adherence to the rule of law, scores are rounded to two decimal places.",30,
-34,accordion_viz,<span>Figure 8.1.2</span> Perception of Corruption in the National Government ,24,people
-,accordion_viz_category,People's Voices,34,
-35,accordion_viz_description,Percentage of respondents who agree that people in their country have access to affordable legal assistance and representation when they face a legal problem,34,
-36,accordion_viz_image,R2F25.svg,34,
-37,accordion_viz_note,"Note: Scores range from 0 to 1, with 1 indicating the strongest adherence to the rule of law, scores are rounded to two decimal places.",34,
-38,accordion_viz,<span>Figure 8.1.3</span> Perception of Corruption in the Local Government,24,people
-,accordion_viz_category,People's Voices,38,
-39,accordion_viz_description,Percentage of respondents who agree that people in their country have access to affordable legal assistance and representation when they face a legal problem,38,
-40,accordion_viz_image,R2F28.svg,38,
-41,accordion_viz_note,"Note: Scores range from 0 to 1, with 1 indicating the strongest adherence to the rule of law, scores are rounded to two decimal places.",38,
-42,sub_chapter,## Absence of corrupt electoral practices ,ch1,
-43,html,"This indicator examines the prevalence of the misuse of public funds to benefit a political campaign or to interfere with the electoral process. It also includes vote buying and cases where election officials request or receive bribes to benefit a candidate.
+- The average score for the expert indicator of absence of embezzlement among the 27 EU Member States is 0.60 (Figure 8.3). Scores range from 0.90 in Finland and Denmark to 0.32 in Bulgaria.",sec8_3,
+R3F21,accordion_viz,<span>Figure 8.3</span> Absence of embezzlement,sec8_3,expert
+,accordion_viz_category,Expert's Scorecard,sec8_3,
+R3F21_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec8_3,
+R3F21_i,accordion_viz_image,R3F21.svg,sec8_3,
+R3F21_n,accordion_viz_note,NOTE HERE,sec8_3,
+sec8_4,sub_chapter,8.4 Absence of favoritism,ch8,
+sec8_4_f,html,"This indicator refers to the practice of using public authority to benefit friends or family members, without necessarily requiring the exchange of political favors for money or gifts.
+
+- The average score for the expert indicator of absence of favoritism among the 27 EU Member States is 0.53 (Figure 8.4). Scores range from 0.84 in Finland and Sweden to 0.27 in Bulgaria.",sec8_4,
+R3F22,accordion_viz,<span>Figure 8.4</span> Absence of favoritism,sec8_4,expert
+,accordion_viz_category,Expert's Scorecard,sec8_4,
+R3F22_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec8_4,
+R3F22_i,accordion_viz_image,R3F22.svg,sec8_4,
+R3F22_n,accordion_viz_note,NOTE HERE,sec8_4,
+sec8_5,sub_chapter,8.5 Absence of corrupt electoral practices,ch8,
+sec8_5_f,html,"This indicator examines the prevalence of the misuse of public funds to benefit a political campaign or to interfere with the electoral process. It also includes vote buying and cases where election officials request or receive bribes to benefit a candidate.
+
 - The average score for the expert indicator of absence of corrupt electoral practices across the 27 EU Member States is 0.57 (Figure 8.5). Scores range from 0.90 in Finland to 0.24 in Bulgaria.
 - In all 27 Member States, the vast majority of people think it is unacceptable for an elected official to take public funds for private use, figures range from 97.0% in Finland to 79.1% in Romania (Figure 8.5.1). 
-- Most people across the EU answered it is unacceptable for a public officer to be recruited on the basis of family ties and friendship networks, figures range from 85.6% in Italy to 49.9% in Luxembourg (Figure 8.5.2).",42,
-44,accordion_viz,<span>Figure 8.5</span> Absence of corrupt electoral practices ,42,expert
-,accordion_viz_category,Expert's Scorecard,44,
-45,accordion_viz_description,Percentage of respondents who agree that people in their country have access to affordable legal assistance and representation when they face a legal problem,44,
-46,accordion_viz_image,R2F27.svg,44,
-47,accordion_viz_note,"Note: Scores range from 0 to 1, with 1 indicating the strongest adherence to the rule of law, scores are rounded to two decimal places.",44,
-48,accordion_viz,<span>Figure 8.5.1</span> . Disagreement With Elected Officials Taking Public Funds for Private Use,42,people
-,accordion_viz_category,People's Voices,48,
-49,accordion_viz_description,Percentage of respondents who agree that people in their country have access to affordable legal assistance and representation when they face a legal problem,48,
-50,accordion_viz_image,R3F19.svg,48,
-51,accordion_viz_note,"Note: Scores range from 0 to 1, with 1 indicating the strongest adherence to the rule of law, scores are rounded to two decimal places.",48,
-52,accordion_viz,<span>Figure 8.5.2</span> Disagreement With Public Officers Recruited on Account of Family Ties or Friendship Networks,42,people
-,accordion_viz_category,People's Voices,52,
-53,accordion_viz_description,Percentage of respondents who agree that people in their country have access to affordable legal assistance and representation when they face a legal problem,52,
-54,accordion_viz_image,R2F26.svg,52,
-55,accordion_viz_note,"Note: Scores range from 0 to 1, with 1 indicating the strongest adherence to the rule of law, scores are rounded to two decimal places.",52,
-37,appendix,"To present an image that accurately portrays the rule of law as experienced by ordinary people, data in thisreport is drawn from the General Population Poll (GPP), an original data source designed and collected bythe World Justice Project (WJP). The GPP captures the experiences and perceptions of ordinary citizensconcerning the performance of the state and its agents and the actual operation of the legal framework intheir country.
+- Most people across the EU answered it is unacceptable for a public officer to be recruited on the basis of family ties and friendship networks, figures range from 85.6% in Italy to 49.9% in Luxembourg (Figure 8.5.2).",sec8_5,
+R3F23,accordion_viz,<span>Figure 8.5</span> Absence of corrupt electoral practices,sec8_5,expert
+,accordion_viz_category,Expert's Scorecard,sec8_5,
+R3F23_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec8_5,
+R3F23_i,accordion_viz_image,R3F23.svg,sec8_5,
+R3F23_n,accordion_viz_note,NOTE HERE,sec8_5,
+R3F24,accordion_viz,<span>Figure 8.5.1</span> Disagreement with elected officials taking public funds for private use,sec8_5,people
+,accordion_viz_category,People's Voices,sec8_5,
+R3F24_d,accordion_viz_description,Percentage of respondents who answered it is unacceptable for an elected official to take public funds for private use,sec8_5,
+R3F24_i,accordion_viz_image,R3F24.svg,sec8_5,
+R3F24_n,accordion_viz_note,NOTE HERE,sec8_5,
+R3F25,accordion_viz,<span>Figure 8.5.2</span> Disagreement with public officers recruited on account of family ties or friendship networks,sec8_5,people
+,accordion_viz_category,People's Voices,sec8_5,
+R3F25_d,accordion_viz_description,Percentage of respondents who answered it is unacceptable for a public officer to be recruited on the basis of family ties and friendship networks,sec8_5,
+R3F25_i,accordion_viz_image,R3F25.svg,sec8_5,
+R3F25_n,accordion_viz_note,NOTE HERE,sec8_5,
+ch9,chapter,Transparency and Access to Information,,
+ch9_f,findings,"- There is a significant disparity in transparency assessments across the EU, with expert scores ranging from 0.52 in Romania to 0.83 in Sweden.
+- In contrast, the general population is not as confident in having access to public information if they seek it. In 17 Member States, fewer than one in four are confident that they would have access to detailed budget figures from government agencies if requested.",ch9,
+sec9_1,sub_chapter,9.1 Transparency and access to information,ch9,
+sec9_1_f,html,"This indicator includes information on public institutions' proactive transparency measures and the accessibility of different types of public information. Additionally, it covers the publicity of laws and whether the right to request information is effectively guaranteed.
 
-The General Population Poll used to collect data in South America in 2022 features several new questionsthat highlight perceptions on issues salient to the region, including corruption, authoritarian behaviors, policeperformance, criminal justice, and security. In total, the General Population Poll questionnaire includes 124perception-based questions and 85 experience-based questions, along with sociodemographic informationon all respondents. Additionally, the GPP in Colombia was administered to a sample of 1,000 respondents.
+- The average score for the expert indicator of right of access to documents across the 27 EU Member States is 0.67 (Figure 9.1). Scores range from 0.83 in Sweden to 0.52 in Romania. 
+- In 14 Member States, the majority of respondents agree that local authorities provide people with information about their rights (Figure 9.1.1), and in 9 EU countries, the majority of respondents believe that local authorities provide information in a simple, easy-to-read way (Figure 9.1.2).
+- In 21 Member States, the majority of respondents agree that local authorities make information easy to find online (Figure 9.1.3), yet only in 1 Member State (Poland) the majority of people agree that this information is easy to find without using the internet, such as using leaflets or posters (Figure 9.1.4).
+- In 26 Member States (data was not collected in Ireland for these questions), fewer than half of respondents believe it is likely or very likely that government agencies would grant information requests related to copies of government contracts or to detailed budget figures of government agencies (Figure 9.1.5). In most Member States, people tend to agree it is more likely to access budget figures than government contracts.",sec9_1,
+R3F26,accordion_viz,<span>Figure 9.1</span> Transparency and access to information,sec9_1,expert
+,accordion_viz_category,Expert's Scorecard,sec9_1,
+R3F26_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec9_1,
+R3F26_i,accordion_viz_image,R3F26.svg,sec9_1,
+R3F26_n,accordion_viz_note,NOTE HERE,sec9_1,
+R3F27,accordion_viz,<span>Figure 9.1.1</span> Access to information on people's rights,sec9_1,people
+,accordion_viz_category,People's Voices,sec9_1,
+R3F27_d,accordion_viz_description,Percentage of respondents who agree that local authorities provide people with information about their rights,sec9_1,
+R3F27_i,accordion_viz_image,R3F27.svg,sec9_1,
+R3F27_n,accordion_viz_note,NOTE HERE,sec9_1,
+R3F28,accordion_viz,<span>Figure 9.1.2</span> Access to information in simple formats,sec9_1,people
+,accordion_viz_category,People's Voices,sec9_1,
+R3F28_d,accordion_viz_description,"Percentage of respondents who agree that local authorities provide information for people in a simple, easy-to-read way",sec9_1,
+R3F28_i,accordion_viz_image,R3F28.svg,sec9_1,
+R3F28_n,accordion_viz_note,NOTE HERE,sec9_1,
+R3F29,accordion_viz,<span>Figure 9.1.3</span> Access to information online,sec9_1,people
+,accordion_viz_category,People's Voices,sec9_1,
+R3F29_d,accordion_viz_description,Percentage of respondents who agree that local authorities make information easy to find online,sec9_1,
+R3F29_i,accordion_viz_image,R3F29.svg,sec9_1,
+R3F29_n,accordion_viz_note,NOTE HERE,sec9_1,
+R3F30,accordion_viz,<span>Figure 9.1.4</span> Access to information without using the internet,sec9_1,people
+,accordion_viz_category,People's Voices,sec9_1,
+R3F30_d,accordion_viz_description,"Percentage of respondents who agree that local authorities make information easy to find without using the internet, such as using leaflets or posters",sec9_1,
+R3F30_i,accordion_viz_image,R3F30.svg,sec9_1,
+R3F30_n,accordion_viz_note,NOTE HERE,sec9_1,
+R3F31,accordion_viz,<span>Figure 9.1.5</span> Access to public information through requests,sec9_1,people
+,accordion_viz_category,People's Voices,sec9_1,
+R3F31_d,accordion_viz_description,Percentage of respondents who believe it is likely or very likely that government agencies would grant information requests related to detailed budget figures of government agencies and copies of government contracts.,sec9_1,
+R3F31_i,accordion_viz_image,R3F31.svg,sec9_1,
+R3F31_n,accordion_viz_note,NOTE HERE,sec9_1,
+ch10,chapter,"Administrative proceedings, regulatory enforcement, and right to property",,
+ch10_f,findings,"- In contrast with a high level of confidence in the stability and enforcement of business regulations across the EU, there is a greater concern regarding the simplicity and efficiency of the process for starting and operating a business. While only one country falls below the midpoint of 0.50 in the expert score on regulatory enforcement, six countries are below this point in the expert score on simple procedures.",ch10,
+sec10_1,sub_chapter,"10.1 Simple, predictable, and timely administrative proceedings",ch10,
+sec10_1_f,html,"This indicator captures public experiences and perceptions regarding the efficiency and integrity of administrative processes. It evaluates the clarity, accessibility, and predictability of the legal framework for businesses, as well as the simplicity and timeliness of administrative proceedings.
 
-**Data Collection**
+- The average score for the expert indicator of simple, predictable, and timely administrative proceedings among the 27 EU Member States is 0.61 (Figure 10.1). Scores range from 0.86 in Finland to 0.43 in Romania.",sec10_1,
+R3F32,accordion_viz,"<span>Figure 10.1</span> Simple, predictable, and timely administrative proceedings",sec10_1,expert
+,accordion_viz_category,Expert's Scorecard,sec10_1,
+R3F32_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec10_1,
+R3F32_i,accordion_viz_image,R3F32.svg,sec10_1,
+R3F32_n,accordion_viz_note,NOTE HERE,sec10_1,
+sec10_2,sub_chapter,10.2 Right to property,ch10,
+sec10_2_f,html,"This indicator evaluates whether all people have the right to acquire, own and dispose of property to the extent permitted by law and in alignment with other fundamental rights. It also examines whether expropriation and other proceedings with similar results are conducted legally and solely for public benefit.
 
-The GPP in Colombia was conducted for the WJP’s The Rule of Law in Colombia: Key Findings from theGeneral Population Poll 2022 with sampling, fieldwork, and data processing by Tempo Group, based inBogotá, Colombia. Tempo Group administered the surveys between May and June 2022, conducting face-to-face interviews using a multi-stage random sampling design. The target population group for this surveyincluded Colombians aged 18 years or older residing across 18 cities throughout the country.
+The average score for the expert indicator of right to property across the 27 EU Member States is 0.66 (Figure 10.2). Scores range from 0.84 in Denmark to 0.53 in Bulgaria.",sec10_2,
+R3F33,accordion_viz,<span>Figure 10.2</span> Right to property,sec10_2,expert
+,accordion_viz_category,Expert's Scorecard,sec10_2,
+R3F33_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec10_2,
+R3F33_i,accordion_viz_image,R3F33.svg,sec10_2,
+R3F33_n,accordion_viz_note,NOTE HERE,sec10_2,
+sec10_3,sub_chapter,10.3 Regulatory enforcement,ch10,
+sec10_3_f,html,"This indicator assesses the regularity and effectiveness of audits and inspections to ensure they are conducted lawfully and without corruption. It also evaluates the accessibility and simplicity of complaint mechanisms, the impartiality and effectiveness of regulatory investigations, and the appropriateness of sanctions for violations.
 
-**SAMPLE SIZE & SAMPLE FRAME**
-
-The General Population Poll in Colombia represents an achieved total sample size of 1,000 interviewsdistributed proportionally across all three regions. Tempo Group based the sampling frame on the 2022projected population figures from the National Administrative Department of Statistics (DANE), acquiring aproportionally stratified sample by department, age, gender, socioeconomic status, and level of urbanization.
-
-In order to address all relevant topics while controlling the questionnaire length, the World Justice Projectsplit three of the survey modules into two versions (Option A and Option B) and randomly assigned oneoption to each respondent for each module. These modules included: Hypothetical Situations, CivicParticipation, and Institutional Performance. Aside from these modules, the questionnaires are identical. Alink to the complete survey instrument, in English and Spanish, can be found in the Appendix of this report.
-
-**SAMPLING**
-
-Regions and cities were selected to achieve a nationally representative sample of the country. Within cities,neighborhood blocks were selected using probability proportional to size sampling. In rural areas, veredazones, or sub-municipalities, were selected using probability proportional to size sampling. Each samplingunit was then selected randomly, and 6 interviews were assigned to each unit. Within the sampled segments,survey administrators performed a systematic random route to sample households and used a Kish grid toselect respondents. If the selected respondent declined to be interviewed or otherwise did not meet thecharacteristics of the target quota, the interviewer moved on to the next household.
-
-Challenges to data collection included security issues and accessibility in rural areas although ultimately, nosample units were substituted.",,
-38,about,"**THE WORLD JUSTICE PROJECT (WJP)** is an independent, multidisciplinary organization workingto create knowledge, build awareness, and stimulate action to advance the rule of law worldwide.Effective rule of law is the foundation for communities of justice, opportunity, and peace—under-pinning development, accountable government, and respect for fundamental rights.
-
-The WJP builds and supports a global, multidisciplinary movement for the rule of law through threelines of work: collecting, organizing, and analyzing original, independent rule of law data, includ-ing the World Justice Project Rule of Law Index®; supporting research, scholarship, and teachingabout the importance of the rule of law, its relationship to development, and effective strategies tostrengthen it; and connecting and building an engaged global network of policymakers and advo-cates to advance the rule of law through strategic partnerships, convenings, coordinated advocacy,and support for locally led initiatives.
-
-Learn more at: _worldjusticeproject.org._",,
-39,methodological,"**GENERAL POPULATION POLL (GPP)**
+The average score for the expert indicator which assess the assesses the regularity and effectiveness of audits and inspections among the 27 EU Member States is 0.66 (Figure 10.3). Scores range from 0.79 in Austria to 0.46 in Malta.",sec10_3,
+R3F34,accordion_viz,<span>Figure 10.3</span> Regulatory enforcement,sec10_3,expert
+,accordion_viz_category,Expert's Scorecard,sec10_3,
+R3F34_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec10_3,
+R3F34_i,accordion_viz_image,R3F34.svg,sec10_3,
+R3F34_n,accordion_viz_note,NOTE HERE,sec10_3,
+methodology,appendix,"**GENERAL POPULATION POLL (GPP)**
 
 The General Population Poll in Central America was designed to capture high-quality data on the realities andconcerns of ordinary people on a variety of themes related to the rule of law, including government account-ability, bribery, corruption, police performance, crime and insecurity, and migration.
 
-_World Justice Project General Population Poll 2021 – Central American Survey Instrument (English Versions A &World Justice Project General Population Poll 2021 – Central American Survey Instrument (Spanish Versions A &_
+_World Justice Project General Population Poll 2021 Central American Survey Instrument_
 
 **VARIABLES USED IN INFOGRAPHIC ON THE CRIMINAL JUSTICE SYSTEM**
 
@@ -139,7 +299,7 @@ _World Justice Project Police Performance Variable Map_
 
 **VARIABLES USED IN INFOGRAPHIC ON CRIME VICTIMIZATION RATES AND REPORTING**
 
-This table lists the question-level variables from the General Population Poll used to construct the “Reasonsthe crime was not reported” table in Chart 12.2.
+This table lists the question-level variables from the General Population Poll used to construct the Reasons the crime was not reported table in Chart 12.2.
 
 _World Justice Project Crime Rates and Reporting Variable Map_
 
@@ -151,50 +311,17 @@ _World Justice Project Victim Support Variable Map_
 
 **REGRESSION TABLES FOR REGRESSION ANALYSIS USED IN INFOGRAPHIC ON PERCEPTIONS OF SAFETY**
 
-This document includes the question-level variables from the General Population Poll used in the regressionanalysis and the regression results featured in Chart 13.2.
+This document includes the question-level variables from the General Population Poll used in the regression analysis and the regression results featured in Chart 13.2.
 
 _World Justice Project Regression Tables_",,
-40,references,"### GENERAL POPULATION POLL (GPP)
+about,about,"**The World Justice Project (WJP)** is an independent, multidisciplinary organization working to create knowledge, build awareness, and stimulate action to advance the rule of law worldwide. Effective rule of law is the foundation for communities of justice, opportunity, and peace–underpinning development, accountable government, and respect for fundamental rights.
 
-The General Population Poll in Central America was designed to capture high-quality data on the realities andconcerns of ordinary people on a variety of themes related to the rule of law, including government account-ability, bribery, corruption, police performance, crime and insecurity, and migration.
+The WJP builds and supports a global, multidisciplinary movement for the rule of law through three lines of work: collecting, organizing, and analyzing original, independent rule of law data, including the World Justice Project Rule of Law Index; supporting research, scholarship, and teaching about the importance of the rule of law, its relationship to development, and effective strategies to strengthen it; and connecting and building an engaged global network of policymakers and advocates to advance the rule of law through strategic partnerships, convenings, coordinated advocacy, and support for locally led initiatives.
 
-[World Justice Project General Population Poll 2021 – Central American Survey Instrument (English Versions A &World Justice Project General Population Poll 2021 – Central American Survey Instrument (Spanish Versions A &)](#)
+Learn more at: <a href=""https://worldjusticeproject.org/"" target=""_blank"">_worldjusticeproject.org._</a>",,
+acknowledgements,acknowledgements,"The Rule of Law in Colombia: Key Findings from the General Population Poll 2022 was produced by the World Justice Project under the research oversight of Alejandro Ponce and the executive direction of Elizabeth Andersen.
 
-### VARIABLES USED IN INFOGRAPHIC ON THE CRIMINAL JUSTICE SYSTEM
-
-This table lists the question-level variables from the General Population Poll used to construct Chart 14.
-
-[World Justice Project Criminal Justice System Variable Map](#)
-
-### VARIABLES USED IN INFOGRAPHICS ON THE POLICE
-
-This table lists the question-level variables from the General Population Poll used to construct Chart 16.
-
-[World Justice Project Police Performance Variable Map](#)
-
-### VARIABLES USED IN INFOGRAPHIC ON CRIME VICTIMIZATION RATES AND REPORTING
-
-This table lists the question-level variables from the General Population Poll used to construct the “Reasonsthe crime was not reported” table in Chart 12.2.
-
-[World Justice Project Crime Rates and Reporting Variable Map](#)
-
-### VARIABLES USED IN INFOGRAPHIC ON PERCEPTIONS OF THE TREATMENT OF CRIME VICTIMS
-
-This table lists the question-level variables from the General Population Poll used to construct Chart 18.
-
-[World Justice Project Victim Support Variable Map](#)
-
-### REGRESSION TABLES FOR REGRESSION ANALYSIS USED IN INFOGRAPHIC ON PERCEPTIONS OF SAFETY
-
-This document includes the question-level variables from the General Population Poll used in the regressionanalysis and the regression results featured in Chart 13.2.
-
-[World Justice Project Regression Tables](#)",,
-41,acknowledgements,"Acknowledgements
-----------------
-
-The Rule of Law in Colombia: Key Findings from the General Population Poll 2022 was produced by the World Justice Project under the research oversight of Alejandro Ponce and the executive direction of Elizabeth Andersen.
-
-The production of this report was led by Ana María Montoya and Tanya Primiani. This report was prepared by Said Aarji, Erin Campbell, James Davis, Joshua Fuller, Skye Jacobs, Ana María Montoya, Santiago Pardo, Tanya Primiani, Hannah Rigazzi, Natalia Rodríguez Cajamarca, Victoria Thomaides, Carlos Toruño Paniagua, and Moss Woodbury.
+The production of this report was led by Ana María Montoya and Tanya Primiani. This report was prepared by Said Aarji, Erin Campbell, James Davis, Joshua Fuller, Skye Jacobs, Ana María Montoya, Santiago Pardo, Tanya Primiani, Hannah Rigazzi, Natalia Rodrí­guez Cajamarca, Victoria Thomaides, Carlos Toruño Paniagua, and Moss Woodbury.
 
 Mariana Lopez was the graphic designer for this report.
 
@@ -204,9 +331,9 @@ Sampling, fieldwork, and data processing in El Salvador, Belize, Nicaragua, and 
 
 Scripting of the questionnaire in the online platform SurveyToGo was conducted by Ezekiel Agwata of Polar Solutions.
 
-The findings in this report are taken from the General Population Poll (GPP) conducted for the World Justice Project in 2022. The GPP’s conceptual framework and methodology were developed by Mark David Agrast, Juan Carlos Botero, and Alejandro Ponce. The methodology for this iteration of the GPP was developed by Lindsey Bock, Ana Cárdenas, Nora Futtner, Amy Gryskiewicz, Verónica Jaso, Ana María Montoya, Alejandro Ponce, Eréndira González Portillo, Tanya Primiani, Natalia Rodríguez Cajamarca, Victoria Thomaides, and Marcelo Torres.
+The findings in this report are taken from the General Population Poll (GPP) conducted for the World Justice Project in 2022. The GPP's conceptual framework and methodology were developed by Mark David Agrast, Juan Carlos Botero, and Alejandro Ponce. The methodology for this iteration of the GPP was developed by Lindsey Bock, Ana Cárdenas, Nora Futtner, Amy Gryskiewicz, Verónica Jaso, Ana Marí­a Montoya, Alejandro Ponce, Eréndira González Portillo, Tanya Primiani, Natalia Rodrí­guez Cajamarca, Victoria Thomaides, and Marcelo Torres.
 
-This report was made possible with the support of the U.S. Department of State’s Bureau of International Narcotics and Law Enforcement Affairs’ Office of Western Hemisphere (INL). The views expressed in this report are those of the survey respondents and do not necessarily represent the views of INL.
+This report was made possible with the support of the U.S. Department of State's Bureau of International Narcotics and Law Enforcement Affairs' Office of Western Hemisphere (INL). The views expressed in this report are those of the survey respondents and do not necessarily represent the views of INL.
 
 © Copyright 2023 by the World Justice Project.
 
