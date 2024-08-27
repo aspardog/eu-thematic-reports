@@ -106,11 +106,13 @@ class text_input:
                 chapter_content = chapter.split("\n", 1)
                 main_header = chapter_content[0].strip("##").strip()
                 chapter_n   = re.match(r"^\d+", main_header).group().strip()
+                if len(chapter_n) < 2:
+                    chapter_n = f"0{chapter_n}"
                 header_text = re.sub(r"^\d+\. ", "", main_header)
                 chapter_data = {
                     "id"         : f"ch{chapter_n}",
                     "type"       : "chapter",
-                    "content"    : header_text,
+                    "content"    : f"# {header_text}",
                     "belongs_to" : None,
                     "settings"   : None
                 }
@@ -144,12 +146,12 @@ class text_input:
                     section_data = {
                         "id"         : f"sec{section_n}",
                         "type"       : "sub_chapter",
-                        "content"    : sub_header,
+                        "content"    : f"## {sub_header}",
                         "belongs_to" : f"ch{chapter_n}",
                         "settings"   : None
                     }
                     findings_data_2 = {
-                        "id"         : f"sec{section_n}_f",
+                        "id"         : f"f_sec{section_n}",
                         "type"       : "html",
                         "content"    : sub_text,
                         "belongs_to" : f"sec{section_n}",
@@ -171,9 +173,15 @@ class text_input:
                         if row["description"] == "GPP":
                             category = "People's Voices"
                             setting  = "people"
+                        chart_n = re.search("(?<=F).+", row["chart_id"]).group()
+                        if len(chart_n) < 2:
+                            figid = re.sub("(?<=F).+", f"0{chart_n}", row["chart_id"])
+                        else:
+                            figid = row["chart_id"]
+                        figid = f"sec{section_n}_{figid}"
 
                         accordion_viz = {
-                            "id"         : row["chart_id"],
+                            "id"         : figid,
                             "type"       : "accordion_viz",
                             "content"    : f"<span>{row['figure']}</span> {row['title']}",
                             "belongs_to" : f"sec{section_n}",
@@ -183,28 +191,28 @@ class text_input:
                             "id"         : None,
                             "type"       : "accordion_viz_category",
                             "content"    : category,
-                            "belongs_to" : f"sec{section_n}",
+                            "belongs_to" : figid,
                             "settings"   : None
                         }
                         accordion_viz_description = {
-                            "id"         : f"{row['chart_id']}_d",
+                            "id"         : f"{figid}_d",
                             "type"       : "accordion_viz_description",
                             "content"    : row["subtitle"],
-                            "belongs_to" : f"sec{section_n}",
+                            "belongs_to" : figid,
                             "settings"   : None
                         }
                         accordion_viz_image = {
-                            "id"         : f"{row['chart_id']}_i",
+                            "id"         : f"{figid}_i",
                             "type"       : "accordion_viz_image",
                             "content"    : f"{row['chart_id']}.svg",
-                            "belongs_to" : f"sec{section_n}",
+                            "belongs_to" : figid,
                             "settings"   : None
                         }
                         accordion_viz_note = {
-                            "id"         : f"{row['chart_id']}_n",
+                            "id"         : f"{figid}_n",
                             "type"       : "accordion_viz_note",
-                            "content"    : "NOTE HERE",
-                            "belongs_to" : f"sec{section_n}",
+                            "content"    : None,
+                            "belongs_to" : figid,
                             "settings"   : None
                         }
 
