@@ -29,7 +29,7 @@ class text_input:
             title = "Transparency & Corruption"
 
         elements = ["front_page_theme", "front_page_title", "front_page_image", "front_page_year", "front_page_source"]
-        content  = ["Thematic Report", title, "cover.jpg", "2024", "Europex Justice Barometer"]
+        content  = ["Thematic Report", title, "cover.jpg", "2024", "World Justice Project EUROVOICES"]
 
         output = pd.DataFrame.from_dict(
             {

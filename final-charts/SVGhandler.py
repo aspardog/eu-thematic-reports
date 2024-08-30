@@ -67,11 +67,11 @@ class svg:
                 for nuts, color_code in region_borders.items():
                     for element in root.xpath(".//*[@style]", namespaces = namespaces):
                         if color_code in element.attrib["style"]:
-                            element.set("id", f"{nuts}_circle")
+                            element.set("id", f"{nuts}_circle_{self.id}")
 
                 # Bagging tooltips elements into a single regional <g> tag
                 for nuts, color_code in region_labels.items():
-                    nuts_group = ET.Element("g", id = f"{nuts}_tooltip")
+                    nuts_group = ET.Element("g", id = f"{nuts}_tooltip_{self.id}")
                     first_found = False  
 
                     for element in root.xpath(".//*[@style]", namespaces = namespaces):
@@ -85,13 +85,13 @@ class svg:
                                 original_parent.append(nuts_group)
                                 first_found = True
 
-                            nuts_group_element = original_parent.find(f".//g[@id='{nuts}_tooltip']")
+                            nuts_group_element = original_parent.find(f".//g[@id='{nuts}_tooltip_{self.id}']")
                             nuts_group_element.append(element)
                 
                 # Hide tooltips by default
                 missing_tooltips = []
                 for nuts in unique_colors["nuts_id"].to_list():
-                    tooltip = root.find(f".//g[@id='{nuts}_tooltip']")
+                    tooltip = root.find(f".//g[@id='{nuts}_tooltip_{self.id}']")
                     if tooltip is not None:
                         tooltip.set("visibility", "hidden")
                     else:
@@ -100,10 +100,10 @@ class svg:
                 # Assign onmouseover and onmouseout callbacks to patches.
                 missing_circles = []
                 for nuts in unique_colors["nuts_id"].to_list():
-                    circle = root.xpath(f"//svg:circle[@id='{nuts}_circle']", namespaces=namespaces)
+                    circle = root.xpath(f"//svg:circle[@id='{nuts}_circle_{self.id}']", namespaces=namespaces)
                     if circle:
-                        circle[0].set("onmouseover", "ShowTooltip(this)")
-                        circle[0].set("onmouseout", "HideTooltip(this)")
+                        circle[0].set("onmouseover", f"ShowTooltip{self.id}(this)")
+                        circle[0].set("onmouseout", f"HideTooltip{self.id}(this)")
                     else:
                         missing_circles.append(nuts)
                 
@@ -124,7 +124,7 @@ class svg:
                 # Bagging polygons elements into a single regional <g> tag
                 for nuts, color_code in region_borders.items():
 
-                    nuts_group = ET.Element("g", id = f"{nuts}_pols")
+                    nuts_group = ET.Element("g", id = f"{nuts}_pols_{self.id}")
                     first_found = False  
 
                     for element in root.xpath(".//*[@style]", namespaces = namespaces):
@@ -138,7 +138,7 @@ class svg:
                                 original_parent.append(nuts_group)
                                 first_found = True
 
-                            nuts_group_element = root.find(f".//g[@id='{nuts}_pols']")
+                            nuts_group_element = root.find(f".//g[@id='{nuts}_pols_{self.id}']")
                             if nuts_group_element is None:
                                 print(f"Data not found for region {nuts}")
                             else:
@@ -154,7 +154,7 @@ class svg:
                 # Bagging tooltip elements into a single regional <g> tag
                 for nuts, color_code in region_labels.items():
 
-                    nuts_group = ET.Element("g", id = f"{nuts}_tooltip")
+                    nuts_group = ET.Element("g", id = f"{nuts}_tooltip_{self.id}")
 
                     first_found = False  
                     for element in root.xpath(".//*[@style]", namespaces = namespaces):
@@ -168,7 +168,7 @@ class svg:
                                 original_parent.append(nuts_group)
                                 first_found = True
 
-                            nuts_group_element = root.find(f".//g[@id='{nuts}_tooltip']")
+                            nuts_group_element = root.find(f".//g[@id='{nuts}_tooltip_{self.id}']")
                             if nuts_group_element is None:
                                 print(f"Data not found for region {nuts}")
                             else:
@@ -176,7 +176,7 @@ class svg:
                 
                 # Moving inset tooltips at the end of root for viz purposes
                 for nuts in ["CY0", "PT2", "ES7", "PT3"]:
-                    inset_tool_bag = root.find(f".//g[@id='{nuts}_tooltip']")
+                    inset_tool_bag = root.find(f".//g[@id='{nuts}_tooltip_{self.id}']")
                     if inset_tool_bag is None:
                         print(f"Data not found for inset region {nuts}")
                     else:
@@ -187,7 +187,7 @@ class svg:
                 # Hide tooltips by default
                 missing_tooltips = []
                 for nuts in unique_colors["nuts_id"].to_list():
-                    tooltip = root.find(f".//g[@id='{nuts}_tooltip']")
+                    tooltip = root.find(f".//g[@id='{nuts}_tooltip_{self.id}']")
                     if tooltip is not None:
                         tooltip.set('visibility', 'hidden')
                     else:
@@ -196,10 +196,10 @@ class svg:
                 # Assign onmouseover and onmouseout callbacks to patches.
                 missing_polygons = []
                 for nuts in unique_colors["nuts_id"].to_list():
-                    polygons = root.find(f".//g[@id='{nuts}_pols']")
+                    polygons = root.find(f".//g[@id='{nuts}_pols_{self.id}']")
                     if polygons is not None:
-                        polygons.set('onmouseover', "ShowTooltip(this)")
-                        polygons.set('onmouseout', "HideTooltip(this)")
+                        polygons.set('onmouseover', f"ShowTooltip{self.id}(this)")
+                        polygons.set('onmouseout', f"HideTooltip{self.id}(this)")
                     else:
                         missing_polygons.append(nuts)
 
@@ -221,11 +221,11 @@ class svg:
                 for nuts, color_code in country_borders.items():
                     for element in root.xpath(".//*[@style]", namespaces = namespaces):
                         if color_code in element.attrib["style"]:
-                            element.set("id", f"{nuts}_bar")
+                            element.set("id", f"{nuts}_bar_{self.id}")
 
                 # Bagging tooltips elements into a single regional <g> tag
                 for nuts, color_code in country_labels.items():
-                    nuts_group = ET.Element("g", id = f"{nuts}_tooltip")
+                    nuts_group = ET.Element("g", id = f"{nuts}_tooltip_{self.id}")
                     first_found = False  
 
                     for element in root.xpath(".//*[@style]", namespaces = namespaces):
@@ -239,13 +239,13 @@ class svg:
                                 original_parent.append(nuts_group)
                                 first_found = True
 
-                            nuts_group_element = original_parent.find(f".//g[@id='{nuts}_tooltip']")
+                            nuts_group_element = original_parent.find(f".//g[@id='{nuts}_tooltip_{self.id}']")
                             nuts_group_element.append(element)
                 
                 # Hide tooltips by default
                 missing_tooltips = []
                 for nuts in unique_colors["nuts_id"].to_list():
-                    tooltip = root.find(f".//g[@id='{nuts}_tooltip']")
+                    tooltip = root.find(f".//g[@id='{nuts}_tooltip_{self.id}']")
                     if tooltip is not None:
                         tooltip.set("visibility", "hidden")
                     else:
@@ -254,10 +254,10 @@ class svg:
                 # Assign onmouseover and onmouseout callbacks to patches.
                 missing_bars = []
                 for nuts in unique_colors["nuts_id"].to_list():
-                    bar = root.xpath(f"//svg:rect[@id='{nuts}_bar']", namespaces=namespaces)
+                    bar = root.xpath(f"//svg:rect[@id='{nuts}_bar_{self.id}']", namespaces=namespaces)
                     if bar:
-                        bar[0].set("onmouseover", "ShowTooltip(this)")
-                        bar[0].set("onmouseout", "HideTooltip(this)")
+                        bar[0].set("onmouseover", f"ShowTooltip{self.id}(this)")
+                        bar[0].set("onmouseout", f"HideTooltip{self.id}(this)")
                     else:
                         missing_bars.append(nuts)
                 
@@ -278,7 +278,7 @@ class svg:
                 # Bagging points elements into a single regional <g> tag
                 for nuts, color_code in region_borders.items():
 
-                    nuts_group = ET.Element("g", id = f"{nuts}_points")
+                    nuts_group = ET.Element("g", id = f"{nuts}_points_{self.id}")
                     first_found = False  
 
                     for element in root.xpath(".//*[@style]", namespaces = namespaces):
@@ -291,13 +291,13 @@ class svg:
                             if not first_found:
                                 original_parent.append(nuts_group)
 
-                            nuts_group_element = original_parent.find(f".//g[@id='{nuts}_points']")
+                            nuts_group_element = original_parent.find(f".//g[@id='{nuts}_points_{self.id}']")
                             nuts_group_element.append(element)
             
                 # Bagging tooltip elements into a single regional <g> tag
                 for nuts, color_code in region_labels.items():
 
-                    nuts_group = ET.Element("g", id = f"{nuts}_tooltip")
+                    nuts_group = ET.Element("g", id = f"{nuts}_tooltip_{self.id}")
                     first_found = False
 
                     for element in root.xpath(".//*[@style]", namespaces = namespaces):
@@ -307,7 +307,7 @@ class svg:
                             if not first_found:
                                 original_parent.append(nuts_group)
                                 first_found = True
-                            nuts_group_element = root.find(f".//g[@id='{nuts}_tooltip']")
+                            nuts_group_element = root.find(f".//g[@id='{nuts}_tooltip_{self.id}']")
 
                             element_siblings = list(element.itersiblings(preceding = False))
                             for sibling in element_siblings:
@@ -323,7 +323,7 @@ class svg:
                 # Hide tooltips by default
                 missing_tooltips = []
                 for nuts in unique_colors["nuts_id"].to_list():
-                    tooltip = root.find(f".//g[@id='{nuts}_tooltip']")
+                    tooltip = root.find(f".//g[@id='{nuts}_tooltip_{self.id}']")
                     if tooltip is not None:
                         tooltip.set('visibility', 'hidden')
                     else:
@@ -332,10 +332,10 @@ class svg:
                 # Assign onmouseover and onmouseout callbacks to patches.
                 missing_points = []
                 for nuts in unique_colors["nuts_id"].to_list():
-                    points = root.find(f".//g[@id='{nuts}_points']")
+                    points = root.find(f".//g[@id='{nuts}_points_{self.id}']")
                     if points is not None:
-                        points.set('onmouseover', "ShowTooltip(this)")
-                        points.set('onmouseout', "HideTooltip(this)")
+                        points.set('onmouseover', f"ShowTooltip{self.id}(this)")
+                        points.set('onmouseout', f"HideTooltip{self.id}(this)")
                     else:
                         missing_points.append(nuts)
 
@@ -357,15 +357,15 @@ class svg:
                         }}
                     }}
 
-                function ShowTooltip(obj) {{
+                function ShowTooltip{self.id}(obj) {{
                     var cur_{self.id} = obj.id.split("_")[0];
-                    var tip_{self.id} = svgDocument.getElementById(cur_{self.id} + '_tooltip');
+                    var tip_{self.id} = svgDocument.getElementById(cur_{self.id} + '_tooltip_{self.id}');
                     tip_{self.id}.setAttribute('visibility', "visible")
                     }}
 
-                function HideTooltip(obj) {{
+                function HideTooltip{self.id}(obj) {{
                     var cur_{self.id} = obj.id.split("_")[0];
-                    var tip_{self.id} = svgDocument.getElementById(cur_{self.id} + '_tooltip');
+                    var tip_{self.id} = svgDocument.getElementById(cur_{self.id} + '_tooltip_{self.id}');
                     tip_{self.id}.setAttribute('visibility', "hidden")
                     }}
 
