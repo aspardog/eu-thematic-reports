@@ -99,7 +99,8 @@ genDumbbells <- function(dta) {
       hjust = -0.1,  
       vjust = 0.25,  
       color = "black",
-      size  = 3
+      size  = 3,
+      family = "Lato Full"
     ) +
     geom_rect(
       data = data2plot,
@@ -148,7 +149,8 @@ genDumbbells <- function(dta) {
       expand   = c(0, 0),
       limits   = c(-.1, 1),
       breaks   = seq(0, 1, .2),
-      labels   = round(seq(0, 1, .2), 2),
+      # labels   = round(seq(0, 1, .2), 2),
+      labels = scales::number_format(accuracy = 0.01),
       position = "right" 
     ) +
     annotation_custom(
@@ -172,6 +174,7 @@ genDumbbells <- function(dta) {
                                         size   = 8,
                                         hjust  = 0.5,
                                         color  = "#524F4C"),
+      
       axis.line.x        = element_blank(),
       axis.title         = element_blank(),
       panel.grid.major   = element_blank(),
