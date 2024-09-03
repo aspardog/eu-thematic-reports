@@ -36,6 +36,8 @@ The 'html' directory contains all the code used to produce the HTML version of t
 ## Code Logic
 This repository is split into two major directories: ['data-viz'](https://github.com/WJP-DAU/EU-thematic-reports/tree/main/data-viz) and ['html'](https://github.com/WJP-DAU/EU-thematic-reports/tree/main/html). 
 
+
+### Data Visualization
 For the data-viz
 directory, the general framework which dictates how the process is conducted is 
 contained in the 'report_outline.xlsx' file. This document contains one row for each
@@ -73,12 +75,16 @@ points for that chart. The resulting charts are saved to the outputs directory i
 Finally, the static charts are passed to the SVG handler, which uses a class to 
 assign interactivity to the visualizations depending on their attributes. 
 
+### HTML Production
+
 For the html production, we use a docker app to render each report dynamically. The app was developed by [Gabierno Facil](https://github.com/GobiernoFacil).
-For inputs, it takes a csv (named RX-csv-schema.csv) which contains report content for each section. This csv is the most important document 
-in the html production process, as it controls which content and visualizations are actually rendered in the final report. It is created using a python script called gen_csv.ipynb. This script uses class text_input (as defined in text_input.py), which formalizes attributes and methods associated with each type of input
-that is a component of the final reports (these can also be thought of as report sections; their raw content is contained in markdown files).
+For inputs, the application takes a csv (named RX-csv-schema.csv) which contains report content for each section. The respective schema csv's for each of the 
+three reports can be found in the R1, R2 and R3 sub-directories of 'html'.
+
+The schema csv for a given report controls which content and figures are actually rendered. It is created using a python script called gen_csv.ipynb. This script uses class text_input (as defined in text_input.py), which formalizes attributes and methods associated with each type of input
+that is a component of the final report (these can also be thought of as report sections; their raw content is contained in markdown files).
 The class text_input allows us to handle all of our textual inputs as seperate objects with their own attributes, 
-and therefore populate the schema csv differently depending on the section. After the csv is generated, we simply use it to feed
+and therefore populate the schema csv (and in turn render report content) differently depending on the section. After the csv is generated, we simply use it to feed
 the docker app and populate the reports with visualizations manually. The app allows us to very conveniently upload our interactive 
 visualizations and place them in their respective sections.
 
