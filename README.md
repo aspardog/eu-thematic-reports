@@ -73,7 +73,16 @@ points for that chart. The resulting charts are saved to the outputs directory i
 Finally, the static charts are passed to the SVG handler, which uses a class to 
 assign interactivity to the visualizations depending on their attributes. 
 
-The 'html' process is still being constructed!
+For the html production, we use a docker app to render the report dynamically. The app was developed by ['Gabierno Facil'](https://github.com/GobiernoFacil).
+For inputs, the app takes a csv (named RX-csv-schema.csv) which contains report content for each section. This csv is the most important document 
+in the html production process, as it controls which content is rendered in the final report. It is created using a python script called gen_csv.ipynb. 
+This script uses class text_input (as defined in text_input.py), which formalizes attributes and methods associated with each type of input
+that is a component of the final reports (these can also be thought of as report sections; their raw content is contained in markdown files).
+The class text_input allows us to handle all of our textual inputs as seperate objects with their own attributes, 
+and therefore populate the schema csv differently depending on the section. After the csv is generated, we simply use it to feed
+the docker app and populate the reports with visualizations manually. The app allows us to very conveniently upload our interactive 
+visualizations and place them in their respective sections.
+
 
 ## Contact
 For inqueries please contact _Carlos Toruño_ (ctoruno@worldjusticeproject.org) or 
