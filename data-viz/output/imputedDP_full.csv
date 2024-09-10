@@ -646,6 +646,866 @@ Spain,regional,ES5,East,R1F7,LEP_indprosecutors,Rural,NA,27
 Spain,regional,ES6,South,R1F7,LEP_indprosecutors,Rural,NA,23
 Spain,regional,ES7,Canary Islands,R1F7,LEP_indprosecutors,Rural,NA,15
 Sweden,regional,SE1,Eastern Sweden,R1F7,LEP_indprosecutors,Rural,NA,28
+Belgium,regional,BE1,Brussels Region,R1F90,LEP_accountability,18-24,NA,23
+Belgium,regional,BE2,Flemish Region,R1F90,LEP_accountability,18-24,NA,25
+Belgium,regional,BE3,Waloon Region,R1F90,LEP_accountability,18-24,NA,23
+Bulgaria,regional,BG4,South -West/-Central,R1F90,LEP_accountability,18-24,NA,27
+Croatia,regional,HR02,Pannonian Croatia,R1F90,LEP_accountability,18-24,NA,17
+Croatia,regional,HR03,Adriatic Croatia,R1F90,LEP_accountability,18-24,NA,23
+Croatia,regional,HR03,Adriatic Croatia,R1F90,LEP_accountability,25-34,NA,25
+Croatia,regional,HR05,Zagreb,R1F90,LEP_accountability,18-24,NA,21
+Croatia,regional,HR05,Zagreb,R1F90,LEP_accountability,25-34,NA,28
+Croatia,regional,HR06,Northern Croatia,R1F90,LEP_accountability,18-24,NA,19
+Czechia,regional,CZ01,Prague,R1F90,LEP_accountability,18-24,NA,7
+Czechia,regional,CZ01,Prague,R1F90,LEP_accountability,25-34,NA,19
+Czechia,regional,CZ01,Prague,R1F90,LEP_accountability,45-54,NA,20
+Czechia,regional,CZ01,Prague,R1F90,LEP_accountability,55-64,NA,20
+Czechia,regional,CZ020304,Western and Central Bohemia,R1F90,LEP_accountability,18-24,NA,29
+Czechia,regional,CZ0506,North-East and South-East,R1F90,LEP_accountability,18-24,NA,21
+Czechia,regional,CZ0708,Central Moravia and Silesia,R1F90,LEP_accountability,18-24,NA,24
+Denmark,regional,DK01,Capital (region),R1F90,LEP_accountability,18-24,NA,28
+Denmark,regional,DK01,Capital (region),R1F90,LEP_accountability,55-64,NA,29
+Denmark,regional,DK02,Zealand,R1F90,LEP_accountability,18-24,NA,19
+Denmark,regional,DK02,Zealand,R1F90,LEP_accountability,25-34,NA,26
+Denmark,regional,DK03,South Denmark,R1F90,LEP_accountability,18-24,NA,18
+Denmark,regional,DK04,Central Jutland,R1F90,LEP_accountability,18-24,NA,26
+Denmark,regional,DK05,North Jutland,R1F90,LEP_accountability,18-24,NA,27
+Finland,regional,FI19,West Finland,R1F90,LEP_accountability,18-24,NA,25
+Finland,regional,FI1B,Helsinki-Uusimaa,R1F90,LEP_accountability,18-24,NA,23
+Finland,regional,FI1D,North and East Finland,R1F90,LEP_accountability,18-24,NA,27
+France,regional,FRB,Centre-Val de Loire,R1F90,LEP_accountability,18-24,NA,25
+France,regional,FRC,Burgundy-Franche-Comté,R1F90,LEP_accountability,18-24,NA,23
+France,regional,FRD,Normandy,R1F90,LEP_accountability,18-24,NA,26
+France,regional,FRF,Grand Est,R1F90,LEP_accountability,18-24,NA,27
+France,regional,FRH,Brittany ,R1F90,LEP_accountability,18-24,NA,26
+France,regional,FRI,New Aquitaine,R1F90,LEP_accountability,18-24,NA,23
+France,regional,FRL,PACA,R1F90,LEP_accountability,18-24,NA,20
+France,regional,FRL,PACA,R1F90,LEP_accountability,25-34,NA,26
+France,regional,FRM,Corsica ,R1F90,LEP_accountability,+65,NA,22
+France,regional,FRM,Corsica ,R1F90,LEP_accountability,18-24,NA,8
+France,regional,FRM,Corsica ,R1F90,LEP_accountability,25-34,NA,13
+France,regional,FRM,Corsica ,R1F90,LEP_accountability,35-44,NA,12
+France,regional,FRM,Corsica ,R1F90,LEP_accountability,45-54,NA,19
+France,regional,FRM,Corsica ,R1F90,LEP_accountability,55-64,NA,16
+Germany,regional,DE2,Bavaria,R1F90,LEP_accountability,18-24,NA,26
+Germany,regional,DE3,Berlin,R1F90,LEP_accountability,18-24,NA,17
+Germany,regional,DE4,Brandenburg,R1F90,LEP_accountability,18-24,NA,13
+Germany,regional,DE5,Bremen,R1F90,LEP_accountability,+65,NA,23
+Germany,regional,DE5,Bremen,R1F90,LEP_accountability,18-24,NA,21
+Germany,regional,DE5,Bremen,R1F90,LEP_accountability,25-34,NA,28
+Germany,regional,DE5,Bremen,R1F90,LEP_accountability,35-44,NA,23
+Germany,regional,DE5,Bremen,R1F90,LEP_accountability,55-64,NA,23
+Germany,regional,DE6,Hamburg,R1F90,LEP_accountability,18-24,NA,24
+Germany,regional,DE7,Hessen,R1F90,LEP_accountability,18-24,NA,20
+Germany,regional,DE8,Mecklenburg-Vorpommern,R1F90,LEP_accountability,18-24,NA,22
+Germany,regional,DE8,Mecklenburg-Vorpommern,R1F90,LEP_accountability,25-34,NA,20
+Germany,regional,DE9,Lower Saxony,R1F90,LEP_accountability,18-24,NA,22
+Germany,regional,DEA,North Rhine-Westphalia,R1F90,LEP_accountability,18-24,NA,23
+Germany,regional,DEB,Rhineland-Palatinate,R1F90,LEP_accountability,18-24,NA,25
+Germany,regional,DEC,Saarland,R1F90,LEP_accountability,18-24,NA,24
+Germany,regional,DED,Saxony,R1F90,LEP_accountability,18-24,NA,19
+Germany,regional,DEE,Saxony-Anhalt,R1F90,LEP_accountability,18-24,NA,17
+Germany,regional,DEF,Schleswig-Holstein,R1F90,LEP_accountability,18-24,NA,27
+Germany,regional,DEG,Thuringia,R1F90,LEP_accountability,18-24,NA,18
+Germany,regional,DEG,Thuringia,R1F90,LEP_accountability,25-34,NA,29
+Greece,regional,EL3,Attica,R1F90,LEP_accountability,18-24,NA,13
+Greece,regional,EL4,"Aegean Islands, Crete",R1F90,LEP_accountability,18-24,NA,21
+Greece,regional,EL5,North Greece,R1F90,LEP_accountability,18-24,NA,13
+Greece,regional,EL5,North Greece,R1F90,LEP_accountability,25-34,NA,19
+Greece,regional,EL6,Central Greece,R1F90,LEP_accountability,18-24,NA,14
+Hungary,regional,HU1,Central Hungary,R1F90,LEP_accountability,18-24,NA,25
+Hungary,regional,HU1,Central Hungary,R1F90,LEP_accountability,55-64,NA,28
+Hungary,regional,HU2,Transdanubia ,R1F90,LEP_accountability,18-24,NA,11
+Hungary,regional,HU3,Great Plain and North,R1F90,LEP_accountability,18-24,NA,24
+Ireland,regional,IE04,Northern and Western,R1F90,LEP_accountability,+65,NA,27
+Ireland,regional,IE04,Northern and Western,R1F90,LEP_accountability,18-24,NA,13
+Ireland,regional,IE04,Northern and Western,R1F90,LEP_accountability,45-54,NA,23
+Ireland,regional,IE04,Northern and Western,R1F90,LEP_accountability,55-64,NA,24
+Ireland,regional,IE05,Southern,R1F90,LEP_accountability,18-24,NA,26
+Italy,regional,ITG,Islands,R1F90,LEP_accountability,18-24,NA,28
+Italy,regional,ITH,North-East,R1F90,LEP_accountability,18-24,NA,28
+Lithuania,regional,LT01,Capital Region,R1F90,LEP_accountability,18-24,NA,29
+Luxembourg,regional,LU00,Luxembourg,R1F90,LEP_accountability,18-24,NA,26
+Malta,regional,MT00,Malta,R1F90,LEP_accountability,18-24,NA,19
+Malta,regional,MT00,Malta,R1F90,LEP_accountability,55-64,NA,27
+Poland,regional,PL4,North-Western,R1F90,LEP_accountability,18-24,NA,28
+Poland,regional,PL7,Central,R1F90,LEP_accountability,18-24,NA,28
+Portugal,regional,PT1,Continental Portugal,R1F90,LEP_accountability,18-24,NA,25
+Portugal,regional,PT2,Azores,R1F90,LEP_accountability,18-24,NA,25
+Portugal,regional,PT2,Azores,R1F90,LEP_accountability,25-34,NA,28
+Portugal,regional,PT3,Madeira,R1F90,LEP_accountability,18-24,NA,28
+Romania,regional,RO1,Macroregion One,R1F90,LEP_accountability,18-24,NA,27
+Romania,regional,RO4,Macroregion Four,R1F90,LEP_accountability,18-24,NA,27
+Slovakia,regional,SK01,Bratislava,R1F90,LEP_accountability,18-24,NA,12
+Slovakia,regional,SK02,West Slovakia,R1F90,LEP_accountability,18-24,NA,25
+Slovakia,regional,SK04,East Slovakia,R1F90,LEP_accountability,18-24,NA,21
+Slovenia,regional,SI03,East Slovenia,R1F90,LEP_accountability,18-24,NA,14
+Slovenia,regional,SI03,East Slovenia,R1F90,LEP_accountability,25-34,NA,23
+Slovenia,regional,SI04,West Slovenia,R1F90,LEP_accountability,18-24,NA,19
+Spain,regional,ES1,North-West,R1F90,LEP_accountability,18-24,NA,19
+Spain,regional,ES2,North-East,R1F90,LEP_accountability,18-24,NA,22
+Spain,regional,ES2,North-East,R1F90,LEP_accountability,25-34,NA,28
+Spain,regional,ES3,Madrid,R1F90,LEP_accountability,18-24,NA,19
+Spain,regional,ES3,Madrid,R1F90,LEP_accountability,25-34,NA,28
+Spain,regional,ES4,Centre,R1F90,LEP_accountability,18-24,NA,29
+Spain,regional,ES4,Centre,R1F90,LEP_accountability,25-34,NA,28
+Spain,regional,ES5,East,R1F90,LEP_accountability,25-34,NA,28
+Spain,regional,ES7,Canary Islands,R1F90,LEP_accountability,18-24,NA,20
+Sweden,regional,SE1,Eastern Sweden,R1F90,LEP_accountability,18-24,NA,21
+Sweden,regional,SE2,Southern Sweden,R1F90,LEP_accountability,18-24,NA,23
+Sweden,regional,SE3,Northern Sweden,R1F90,LEP_accountability,18-24,NA,25
+Belgium,regional,BE1,Brussels Region,R1F90,LEP_accountability,Income Quintile 4,NA,23
+Croatia,regional,HR02,Pannonian Croatia,R1F90,LEP_accountability,Income Quintile 3,NA,23
+Croatia,regional,HR02,Pannonian Croatia,R1F90,LEP_accountability,Income Quintile 4,NA,29
+Croatia,regional,HR03,Adriatic Croatia,R1F90,LEP_accountability,Income Quintile 1,NA,20
+Croatia,regional,HR03,Adriatic Croatia,R1F90,LEP_accountability,Income Quintile 3,NA,21
+Croatia,regional,HR05,Zagreb,R1F90,LEP_accountability,Income Quintile 1,NA,29
+Croatia,regional,HR05,Zagreb,R1F90,LEP_accountability,Income Quintile 3,NA,22
+Croatia,regional,HR06,Northern Croatia,R1F90,LEP_accountability,Income Quintile 1,NA,20
+Croatia,regional,HR06,Northern Croatia,R1F90,LEP_accountability,Income Quintile 2,NA,24
+Croatia,regional,HR06,Northern Croatia,R1F90,LEP_accountability,Income Quintile 3,NA,17
+Czechia,regional,CZ01,Prague,R1F90,LEP_accountability,Income Quintile 1,NA,10
+Czechia,regional,CZ01,Prague,R1F90,LEP_accountability,Income Quintile 2,NA,15
+Czechia,regional,CZ01,Prague,R1F90,LEP_accountability,Income Quintile 3,NA,28
+Czechia,regional,CZ01,Prague,R1F90,LEP_accountability,Income Quintile 4,NA,27
+Czechia,regional,CZ0506,North-East and South-East,R1F90,LEP_accountability,Income Quintile 1,NA,19
+Denmark,regional,DK02,Zealand,R1F90,LEP_accountability,Income Quintile 1,NA,24
+Denmark,regional,DK03,South Denmark,R1F90,LEP_accountability,Income Quintile 1,NA,19
+Denmark,regional,DK04,Central Jutland,R1F90,LEP_accountability,Income Quintile 1,NA,26
+Estonia,regional,EE0,Estonia,R1F90,LEP_accountability,Income Quintile 1,NA,14
+France,regional,FR1,Île-de-France,R1F90,LEP_accountability,Income Quintile 1,NA,22
+France,regional,FRL,PACA,R1F90,LEP_accountability,Income Quintile 1,NA,27
+France,regional,FRM,Corsica ,R1F90,LEP_accountability,Income Quintile 1,NA,12
+France,regional,FRM,Corsica ,R1F90,LEP_accountability,Income Quintile 2,NA,22
+France,regional,FRM,Corsica ,R1F90,LEP_accountability,Income Quintile 3,NA,11
+France,regional,FRM,Corsica ,R1F90,LEP_accountability,Income Quintile 4,NA,17
+France,regional,FRM,Corsica ,R1F90,LEP_accountability,Income Quintile 5,NA,18
+Germany,regional,DE5,Bremen,R1F90,LEP_accountability,Income Quintile 1,NA,28
+Germany,regional,DE5,Bremen,R1F90,LEP_accountability,Income Quintile 2,NA,29
+Germany,regional,DE5,Bremen,R1F90,LEP_accountability,Income Quintile 3,NA,29
+Germany,regional,DE5,Bremen,R1F90,LEP_accountability,Income Quintile 4,NA,28
+Germany,regional,DE5,Bremen,R1F90,LEP_accountability,Income Quintile 5,NA,25
+Germany,regional,DEE,Saxony-Anhalt,R1F90,LEP_accountability,Income Quintile 5,NA,27
+Greece,regional,EL3,Attica,R1F90,LEP_accountability,Income Quintile 1,NA,26
+Greece,regional,EL3,Attica,R1F90,LEP_accountability,Income Quintile 3,NA,27
+Greece,regional,EL3,Attica,R1F90,LEP_accountability,Income Quintile 4,NA,24
+Greece,regional,EL3,Attica,R1F90,LEP_accountability,Income Quintile 5,NA,15
+Greece,regional,EL4,"Aegean Islands, Crete",R1F90,LEP_accountability,Income Quintile 4,NA,19
+Greece,regional,EL4,"Aegean Islands, Crete",R1F90,LEP_accountability,Income Quintile 5,NA,6
+Greece,regional,EL5,North Greece,R1F90,LEP_accountability,Income Quintile 5,NA,3
+Greece,regional,EL6,Central Greece,R1F90,LEP_accountability,Income Quintile 5,NA,10
+Hungary,regional,HU1,Central Hungary,R1F90,LEP_accountability,Income Quintile 1,NA,10
+Hungary,regional,HU1,Central Hungary,R1F90,LEP_accountability,Income Quintile 2,NA,15
+Hungary,regional,HU1,Central Hungary,R1F90,LEP_accountability,Income Quintile 3,NA,12
+Hungary,regional,HU2,Transdanubia ,R1F90,LEP_accountability,Income Quintile 1,NA,18
+Hungary,regional,HU2,Transdanubia ,R1F90,LEP_accountability,Income Quintile 2,NA,29
+Hungary,regional,HU2,Transdanubia ,R1F90,LEP_accountability,Income Quintile 3,NA,28
+Ireland,regional,IE04,Northern and Western,R1F90,LEP_accountability,Income Quintile 2,NA,28
+Ireland,regional,IE04,Northern and Western,R1F90,LEP_accountability,Income Quintile 4,NA,27
+Ireland,regional,IE04,Northern and Western,R1F90,LEP_accountability,Income Quintile 5,NA,23
+Ireland,regional,IE05,Southern,R1F90,LEP_accountability,Income Quintile 5,NA,24
+Italy,regional,ITH,North-East,R1F90,LEP_accountability,Income Quintile 1,NA,26
+Poland,regional,PL2,Southern,R1F90,LEP_accountability,Income Quintile 2,NA,27
+Poland,regional,PL2,Southern,R1F90,LEP_accountability,Income Quintile 3,NA,26
+Poland,regional,PL2,Southern,R1F90,LEP_accountability,Income Quintile 4,NA,22
+Poland,regional,PL2,Southern,R1F90,LEP_accountability,Income Quintile 5,NA,26
+Poland,regional,PL4,North-Western,R1F90,LEP_accountability,Income Quintile 1,NA,14
+Poland,regional,PL4,North-Western,R1F90,LEP_accountability,Income Quintile 2,NA,22
+Poland,regional,PL4,North-Western,R1F90,LEP_accountability,Income Quintile 3,NA,27
+Poland,regional,PL5,South-Western,R1F90,LEP_accountability,Income Quintile 2,NA,21
+Poland,regional,PL5,South-Western,R1F90,LEP_accountability,Income Quintile 5,NA,24
+Poland,regional,PL6,Northern,R1F90,LEP_accountability,Income Quintile 2,NA,26
+Poland,regional,PL7,Central,R1F90,LEP_accountability,Income Quintile 1,NA,26
+Poland,regional,PL7,Central,R1F90,LEP_accountability,Income Quintile 2,NA,26
+Poland,regional,PL7,Central,R1F90,LEP_accountability,Income Quintile 3,NA,21
+Poland,regional,PL8,Eastern,R1F90,LEP_accountability,Income Quintile 1,NA,16
+Poland,regional,PL8,Eastern,R1F90,LEP_accountability,Income Quintile 2,NA,16
+Poland,regional,PL8,Eastern,R1F90,LEP_accountability,Income Quintile 3,NA,26
+Poland,regional,PL8,Eastern,R1F90,LEP_accountability,Income Quintile 4,NA,7
+Poland,regional,PL8,Eastern,R1F90,LEP_accountability,Income Quintile 5,NA,3
+Poland,regional,PL9,Mazowieckie,R1F90,LEP_accountability,Income Quintile 1,NA,21
+Poland,regional,PL9,Mazowieckie,R1F90,LEP_accountability,Income Quintile 5,NA,20
+Portugal,regional,PT1,Continental Portugal,R1F90,LEP_accountability,Income Quintile 1,NA,21
+Portugal,regional,PT1,Continental Portugal,R1F90,LEP_accountability,Income Quintile 5,NA,17
+Portugal,regional,PT2,Azores,R1F90,LEP_accountability,Income Quintile 5,NA,23
+Portugal,regional,PT3,Madeira,R1F90,LEP_accountability,Income Quintile 1,NA,20
+Romania,regional,RO1,Macroregion One,R1F90,LEP_accountability,Income Quintile 1,NA,21
+Romania,regional,RO1,Macroregion One,R1F90,LEP_accountability,Income Quintile 5,NA,26
+Romania,regional,RO2,Macroregion Two,R1F90,LEP_accountability,Income Quintile 5,NA,20
+Romania,regional,RO3,Macroregion Three,R1F90,LEP_accountability,Income Quintile 1,NA,20
+Romania,regional,RO4,Macroregion Four,R1F90,LEP_accountability,Income Quintile 5,NA,22
+Slovakia,regional,SK01,Bratislava,R1F90,LEP_accountability,Income Quintile 3,NA,26
+Slovakia,regional,SK01,Bratislava,R1F90,LEP_accountability,Income Quintile 4,NA,27
+Spain,regional,ES1,North-West,R1F90,LEP_accountability,Income Quintile 1,NA,28
+Spain,regional,ES2,North-East,R1F90,LEP_accountability,Income Quintile 1,NA,15
+Spain,regional,ES3,Madrid,R1F90,LEP_accountability,Income Quintile 1,NA,20
+Spain,regional,ES4,Centre,R1F90,LEP_accountability,Income Quintile 1,NA,24
+Spain,regional,ES5,East,R1F90,LEP_accountability,Income Quintile 1,NA,26
+Spain,regional,ES7,Canary Islands,R1F90,LEP_accountability,Income Quintile 5,NA,25
+Sweden,regional,SE2,Southern Sweden,R1F90,LEP_accountability,Income Quintile 1,NA,16
+Sweden,regional,SE3,Northern Sweden,R1F90,LEP_accountability,Income Quintile 1,NA,19
+Belgium,regional,BE2,Flemish Region,R1F90,LEP_accountability,Rural,NA,14
+Denmark,regional,DK01,Capital (region),R1F90,LEP_accountability,Rural,NA,12
+Finland,regional,FI1B,Helsinki-Uusimaa,R1F90,LEP_accountability,Rural,NA,26
+France,regional,FR1,Île-de-France,R1F90,LEP_accountability,Rural,NA,9
+Germany,regional,DEA,North Rhine-Westphalia,R1F90,LEP_accountability,Rural,NA,11
+Greece,regional,EL3,Attica,R1F90,LEP_accountability,Rural,NA,16
+Hungary,regional,HU1,Central Hungary,R1F90,LEP_accountability,Rural,NA,26
+Ireland,regional,IE04,Northern and Western,R1F90,LEP_accountability,Urban,NA,27
+Ireland,regional,IE06,Eastern and Midland,R1F90,LEP_accountability,Rural,NA,27
+Malta,regional,MT00,Malta,R1F90,LEP_accountability,Rural,NA,9
+Netherlands,regional,NL2,East Netherlands,R1F90,LEP_accountability,Rural,NA,24
+Netherlands,regional,NL3,West Netherlands,R1F90,LEP_accountability,Rural,NA,21
+Netherlands,regional,NL4,South Netherlands,R1F90,LEP_accountability,Rural,NA,23
+Spain,regional,ES2,North-East,R1F90,LEP_accountability,Rural,NA,22
+Spain,regional,ES3,Madrid,R1F90,LEP_accountability,Rural,NA,11
+Spain,regional,ES5,East,R1F90,LEP_accountability,Rural,NA,17
+Spain,regional,ES6,South,R1F90,LEP_accountability,Rural,NA,22
+Spain,regional,ES7,Canary Islands,R1F90,LEP_accountability,Rural,NA,19
+Belgium,regional,BE1,Brussels Region,R1F91,LEP_bribesreq,18-24,NA,24
+Belgium,regional,BE2,Flemish Region,R1F91,LEP_bribesreq,18-24,NA,25
+Belgium,regional,BE3,Waloon Region,R1F91,LEP_bribesreq,18-24,NA,23
+Bulgaria,regional,BG4,South -West/-Central,R1F91,LEP_bribesreq,18-24,NA,27
+Croatia,regional,HR02,Pannonian Croatia,R1F91,LEP_bribesreq,18-24,NA,17
+Croatia,regional,HR03,Adriatic Croatia,R1F91,LEP_bribesreq,18-24,NA,23
+Croatia,regional,HR03,Adriatic Croatia,R1F91,LEP_bribesreq,25-34,NA,25
+Croatia,regional,HR05,Zagreb,R1F91,LEP_bribesreq,18-24,NA,20
+Croatia,regional,HR05,Zagreb,R1F91,LEP_bribesreq,25-34,NA,27
+Croatia,regional,HR06,Northern Croatia,R1F91,LEP_bribesreq,18-24,NA,18
+Czechia,regional,CZ01,Prague,R1F91,LEP_bribesreq,18-24,NA,7
+Czechia,regional,CZ01,Prague,R1F91,LEP_bribesreq,25-34,NA,19
+Czechia,regional,CZ01,Prague,R1F91,LEP_bribesreq,45-54,NA,20
+Czechia,regional,CZ01,Prague,R1F91,LEP_bribesreq,55-64,NA,19
+Czechia,regional,CZ020304,Western and Central Bohemia,R1F91,LEP_bribesreq,18-24,NA,29
+Czechia,regional,CZ0506,North-East and South-East,R1F91,LEP_bribesreq,18-24,NA,21
+Czechia,regional,CZ0708,Central Moravia and Silesia,R1F91,LEP_bribesreq,18-24,NA,24
+Denmark,regional,DK01,Capital (region),R1F91,LEP_bribesreq,18-24,NA,28
+Denmark,regional,DK02,Zealand,R1F91,LEP_bribesreq,18-24,NA,19
+Denmark,regional,DK02,Zealand,R1F91,LEP_bribesreq,25-34,NA,27
+Denmark,regional,DK03,South Denmark,R1F91,LEP_bribesreq,18-24,NA,18
+Denmark,regional,DK04,Central Jutland,R1F91,LEP_bribesreq,18-24,NA,27
+Denmark,regional,DK05,North Jutland,R1F91,LEP_bribesreq,18-24,NA,26
+Finland,regional,FI19,West Finland,R1F91,LEP_bribesreq,18-24,NA,25
+Finland,regional,FI1B,Helsinki-Uusimaa,R1F91,LEP_bribesreq,18-24,NA,23
+Finland,regional,FI1D,North and East Finland,R1F91,LEP_bribesreq,18-24,NA,27
+France,regional,FRB,Centre-Val de Loire,R1F91,LEP_bribesreq,18-24,NA,25
+France,regional,FRC,Burgundy-Franche-Comté,R1F91,LEP_bribesreq,18-24,NA,23
+France,regional,FRD,Normandy,R1F91,LEP_bribesreq,18-24,NA,26
+France,regional,FRF,Grand Est,R1F91,LEP_bribesreq,18-24,NA,27
+France,regional,FRG,Loire Region,R1F91,LEP_bribesreq,25-34,NA,29
+France,regional,FRH,Brittany ,R1F91,LEP_bribesreq,18-24,NA,26
+France,regional,FRI,New Aquitaine,R1F91,LEP_bribesreq,18-24,NA,23
+France,regional,FRL,PACA,R1F91,LEP_bribesreq,18-24,NA,20
+France,regional,FRL,PACA,R1F91,LEP_bribesreq,25-34,NA,26
+France,regional,FRM,Corsica ,R1F91,LEP_bribesreq,+65,NA,22
+France,regional,FRM,Corsica ,R1F91,LEP_bribesreq,18-24,NA,8
+France,regional,FRM,Corsica ,R1F91,LEP_bribesreq,25-34,NA,12
+France,regional,FRM,Corsica ,R1F91,LEP_bribesreq,35-44,NA,12
+France,regional,FRM,Corsica ,R1F91,LEP_bribesreq,45-54,NA,19
+France,regional,FRM,Corsica ,R1F91,LEP_bribesreq,55-64,NA,16
+Germany,regional,DE2,Bavaria,R1F91,LEP_bribesreq,18-24,NA,26
+Germany,regional,DE3,Berlin,R1F91,LEP_bribesreq,18-24,NA,17
+Germany,regional,DE4,Brandenburg,R1F91,LEP_bribesreq,18-24,NA,13
+Germany,regional,DE5,Bremen,R1F91,LEP_bribesreq,+65,NA,23
+Germany,regional,DE5,Bremen,R1F91,LEP_bribesreq,18-24,NA,21
+Germany,regional,DE5,Bremen,R1F91,LEP_bribesreq,25-34,NA,28
+Germany,regional,DE5,Bremen,R1F91,LEP_bribesreq,35-44,NA,23
+Germany,regional,DE5,Bremen,R1F91,LEP_bribesreq,55-64,NA,23
+Germany,regional,DE6,Hamburg,R1F91,LEP_bribesreq,18-24,NA,23
+Germany,regional,DE7,Hessen,R1F91,LEP_bribesreq,18-24,NA,20
+Germany,regional,DE8,Mecklenburg-Vorpommern,R1F91,LEP_bribesreq,18-24,NA,22
+Germany,regional,DE8,Mecklenburg-Vorpommern,R1F91,LEP_bribesreq,25-34,NA,20
+Germany,regional,DE9,Lower Saxony,R1F91,LEP_bribesreq,18-24,NA,22
+Germany,regional,DEA,North Rhine-Westphalia,R1F91,LEP_bribesreq,18-24,NA,24
+Germany,regional,DEB,Rhineland-Palatinate,R1F91,LEP_bribesreq,18-24,NA,25
+Germany,regional,DEC,Saarland,R1F91,LEP_bribesreq,18-24,NA,22
+Germany,regional,DED,Saxony,R1F91,LEP_bribesreq,18-24,NA,19
+Germany,regional,DEE,Saxony-Anhalt,R1F91,LEP_bribesreq,18-24,NA,16
+Germany,regional,DEF,Schleswig-Holstein,R1F91,LEP_bribesreq,18-24,NA,27
+Germany,regional,DEG,Thuringia,R1F91,LEP_bribesreq,18-24,NA,18
+Greece,regional,EL3,Attica,R1F91,LEP_bribesreq,18-24,NA,13
+Greece,regional,EL4,"Aegean Islands, Crete",R1F91,LEP_bribesreq,18-24,NA,20
+Greece,regional,EL5,North Greece,R1F91,LEP_bribesreq,18-24,NA,14
+Greece,regional,EL5,North Greece,R1F91,LEP_bribesreq,25-34,NA,19
+Greece,regional,EL6,Central Greece,R1F91,LEP_bribesreq,18-24,NA,14
+Hungary,regional,HU1,Central Hungary,R1F91,LEP_bribesreq,18-24,NA,25
+Hungary,regional,HU1,Central Hungary,R1F91,LEP_bribesreq,55-64,NA,28
+Hungary,regional,HU2,Transdanubia ,R1F91,LEP_bribesreq,18-24,NA,11
+Hungary,regional,HU3,Great Plain and North,R1F91,LEP_bribesreq,18-24,NA,24
+Ireland,regional,IE04,Northern and Western,R1F91,LEP_bribesreq,+65,NA,27
+Ireland,regional,IE04,Northern and Western,R1F91,LEP_bribesreq,18-24,NA,13
+Ireland,regional,IE04,Northern and Western,R1F91,LEP_bribesreq,45-54,NA,23
+Ireland,regional,IE04,Northern and Western,R1F91,LEP_bribesreq,55-64,NA,24
+Ireland,regional,IE05,Southern,R1F91,LEP_bribesreq,18-24,NA,26
+Italy,regional,ITG,Islands,R1F91,LEP_bribesreq,18-24,NA,28
+Italy,regional,ITH,North-East,R1F91,LEP_bribesreq,18-24,NA,28
+Lithuania,regional,LT01,Capital Region,R1F91,LEP_bribesreq,18-24,NA,29
+Luxembourg,regional,LU00,Luxembourg,R1F91,LEP_bribesreq,18-24,NA,26
+Malta,regional,MT00,Malta,R1F91,LEP_bribesreq,18-24,NA,19
+Malta,regional,MT00,Malta,R1F91,LEP_bribesreq,55-64,NA,27
+Poland,regional,PL4,North-Western,R1F91,LEP_bribesreq,18-24,NA,28
+Poland,regional,PL6,Northern,R1F91,LEP_bribesreq,18-24,NA,29
+Poland,regional,PL7,Central,R1F91,LEP_bribesreq,18-24,NA,28
+Portugal,regional,PT1,Continental Portugal,R1F91,LEP_bribesreq,18-24,NA,25
+Portugal,regional,PT2,Azores,R1F91,LEP_bribesreq,18-24,NA,25
+Portugal,regional,PT2,Azores,R1F91,LEP_bribesreq,25-34,NA,28
+Portugal,regional,PT3,Madeira,R1F91,LEP_bribesreq,18-24,NA,28
+Romania,regional,RO1,Macroregion One,R1F91,LEP_bribesreq,18-24,NA,27
+Romania,regional,RO4,Macroregion Four,R1F91,LEP_bribesreq,18-24,NA,27
+Slovakia,regional,SK01,Bratislava,R1F91,LEP_bribesreq,18-24,NA,12
+Slovakia,regional,SK02,West Slovakia,R1F91,LEP_bribesreq,18-24,NA,25
+Slovakia,regional,SK04,East Slovakia,R1F91,LEP_bribesreq,18-24,NA,21
+Slovenia,regional,SI03,East Slovenia,R1F91,LEP_bribesreq,18-24,NA,14
+Slovenia,regional,SI03,East Slovenia,R1F91,LEP_bribesreq,25-34,NA,23
+Slovenia,regional,SI04,West Slovenia,R1F91,LEP_bribesreq,18-24,NA,19
+Spain,regional,ES1,North-West,R1F91,LEP_bribesreq,18-24,NA,19
+Spain,regional,ES2,North-East,R1F91,LEP_bribesreq,18-24,NA,22
+Spain,regional,ES2,North-East,R1F91,LEP_bribesreq,25-34,NA,28
+Spain,regional,ES3,Madrid,R1F91,LEP_bribesreq,18-24,NA,20
+Spain,regional,ES3,Madrid,R1F91,LEP_bribesreq,25-34,NA,27
+Spain,regional,ES4,Centre,R1F91,LEP_bribesreq,18-24,NA,29
+Spain,regional,ES4,Centre,R1F91,LEP_bribesreq,25-34,NA,28
+Spain,regional,ES5,East,R1F91,LEP_bribesreq,25-34,NA,28
+Spain,regional,ES7,Canary Islands,R1F91,LEP_bribesreq,18-24,NA,22
+Sweden,regional,SE1,Eastern Sweden,R1F91,LEP_bribesreq,18-24,NA,21
+Sweden,regional,SE2,Southern Sweden,R1F91,LEP_bribesreq,18-24,NA,22
+Sweden,regional,SE3,Northern Sweden,R1F91,LEP_bribesreq,18-24,NA,24
+Belgium,regional,BE1,Brussels Region,R1F91,LEP_bribesreq,Income Quintile 4,NA,23
+Croatia,regional,HR02,Pannonian Croatia,R1F91,LEP_bribesreq,Income Quintile 3,NA,23
+Croatia,regional,HR03,Adriatic Croatia,R1F91,LEP_bribesreq,Income Quintile 1,NA,20
+Croatia,regional,HR03,Adriatic Croatia,R1F91,LEP_bribesreq,Income Quintile 3,NA,21
+Croatia,regional,HR05,Zagreb,R1F91,LEP_bribesreq,Income Quintile 1,NA,28
+Croatia,regional,HR05,Zagreb,R1F91,LEP_bribesreq,Income Quintile 3,NA,21
+Croatia,regional,HR06,Northern Croatia,R1F91,LEP_bribesreq,Income Quintile 1,NA,20
+Croatia,regional,HR06,Northern Croatia,R1F91,LEP_bribesreq,Income Quintile 2,NA,24
+Croatia,regional,HR06,Northern Croatia,R1F91,LEP_bribesreq,Income Quintile 3,NA,16
+Czechia,regional,CZ01,Prague,R1F91,LEP_bribesreq,Income Quintile 1,NA,10
+Czechia,regional,CZ01,Prague,R1F91,LEP_bribesreq,Income Quintile 2,NA,15
+Czechia,regional,CZ01,Prague,R1F91,LEP_bribesreq,Income Quintile 3,NA,28
+Czechia,regional,CZ01,Prague,R1F91,LEP_bribesreq,Income Quintile 4,NA,27
+Czechia,regional,CZ0506,North-East and South-East,R1F91,LEP_bribesreq,Income Quintile 1,NA,21
+Denmark,regional,DK02,Zealand,R1F91,LEP_bribesreq,Income Quintile 1,NA,24
+Denmark,regional,DK03,South Denmark,R1F91,LEP_bribesreq,Income Quintile 1,NA,19
+Denmark,regional,DK04,Central Jutland,R1F91,LEP_bribesreq,Income Quintile 1,NA,27
+Estonia,regional,EE0,Estonia,R1F91,LEP_bribesreq,Income Quintile 1,NA,13
+France,regional,FR1,Île-de-France,R1F91,LEP_bribesreq,Income Quintile 1,NA,22
+France,regional,FRL,PACA,R1F91,LEP_bribesreq,Income Quintile 1,NA,27
+France,regional,FRM,Corsica ,R1F91,LEP_bribesreq,Income Quintile 1,NA,12
+France,regional,FRM,Corsica ,R1F91,LEP_bribesreq,Income Quintile 2,NA,22
+France,regional,FRM,Corsica ,R1F91,LEP_bribesreq,Income Quintile 3,NA,10
+France,regional,FRM,Corsica ,R1F91,LEP_bribesreq,Income Quintile 4,NA,17
+France,regional,FRM,Corsica ,R1F91,LEP_bribesreq,Income Quintile 5,NA,18
+Germany,regional,DE5,Bremen,R1F91,LEP_bribesreq,Income Quintile 1,NA,28
+Germany,regional,DE5,Bremen,R1F91,LEP_bribesreq,Income Quintile 2,NA,29
+Germany,regional,DE5,Bremen,R1F91,LEP_bribesreq,Income Quintile 3,NA,29
+Germany,regional,DE5,Bremen,R1F91,LEP_bribesreq,Income Quintile 4,NA,28
+Germany,regional,DE5,Bremen,R1F91,LEP_bribesreq,Income Quintile 5,NA,25
+Germany,regional,DEE,Saxony-Anhalt,R1F91,LEP_bribesreq,Income Quintile 5,NA,27
+Greece,regional,EL3,Attica,R1F91,LEP_bribesreq,Income Quintile 1,NA,26
+Greece,regional,EL3,Attica,R1F91,LEP_bribesreq,Income Quintile 3,NA,27
+Greece,regional,EL3,Attica,R1F91,LEP_bribesreq,Income Quintile 4,NA,24
+Greece,regional,EL3,Attica,R1F91,LEP_bribesreq,Income Quintile 5,NA,15
+Greece,regional,EL4,"Aegean Islands, Crete",R1F91,LEP_bribesreq,Income Quintile 4,NA,19
+Greece,regional,EL4,"Aegean Islands, Crete",R1F91,LEP_bribesreq,Income Quintile 5,NA,7
+Greece,regional,EL5,North Greece,R1F91,LEP_bribesreq,Income Quintile 5,NA,3
+Greece,regional,EL6,Central Greece,R1F91,LEP_bribesreq,Income Quintile 5,NA,10
+Hungary,regional,HU1,Central Hungary,R1F91,LEP_bribesreq,Income Quintile 1,NA,10
+Hungary,regional,HU1,Central Hungary,R1F91,LEP_bribesreq,Income Quintile 2,NA,15
+Hungary,regional,HU1,Central Hungary,R1F91,LEP_bribesreq,Income Quintile 3,NA,12
+Hungary,regional,HU2,Transdanubia ,R1F91,LEP_bribesreq,Income Quintile 1,NA,18
+Hungary,regional,HU2,Transdanubia ,R1F91,LEP_bribesreq,Income Quintile 2,NA,28
+Hungary,regional,HU2,Transdanubia ,R1F91,LEP_bribesreq,Income Quintile 3,NA,29
+Ireland,regional,IE04,Northern and Western,R1F91,LEP_bribesreq,Income Quintile 2,NA,28
+Ireland,regional,IE04,Northern and Western,R1F91,LEP_bribesreq,Income Quintile 4,NA,27
+Ireland,regional,IE04,Northern and Western,R1F91,LEP_bribesreq,Income Quintile 5,NA,23
+Ireland,regional,IE05,Southern,R1F91,LEP_bribesreq,Income Quintile 5,NA,24
+Italy,regional,ITH,North-East,R1F91,LEP_bribesreq,Income Quintile 1,NA,27
+Poland,regional,PL2,Southern,R1F91,LEP_bribesreq,Income Quintile 2,NA,27
+Poland,regional,PL2,Southern,R1F91,LEP_bribesreq,Income Quintile 3,NA,26
+Poland,regional,PL2,Southern,R1F91,LEP_bribesreq,Income Quintile 4,NA,22
+Poland,regional,PL2,Southern,R1F91,LEP_bribesreq,Income Quintile 5,NA,26
+Poland,regional,PL4,North-Western,R1F91,LEP_bribesreq,Income Quintile 1,NA,14
+Poland,regional,PL4,North-Western,R1F91,LEP_bribesreq,Income Quintile 2,NA,22
+Poland,regional,PL4,North-Western,R1F91,LEP_bribesreq,Income Quintile 3,NA,27
+Poland,regional,PL5,South-Western,R1F91,LEP_bribesreq,Income Quintile 2,NA,21
+Poland,regional,PL5,South-Western,R1F91,LEP_bribesreq,Income Quintile 5,NA,24
+Poland,regional,PL6,Northern,R1F91,LEP_bribesreq,Income Quintile 2,NA,26
+Poland,regional,PL7,Central,R1F91,LEP_bribesreq,Income Quintile 1,NA,26
+Poland,regional,PL7,Central,R1F91,LEP_bribesreq,Income Quintile 2,NA,26
+Poland,regional,PL7,Central,R1F91,LEP_bribesreq,Income Quintile 3,NA,22
+Poland,regional,PL8,Eastern,R1F91,LEP_bribesreq,Income Quintile 1,NA,16
+Poland,regional,PL8,Eastern,R1F91,LEP_bribesreq,Income Quintile 2,NA,16
+Poland,regional,PL8,Eastern,R1F91,LEP_bribesreq,Income Quintile 3,NA,26
+Poland,regional,PL8,Eastern,R1F91,LEP_bribesreq,Income Quintile 4,NA,7
+Poland,regional,PL8,Eastern,R1F91,LEP_bribesreq,Income Quintile 5,NA,3
+Poland,regional,PL9,Mazowieckie,R1F91,LEP_bribesreq,Income Quintile 1,NA,21
+Poland,regional,PL9,Mazowieckie,R1F91,LEP_bribesreq,Income Quintile 5,NA,20
+Portugal,regional,PT1,Continental Portugal,R1F91,LEP_bribesreq,Income Quintile 1,NA,21
+Portugal,regional,PT1,Continental Portugal,R1F91,LEP_bribesreq,Income Quintile 5,NA,17
+Portugal,regional,PT2,Azores,R1F91,LEP_bribesreq,Income Quintile 5,NA,23
+Portugal,regional,PT3,Madeira,R1F91,LEP_bribesreq,Income Quintile 1,NA,20
+Romania,regional,RO1,Macroregion One,R1F91,LEP_bribesreq,Income Quintile 1,NA,21
+Romania,regional,RO1,Macroregion One,R1F91,LEP_bribesreq,Income Quintile 5,NA,26
+Romania,regional,RO2,Macroregion Two,R1F91,LEP_bribesreq,Income Quintile 5,NA,20
+Romania,regional,RO3,Macroregion Three,R1F91,LEP_bribesreq,Income Quintile 1,NA,20
+Romania,regional,RO4,Macroregion Four,R1F91,LEP_bribesreq,Income Quintile 5,NA,22
+Slovakia,regional,SK01,Bratislava,R1F91,LEP_bribesreq,Income Quintile 3,NA,26
+Slovakia,regional,SK01,Bratislava,R1F91,LEP_bribesreq,Income Quintile 4,NA,27
+Spain,regional,ES1,North-West,R1F91,LEP_bribesreq,Income Quintile 1,NA,28
+Spain,regional,ES2,North-East,R1F91,LEP_bribesreq,Income Quintile 1,NA,15
+Spain,regional,ES3,Madrid,R1F91,LEP_bribesreq,Income Quintile 1,NA,20
+Spain,regional,ES4,Centre,R1F91,LEP_bribesreq,Income Quintile 1,NA,24
+Spain,regional,ES5,East,R1F91,LEP_bribesreq,Income Quintile 1,NA,26
+Spain,regional,ES7,Canary Islands,R1F91,LEP_bribesreq,Income Quintile 5,NA,24
+Sweden,regional,SE2,Southern Sweden,R1F91,LEP_bribesreq,Income Quintile 1,NA,16
+Sweden,regional,SE3,Northern Sweden,R1F91,LEP_bribesreq,Income Quintile 1,NA,19
+Belgium,regional,BE2,Flemish Region,R1F91,LEP_bribesreq,Rural,NA,14
+Denmark,regional,DK01,Capital (region),R1F91,LEP_bribesreq,Rural,NA,12
+Finland,regional,FI1B,Helsinki-Uusimaa,R1F91,LEP_bribesreq,Rural,NA,26
+France,regional,FR1,Île-de-France,R1F91,LEP_bribesreq,Rural,NA,9
+Germany,regional,DEA,North Rhine-Westphalia,R1F91,LEP_bribesreq,Rural,NA,11
+Greece,regional,EL3,Attica,R1F91,LEP_bribesreq,Rural,NA,16
+Hungary,regional,HU1,Central Hungary,R1F91,LEP_bribesreq,Rural,NA,26
+Ireland,regional,IE04,Northern and Western,R1F91,LEP_bribesreq,Urban,NA,27
+Ireland,regional,IE06,Eastern and Midland,R1F91,LEP_bribesreq,Rural,NA,27
+Malta,regional,MT00,Malta,R1F91,LEP_bribesreq,Rural,NA,9
+Netherlands,regional,NL2,East Netherlands,R1F91,LEP_bribesreq,Rural,NA,24
+Netherlands,regional,NL3,West Netherlands,R1F91,LEP_bribesreq,Rural,NA,21
+Netherlands,regional,NL4,South Netherlands,R1F91,LEP_bribesreq,Rural,NA,23
+Spain,regional,ES2,North-East,R1F91,LEP_bribesreq,Rural,NA,22
+Spain,regional,ES3,Madrid,R1F91,LEP_bribesreq,Rural,NA,11
+Spain,regional,ES5,East,R1F91,LEP_bribesreq,Rural,NA,17
+Spain,regional,ES6,South,R1F91,LEP_bribesreq,Rural,NA,21
+Spain,regional,ES7,Canary Islands,R1F91,LEP_bribesreq,Rural,NA,20
+Belgium,regional,BE1,Brussels Region,R1F92,LEP_bribesacc,18-24,NA,24
+Belgium,regional,BE2,Flemish Region,R1F92,LEP_bribesacc,18-24,NA,25
+Belgium,regional,BE3,Waloon Region,R1F92,LEP_bribesacc,18-24,NA,22
+Bulgaria,regional,BG4,South -West/-Central,R1F92,LEP_bribesacc,18-24,NA,27
+Croatia,regional,HR02,Pannonian Croatia,R1F92,LEP_bribesacc,18-24,NA,17
+Croatia,regional,HR03,Adriatic Croatia,R1F92,LEP_bribesacc,18-24,NA,23
+Croatia,regional,HR03,Adriatic Croatia,R1F92,LEP_bribesacc,25-34,NA,25
+Croatia,regional,HR05,Zagreb,R1F92,LEP_bribesacc,18-24,NA,20
+Croatia,regional,HR05,Zagreb,R1F92,LEP_bribesacc,25-34,NA,28
+Croatia,regional,HR06,Northern Croatia,R1F92,LEP_bribesacc,18-24,NA,19
+Czechia,regional,CZ01,Prague,R1F92,LEP_bribesacc,18-24,NA,6
+Czechia,regional,CZ01,Prague,R1F92,LEP_bribesacc,25-34,NA,19
+Czechia,regional,CZ01,Prague,R1F92,LEP_bribesacc,45-54,NA,20
+Czechia,regional,CZ01,Prague,R1F92,LEP_bribesacc,55-64,NA,19
+Czechia,regional,CZ020304,Western and Central Bohemia,R1F92,LEP_bribesacc,18-24,NA,29
+Czechia,regional,CZ0506,North-East and South-East,R1F92,LEP_bribesacc,18-24,NA,21
+Czechia,regional,CZ0708,Central Moravia and Silesia,R1F92,LEP_bribesacc,18-24,NA,24
+Denmark,regional,DK01,Capital (region),R1F92,LEP_bribesacc,18-24,NA,27
+Denmark,regional,DK02,Zealand,R1F92,LEP_bribesacc,18-24,NA,19
+Denmark,regional,DK02,Zealand,R1F92,LEP_bribesacc,25-34,NA,27
+Denmark,regional,DK03,South Denmark,R1F92,LEP_bribesacc,18-24,NA,18
+Denmark,regional,DK04,Central Jutland,R1F92,LEP_bribesacc,18-24,NA,27
+Denmark,regional,DK05,North Jutland,R1F92,LEP_bribesacc,18-24,NA,27
+Finland,regional,FI19,West Finland,R1F92,LEP_bribesacc,18-24,NA,25
+Finland,regional,FI1B,Helsinki-Uusimaa,R1F92,LEP_bribesacc,18-24,NA,23
+Finland,regional,FI1D,North and East Finland,R1F92,LEP_bribesacc,18-24,NA,27
+France,regional,FRB,Centre-Val de Loire,R1F92,LEP_bribesacc,18-24,NA,25
+France,regional,FRC,Burgundy-Franche-Comté,R1F92,LEP_bribesacc,18-24,NA,23
+France,regional,FRD,Normandy,R1F92,LEP_bribesacc,18-24,NA,26
+France,regional,FRF,Grand Est,R1F92,LEP_bribesacc,18-24,NA,27
+France,regional,FRH,Brittany ,R1F92,LEP_bribesacc,18-24,NA,26
+France,regional,FRI,New Aquitaine,R1F92,LEP_bribesacc,18-24,NA,23
+France,regional,FRL,PACA,R1F92,LEP_bribesacc,18-24,NA,20
+France,regional,FRL,PACA,R1F92,LEP_bribesacc,25-34,NA,26
+France,regional,FRM,Corsica ,R1F92,LEP_bribesacc,+65,NA,22
+France,regional,FRM,Corsica ,R1F92,LEP_bribesacc,18-24,NA,8
+France,regional,FRM,Corsica ,R1F92,LEP_bribesacc,25-34,NA,12
+France,regional,FRM,Corsica ,R1F92,LEP_bribesacc,35-44,NA,12
+France,regional,FRM,Corsica ,R1F92,LEP_bribesacc,45-54,NA,19
+France,regional,FRM,Corsica ,R1F92,LEP_bribesacc,55-64,NA,16
+Germany,regional,DE2,Bavaria,R1F92,LEP_bribesacc,18-24,NA,26
+Germany,regional,DE3,Berlin,R1F92,LEP_bribesacc,18-24,NA,17
+Germany,regional,DE4,Brandenburg,R1F92,LEP_bribesacc,18-24,NA,13
+Germany,regional,DE5,Bremen,R1F92,LEP_bribesacc,+65,NA,23
+Germany,regional,DE5,Bremen,R1F92,LEP_bribesacc,18-24,NA,21
+Germany,regional,DE5,Bremen,R1F92,LEP_bribesacc,25-34,NA,28
+Germany,regional,DE5,Bremen,R1F92,LEP_bribesacc,35-44,NA,23
+Germany,regional,DE5,Bremen,R1F92,LEP_bribesacc,55-64,NA,23
+Germany,regional,DE6,Hamburg,R1F92,LEP_bribesacc,18-24,NA,22
+Germany,regional,DE7,Hessen,R1F92,LEP_bribesacc,18-24,NA,20
+Germany,regional,DE8,Mecklenburg-Vorpommern,R1F92,LEP_bribesacc,18-24,NA,22
+Germany,regional,DE8,Mecklenburg-Vorpommern,R1F92,LEP_bribesacc,25-34,NA,20
+Germany,regional,DE9,Lower Saxony,R1F92,LEP_bribesacc,18-24,NA,22
+Germany,regional,DEA,North Rhine-Westphalia,R1F92,LEP_bribesacc,18-24,NA,24
+Germany,regional,DEB,Rhineland-Palatinate,R1F92,LEP_bribesacc,18-24,NA,25
+Germany,regional,DEC,Saarland,R1F92,LEP_bribesacc,18-24,NA,24
+Germany,regional,DED,Saxony,R1F92,LEP_bribesacc,18-24,NA,19
+Germany,regional,DEE,Saxony-Anhalt,R1F92,LEP_bribesacc,18-24,NA,17
+Germany,regional,DEF,Schleswig-Holstein,R1F92,LEP_bribesacc,18-24,NA,26
+Germany,regional,DEG,Thuringia,R1F92,LEP_bribesacc,18-24,NA,18
+Greece,regional,EL3,Attica,R1F92,LEP_bribesacc,18-24,NA,13
+Greece,regional,EL4,"Aegean Islands, Crete",R1F92,LEP_bribesacc,18-24,NA,20
+Greece,regional,EL5,North Greece,R1F92,LEP_bribesacc,18-24,NA,14
+Greece,regional,EL5,North Greece,R1F92,LEP_bribesacc,25-34,NA,19
+Greece,regional,EL6,Central Greece,R1F92,LEP_bribesacc,18-24,NA,14
+Hungary,regional,HU1,Central Hungary,R1F92,LEP_bribesacc,18-24,NA,26
+Hungary,regional,HU1,Central Hungary,R1F92,LEP_bribesacc,55-64,NA,28
+Hungary,regional,HU2,Transdanubia ,R1F92,LEP_bribesacc,18-24,NA,11
+Hungary,regional,HU3,Great Plain and North,R1F92,LEP_bribesacc,18-24,NA,24
+Ireland,regional,IE04,Northern and Western,R1F92,LEP_bribesacc,+65,NA,27
+Ireland,regional,IE04,Northern and Western,R1F92,LEP_bribesacc,18-24,NA,13
+Ireland,regional,IE04,Northern and Western,R1F92,LEP_bribesacc,45-54,NA,23
+Ireland,regional,IE04,Northern and Western,R1F92,LEP_bribesacc,55-64,NA,24
+Ireland,regional,IE05,Southern,R1F92,LEP_bribesacc,18-24,NA,26
+Italy,regional,ITG,Islands,R1F92,LEP_bribesacc,18-24,NA,28
+Italy,regional,ITH,North-East,R1F92,LEP_bribesacc,18-24,NA,28
+Lithuania,regional,LT01,Capital Region,R1F92,LEP_bribesacc,18-24,NA,28
+Luxembourg,regional,LU00,Luxembourg,R1F92,LEP_bribesacc,18-24,NA,26
+Malta,regional,MT00,Malta,R1F92,LEP_bribesacc,18-24,NA,19
+Malta,regional,MT00,Malta,R1F92,LEP_bribesacc,55-64,NA,27
+Poland,regional,PL4,North-Western,R1F92,LEP_bribesacc,18-24,NA,28
+Poland,regional,PL7,Central,R1F92,LEP_bribesacc,18-24,NA,28
+Portugal,regional,PT1,Continental Portugal,R1F92,LEP_bribesacc,18-24,NA,25
+Portugal,regional,PT2,Azores,R1F92,LEP_bribesacc,18-24,NA,25
+Portugal,regional,PT2,Azores,R1F92,LEP_bribesacc,25-34,NA,28
+Portugal,regional,PT3,Madeira,R1F92,LEP_bribesacc,18-24,NA,28
+Romania,regional,RO1,Macroregion One,R1F92,LEP_bribesacc,18-24,NA,27
+Romania,regional,RO4,Macroregion Four,R1F92,LEP_bribesacc,18-24,NA,27
+Slovakia,regional,SK01,Bratislava,R1F92,LEP_bribesacc,18-24,NA,12
+Slovakia,regional,SK02,West Slovakia,R1F92,LEP_bribesacc,18-24,NA,25
+Slovakia,regional,SK04,East Slovakia,R1F92,LEP_bribesacc,18-24,NA,21
+Slovenia,regional,SI03,East Slovenia,R1F92,LEP_bribesacc,18-24,NA,14
+Slovenia,regional,SI03,East Slovenia,R1F92,LEP_bribesacc,25-34,NA,23
+Slovenia,regional,SI04,West Slovenia,R1F92,LEP_bribesacc,18-24,NA,19
+Spain,regional,ES1,North-West,R1F92,LEP_bribesacc,18-24,NA,19
+Spain,regional,ES2,North-East,R1F92,LEP_bribesacc,18-24,NA,22
+Spain,regional,ES2,North-East,R1F92,LEP_bribesacc,25-34,NA,28
+Spain,regional,ES3,Madrid,R1F92,LEP_bribesacc,18-24,NA,20
+Spain,regional,ES3,Madrid,R1F92,LEP_bribesacc,25-34,NA,27
+Spain,regional,ES4,Centre,R1F92,LEP_bribesacc,18-24,NA,29
+Spain,regional,ES4,Centre,R1F92,LEP_bribesacc,25-34,NA,28
+Spain,regional,ES5,East,R1F92,LEP_bribesacc,25-34,NA,28
+Spain,regional,ES7,Canary Islands,R1F92,LEP_bribesacc,18-24,NA,21
+Sweden,regional,SE1,Eastern Sweden,R1F92,LEP_bribesacc,18-24,NA,21
+Sweden,regional,SE2,Southern Sweden,R1F92,LEP_bribesacc,18-24,NA,23
+Sweden,regional,SE3,Northern Sweden,R1F92,LEP_bribesacc,18-24,NA,25
+Belgium,regional,BE1,Brussels Region,R1F92,LEP_bribesacc,Income Quintile 4,NA,23
+Croatia,regional,HR02,Pannonian Croatia,R1F92,LEP_bribesacc,Income Quintile 3,NA,23
+Croatia,regional,HR03,Adriatic Croatia,R1F92,LEP_bribesacc,Income Quintile 1,NA,21
+Croatia,regional,HR03,Adriatic Croatia,R1F92,LEP_bribesacc,Income Quintile 3,NA,21
+Croatia,regional,HR05,Zagreb,R1F92,LEP_bribesacc,Income Quintile 1,NA,29
+Croatia,regional,HR05,Zagreb,R1F92,LEP_bribesacc,Income Quintile 3,NA,21
+Croatia,regional,HR06,Northern Croatia,R1F92,LEP_bribesacc,Income Quintile 1,NA,20
+Croatia,regional,HR06,Northern Croatia,R1F92,LEP_bribesacc,Income Quintile 2,NA,24
+Croatia,regional,HR06,Northern Croatia,R1F92,LEP_bribesacc,Income Quintile 3,NA,17
+Czechia,regional,CZ01,Prague,R1F92,LEP_bribesacc,Income Quintile 1,NA,10
+Czechia,regional,CZ01,Prague,R1F92,LEP_bribesacc,Income Quintile 2,NA,15
+Czechia,regional,CZ01,Prague,R1F92,LEP_bribesacc,Income Quintile 3,NA,28
+Czechia,regional,CZ01,Prague,R1F92,LEP_bribesacc,Income Quintile 4,NA,27
+Czechia,regional,CZ0506,North-East and South-East,R1F92,LEP_bribesacc,Income Quintile 1,NA,21
+Denmark,regional,DK02,Zealand,R1F92,LEP_bribesacc,Income Quintile 1,NA,24
+Denmark,regional,DK03,South Denmark,R1F92,LEP_bribesacc,Income Quintile 1,NA,19
+Denmark,regional,DK04,Central Jutland,R1F92,LEP_bribesacc,Income Quintile 1,NA,28
+Estonia,regional,EE0,Estonia,R1F92,LEP_bribesacc,Income Quintile 1,NA,14
+France,regional,FR1,Île-de-France,R1F92,LEP_bribesacc,Income Quintile 1,NA,22
+France,regional,FRL,PACA,R1F92,LEP_bribesacc,Income Quintile 1,NA,27
+France,regional,FRM,Corsica ,R1F92,LEP_bribesacc,Income Quintile 1,NA,12
+France,regional,FRM,Corsica ,R1F92,LEP_bribesacc,Income Quintile 2,NA,22
+France,regional,FRM,Corsica ,R1F92,LEP_bribesacc,Income Quintile 3,NA,10
+France,regional,FRM,Corsica ,R1F92,LEP_bribesacc,Income Quintile 4,NA,17
+France,regional,FRM,Corsica ,R1F92,LEP_bribesacc,Income Quintile 5,NA,18
+Germany,regional,DE5,Bremen,R1F92,LEP_bribesacc,Income Quintile 1,NA,28
+Germany,regional,DE5,Bremen,R1F92,LEP_bribesacc,Income Quintile 2,NA,29
+Germany,regional,DE5,Bremen,R1F92,LEP_bribesacc,Income Quintile 3,NA,29
+Germany,regional,DE5,Bremen,R1F92,LEP_bribesacc,Income Quintile 4,NA,28
+Germany,regional,DE5,Bremen,R1F92,LEP_bribesacc,Income Quintile 5,NA,25
+Germany,regional,DEE,Saxony-Anhalt,R1F92,LEP_bribesacc,Income Quintile 5,NA,27
+Greece,regional,EL3,Attica,R1F92,LEP_bribesacc,Income Quintile 1,NA,26
+Greece,regional,EL3,Attica,R1F92,LEP_bribesacc,Income Quintile 3,NA,27
+Greece,regional,EL3,Attica,R1F92,LEP_bribesacc,Income Quintile 4,NA,24
+Greece,regional,EL3,Attica,R1F92,LEP_bribesacc,Income Quintile 5,NA,15
+Greece,regional,EL4,"Aegean Islands, Crete",R1F92,LEP_bribesacc,Income Quintile 4,NA,19
+Greece,regional,EL4,"Aegean Islands, Crete",R1F92,LEP_bribesacc,Income Quintile 5,NA,7
+Greece,regional,EL5,North Greece,R1F92,LEP_bribesacc,Income Quintile 5,NA,3
+Greece,regional,EL6,Central Greece,R1F92,LEP_bribesacc,Income Quintile 5,NA,10
+Hungary,regional,HU1,Central Hungary,R1F92,LEP_bribesacc,Income Quintile 1,NA,11
+Hungary,regional,HU1,Central Hungary,R1F92,LEP_bribesacc,Income Quintile 2,NA,15
+Hungary,regional,HU1,Central Hungary,R1F92,LEP_bribesacc,Income Quintile 3,NA,12
+Hungary,regional,HU2,Transdanubia ,R1F92,LEP_bribesacc,Income Quintile 1,NA,18
+Hungary,regional,HU2,Transdanubia ,R1F92,LEP_bribesacc,Income Quintile 2,NA,29
+Hungary,regional,HU2,Transdanubia ,R1F92,LEP_bribesacc,Income Quintile 3,NA,29
+Ireland,regional,IE04,Northern and Western,R1F92,LEP_bribesacc,Income Quintile 2,NA,28
+Ireland,regional,IE04,Northern and Western,R1F92,LEP_bribesacc,Income Quintile 4,NA,27
+Ireland,regional,IE04,Northern and Western,R1F92,LEP_bribesacc,Income Quintile 5,NA,23
+Ireland,regional,IE05,Southern,R1F92,LEP_bribesacc,Income Quintile 5,NA,24
+Italy,regional,ITH,North-East,R1F92,LEP_bribesacc,Income Quintile 1,NA,27
+Poland,regional,PL2,Southern,R1F92,LEP_bribesacc,Income Quintile 2,NA,27
+Poland,regional,PL2,Southern,R1F92,LEP_bribesacc,Income Quintile 3,NA,26
+Poland,regional,PL2,Southern,R1F92,LEP_bribesacc,Income Quintile 4,NA,21
+Poland,regional,PL2,Southern,R1F92,LEP_bribesacc,Income Quintile 5,NA,26
+Poland,regional,PL4,North-Western,R1F92,LEP_bribesacc,Income Quintile 1,NA,14
+Poland,regional,PL4,North-Western,R1F92,LEP_bribesacc,Income Quintile 2,NA,22
+Poland,regional,PL4,North-Western,R1F92,LEP_bribesacc,Income Quintile 3,NA,27
+Poland,regional,PL5,South-Western,R1F92,LEP_bribesacc,Income Quintile 2,NA,21
+Poland,regional,PL5,South-Western,R1F92,LEP_bribesacc,Income Quintile 5,NA,24
+Poland,regional,PL6,Northern,R1F92,LEP_bribesacc,Income Quintile 2,NA,26
+Poland,regional,PL7,Central,R1F92,LEP_bribesacc,Income Quintile 1,NA,26
+Poland,regional,PL7,Central,R1F92,LEP_bribesacc,Income Quintile 2,NA,26
+Poland,regional,PL7,Central,R1F92,LEP_bribesacc,Income Quintile 3,NA,22
+Poland,regional,PL8,Eastern,R1F92,LEP_bribesacc,Income Quintile 1,NA,16
+Poland,regional,PL8,Eastern,R1F92,LEP_bribesacc,Income Quintile 2,NA,16
+Poland,regional,PL8,Eastern,R1F92,LEP_bribesacc,Income Quintile 3,NA,26
+Poland,regional,PL8,Eastern,R1F92,LEP_bribesacc,Income Quintile 4,NA,7
+Poland,regional,PL8,Eastern,R1F92,LEP_bribesacc,Income Quintile 5,NA,3
+Poland,regional,PL9,Mazowieckie,R1F92,LEP_bribesacc,Income Quintile 1,NA,21
+Poland,regional,PL9,Mazowieckie,R1F92,LEP_bribesacc,Income Quintile 5,NA,20
+Portugal,regional,PT1,Continental Portugal,R1F92,LEP_bribesacc,Income Quintile 1,NA,21
+Portugal,regional,PT1,Continental Portugal,R1F92,LEP_bribesacc,Income Quintile 5,NA,17
+Portugal,regional,PT2,Azores,R1F92,LEP_bribesacc,Income Quintile 5,NA,23
+Portugal,regional,PT3,Madeira,R1F92,LEP_bribesacc,Income Quintile 1,NA,20
+Romania,regional,RO1,Macroregion One,R1F92,LEP_bribesacc,Income Quintile 1,NA,21
+Romania,regional,RO1,Macroregion One,R1F92,LEP_bribesacc,Income Quintile 5,NA,26
+Romania,regional,RO2,Macroregion Two,R1F92,LEP_bribesacc,Income Quintile 5,NA,20
+Romania,regional,RO3,Macroregion Three,R1F92,LEP_bribesacc,Income Quintile 1,NA,20
+Romania,regional,RO4,Macroregion Four,R1F92,LEP_bribesacc,Income Quintile 5,NA,22
+Slovakia,regional,SK01,Bratislava,R1F92,LEP_bribesacc,Income Quintile 3,NA,26
+Slovakia,regional,SK01,Bratislava,R1F92,LEP_bribesacc,Income Quintile 4,NA,27
+Spain,regional,ES1,North-West,R1F92,LEP_bribesacc,Income Quintile 1,NA,28
+Spain,regional,ES2,North-East,R1F92,LEP_bribesacc,Income Quintile 1,NA,15
+Spain,regional,ES3,Madrid,R1F92,LEP_bribesacc,Income Quintile 1,NA,20
+Spain,regional,ES4,Centre,R1F92,LEP_bribesacc,Income Quintile 1,NA,24
+Spain,regional,ES5,East,R1F92,LEP_bribesacc,Income Quintile 1,NA,26
+Spain,regional,ES7,Canary Islands,R1F92,LEP_bribesacc,Income Quintile 5,NA,25
+Sweden,regional,SE2,Southern Sweden,R1F92,LEP_bribesacc,Income Quintile 1,NA,16
+Sweden,regional,SE3,Northern Sweden,R1F92,LEP_bribesacc,Income Quintile 1,NA,19
+Belgium,regional,BE2,Flemish Region,R1F92,LEP_bribesacc,Rural,NA,14
+Denmark,regional,DK01,Capital (region),R1F92,LEP_bribesacc,Rural,NA,12
+Finland,regional,FI1B,Helsinki-Uusimaa,R1F92,LEP_bribesacc,Rural,NA,26
+France,regional,FR1,Île-de-France,R1F92,LEP_bribesacc,Rural,NA,9
+Germany,regional,DEA,North Rhine-Westphalia,R1F92,LEP_bribesacc,Rural,NA,11
+Greece,regional,EL3,Attica,R1F92,LEP_bribesacc,Rural,NA,16
+Hungary,regional,HU1,Central Hungary,R1F92,LEP_bribesacc,Rural,NA,26
+Ireland,regional,IE04,Northern and Western,R1F92,LEP_bribesacc,Urban,NA,27
+Ireland,regional,IE06,Eastern and Midland,R1F92,LEP_bribesacc,Rural,NA,27
+Malta,regional,MT00,Malta,R1F92,LEP_bribesacc,Rural,NA,9
+Netherlands,regional,NL2,East Netherlands,R1F92,LEP_bribesacc,Rural,NA,24
+Netherlands,regional,NL3,West Netherlands,R1F92,LEP_bribesacc,Rural,NA,21
+Netherlands,regional,NL4,South Netherlands,R1F92,LEP_bribesacc,Rural,NA,23
+Spain,regional,ES2,North-East,R1F92,LEP_bribesacc,Rural,NA,22
+Spain,regional,ES3,Madrid,R1F92,LEP_bribesacc,Rural,NA,11
+Spain,regional,ES5,East,R1F92,LEP_bribesacc,Rural,NA,17
+Spain,regional,ES6,South,R1F92,LEP_bribesacc,Rural,NA,22
+Spain,regional,ES7,Canary Islands,R1F92,LEP_bribesacc,Rural,NA,20
+Belgium,regional,BE1,Brussels Region,R1F93,LEP_accusation,18-24,NA,24
+Belgium,regional,BE2,Flemish Region,R1F93,LEP_accusation,18-24,NA,25
+Belgium,regional,BE3,Waloon Region,R1F93,LEP_accusation,18-24,NA,22
+Bulgaria,regional,BG4,South -West/-Central,R1F93,LEP_accusation,18-24,NA,27
+Croatia,regional,HR02,Pannonian Croatia,R1F93,LEP_accusation,18-24,NA,17
+Croatia,regional,HR03,Adriatic Croatia,R1F93,LEP_accusation,18-24,NA,23
+Croatia,regional,HR03,Adriatic Croatia,R1F93,LEP_accusation,25-34,NA,25
+Croatia,regional,HR05,Zagreb,R1F93,LEP_accusation,18-24,NA,21
+Croatia,regional,HR05,Zagreb,R1F93,LEP_accusation,25-34,NA,28
+Croatia,regional,HR06,Northern Croatia,R1F93,LEP_accusation,18-24,NA,19
+Czechia,regional,CZ01,Prague,R1F93,LEP_accusation,18-24,NA,7
+Czechia,regional,CZ01,Prague,R1F93,LEP_accusation,25-34,NA,19
+Czechia,regional,CZ01,Prague,R1F93,LEP_accusation,45-54,NA,20
+Czechia,regional,CZ01,Prague,R1F93,LEP_accusation,55-64,NA,19
+Czechia,regional,CZ020304,Western and Central Bohemia,R1F93,LEP_accusation,18-24,NA,29
+Czechia,regional,CZ0506,North-East and South-East,R1F93,LEP_accusation,18-24,NA,22
+Czechia,regional,CZ0708,Central Moravia and Silesia,R1F93,LEP_accusation,18-24,NA,23
+Denmark,regional,DK01,Capital (region),R1F93,LEP_accusation,18-24,NA,28
+Denmark,regional,DK02,Zealand,R1F93,LEP_accusation,18-24,NA,19
+Denmark,regional,DK02,Zealand,R1F93,LEP_accusation,25-34,NA,26
+Denmark,regional,DK03,South Denmark,R1F93,LEP_accusation,18-24,NA,18
+Denmark,regional,DK04,Central Jutland,R1F93,LEP_accusation,18-24,NA,27
+Denmark,regional,DK05,North Jutland,R1F93,LEP_accusation,18-24,NA,27
+Finland,regional,FI19,West Finland,R1F93,LEP_accusation,18-24,NA,25
+Finland,regional,FI1B,Helsinki-Uusimaa,R1F93,LEP_accusation,18-24,NA,23
+Finland,regional,FI1D,North and East Finland,R1F93,LEP_accusation,18-24,NA,27
+France,regional,FRB,Centre-Val de Loire,R1F93,LEP_accusation,18-24,NA,25
+France,regional,FRC,Burgundy-Franche-Comté,R1F93,LEP_accusation,18-24,NA,23
+France,regional,FRD,Normandy,R1F93,LEP_accusation,18-24,NA,26
+France,regional,FRF,Grand Est,R1F93,LEP_accusation,18-24,NA,27
+France,regional,FRH,Brittany ,R1F93,LEP_accusation,18-24,NA,25
+France,regional,FRI,New Aquitaine,R1F93,LEP_accusation,18-24,NA,23
+France,regional,FRL,PACA,R1F93,LEP_accusation,18-24,NA,20
+France,regional,FRL,PACA,R1F93,LEP_accusation,25-34,NA,26
+France,regional,FRM,Corsica ,R1F93,LEP_accusation,+65,NA,22
+France,regional,FRM,Corsica ,R1F93,LEP_accusation,18-24,NA,8
+France,regional,FRM,Corsica ,R1F93,LEP_accusation,25-34,NA,13
+France,regional,FRM,Corsica ,R1F93,LEP_accusation,35-44,NA,12
+France,regional,FRM,Corsica ,R1F93,LEP_accusation,45-54,NA,19
+France,regional,FRM,Corsica ,R1F93,LEP_accusation,55-64,NA,16
+Germany,regional,DE2,Bavaria,R1F93,LEP_accusation,18-24,NA,26
+Germany,regional,DE3,Berlin,R1F93,LEP_accusation,18-24,NA,17
+Germany,regional,DE4,Brandenburg,R1F93,LEP_accusation,18-24,NA,13
+Germany,regional,DE5,Bremen,R1F93,LEP_accusation,+65,NA,23
+Germany,regional,DE5,Bremen,R1F93,LEP_accusation,18-24,NA,21
+Germany,regional,DE5,Bremen,R1F93,LEP_accusation,25-34,NA,28
+Germany,regional,DE5,Bremen,R1F93,LEP_accusation,35-44,NA,23
+Germany,regional,DE5,Bremen,R1F93,LEP_accusation,55-64,NA,23
+Germany,regional,DE6,Hamburg,R1F93,LEP_accusation,18-24,NA,24
+Germany,regional,DE7,Hessen,R1F93,LEP_accusation,18-24,NA,20
+Germany,regional,DE8,Mecklenburg-Vorpommern,R1F93,LEP_accusation,18-24,NA,22
+Germany,regional,DE8,Mecklenburg-Vorpommern,R1F93,LEP_accusation,25-34,NA,20
+Germany,regional,DE9,Lower Saxony,R1F93,LEP_accusation,18-24,NA,22
+Germany,regional,DEA,North Rhine-Westphalia,R1F93,LEP_accusation,18-24,NA,24
+Germany,regional,DEB,Rhineland-Palatinate,R1F93,LEP_accusation,18-24,NA,25
+Germany,regional,DEC,Saarland,R1F93,LEP_accusation,18-24,NA,22
+Germany,regional,DED,Saxony,R1F93,LEP_accusation,18-24,NA,19
+Germany,regional,DEE,Saxony-Anhalt,R1F93,LEP_accusation,18-24,NA,17
+Germany,regional,DEF,Schleswig-Holstein,R1F93,LEP_accusation,18-24,NA,27
+Germany,regional,DEG,Thuringia,R1F93,LEP_accusation,18-24,NA,18
+Germany,regional,DEG,Thuringia,R1F93,LEP_accusation,25-34,NA,29
+Greece,regional,EL3,Attica,R1F93,LEP_accusation,18-24,NA,13
+Greece,regional,EL4,"Aegean Islands, Crete",R1F93,LEP_accusation,18-24,NA,21
+Greece,regional,EL5,North Greece,R1F93,LEP_accusation,18-24,NA,14
+Greece,regional,EL5,North Greece,R1F93,LEP_accusation,25-34,NA,19
+Greece,regional,EL6,Central Greece,R1F93,LEP_accusation,18-24,NA,14
+Hungary,regional,HU1,Central Hungary,R1F93,LEP_accusation,18-24,NA,25
+Hungary,regional,HU1,Central Hungary,R1F93,LEP_accusation,55-64,NA,28
+Hungary,regional,HU2,Transdanubia ,R1F93,LEP_accusation,18-24,NA,11
+Hungary,regional,HU3,Great Plain and North,R1F93,LEP_accusation,18-24,NA,24
+Ireland,regional,IE04,Northern and Western,R1F93,LEP_accusation,+65,NA,27
+Ireland,regional,IE04,Northern and Western,R1F93,LEP_accusation,18-24,NA,13
+Ireland,regional,IE04,Northern and Western,R1F93,LEP_accusation,45-54,NA,22
+Ireland,regional,IE04,Northern and Western,R1F93,LEP_accusation,55-64,NA,24
+Ireland,regional,IE05,Southern,R1F93,LEP_accusation,18-24,NA,26
+Italy,regional,ITG,Islands,R1F93,LEP_accusation,18-24,NA,28
+Italy,regional,ITH,North-East,R1F93,LEP_accusation,18-24,NA,28
+Lithuania,regional,LT01,Capital Region,R1F93,LEP_accusation,18-24,NA,29
+Luxembourg,regional,LU00,Luxembourg,R1F93,LEP_accusation,18-24,NA,26
+Malta,regional,MT00,Malta,R1F93,LEP_accusation,18-24,NA,19
+Malta,regional,MT00,Malta,R1F93,LEP_accusation,55-64,NA,27
+Poland,regional,PL4,North-Western,R1F93,LEP_accusation,18-24,NA,28
+Poland,regional,PL6,Northern,R1F93,LEP_accusation,18-24,NA,29
+Poland,regional,PL7,Central,R1F93,LEP_accusation,18-24,NA,28
+Portugal,regional,PT1,Continental Portugal,R1F93,LEP_accusation,18-24,NA,24
+Portugal,regional,PT2,Azores,R1F93,LEP_accusation,18-24,NA,25
+Portugal,regional,PT2,Azores,R1F93,LEP_accusation,25-34,NA,28
+Portugal,regional,PT3,Madeira,R1F93,LEP_accusation,18-24,NA,28
+Romania,regional,RO1,Macroregion One,R1F93,LEP_accusation,18-24,NA,27
+Romania,regional,RO4,Macroregion Four,R1F93,LEP_accusation,18-24,NA,27
+Slovakia,regional,SK01,Bratislava,R1F93,LEP_accusation,18-24,NA,12
+Slovakia,regional,SK02,West Slovakia,R1F93,LEP_accusation,18-24,NA,25
+Slovakia,regional,SK04,East Slovakia,R1F93,LEP_accusation,18-24,NA,21
+Slovenia,regional,SI03,East Slovenia,R1F93,LEP_accusation,18-24,NA,14
+Slovenia,regional,SI03,East Slovenia,R1F93,LEP_accusation,25-34,NA,23
+Slovenia,regional,SI04,West Slovenia,R1F93,LEP_accusation,18-24,NA,19
+Spain,regional,ES1,North-West,R1F93,LEP_accusation,18-24,NA,19
+Spain,regional,ES2,North-East,R1F93,LEP_accusation,18-24,NA,22
+Spain,regional,ES2,North-East,R1F93,LEP_accusation,25-34,NA,28
+Spain,regional,ES3,Madrid,R1F93,LEP_accusation,18-24,NA,20
+Spain,regional,ES3,Madrid,R1F93,LEP_accusation,25-34,NA,26
+Spain,regional,ES4,Centre,R1F93,LEP_accusation,18-24,NA,29
+Spain,regional,ES4,Centre,R1F93,LEP_accusation,25-34,NA,28
+Spain,regional,ES5,East,R1F93,LEP_accusation,18-24,NA,29
+Spain,regional,ES5,East,R1F93,LEP_accusation,25-34,NA,28
+Spain,regional,ES7,Canary Islands,R1F93,LEP_accusation,18-24,NA,22
+Sweden,regional,SE1,Eastern Sweden,R1F93,LEP_accusation,18-24,NA,21
+Sweden,regional,SE2,Southern Sweden,R1F93,LEP_accusation,18-24,NA,23
+Sweden,regional,SE3,Northern Sweden,R1F93,LEP_accusation,18-24,NA,25
+Belgium,regional,BE1,Brussels Region,R1F93,LEP_accusation,Income Quintile 4,NA,23
+Croatia,regional,HR02,Pannonian Croatia,R1F93,LEP_accusation,Income Quintile 3,NA,23
+Croatia,regional,HR03,Adriatic Croatia,R1F93,LEP_accusation,Income Quintile 1,NA,21
+Croatia,regional,HR03,Adriatic Croatia,R1F93,LEP_accusation,Income Quintile 3,NA,21
+Croatia,regional,HR05,Zagreb,R1F93,LEP_accusation,Income Quintile 1,NA,29
+Croatia,regional,HR05,Zagreb,R1F93,LEP_accusation,Income Quintile 3,NA,22
+Croatia,regional,HR06,Northern Croatia,R1F93,LEP_accusation,Income Quintile 1,NA,21
+Croatia,regional,HR06,Northern Croatia,R1F93,LEP_accusation,Income Quintile 2,NA,24
+Croatia,regional,HR06,Northern Croatia,R1F93,LEP_accusation,Income Quintile 3,NA,17
+Czechia,regional,CZ01,Prague,R1F93,LEP_accusation,Income Quintile 1,NA,10
+Czechia,regional,CZ01,Prague,R1F93,LEP_accusation,Income Quintile 2,NA,14
+Czechia,regional,CZ01,Prague,R1F93,LEP_accusation,Income Quintile 3,NA,28
+Czechia,regional,CZ01,Prague,R1F93,LEP_accusation,Income Quintile 4,NA,27
+Czechia,regional,CZ0506,North-East and South-East,R1F93,LEP_accusation,Income Quintile 1,NA,21
+Denmark,regional,DK02,Zealand,R1F93,LEP_accusation,Income Quintile 1,NA,24
+Denmark,regional,DK03,South Denmark,R1F93,LEP_accusation,Income Quintile 1,NA,19
+Denmark,regional,DK04,Central Jutland,R1F93,LEP_accusation,Income Quintile 1,NA,28
+Estonia,regional,EE0,Estonia,R1F93,LEP_accusation,Income Quintile 1,NA,14
+France,regional,FR1,Île-de-France,R1F93,LEP_accusation,Income Quintile 1,NA,22
+France,regional,FRL,PACA,R1F93,LEP_accusation,Income Quintile 1,NA,27
+France,regional,FRM,Corsica ,R1F93,LEP_accusation,Income Quintile 1,NA,12
+France,regional,FRM,Corsica ,R1F93,LEP_accusation,Income Quintile 2,NA,22
+France,regional,FRM,Corsica ,R1F93,LEP_accusation,Income Quintile 3,NA,11
+France,regional,FRM,Corsica ,R1F93,LEP_accusation,Income Quintile 4,NA,17
+France,regional,FRM,Corsica ,R1F93,LEP_accusation,Income Quintile 5,NA,18
+Germany,regional,DE5,Bremen,R1F93,LEP_accusation,Income Quintile 1,NA,28
+Germany,regional,DE5,Bremen,R1F93,LEP_accusation,Income Quintile 2,NA,29
+Germany,regional,DE5,Bremen,R1F93,LEP_accusation,Income Quintile 3,NA,29
+Germany,regional,DE5,Bremen,R1F93,LEP_accusation,Income Quintile 4,NA,28
+Germany,regional,DE5,Bremen,R1F93,LEP_accusation,Income Quintile 5,NA,25
+Germany,regional,DEE,Saxony-Anhalt,R1F93,LEP_accusation,Income Quintile 5,NA,27
+Greece,regional,EL3,Attica,R1F93,LEP_accusation,Income Quintile 1,NA,26
+Greece,regional,EL3,Attica,R1F93,LEP_accusation,Income Quintile 3,NA,27
+Greece,regional,EL3,Attica,R1F93,LEP_accusation,Income Quintile 4,NA,24
+Greece,regional,EL3,Attica,R1F93,LEP_accusation,Income Quintile 5,NA,15
+Greece,regional,EL4,"Aegean Islands, Crete",R1F93,LEP_accusation,Income Quintile 4,NA,19
+Greece,regional,EL4,"Aegean Islands, Crete",R1F93,LEP_accusation,Income Quintile 5,NA,7
+Greece,regional,EL5,North Greece,R1F93,LEP_accusation,Income Quintile 5,NA,3
+Greece,regional,EL6,Central Greece,R1F93,LEP_accusation,Income Quintile 5,NA,10
+Hungary,regional,HU1,Central Hungary,R1F93,LEP_accusation,Income Quintile 1,NA,10
+Hungary,regional,HU1,Central Hungary,R1F93,LEP_accusation,Income Quintile 2,NA,15
+Hungary,regional,HU1,Central Hungary,R1F93,LEP_accusation,Income Quintile 3,NA,12
+Hungary,regional,HU2,Transdanubia ,R1F93,LEP_accusation,Income Quintile 1,NA,17
+Hungary,regional,HU2,Transdanubia ,R1F93,LEP_accusation,Income Quintile 2,NA,28
+Hungary,regional,HU2,Transdanubia ,R1F93,LEP_accusation,Income Quintile 3,NA,29
+Ireland,regional,IE04,Northern and Western,R1F93,LEP_accusation,Income Quintile 2,NA,28
+Ireland,regional,IE04,Northern and Western,R1F93,LEP_accusation,Income Quintile 4,NA,27
+Ireland,regional,IE04,Northern and Western,R1F93,LEP_accusation,Income Quintile 5,NA,22
+Ireland,regional,IE05,Southern,R1F93,LEP_accusation,Income Quintile 5,NA,24
+Italy,regional,ITH,North-East,R1F93,LEP_accusation,Income Quintile 1,NA,27
+Poland,regional,PL2,Southern,R1F93,LEP_accusation,Income Quintile 2,NA,27
+Poland,regional,PL2,Southern,R1F93,LEP_accusation,Income Quintile 3,NA,26
+Poland,regional,PL2,Southern,R1F93,LEP_accusation,Income Quintile 4,NA,22
+Poland,regional,PL2,Southern,R1F93,LEP_accusation,Income Quintile 5,NA,26
+Poland,regional,PL4,North-Western,R1F93,LEP_accusation,Income Quintile 1,NA,14
+Poland,regional,PL4,North-Western,R1F93,LEP_accusation,Income Quintile 2,NA,22
+Poland,regional,PL4,North-Western,R1F93,LEP_accusation,Income Quintile 3,NA,27
+Poland,regional,PL5,South-Western,R1F93,LEP_accusation,Income Quintile 2,NA,21
+Poland,regional,PL5,South-Western,R1F93,LEP_accusation,Income Quintile 5,NA,24
+Poland,regional,PL6,Northern,R1F93,LEP_accusation,Income Quintile 2,NA,26
+Poland,regional,PL7,Central,R1F93,LEP_accusation,Income Quintile 1,NA,26
+Poland,regional,PL7,Central,R1F93,LEP_accusation,Income Quintile 2,NA,26
+Poland,regional,PL7,Central,R1F93,LEP_accusation,Income Quintile 3,NA,21
+Poland,regional,PL8,Eastern,R1F93,LEP_accusation,Income Quintile 1,NA,16
+Poland,regional,PL8,Eastern,R1F93,LEP_accusation,Income Quintile 2,NA,16
+Poland,regional,PL8,Eastern,R1F93,LEP_accusation,Income Quintile 3,NA,26
+Poland,regional,PL8,Eastern,R1F93,LEP_accusation,Income Quintile 4,NA,7
+Poland,regional,PL8,Eastern,R1F93,LEP_accusation,Income Quintile 5,NA,3
+Poland,regional,PL9,Mazowieckie,R1F93,LEP_accusation,Income Quintile 1,NA,21
+Poland,regional,PL9,Mazowieckie,R1F93,LEP_accusation,Income Quintile 5,NA,20
+Portugal,regional,PT1,Continental Portugal,R1F93,LEP_accusation,Income Quintile 1,NA,21
+Portugal,regional,PT1,Continental Portugal,R1F93,LEP_accusation,Income Quintile 5,NA,17
+Portugal,regional,PT2,Azores,R1F93,LEP_accusation,Income Quintile 5,NA,23
+Portugal,regional,PT3,Madeira,R1F93,LEP_accusation,Income Quintile 1,NA,20
+Romania,regional,RO1,Macroregion One,R1F93,LEP_accusation,Income Quintile 1,NA,21
+Romania,regional,RO1,Macroregion One,R1F93,LEP_accusation,Income Quintile 5,NA,26
+Romania,regional,RO2,Macroregion Two,R1F93,LEP_accusation,Income Quintile 5,NA,20
+Romania,regional,RO3,Macroregion Three,R1F93,LEP_accusation,Income Quintile 1,NA,20
+Romania,regional,RO4,Macroregion Four,R1F93,LEP_accusation,Income Quintile 5,NA,22
+Slovakia,regional,SK01,Bratislava,R1F93,LEP_accusation,Income Quintile 3,NA,26
+Slovakia,regional,SK01,Bratislava,R1F93,LEP_accusation,Income Quintile 4,NA,27
+Spain,regional,ES1,North-West,R1F93,LEP_accusation,Income Quintile 1,NA,28
+Spain,regional,ES2,North-East,R1F93,LEP_accusation,Income Quintile 1,NA,15
+Spain,regional,ES3,Madrid,R1F93,LEP_accusation,Income Quintile 1,NA,20
+Spain,regional,ES4,Centre,R1F93,LEP_accusation,Income Quintile 1,NA,24
+Spain,regional,ES5,East,R1F93,LEP_accusation,Income Quintile 1,NA,25
+Spain,regional,ES7,Canary Islands,R1F93,LEP_accusation,Income Quintile 5,NA,25
+Sweden,regional,SE2,Southern Sweden,R1F93,LEP_accusation,Income Quintile 1,NA,16
+Sweden,regional,SE3,Northern Sweden,R1F93,LEP_accusation,Income Quintile 1,NA,19
+Belgium,regional,BE2,Flemish Region,R1F93,LEP_accusation,Rural,NA,14
+Denmark,regional,DK01,Capital (region),R1F93,LEP_accusation,Rural,NA,12
+Finland,regional,FI1B,Helsinki-Uusimaa,R1F93,LEP_accusation,Rural,NA,26
+France,regional,FR1,Île-de-France,R1F93,LEP_accusation,Rural,NA,9
+Germany,regional,DEA,North Rhine-Westphalia,R1F93,LEP_accusation,Rural,NA,11
+Greece,regional,EL3,Attica,R1F93,LEP_accusation,Rural,NA,16
+Hungary,regional,HU1,Central Hungary,R1F93,LEP_accusation,Rural,NA,26
+Ireland,regional,IE04,Northern and Western,R1F93,LEP_accusation,Urban,NA,27
+Ireland,regional,IE06,Eastern and Midland,R1F93,LEP_accusation,Rural,NA,27
+Malta,regional,MT00,Malta,R1F93,LEP_accusation,Rural,NA,9
+Netherlands,regional,NL2,East Netherlands,R1F93,LEP_accusation,Rural,NA,24
+Netherlands,regional,NL3,West Netherlands,R1F93,LEP_accusation,Rural,NA,21
+Netherlands,regional,NL4,South Netherlands,R1F93,LEP_accusation,Rural,NA,23
+Spain,regional,ES2,North-East,R1F93,LEP_accusation,Rural,NA,22
+Spain,regional,ES3,Madrid,R1F93,LEP_accusation,Rural,NA,11
+Spain,regional,ES5,East,R1F93,LEP_accusation,Rural,NA,17
+Spain,regional,ES6,South,R1F93,LEP_accusation,Rural,NA,21
+Spain,regional,ES7,Canary Islands,R1F93,LEP_accusation,Rural,NA,20
 Belgium,regional,BE1,Brussels Region,R1F9,CPA_cleanelec_local,18-24,NA,22
 Belgium,regional,BE2,Flemish Region,R1F9,CPA_cleanelec_local,18-24,NA,28
 Croatia,regional,HR02,Pannonian Croatia,R1F9,CPA_cleanelec_local,18-24,NA,23
@@ -10262,866 +11122,6 @@ Spain,regional,ES3,Madrid,R1F89,CJP_proofburden,Rural,NA,11
 Spain,regional,ES5,East,R1F89,CJP_proofburden,Rural,NA,17
 Spain,regional,ES6,South,R1F89,CJP_proofburden,Rural,NA,22
 Spain,regional,ES7,Canary Islands,R1F89,CJP_proofburden,Rural,NA,20
-Belgium,regional,BE1,Brussels Region,R1F90,LEP_accountability,18-24,NA,23
-Belgium,regional,BE2,Flemish Region,R1F90,LEP_accountability,18-24,NA,25
-Belgium,regional,BE3,Waloon Region,R1F90,LEP_accountability,18-24,NA,23
-Bulgaria,regional,BG4,South -West/-Central,R1F90,LEP_accountability,18-24,NA,27
-Croatia,regional,HR02,Pannonian Croatia,R1F90,LEP_accountability,18-24,NA,17
-Croatia,regional,HR03,Adriatic Croatia,R1F90,LEP_accountability,18-24,NA,23
-Croatia,regional,HR03,Adriatic Croatia,R1F90,LEP_accountability,25-34,NA,25
-Croatia,regional,HR05,Zagreb,R1F90,LEP_accountability,18-24,NA,21
-Croatia,regional,HR05,Zagreb,R1F90,LEP_accountability,25-34,NA,28
-Croatia,regional,HR06,Northern Croatia,R1F90,LEP_accountability,18-24,NA,19
-Czechia,regional,CZ01,Prague,R1F90,LEP_accountability,18-24,NA,7
-Czechia,regional,CZ01,Prague,R1F90,LEP_accountability,25-34,NA,19
-Czechia,regional,CZ01,Prague,R1F90,LEP_accountability,45-54,NA,20
-Czechia,regional,CZ01,Prague,R1F90,LEP_accountability,55-64,NA,20
-Czechia,regional,CZ020304,Western and Central Bohemia,R1F90,LEP_accountability,18-24,NA,29
-Czechia,regional,CZ0506,North-East and South-East,R1F90,LEP_accountability,18-24,NA,21
-Czechia,regional,CZ0708,Central Moravia and Silesia,R1F90,LEP_accountability,18-24,NA,24
-Denmark,regional,DK01,Capital (region),R1F90,LEP_accountability,18-24,NA,28
-Denmark,regional,DK01,Capital (region),R1F90,LEP_accountability,55-64,NA,29
-Denmark,regional,DK02,Zealand,R1F90,LEP_accountability,18-24,NA,19
-Denmark,regional,DK02,Zealand,R1F90,LEP_accountability,25-34,NA,26
-Denmark,regional,DK03,South Denmark,R1F90,LEP_accountability,18-24,NA,18
-Denmark,regional,DK04,Central Jutland,R1F90,LEP_accountability,18-24,NA,26
-Denmark,regional,DK05,North Jutland,R1F90,LEP_accountability,18-24,NA,27
-Finland,regional,FI19,West Finland,R1F90,LEP_accountability,18-24,NA,25
-Finland,regional,FI1B,Helsinki-Uusimaa,R1F90,LEP_accountability,18-24,NA,23
-Finland,regional,FI1D,North and East Finland,R1F90,LEP_accountability,18-24,NA,27
-France,regional,FRB,Centre-Val de Loire,R1F90,LEP_accountability,18-24,NA,25
-France,regional,FRC,Burgundy-Franche-Comté,R1F90,LEP_accountability,18-24,NA,23
-France,regional,FRD,Normandy,R1F90,LEP_accountability,18-24,NA,26
-France,regional,FRF,Grand Est,R1F90,LEP_accountability,18-24,NA,27
-France,regional,FRH,Brittany ,R1F90,LEP_accountability,18-24,NA,26
-France,regional,FRI,New Aquitaine,R1F90,LEP_accountability,18-24,NA,23
-France,regional,FRL,PACA,R1F90,LEP_accountability,18-24,NA,20
-France,regional,FRL,PACA,R1F90,LEP_accountability,25-34,NA,26
-France,regional,FRM,Corsica ,R1F90,LEP_accountability,+65,NA,22
-France,regional,FRM,Corsica ,R1F90,LEP_accountability,18-24,NA,8
-France,regional,FRM,Corsica ,R1F90,LEP_accountability,25-34,NA,13
-France,regional,FRM,Corsica ,R1F90,LEP_accountability,35-44,NA,12
-France,regional,FRM,Corsica ,R1F90,LEP_accountability,45-54,NA,19
-France,regional,FRM,Corsica ,R1F90,LEP_accountability,55-64,NA,16
-Germany,regional,DE2,Bavaria,R1F90,LEP_accountability,18-24,NA,26
-Germany,regional,DE3,Berlin,R1F90,LEP_accountability,18-24,NA,17
-Germany,regional,DE4,Brandenburg,R1F90,LEP_accountability,18-24,NA,13
-Germany,regional,DE5,Bremen,R1F90,LEP_accountability,+65,NA,23
-Germany,regional,DE5,Bremen,R1F90,LEP_accountability,18-24,NA,21
-Germany,regional,DE5,Bremen,R1F90,LEP_accountability,25-34,NA,28
-Germany,regional,DE5,Bremen,R1F90,LEP_accountability,35-44,NA,23
-Germany,regional,DE5,Bremen,R1F90,LEP_accountability,55-64,NA,23
-Germany,regional,DE6,Hamburg,R1F90,LEP_accountability,18-24,NA,24
-Germany,regional,DE7,Hessen,R1F90,LEP_accountability,18-24,NA,20
-Germany,regional,DE8,Mecklenburg-Vorpommern,R1F90,LEP_accountability,18-24,NA,22
-Germany,regional,DE8,Mecklenburg-Vorpommern,R1F90,LEP_accountability,25-34,NA,20
-Germany,regional,DE9,Lower Saxony,R1F90,LEP_accountability,18-24,NA,22
-Germany,regional,DEA,North Rhine-Westphalia,R1F90,LEP_accountability,18-24,NA,23
-Germany,regional,DEB,Rhineland-Palatinate,R1F90,LEP_accountability,18-24,NA,25
-Germany,regional,DEC,Saarland,R1F90,LEP_accountability,18-24,NA,24
-Germany,regional,DED,Saxony,R1F90,LEP_accountability,18-24,NA,19
-Germany,regional,DEE,Saxony-Anhalt,R1F90,LEP_accountability,18-24,NA,17
-Germany,regional,DEF,Schleswig-Holstein,R1F90,LEP_accountability,18-24,NA,27
-Germany,regional,DEG,Thuringia,R1F90,LEP_accountability,18-24,NA,18
-Germany,regional,DEG,Thuringia,R1F90,LEP_accountability,25-34,NA,29
-Greece,regional,EL3,Attica,R1F90,LEP_accountability,18-24,NA,13
-Greece,regional,EL4,"Aegean Islands, Crete",R1F90,LEP_accountability,18-24,NA,21
-Greece,regional,EL5,North Greece,R1F90,LEP_accountability,18-24,NA,13
-Greece,regional,EL5,North Greece,R1F90,LEP_accountability,25-34,NA,19
-Greece,regional,EL6,Central Greece,R1F90,LEP_accountability,18-24,NA,14
-Hungary,regional,HU1,Central Hungary,R1F90,LEP_accountability,18-24,NA,25
-Hungary,regional,HU1,Central Hungary,R1F90,LEP_accountability,55-64,NA,28
-Hungary,regional,HU2,Transdanubia ,R1F90,LEP_accountability,18-24,NA,11
-Hungary,regional,HU3,Great Plain and North,R1F90,LEP_accountability,18-24,NA,24
-Ireland,regional,IE04,Northern and Western,R1F90,LEP_accountability,+65,NA,27
-Ireland,regional,IE04,Northern and Western,R1F90,LEP_accountability,18-24,NA,13
-Ireland,regional,IE04,Northern and Western,R1F90,LEP_accountability,45-54,NA,23
-Ireland,regional,IE04,Northern and Western,R1F90,LEP_accountability,55-64,NA,24
-Ireland,regional,IE05,Southern,R1F90,LEP_accountability,18-24,NA,26
-Italy,regional,ITG,Islands,R1F90,LEP_accountability,18-24,NA,28
-Italy,regional,ITH,North-East,R1F90,LEP_accountability,18-24,NA,28
-Lithuania,regional,LT01,Capital Region,R1F90,LEP_accountability,18-24,NA,29
-Luxembourg,regional,LU00,Luxembourg,R1F90,LEP_accountability,18-24,NA,26
-Malta,regional,MT00,Malta,R1F90,LEP_accountability,18-24,NA,19
-Malta,regional,MT00,Malta,R1F90,LEP_accountability,55-64,NA,27
-Poland,regional,PL4,North-Western,R1F90,LEP_accountability,18-24,NA,28
-Poland,regional,PL7,Central,R1F90,LEP_accountability,18-24,NA,28
-Portugal,regional,PT1,Continental Portugal,R1F90,LEP_accountability,18-24,NA,25
-Portugal,regional,PT2,Azores,R1F90,LEP_accountability,18-24,NA,25
-Portugal,regional,PT2,Azores,R1F90,LEP_accountability,25-34,NA,28
-Portugal,regional,PT3,Madeira,R1F90,LEP_accountability,18-24,NA,28
-Romania,regional,RO1,Macroregion One,R1F90,LEP_accountability,18-24,NA,27
-Romania,regional,RO4,Macroregion Four,R1F90,LEP_accountability,18-24,NA,27
-Slovakia,regional,SK01,Bratislava,R1F90,LEP_accountability,18-24,NA,12
-Slovakia,regional,SK02,West Slovakia,R1F90,LEP_accountability,18-24,NA,25
-Slovakia,regional,SK04,East Slovakia,R1F90,LEP_accountability,18-24,NA,21
-Slovenia,regional,SI03,East Slovenia,R1F90,LEP_accountability,18-24,NA,14
-Slovenia,regional,SI03,East Slovenia,R1F90,LEP_accountability,25-34,NA,23
-Slovenia,regional,SI04,West Slovenia,R1F90,LEP_accountability,18-24,NA,19
-Spain,regional,ES1,North-West,R1F90,LEP_accountability,18-24,NA,19
-Spain,regional,ES2,North-East,R1F90,LEP_accountability,18-24,NA,22
-Spain,regional,ES2,North-East,R1F90,LEP_accountability,25-34,NA,28
-Spain,regional,ES3,Madrid,R1F90,LEP_accountability,18-24,NA,19
-Spain,regional,ES3,Madrid,R1F90,LEP_accountability,25-34,NA,28
-Spain,regional,ES4,Centre,R1F90,LEP_accountability,18-24,NA,29
-Spain,regional,ES4,Centre,R1F90,LEP_accountability,25-34,NA,28
-Spain,regional,ES5,East,R1F90,LEP_accountability,25-34,NA,28
-Spain,regional,ES7,Canary Islands,R1F90,LEP_accountability,18-24,NA,20
-Sweden,regional,SE1,Eastern Sweden,R1F90,LEP_accountability,18-24,NA,21
-Sweden,regional,SE2,Southern Sweden,R1F90,LEP_accountability,18-24,NA,23
-Sweden,regional,SE3,Northern Sweden,R1F90,LEP_accountability,18-24,NA,25
-Belgium,regional,BE1,Brussels Region,R1F90,LEP_accountability,Income Quintile 4,NA,23
-Croatia,regional,HR02,Pannonian Croatia,R1F90,LEP_accountability,Income Quintile 3,NA,23
-Croatia,regional,HR02,Pannonian Croatia,R1F90,LEP_accountability,Income Quintile 4,NA,29
-Croatia,regional,HR03,Adriatic Croatia,R1F90,LEP_accountability,Income Quintile 1,NA,20
-Croatia,regional,HR03,Adriatic Croatia,R1F90,LEP_accountability,Income Quintile 3,NA,21
-Croatia,regional,HR05,Zagreb,R1F90,LEP_accountability,Income Quintile 1,NA,29
-Croatia,regional,HR05,Zagreb,R1F90,LEP_accountability,Income Quintile 3,NA,22
-Croatia,regional,HR06,Northern Croatia,R1F90,LEP_accountability,Income Quintile 1,NA,20
-Croatia,regional,HR06,Northern Croatia,R1F90,LEP_accountability,Income Quintile 2,NA,24
-Croatia,regional,HR06,Northern Croatia,R1F90,LEP_accountability,Income Quintile 3,NA,17
-Czechia,regional,CZ01,Prague,R1F90,LEP_accountability,Income Quintile 1,NA,10
-Czechia,regional,CZ01,Prague,R1F90,LEP_accountability,Income Quintile 2,NA,15
-Czechia,regional,CZ01,Prague,R1F90,LEP_accountability,Income Quintile 3,NA,28
-Czechia,regional,CZ01,Prague,R1F90,LEP_accountability,Income Quintile 4,NA,27
-Czechia,regional,CZ0506,North-East and South-East,R1F90,LEP_accountability,Income Quintile 1,NA,19
-Denmark,regional,DK02,Zealand,R1F90,LEP_accountability,Income Quintile 1,NA,24
-Denmark,regional,DK03,South Denmark,R1F90,LEP_accountability,Income Quintile 1,NA,19
-Denmark,regional,DK04,Central Jutland,R1F90,LEP_accountability,Income Quintile 1,NA,26
-Estonia,regional,EE0,Estonia,R1F90,LEP_accountability,Income Quintile 1,NA,14
-France,regional,FR1,Île-de-France,R1F90,LEP_accountability,Income Quintile 1,NA,22
-France,regional,FRL,PACA,R1F90,LEP_accountability,Income Quintile 1,NA,27
-France,regional,FRM,Corsica ,R1F90,LEP_accountability,Income Quintile 1,NA,12
-France,regional,FRM,Corsica ,R1F90,LEP_accountability,Income Quintile 2,NA,22
-France,regional,FRM,Corsica ,R1F90,LEP_accountability,Income Quintile 3,NA,11
-France,regional,FRM,Corsica ,R1F90,LEP_accountability,Income Quintile 4,NA,17
-France,regional,FRM,Corsica ,R1F90,LEP_accountability,Income Quintile 5,NA,18
-Germany,regional,DE5,Bremen,R1F90,LEP_accountability,Income Quintile 1,NA,28
-Germany,regional,DE5,Bremen,R1F90,LEP_accountability,Income Quintile 2,NA,29
-Germany,regional,DE5,Bremen,R1F90,LEP_accountability,Income Quintile 3,NA,29
-Germany,regional,DE5,Bremen,R1F90,LEP_accountability,Income Quintile 4,NA,28
-Germany,regional,DE5,Bremen,R1F90,LEP_accountability,Income Quintile 5,NA,25
-Germany,regional,DEE,Saxony-Anhalt,R1F90,LEP_accountability,Income Quintile 5,NA,27
-Greece,regional,EL3,Attica,R1F90,LEP_accountability,Income Quintile 1,NA,26
-Greece,regional,EL3,Attica,R1F90,LEP_accountability,Income Quintile 3,NA,27
-Greece,regional,EL3,Attica,R1F90,LEP_accountability,Income Quintile 4,NA,24
-Greece,regional,EL3,Attica,R1F90,LEP_accountability,Income Quintile 5,NA,15
-Greece,regional,EL4,"Aegean Islands, Crete",R1F90,LEP_accountability,Income Quintile 4,NA,19
-Greece,regional,EL4,"Aegean Islands, Crete",R1F90,LEP_accountability,Income Quintile 5,NA,6
-Greece,regional,EL5,North Greece,R1F90,LEP_accountability,Income Quintile 5,NA,3
-Greece,regional,EL6,Central Greece,R1F90,LEP_accountability,Income Quintile 5,NA,10
-Hungary,regional,HU1,Central Hungary,R1F90,LEP_accountability,Income Quintile 1,NA,10
-Hungary,regional,HU1,Central Hungary,R1F90,LEP_accountability,Income Quintile 2,NA,15
-Hungary,regional,HU1,Central Hungary,R1F90,LEP_accountability,Income Quintile 3,NA,12
-Hungary,regional,HU2,Transdanubia ,R1F90,LEP_accountability,Income Quintile 1,NA,18
-Hungary,regional,HU2,Transdanubia ,R1F90,LEP_accountability,Income Quintile 2,NA,29
-Hungary,regional,HU2,Transdanubia ,R1F90,LEP_accountability,Income Quintile 3,NA,28
-Ireland,regional,IE04,Northern and Western,R1F90,LEP_accountability,Income Quintile 2,NA,28
-Ireland,regional,IE04,Northern and Western,R1F90,LEP_accountability,Income Quintile 4,NA,27
-Ireland,regional,IE04,Northern and Western,R1F90,LEP_accountability,Income Quintile 5,NA,23
-Ireland,regional,IE05,Southern,R1F90,LEP_accountability,Income Quintile 5,NA,24
-Italy,regional,ITH,North-East,R1F90,LEP_accountability,Income Quintile 1,NA,26
-Poland,regional,PL2,Southern,R1F90,LEP_accountability,Income Quintile 2,NA,27
-Poland,regional,PL2,Southern,R1F90,LEP_accountability,Income Quintile 3,NA,26
-Poland,regional,PL2,Southern,R1F90,LEP_accountability,Income Quintile 4,NA,22
-Poland,regional,PL2,Southern,R1F90,LEP_accountability,Income Quintile 5,NA,26
-Poland,regional,PL4,North-Western,R1F90,LEP_accountability,Income Quintile 1,NA,14
-Poland,regional,PL4,North-Western,R1F90,LEP_accountability,Income Quintile 2,NA,22
-Poland,regional,PL4,North-Western,R1F90,LEP_accountability,Income Quintile 3,NA,27
-Poland,regional,PL5,South-Western,R1F90,LEP_accountability,Income Quintile 2,NA,21
-Poland,regional,PL5,South-Western,R1F90,LEP_accountability,Income Quintile 5,NA,24
-Poland,regional,PL6,Northern,R1F90,LEP_accountability,Income Quintile 2,NA,26
-Poland,regional,PL7,Central,R1F90,LEP_accountability,Income Quintile 1,NA,26
-Poland,regional,PL7,Central,R1F90,LEP_accountability,Income Quintile 2,NA,26
-Poland,regional,PL7,Central,R1F90,LEP_accountability,Income Quintile 3,NA,21
-Poland,regional,PL8,Eastern,R1F90,LEP_accountability,Income Quintile 1,NA,16
-Poland,regional,PL8,Eastern,R1F90,LEP_accountability,Income Quintile 2,NA,16
-Poland,regional,PL8,Eastern,R1F90,LEP_accountability,Income Quintile 3,NA,26
-Poland,regional,PL8,Eastern,R1F90,LEP_accountability,Income Quintile 4,NA,7
-Poland,regional,PL8,Eastern,R1F90,LEP_accountability,Income Quintile 5,NA,3
-Poland,regional,PL9,Mazowieckie,R1F90,LEP_accountability,Income Quintile 1,NA,21
-Poland,regional,PL9,Mazowieckie,R1F90,LEP_accountability,Income Quintile 5,NA,20
-Portugal,regional,PT1,Continental Portugal,R1F90,LEP_accountability,Income Quintile 1,NA,21
-Portugal,regional,PT1,Continental Portugal,R1F90,LEP_accountability,Income Quintile 5,NA,17
-Portugal,regional,PT2,Azores,R1F90,LEP_accountability,Income Quintile 5,NA,23
-Portugal,regional,PT3,Madeira,R1F90,LEP_accountability,Income Quintile 1,NA,20
-Romania,regional,RO1,Macroregion One,R1F90,LEP_accountability,Income Quintile 1,NA,21
-Romania,regional,RO1,Macroregion One,R1F90,LEP_accountability,Income Quintile 5,NA,26
-Romania,regional,RO2,Macroregion Two,R1F90,LEP_accountability,Income Quintile 5,NA,20
-Romania,regional,RO3,Macroregion Three,R1F90,LEP_accountability,Income Quintile 1,NA,20
-Romania,regional,RO4,Macroregion Four,R1F90,LEP_accountability,Income Quintile 5,NA,22
-Slovakia,regional,SK01,Bratislava,R1F90,LEP_accountability,Income Quintile 3,NA,26
-Slovakia,regional,SK01,Bratislava,R1F90,LEP_accountability,Income Quintile 4,NA,27
-Spain,regional,ES1,North-West,R1F90,LEP_accountability,Income Quintile 1,NA,28
-Spain,regional,ES2,North-East,R1F90,LEP_accountability,Income Quintile 1,NA,15
-Spain,regional,ES3,Madrid,R1F90,LEP_accountability,Income Quintile 1,NA,20
-Spain,regional,ES4,Centre,R1F90,LEP_accountability,Income Quintile 1,NA,24
-Spain,regional,ES5,East,R1F90,LEP_accountability,Income Quintile 1,NA,26
-Spain,regional,ES7,Canary Islands,R1F90,LEP_accountability,Income Quintile 5,NA,25
-Sweden,regional,SE2,Southern Sweden,R1F90,LEP_accountability,Income Quintile 1,NA,16
-Sweden,regional,SE3,Northern Sweden,R1F90,LEP_accountability,Income Quintile 1,NA,19
-Belgium,regional,BE2,Flemish Region,R1F90,LEP_accountability,Rural,NA,14
-Denmark,regional,DK01,Capital (region),R1F90,LEP_accountability,Rural,NA,12
-Finland,regional,FI1B,Helsinki-Uusimaa,R1F90,LEP_accountability,Rural,NA,26
-France,regional,FR1,Île-de-France,R1F90,LEP_accountability,Rural,NA,9
-Germany,regional,DEA,North Rhine-Westphalia,R1F90,LEP_accountability,Rural,NA,11
-Greece,regional,EL3,Attica,R1F90,LEP_accountability,Rural,NA,16
-Hungary,regional,HU1,Central Hungary,R1F90,LEP_accountability,Rural,NA,26
-Ireland,regional,IE04,Northern and Western,R1F90,LEP_accountability,Urban,NA,27
-Ireland,regional,IE06,Eastern and Midland,R1F90,LEP_accountability,Rural,NA,27
-Malta,regional,MT00,Malta,R1F90,LEP_accountability,Rural,NA,9
-Netherlands,regional,NL2,East Netherlands,R1F90,LEP_accountability,Rural,NA,24
-Netherlands,regional,NL3,West Netherlands,R1F90,LEP_accountability,Rural,NA,21
-Netherlands,regional,NL4,South Netherlands,R1F90,LEP_accountability,Rural,NA,23
-Spain,regional,ES2,North-East,R1F90,LEP_accountability,Rural,NA,22
-Spain,regional,ES3,Madrid,R1F90,LEP_accountability,Rural,NA,11
-Spain,regional,ES5,East,R1F90,LEP_accountability,Rural,NA,17
-Spain,regional,ES6,South,R1F90,LEP_accountability,Rural,NA,22
-Spain,regional,ES7,Canary Islands,R1F90,LEP_accountability,Rural,NA,19
-Belgium,regional,BE1,Brussels Region,R1F91,LEP_bribesreq,18-24,NA,24
-Belgium,regional,BE2,Flemish Region,R1F91,LEP_bribesreq,18-24,NA,25
-Belgium,regional,BE3,Waloon Region,R1F91,LEP_bribesreq,18-24,NA,23
-Bulgaria,regional,BG4,South -West/-Central,R1F91,LEP_bribesreq,18-24,NA,27
-Croatia,regional,HR02,Pannonian Croatia,R1F91,LEP_bribesreq,18-24,NA,17
-Croatia,regional,HR03,Adriatic Croatia,R1F91,LEP_bribesreq,18-24,NA,23
-Croatia,regional,HR03,Adriatic Croatia,R1F91,LEP_bribesreq,25-34,NA,25
-Croatia,regional,HR05,Zagreb,R1F91,LEP_bribesreq,18-24,NA,20
-Croatia,regional,HR05,Zagreb,R1F91,LEP_bribesreq,25-34,NA,27
-Croatia,regional,HR06,Northern Croatia,R1F91,LEP_bribesreq,18-24,NA,18
-Czechia,regional,CZ01,Prague,R1F91,LEP_bribesreq,18-24,NA,7
-Czechia,regional,CZ01,Prague,R1F91,LEP_bribesreq,25-34,NA,19
-Czechia,regional,CZ01,Prague,R1F91,LEP_bribesreq,45-54,NA,20
-Czechia,regional,CZ01,Prague,R1F91,LEP_bribesreq,55-64,NA,19
-Czechia,regional,CZ020304,Western and Central Bohemia,R1F91,LEP_bribesreq,18-24,NA,29
-Czechia,regional,CZ0506,North-East and South-East,R1F91,LEP_bribesreq,18-24,NA,21
-Czechia,regional,CZ0708,Central Moravia and Silesia,R1F91,LEP_bribesreq,18-24,NA,24
-Denmark,regional,DK01,Capital (region),R1F91,LEP_bribesreq,18-24,NA,28
-Denmark,regional,DK02,Zealand,R1F91,LEP_bribesreq,18-24,NA,19
-Denmark,regional,DK02,Zealand,R1F91,LEP_bribesreq,25-34,NA,27
-Denmark,regional,DK03,South Denmark,R1F91,LEP_bribesreq,18-24,NA,18
-Denmark,regional,DK04,Central Jutland,R1F91,LEP_bribesreq,18-24,NA,27
-Denmark,regional,DK05,North Jutland,R1F91,LEP_bribesreq,18-24,NA,26
-Finland,regional,FI19,West Finland,R1F91,LEP_bribesreq,18-24,NA,25
-Finland,regional,FI1B,Helsinki-Uusimaa,R1F91,LEP_bribesreq,18-24,NA,23
-Finland,regional,FI1D,North and East Finland,R1F91,LEP_bribesreq,18-24,NA,27
-France,regional,FRB,Centre-Val de Loire,R1F91,LEP_bribesreq,18-24,NA,25
-France,regional,FRC,Burgundy-Franche-Comté,R1F91,LEP_bribesreq,18-24,NA,23
-France,regional,FRD,Normandy,R1F91,LEP_bribesreq,18-24,NA,26
-France,regional,FRF,Grand Est,R1F91,LEP_bribesreq,18-24,NA,27
-France,regional,FRG,Loire Region,R1F91,LEP_bribesreq,25-34,NA,29
-France,regional,FRH,Brittany ,R1F91,LEP_bribesreq,18-24,NA,26
-France,regional,FRI,New Aquitaine,R1F91,LEP_bribesreq,18-24,NA,23
-France,regional,FRL,PACA,R1F91,LEP_bribesreq,18-24,NA,20
-France,regional,FRL,PACA,R1F91,LEP_bribesreq,25-34,NA,26
-France,regional,FRM,Corsica ,R1F91,LEP_bribesreq,+65,NA,22
-France,regional,FRM,Corsica ,R1F91,LEP_bribesreq,18-24,NA,8
-France,regional,FRM,Corsica ,R1F91,LEP_bribesreq,25-34,NA,12
-France,regional,FRM,Corsica ,R1F91,LEP_bribesreq,35-44,NA,12
-France,regional,FRM,Corsica ,R1F91,LEP_bribesreq,45-54,NA,19
-France,regional,FRM,Corsica ,R1F91,LEP_bribesreq,55-64,NA,16
-Germany,regional,DE2,Bavaria,R1F91,LEP_bribesreq,18-24,NA,26
-Germany,regional,DE3,Berlin,R1F91,LEP_bribesreq,18-24,NA,17
-Germany,regional,DE4,Brandenburg,R1F91,LEP_bribesreq,18-24,NA,13
-Germany,regional,DE5,Bremen,R1F91,LEP_bribesreq,+65,NA,23
-Germany,regional,DE5,Bremen,R1F91,LEP_bribesreq,18-24,NA,21
-Germany,regional,DE5,Bremen,R1F91,LEP_bribesreq,25-34,NA,28
-Germany,regional,DE5,Bremen,R1F91,LEP_bribesreq,35-44,NA,23
-Germany,regional,DE5,Bremen,R1F91,LEP_bribesreq,55-64,NA,23
-Germany,regional,DE6,Hamburg,R1F91,LEP_bribesreq,18-24,NA,23
-Germany,regional,DE7,Hessen,R1F91,LEP_bribesreq,18-24,NA,20
-Germany,regional,DE8,Mecklenburg-Vorpommern,R1F91,LEP_bribesreq,18-24,NA,22
-Germany,regional,DE8,Mecklenburg-Vorpommern,R1F91,LEP_bribesreq,25-34,NA,20
-Germany,regional,DE9,Lower Saxony,R1F91,LEP_bribesreq,18-24,NA,22
-Germany,regional,DEA,North Rhine-Westphalia,R1F91,LEP_bribesreq,18-24,NA,24
-Germany,regional,DEB,Rhineland-Palatinate,R1F91,LEP_bribesreq,18-24,NA,25
-Germany,regional,DEC,Saarland,R1F91,LEP_bribesreq,18-24,NA,22
-Germany,regional,DED,Saxony,R1F91,LEP_bribesreq,18-24,NA,19
-Germany,regional,DEE,Saxony-Anhalt,R1F91,LEP_bribesreq,18-24,NA,16
-Germany,regional,DEF,Schleswig-Holstein,R1F91,LEP_bribesreq,18-24,NA,27
-Germany,regional,DEG,Thuringia,R1F91,LEP_bribesreq,18-24,NA,18
-Greece,regional,EL3,Attica,R1F91,LEP_bribesreq,18-24,NA,13
-Greece,regional,EL4,"Aegean Islands, Crete",R1F91,LEP_bribesreq,18-24,NA,20
-Greece,regional,EL5,North Greece,R1F91,LEP_bribesreq,18-24,NA,14
-Greece,regional,EL5,North Greece,R1F91,LEP_bribesreq,25-34,NA,19
-Greece,regional,EL6,Central Greece,R1F91,LEP_bribesreq,18-24,NA,14
-Hungary,regional,HU1,Central Hungary,R1F91,LEP_bribesreq,18-24,NA,25
-Hungary,regional,HU1,Central Hungary,R1F91,LEP_bribesreq,55-64,NA,28
-Hungary,regional,HU2,Transdanubia ,R1F91,LEP_bribesreq,18-24,NA,11
-Hungary,regional,HU3,Great Plain and North,R1F91,LEP_bribesreq,18-24,NA,24
-Ireland,regional,IE04,Northern and Western,R1F91,LEP_bribesreq,+65,NA,27
-Ireland,regional,IE04,Northern and Western,R1F91,LEP_bribesreq,18-24,NA,13
-Ireland,regional,IE04,Northern and Western,R1F91,LEP_bribesreq,45-54,NA,23
-Ireland,regional,IE04,Northern and Western,R1F91,LEP_bribesreq,55-64,NA,24
-Ireland,regional,IE05,Southern,R1F91,LEP_bribesreq,18-24,NA,26
-Italy,regional,ITG,Islands,R1F91,LEP_bribesreq,18-24,NA,28
-Italy,regional,ITH,North-East,R1F91,LEP_bribesreq,18-24,NA,28
-Lithuania,regional,LT01,Capital Region,R1F91,LEP_bribesreq,18-24,NA,29
-Luxembourg,regional,LU00,Luxembourg,R1F91,LEP_bribesreq,18-24,NA,26
-Malta,regional,MT00,Malta,R1F91,LEP_bribesreq,18-24,NA,19
-Malta,regional,MT00,Malta,R1F91,LEP_bribesreq,55-64,NA,27
-Poland,regional,PL4,North-Western,R1F91,LEP_bribesreq,18-24,NA,28
-Poland,regional,PL6,Northern,R1F91,LEP_bribesreq,18-24,NA,29
-Poland,regional,PL7,Central,R1F91,LEP_bribesreq,18-24,NA,28
-Portugal,regional,PT1,Continental Portugal,R1F91,LEP_bribesreq,18-24,NA,25
-Portugal,regional,PT2,Azores,R1F91,LEP_bribesreq,18-24,NA,25
-Portugal,regional,PT2,Azores,R1F91,LEP_bribesreq,25-34,NA,28
-Portugal,regional,PT3,Madeira,R1F91,LEP_bribesreq,18-24,NA,28
-Romania,regional,RO1,Macroregion One,R1F91,LEP_bribesreq,18-24,NA,27
-Romania,regional,RO4,Macroregion Four,R1F91,LEP_bribesreq,18-24,NA,27
-Slovakia,regional,SK01,Bratislava,R1F91,LEP_bribesreq,18-24,NA,12
-Slovakia,regional,SK02,West Slovakia,R1F91,LEP_bribesreq,18-24,NA,25
-Slovakia,regional,SK04,East Slovakia,R1F91,LEP_bribesreq,18-24,NA,21
-Slovenia,regional,SI03,East Slovenia,R1F91,LEP_bribesreq,18-24,NA,14
-Slovenia,regional,SI03,East Slovenia,R1F91,LEP_bribesreq,25-34,NA,23
-Slovenia,regional,SI04,West Slovenia,R1F91,LEP_bribesreq,18-24,NA,19
-Spain,regional,ES1,North-West,R1F91,LEP_bribesreq,18-24,NA,19
-Spain,regional,ES2,North-East,R1F91,LEP_bribesreq,18-24,NA,22
-Spain,regional,ES2,North-East,R1F91,LEP_bribesreq,25-34,NA,28
-Spain,regional,ES3,Madrid,R1F91,LEP_bribesreq,18-24,NA,20
-Spain,regional,ES3,Madrid,R1F91,LEP_bribesreq,25-34,NA,27
-Spain,regional,ES4,Centre,R1F91,LEP_bribesreq,18-24,NA,29
-Spain,regional,ES4,Centre,R1F91,LEP_bribesreq,25-34,NA,28
-Spain,regional,ES5,East,R1F91,LEP_bribesreq,25-34,NA,28
-Spain,regional,ES7,Canary Islands,R1F91,LEP_bribesreq,18-24,NA,22
-Sweden,regional,SE1,Eastern Sweden,R1F91,LEP_bribesreq,18-24,NA,21
-Sweden,regional,SE2,Southern Sweden,R1F91,LEP_bribesreq,18-24,NA,22
-Sweden,regional,SE3,Northern Sweden,R1F91,LEP_bribesreq,18-24,NA,24
-Belgium,regional,BE1,Brussels Region,R1F91,LEP_bribesreq,Income Quintile 4,NA,23
-Croatia,regional,HR02,Pannonian Croatia,R1F91,LEP_bribesreq,Income Quintile 3,NA,23
-Croatia,regional,HR03,Adriatic Croatia,R1F91,LEP_bribesreq,Income Quintile 1,NA,20
-Croatia,regional,HR03,Adriatic Croatia,R1F91,LEP_bribesreq,Income Quintile 3,NA,21
-Croatia,regional,HR05,Zagreb,R1F91,LEP_bribesreq,Income Quintile 1,NA,28
-Croatia,regional,HR05,Zagreb,R1F91,LEP_bribesreq,Income Quintile 3,NA,21
-Croatia,regional,HR06,Northern Croatia,R1F91,LEP_bribesreq,Income Quintile 1,NA,20
-Croatia,regional,HR06,Northern Croatia,R1F91,LEP_bribesreq,Income Quintile 2,NA,24
-Croatia,regional,HR06,Northern Croatia,R1F91,LEP_bribesreq,Income Quintile 3,NA,16
-Czechia,regional,CZ01,Prague,R1F91,LEP_bribesreq,Income Quintile 1,NA,10
-Czechia,regional,CZ01,Prague,R1F91,LEP_bribesreq,Income Quintile 2,NA,15
-Czechia,regional,CZ01,Prague,R1F91,LEP_bribesreq,Income Quintile 3,NA,28
-Czechia,regional,CZ01,Prague,R1F91,LEP_bribesreq,Income Quintile 4,NA,27
-Czechia,regional,CZ0506,North-East and South-East,R1F91,LEP_bribesreq,Income Quintile 1,NA,21
-Denmark,regional,DK02,Zealand,R1F91,LEP_bribesreq,Income Quintile 1,NA,24
-Denmark,regional,DK03,South Denmark,R1F91,LEP_bribesreq,Income Quintile 1,NA,19
-Denmark,regional,DK04,Central Jutland,R1F91,LEP_bribesreq,Income Quintile 1,NA,27
-Estonia,regional,EE0,Estonia,R1F91,LEP_bribesreq,Income Quintile 1,NA,13
-France,regional,FR1,Île-de-France,R1F91,LEP_bribesreq,Income Quintile 1,NA,22
-France,regional,FRL,PACA,R1F91,LEP_bribesreq,Income Quintile 1,NA,27
-France,regional,FRM,Corsica ,R1F91,LEP_bribesreq,Income Quintile 1,NA,12
-France,regional,FRM,Corsica ,R1F91,LEP_bribesreq,Income Quintile 2,NA,22
-France,regional,FRM,Corsica ,R1F91,LEP_bribesreq,Income Quintile 3,NA,10
-France,regional,FRM,Corsica ,R1F91,LEP_bribesreq,Income Quintile 4,NA,17
-France,regional,FRM,Corsica ,R1F91,LEP_bribesreq,Income Quintile 5,NA,18
-Germany,regional,DE5,Bremen,R1F91,LEP_bribesreq,Income Quintile 1,NA,28
-Germany,regional,DE5,Bremen,R1F91,LEP_bribesreq,Income Quintile 2,NA,29
-Germany,regional,DE5,Bremen,R1F91,LEP_bribesreq,Income Quintile 3,NA,29
-Germany,regional,DE5,Bremen,R1F91,LEP_bribesreq,Income Quintile 4,NA,28
-Germany,regional,DE5,Bremen,R1F91,LEP_bribesreq,Income Quintile 5,NA,25
-Germany,regional,DEE,Saxony-Anhalt,R1F91,LEP_bribesreq,Income Quintile 5,NA,27
-Greece,regional,EL3,Attica,R1F91,LEP_bribesreq,Income Quintile 1,NA,26
-Greece,regional,EL3,Attica,R1F91,LEP_bribesreq,Income Quintile 3,NA,27
-Greece,regional,EL3,Attica,R1F91,LEP_bribesreq,Income Quintile 4,NA,24
-Greece,regional,EL3,Attica,R1F91,LEP_bribesreq,Income Quintile 5,NA,15
-Greece,regional,EL4,"Aegean Islands, Crete",R1F91,LEP_bribesreq,Income Quintile 4,NA,19
-Greece,regional,EL4,"Aegean Islands, Crete",R1F91,LEP_bribesreq,Income Quintile 5,NA,7
-Greece,regional,EL5,North Greece,R1F91,LEP_bribesreq,Income Quintile 5,NA,3
-Greece,regional,EL6,Central Greece,R1F91,LEP_bribesreq,Income Quintile 5,NA,10
-Hungary,regional,HU1,Central Hungary,R1F91,LEP_bribesreq,Income Quintile 1,NA,10
-Hungary,regional,HU1,Central Hungary,R1F91,LEP_bribesreq,Income Quintile 2,NA,15
-Hungary,regional,HU1,Central Hungary,R1F91,LEP_bribesreq,Income Quintile 3,NA,12
-Hungary,regional,HU2,Transdanubia ,R1F91,LEP_bribesreq,Income Quintile 1,NA,18
-Hungary,regional,HU2,Transdanubia ,R1F91,LEP_bribesreq,Income Quintile 2,NA,28
-Hungary,regional,HU2,Transdanubia ,R1F91,LEP_bribesreq,Income Quintile 3,NA,29
-Ireland,regional,IE04,Northern and Western,R1F91,LEP_bribesreq,Income Quintile 2,NA,28
-Ireland,regional,IE04,Northern and Western,R1F91,LEP_bribesreq,Income Quintile 4,NA,27
-Ireland,regional,IE04,Northern and Western,R1F91,LEP_bribesreq,Income Quintile 5,NA,23
-Ireland,regional,IE05,Southern,R1F91,LEP_bribesreq,Income Quintile 5,NA,24
-Italy,regional,ITH,North-East,R1F91,LEP_bribesreq,Income Quintile 1,NA,27
-Poland,regional,PL2,Southern,R1F91,LEP_bribesreq,Income Quintile 2,NA,27
-Poland,regional,PL2,Southern,R1F91,LEP_bribesreq,Income Quintile 3,NA,26
-Poland,regional,PL2,Southern,R1F91,LEP_bribesreq,Income Quintile 4,NA,22
-Poland,regional,PL2,Southern,R1F91,LEP_bribesreq,Income Quintile 5,NA,26
-Poland,regional,PL4,North-Western,R1F91,LEP_bribesreq,Income Quintile 1,NA,14
-Poland,regional,PL4,North-Western,R1F91,LEP_bribesreq,Income Quintile 2,NA,22
-Poland,regional,PL4,North-Western,R1F91,LEP_bribesreq,Income Quintile 3,NA,27
-Poland,regional,PL5,South-Western,R1F91,LEP_bribesreq,Income Quintile 2,NA,21
-Poland,regional,PL5,South-Western,R1F91,LEP_bribesreq,Income Quintile 5,NA,24
-Poland,regional,PL6,Northern,R1F91,LEP_bribesreq,Income Quintile 2,NA,26
-Poland,regional,PL7,Central,R1F91,LEP_bribesreq,Income Quintile 1,NA,26
-Poland,regional,PL7,Central,R1F91,LEP_bribesreq,Income Quintile 2,NA,26
-Poland,regional,PL7,Central,R1F91,LEP_bribesreq,Income Quintile 3,NA,22
-Poland,regional,PL8,Eastern,R1F91,LEP_bribesreq,Income Quintile 1,NA,16
-Poland,regional,PL8,Eastern,R1F91,LEP_bribesreq,Income Quintile 2,NA,16
-Poland,regional,PL8,Eastern,R1F91,LEP_bribesreq,Income Quintile 3,NA,26
-Poland,regional,PL8,Eastern,R1F91,LEP_bribesreq,Income Quintile 4,NA,7
-Poland,regional,PL8,Eastern,R1F91,LEP_bribesreq,Income Quintile 5,NA,3
-Poland,regional,PL9,Mazowieckie,R1F91,LEP_bribesreq,Income Quintile 1,NA,21
-Poland,regional,PL9,Mazowieckie,R1F91,LEP_bribesreq,Income Quintile 5,NA,20
-Portugal,regional,PT1,Continental Portugal,R1F91,LEP_bribesreq,Income Quintile 1,NA,21
-Portugal,regional,PT1,Continental Portugal,R1F91,LEP_bribesreq,Income Quintile 5,NA,17
-Portugal,regional,PT2,Azores,R1F91,LEP_bribesreq,Income Quintile 5,NA,23
-Portugal,regional,PT3,Madeira,R1F91,LEP_bribesreq,Income Quintile 1,NA,20
-Romania,regional,RO1,Macroregion One,R1F91,LEP_bribesreq,Income Quintile 1,NA,21
-Romania,regional,RO1,Macroregion One,R1F91,LEP_bribesreq,Income Quintile 5,NA,26
-Romania,regional,RO2,Macroregion Two,R1F91,LEP_bribesreq,Income Quintile 5,NA,20
-Romania,regional,RO3,Macroregion Three,R1F91,LEP_bribesreq,Income Quintile 1,NA,20
-Romania,regional,RO4,Macroregion Four,R1F91,LEP_bribesreq,Income Quintile 5,NA,22
-Slovakia,regional,SK01,Bratislava,R1F91,LEP_bribesreq,Income Quintile 3,NA,26
-Slovakia,regional,SK01,Bratislava,R1F91,LEP_bribesreq,Income Quintile 4,NA,27
-Spain,regional,ES1,North-West,R1F91,LEP_bribesreq,Income Quintile 1,NA,28
-Spain,regional,ES2,North-East,R1F91,LEP_bribesreq,Income Quintile 1,NA,15
-Spain,regional,ES3,Madrid,R1F91,LEP_bribesreq,Income Quintile 1,NA,20
-Spain,regional,ES4,Centre,R1F91,LEP_bribesreq,Income Quintile 1,NA,24
-Spain,regional,ES5,East,R1F91,LEP_bribesreq,Income Quintile 1,NA,26
-Spain,regional,ES7,Canary Islands,R1F91,LEP_bribesreq,Income Quintile 5,NA,24
-Sweden,regional,SE2,Southern Sweden,R1F91,LEP_bribesreq,Income Quintile 1,NA,16
-Sweden,regional,SE3,Northern Sweden,R1F91,LEP_bribesreq,Income Quintile 1,NA,19
-Belgium,regional,BE2,Flemish Region,R1F91,LEP_bribesreq,Rural,NA,14
-Denmark,regional,DK01,Capital (region),R1F91,LEP_bribesreq,Rural,NA,12
-Finland,regional,FI1B,Helsinki-Uusimaa,R1F91,LEP_bribesreq,Rural,NA,26
-France,regional,FR1,Île-de-France,R1F91,LEP_bribesreq,Rural,NA,9
-Germany,regional,DEA,North Rhine-Westphalia,R1F91,LEP_bribesreq,Rural,NA,11
-Greece,regional,EL3,Attica,R1F91,LEP_bribesreq,Rural,NA,16
-Hungary,regional,HU1,Central Hungary,R1F91,LEP_bribesreq,Rural,NA,26
-Ireland,regional,IE04,Northern and Western,R1F91,LEP_bribesreq,Urban,NA,27
-Ireland,regional,IE06,Eastern and Midland,R1F91,LEP_bribesreq,Rural,NA,27
-Malta,regional,MT00,Malta,R1F91,LEP_bribesreq,Rural,NA,9
-Netherlands,regional,NL2,East Netherlands,R1F91,LEP_bribesreq,Rural,NA,24
-Netherlands,regional,NL3,West Netherlands,R1F91,LEP_bribesreq,Rural,NA,21
-Netherlands,regional,NL4,South Netherlands,R1F91,LEP_bribesreq,Rural,NA,23
-Spain,regional,ES2,North-East,R1F91,LEP_bribesreq,Rural,NA,22
-Spain,regional,ES3,Madrid,R1F91,LEP_bribesreq,Rural,NA,11
-Spain,regional,ES5,East,R1F91,LEP_bribesreq,Rural,NA,17
-Spain,regional,ES6,South,R1F91,LEP_bribesreq,Rural,NA,21
-Spain,regional,ES7,Canary Islands,R1F91,LEP_bribesreq,Rural,NA,20
-Belgium,regional,BE1,Brussels Region,R1F92,LEP_bribesacc,18-24,NA,24
-Belgium,regional,BE2,Flemish Region,R1F92,LEP_bribesacc,18-24,NA,25
-Belgium,regional,BE3,Waloon Region,R1F92,LEP_bribesacc,18-24,NA,22
-Bulgaria,regional,BG4,South -West/-Central,R1F92,LEP_bribesacc,18-24,NA,27
-Croatia,regional,HR02,Pannonian Croatia,R1F92,LEP_bribesacc,18-24,NA,17
-Croatia,regional,HR03,Adriatic Croatia,R1F92,LEP_bribesacc,18-24,NA,23
-Croatia,regional,HR03,Adriatic Croatia,R1F92,LEP_bribesacc,25-34,NA,25
-Croatia,regional,HR05,Zagreb,R1F92,LEP_bribesacc,18-24,NA,20
-Croatia,regional,HR05,Zagreb,R1F92,LEP_bribesacc,25-34,NA,28
-Croatia,regional,HR06,Northern Croatia,R1F92,LEP_bribesacc,18-24,NA,19
-Czechia,regional,CZ01,Prague,R1F92,LEP_bribesacc,18-24,NA,6
-Czechia,regional,CZ01,Prague,R1F92,LEP_bribesacc,25-34,NA,19
-Czechia,regional,CZ01,Prague,R1F92,LEP_bribesacc,45-54,NA,20
-Czechia,regional,CZ01,Prague,R1F92,LEP_bribesacc,55-64,NA,19
-Czechia,regional,CZ020304,Western and Central Bohemia,R1F92,LEP_bribesacc,18-24,NA,29
-Czechia,regional,CZ0506,North-East and South-East,R1F92,LEP_bribesacc,18-24,NA,21
-Czechia,regional,CZ0708,Central Moravia and Silesia,R1F92,LEP_bribesacc,18-24,NA,24
-Denmark,regional,DK01,Capital (region),R1F92,LEP_bribesacc,18-24,NA,27
-Denmark,regional,DK02,Zealand,R1F92,LEP_bribesacc,18-24,NA,19
-Denmark,regional,DK02,Zealand,R1F92,LEP_bribesacc,25-34,NA,27
-Denmark,regional,DK03,South Denmark,R1F92,LEP_bribesacc,18-24,NA,18
-Denmark,regional,DK04,Central Jutland,R1F92,LEP_bribesacc,18-24,NA,27
-Denmark,regional,DK05,North Jutland,R1F92,LEP_bribesacc,18-24,NA,27
-Finland,regional,FI19,West Finland,R1F92,LEP_bribesacc,18-24,NA,25
-Finland,regional,FI1B,Helsinki-Uusimaa,R1F92,LEP_bribesacc,18-24,NA,23
-Finland,regional,FI1D,North and East Finland,R1F92,LEP_bribesacc,18-24,NA,27
-France,regional,FRB,Centre-Val de Loire,R1F92,LEP_bribesacc,18-24,NA,25
-France,regional,FRC,Burgundy-Franche-Comté,R1F92,LEP_bribesacc,18-24,NA,23
-France,regional,FRD,Normandy,R1F92,LEP_bribesacc,18-24,NA,26
-France,regional,FRF,Grand Est,R1F92,LEP_bribesacc,18-24,NA,27
-France,regional,FRH,Brittany ,R1F92,LEP_bribesacc,18-24,NA,26
-France,regional,FRI,New Aquitaine,R1F92,LEP_bribesacc,18-24,NA,23
-France,regional,FRL,PACA,R1F92,LEP_bribesacc,18-24,NA,20
-France,regional,FRL,PACA,R1F92,LEP_bribesacc,25-34,NA,26
-France,regional,FRM,Corsica ,R1F92,LEP_bribesacc,+65,NA,22
-France,regional,FRM,Corsica ,R1F92,LEP_bribesacc,18-24,NA,8
-France,regional,FRM,Corsica ,R1F92,LEP_bribesacc,25-34,NA,12
-France,regional,FRM,Corsica ,R1F92,LEP_bribesacc,35-44,NA,12
-France,regional,FRM,Corsica ,R1F92,LEP_bribesacc,45-54,NA,19
-France,regional,FRM,Corsica ,R1F92,LEP_bribesacc,55-64,NA,16
-Germany,regional,DE2,Bavaria,R1F92,LEP_bribesacc,18-24,NA,26
-Germany,regional,DE3,Berlin,R1F92,LEP_bribesacc,18-24,NA,17
-Germany,regional,DE4,Brandenburg,R1F92,LEP_bribesacc,18-24,NA,13
-Germany,regional,DE5,Bremen,R1F92,LEP_bribesacc,+65,NA,23
-Germany,regional,DE5,Bremen,R1F92,LEP_bribesacc,18-24,NA,21
-Germany,regional,DE5,Bremen,R1F92,LEP_bribesacc,25-34,NA,28
-Germany,regional,DE5,Bremen,R1F92,LEP_bribesacc,35-44,NA,23
-Germany,regional,DE5,Bremen,R1F92,LEP_bribesacc,55-64,NA,23
-Germany,regional,DE6,Hamburg,R1F92,LEP_bribesacc,18-24,NA,22
-Germany,regional,DE7,Hessen,R1F92,LEP_bribesacc,18-24,NA,20
-Germany,regional,DE8,Mecklenburg-Vorpommern,R1F92,LEP_bribesacc,18-24,NA,22
-Germany,regional,DE8,Mecklenburg-Vorpommern,R1F92,LEP_bribesacc,25-34,NA,20
-Germany,regional,DE9,Lower Saxony,R1F92,LEP_bribesacc,18-24,NA,22
-Germany,regional,DEA,North Rhine-Westphalia,R1F92,LEP_bribesacc,18-24,NA,24
-Germany,regional,DEB,Rhineland-Palatinate,R1F92,LEP_bribesacc,18-24,NA,25
-Germany,regional,DEC,Saarland,R1F92,LEP_bribesacc,18-24,NA,24
-Germany,regional,DED,Saxony,R1F92,LEP_bribesacc,18-24,NA,19
-Germany,regional,DEE,Saxony-Anhalt,R1F92,LEP_bribesacc,18-24,NA,17
-Germany,regional,DEF,Schleswig-Holstein,R1F92,LEP_bribesacc,18-24,NA,26
-Germany,regional,DEG,Thuringia,R1F92,LEP_bribesacc,18-24,NA,18
-Greece,regional,EL3,Attica,R1F92,LEP_bribesacc,18-24,NA,13
-Greece,regional,EL4,"Aegean Islands, Crete",R1F92,LEP_bribesacc,18-24,NA,20
-Greece,regional,EL5,North Greece,R1F92,LEP_bribesacc,18-24,NA,14
-Greece,regional,EL5,North Greece,R1F92,LEP_bribesacc,25-34,NA,19
-Greece,regional,EL6,Central Greece,R1F92,LEP_bribesacc,18-24,NA,14
-Hungary,regional,HU1,Central Hungary,R1F92,LEP_bribesacc,18-24,NA,26
-Hungary,regional,HU1,Central Hungary,R1F92,LEP_bribesacc,55-64,NA,28
-Hungary,regional,HU2,Transdanubia ,R1F92,LEP_bribesacc,18-24,NA,11
-Hungary,regional,HU3,Great Plain and North,R1F92,LEP_bribesacc,18-24,NA,24
-Ireland,regional,IE04,Northern and Western,R1F92,LEP_bribesacc,+65,NA,27
-Ireland,regional,IE04,Northern and Western,R1F92,LEP_bribesacc,18-24,NA,13
-Ireland,regional,IE04,Northern and Western,R1F92,LEP_bribesacc,45-54,NA,23
-Ireland,regional,IE04,Northern and Western,R1F92,LEP_bribesacc,55-64,NA,24
-Ireland,regional,IE05,Southern,R1F92,LEP_bribesacc,18-24,NA,26
-Italy,regional,ITG,Islands,R1F92,LEP_bribesacc,18-24,NA,28
-Italy,regional,ITH,North-East,R1F92,LEP_bribesacc,18-24,NA,28
-Lithuania,regional,LT01,Capital Region,R1F92,LEP_bribesacc,18-24,NA,28
-Luxembourg,regional,LU00,Luxembourg,R1F92,LEP_bribesacc,18-24,NA,26
-Malta,regional,MT00,Malta,R1F92,LEP_bribesacc,18-24,NA,19
-Malta,regional,MT00,Malta,R1F92,LEP_bribesacc,55-64,NA,27
-Poland,regional,PL4,North-Western,R1F92,LEP_bribesacc,18-24,NA,28
-Poland,regional,PL7,Central,R1F92,LEP_bribesacc,18-24,NA,28
-Portugal,regional,PT1,Continental Portugal,R1F92,LEP_bribesacc,18-24,NA,25
-Portugal,regional,PT2,Azores,R1F92,LEP_bribesacc,18-24,NA,25
-Portugal,regional,PT2,Azores,R1F92,LEP_bribesacc,25-34,NA,28
-Portugal,regional,PT3,Madeira,R1F92,LEP_bribesacc,18-24,NA,28
-Romania,regional,RO1,Macroregion One,R1F92,LEP_bribesacc,18-24,NA,27
-Romania,regional,RO4,Macroregion Four,R1F92,LEP_bribesacc,18-24,NA,27
-Slovakia,regional,SK01,Bratislava,R1F92,LEP_bribesacc,18-24,NA,12
-Slovakia,regional,SK02,West Slovakia,R1F92,LEP_bribesacc,18-24,NA,25
-Slovakia,regional,SK04,East Slovakia,R1F92,LEP_bribesacc,18-24,NA,21
-Slovenia,regional,SI03,East Slovenia,R1F92,LEP_bribesacc,18-24,NA,14
-Slovenia,regional,SI03,East Slovenia,R1F92,LEP_bribesacc,25-34,NA,23
-Slovenia,regional,SI04,West Slovenia,R1F92,LEP_bribesacc,18-24,NA,19
-Spain,regional,ES1,North-West,R1F92,LEP_bribesacc,18-24,NA,19
-Spain,regional,ES2,North-East,R1F92,LEP_bribesacc,18-24,NA,22
-Spain,regional,ES2,North-East,R1F92,LEP_bribesacc,25-34,NA,28
-Spain,regional,ES3,Madrid,R1F92,LEP_bribesacc,18-24,NA,20
-Spain,regional,ES3,Madrid,R1F92,LEP_bribesacc,25-34,NA,27
-Spain,regional,ES4,Centre,R1F92,LEP_bribesacc,18-24,NA,29
-Spain,regional,ES4,Centre,R1F92,LEP_bribesacc,25-34,NA,28
-Spain,regional,ES5,East,R1F92,LEP_bribesacc,25-34,NA,28
-Spain,regional,ES7,Canary Islands,R1F92,LEP_bribesacc,18-24,NA,21
-Sweden,regional,SE1,Eastern Sweden,R1F92,LEP_bribesacc,18-24,NA,21
-Sweden,regional,SE2,Southern Sweden,R1F92,LEP_bribesacc,18-24,NA,23
-Sweden,regional,SE3,Northern Sweden,R1F92,LEP_bribesacc,18-24,NA,25
-Belgium,regional,BE1,Brussels Region,R1F92,LEP_bribesacc,Income Quintile 4,NA,23
-Croatia,regional,HR02,Pannonian Croatia,R1F92,LEP_bribesacc,Income Quintile 3,NA,23
-Croatia,regional,HR03,Adriatic Croatia,R1F92,LEP_bribesacc,Income Quintile 1,NA,21
-Croatia,regional,HR03,Adriatic Croatia,R1F92,LEP_bribesacc,Income Quintile 3,NA,21
-Croatia,regional,HR05,Zagreb,R1F92,LEP_bribesacc,Income Quintile 1,NA,29
-Croatia,regional,HR05,Zagreb,R1F92,LEP_bribesacc,Income Quintile 3,NA,21
-Croatia,regional,HR06,Northern Croatia,R1F92,LEP_bribesacc,Income Quintile 1,NA,20
-Croatia,regional,HR06,Northern Croatia,R1F92,LEP_bribesacc,Income Quintile 2,NA,24
-Croatia,regional,HR06,Northern Croatia,R1F92,LEP_bribesacc,Income Quintile 3,NA,17
-Czechia,regional,CZ01,Prague,R1F92,LEP_bribesacc,Income Quintile 1,NA,10
-Czechia,regional,CZ01,Prague,R1F92,LEP_bribesacc,Income Quintile 2,NA,15
-Czechia,regional,CZ01,Prague,R1F92,LEP_bribesacc,Income Quintile 3,NA,28
-Czechia,regional,CZ01,Prague,R1F92,LEP_bribesacc,Income Quintile 4,NA,27
-Czechia,regional,CZ0506,North-East and South-East,R1F92,LEP_bribesacc,Income Quintile 1,NA,21
-Denmark,regional,DK02,Zealand,R1F92,LEP_bribesacc,Income Quintile 1,NA,24
-Denmark,regional,DK03,South Denmark,R1F92,LEP_bribesacc,Income Quintile 1,NA,19
-Denmark,regional,DK04,Central Jutland,R1F92,LEP_bribesacc,Income Quintile 1,NA,28
-Estonia,regional,EE0,Estonia,R1F92,LEP_bribesacc,Income Quintile 1,NA,14
-France,regional,FR1,Île-de-France,R1F92,LEP_bribesacc,Income Quintile 1,NA,22
-France,regional,FRL,PACA,R1F92,LEP_bribesacc,Income Quintile 1,NA,27
-France,regional,FRM,Corsica ,R1F92,LEP_bribesacc,Income Quintile 1,NA,12
-France,regional,FRM,Corsica ,R1F92,LEP_bribesacc,Income Quintile 2,NA,22
-France,regional,FRM,Corsica ,R1F92,LEP_bribesacc,Income Quintile 3,NA,10
-France,regional,FRM,Corsica ,R1F92,LEP_bribesacc,Income Quintile 4,NA,17
-France,regional,FRM,Corsica ,R1F92,LEP_bribesacc,Income Quintile 5,NA,18
-Germany,regional,DE5,Bremen,R1F92,LEP_bribesacc,Income Quintile 1,NA,28
-Germany,regional,DE5,Bremen,R1F92,LEP_bribesacc,Income Quintile 2,NA,29
-Germany,regional,DE5,Bremen,R1F92,LEP_bribesacc,Income Quintile 3,NA,29
-Germany,regional,DE5,Bremen,R1F92,LEP_bribesacc,Income Quintile 4,NA,28
-Germany,regional,DE5,Bremen,R1F92,LEP_bribesacc,Income Quintile 5,NA,25
-Germany,regional,DEE,Saxony-Anhalt,R1F92,LEP_bribesacc,Income Quintile 5,NA,27
-Greece,regional,EL3,Attica,R1F92,LEP_bribesacc,Income Quintile 1,NA,26
-Greece,regional,EL3,Attica,R1F92,LEP_bribesacc,Income Quintile 3,NA,27
-Greece,regional,EL3,Attica,R1F92,LEP_bribesacc,Income Quintile 4,NA,24
-Greece,regional,EL3,Attica,R1F92,LEP_bribesacc,Income Quintile 5,NA,15
-Greece,regional,EL4,"Aegean Islands, Crete",R1F92,LEP_bribesacc,Income Quintile 4,NA,19
-Greece,regional,EL4,"Aegean Islands, Crete",R1F92,LEP_bribesacc,Income Quintile 5,NA,7
-Greece,regional,EL5,North Greece,R1F92,LEP_bribesacc,Income Quintile 5,NA,3
-Greece,regional,EL6,Central Greece,R1F92,LEP_bribesacc,Income Quintile 5,NA,10
-Hungary,regional,HU1,Central Hungary,R1F92,LEP_bribesacc,Income Quintile 1,NA,11
-Hungary,regional,HU1,Central Hungary,R1F92,LEP_bribesacc,Income Quintile 2,NA,15
-Hungary,regional,HU1,Central Hungary,R1F92,LEP_bribesacc,Income Quintile 3,NA,12
-Hungary,regional,HU2,Transdanubia ,R1F92,LEP_bribesacc,Income Quintile 1,NA,18
-Hungary,regional,HU2,Transdanubia ,R1F92,LEP_bribesacc,Income Quintile 2,NA,29
-Hungary,regional,HU2,Transdanubia ,R1F92,LEP_bribesacc,Income Quintile 3,NA,29
-Ireland,regional,IE04,Northern and Western,R1F92,LEP_bribesacc,Income Quintile 2,NA,28
-Ireland,regional,IE04,Northern and Western,R1F92,LEP_bribesacc,Income Quintile 4,NA,27
-Ireland,regional,IE04,Northern and Western,R1F92,LEP_bribesacc,Income Quintile 5,NA,23
-Ireland,regional,IE05,Southern,R1F92,LEP_bribesacc,Income Quintile 5,NA,24
-Italy,regional,ITH,North-East,R1F92,LEP_bribesacc,Income Quintile 1,NA,27
-Poland,regional,PL2,Southern,R1F92,LEP_bribesacc,Income Quintile 2,NA,27
-Poland,regional,PL2,Southern,R1F92,LEP_bribesacc,Income Quintile 3,NA,26
-Poland,regional,PL2,Southern,R1F92,LEP_bribesacc,Income Quintile 4,NA,21
-Poland,regional,PL2,Southern,R1F92,LEP_bribesacc,Income Quintile 5,NA,26
-Poland,regional,PL4,North-Western,R1F92,LEP_bribesacc,Income Quintile 1,NA,14
-Poland,regional,PL4,North-Western,R1F92,LEP_bribesacc,Income Quintile 2,NA,22
-Poland,regional,PL4,North-Western,R1F92,LEP_bribesacc,Income Quintile 3,NA,27
-Poland,regional,PL5,South-Western,R1F92,LEP_bribesacc,Income Quintile 2,NA,21
-Poland,regional,PL5,South-Western,R1F92,LEP_bribesacc,Income Quintile 5,NA,24
-Poland,regional,PL6,Northern,R1F92,LEP_bribesacc,Income Quintile 2,NA,26
-Poland,regional,PL7,Central,R1F92,LEP_bribesacc,Income Quintile 1,NA,26
-Poland,regional,PL7,Central,R1F92,LEP_bribesacc,Income Quintile 2,NA,26
-Poland,regional,PL7,Central,R1F92,LEP_bribesacc,Income Quintile 3,NA,22
-Poland,regional,PL8,Eastern,R1F92,LEP_bribesacc,Income Quintile 1,NA,16
-Poland,regional,PL8,Eastern,R1F92,LEP_bribesacc,Income Quintile 2,NA,16
-Poland,regional,PL8,Eastern,R1F92,LEP_bribesacc,Income Quintile 3,NA,26
-Poland,regional,PL8,Eastern,R1F92,LEP_bribesacc,Income Quintile 4,NA,7
-Poland,regional,PL8,Eastern,R1F92,LEP_bribesacc,Income Quintile 5,NA,3
-Poland,regional,PL9,Mazowieckie,R1F92,LEP_bribesacc,Income Quintile 1,NA,21
-Poland,regional,PL9,Mazowieckie,R1F92,LEP_bribesacc,Income Quintile 5,NA,20
-Portugal,regional,PT1,Continental Portugal,R1F92,LEP_bribesacc,Income Quintile 1,NA,21
-Portugal,regional,PT1,Continental Portugal,R1F92,LEP_bribesacc,Income Quintile 5,NA,17
-Portugal,regional,PT2,Azores,R1F92,LEP_bribesacc,Income Quintile 5,NA,23
-Portugal,regional,PT3,Madeira,R1F92,LEP_bribesacc,Income Quintile 1,NA,20
-Romania,regional,RO1,Macroregion One,R1F92,LEP_bribesacc,Income Quintile 1,NA,21
-Romania,regional,RO1,Macroregion One,R1F92,LEP_bribesacc,Income Quintile 5,NA,26
-Romania,regional,RO2,Macroregion Two,R1F92,LEP_bribesacc,Income Quintile 5,NA,20
-Romania,regional,RO3,Macroregion Three,R1F92,LEP_bribesacc,Income Quintile 1,NA,20
-Romania,regional,RO4,Macroregion Four,R1F92,LEP_bribesacc,Income Quintile 5,NA,22
-Slovakia,regional,SK01,Bratislava,R1F92,LEP_bribesacc,Income Quintile 3,NA,26
-Slovakia,regional,SK01,Bratislava,R1F92,LEP_bribesacc,Income Quintile 4,NA,27
-Spain,regional,ES1,North-West,R1F92,LEP_bribesacc,Income Quintile 1,NA,28
-Spain,regional,ES2,North-East,R1F92,LEP_bribesacc,Income Quintile 1,NA,15
-Spain,regional,ES3,Madrid,R1F92,LEP_bribesacc,Income Quintile 1,NA,20
-Spain,regional,ES4,Centre,R1F92,LEP_bribesacc,Income Quintile 1,NA,24
-Spain,regional,ES5,East,R1F92,LEP_bribesacc,Income Quintile 1,NA,26
-Spain,regional,ES7,Canary Islands,R1F92,LEP_bribesacc,Income Quintile 5,NA,25
-Sweden,regional,SE2,Southern Sweden,R1F92,LEP_bribesacc,Income Quintile 1,NA,16
-Sweden,regional,SE3,Northern Sweden,R1F92,LEP_bribesacc,Income Quintile 1,NA,19
-Belgium,regional,BE2,Flemish Region,R1F92,LEP_bribesacc,Rural,NA,14
-Denmark,regional,DK01,Capital (region),R1F92,LEP_bribesacc,Rural,NA,12
-Finland,regional,FI1B,Helsinki-Uusimaa,R1F92,LEP_bribesacc,Rural,NA,26
-France,regional,FR1,Île-de-France,R1F92,LEP_bribesacc,Rural,NA,9
-Germany,regional,DEA,North Rhine-Westphalia,R1F92,LEP_bribesacc,Rural,NA,11
-Greece,regional,EL3,Attica,R1F92,LEP_bribesacc,Rural,NA,16
-Hungary,regional,HU1,Central Hungary,R1F92,LEP_bribesacc,Rural,NA,26
-Ireland,regional,IE04,Northern and Western,R1F92,LEP_bribesacc,Urban,NA,27
-Ireland,regional,IE06,Eastern and Midland,R1F92,LEP_bribesacc,Rural,NA,27
-Malta,regional,MT00,Malta,R1F92,LEP_bribesacc,Rural,NA,9
-Netherlands,regional,NL2,East Netherlands,R1F92,LEP_bribesacc,Rural,NA,24
-Netherlands,regional,NL3,West Netherlands,R1F92,LEP_bribesacc,Rural,NA,21
-Netherlands,regional,NL4,South Netherlands,R1F92,LEP_bribesacc,Rural,NA,23
-Spain,regional,ES2,North-East,R1F92,LEP_bribesacc,Rural,NA,22
-Spain,regional,ES3,Madrid,R1F92,LEP_bribesacc,Rural,NA,11
-Spain,regional,ES5,East,R1F92,LEP_bribesacc,Rural,NA,17
-Spain,regional,ES6,South,R1F92,LEP_bribesacc,Rural,NA,22
-Spain,regional,ES7,Canary Islands,R1F92,LEP_bribesacc,Rural,NA,20
-Belgium,regional,BE1,Brussels Region,R1F93,LEP_accusation,18-24,NA,24
-Belgium,regional,BE2,Flemish Region,R1F93,LEP_accusation,18-24,NA,25
-Belgium,regional,BE3,Waloon Region,R1F93,LEP_accusation,18-24,NA,22
-Bulgaria,regional,BG4,South -West/-Central,R1F93,LEP_accusation,18-24,NA,27
-Croatia,regional,HR02,Pannonian Croatia,R1F93,LEP_accusation,18-24,NA,17
-Croatia,regional,HR03,Adriatic Croatia,R1F93,LEP_accusation,18-24,NA,23
-Croatia,regional,HR03,Adriatic Croatia,R1F93,LEP_accusation,25-34,NA,25
-Croatia,regional,HR05,Zagreb,R1F93,LEP_accusation,18-24,NA,21
-Croatia,regional,HR05,Zagreb,R1F93,LEP_accusation,25-34,NA,28
-Croatia,regional,HR06,Northern Croatia,R1F93,LEP_accusation,18-24,NA,19
-Czechia,regional,CZ01,Prague,R1F93,LEP_accusation,18-24,NA,7
-Czechia,regional,CZ01,Prague,R1F93,LEP_accusation,25-34,NA,19
-Czechia,regional,CZ01,Prague,R1F93,LEP_accusation,45-54,NA,20
-Czechia,regional,CZ01,Prague,R1F93,LEP_accusation,55-64,NA,19
-Czechia,regional,CZ020304,Western and Central Bohemia,R1F93,LEP_accusation,18-24,NA,29
-Czechia,regional,CZ0506,North-East and South-East,R1F93,LEP_accusation,18-24,NA,22
-Czechia,regional,CZ0708,Central Moravia and Silesia,R1F93,LEP_accusation,18-24,NA,23
-Denmark,regional,DK01,Capital (region),R1F93,LEP_accusation,18-24,NA,28
-Denmark,regional,DK02,Zealand,R1F93,LEP_accusation,18-24,NA,19
-Denmark,regional,DK02,Zealand,R1F93,LEP_accusation,25-34,NA,26
-Denmark,regional,DK03,South Denmark,R1F93,LEP_accusation,18-24,NA,18
-Denmark,regional,DK04,Central Jutland,R1F93,LEP_accusation,18-24,NA,27
-Denmark,regional,DK05,North Jutland,R1F93,LEP_accusation,18-24,NA,27
-Finland,regional,FI19,West Finland,R1F93,LEP_accusation,18-24,NA,25
-Finland,regional,FI1B,Helsinki-Uusimaa,R1F93,LEP_accusation,18-24,NA,23
-Finland,regional,FI1D,North and East Finland,R1F93,LEP_accusation,18-24,NA,27
-France,regional,FRB,Centre-Val de Loire,R1F93,LEP_accusation,18-24,NA,25
-France,regional,FRC,Burgundy-Franche-Comté,R1F93,LEP_accusation,18-24,NA,23
-France,regional,FRD,Normandy,R1F93,LEP_accusation,18-24,NA,26
-France,regional,FRF,Grand Est,R1F93,LEP_accusation,18-24,NA,27
-France,regional,FRH,Brittany ,R1F93,LEP_accusation,18-24,NA,25
-France,regional,FRI,New Aquitaine,R1F93,LEP_accusation,18-24,NA,23
-France,regional,FRL,PACA,R1F93,LEP_accusation,18-24,NA,20
-France,regional,FRL,PACA,R1F93,LEP_accusation,25-34,NA,26
-France,regional,FRM,Corsica ,R1F93,LEP_accusation,+65,NA,22
-France,regional,FRM,Corsica ,R1F93,LEP_accusation,18-24,NA,8
-France,regional,FRM,Corsica ,R1F93,LEP_accusation,25-34,NA,13
-France,regional,FRM,Corsica ,R1F93,LEP_accusation,35-44,NA,12
-France,regional,FRM,Corsica ,R1F93,LEP_accusation,45-54,NA,19
-France,regional,FRM,Corsica ,R1F93,LEP_accusation,55-64,NA,16
-Germany,regional,DE2,Bavaria,R1F93,LEP_accusation,18-24,NA,26
-Germany,regional,DE3,Berlin,R1F93,LEP_accusation,18-24,NA,17
-Germany,regional,DE4,Brandenburg,R1F93,LEP_accusation,18-24,NA,13
-Germany,regional,DE5,Bremen,R1F93,LEP_accusation,+65,NA,23
-Germany,regional,DE5,Bremen,R1F93,LEP_accusation,18-24,NA,21
-Germany,regional,DE5,Bremen,R1F93,LEP_accusation,25-34,NA,28
-Germany,regional,DE5,Bremen,R1F93,LEP_accusation,35-44,NA,23
-Germany,regional,DE5,Bremen,R1F93,LEP_accusation,55-64,NA,23
-Germany,regional,DE6,Hamburg,R1F93,LEP_accusation,18-24,NA,24
-Germany,regional,DE7,Hessen,R1F93,LEP_accusation,18-24,NA,20
-Germany,regional,DE8,Mecklenburg-Vorpommern,R1F93,LEP_accusation,18-24,NA,22
-Germany,regional,DE8,Mecklenburg-Vorpommern,R1F93,LEP_accusation,25-34,NA,20
-Germany,regional,DE9,Lower Saxony,R1F93,LEP_accusation,18-24,NA,22
-Germany,regional,DEA,North Rhine-Westphalia,R1F93,LEP_accusation,18-24,NA,24
-Germany,regional,DEB,Rhineland-Palatinate,R1F93,LEP_accusation,18-24,NA,25
-Germany,regional,DEC,Saarland,R1F93,LEP_accusation,18-24,NA,22
-Germany,regional,DED,Saxony,R1F93,LEP_accusation,18-24,NA,19
-Germany,regional,DEE,Saxony-Anhalt,R1F93,LEP_accusation,18-24,NA,17
-Germany,regional,DEF,Schleswig-Holstein,R1F93,LEP_accusation,18-24,NA,27
-Germany,regional,DEG,Thuringia,R1F93,LEP_accusation,18-24,NA,18
-Germany,regional,DEG,Thuringia,R1F93,LEP_accusation,25-34,NA,29
-Greece,regional,EL3,Attica,R1F93,LEP_accusation,18-24,NA,13
-Greece,regional,EL4,"Aegean Islands, Crete",R1F93,LEP_accusation,18-24,NA,21
-Greece,regional,EL5,North Greece,R1F93,LEP_accusation,18-24,NA,14
-Greece,regional,EL5,North Greece,R1F93,LEP_accusation,25-34,NA,19
-Greece,regional,EL6,Central Greece,R1F93,LEP_accusation,18-24,NA,14
-Hungary,regional,HU1,Central Hungary,R1F93,LEP_accusation,18-24,NA,25
-Hungary,regional,HU1,Central Hungary,R1F93,LEP_accusation,55-64,NA,28
-Hungary,regional,HU2,Transdanubia ,R1F93,LEP_accusation,18-24,NA,11
-Hungary,regional,HU3,Great Plain and North,R1F93,LEP_accusation,18-24,NA,24
-Ireland,regional,IE04,Northern and Western,R1F93,LEP_accusation,+65,NA,27
-Ireland,regional,IE04,Northern and Western,R1F93,LEP_accusation,18-24,NA,13
-Ireland,regional,IE04,Northern and Western,R1F93,LEP_accusation,45-54,NA,22
-Ireland,regional,IE04,Northern and Western,R1F93,LEP_accusation,55-64,NA,24
-Ireland,regional,IE05,Southern,R1F93,LEP_accusation,18-24,NA,26
-Italy,regional,ITG,Islands,R1F93,LEP_accusation,18-24,NA,28
-Italy,regional,ITH,North-East,R1F93,LEP_accusation,18-24,NA,28
-Lithuania,regional,LT01,Capital Region,R1F93,LEP_accusation,18-24,NA,29
-Luxembourg,regional,LU00,Luxembourg,R1F93,LEP_accusation,18-24,NA,26
-Malta,regional,MT00,Malta,R1F93,LEP_accusation,18-24,NA,19
-Malta,regional,MT00,Malta,R1F93,LEP_accusation,55-64,NA,27
-Poland,regional,PL4,North-Western,R1F93,LEP_accusation,18-24,NA,28
-Poland,regional,PL6,Northern,R1F93,LEP_accusation,18-24,NA,29
-Poland,regional,PL7,Central,R1F93,LEP_accusation,18-24,NA,28
-Portugal,regional,PT1,Continental Portugal,R1F93,LEP_accusation,18-24,NA,24
-Portugal,regional,PT2,Azores,R1F93,LEP_accusation,18-24,NA,25
-Portugal,regional,PT2,Azores,R1F93,LEP_accusation,25-34,NA,28
-Portugal,regional,PT3,Madeira,R1F93,LEP_accusation,18-24,NA,28
-Romania,regional,RO1,Macroregion One,R1F93,LEP_accusation,18-24,NA,27
-Romania,regional,RO4,Macroregion Four,R1F93,LEP_accusation,18-24,NA,27
-Slovakia,regional,SK01,Bratislava,R1F93,LEP_accusation,18-24,NA,12
-Slovakia,regional,SK02,West Slovakia,R1F93,LEP_accusation,18-24,NA,25
-Slovakia,regional,SK04,East Slovakia,R1F93,LEP_accusation,18-24,NA,21
-Slovenia,regional,SI03,East Slovenia,R1F93,LEP_accusation,18-24,NA,14
-Slovenia,regional,SI03,East Slovenia,R1F93,LEP_accusation,25-34,NA,23
-Slovenia,regional,SI04,West Slovenia,R1F93,LEP_accusation,18-24,NA,19
-Spain,regional,ES1,North-West,R1F93,LEP_accusation,18-24,NA,19
-Spain,regional,ES2,North-East,R1F93,LEP_accusation,18-24,NA,22
-Spain,regional,ES2,North-East,R1F93,LEP_accusation,25-34,NA,28
-Spain,regional,ES3,Madrid,R1F93,LEP_accusation,18-24,NA,20
-Spain,regional,ES3,Madrid,R1F93,LEP_accusation,25-34,NA,26
-Spain,regional,ES4,Centre,R1F93,LEP_accusation,18-24,NA,29
-Spain,regional,ES4,Centre,R1F93,LEP_accusation,25-34,NA,28
-Spain,regional,ES5,East,R1F93,LEP_accusation,18-24,NA,29
-Spain,regional,ES5,East,R1F93,LEP_accusation,25-34,NA,28
-Spain,regional,ES7,Canary Islands,R1F93,LEP_accusation,18-24,NA,22
-Sweden,regional,SE1,Eastern Sweden,R1F93,LEP_accusation,18-24,NA,21
-Sweden,regional,SE2,Southern Sweden,R1F93,LEP_accusation,18-24,NA,23
-Sweden,regional,SE3,Northern Sweden,R1F93,LEP_accusation,18-24,NA,25
-Belgium,regional,BE1,Brussels Region,R1F93,LEP_accusation,Income Quintile 4,NA,23
-Croatia,regional,HR02,Pannonian Croatia,R1F93,LEP_accusation,Income Quintile 3,NA,23
-Croatia,regional,HR03,Adriatic Croatia,R1F93,LEP_accusation,Income Quintile 1,NA,21
-Croatia,regional,HR03,Adriatic Croatia,R1F93,LEP_accusation,Income Quintile 3,NA,21
-Croatia,regional,HR05,Zagreb,R1F93,LEP_accusation,Income Quintile 1,NA,29
-Croatia,regional,HR05,Zagreb,R1F93,LEP_accusation,Income Quintile 3,NA,22
-Croatia,regional,HR06,Northern Croatia,R1F93,LEP_accusation,Income Quintile 1,NA,21
-Croatia,regional,HR06,Northern Croatia,R1F93,LEP_accusation,Income Quintile 2,NA,24
-Croatia,regional,HR06,Northern Croatia,R1F93,LEP_accusation,Income Quintile 3,NA,17
-Czechia,regional,CZ01,Prague,R1F93,LEP_accusation,Income Quintile 1,NA,10
-Czechia,regional,CZ01,Prague,R1F93,LEP_accusation,Income Quintile 2,NA,14
-Czechia,regional,CZ01,Prague,R1F93,LEP_accusation,Income Quintile 3,NA,28
-Czechia,regional,CZ01,Prague,R1F93,LEP_accusation,Income Quintile 4,NA,27
-Czechia,regional,CZ0506,North-East and South-East,R1F93,LEP_accusation,Income Quintile 1,NA,21
-Denmark,regional,DK02,Zealand,R1F93,LEP_accusation,Income Quintile 1,NA,24
-Denmark,regional,DK03,South Denmark,R1F93,LEP_accusation,Income Quintile 1,NA,19
-Denmark,regional,DK04,Central Jutland,R1F93,LEP_accusation,Income Quintile 1,NA,28
-Estonia,regional,EE0,Estonia,R1F93,LEP_accusation,Income Quintile 1,NA,14
-France,regional,FR1,Île-de-France,R1F93,LEP_accusation,Income Quintile 1,NA,22
-France,regional,FRL,PACA,R1F93,LEP_accusation,Income Quintile 1,NA,27
-France,regional,FRM,Corsica ,R1F93,LEP_accusation,Income Quintile 1,NA,12
-France,regional,FRM,Corsica ,R1F93,LEP_accusation,Income Quintile 2,NA,22
-France,regional,FRM,Corsica ,R1F93,LEP_accusation,Income Quintile 3,NA,11
-France,regional,FRM,Corsica ,R1F93,LEP_accusation,Income Quintile 4,NA,17
-France,regional,FRM,Corsica ,R1F93,LEP_accusation,Income Quintile 5,NA,18
-Germany,regional,DE5,Bremen,R1F93,LEP_accusation,Income Quintile 1,NA,28
-Germany,regional,DE5,Bremen,R1F93,LEP_accusation,Income Quintile 2,NA,29
-Germany,regional,DE5,Bremen,R1F93,LEP_accusation,Income Quintile 3,NA,29
-Germany,regional,DE5,Bremen,R1F93,LEP_accusation,Income Quintile 4,NA,28
-Germany,regional,DE5,Bremen,R1F93,LEP_accusation,Income Quintile 5,NA,25
-Germany,regional,DEE,Saxony-Anhalt,R1F93,LEP_accusation,Income Quintile 5,NA,27
-Greece,regional,EL3,Attica,R1F93,LEP_accusation,Income Quintile 1,NA,26
-Greece,regional,EL3,Attica,R1F93,LEP_accusation,Income Quintile 3,NA,27
-Greece,regional,EL3,Attica,R1F93,LEP_accusation,Income Quintile 4,NA,24
-Greece,regional,EL3,Attica,R1F93,LEP_accusation,Income Quintile 5,NA,15
-Greece,regional,EL4,"Aegean Islands, Crete",R1F93,LEP_accusation,Income Quintile 4,NA,19
-Greece,regional,EL4,"Aegean Islands, Crete",R1F93,LEP_accusation,Income Quintile 5,NA,7
-Greece,regional,EL5,North Greece,R1F93,LEP_accusation,Income Quintile 5,NA,3
-Greece,regional,EL6,Central Greece,R1F93,LEP_accusation,Income Quintile 5,NA,10
-Hungary,regional,HU1,Central Hungary,R1F93,LEP_accusation,Income Quintile 1,NA,10
-Hungary,regional,HU1,Central Hungary,R1F93,LEP_accusation,Income Quintile 2,NA,15
-Hungary,regional,HU1,Central Hungary,R1F93,LEP_accusation,Income Quintile 3,NA,12
-Hungary,regional,HU2,Transdanubia ,R1F93,LEP_accusation,Income Quintile 1,NA,17
-Hungary,regional,HU2,Transdanubia ,R1F93,LEP_accusation,Income Quintile 2,NA,28
-Hungary,regional,HU2,Transdanubia ,R1F93,LEP_accusation,Income Quintile 3,NA,29
-Ireland,regional,IE04,Northern and Western,R1F93,LEP_accusation,Income Quintile 2,NA,28
-Ireland,regional,IE04,Northern and Western,R1F93,LEP_accusation,Income Quintile 4,NA,27
-Ireland,regional,IE04,Northern and Western,R1F93,LEP_accusation,Income Quintile 5,NA,22
-Ireland,regional,IE05,Southern,R1F93,LEP_accusation,Income Quintile 5,NA,24
-Italy,regional,ITH,North-East,R1F93,LEP_accusation,Income Quintile 1,NA,27
-Poland,regional,PL2,Southern,R1F93,LEP_accusation,Income Quintile 2,NA,27
-Poland,regional,PL2,Southern,R1F93,LEP_accusation,Income Quintile 3,NA,26
-Poland,regional,PL2,Southern,R1F93,LEP_accusation,Income Quintile 4,NA,22
-Poland,regional,PL2,Southern,R1F93,LEP_accusation,Income Quintile 5,NA,26
-Poland,regional,PL4,North-Western,R1F93,LEP_accusation,Income Quintile 1,NA,14
-Poland,regional,PL4,North-Western,R1F93,LEP_accusation,Income Quintile 2,NA,22
-Poland,regional,PL4,North-Western,R1F93,LEP_accusation,Income Quintile 3,NA,27
-Poland,regional,PL5,South-Western,R1F93,LEP_accusation,Income Quintile 2,NA,21
-Poland,regional,PL5,South-Western,R1F93,LEP_accusation,Income Quintile 5,NA,24
-Poland,regional,PL6,Northern,R1F93,LEP_accusation,Income Quintile 2,NA,26
-Poland,regional,PL7,Central,R1F93,LEP_accusation,Income Quintile 1,NA,26
-Poland,regional,PL7,Central,R1F93,LEP_accusation,Income Quintile 2,NA,26
-Poland,regional,PL7,Central,R1F93,LEP_accusation,Income Quintile 3,NA,21
-Poland,regional,PL8,Eastern,R1F93,LEP_accusation,Income Quintile 1,NA,16
-Poland,regional,PL8,Eastern,R1F93,LEP_accusation,Income Quintile 2,NA,16
-Poland,regional,PL8,Eastern,R1F93,LEP_accusation,Income Quintile 3,NA,26
-Poland,regional,PL8,Eastern,R1F93,LEP_accusation,Income Quintile 4,NA,7
-Poland,regional,PL8,Eastern,R1F93,LEP_accusation,Income Quintile 5,NA,3
-Poland,regional,PL9,Mazowieckie,R1F93,LEP_accusation,Income Quintile 1,NA,21
-Poland,regional,PL9,Mazowieckie,R1F93,LEP_accusation,Income Quintile 5,NA,20
-Portugal,regional,PT1,Continental Portugal,R1F93,LEP_accusation,Income Quintile 1,NA,21
-Portugal,regional,PT1,Continental Portugal,R1F93,LEP_accusation,Income Quintile 5,NA,17
-Portugal,regional,PT2,Azores,R1F93,LEP_accusation,Income Quintile 5,NA,23
-Portugal,regional,PT3,Madeira,R1F93,LEP_accusation,Income Quintile 1,NA,20
-Romania,regional,RO1,Macroregion One,R1F93,LEP_accusation,Income Quintile 1,NA,21
-Romania,regional,RO1,Macroregion One,R1F93,LEP_accusation,Income Quintile 5,NA,26
-Romania,regional,RO2,Macroregion Two,R1F93,LEP_accusation,Income Quintile 5,NA,20
-Romania,regional,RO3,Macroregion Three,R1F93,LEP_accusation,Income Quintile 1,NA,20
-Romania,regional,RO4,Macroregion Four,R1F93,LEP_accusation,Income Quintile 5,NA,22
-Slovakia,regional,SK01,Bratislava,R1F93,LEP_accusation,Income Quintile 3,NA,26
-Slovakia,regional,SK01,Bratislava,R1F93,LEP_accusation,Income Quintile 4,NA,27
-Spain,regional,ES1,North-West,R1F93,LEP_accusation,Income Quintile 1,NA,28
-Spain,regional,ES2,North-East,R1F93,LEP_accusation,Income Quintile 1,NA,15
-Spain,regional,ES3,Madrid,R1F93,LEP_accusation,Income Quintile 1,NA,20
-Spain,regional,ES4,Centre,R1F93,LEP_accusation,Income Quintile 1,NA,24
-Spain,regional,ES5,East,R1F93,LEP_accusation,Income Quintile 1,NA,25
-Spain,regional,ES7,Canary Islands,R1F93,LEP_accusation,Income Quintile 5,NA,25
-Sweden,regional,SE2,Southern Sweden,R1F93,LEP_accusation,Income Quintile 1,NA,16
-Sweden,regional,SE3,Northern Sweden,R1F93,LEP_accusation,Income Quintile 1,NA,19
-Belgium,regional,BE2,Flemish Region,R1F93,LEP_accusation,Rural,NA,14
-Denmark,regional,DK01,Capital (region),R1F93,LEP_accusation,Rural,NA,12
-Finland,regional,FI1B,Helsinki-Uusimaa,R1F93,LEP_accusation,Rural,NA,26
-France,regional,FR1,Île-de-France,R1F93,LEP_accusation,Rural,NA,9
-Germany,regional,DEA,North Rhine-Westphalia,R1F93,LEP_accusation,Rural,NA,11
-Greece,regional,EL3,Attica,R1F93,LEP_accusation,Rural,NA,16
-Hungary,regional,HU1,Central Hungary,R1F93,LEP_accusation,Rural,NA,26
-Ireland,regional,IE04,Northern and Western,R1F93,LEP_accusation,Urban,NA,27
-Ireland,regional,IE06,Eastern and Midland,R1F93,LEP_accusation,Rural,NA,27
-Malta,regional,MT00,Malta,R1F93,LEP_accusation,Rural,NA,9
-Netherlands,regional,NL2,East Netherlands,R1F93,LEP_accusation,Rural,NA,24
-Netherlands,regional,NL3,West Netherlands,R1F93,LEP_accusation,Rural,NA,21
-Netherlands,regional,NL4,South Netherlands,R1F93,LEP_accusation,Rural,NA,23
-Spain,regional,ES2,North-East,R1F93,LEP_accusation,Rural,NA,22
-Spain,regional,ES3,Madrid,R1F93,LEP_accusation,Rural,NA,11
-Spain,regional,ES5,East,R1F93,LEP_accusation,Rural,NA,17
-Spain,regional,ES6,South,R1F93,LEP_accusation,Rural,NA,21
-Spain,regional,ES7,Canary Islands,R1F93,LEP_accusation,Rural,NA,20
 Belgium,regional,BE2,Flemish Region,R2F2,JSE_rightsaware,18-24,NA,22
 Bulgaria,regional,BG3,North and South-East,R2F2,JSE_rightsaware,18-24,NA,24
 Croatia,regional,HR03,Adriatic Croatia,R2F2,JSE_rightsaware,18-24,NA,17
@@ -11551,223 +11551,221 @@ Spain,regional,ES5,East,R2F3,JSE_access2info,Rural,NA,27
 Spain,regional,ES6,South,R2F3,JSE_access2info,Rural,NA,24
 Spain,regional,ES7,Canary Islands,R2F3,JSE_access2info,Rural,NA,15
 Sweden,regional,SE1,Eastern Sweden,R2F3,JSE_access2info,Rural,NA,28
-Belgium,regional,BE1,Brussels Region,R2F50,LEP_exforce,18-24,NA,23
-Belgium,regional,BE2,Flemish Region,R2F50,LEP_exforce,18-24,NA,25
-Belgium,regional,BE3,Waloon Region,R2F50,LEP_exforce,18-24,NA,23
-Bulgaria,regional,BG4,South -West/-Central,R2F50,LEP_exforce,18-24,NA,26
-Croatia,regional,HR02,Pannonian Croatia,R2F50,LEP_exforce,18-24,NA,17
-Croatia,regional,HR03,Adriatic Croatia,R2F50,LEP_exforce,18-24,NA,23
-Croatia,regional,HR03,Adriatic Croatia,R2F50,LEP_exforce,25-34,NA,25
-Croatia,regional,HR05,Zagreb,R2F50,LEP_exforce,18-24,NA,21
-Croatia,regional,HR05,Zagreb,R2F50,LEP_exforce,25-34,NA,28
-Croatia,regional,HR06,Northern Croatia,R2F50,LEP_exforce,18-24,NA,19
-Czechia,regional,CZ01,Prague,R2F50,LEP_exforce,18-24,NA,7
-Czechia,regional,CZ01,Prague,R2F50,LEP_exforce,25-34,NA,19
-Czechia,regional,CZ01,Prague,R2F50,LEP_exforce,45-54,NA,19
-Czechia,regional,CZ01,Prague,R2F50,LEP_exforce,55-64,NA,18
-Czechia,regional,CZ020304,Western and Central Bohemia,R2F50,LEP_exforce,18-24,NA,28
-Czechia,regional,CZ0506,North-East and South-East,R2F50,LEP_exforce,18-24,NA,22
-Czechia,regional,CZ0708,Central Moravia and Silesia,R2F50,LEP_exforce,18-24,NA,24
-Denmark,regional,DK01,Capital (region),R2F50,LEP_exforce,18-24,NA,28
-Denmark,regional,DK02,Zealand,R2F50,LEP_exforce,18-24,NA,19
-Denmark,regional,DK02,Zealand,R2F50,LEP_exforce,25-34,NA,28
-Denmark,regional,DK03,South Denmark,R2F50,LEP_exforce,18-24,NA,18
-Denmark,regional,DK04,Central Jutland,R2F50,LEP_exforce,18-24,NA,27
-Denmark,regional,DK05,North Jutland,R2F50,LEP_exforce,18-24,NA,27
-Finland,regional,FI19,West Finland,R2F50,LEP_exforce,18-24,NA,25
-Finland,regional,FI1B,Helsinki-Uusimaa,R2F50,LEP_exforce,18-24,NA,23
-Finland,regional,FI1D,North and East Finland,R2F50,LEP_exforce,18-24,NA,27
-France,regional,FRB,Centre-Val de Loire,R2F50,LEP_exforce,18-24,NA,24
-France,regional,FRC,Burgundy-Franche-Comté,R2F50,LEP_exforce,18-24,NA,23
-France,regional,FRD,Normandy,R2F50,LEP_exforce,18-24,NA,25
-France,regional,FRF,Grand Est,R2F50,LEP_exforce,18-24,NA,27
-France,regional,FRH,Brittany ,R2F50,LEP_exforce,18-24,NA,25
-France,regional,FRI,New Aquitaine,R2F50,LEP_exforce,18-24,NA,23
-France,regional,FRL,PACA,R2F50,LEP_exforce,18-24,NA,20
-France,regional,FRL,PACA,R2F50,LEP_exforce,25-34,NA,26
-France,regional,FRM,Corsica ,R2F50,LEP_exforce,+65,NA,22
-France,regional,FRM,Corsica ,R2F50,LEP_exforce,18-24,NA,8
-France,regional,FRM,Corsica ,R2F50,LEP_exforce,25-34,NA,13
-France,regional,FRM,Corsica ,R2F50,LEP_exforce,35-44,NA,12
-France,regional,FRM,Corsica ,R2F50,LEP_exforce,45-54,NA,19
-France,regional,FRM,Corsica ,R2F50,LEP_exforce,55-64,NA,15
-Germany,regional,DE2,Bavaria,R2F50,LEP_exforce,18-24,NA,26
-Germany,regional,DE3,Berlin,R2F50,LEP_exforce,18-24,NA,17
-Germany,regional,DE4,Brandenburg,R2F50,LEP_exforce,18-24,NA,13
-Germany,regional,DE5,Bremen,R2F50,LEP_exforce,+65,NA,22
-Germany,regional,DE5,Bremen,R2F50,LEP_exforce,18-24,NA,21
-Germany,regional,DE5,Bremen,R2F50,LEP_exforce,25-34,NA,28
-Germany,regional,DE5,Bremen,R2F50,LEP_exforce,35-44,NA,23
-Germany,regional,DE5,Bremen,R2F50,LEP_exforce,55-64,NA,23
-Germany,regional,DE6,Hamburg,R2F50,LEP_exforce,18-24,NA,24
-Germany,regional,DE7,Hessen,R2F50,LEP_exforce,18-24,NA,20
-Germany,regional,DE8,Mecklenburg-Vorpommern,R2F50,LEP_exforce,18-24,NA,22
-Germany,regional,DE8,Mecklenburg-Vorpommern,R2F50,LEP_exforce,25-34,NA,19
-Germany,regional,DE9,Lower Saxony,R2F50,LEP_exforce,18-24,NA,22
-Germany,regional,DEA,North Rhine-Westphalia,R2F50,LEP_exforce,18-24,NA,24
-Germany,regional,DEB,Rhineland-Palatinate,R2F50,LEP_exforce,18-24,NA,25
-Germany,regional,DEC,Saarland,R2F50,LEP_exforce,18-24,NA,25
-Germany,regional,DED,Saxony,R2F50,LEP_exforce,18-24,NA,19
-Germany,regional,DEE,Saxony-Anhalt,R2F50,LEP_exforce,18-24,NA,17
-Germany,regional,DEF,Schleswig-Holstein,R2F50,LEP_exforce,18-24,NA,27
-Germany,regional,DEG,Thuringia,R2F50,LEP_exforce,18-24,NA,18
-Germany,regional,DEG,Thuringia,R2F50,LEP_exforce,25-34,NA,29
-Greece,regional,EL3,Attica,R2F50,LEP_exforce,18-24,NA,13
-Greece,regional,EL4,"Aegean Islands, Crete",R2F50,LEP_exforce,18-24,NA,20
-Greece,regional,EL5,North Greece,R2F50,LEP_exforce,18-24,NA,14
-Greece,regional,EL5,North Greece,R2F50,LEP_exforce,25-34,NA,19
-Greece,regional,EL6,Central Greece,R2F50,LEP_exforce,18-24,NA,14
-Hungary,regional,HU1,Central Hungary,R2F50,LEP_exforce,18-24,NA,26
-Hungary,regional,HU1,Central Hungary,R2F50,LEP_exforce,55-64,NA,28
-Hungary,regional,HU2,Transdanubia ,R2F50,LEP_exforce,18-24,NA,11
-Hungary,regional,HU3,Great Plain and North,R2F50,LEP_exforce,18-24,NA,24
-Ireland,regional,IE04,Northern and Western,R2F50,LEP_exforce,+65,NA,27
-Ireland,regional,IE04,Northern and Western,R2F50,LEP_exforce,18-24,NA,13
-Ireland,regional,IE04,Northern and Western,R2F50,LEP_exforce,45-54,NA,23
-Ireland,regional,IE04,Northern and Western,R2F50,LEP_exforce,55-64,NA,24
-Ireland,regional,IE05,Southern,R2F50,LEP_exforce,18-24,NA,26
-Italy,regional,ITG,Islands,R2F50,LEP_exforce,18-24,NA,28
-Italy,regional,ITH,North-East,R2F50,LEP_exforce,18-24,NA,28
-Lithuania,regional,LT01,Capital Region,R2F50,LEP_exforce,18-24,NA,29
-Luxembourg,regional,LU00,Luxembourg,R2F50,LEP_exforce,18-24,NA,26
-Malta,regional,MT00,Malta,R2F50,LEP_exforce,18-24,NA,19
-Malta,regional,MT00,Malta,R2F50,LEP_exforce,55-64,NA,27
-Poland,regional,PL4,North-Western,R2F50,LEP_exforce,18-24,NA,28
-Poland,regional,PL6,Northern,R2F50,LEP_exforce,18-24,NA,29
-Poland,regional,PL7,Central,R2F50,LEP_exforce,18-24,NA,28
-Portugal,regional,PT1,Continental Portugal,R2F50,LEP_exforce,18-24,NA,25
-Portugal,regional,PT2,Azores,R2F50,LEP_exforce,18-24,NA,25
-Portugal,regional,PT2,Azores,R2F50,LEP_exforce,25-34,NA,28
-Portugal,regional,PT3,Madeira,R2F50,LEP_exforce,18-24,NA,28
-Romania,regional,RO1,Macroregion One,R2F50,LEP_exforce,18-24,NA,27
-Romania,regional,RO4,Macroregion Four,R2F50,LEP_exforce,18-24,NA,27
-Slovakia,regional,SK01,Bratislava,R2F50,LEP_exforce,18-24,NA,12
-Slovakia,regional,SK02,West Slovakia,R2F50,LEP_exforce,18-24,NA,25
-Slovakia,regional,SK04,East Slovakia,R2F50,LEP_exforce,18-24,NA,21
-Slovenia,regional,SI03,East Slovenia,R2F50,LEP_exforce,18-24,NA,14
-Slovenia,regional,SI03,East Slovenia,R2F50,LEP_exforce,25-34,NA,23
-Slovenia,regional,SI04,West Slovenia,R2F50,LEP_exforce,18-24,NA,19
-Spain,regional,ES1,North-West,R2F50,LEP_exforce,18-24,NA,19
-Spain,regional,ES2,North-East,R2F50,LEP_exforce,18-24,NA,22
-Spain,regional,ES2,North-East,R2F50,LEP_exforce,25-34,NA,28
-Spain,regional,ES3,Madrid,R2F50,LEP_exforce,18-24,NA,20
-Spain,regional,ES3,Madrid,R2F50,LEP_exforce,25-34,NA,28
-Spain,regional,ES4,Centre,R2F50,LEP_exforce,18-24,NA,28
-Spain,regional,ES4,Centre,R2F50,LEP_exforce,25-34,NA,28
-Spain,regional,ES5,East,R2F50,LEP_exforce,18-24,NA,29
-Spain,regional,ES5,East,R2F50,LEP_exforce,25-34,NA,28
-Spain,regional,ES7,Canary Islands,R2F50,LEP_exforce,18-24,NA,22
-Sweden,regional,SE1,Eastern Sweden,R2F50,LEP_exforce,18-24,NA,21
-Sweden,regional,SE2,Southern Sweden,R2F50,LEP_exforce,18-24,NA,23
-Sweden,regional,SE3,Northern Sweden,R2F50,LEP_exforce,18-24,NA,25
-Belgium,regional,BE1,Brussels Region,R2F50,LEP_exforce,Income Quintile 4,NA,22
-Croatia,regional,HR02,Pannonian Croatia,R2F50,LEP_exforce,Income Quintile 3,NA,23
-Croatia,regional,HR03,Adriatic Croatia,R2F50,LEP_exforce,Income Quintile 1,NA,20
-Croatia,regional,HR03,Adriatic Croatia,R2F50,LEP_exforce,Income Quintile 3,NA,21
-Croatia,regional,HR05,Zagreb,R2F50,LEP_exforce,Income Quintile 1,NA,29
-Croatia,regional,HR05,Zagreb,R2F50,LEP_exforce,Income Quintile 3,NA,22
-Croatia,regional,HR06,Northern Croatia,R2F50,LEP_exforce,Income Quintile 1,NA,21
-Croatia,regional,HR06,Northern Croatia,R2F50,LEP_exforce,Income Quintile 2,NA,24
-Croatia,regional,HR06,Northern Croatia,R2F50,LEP_exforce,Income Quintile 3,NA,17
-Czechia,regional,CZ01,Prague,R2F50,LEP_exforce,Income Quintile 1,NA,9
-Czechia,regional,CZ01,Prague,R2F50,LEP_exforce,Income Quintile 2,NA,15
-Czechia,regional,CZ01,Prague,R2F50,LEP_exforce,Income Quintile 3,NA,27
-Czechia,regional,CZ01,Prague,R2F50,LEP_exforce,Income Quintile 4,NA,27
-Czechia,regional,CZ0506,North-East and South-East,R2F50,LEP_exforce,Income Quintile 1,NA,22
-Denmark,regional,DK02,Zealand,R2F50,LEP_exforce,Income Quintile 1,NA,24
-Denmark,regional,DK03,South Denmark,R2F50,LEP_exforce,Income Quintile 1,NA,19
-Denmark,regional,DK04,Central Jutland,R2F50,LEP_exforce,Income Quintile 1,NA,28
-Estonia,regional,EE0,Estonia,R2F50,LEP_exforce,Income Quintile 1,NA,14
-France,regional,FR1,Île-de-France,R2F50,LEP_exforce,Income Quintile 1,NA,22
-France,regional,FRL,PACA,R2F50,LEP_exforce,Income Quintile 1,NA,27
-France,regional,FRM,Corsica ,R2F50,LEP_exforce,Income Quintile 1,NA,12
-France,regional,FRM,Corsica ,R2F50,LEP_exforce,Income Quintile 2,NA,22
-France,regional,FRM,Corsica ,R2F50,LEP_exforce,Income Quintile 3,NA,11
-France,regional,FRM,Corsica ,R2F50,LEP_exforce,Income Quintile 4,NA,17
-France,regional,FRM,Corsica ,R2F50,LEP_exforce,Income Quintile 5,NA,17
-Germany,regional,DE5,Bremen,R2F50,LEP_exforce,Income Quintile 1,NA,28
-Germany,regional,DE5,Bremen,R2F50,LEP_exforce,Income Quintile 2,NA,29
-Germany,regional,DE5,Bremen,R2F50,LEP_exforce,Income Quintile 3,NA,28
-Germany,regional,DE5,Bremen,R2F50,LEP_exforce,Income Quintile 4,NA,28
-Germany,regional,DE5,Bremen,R2F50,LEP_exforce,Income Quintile 5,NA,25
-Germany,regional,DEE,Saxony-Anhalt,R2F50,LEP_exforce,Income Quintile 5,NA,27
-Greece,regional,EL3,Attica,R2F50,LEP_exforce,Income Quintile 1,NA,26
-Greece,regional,EL3,Attica,R2F50,LEP_exforce,Income Quintile 3,NA,27
-Greece,regional,EL3,Attica,R2F50,LEP_exforce,Income Quintile 4,NA,24
-Greece,regional,EL3,Attica,R2F50,LEP_exforce,Income Quintile 5,NA,15
-Greece,regional,EL4,"Aegean Islands, Crete",R2F50,LEP_exforce,Income Quintile 4,NA,19
-Greece,regional,EL4,"Aegean Islands, Crete",R2F50,LEP_exforce,Income Quintile 5,NA,7
-Greece,regional,EL5,North Greece,R2F50,LEP_exforce,Income Quintile 5,NA,3
-Greece,regional,EL6,Central Greece,R2F50,LEP_exforce,Income Quintile 5,NA,10
-Hungary,regional,HU1,Central Hungary,R2F50,LEP_exforce,Income Quintile 1,NA,11
-Hungary,regional,HU1,Central Hungary,R2F50,LEP_exforce,Income Quintile 2,NA,15
-Hungary,regional,HU1,Central Hungary,R2F50,LEP_exforce,Income Quintile 3,NA,12
-Hungary,regional,HU2,Transdanubia ,R2F50,LEP_exforce,Income Quintile 1,NA,18
-Hungary,regional,HU2,Transdanubia ,R2F50,LEP_exforce,Income Quintile 2,NA,28
-Hungary,regional,HU2,Transdanubia ,R2F50,LEP_exforce,Income Quintile 3,NA,29
-Ireland,regional,IE04,Northern and Western,R2F50,LEP_exforce,Income Quintile 2,NA,28
-Ireland,regional,IE04,Northern and Western,R2F50,LEP_exforce,Income Quintile 4,NA,27
-Ireland,regional,IE04,Northern and Western,R2F50,LEP_exforce,Income Quintile 5,NA,23
-Ireland,regional,IE05,Southern,R2F50,LEP_exforce,Income Quintile 5,NA,24
-Italy,regional,ITH,North-East,R2F50,LEP_exforce,Income Quintile 1,NA,27
-Poland,regional,PL2,Southern,R2F50,LEP_exforce,Income Quintile 2,NA,27
-Poland,regional,PL2,Southern,R2F50,LEP_exforce,Income Quintile 3,NA,26
-Poland,regional,PL2,Southern,R2F50,LEP_exforce,Income Quintile 4,NA,22
-Poland,regional,PL2,Southern,R2F50,LEP_exforce,Income Quintile 5,NA,26
-Poland,regional,PL4,North-Western,R2F50,LEP_exforce,Income Quintile 1,NA,14
-Poland,regional,PL4,North-Western,R2F50,LEP_exforce,Income Quintile 2,NA,22
-Poland,regional,PL4,North-Western,R2F50,LEP_exforce,Income Quintile 3,NA,27
-Poland,regional,PL5,South-Western,R2F50,LEP_exforce,Income Quintile 2,NA,21
-Poland,regional,PL5,South-Western,R2F50,LEP_exforce,Income Quintile 5,NA,24
-Poland,regional,PL6,Northern,R2F50,LEP_exforce,Income Quintile 2,NA,26
-Poland,regional,PL7,Central,R2F50,LEP_exforce,Income Quintile 1,NA,26
-Poland,regional,PL7,Central,R2F50,LEP_exforce,Income Quintile 2,NA,26
-Poland,regional,PL7,Central,R2F50,LEP_exforce,Income Quintile 3,NA,22
-Poland,regional,PL8,Eastern,R2F50,LEP_exforce,Income Quintile 1,NA,16
-Poland,regional,PL8,Eastern,R2F50,LEP_exforce,Income Quintile 2,NA,16
-Poland,regional,PL8,Eastern,R2F50,LEP_exforce,Income Quintile 3,NA,26
-Poland,regional,PL8,Eastern,R2F50,LEP_exforce,Income Quintile 4,NA,7
-Poland,regional,PL8,Eastern,R2F50,LEP_exforce,Income Quintile 5,NA,3
-Poland,regional,PL9,Mazowieckie,R2F50,LEP_exforce,Income Quintile 1,NA,21
-Poland,regional,PL9,Mazowieckie,R2F50,LEP_exforce,Income Quintile 5,NA,20
-Portugal,regional,PT1,Continental Portugal,R2F50,LEP_exforce,Income Quintile 1,NA,21
-Portugal,regional,PT1,Continental Portugal,R2F50,LEP_exforce,Income Quintile 5,NA,17
-Portugal,regional,PT2,Azores,R2F50,LEP_exforce,Income Quintile 5,NA,23
-Portugal,regional,PT3,Madeira,R2F50,LEP_exforce,Income Quintile 1,NA,20
-Romania,regional,RO1,Macroregion One,R2F50,LEP_exforce,Income Quintile 1,NA,21
-Romania,regional,RO1,Macroregion One,R2F50,LEP_exforce,Income Quintile 5,NA,26
-Romania,regional,RO2,Macroregion Two,R2F50,LEP_exforce,Income Quintile 5,NA,20
-Romania,regional,RO3,Macroregion Three,R2F50,LEP_exforce,Income Quintile 1,NA,20
-Romania,regional,RO4,Macroregion Four,R2F50,LEP_exforce,Income Quintile 5,NA,22
-Slovakia,regional,SK01,Bratislava,R2F50,LEP_exforce,Income Quintile 3,NA,26
-Slovakia,regional,SK01,Bratislava,R2F50,LEP_exforce,Income Quintile 4,NA,27
-Spain,regional,ES1,North-West,R2F50,LEP_exforce,Income Quintile 1,NA,27
-Spain,regional,ES2,North-East,R2F50,LEP_exforce,Income Quintile 1,NA,15
-Spain,regional,ES3,Madrid,R2F50,LEP_exforce,Income Quintile 1,NA,20
-Spain,regional,ES4,Centre,R2F50,LEP_exforce,Income Quintile 1,NA,23
-Spain,regional,ES4,Centre,R2F50,LEP_exforce,Income Quintile 5,NA,29
-Spain,regional,ES5,East,R2F50,LEP_exforce,Income Quintile 1,NA,26
-Spain,regional,ES7,Canary Islands,R2F50,LEP_exforce,Income Quintile 5,NA,25
-Sweden,regional,SE2,Southern Sweden,R2F50,LEP_exforce,Income Quintile 1,NA,16
-Sweden,regional,SE3,Northern Sweden,R2F50,LEP_exforce,Income Quintile 1,NA,19
-Belgium,regional,BE2,Flemish Region,R2F50,LEP_exforce,Rural,NA,13
-Denmark,regional,DK01,Capital (region),R2F50,LEP_exforce,Rural,NA,12
-Finland,regional,FI1B,Helsinki-Uusimaa,R2F50,LEP_exforce,Rural,NA,26
-France,regional,FR1,Île-de-France,R2F50,LEP_exforce,Rural,NA,9
-Germany,regional,DEA,North Rhine-Westphalia,R2F50,LEP_exforce,Rural,NA,11
-Greece,regional,EL3,Attica,R2F50,LEP_exforce,Rural,NA,16
-Hungary,regional,HU1,Central Hungary,R2F50,LEP_exforce,Rural,NA,26
-Ireland,regional,IE04,Northern and Western,R2F50,LEP_exforce,Urban,NA,27
-Ireland,regional,IE06,Eastern and Midland,R2F50,LEP_exforce,Rural,NA,27
-Malta,regional,MT00,Malta,R2F50,LEP_exforce,Rural,NA,9
-Netherlands,regional,NL2,East Netherlands,R2F50,LEP_exforce,Rural,NA,24
-Netherlands,regional,NL3,West Netherlands,R2F50,LEP_exforce,Rural,NA,21
-Netherlands,regional,NL4,South Netherlands,R2F50,LEP_exforce,Rural,NA,23
-Spain,regional,ES2,North-East,R2F50,LEP_exforce,Rural,NA,22
-Spain,regional,ES3,Madrid,R2F50,LEP_exforce,Rural,NA,11
-Spain,regional,ES5,East,R2F50,LEP_exforce,Rural,NA,17
-Spain,regional,ES6,South,R2F50,LEP_exforce,Rural,NA,22
-Spain,regional,ES7,Canary Islands,R2F50,LEP_exforce,Rural,NA,20
+Belgium,regional,BE2,Flemish Region,R2F5,JSE_access2assis,18-24,NA,23
+Bulgaria,regional,BG3,North and South-East,R2F5,JSE_access2assis,18-24,NA,24
+Croatia,regional,HR02,Pannonian Croatia,R2F5,JSE_access2assis,18-24,NA,28
+Croatia,regional,HR03,Adriatic Croatia,R2F5,JSE_access2assis,18-24,NA,17
+Croatia,regional,HR05,Zagreb,R2F5,JSE_access2assis,18-24,NA,15
+Croatia,regional,HR06,Northern Croatia,R2F5,JSE_access2assis,18-24,NA,25
+Czechia,regional,CZ01,Prague,R2F5,JSE_access2assis,+65,NA,23
+Czechia,regional,CZ01,Prague,R2F5,JSE_access2assis,18-24,NA,10
+Czechia,regional,CZ01,Prague,R2F5,JSE_access2assis,25-34,NA,23
+Czechia,regional,CZ01,Prague,R2F5,JSE_access2assis,45-54,NA,23
+Czechia,regional,CZ01,Prague,R2F5,JSE_access2assis,55-64,NA,13
+Czechia,regional,CZ0506,North-East and South-East,R2F5,JSE_access2assis,18-24,NA,19
+Czechia,regional,CZ0708,Central Moravia and Silesia,R2F5,JSE_access2assis,18-24,NA,19
+Denmark,regional,DK02,Zealand,R2F5,JSE_access2assis,18-24,NA,26
+Denmark,regional,DK05,North Jutland,R2F5,JSE_access2assis,18-24,NA,15
+Finland,regional,FI1C20,South Finland and Åland,R2F5,JSE_access2assis,18-24,NA,23
+Finland,regional,FI1D,North and East Finland,R2F5,JSE_access2assis,18-24,NA,24
+France,regional,FRB,Centre-Val de Loire,R2F5,JSE_access2assis,18-24,NA,22
+France,regional,FRB,Centre-Val de Loire,R2F5,JSE_access2assis,25-34,NA,26
+France,regional,FRC,Burgundy-Franche-Comté,R2F5,JSE_access2assis,18-24,NA,23
+France,regional,FRD,Normandy,R2F5,JSE_access2assis,18-24,NA,21
+France,regional,FRF,Grand Est,R2F5,JSE_access2assis,18-24,NA,21
+France,regional,FRG,Loire Region,R2F5,JSE_access2assis,18-24,NA,19
+France,regional,FRH,Brittany ,R2F5,JSE_access2assis,18-24,NA,25
+France,regional,FRH,Brittany ,R2F5,JSE_access2assis,25-34,NA,24
+France,regional,FRI,New Aquitaine,R2F5,JSE_access2assis,18-24,NA,25
+France,regional,FRJ,Occitania,R2F5,JSE_access2assis,18-24,NA,22
+France,regional,FRJ,Occitania,R2F5,JSE_access2assis,25-34,NA,24
+France,regional,FRK,Auvergne-Rhône-Alpes,R2F5,JSE_access2assis,18-24,NA,19
+France,regional,FRL,PACA,R2F5,JSE_access2assis,18-24,NA,27
+France,regional,FRL,PACA,R2F5,JSE_access2assis,25-34,NA,29
+France,regional,FRL,PACA,R2F5,JSE_access2assis,35-44,NA,29
+France,regional,FRM,Corsica ,R2F5,JSE_access2assis,18-24,NA,8
+France,regional,FRM,Corsica ,R2F5,JSE_access2assis,25-34,NA,13
+France,regional,FRM,Corsica ,R2F5,JSE_access2assis,35-44,NA,16
+France,regional,FRM,Corsica ,R2F5,JSE_access2assis,45-54,NA,14
+France,regional,FRM,Corsica ,R2F5,JSE_access2assis,55-64,NA,16
+Germany,regional,DE1,Baden-Württemberg,R2F5,JSE_access2assis,18-24,NA,14
+Germany,regional,DE2,Bavaria,R2F5,JSE_access2assis,18-24,NA,22
+Germany,regional,DE3,Berlin,R2F5,JSE_access2assis,18-24,NA,27
+Germany,regional,DE3,Berlin,R2F5,JSE_access2assis,45-54,NA,29
+Germany,regional,DE4,Brandenburg,R2F5,JSE_access2assis,18-24,NA,19
+Germany,regional,DE4,Brandenburg,R2F5,JSE_access2assis,25-34,NA,28
+Germany,regional,DE5,Bremen,R2F5,JSE_access2assis,+65,NA,22
+Germany,regional,DE5,Bremen,R2F5,JSE_access2assis,18-24,NA,14
+Germany,regional,DE5,Bremen,R2F5,JSE_access2assis,45-54,NA,24
+Germany,regional,DE6,Hamburg,R2F5,JSE_access2assis,18-24,NA,23
+Germany,regional,DE7,Hessen,R2F5,JSE_access2assis,18-24,NA,28
+Germany,regional,DE8,Mecklenburg-Vorpommern,R2F5,JSE_access2assis,18-24,NA,12
+Germany,regional,DE9,Lower Saxony,R2F5,JSE_access2assis,18-24,NA,25
+Germany,regional,DEA,North Rhine-Westphalia,R2F5,JSE_access2assis,18-24,NA,24
+Germany,regional,DEB,Rhineland-Palatinate,R2F5,JSE_access2assis,18-24,NA,21
+Germany,regional,DEC,Saarland,R2F5,JSE_access2assis,18-24,NA,19
+Germany,regional,DED,Saxony,R2F5,JSE_access2assis,18-24,NA,19
+Germany,regional,DEE,Saxony-Anhalt,R2F5,JSE_access2assis,18-24,NA,19
+Germany,regional,DEE,Saxony-Anhalt,R2F5,JSE_access2assis,25-34,NA,24
+Germany,regional,DEF,Schleswig-Holstein,R2F5,JSE_access2assis,18-24,NA,19
+Germany,regional,DEG,Thuringia,R2F5,JSE_access2assis,18-24,NA,16
+Greece,regional,EL3,Attica,R2F5,JSE_access2assis,18-24,NA,17
+Greece,regional,EL4,"Aegean Islands, Crete",R2F5,JSE_access2assis,18-24,NA,23
+Greece,regional,EL4,"Aegean Islands, Crete",R2F5,JSE_access2assis,25-34,NA,26
+Greece,regional,EL5,North Greece,R2F5,JSE_access2assis,18-24,NA,19
+Greece,regional,EL6,Central Greece,R2F5,JSE_access2assis,18-24,NA,18
+Greece,regional,EL6,Central Greece,R2F5,JSE_access2assis,25-34,NA,22
+Hungary,regional,HU1,Central Hungary,R2F5,JSE_access2assis,18-24,NA,16
+Hungary,regional,HU2,Transdanubia ,R2F5,JSE_access2assis,18-24,NA,17
+Hungary,regional,HU3,Great Plain and North,R2F5,JSE_access2assis,18-24,NA,28
+Ireland,regional,IE04,Northern and Western,R2F5,JSE_access2assis,+65,NA,29
+Ireland,regional,IE04,Northern and Western,R2F5,JSE_access2assis,18-24,NA,10
+Ireland,regional,IE04,Northern and Western,R2F5,JSE_access2assis,25-34,NA,29
+Ireland,regional,IE05,Southern,R2F5,JSE_access2assis,18-24,NA,25
+Ireland,regional,IE06,Eastern and Midland,R2F5,JSE_access2assis,18-24,NA,28
+Italy,regional,ITF,South,R2F5,JSE_access2assis,18-24,NA,29
+Lithuania,regional,LT01,Capital Region,R2F5,JSE_access2assis,18-24,NA,28
+Malta,regional,MT00,Malta,R2F5,JSE_access2assis,18-24,NA,25
+Poland,regional,PL2,Southern,R2F5,JSE_access2assis,18-24,NA,24
+Poland,regional,PL5,South-Western,R2F5,JSE_access2assis,18-24,NA,27
+Poland,regional,PL8,Eastern,R2F5,JSE_access2assis,18-24,NA,28
+Poland,regional,PL9,Mazowieckie,R2F5,JSE_access2assis,18-24,NA,27
+Portugal,regional,PT1,Continental Portugal,R2F5,JSE_access2assis,18-24,NA,25
+Portugal,regional,PT2,Azores,R2F5,JSE_access2assis,18-24,NA,28
+Romania,regional,RO3,Macroregion Three,R2F5,JSE_access2assis,18-24,NA,29
+Romania,regional,RO4,Macroregion Four,R2F5,JSE_access2assis,18-24,NA,25
+Slovakia,regional,SK01,Bratislava,R2F5,JSE_access2assis,+65,NA,29
+Slovakia,regional,SK01,Bratislava,R2F5,JSE_access2assis,18-24,NA,9
+Slovakia,regional,SK01,Bratislava,R2F5,JSE_access2assis,55-64,NA,22
+Slovakia,regional,SK02,West Slovakia,R2F5,JSE_access2assis,18-24,NA,24
+Slovakia,regional,SK03,Central Slovakia,R2F5,JSE_access2assis,18-24,NA,24
+Slovakia,regional,SK04,East Slovakia,R2F5,JSE_access2assis,18-24,NA,28
+Slovenia,regional,SI03,East Slovenia,R2F5,JSE_access2assis,18-24,NA,26
+Slovenia,regional,SI04,West Slovenia,R2F5,JSE_access2assis,18-24,NA,28
+Spain,regional,ES1,North-West,R2F5,JSE_access2assis,18-24,NA,19
+Spain,regional,ES1,North-West,R2F5,JSE_access2assis,25-34,NA,25
+Spain,regional,ES2,North-East,R2F5,JSE_access2assis,18-24,NA,23
+Spain,regional,ES3,Madrid,R2F5,JSE_access2assis,18-24,NA,28
+Spain,regional,ES4,Centre,R2F5,JSE_access2assis,18-24,NA,21
+Spain,regional,ES5,East,R2F5,JSE_access2assis,18-24,NA,18
+Spain,regional,ES6,South,R2F5,JSE_access2assis,18-24,NA,19
+Spain,regional,ES7,Canary Islands,R2F5,JSE_access2assis,+65,NA,27
+Spain,regional,ES7,Canary Islands,R2F5,JSE_access2assis,18-24,NA,25
+Sweden,regional,SE2,Southern Sweden,R2F5,JSE_access2assis,18-24,NA,23
+Sweden,regional,SE3,Northern Sweden,R2F5,JSE_access2assis,18-24,NA,20
+Austria,regional,AT3,West Austria,R2F5,JSE_access2assis,Income Quintile 1,NA,18
+Croatia,regional,HR02,Pannonian Croatia,R2F5,JSE_access2assis,Income Quintile 3,NA,22
+Croatia,regional,HR03,Adriatic Croatia,R2F5,JSE_access2assis,Income Quintile 1,NA,28
+Croatia,regional,HR03,Adriatic Croatia,R2F5,JSE_access2assis,Income Quintile 2,NA,23
+Croatia,regional,HR03,Adriatic Croatia,R2F5,JSE_access2assis,Income Quintile 3,NA,22
+Croatia,regional,HR05,Zagreb,R2F5,JSE_access2assis,Income Quintile 3,NA,22
+Croatia,regional,HR06,Northern Croatia,R2F5,JSE_access2assis,Income Quintile 1,NA,29
+Croatia,regional,HR06,Northern Croatia,R2F5,JSE_access2assis,Income Quintile 2,NA,26
+Croatia,regional,HR06,Northern Croatia,R2F5,JSE_access2assis,Income Quintile 3,NA,22
+Croatia,regional,HR06,Northern Croatia,R2F5,JSE_access2assis,Income Quintile 4,NA,22
+Czechia,regional,CZ01,Prague,R2F5,JSE_access2assis,Income Quintile 1,NA,2
+Czechia,regional,CZ01,Prague,R2F5,JSE_access2assis,Income Quintile 2,NA,27
+Czechia,regional,CZ01,Prague,R2F5,JSE_access2assis,Income Quintile 3,NA,21
+Czechia,regional,CZ0506,North-East and South-East,R2F5,JSE_access2assis,Income Quintile 1,NA,28
+Czechia,regional,CZ0708,Central Moravia and Silesia,R2F5,JSE_access2assis,Income Quintile 1,NA,25
+Denmark,regional,DK01,Capital (region),R2F5,JSE_access2assis,Income Quintile 1,NA,28
+Denmark,regional,DK02,Zealand,R2F5,JSE_access2assis,Income Quintile 1,NA,24
+Denmark,regional,DK03,South Denmark,R2F5,JSE_access2assis,Income Quintile 5,NA,29
+Denmark,regional,DK04,Central Jutland,R2F5,JSE_access2assis,Income Quintile 5,NA,25
+Denmark,regional,DK05,North Jutland,R2F5,JSE_access2assis,Income Quintile 1,NA,24
+Estonia,regional,EE0,Estonia,R2F5,JSE_access2assis,Income Quintile 1,NA,25
+Finland,regional,FI1B,Helsinki-Uusimaa,R2F5,JSE_access2assis,Income Quintile 1,NA,28
+France,regional,FRG,Loire Region,R2F5,JSE_access2assis,Income Quintile 1,NA,21
+France,regional,FRH,Brittany ,R2F5,JSE_access2assis,Income Quintile 1,NA,28
+France,regional,FRM,Corsica ,R2F5,JSE_access2assis,Income Quintile 1,NA,12
+France,regional,FRM,Corsica ,R2F5,JSE_access2assis,Income Quintile 2,NA,18
+France,regional,FRM,Corsica ,R2F5,JSE_access2assis,Income Quintile 3,NA,20
+France,regional,FRM,Corsica ,R2F5,JSE_access2assis,Income Quintile 4,NA,19
+France,regional,FRM,Corsica ,R2F5,JSE_access2assis,Income Quintile 5,NA,20
+Germany,regional,DE5,Bremen,R2F5,JSE_access2assis,Income Quintile 1,NA,23
+Germany,regional,DE5,Bremen,R2F5,JSE_access2assis,Income Quintile 3,NA,27
+Germany,regional,DE5,Bremen,R2F5,JSE_access2assis,Income Quintile 4,NA,26
+Germany,regional,DE5,Bremen,R2F5,JSE_access2assis,Income Quintile 5,NA,29
+Germany,regional,DE8,Mecklenburg-Vorpommern,R2F5,JSE_access2assis,Income Quintile 5,NA,27
+Germany,regional,DEC,Saarland,R2F5,JSE_access2assis,Income Quintile 1,NA,27
+Germany,regional,DED,Saxony,R2F5,JSE_access2assis,Income Quintile 5,NA,24
+Greece,regional,EL3,Attica,R2F5,JSE_access2assis,Income Quintile 1,NA,16
+Greece,regional,EL3,Attica,R2F5,JSE_access2assis,Income Quintile 5,NA,10
+Greece,regional,EL4,"Aegean Islands, Crete",R2F5,JSE_access2assis,Income Quintile 4,NA,18
+Greece,regional,EL4,"Aegean Islands, Crete",R2F5,JSE_access2assis,Income Quintile 5,NA,10
+Greece,regional,EL5,North Greece,R2F5,JSE_access2assis,Income Quintile 5,NA,5
+Greece,regional,EL6,Central Greece,R2F5,JSE_access2assis,Income Quintile 4,NA,24
+Greece,regional,EL6,Central Greece,R2F5,JSE_access2assis,Income Quintile 5,NA,7
+Hungary,regional,HU1,Central Hungary,R2F5,JSE_access2assis,Income Quintile 1,NA,9
+Hungary,regional,HU1,Central Hungary,R2F5,JSE_access2assis,Income Quintile 2,NA,21
+Hungary,regional,HU1,Central Hungary,R2F5,JSE_access2assis,Income Quintile 3,NA,23
+Hungary,regional,HU2,Transdanubia ,R2F5,JSE_access2assis,Income Quintile 1,NA,11
+Hungary,regional,HU2,Transdanubia ,R2F5,JSE_access2assis,Income Quintile 2,NA,13
+Hungary,regional,HU2,Transdanubia ,R2F5,JSE_access2assis,Income Quintile 3,NA,25
+Hungary,regional,HU3,Great Plain and North,R2F5,JSE_access2assis,Income Quintile 1,NA,27
+Ireland,regional,IE04,Northern and Western,R2F5,JSE_access2assis,Income Quintile 5,NA,17
+Italy,regional,ITH,North-East,R2F5,JSE_access2assis,Income Quintile 1,NA,23
+Italy,regional,ITI,Centre,R2F5,JSE_access2assis,Income Quintile 1,NA,28
+Luxembourg,regional,LU00,Luxembourg,R2F5,JSE_access2assis,Income Quintile 5,NA,28
+Poland,regional,PL2,Southern,R2F5,JSE_access2assis,Income Quintile 4,NA,23
+Poland,regional,PL2,Southern,R2F5,JSE_access2assis,Income Quintile 5,NA,24
+Poland,regional,PL4,North-Western,R2F5,JSE_access2assis,Income Quintile 1,NA,15
+Poland,regional,PL4,North-Western,R2F5,JSE_access2assis,Income Quintile 2,NA,28
+Poland,regional,PL5,South-Western,R2F5,JSE_access2assis,Income Quintile 2,NA,27
+Poland,regional,PL5,South-Western,R2F5,JSE_access2assis,Income Quintile 4,NA,27
+Poland,regional,PL5,South-Western,R2F5,JSE_access2assis,Income Quintile 5,NA,21
+Poland,regional,PL6,Northern,R2F5,JSE_access2assis,Income Quintile 5,NA,22
+Poland,regional,PL7,Central,R2F5,JSE_access2assis,Income Quintile 1,NA,21
+Poland,regional,PL7,Central,R2F5,JSE_access2assis,Income Quintile 2,NA,26
+Poland,regional,PL8,Eastern,R2F5,JSE_access2assis,Income Quintile 1,NA,15
+Poland,regional,PL8,Eastern,R2F5,JSE_access2assis,Income Quintile 2,NA,15
+Poland,regional,PL8,Eastern,R2F5,JSE_access2assis,Income Quintile 3,NA,16
+Poland,regional,PL8,Eastern,R2F5,JSE_access2assis,Income Quintile 4,NA,14
+Poland,regional,PL8,Eastern,R2F5,JSE_access2assis,Income Quintile 5,NA,5
+Poland,regional,PL9,Mazowieckie,R2F5,JSE_access2assis,Income Quintile 1,NA,23
+Poland,regional,PL9,Mazowieckie,R2F5,JSE_access2assis,Income Quintile 2,NA,20
+Poland,regional,PL9,Mazowieckie,R2F5,JSE_access2assis,Income Quintile 5,NA,25
+Portugal,regional,PT1,Continental Portugal,R2F5,JSE_access2assis,Income Quintile 1,NA,28
+Portugal,regional,PT1,Continental Portugal,R2F5,JSE_access2assis,Income Quintile 5,NA,17
+Portugal,regional,PT2,Azores,R2F5,JSE_access2assis,Income Quintile 1,NA,26
+Portugal,regional,PT2,Azores,R2F5,JSE_access2assis,Income Quintile 5,NA,23
+Portugal,regional,PT3,Madeira,R2F5,JSE_access2assis,Income Quintile 1,NA,26
+Romania,regional,RO1,Macroregion One,R2F5,JSE_access2assis,Income Quintile 1,NA,25
+Romania,regional,RO1,Macroregion One,R2F5,JSE_access2assis,Income Quintile 5,NA,24
+Romania,regional,RO2,Macroregion Two,R2F5,JSE_access2assis,Income Quintile 5,NA,12
+Romania,regional,RO3,Macroregion Three,R2F5,JSE_access2assis,Income Quintile 1,NA,27
+Romania,regional,RO4,Macroregion Four,R2F5,JSE_access2assis,Income Quintile 5,NA,16
+Slovakia,regional,SK01,Bratislava,R2F5,JSE_access2assis,Income Quintile 1,NA,23
+Slovakia,regional,SK04,East Slovakia,R2F5,JSE_access2assis,Income Quintile 4,NA,27
+Slovenia,regional,SI03,East Slovenia,R2F5,JSE_access2assis,Income Quintile 5,NA,28
+Spain,regional,ES1,North-West,R2F5,JSE_access2assis,Income Quintile 1,NA,21
+Spain,regional,ES2,North-East,R2F5,JSE_access2assis,Income Quintile 1,NA,15
+Spain,regional,ES3,Madrid,R2F5,JSE_access2assis,Income Quintile 1,NA,15
+Spain,regional,ES4,Centre,R2F5,JSE_access2assis,Income Quintile 1,NA,24
+Spain,regional,ES5,East,R2F5,JSE_access2assis,Income Quintile 1,NA,25
+Spain,regional,ES7,Canary Islands,R2F5,JSE_access2assis,Income Quintile 5,NA,16
+Sweden,regional,SE1,Eastern Sweden,R2F5,JSE_access2assis,Income Quintile 1,NA,26
+Sweden,regional,SE2,Southern Sweden,R2F5,JSE_access2assis,Income Quintile 1,NA,21
+Sweden,regional,SE3,Northern Sweden,R2F5,JSE_access2assis,Income Quintile 1,NA,17
+Belgium,regional,BE2,Flemish Region,R2F5,JSE_access2assis,Rural,NA,20
+Denmark,regional,DK01,Capital (region),R2F5,JSE_access2assis,Rural,NA,10
+Finland,regional,FI1B,Helsinki-Uusimaa,R2F5,JSE_access2assis,Rural,NA,23
+France,regional,FR1,Île-de-France,R2F5,JSE_access2assis,Rural,NA,14
+Germany,regional,DE1,Baden-Württemberg,R2F5,JSE_access2assis,Rural,NA,21
+Germany,regional,DEA,North Rhine-Westphalia,R2F5,JSE_access2assis,Rural,NA,10
+Greece,regional,EL3,Attica,R2F5,JSE_access2assis,Rural,NA,14
+Hungary,regional,HU1,Central Hungary,R2F5,JSE_access2assis,Rural,NA,26
+Ireland,regional,IE04,Northern and Western,R2F5,JSE_access2assis,Urban,NA,27
+Ireland,regional,IE06,Eastern and Midland,R2F5,JSE_access2assis,Rural,NA,27
+Malta,regional,MT00,Malta,R2F5,JSE_access2assis,Rural,NA,11
+Netherlands,regional,NL2,East Netherlands,R2F5,JSE_access2assis,Rural,NA,19
+Netherlands,regional,NL3,West Netherlands,R2F5,JSE_access2assis,Rural,NA,20
+Spain,regional,ES2,North-East,R2F5,JSE_access2assis,Rural,NA,21
+Spain,regional,ES3,Madrid,R2F5,JSE_access2assis,Rural,NA,8
+Spain,regional,ES5,East,R2F5,JSE_access2assis,Rural,NA,27
+Spain,regional,ES6,South,R2F5,JSE_access2assis,Rural,NA,24
+Spain,regional,ES7,Canary Islands,R2F5,JSE_access2assis,Rural,NA,15
+Sweden,regional,SE1,Eastern Sweden,R2F5,JSE_access2assis,Rural,NA,28
 Belgium,regional,BE2,Flemish Region,R2F7,JSE_affordcosts,18-24,NA,22
 Bulgaria,regional,BG3,North and South-East,R2F7,JSE_affordcosts,18-24,NA,24
 Croatia,regional,HR03,Adriatic Croatia,R2F7,JSE_affordcosts,18-24,NA,17
@@ -22182,221 +22180,223 @@ Spain,regional,ES3,Madrid,R2F49,LEP_rightsresp,Rural,NA,11
 Spain,regional,ES5,East,R2F49,LEP_rightsresp,Rural,NA,17
 Spain,regional,ES6,South,R2F49,LEP_rightsresp,Rural,NA,22
 Spain,regional,ES7,Canary Islands,R2F49,LEP_rightsresp,Rural,NA,19
-Belgium,regional,BE2,Flemish Region,R2F5,JSE_access2assis,18-24,NA,23
-Bulgaria,regional,BG3,North and South-East,R2F5,JSE_access2assis,18-24,NA,24
-Croatia,regional,HR02,Pannonian Croatia,R2F5,JSE_access2assis,18-24,NA,28
-Croatia,regional,HR03,Adriatic Croatia,R2F5,JSE_access2assis,18-24,NA,17
-Croatia,regional,HR05,Zagreb,R2F5,JSE_access2assis,18-24,NA,15
-Croatia,regional,HR06,Northern Croatia,R2F5,JSE_access2assis,18-24,NA,25
-Czechia,regional,CZ01,Prague,R2F5,JSE_access2assis,+65,NA,23
-Czechia,regional,CZ01,Prague,R2F5,JSE_access2assis,18-24,NA,10
-Czechia,regional,CZ01,Prague,R2F5,JSE_access2assis,25-34,NA,23
-Czechia,regional,CZ01,Prague,R2F5,JSE_access2assis,45-54,NA,23
-Czechia,regional,CZ01,Prague,R2F5,JSE_access2assis,55-64,NA,13
-Czechia,regional,CZ0506,North-East and South-East,R2F5,JSE_access2assis,18-24,NA,19
-Czechia,regional,CZ0708,Central Moravia and Silesia,R2F5,JSE_access2assis,18-24,NA,19
-Denmark,regional,DK02,Zealand,R2F5,JSE_access2assis,18-24,NA,26
-Denmark,regional,DK05,North Jutland,R2F5,JSE_access2assis,18-24,NA,15
-Finland,regional,FI1C20,South Finland and Åland,R2F5,JSE_access2assis,18-24,NA,23
-Finland,regional,FI1D,North and East Finland,R2F5,JSE_access2assis,18-24,NA,24
-France,regional,FRB,Centre-Val de Loire,R2F5,JSE_access2assis,18-24,NA,22
-France,regional,FRB,Centre-Val de Loire,R2F5,JSE_access2assis,25-34,NA,26
-France,regional,FRC,Burgundy-Franche-Comté,R2F5,JSE_access2assis,18-24,NA,23
-France,regional,FRD,Normandy,R2F5,JSE_access2assis,18-24,NA,21
-France,regional,FRF,Grand Est,R2F5,JSE_access2assis,18-24,NA,21
-France,regional,FRG,Loire Region,R2F5,JSE_access2assis,18-24,NA,19
-France,regional,FRH,Brittany ,R2F5,JSE_access2assis,18-24,NA,25
-France,regional,FRH,Brittany ,R2F5,JSE_access2assis,25-34,NA,24
-France,regional,FRI,New Aquitaine,R2F5,JSE_access2assis,18-24,NA,25
-France,regional,FRJ,Occitania,R2F5,JSE_access2assis,18-24,NA,22
-France,regional,FRJ,Occitania,R2F5,JSE_access2assis,25-34,NA,24
-France,regional,FRK,Auvergne-Rhône-Alpes,R2F5,JSE_access2assis,18-24,NA,19
-France,regional,FRL,PACA,R2F5,JSE_access2assis,18-24,NA,27
-France,regional,FRL,PACA,R2F5,JSE_access2assis,25-34,NA,29
-France,regional,FRL,PACA,R2F5,JSE_access2assis,35-44,NA,29
-France,regional,FRM,Corsica ,R2F5,JSE_access2assis,18-24,NA,8
-France,regional,FRM,Corsica ,R2F5,JSE_access2assis,25-34,NA,13
-France,regional,FRM,Corsica ,R2F5,JSE_access2assis,35-44,NA,16
-France,regional,FRM,Corsica ,R2F5,JSE_access2assis,45-54,NA,14
-France,regional,FRM,Corsica ,R2F5,JSE_access2assis,55-64,NA,16
-Germany,regional,DE1,Baden-Württemberg,R2F5,JSE_access2assis,18-24,NA,14
-Germany,regional,DE2,Bavaria,R2F5,JSE_access2assis,18-24,NA,22
-Germany,regional,DE3,Berlin,R2F5,JSE_access2assis,18-24,NA,27
-Germany,regional,DE3,Berlin,R2F5,JSE_access2assis,45-54,NA,29
-Germany,regional,DE4,Brandenburg,R2F5,JSE_access2assis,18-24,NA,19
-Germany,regional,DE4,Brandenburg,R2F5,JSE_access2assis,25-34,NA,28
-Germany,regional,DE5,Bremen,R2F5,JSE_access2assis,+65,NA,22
-Germany,regional,DE5,Bremen,R2F5,JSE_access2assis,18-24,NA,14
-Germany,regional,DE5,Bremen,R2F5,JSE_access2assis,45-54,NA,24
-Germany,regional,DE6,Hamburg,R2F5,JSE_access2assis,18-24,NA,23
-Germany,regional,DE7,Hessen,R2F5,JSE_access2assis,18-24,NA,28
-Germany,regional,DE8,Mecklenburg-Vorpommern,R2F5,JSE_access2assis,18-24,NA,12
-Germany,regional,DE9,Lower Saxony,R2F5,JSE_access2assis,18-24,NA,25
-Germany,regional,DEA,North Rhine-Westphalia,R2F5,JSE_access2assis,18-24,NA,24
-Germany,regional,DEB,Rhineland-Palatinate,R2F5,JSE_access2assis,18-24,NA,21
-Germany,regional,DEC,Saarland,R2F5,JSE_access2assis,18-24,NA,19
-Germany,regional,DED,Saxony,R2F5,JSE_access2assis,18-24,NA,19
-Germany,regional,DEE,Saxony-Anhalt,R2F5,JSE_access2assis,18-24,NA,19
-Germany,regional,DEE,Saxony-Anhalt,R2F5,JSE_access2assis,25-34,NA,24
-Germany,regional,DEF,Schleswig-Holstein,R2F5,JSE_access2assis,18-24,NA,19
-Germany,regional,DEG,Thuringia,R2F5,JSE_access2assis,18-24,NA,16
-Greece,regional,EL3,Attica,R2F5,JSE_access2assis,18-24,NA,17
-Greece,regional,EL4,"Aegean Islands, Crete",R2F5,JSE_access2assis,18-24,NA,23
-Greece,regional,EL4,"Aegean Islands, Crete",R2F5,JSE_access2assis,25-34,NA,26
-Greece,regional,EL5,North Greece,R2F5,JSE_access2assis,18-24,NA,19
-Greece,regional,EL6,Central Greece,R2F5,JSE_access2assis,18-24,NA,18
-Greece,regional,EL6,Central Greece,R2F5,JSE_access2assis,25-34,NA,22
-Hungary,regional,HU1,Central Hungary,R2F5,JSE_access2assis,18-24,NA,16
-Hungary,regional,HU2,Transdanubia ,R2F5,JSE_access2assis,18-24,NA,17
-Hungary,regional,HU3,Great Plain and North,R2F5,JSE_access2assis,18-24,NA,28
-Ireland,regional,IE04,Northern and Western,R2F5,JSE_access2assis,+65,NA,29
-Ireland,regional,IE04,Northern and Western,R2F5,JSE_access2assis,18-24,NA,10
-Ireland,regional,IE04,Northern and Western,R2F5,JSE_access2assis,25-34,NA,29
-Ireland,regional,IE05,Southern,R2F5,JSE_access2assis,18-24,NA,25
-Ireland,regional,IE06,Eastern and Midland,R2F5,JSE_access2assis,18-24,NA,28
-Italy,regional,ITF,South,R2F5,JSE_access2assis,18-24,NA,29
-Lithuania,regional,LT01,Capital Region,R2F5,JSE_access2assis,18-24,NA,28
-Malta,regional,MT00,Malta,R2F5,JSE_access2assis,18-24,NA,25
-Poland,regional,PL2,Southern,R2F5,JSE_access2assis,18-24,NA,24
-Poland,regional,PL5,South-Western,R2F5,JSE_access2assis,18-24,NA,27
-Poland,regional,PL8,Eastern,R2F5,JSE_access2assis,18-24,NA,28
-Poland,regional,PL9,Mazowieckie,R2F5,JSE_access2assis,18-24,NA,27
-Portugal,regional,PT1,Continental Portugal,R2F5,JSE_access2assis,18-24,NA,25
-Portugal,regional,PT2,Azores,R2F5,JSE_access2assis,18-24,NA,28
-Romania,regional,RO3,Macroregion Three,R2F5,JSE_access2assis,18-24,NA,29
-Romania,regional,RO4,Macroregion Four,R2F5,JSE_access2assis,18-24,NA,25
-Slovakia,regional,SK01,Bratislava,R2F5,JSE_access2assis,+65,NA,29
-Slovakia,regional,SK01,Bratislava,R2F5,JSE_access2assis,18-24,NA,9
-Slovakia,regional,SK01,Bratislava,R2F5,JSE_access2assis,55-64,NA,22
-Slovakia,regional,SK02,West Slovakia,R2F5,JSE_access2assis,18-24,NA,24
-Slovakia,regional,SK03,Central Slovakia,R2F5,JSE_access2assis,18-24,NA,24
-Slovakia,regional,SK04,East Slovakia,R2F5,JSE_access2assis,18-24,NA,28
-Slovenia,regional,SI03,East Slovenia,R2F5,JSE_access2assis,18-24,NA,26
-Slovenia,regional,SI04,West Slovenia,R2F5,JSE_access2assis,18-24,NA,28
-Spain,regional,ES1,North-West,R2F5,JSE_access2assis,18-24,NA,19
-Spain,regional,ES1,North-West,R2F5,JSE_access2assis,25-34,NA,25
-Spain,regional,ES2,North-East,R2F5,JSE_access2assis,18-24,NA,23
-Spain,regional,ES3,Madrid,R2F5,JSE_access2assis,18-24,NA,28
-Spain,regional,ES4,Centre,R2F5,JSE_access2assis,18-24,NA,21
-Spain,regional,ES5,East,R2F5,JSE_access2assis,18-24,NA,18
-Spain,regional,ES6,South,R2F5,JSE_access2assis,18-24,NA,19
-Spain,regional,ES7,Canary Islands,R2F5,JSE_access2assis,+65,NA,27
-Spain,regional,ES7,Canary Islands,R2F5,JSE_access2assis,18-24,NA,25
-Sweden,regional,SE2,Southern Sweden,R2F5,JSE_access2assis,18-24,NA,23
-Sweden,regional,SE3,Northern Sweden,R2F5,JSE_access2assis,18-24,NA,20
-Austria,regional,AT3,West Austria,R2F5,JSE_access2assis,Income Quintile 1,NA,18
-Croatia,regional,HR02,Pannonian Croatia,R2F5,JSE_access2assis,Income Quintile 3,NA,22
-Croatia,regional,HR03,Adriatic Croatia,R2F5,JSE_access2assis,Income Quintile 1,NA,28
-Croatia,regional,HR03,Adriatic Croatia,R2F5,JSE_access2assis,Income Quintile 2,NA,23
-Croatia,regional,HR03,Adriatic Croatia,R2F5,JSE_access2assis,Income Quintile 3,NA,22
-Croatia,regional,HR05,Zagreb,R2F5,JSE_access2assis,Income Quintile 3,NA,22
-Croatia,regional,HR06,Northern Croatia,R2F5,JSE_access2assis,Income Quintile 1,NA,29
-Croatia,regional,HR06,Northern Croatia,R2F5,JSE_access2assis,Income Quintile 2,NA,26
-Croatia,regional,HR06,Northern Croatia,R2F5,JSE_access2assis,Income Quintile 3,NA,22
-Croatia,regional,HR06,Northern Croatia,R2F5,JSE_access2assis,Income Quintile 4,NA,22
-Czechia,regional,CZ01,Prague,R2F5,JSE_access2assis,Income Quintile 1,NA,2
-Czechia,regional,CZ01,Prague,R2F5,JSE_access2assis,Income Quintile 2,NA,27
-Czechia,regional,CZ01,Prague,R2F5,JSE_access2assis,Income Quintile 3,NA,21
-Czechia,regional,CZ0506,North-East and South-East,R2F5,JSE_access2assis,Income Quintile 1,NA,28
-Czechia,regional,CZ0708,Central Moravia and Silesia,R2F5,JSE_access2assis,Income Quintile 1,NA,25
-Denmark,regional,DK01,Capital (region),R2F5,JSE_access2assis,Income Quintile 1,NA,28
-Denmark,regional,DK02,Zealand,R2F5,JSE_access2assis,Income Quintile 1,NA,24
-Denmark,regional,DK03,South Denmark,R2F5,JSE_access2assis,Income Quintile 5,NA,29
-Denmark,regional,DK04,Central Jutland,R2F5,JSE_access2assis,Income Quintile 5,NA,25
-Denmark,regional,DK05,North Jutland,R2F5,JSE_access2assis,Income Quintile 1,NA,24
-Estonia,regional,EE0,Estonia,R2F5,JSE_access2assis,Income Quintile 1,NA,25
-Finland,regional,FI1B,Helsinki-Uusimaa,R2F5,JSE_access2assis,Income Quintile 1,NA,28
-France,regional,FRG,Loire Region,R2F5,JSE_access2assis,Income Quintile 1,NA,21
-France,regional,FRH,Brittany ,R2F5,JSE_access2assis,Income Quintile 1,NA,28
-France,regional,FRM,Corsica ,R2F5,JSE_access2assis,Income Quintile 1,NA,12
-France,regional,FRM,Corsica ,R2F5,JSE_access2assis,Income Quintile 2,NA,18
-France,regional,FRM,Corsica ,R2F5,JSE_access2assis,Income Quintile 3,NA,20
-France,regional,FRM,Corsica ,R2F5,JSE_access2assis,Income Quintile 4,NA,19
-France,regional,FRM,Corsica ,R2F5,JSE_access2assis,Income Quintile 5,NA,20
-Germany,regional,DE5,Bremen,R2F5,JSE_access2assis,Income Quintile 1,NA,23
-Germany,regional,DE5,Bremen,R2F5,JSE_access2assis,Income Quintile 3,NA,27
-Germany,regional,DE5,Bremen,R2F5,JSE_access2assis,Income Quintile 4,NA,26
-Germany,regional,DE5,Bremen,R2F5,JSE_access2assis,Income Quintile 5,NA,29
-Germany,regional,DE8,Mecklenburg-Vorpommern,R2F5,JSE_access2assis,Income Quintile 5,NA,27
-Germany,regional,DEC,Saarland,R2F5,JSE_access2assis,Income Quintile 1,NA,27
-Germany,regional,DED,Saxony,R2F5,JSE_access2assis,Income Quintile 5,NA,24
-Greece,regional,EL3,Attica,R2F5,JSE_access2assis,Income Quintile 1,NA,16
-Greece,regional,EL3,Attica,R2F5,JSE_access2assis,Income Quintile 5,NA,10
-Greece,regional,EL4,"Aegean Islands, Crete",R2F5,JSE_access2assis,Income Quintile 4,NA,18
-Greece,regional,EL4,"Aegean Islands, Crete",R2F5,JSE_access2assis,Income Quintile 5,NA,10
-Greece,regional,EL5,North Greece,R2F5,JSE_access2assis,Income Quintile 5,NA,5
-Greece,regional,EL6,Central Greece,R2F5,JSE_access2assis,Income Quintile 4,NA,24
-Greece,regional,EL6,Central Greece,R2F5,JSE_access2assis,Income Quintile 5,NA,7
-Hungary,regional,HU1,Central Hungary,R2F5,JSE_access2assis,Income Quintile 1,NA,9
-Hungary,regional,HU1,Central Hungary,R2F5,JSE_access2assis,Income Quintile 2,NA,21
-Hungary,regional,HU1,Central Hungary,R2F5,JSE_access2assis,Income Quintile 3,NA,23
-Hungary,regional,HU2,Transdanubia ,R2F5,JSE_access2assis,Income Quintile 1,NA,11
-Hungary,regional,HU2,Transdanubia ,R2F5,JSE_access2assis,Income Quintile 2,NA,13
-Hungary,regional,HU2,Transdanubia ,R2F5,JSE_access2assis,Income Quintile 3,NA,25
-Hungary,regional,HU3,Great Plain and North,R2F5,JSE_access2assis,Income Quintile 1,NA,27
-Ireland,regional,IE04,Northern and Western,R2F5,JSE_access2assis,Income Quintile 5,NA,17
-Italy,regional,ITH,North-East,R2F5,JSE_access2assis,Income Quintile 1,NA,23
-Italy,regional,ITI,Centre,R2F5,JSE_access2assis,Income Quintile 1,NA,28
-Luxembourg,regional,LU00,Luxembourg,R2F5,JSE_access2assis,Income Quintile 5,NA,28
-Poland,regional,PL2,Southern,R2F5,JSE_access2assis,Income Quintile 4,NA,23
-Poland,regional,PL2,Southern,R2F5,JSE_access2assis,Income Quintile 5,NA,24
-Poland,regional,PL4,North-Western,R2F5,JSE_access2assis,Income Quintile 1,NA,15
-Poland,regional,PL4,North-Western,R2F5,JSE_access2assis,Income Quintile 2,NA,28
-Poland,regional,PL5,South-Western,R2F5,JSE_access2assis,Income Quintile 2,NA,27
-Poland,regional,PL5,South-Western,R2F5,JSE_access2assis,Income Quintile 4,NA,27
-Poland,regional,PL5,South-Western,R2F5,JSE_access2assis,Income Quintile 5,NA,21
-Poland,regional,PL6,Northern,R2F5,JSE_access2assis,Income Quintile 5,NA,22
-Poland,regional,PL7,Central,R2F5,JSE_access2assis,Income Quintile 1,NA,21
-Poland,regional,PL7,Central,R2F5,JSE_access2assis,Income Quintile 2,NA,26
-Poland,regional,PL8,Eastern,R2F5,JSE_access2assis,Income Quintile 1,NA,15
-Poland,regional,PL8,Eastern,R2F5,JSE_access2assis,Income Quintile 2,NA,15
-Poland,regional,PL8,Eastern,R2F5,JSE_access2assis,Income Quintile 3,NA,16
-Poland,regional,PL8,Eastern,R2F5,JSE_access2assis,Income Quintile 4,NA,14
-Poland,regional,PL8,Eastern,R2F5,JSE_access2assis,Income Quintile 5,NA,5
-Poland,regional,PL9,Mazowieckie,R2F5,JSE_access2assis,Income Quintile 1,NA,23
-Poland,regional,PL9,Mazowieckie,R2F5,JSE_access2assis,Income Quintile 2,NA,20
-Poland,regional,PL9,Mazowieckie,R2F5,JSE_access2assis,Income Quintile 5,NA,25
-Portugal,regional,PT1,Continental Portugal,R2F5,JSE_access2assis,Income Quintile 1,NA,28
-Portugal,regional,PT1,Continental Portugal,R2F5,JSE_access2assis,Income Quintile 5,NA,17
-Portugal,regional,PT2,Azores,R2F5,JSE_access2assis,Income Quintile 1,NA,26
-Portugal,regional,PT2,Azores,R2F5,JSE_access2assis,Income Quintile 5,NA,23
-Portugal,regional,PT3,Madeira,R2F5,JSE_access2assis,Income Quintile 1,NA,26
-Romania,regional,RO1,Macroregion One,R2F5,JSE_access2assis,Income Quintile 1,NA,25
-Romania,regional,RO1,Macroregion One,R2F5,JSE_access2assis,Income Quintile 5,NA,24
-Romania,regional,RO2,Macroregion Two,R2F5,JSE_access2assis,Income Quintile 5,NA,12
-Romania,regional,RO3,Macroregion Three,R2F5,JSE_access2assis,Income Quintile 1,NA,27
-Romania,regional,RO4,Macroregion Four,R2F5,JSE_access2assis,Income Quintile 5,NA,16
-Slovakia,regional,SK01,Bratislava,R2F5,JSE_access2assis,Income Quintile 1,NA,23
-Slovakia,regional,SK04,East Slovakia,R2F5,JSE_access2assis,Income Quintile 4,NA,27
-Slovenia,regional,SI03,East Slovenia,R2F5,JSE_access2assis,Income Quintile 5,NA,28
-Spain,regional,ES1,North-West,R2F5,JSE_access2assis,Income Quintile 1,NA,21
-Spain,regional,ES2,North-East,R2F5,JSE_access2assis,Income Quintile 1,NA,15
-Spain,regional,ES3,Madrid,R2F5,JSE_access2assis,Income Quintile 1,NA,15
-Spain,regional,ES4,Centre,R2F5,JSE_access2assis,Income Quintile 1,NA,24
-Spain,regional,ES5,East,R2F5,JSE_access2assis,Income Quintile 1,NA,25
-Spain,regional,ES7,Canary Islands,R2F5,JSE_access2assis,Income Quintile 5,NA,16
-Sweden,regional,SE1,Eastern Sweden,R2F5,JSE_access2assis,Income Quintile 1,NA,26
-Sweden,regional,SE2,Southern Sweden,R2F5,JSE_access2assis,Income Quintile 1,NA,21
-Sweden,regional,SE3,Northern Sweden,R2F5,JSE_access2assis,Income Quintile 1,NA,17
-Belgium,regional,BE2,Flemish Region,R2F5,JSE_access2assis,Rural,NA,20
-Denmark,regional,DK01,Capital (region),R2F5,JSE_access2assis,Rural,NA,10
-Finland,regional,FI1B,Helsinki-Uusimaa,R2F5,JSE_access2assis,Rural,NA,23
-France,regional,FR1,Île-de-France,R2F5,JSE_access2assis,Rural,NA,14
-Germany,regional,DE1,Baden-Württemberg,R2F5,JSE_access2assis,Rural,NA,21
-Germany,regional,DEA,North Rhine-Westphalia,R2F5,JSE_access2assis,Rural,NA,10
-Greece,regional,EL3,Attica,R2F5,JSE_access2assis,Rural,NA,14
-Hungary,regional,HU1,Central Hungary,R2F5,JSE_access2assis,Rural,NA,26
-Ireland,regional,IE04,Northern and Western,R2F5,JSE_access2assis,Urban,NA,27
-Ireland,regional,IE06,Eastern and Midland,R2F5,JSE_access2assis,Rural,NA,27
-Malta,regional,MT00,Malta,R2F5,JSE_access2assis,Rural,NA,11
-Netherlands,regional,NL2,East Netherlands,R2F5,JSE_access2assis,Rural,NA,19
-Netherlands,regional,NL3,West Netherlands,R2F5,JSE_access2assis,Rural,NA,20
-Spain,regional,ES2,North-East,R2F5,JSE_access2assis,Rural,NA,21
-Spain,regional,ES3,Madrid,R2F5,JSE_access2assis,Rural,NA,8
-Spain,regional,ES5,East,R2F5,JSE_access2assis,Rural,NA,27
-Spain,regional,ES6,South,R2F5,JSE_access2assis,Rural,NA,24
-Spain,regional,ES7,Canary Islands,R2F5,JSE_access2assis,Rural,NA,15
-Sweden,regional,SE1,Eastern Sweden,R2F5,JSE_access2assis,Rural,NA,28
+Belgium,regional,BE1,Brussels Region,R2F50,LEP_exforce,18-24,NA,23
+Belgium,regional,BE2,Flemish Region,R2F50,LEP_exforce,18-24,NA,25
+Belgium,regional,BE3,Waloon Region,R2F50,LEP_exforce,18-24,NA,23
+Bulgaria,regional,BG4,South -West/-Central,R2F50,LEP_exforce,18-24,NA,26
+Croatia,regional,HR02,Pannonian Croatia,R2F50,LEP_exforce,18-24,NA,17
+Croatia,regional,HR03,Adriatic Croatia,R2F50,LEP_exforce,18-24,NA,23
+Croatia,regional,HR03,Adriatic Croatia,R2F50,LEP_exforce,25-34,NA,25
+Croatia,regional,HR05,Zagreb,R2F50,LEP_exforce,18-24,NA,21
+Croatia,regional,HR05,Zagreb,R2F50,LEP_exforce,25-34,NA,28
+Croatia,regional,HR06,Northern Croatia,R2F50,LEP_exforce,18-24,NA,19
+Czechia,regional,CZ01,Prague,R2F50,LEP_exforce,18-24,NA,7
+Czechia,regional,CZ01,Prague,R2F50,LEP_exforce,25-34,NA,19
+Czechia,regional,CZ01,Prague,R2F50,LEP_exforce,45-54,NA,19
+Czechia,regional,CZ01,Prague,R2F50,LEP_exforce,55-64,NA,18
+Czechia,regional,CZ020304,Western and Central Bohemia,R2F50,LEP_exforce,18-24,NA,28
+Czechia,regional,CZ0506,North-East and South-East,R2F50,LEP_exforce,18-24,NA,22
+Czechia,regional,CZ0708,Central Moravia and Silesia,R2F50,LEP_exforce,18-24,NA,24
+Denmark,regional,DK01,Capital (region),R2F50,LEP_exforce,18-24,NA,28
+Denmark,regional,DK02,Zealand,R2F50,LEP_exforce,18-24,NA,19
+Denmark,regional,DK02,Zealand,R2F50,LEP_exforce,25-34,NA,28
+Denmark,regional,DK03,South Denmark,R2F50,LEP_exforce,18-24,NA,18
+Denmark,regional,DK04,Central Jutland,R2F50,LEP_exforce,18-24,NA,27
+Denmark,regional,DK05,North Jutland,R2F50,LEP_exforce,18-24,NA,27
+Finland,regional,FI19,West Finland,R2F50,LEP_exforce,18-24,NA,25
+Finland,regional,FI1B,Helsinki-Uusimaa,R2F50,LEP_exforce,18-24,NA,23
+Finland,regional,FI1D,North and East Finland,R2F50,LEP_exforce,18-24,NA,27
+France,regional,FRB,Centre-Val de Loire,R2F50,LEP_exforce,18-24,NA,24
+France,regional,FRC,Burgundy-Franche-Comté,R2F50,LEP_exforce,18-24,NA,23
+France,regional,FRD,Normandy,R2F50,LEP_exforce,18-24,NA,25
+France,regional,FRF,Grand Est,R2F50,LEP_exforce,18-24,NA,27
+France,regional,FRH,Brittany ,R2F50,LEP_exforce,18-24,NA,25
+France,regional,FRI,New Aquitaine,R2F50,LEP_exforce,18-24,NA,23
+France,regional,FRL,PACA,R2F50,LEP_exforce,18-24,NA,20
+France,regional,FRL,PACA,R2F50,LEP_exforce,25-34,NA,26
+France,regional,FRM,Corsica ,R2F50,LEP_exforce,+65,NA,22
+France,regional,FRM,Corsica ,R2F50,LEP_exforce,18-24,NA,8
+France,regional,FRM,Corsica ,R2F50,LEP_exforce,25-34,NA,13
+France,regional,FRM,Corsica ,R2F50,LEP_exforce,35-44,NA,12
+France,regional,FRM,Corsica ,R2F50,LEP_exforce,45-54,NA,19
+France,regional,FRM,Corsica ,R2F50,LEP_exforce,55-64,NA,15
+Germany,regional,DE2,Bavaria,R2F50,LEP_exforce,18-24,NA,26
+Germany,regional,DE3,Berlin,R2F50,LEP_exforce,18-24,NA,17
+Germany,regional,DE4,Brandenburg,R2F50,LEP_exforce,18-24,NA,13
+Germany,regional,DE5,Bremen,R2F50,LEP_exforce,+65,NA,22
+Germany,regional,DE5,Bremen,R2F50,LEP_exforce,18-24,NA,21
+Germany,regional,DE5,Bremen,R2F50,LEP_exforce,25-34,NA,28
+Germany,regional,DE5,Bremen,R2F50,LEP_exforce,35-44,NA,23
+Germany,regional,DE5,Bremen,R2F50,LEP_exforce,55-64,NA,23
+Germany,regional,DE6,Hamburg,R2F50,LEP_exforce,18-24,NA,24
+Germany,regional,DE7,Hessen,R2F50,LEP_exforce,18-24,NA,20
+Germany,regional,DE8,Mecklenburg-Vorpommern,R2F50,LEP_exforce,18-24,NA,22
+Germany,regional,DE8,Mecklenburg-Vorpommern,R2F50,LEP_exforce,25-34,NA,19
+Germany,regional,DE9,Lower Saxony,R2F50,LEP_exforce,18-24,NA,22
+Germany,regional,DEA,North Rhine-Westphalia,R2F50,LEP_exforce,18-24,NA,24
+Germany,regional,DEB,Rhineland-Palatinate,R2F50,LEP_exforce,18-24,NA,25
+Germany,regional,DEC,Saarland,R2F50,LEP_exforce,18-24,NA,25
+Germany,regional,DED,Saxony,R2F50,LEP_exforce,18-24,NA,19
+Germany,regional,DEE,Saxony-Anhalt,R2F50,LEP_exforce,18-24,NA,17
+Germany,regional,DEF,Schleswig-Holstein,R2F50,LEP_exforce,18-24,NA,27
+Germany,regional,DEG,Thuringia,R2F50,LEP_exforce,18-24,NA,18
+Germany,regional,DEG,Thuringia,R2F50,LEP_exforce,25-34,NA,29
+Greece,regional,EL3,Attica,R2F50,LEP_exforce,18-24,NA,13
+Greece,regional,EL4,"Aegean Islands, Crete",R2F50,LEP_exforce,18-24,NA,20
+Greece,regional,EL5,North Greece,R2F50,LEP_exforce,18-24,NA,14
+Greece,regional,EL5,North Greece,R2F50,LEP_exforce,25-34,NA,19
+Greece,regional,EL6,Central Greece,R2F50,LEP_exforce,18-24,NA,14
+Hungary,regional,HU1,Central Hungary,R2F50,LEP_exforce,18-24,NA,26
+Hungary,regional,HU1,Central Hungary,R2F50,LEP_exforce,55-64,NA,28
+Hungary,regional,HU2,Transdanubia ,R2F50,LEP_exforce,18-24,NA,11
+Hungary,regional,HU3,Great Plain and North,R2F50,LEP_exforce,18-24,NA,24
+Ireland,regional,IE04,Northern and Western,R2F50,LEP_exforce,+65,NA,27
+Ireland,regional,IE04,Northern and Western,R2F50,LEP_exforce,18-24,NA,13
+Ireland,regional,IE04,Northern and Western,R2F50,LEP_exforce,45-54,NA,23
+Ireland,regional,IE04,Northern and Western,R2F50,LEP_exforce,55-64,NA,24
+Ireland,regional,IE05,Southern,R2F50,LEP_exforce,18-24,NA,26
+Italy,regional,ITG,Islands,R2F50,LEP_exforce,18-24,NA,28
+Italy,regional,ITH,North-East,R2F50,LEP_exforce,18-24,NA,28
+Lithuania,regional,LT01,Capital Region,R2F50,LEP_exforce,18-24,NA,29
+Luxembourg,regional,LU00,Luxembourg,R2F50,LEP_exforce,18-24,NA,26
+Malta,regional,MT00,Malta,R2F50,LEP_exforce,18-24,NA,19
+Malta,regional,MT00,Malta,R2F50,LEP_exforce,55-64,NA,27
+Poland,regional,PL4,North-Western,R2F50,LEP_exforce,18-24,NA,28
+Poland,regional,PL6,Northern,R2F50,LEP_exforce,18-24,NA,29
+Poland,regional,PL7,Central,R2F50,LEP_exforce,18-24,NA,28
+Portugal,regional,PT1,Continental Portugal,R2F50,LEP_exforce,18-24,NA,25
+Portugal,regional,PT2,Azores,R2F50,LEP_exforce,18-24,NA,25
+Portugal,regional,PT2,Azores,R2F50,LEP_exforce,25-34,NA,28
+Portugal,regional,PT3,Madeira,R2F50,LEP_exforce,18-24,NA,28
+Romania,regional,RO1,Macroregion One,R2F50,LEP_exforce,18-24,NA,27
+Romania,regional,RO4,Macroregion Four,R2F50,LEP_exforce,18-24,NA,27
+Slovakia,regional,SK01,Bratislava,R2F50,LEP_exforce,18-24,NA,12
+Slovakia,regional,SK02,West Slovakia,R2F50,LEP_exforce,18-24,NA,25
+Slovakia,regional,SK04,East Slovakia,R2F50,LEP_exforce,18-24,NA,21
+Slovenia,regional,SI03,East Slovenia,R2F50,LEP_exforce,18-24,NA,14
+Slovenia,regional,SI03,East Slovenia,R2F50,LEP_exforce,25-34,NA,23
+Slovenia,regional,SI04,West Slovenia,R2F50,LEP_exforce,18-24,NA,19
+Spain,regional,ES1,North-West,R2F50,LEP_exforce,18-24,NA,19
+Spain,regional,ES2,North-East,R2F50,LEP_exforce,18-24,NA,22
+Spain,regional,ES2,North-East,R2F50,LEP_exforce,25-34,NA,28
+Spain,regional,ES3,Madrid,R2F50,LEP_exforce,18-24,NA,20
+Spain,regional,ES3,Madrid,R2F50,LEP_exforce,25-34,NA,28
+Spain,regional,ES4,Centre,R2F50,LEP_exforce,18-24,NA,28
+Spain,regional,ES4,Centre,R2F50,LEP_exforce,25-34,NA,28
+Spain,regional,ES5,East,R2F50,LEP_exforce,18-24,NA,29
+Spain,regional,ES5,East,R2F50,LEP_exforce,25-34,NA,28
+Spain,regional,ES7,Canary Islands,R2F50,LEP_exforce,18-24,NA,22
+Sweden,regional,SE1,Eastern Sweden,R2F50,LEP_exforce,18-24,NA,21
+Sweden,regional,SE2,Southern Sweden,R2F50,LEP_exforce,18-24,NA,23
+Sweden,regional,SE3,Northern Sweden,R2F50,LEP_exforce,18-24,NA,25
+Belgium,regional,BE1,Brussels Region,R2F50,LEP_exforce,Income Quintile 4,NA,22
+Croatia,regional,HR02,Pannonian Croatia,R2F50,LEP_exforce,Income Quintile 3,NA,23
+Croatia,regional,HR03,Adriatic Croatia,R2F50,LEP_exforce,Income Quintile 1,NA,20
+Croatia,regional,HR03,Adriatic Croatia,R2F50,LEP_exforce,Income Quintile 3,NA,21
+Croatia,regional,HR05,Zagreb,R2F50,LEP_exforce,Income Quintile 1,NA,29
+Croatia,regional,HR05,Zagreb,R2F50,LEP_exforce,Income Quintile 3,NA,22
+Croatia,regional,HR06,Northern Croatia,R2F50,LEP_exforce,Income Quintile 1,NA,21
+Croatia,regional,HR06,Northern Croatia,R2F50,LEP_exforce,Income Quintile 2,NA,24
+Croatia,regional,HR06,Northern Croatia,R2F50,LEP_exforce,Income Quintile 3,NA,17
+Czechia,regional,CZ01,Prague,R2F50,LEP_exforce,Income Quintile 1,NA,9
+Czechia,regional,CZ01,Prague,R2F50,LEP_exforce,Income Quintile 2,NA,15
+Czechia,regional,CZ01,Prague,R2F50,LEP_exforce,Income Quintile 3,NA,27
+Czechia,regional,CZ01,Prague,R2F50,LEP_exforce,Income Quintile 4,NA,27
+Czechia,regional,CZ0506,North-East and South-East,R2F50,LEP_exforce,Income Quintile 1,NA,22
+Denmark,regional,DK02,Zealand,R2F50,LEP_exforce,Income Quintile 1,NA,24
+Denmark,regional,DK03,South Denmark,R2F50,LEP_exforce,Income Quintile 1,NA,19
+Denmark,regional,DK04,Central Jutland,R2F50,LEP_exforce,Income Quintile 1,NA,28
+Estonia,regional,EE0,Estonia,R2F50,LEP_exforce,Income Quintile 1,NA,14
+France,regional,FR1,Île-de-France,R2F50,LEP_exforce,Income Quintile 1,NA,22
+France,regional,FRL,PACA,R2F50,LEP_exforce,Income Quintile 1,NA,27
+France,regional,FRM,Corsica ,R2F50,LEP_exforce,Income Quintile 1,NA,12
+France,regional,FRM,Corsica ,R2F50,LEP_exforce,Income Quintile 2,NA,22
+France,regional,FRM,Corsica ,R2F50,LEP_exforce,Income Quintile 3,NA,11
+France,regional,FRM,Corsica ,R2F50,LEP_exforce,Income Quintile 4,NA,17
+France,regional,FRM,Corsica ,R2F50,LEP_exforce,Income Quintile 5,NA,17
+Germany,regional,DE5,Bremen,R2F50,LEP_exforce,Income Quintile 1,NA,28
+Germany,regional,DE5,Bremen,R2F50,LEP_exforce,Income Quintile 2,NA,29
+Germany,regional,DE5,Bremen,R2F50,LEP_exforce,Income Quintile 3,NA,28
+Germany,regional,DE5,Bremen,R2F50,LEP_exforce,Income Quintile 4,NA,28
+Germany,regional,DE5,Bremen,R2F50,LEP_exforce,Income Quintile 5,NA,25
+Germany,regional,DEE,Saxony-Anhalt,R2F50,LEP_exforce,Income Quintile 5,NA,27
+Greece,regional,EL3,Attica,R2F50,LEP_exforce,Income Quintile 1,NA,26
+Greece,regional,EL3,Attica,R2F50,LEP_exforce,Income Quintile 3,NA,27
+Greece,regional,EL3,Attica,R2F50,LEP_exforce,Income Quintile 4,NA,24
+Greece,regional,EL3,Attica,R2F50,LEP_exforce,Income Quintile 5,NA,15
+Greece,regional,EL4,"Aegean Islands, Crete",R2F50,LEP_exforce,Income Quintile 4,NA,19
+Greece,regional,EL4,"Aegean Islands, Crete",R2F50,LEP_exforce,Income Quintile 5,NA,7
+Greece,regional,EL5,North Greece,R2F50,LEP_exforce,Income Quintile 5,NA,3
+Greece,regional,EL6,Central Greece,R2F50,LEP_exforce,Income Quintile 5,NA,10
+Hungary,regional,HU1,Central Hungary,R2F50,LEP_exforce,Income Quintile 1,NA,11
+Hungary,regional,HU1,Central Hungary,R2F50,LEP_exforce,Income Quintile 2,NA,15
+Hungary,regional,HU1,Central Hungary,R2F50,LEP_exforce,Income Quintile 3,NA,12
+Hungary,regional,HU2,Transdanubia ,R2F50,LEP_exforce,Income Quintile 1,NA,18
+Hungary,regional,HU2,Transdanubia ,R2F50,LEP_exforce,Income Quintile 2,NA,28
+Hungary,regional,HU2,Transdanubia ,R2F50,LEP_exforce,Income Quintile 3,NA,29
+Ireland,regional,IE04,Northern and Western,R2F50,LEP_exforce,Income Quintile 2,NA,28
+Ireland,regional,IE04,Northern and Western,R2F50,LEP_exforce,Income Quintile 4,NA,27
+Ireland,regional,IE04,Northern and Western,R2F50,LEP_exforce,Income Quintile 5,NA,23
+Ireland,regional,IE05,Southern,R2F50,LEP_exforce,Income Quintile 5,NA,24
+Italy,regional,ITH,North-East,R2F50,LEP_exforce,Income Quintile 1,NA,27
+Poland,regional,PL2,Southern,R2F50,LEP_exforce,Income Quintile 2,NA,27
+Poland,regional,PL2,Southern,R2F50,LEP_exforce,Income Quintile 3,NA,26
+Poland,regional,PL2,Southern,R2F50,LEP_exforce,Income Quintile 4,NA,22
+Poland,regional,PL2,Southern,R2F50,LEP_exforce,Income Quintile 5,NA,26
+Poland,regional,PL4,North-Western,R2F50,LEP_exforce,Income Quintile 1,NA,14
+Poland,regional,PL4,North-Western,R2F50,LEP_exforce,Income Quintile 2,NA,22
+Poland,regional,PL4,North-Western,R2F50,LEP_exforce,Income Quintile 3,NA,27
+Poland,regional,PL5,South-Western,R2F50,LEP_exforce,Income Quintile 2,NA,21
+Poland,regional,PL5,South-Western,R2F50,LEP_exforce,Income Quintile 5,NA,24
+Poland,regional,PL6,Northern,R2F50,LEP_exforce,Income Quintile 2,NA,26
+Poland,regional,PL7,Central,R2F50,LEP_exforce,Income Quintile 1,NA,26
+Poland,regional,PL7,Central,R2F50,LEP_exforce,Income Quintile 2,NA,26
+Poland,regional,PL7,Central,R2F50,LEP_exforce,Income Quintile 3,NA,22
+Poland,regional,PL8,Eastern,R2F50,LEP_exforce,Income Quintile 1,NA,16
+Poland,regional,PL8,Eastern,R2F50,LEP_exforce,Income Quintile 2,NA,16
+Poland,regional,PL8,Eastern,R2F50,LEP_exforce,Income Quintile 3,NA,26
+Poland,regional,PL8,Eastern,R2F50,LEP_exforce,Income Quintile 4,NA,7
+Poland,regional,PL8,Eastern,R2F50,LEP_exforce,Income Quintile 5,NA,3
+Poland,regional,PL9,Mazowieckie,R2F50,LEP_exforce,Income Quintile 1,NA,21
+Poland,regional,PL9,Mazowieckie,R2F50,LEP_exforce,Income Quintile 5,NA,20
+Portugal,regional,PT1,Continental Portugal,R2F50,LEP_exforce,Income Quintile 1,NA,21
+Portugal,regional,PT1,Continental Portugal,R2F50,LEP_exforce,Income Quintile 5,NA,17
+Portugal,regional,PT2,Azores,R2F50,LEP_exforce,Income Quintile 5,NA,23
+Portugal,regional,PT3,Madeira,R2F50,LEP_exforce,Income Quintile 1,NA,20
+Romania,regional,RO1,Macroregion One,R2F50,LEP_exforce,Income Quintile 1,NA,21
+Romania,regional,RO1,Macroregion One,R2F50,LEP_exforce,Income Quintile 5,NA,26
+Romania,regional,RO2,Macroregion Two,R2F50,LEP_exforce,Income Quintile 5,NA,20
+Romania,regional,RO3,Macroregion Three,R2F50,LEP_exforce,Income Quintile 1,NA,20
+Romania,regional,RO4,Macroregion Four,R2F50,LEP_exforce,Income Quintile 5,NA,22
+Slovakia,regional,SK01,Bratislava,R2F50,LEP_exforce,Income Quintile 3,NA,26
+Slovakia,regional,SK01,Bratislava,R2F50,LEP_exforce,Income Quintile 4,NA,27
+Spain,regional,ES1,North-West,R2F50,LEP_exforce,Income Quintile 1,NA,27
+Spain,regional,ES2,North-East,R2F50,LEP_exforce,Income Quintile 1,NA,15
+Spain,regional,ES3,Madrid,R2F50,LEP_exforce,Income Quintile 1,NA,20
+Spain,regional,ES4,Centre,R2F50,LEP_exforce,Income Quintile 1,NA,23
+Spain,regional,ES4,Centre,R2F50,LEP_exforce,Income Quintile 5,NA,29
+Spain,regional,ES5,East,R2F50,LEP_exforce,Income Quintile 1,NA,26
+Spain,regional,ES7,Canary Islands,R2F50,LEP_exforce,Income Quintile 5,NA,25
+Sweden,regional,SE2,Southern Sweden,R2F50,LEP_exforce,Income Quintile 1,NA,16
+Sweden,regional,SE3,Northern Sweden,R2F50,LEP_exforce,Income Quintile 1,NA,19
+Belgium,regional,BE2,Flemish Region,R2F50,LEP_exforce,Rural,NA,13
+Denmark,regional,DK01,Capital (region),R2F50,LEP_exforce,Rural,NA,12
+Finland,regional,FI1B,Helsinki-Uusimaa,R2F50,LEP_exforce,Rural,NA,26
+France,regional,FR1,Île-de-France,R2F50,LEP_exforce,Rural,NA,9
+Germany,regional,DEA,North Rhine-Westphalia,R2F50,LEP_exforce,Rural,NA,11
+Greece,regional,EL3,Attica,R2F50,LEP_exforce,Rural,NA,16
+Hungary,regional,HU1,Central Hungary,R2F50,LEP_exforce,Rural,NA,26
+Ireland,regional,IE04,Northern and Western,R2F50,LEP_exforce,Urban,NA,27
+Ireland,regional,IE06,Eastern and Midland,R2F50,LEP_exforce,Rural,NA,27
+Malta,regional,MT00,Malta,R2F50,LEP_exforce,Rural,NA,9
+Netherlands,regional,NL2,East Netherlands,R2F50,LEP_exforce,Rural,NA,24
+Netherlands,regional,NL3,West Netherlands,R2F50,LEP_exforce,Rural,NA,21
+Netherlands,regional,NL4,South Netherlands,R2F50,LEP_exforce,Rural,NA,23
+Spain,regional,ES2,North-East,R2F50,LEP_exforce,Rural,NA,22
+Spain,regional,ES3,Madrid,R2F50,LEP_exforce,Rural,NA,11
+Spain,regional,ES5,East,R2F50,LEP_exforce,Rural,NA,17
+Spain,regional,ES6,South,R2F50,LEP_exforce,Rural,NA,22
+Spain,regional,ES7,Canary Islands,R2F50,LEP_exforce,Rural,NA,20
 Belgium,regional,BE1,Brussels Region,R2F51,LEP_pdaperformance,18-24,NA,24
 Belgium,regional,BE2,Flemish Region,R2F51,LEP_pdaperformance,18-24,NA,25
 Belgium,regional,BE3,Waloon Region,R2F51,LEP_pdaperformance,18-24,NA,23
