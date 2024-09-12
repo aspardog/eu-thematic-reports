@@ -1,26 +1,27 @@
 # Inputs checklist
 In order to create a EU Thematic Report, we need the following elements:
-- [ ] Cover Photos: Only visible in the PDF version of the report
-- [ ] HTML Header: Only visible in the HTML version of the report. It is a phrase and it will be the first thing visible to users when 
+- [ ] Front Cover
+- [ ] HTML Header
 - [ ] Scrollytelling
     - [ ] Images
     - [ ] Text
 - [ ] Key Findings
 - [ ] Introduction
-    - [ ] By the numbers
 - [ ] Executive Summary
 - [ ] Chapters
     - [ ] Findings
+    - [ ] Visual boxes
     - [ ] Section Findings
     - [ ] Charts
         - [ ] Titles
         - [ ] Subtitles
-        - [ ] Insights
         - [ ] SVGs
         - [ ] Notes and footnotes
-    - [ ] Visual boxes
-- [ ] Appendix
+- [ ] Appendix [REMOVED!!!]
 - [ ] About the WJP
-- [ ] Methodological Materials
-- [ ] References
+- [ ] Methodology
+    - [ ] Text
+    - [ ] By the numbers visual
 - [ ] Acknowledgements
+    - [ ] Text
+    - [ ] ISBN & Legal information

@@ -340,7 +340,7 @@ save4web <- function(data, source){
             theme          = report,
             pillar_id      = pillar,
             pillar_name    = chapter,
-            subpillar_name = section
+            subpillar_name = title
           ),
         by = "chart_id"
       ) %>%
