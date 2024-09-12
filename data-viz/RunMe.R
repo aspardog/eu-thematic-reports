@@ -125,7 +125,8 @@ outline <- read.xlsx(
     path2EU,
     "EU-S Data/reports/eu-thematic-reports/data-viz/inputs/report_outline.xlsx"),
   sheet = "outline"
-)
+) %>%
+  filter(type != "Box") # We don't need to produce data points or visualizations for boxes
 
 # Loading map layers
 base_map <- st_read(
@@ -176,6 +177,7 @@ color_range <- read.xlsx(
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # Create a named list to loop over
+
 chart_list <- list(
   "GPP"     = outline %>%
     filter(special_wrangling == F & description == "GPP") %>%
@@ -227,7 +229,7 @@ data_points <- imap(
       # Saving data for website
       save4web(
         wrangled_data %>%
-          filter(!chart_id %in% c("R1B1", "R2B1")), # We can skip the data from these Boxes. They are repeated.
+          filter(!chart_id %in% c("R1B1", "R2B1", "R3B1")), # We can skip the data from these Boxes. They are repeated.
         source = source
       )
       
@@ -279,7 +281,7 @@ write_csv(
 charts <- lapply(
   outline %>%
     filter(
-      thematic_reports == T & type != "Box"
+      thematic_reports == T
     ) %>%
     pull(chart_id),
   # "R1F67",
