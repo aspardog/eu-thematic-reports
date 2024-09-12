@@ -321,6 +321,7 @@ save4web <- function(data, source){
         section = str_remove_all(section, "Chapter .+\\. "), 
       )
   }
+  
   if (source == "QRQ"){
     data4web <- data %>%
       select(
@@ -353,7 +354,26 @@ save4web <- function(data, source){
         country, level, nuts_ltn, nuts_id, 
         theme, pillar, pillar_name, pillar_id, subpillar, subpillar_name,
         indicator, score
-      )
+      ) 
+    
+    # using NEW TARGET VARS (this is what is stored in indicator field)
+    qrq_imputation_indicators <- c('p_1_01', 'p_1_02', 'p_1_03', 'p_1_04', 'p_1_05', 'p_1_06',
+                                   'p_2_1', 'p_2_2', "p_2_3", "p_2_4", "p_2_5", "p_2_6", 
+                                   "p_8_2")
+      
+    # grab only the national values for the given indicators
+    national_values <- data4web %>%
+      filter(level == "national" & indicator %in% qrq_imputation_indicators) %>%
+      select(country, indicator, national_score = score)
+    
+    # join intermediate column with data4web
+    data4web <- data4web %>%
+      left_join(national_values, by = c("country", "indicator")) %>% 
+      mutate(
+        score = ifelse(!is.na(national_score), national_score, score) # replace regional w/ nat
+      ) %>%
+      select(-national_score) # remove extra column
+      
   }
   
   # Saving data locally
