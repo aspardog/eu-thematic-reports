@@ -1,7 +1,7 @@
-# Europeans value that their Government promotes transparency and fights corruption
+# We asked 72,000 Europeans what they thought of transparency and corruption. Most people thought
 
-## The majority still think it is a force for good.
+## anticorruption measures to be ineffective,
 
-## Men are more doubtful of their health.
+## political parties as the most corrupt,
 
-## Party like young citizens.
+## businesses face unnecessary red tape.
