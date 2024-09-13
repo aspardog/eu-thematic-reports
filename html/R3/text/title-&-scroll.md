@@ -1,4 +1,4 @@
-# We asked 72,000 Europeans what they thought of transparency and corruption. Most people thought
+# We asked 72000 Europeans what they thought of transparency and corruption Most people thought
 
 ## anticorruption measures to be ineffective,
 

@@ -24,11 +24,12 @@ The World Justice Project EUROVOICES 2024 thematic reports (Democracy & Fundamen
 
 These reports were made possible by the generous support of the European Union. Any opinions, findings, and conclusions are those of the author(s) and do not necessarily reflect the views of the European Union.
 
-----
+<br>
 
-**_Requests to reproduce this document should be sent to_**: 
-Alejandro Ponce
-World Justice Project
-1025 Vermont Avenue NW, Suite 1200
-Washington, DC 20005, USA
-E-mail: wjp@worldjusticeproject.org
+**_Requests to reproduce this document should be sent to_**:
+
+Alejandro Ponce<br>
+*World Justice Project*<br>
+1025 Vermont Avenue NW, Suite 1200<br>
+Washington, DC 20005, USA<br>
+E-mail: *wjp@worldjusticeproject.org*

@@ -1,7 +1,7 @@
-# Europeans value that their Government promotes transparency and fights corruption
+# We asked 72,000 Europeans their perceptions about democratic governance and fundamental rights. The majority
 
-## The majority still think it is a force for good.
+## trusts the electoral process, 
 
-## Men are more doubtful of their health.
+## worries about the impact of misinformation, 
 
-## Party like young citizens.
+## don’t feel listened to by their local governments.

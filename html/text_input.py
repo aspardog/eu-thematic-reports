@@ -26,7 +26,7 @@ class text_input:
         if self.report == "R2":
             title = "Justice & Safety"
         if self.report == "R3":
-            title = "Transparency & Corruption"
+            title = "Corruption & Transparency"
 
         elements = ["front_page_theme", "front_page_title", "front_page_image", "front_page_year", "front_page_source"]
         content  = ["Thematic Report", title, "cover.jpg", "2024", "World Justice Project EUROVOICES"]
@@ -45,7 +45,7 @@ class text_input:
 
         if self.input_type == "title-&-scroll":
             title   = re.search(r"^# (.*)", self.text, re.MULTILINE).group(1)
-            scrolls = re.findall(r"^## (.*)", self.text, re.MULTILINE)
+            scrolls = re.findall(r"^(## .*)", self.text, re.MULTILINE)
 
             id_1 = ["title"] + [f"scroll{i+1}" for i in range(len(scrolls))]
             type_1 = ["title"] + ["scrollytelling"] * len(scrolls)
@@ -71,10 +71,10 @@ class text_input:
 
             output = pd.concat([df1, df2])
         
-        if self.input_type in ["introduction", "executive-summary", "about", "methodology", "acknowledgements"]:
+        if self.input_type in ["introduction", "executive-summary", "about", "methodology", "acknowledgements", "appendix"]:
 
             if self.input_type == "methodology":
-                input = "appendix"
+                input = "methodological"
             else:
                 input = self.input_type
 
@@ -101,13 +101,16 @@ class text_input:
             )
 
             # Looping over chapters
+            chapter_no = 1
             for chapter in chapters:
 
                 chapter_content = chapter.split("\n", 1)
                 main_header = chapter_content[0].strip("##").strip()
-                chapter_n   = re.match(r"^\d+", main_header).group().strip()
-                if len(chapter_n) < 2:
-                    chapter_n = f"0{chapter_n}"
+                if chapter_no < 10:
+                    chapter_n = f"0{chapter_no}"
+                else:
+                    chapter_n = f"{chapter_no}"
+                chapter_no += 1
                 header_text = re.sub(r"^\d+\. ", "", main_header)
                 chapter_data = {
                     "id"         : f"ch{chapter_n}",
@@ -139,30 +142,30 @@ class text_input:
                     sub_lines  = sub_section.split('\n', 1)
                     sub_header = sub_lines[0].strip('### ').strip()
                     sub_text   = sub_lines[1].strip() if len(sub_lines) > 1 else ""
-                    section_n  = re.sub(
-                        "\.", "_", 
-                        re.match(r"^\d+\.\d+", sub_header).group().strip() 
-                    ) 
+                    section_n  = re.match(r"^\d+", sub_header).group().strip() 
+                    # section_n  =  re.sub("\.", "", re.search(r'<span[^>]*>(.*?)</span>', sub_header).group(1).strip())
                     section_data = {
-                        "id"         : f"sec{section_n}",
+                        "id"         : f"ch{chapter_n}_sec{section_n}",
                         "type"       : "sub_chapter",
                         "content"    : f"## {sub_header}",
                         "belongs_to" : f"ch{chapter_n}",
                         "settings"   : None
                     }
                     findings_data_2 = {
-                        "id"         : f"f_sec{section_n}",
+                        "id"         : f"f_ch{chapter_n}_sec{section_n}",
                         "type"       : "html",
                         "content"    : sub_text,
-                        "belongs_to" : f"sec{section_n}",
+                        "belongs_to" : f"ch{chapter_n}_sec{section_n}",
                         "settings"   : None
                     }
 
                     data.extend([section_data, findings_data_2])
 
+                    match_in_outline = re.match(r"\d+\.\s*(.*)", sub_header).group(1).strip()
+                    # match_in_outline = re.split(r'</span>', sub_header)[1].strip()
                     charts4section = (
                         chartsdata.copy()
-                        .loc[chartsdata["section"] == section_n]
+                        .loc[chartsdata["section"] == match_in_outline]
                     )
 
                     # Looping over charts
@@ -184,7 +187,7 @@ class text_input:
                             "id"         : figid,
                             "type"       : "accordion_viz",
                             "content"    : f"<span>{row['figure']}</span> {row['title']}",
-                            "belongs_to" : f"sec{section_n}",
+                            "belongs_to" : f"ch{chapter_n}_sec{section_n}",
                             "settings"   : setting
                         }
                         accordion_viz_category = {
@@ -217,7 +220,7 @@ class text_input:
                         }
 
                         data.extend([accordion_viz, accordion_viz_category, accordion_viz_description, accordion_viz_image, accordion_viz_note])
-
+                
             output = pd.DataFrame.from_dict(data)
         
         return output
