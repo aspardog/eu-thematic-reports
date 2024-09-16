@@ -89,6 +89,13 @@ class text_input:
             ) 
         
         if self.input_type == "thematic-findings":
+
+            if self.report == "R1":
+                title = "Democracy & Fundamental Rights"
+            if self.report == "R2":
+                title = "Justice & Safety"
+            if self.report == "R3":
+                title = "Corruption & Transparency"
             
             # Creating an empty list to store the results
             data = []
@@ -137,13 +144,18 @@ class text_input:
                     .findall(sub_content)
                 )
 
+                section_no = 1
                 # Looping over sections
                 for sub_section in sections:
                     sub_lines  = sub_section.split('\n', 1)
                     sub_header = sub_lines[0].strip('### ').strip()
                     sub_text   = sub_lines[1].strip() if len(sub_lines) > 1 else ""
-                    section_n  = re.match(r"^\d+", sub_header).group().strip() 
+                    # section_n  = re.match(r"^\d+", sub_header).group().strip() 
                     # section_n  =  re.sub("\.", "", re.search(r'<span[^>]*>(.*?)</span>', sub_header).group(1).strip())
+                    section_n = f"{section_no}"
+                    if section_no < 10:
+                        section_n = f"0{section_n}"
+                    section_no += 1
                     section_data = {
                         "id"         : f"ch{chapter_n}_sec{section_n}",
                         "type"       : "sub_chapter",
@@ -161,11 +173,11 @@ class text_input:
 
                     data.extend([section_data, findings_data_2])
 
-                    match_in_outline = re.match(r"\d+\.\s*(.*)", sub_header).group(1).strip()
+                    # match_in_outline = re.match(r"\d+\.\s*(.*)", sub_header).group(1).strip()
                     # match_in_outline = re.split(r'</span>', sub_header)[1].strip()
                     charts4section = (
                         chartsdata.copy()
-                        .loc[chartsdata["section"] == match_in_outline]
+                        .loc[(chartsdata["report"] == title) & (chartsdata["section"] == sub_header)]
                     )
 
                     # Looping over charts

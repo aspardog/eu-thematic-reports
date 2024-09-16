@@ -1,0 +1,946 @@
+id,tipo de elemento,contenido (markdown),pertenece a ,settings
+front_page_theme,front_page_theme,Thematic Report,,
+front_page_title,front_page_title,Democracy & Fundamental Rights,,
+front_page_image,front_page_image,cover.jpg,,
+front_page_year,front_page_year,2024,,
+front_page_source,front_page_source,World Justice Project EUROVOICES,,
+title,title,"We asked 72,000 Europeans their perceptions about democratic governance and fundamental rights. The majority",,
+scroll1,scrollytelling,"## trusts the electoral process, ",,
+scroll2,scrollytelling,"## worries about the impact of misinformation, ",,
+scroll3,scrollytelling,## don’t feel listened to by their local governments.,,
+,scrollytelling_img,scroll1.png,scroll1,
+,scrollytelling_img,scroll2.png,scroll2,
+,scrollytelling_img,scroll3.png,scroll3,
+introduction,introduction,"The rule of law is one of the fundamental values upon which the European Union (EU) is founded and represents a constitutional priority shared by all Member States (Article 2 of the Treaty on EU). The rule of law is essential for the proper functioning of democratic societies and the protection of human rights. Furthermore, the rule of law plays a pivotal role in shaping the potential for sustainable regional growth and development.
+
+Adherence to this principle requires effective democratic institutions that ensure public accountability and the separation of powers. It also mandates access to independent and impartial courts that protect people's fundamental rights and guarantee equality before the law. Upholding the rule of law further requires implementing targeted, evidence-informed strategies at both national and subnational levels, which are tailored to meet the diverse needs of people across different regions.
+
+In this context, World Justice Project EUROVOICES provides new data that captures the perceptions and experiences of people living in 110 subnational regions across the 27 EU Member States in the areas of justice, democratic governance, and the rule of law. The report series draws upon surveys responses from more than 8,000 local and independent legal experts, as well as regionally representative household surveys administered to more than 64,000 respondents across the EU. With this data, the World Justice Project (WJP) seeks to contribute to evidence-based decision-making at all government levels by helping decision-makers identify strengths, weaknesses, and policy priorities in their regions.
+
+This data is organized into three **thematic reports**: 
+
+1. Democracy and Fundamental Rights
+2. Justice and Safety
+3. Transparency and Corruption
+  
+Each report focuses on a selection of pillars of the rule of law, comprised of indicators that cover specific dimensions of each concept. Findings for each indicator are categorized into **Expert Scorecards**, calculated using expert survey responses, and **People’s Voices**, highlighting complementary question-level data from WJP’s household surveys. These two categories are presented side-by-side, offering a comprehensive view of how EU residents perceive and experience justice, governance, and the rule of law in their respective regions.  
+
+The Expert Scorecard captures legal experts’ assessments of composite indicators with scores ranging from 0 to 1, where 1 is the highest possible score and 0 is the lowest possible score. Each score is calculated by aggregating a set of questions that are relevant to various dimensions of the concept being measured. This expert data allows a deeper examination of the technical aspects that determine how people interact with a complex network of institutions and the justice system. In contrast, findings from the People’s Voices database, presented at the question level using percentages (0 to 100%), reflect the beliefs and experiences of the general population.  
+  
+The project’s conceptual framework builds upon the tested and proven methodology of the WJP Rule of Law Index®—a rigorous quantitative tool that evaluates and ranks 142 countries across key dimensions of the rule of law— with adaptations to reflect the institutional architecture in the EU. It should be noted that the results of both tools are not comparable, because this project presents data from its household surveys separately from its Expert Scorecards, whereas the Index integrates the General Population Poll into each country’s aggregate scores. Additionally, adjustments have been made to the conceptual framework and to the data analysis protocol, including changes in the methods used to calculate scores. For more information on the methodology of World Justice Project EUROVOICES, refer to the methodology section at the end of this report. 
+
+Given the diversity of institutional design across EU Member States, the questions in this project’s surveys mainly focus on the outcomes experienced by individuals concerning different issues related to justice, governance, and rule of law. These outcomes result from their interactions with a complex network of institutions at local, national, and supranational levels. In this sense, the questionnaires minimized references to government institutions, focusing instead on the perceptions and experiences of people in the city, town, or village where they live. Regional information was produced following the framework of territorial divisions of the Nomenclature of Territorial Units for Statistics (NUTS) system.
+
+This project is funded by the EU and complements other research activities conducted by the WJP with the mission of advancing the rule of law worldwide. This data may also complement other monitoring tools that aim to promote a rule of law culture and enhance economic, social, and territorial cohesion in the EU, such as the European Commission’s yearly Rule of Law Report, and the EU Justice Scoreboard, and the Cohesion Report, among others.
+
+### About this Report
+
+This report, Democracy and Fundamental Rights, includes four chapters: (I) **Checks on government power**, (II) **Government respect for checks on power**, (III) **Civic participation**, and (IV) **Fundamental rights**. Each chapter contains thematic findings, definitions for each indicator included, and graphs depicting both expert and household responses (Expert Scorecard and People’s Voices, respectively).
+
+1. **_Checks on government power_**: In a society where the rule of law prevails, those in positions of authority within public institutions are held accountable for their actions. This requires a robust constitutional framework that not only reviews the legality of the exercise of power but also ensures that those in power face appropriate legal consequences for misconduct. This chapter outlines the functioning of the basic political accountability mechanisms that constrain government power in democratic settings, encompassing indicators on (1) legislative oversight, (2) judicial independence, (3) independent oversight, (4) independent prosecution, (5) free, fair, and secure elections, and (6) non-governmental checks. These indicators collectively assess the effectiveness of the structures in place to ensure that government actions are checked and balanced by legal standards.
+
+2. **_Government respect for checks on power_**: The effectiveness of the democratic checks, as discussed in Chapter 1, is key to ensuring democratic governance. This chapter addresses evolving challenges to these mechanisms, namely focusing on whether they are compromised or undermined by the executive branch. The indicators measure the extent to which the head of government respects these established democratic controls, including respect for (1) the constitution and political opponents, (2) judicial independence, (3) independent oversight, (4) independent prosecution, (5) the electoral system, and (6) civil liberties.
+
+3. **_Civic participation_**: A pluralistic decision-making process is not limited to the operation of electoral procedures; it must also consider the continuous participation of the public. At its foundational level, civic participation entails keeping the public informed about government actions. More substantive engagement includes public consultations and open parliament practices, which contribute to decision-making processes, whether these contributions are binding or advisory. The most integrated level of civic participation involves the public in the co-creation of public policies. This is reflected in one composite indicator, (1) civic participation, measuring the extent to which governments collaborate with civil society in policy design and the degree to which local governments consider public input in their decisions. 
+
+4. **_Fundamental rights_**: The integrity of democratic institutions is closely linked to respect and protection of fundamental rights. Specifically, the fundamental freedoms of assembly and association, and opinion and expression, constitute a central accountability mechanism in a democratic context. This chapter includes information on people's perceptions and experiences regarding the enjoyment of 21 fundamental rights defined in the Charter of Fundamental Rights of the European Union. For analytical coherence, some of these rights have been grouped into 14 broader categories: (1) prohibition of torture and inhuman treatment, (2) prohibition of slavery and forced labor, (3) freedom of thought, conscience, and religion, (4) freedom of peaceful assembly and association, (5) freedom of opinion and expression, (6) right to property, (7) right to asylum, (8) equality before the law, (9) workers’ rights, (10) right to vote and to stand as a candidate at elections, (11) right of access to documents, (12) right to petition, (13) right of movement and of residence, and (14) due process of law.",,
+ch01,chapter,# Checks on Government Power,,
+ch01_f,findings,"- Confidence in judicial independence varies widely across the European Union, but is strongest in Finland, Denmark, and Estonia. Among legal experts, Poles have the most negative view of judicial independence. Among the general population, Bulgarians have the least faith that judges decide cases independently.  
+- Non-governmental checks on power, including civil society and the media, are effective across the European Union and people feel free to protest with the exception of Hungary. Hungary is the only country where the majority of people don’t feel free to participate in peaceful protests.
+- There is broad trust in fair and free elections across the EU.",ch01,
+ch01_sec01,sub_chapter,## Legislative oversight,ch01,
+f_ch01_sec01,html,"This indicator measures the legislature’s ability to function as a check on the executive branch, preventing abuses of power and ensuring that both laws and policies serve the public interest.
+
+- The average score for the expert indicator of **legislative oversight** among the 27 EU Member States is 0.59 (Figure 1). Country-level scores range from 0.77 in Finland to 0.30 in Hungary.",ch01_sec01,
+sec01_R1F01,accordion_viz,<span>Figure 1</span> Legislative oversight,ch01_sec01,expert
+,accordion_viz_category,Expert's Scorecard,sec01_R1F01,
+sec01_R1F01_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the national level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec01_R1F01,
+sec01_R1F01_i,accordion_viz_image,R1F1.svg,sec01_R1F01,
+sec01_R1F01_n,accordion_viz_note,,sec01_R1F01,
+ch01_sec02,sub_chapter,## Judicial independence,ch01,
+f_ch01_sec02,html,"This indicator examines the ability of courts, judges, and magistrates to perform their duties impartially, on the basis of facts, without any improper influence, pressure, or political interference, including their ability to effectively review the legality of executive actions.
+
+- The average score for the expert indicator of **judicial independence** among the 27 EU Member States is 0.67 (Figure 2). Country-level scores are highest in Denmark (0.84), Finland (0.84), and Estonia (0.82), and lowest in Poland (0.46), Croatia (0.48), and Bulgaria (0.48).
+- In only 2 Member States, Denmark and the Netherlands, the majority of respondents agree that **local courts are free of political influence in their application of power** (Figure 3).
+- In 5 Member States, the majority of respondents from the general population agree that **judges decide cases independently, without any sort of pressure**. Figures range from 70.1% in Denmark to 12.7% in Bulgaria (Figure 4).",ch01_sec02,
+sec02_R1F02,accordion_viz,<span>Figure 2</span> Judicial independence,ch01_sec02,expert
+,accordion_viz_category,Expert's Scorecard,sec02_R1F02,
+sec02_R1F02_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the national level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec02_R1F02,
+sec02_R1F02_i,accordion_viz_image,R1F2.svg,sec02_R1F02,
+sec02_R1F02_n,accordion_viz_note,,sec02_R1F02,
+sec02_R1F03,accordion_viz,<span>Figure 3</span> Independence of local courts,ch01_sec02,people
+,accordion_viz_category,People's Voices,sec02_R1F03,
+sec02_R1F03_d,accordion_viz_description,Percentage of respondents who agree that local courts are free of political influence in their application of power,sec02_R1F03,
+sec02_R1F03_i,accordion_viz_image,R1F3.svg,sec02_R1F03,
+sec02_R1F03_n,accordion_viz_note,,sec02_R1F03,
+sec02_R1F04,accordion_viz,<span>Figure 4</span> Independence of judges,ch01_sec02,people
+,accordion_viz_category,People's Voices,sec02_R1F04,
+sec02_R1F04_d,accordion_viz_description,Percentage of respondents who agree that judges decide cases in an independent manner and are not subject to any sort of pressure,sec02_R1F04,
+sec02_R1F04_i,accordion_viz_image,R1F4.svg,sec02_R1F04,
+sec02_R1F04_n,accordion_viz_note,,sec02_R1F04,
+ch01_sec03,sub_chapter,## Independent oversight,ch01,
+f_ch01_sec03,html,"This indicator evaluates the effectiveness and autonomy of Supreme Audit Institutions, anticorruption agencies, and human rights institutions in overseeing government activities and safeguarding the public interest.
+
+- The average score for the expert indicator of **independent oversight** among the 27 EU Member States is 0.57 (Figure 5). Country-level scores range from 0.79 in Denmark to 0.38 in Bulgaria.",ch01_sec03,
+sec03_R1F05,accordion_viz,<span>Figure 5</span> Independent oversight,ch01_sec03,expert
+,accordion_viz_category,Expert's Scorecard,sec03_R1F05,
+sec03_R1F05_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the national level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec03_R1F05,
+sec03_R1F05_i,accordion_viz_image,R1F5.svg,sec03_R1F05,
+sec03_R1F05_n,accordion_viz_note,,sec03_R1F05,
+ch01_sec04,sub_chapter,## Independent prosecution,ch01,
+f_ch01_sec04,html,"This indicator measures the autonomy and effectiveness of prosecutors’ offices in their mandate to uphold legal standards and prosecute criminal cases without bias or political interference, including in criminal cases involving government officials.
+
+- The average score for the expert indicator of **independent prosecution** among the 27 EU Member States is 0.60 (Figure 6). Country-level scores range from 0.82 in Sweden to 0.36 in Bulgaria.
+- In just 8 Members States, at least half of respondents agree that **prosecutors work independently, without any sort of pressure** (Figure 7). Figures range from 71.2% in Finland to 18.1% in Slovakia.
+- In 23 Member States, the majority of respondents agree that **if police officers violate the law, they will be punished for these violations** (Figure 8). Also in 23 Member States, the majority of respondents agree that **police officers will be held accountable if they request bribes from the public** (Figure 9) and, in 21 Member States, the majority of respondents believe that **police officers will be held accountable if they accept bribes from gangs or criminal organizations** (Figure 10). Perceptions of the accountability of police officers are consistently highest in Finland and lowest in Cyprus, Hungary, and Slovakia.
+- In 23 Member States, the majority of respondents agree that **if someone makes a complaint against a police officer, the accusation will be investigated** (Figure 11).",ch01_sec04,
+sec04_R1F06,accordion_viz,<span>Figure 6</span> Independent prosecution,ch01_sec04,expert
+,accordion_viz_category,Expert's Scorecard,sec04_R1F06,
+sec04_R1F06_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the national level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec04_R1F06,
+sec04_R1F06_i,accordion_viz_image,R1F6.svg,sec04_R1F06,
+sec04_R1F06_n,accordion_viz_note,,sec04_R1F06,
+sec04_R1F07,accordion_viz,<span>Figure 7</span> Independence of criminal prosecution,ch01_sec04,people
+,accordion_viz_category,People's Voices,sec04_R1F07,
+sec04_R1F07_d,accordion_viz_description,"Percentage of respondents who agree that crimes are prosecuted in an independent manner, without any sort of pressure",sec04_R1F07,
+sec04_R1F07_i,accordion_viz_image,R1F7.svg,sec04_R1F07,
+sec04_R1F07_n,accordion_viz_note,,sec04_R1F07,
+sec04_R1F90,accordion_viz,<span>Figure 8</span> Accountability of police officers who violate the law,ch01_sec04,people
+,accordion_viz_category,People's Voices,sec04_R1F90,
+sec04_R1F90_d,accordion_viz_description,"Percentage of respondents who agree that if members of the police violate the law, they will be punished for these violations",sec04_R1F90,
+sec04_R1F90_i,accordion_viz_image,R1F90.svg,sec04_R1F90,
+sec04_R1F90_n,accordion_viz_note,,sec04_R1F90,
+sec04_R1F91,accordion_viz,<span>Figure 9</span> Accountability of police officers who request bribes,ch01_sec04,people
+,accordion_viz_category,People's Voices,sec04_R1F91,
+sec04_R1F91_d,accordion_viz_description,"Percentage of respondents who agree that if members of the police request bribes from the public, they will be held accountable",sec04_R1F91,
+sec04_R1F91_i,accordion_viz_image,R1F91.svg,sec04_R1F91,
+sec04_R1F91_n,accordion_viz_note,,sec04_R1F91,
+sec04_R1F92,accordion_viz,<span>Figure 10</span> Accountability of police officers who accept bribes from criminal organizations,ch01_sec04,people
+,accordion_viz_category,People's Voices,sec04_R1F92,
+sec04_R1F92_d,accordion_viz_description,"Percentage of respondents who agree that if members of the police accept bribes from gangs or criminal organizations, they will be held accountable",sec04_R1F92,
+sec04_R1F92_i,accordion_viz_image,R1F92.svg,sec04_R1F92,
+sec04_R1F92_n,accordion_viz_note,,sec04_R1F92,
+sec04_R1F93,accordion_viz,<span>Figure 11</span> Investigation of complaints against police officers,ch01_sec04,people
+,accordion_viz_category,People's Voices,sec04_R1F93,
+sec04_R1F93_d,accordion_viz_description,"Percentage of respondents who agree that if someone makes a complaint against a member of the police, the accusation will be investigated.",sec04_R1F93,
+sec04_R1F93_i,accordion_viz_image,R1F93.svg,sec04_R1F93,
+sec04_R1F93_n,accordion_viz_note,,sec04_R1F93,
+ch01_sec05,sub_chapter,"## Free, fair, and secure elections",ch01,
+f_ch01_sec05,html,"This indicator assesses the degree to which the electoral process is devoid of coercion, intimidation, or undue influence; that elections are conducted impartially, ensuring a level playing field for all candidates and parties to compete under equitable conditions; and that mechanisms are in place to safeguard electoral results against illegal attempts of disruption.
+
+- The average score for the expert indicator of **free, fair, and secure elections** among the 27 EU Member States is 0.75 (Figure 12). Country-level cores range from 0.90 in Denmark and Finland to 0.50 in Hungary.
+- In 25 Member States, more than two-thirds of respondents agree that **people can vote freely without feeling harassed or pressured** except for Hungary (47.4%) and Cyprus (55.4%) (Figure 14).
+- In 15 Member States, at least half of respondents **agree that local government officials are elected through a clean process**, with figures ranging from 72.8% in Austria to 33.7% in Hungary (Figure 13).",ch01_sec05,
+sec05_R1F08,accordion_viz,"<span>Figure 12</span> Free, fair and secure elections",ch01_sec05,expert
+,accordion_viz_category,Expert's Scorecard,sec05_R1F08,
+sec05_R1F08_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the national level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec05_R1F08,
+sec05_R1F08_i,accordion_viz_image,R1F8.svg,sec05_R1F08,
+sec05_R1F08_n,accordion_viz_note,,sec05_R1F08,
+sec05_R1F09,accordion_viz,<span>Figure 13</span> Transparency and fairness in local elections,ch01_sec05,people
+,accordion_viz_category,People's Voices,sec05_R1F09,
+sec05_R1F09_d,accordion_viz_description,Percentage of respondents who agree that local government officials are elected through a clean process,sec05_R1F09,
+sec05_R1F09_i,accordion_viz_image,R1F9.svg,sec05_R1F09,
+sec05_R1F09_n,accordion_viz_note,,sec05_R1F09,
+sec05_R1F10,accordion_viz,<span>Figure 14</span> Freedom to vote without harassment or pressure,ch01_sec05,people
+,accordion_viz_category,People's Voices,sec05_R1F10,
+sec05_R1F10_d,accordion_viz_description,Percentage of respondents who agree that people can vote freely without feeling harassed or pressured,sec05_R1F10,
+sec05_R1F10_i,accordion_viz_image,R1F10.svg,sec05_R1F10,
+sec05_R1F10_n,accordion_viz_note,,sec05_R1F10,
+ch01_sec06,sub_chapter,## Non-governmental checks,ch01,
+f_ch01_sec06,html,"This indicator assesses the essential freedoms and rights that empower the public to watch over government power. These freedoms include the right to peaceful assembly and association, freedom of expression, and the right to petition authorities. Freedom of expression comprises freedom of the media, including safeguards for independent journalism, the capacity of Civil Society Organizations (CSOs) to operate independently and contribute to diverse public discourse and advocacy, and the ability of opposition voices to openly challenge and debate policies.
+
+- The average score for the expert indicator of **non-governmental checks** among the 27 EU Member States is 0.70 (Figure 15). Country-level scores range from 0.88 in Finland to 0.46 in Hungary.
+- In 19 Member States, the majority of respondents agree the **media can freely express opinions against government officials, policies and actions without fear of retaliation** (Figure 16) and in 13 Member States, the majority agree the **media can expose cases of corruption by high-ranking government officers without fear of retaliation** (Figure 17). Perceptions of media freedom in both questions are the highest in Denmark, Finland, and Portugal, and the lowest in Greece and Hungary.  
+- In 26 Member States (the exception being Hungary), the majority of respondents agree that **people can express opinions against the government** (Figure 20) and that **political parties can express opinions against government policies and actions** (Figure 19), while in 21 Member States, the majority agree that **civil society organizations can express opinions against government policies and actions** (Figure 18). In Hungary, perceptions of the ability of individuals, political parties, and CSOs to freely express opinions against the government were significantly below EU average.
+- In 26 Member States, the majority of respondents **agree that people can freely participate in peaceful protests and demonstrations without fear of reprisal** (Figure 21). The exception is Hungary (45.7%).",ch01_sec06,
+sec06_R1F11,accordion_viz,<span>Figure 15</span> Non-governmental checks,ch01_sec06,expert
+,accordion_viz_category,Expert's Scorecard,sec06_R1F11,
+sec06_R1F11_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the national level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec06_R1F11,
+sec06_R1F11_i,accordion_viz_image,R1F11.svg,sec06_R1F11,
+sec06_R1F11_n,accordion_viz_note,,sec06_R1F11,
+sec06_R1F12,accordion_viz,<span>Figure 16</span> Freedom of the media to criticize government policies,ch01_sec06,people
+,accordion_viz_category,People's Voices,sec06_R1F12,
+sec06_R1F12_d,accordion_viz_description,"Percentage of respondents who agree that the media can freely express opinions against government officials, policies and actions without fear of retaliation",sec06_R1F12,
+sec06_R1F12_i,accordion_viz_image,R1F12.svg,sec06_R1F12,
+sec06_R1F12_n,accordion_viz_note,,sec06_R1F12,
+sec06_R1F13,accordion_viz,<span>Figure 17</span> Freedom of media to expose cases of corruption,ch01_sec06,people
+,accordion_viz_category,People's Voices,sec06_R1F13,
+sec06_R1F13_d,accordion_viz_description,Percentage of respondents who agree that can freely expose cases of corruption by high-ranking government officers without fear of retaliation,sec06_R1F13,
+sec06_R1F13_i,accordion_viz_image,R1F13.svg,sec06_R1F13,
+sec06_R1F13_n,accordion_viz_note,,sec06_R1F13,
+sec06_R1F14,accordion_viz,<span>Figure 18</span> Freedom of civil society organizations to criticize government policies,ch01_sec06,people
+,accordion_viz_category,People's Voices,sec06_R1F14,
+sec06_R1F14_d,accordion_viz_description,Percentage of respondents who agree that civil society organizations can freely express opinions against government policies and actions without fear of retaliation,sec06_R1F14,
+sec06_R1F14_i,accordion_viz_image,R1F14.svg,sec06_R1F14,
+sec06_R1F14_n,accordion_viz_note,,sec06_R1F14,
+sec06_R1F15,accordion_viz,<span>Figure 19</span> Political parties' freedom to express opposition to government policies,ch01_sec06,people
+,accordion_viz_category,People's Voices,sec06_R1F15,
+sec06_R1F15_d,accordion_viz_description,Percentage of respondents who agree that political parties can freely express opinions against government policies and actions without fear of retaliation,sec06_R1F15,
+sec06_R1F15_i,accordion_viz_image,R1F15.svg,sec06_R1F15,
+sec06_R1F15_n,accordion_viz_note,,sec06_R1F15,
+sec06_R1F16,accordion_viz,<span>Figure 20</span> Freedom to express opinions against the government,ch01_sec06,people
+,accordion_viz_category,People's Voices,sec06_R1F16,
+sec06_R1F16_d,accordion_viz_description,Percentage of respondents who agree that people can freely express opinions against the government,sec06_R1F16,
+sec06_R1F16_i,accordion_viz_image,R1F16.svg,sec06_R1F16,
+sec06_R1F16_n,accordion_viz_note,,sec06_R1F16,
+sec06_R1F17,accordion_viz,<span>Figure 21</span> Freedom to participate in peaceful protests,ch01_sec06,people
+,accordion_viz_category,People's Voices,sec06_R1F17,
+sec06_R1F17_d,accordion_viz_description,Percentage of respondents who agree that people can freely participate in peaceful protests and demonstrations without fear of reprisal,sec06_R1F17,
+sec06_R1F17_i,accordion_viz_image,R1F17.svg,sec06_R1F17,
+sec06_R1F17_n,accordion_viz_note,,sec06_R1F17,
+ch02,chapter,# Government Respect for Checks on Power,,
+ch02_f,findings,"- Local legal experts say the government fails to adequately respect judicial independence in three countries: Poland, Hungary, and Slovakia, where the expert score is below 0.50, on a scale from 0 to 1. 
+- Across the EU, most people believe politicians use misinformation to shape public opinion. The only exceptions are Luxembourg, Denmark, the Netherlands, and Finland.
+- In two thirds of EU Member States, most people think government officials attack or discredit the media and civil society groups.",ch02,
+ch02_sec01,sub_chapter,## Government respect for the constitution and political opponents,ch02,
+f_ch02_sec01,html,"- The average score for the expert indicator of **government respect for term limits, the law-making process, and opposing voices** among the 27 EU Member States is 0.71 (Figure 22). Finland scored the highest at 0.92, while three Member States have scores below 0.50: Hungary (0.40), Slovakia (0.44) and Poland (0.48).
+- In 21 Member States, the majority of respondents agree that **top government officials of the national government attack or discredit opposition parties** (Figure 25), however in just 8 Member States the majority of respondents agree that **top government officials prosecute and convict members of opposition parties** (Figure 26). 
+- In 23 Member States, the majority of respondents agree that **top government officials generate distractions from important issues** (Figure 27). The four outliers, where fewer than half agree with this statement, are the Netherlands (43.1%), Luxembourg (39.7%), Finland (39.2%), and Denmark (30.0%).
+- In 23 Member States, at least half of respondents agree that **top government officials of the national government blame different members of society for domestic problems** (Figure 24) and in 9 Member States, the majority of respondents believe that **top government officials censor opposition voices domestically** (Figure 23).",ch02_sec01,
+sec01_R1F18,accordion_viz,<span>Figure 22</span> Government respect for the constitution and political opponents,ch02_sec01,expert
+,accordion_viz_category,Expert's Scorecard,sec01_R1F18,
+sec01_R1F18_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the national level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec01_R1F18,
+sec01_R1F18_i,accordion_viz_image,R1F18.svg,sec01_R1F18,
+sec01_R1F18_n,accordion_viz_note,,sec01_R1F18,
+sec01_R1F19,accordion_viz,<span>Figure 23</span> Censorship of domestic opposition voices,ch02_sec01,people
+,accordion_viz_category,People's Voices,sec01_R1F19,
+sec01_R1F19_d,accordion_viz_description,Percentage of respondents who agree that top government officials of the national government censor opposition voices domestically,sec01_R1F19,
+sec01_R1F19_i,accordion_viz_image,R1F19.svg,sec01_R1F19,
+sec01_R1F19_n,accordion_viz_note,,sec01_R1F19,
+sec01_R1F20,accordion_viz,<span>Figure 24</span> Blaming groups of society for domestic problems,ch02_sec01,people
+,accordion_viz_category,People's Voices,sec01_R1F20,
+sec01_R1F20_d,accordion_viz_description,Percentage of respondents who agree that top government officials of the national government blame different members or groups of society for domestic problems,sec01_R1F20,
+sec01_R1F20_i,accordion_viz_image,R1F20.svg,sec01_R1F20,
+sec01_R1F20_n,accordion_viz_note,,sec01_R1F20,
+sec01_R1F21,accordion_viz,<span>Figure 25</span> Attacks on opposition parties,ch02_sec01,people
+,accordion_viz_category,People's Voices,sec01_R1F21,
+sec01_R1F21_d,accordion_viz_description,Percentage of respondents who agree that top government officials of the national government attack or discredit opposition parties,sec01_R1F21,
+sec01_R1F21_i,accordion_viz_image,R1F21.svg,sec01_R1F21,
+sec01_R1F21_n,accordion_viz_note,,sec01_R1F21,
+sec01_R1F22,accordion_viz,<span>Figure 26</span> Prosecution of opposition party members,ch02_sec01,people
+,accordion_viz_category,People's Voices,sec01_R1F22,
+sec01_R1F22_d,accordion_viz_description,Percentage of respondents who agree that top government officials of the national government prosecute and convict members of opposition parties,sec01_R1F22,
+sec01_R1F22_i,accordion_viz_image,R1F22.svg,sec01_R1F22,
+sec01_R1F22_n,accordion_viz_note,,sec01_R1F22,
+sec01_R1F23,accordion_viz,<span>Figure 27</span> Distractions from important issues,ch02_sec01,people
+,accordion_viz_category,People's Voices,sec01_R1F23,
+sec01_R1F23_d,accordion_viz_description,Percentage of respondents who agree that top government officials of the national government generate distractions from important issues and blame external enemies or internal traitors,sec01_R1F23,
+sec01_R1F23_i,accordion_viz_image,R1F23.svg,sec01_R1F23,
+sec01_R1F23_n,accordion_viz_note,,sec01_R1F23,
+ch02_sec02,sub_chapter,## Government respect for judicial independence,ch02,
+f_ch02_sec02,html,"This indicator assesses the government’s effective and expeditious enforcement of judicial decisions, as well as the government’s restraint in attempts to limit the courts’ freedom to interpret the legality of government actions. This includes court packing, influencing the appointment or removal of judges, and exerting political pressure to obtain a favorable ruling.
+
+- The average score for the expert indicator of **government respect for judicial independence** among the 27 EU Member States is 0.68 (Figure 28). In 25 Member States, the country-level score is at least 0.50; the exceptions being Poland (0.39) and Hungary (0.47).
+- In 11 Member States, the majority of respondents agree that **top government officials seek to limit the courts’ competences and freedom to interpret the law** (Figure 29). In 13 Member States, the majority of respondents agree that top government officials **seek to influence the promotion and removal of judges** (Figure 31). In 10 Member States, the majority agree that **top government officials refuse to comply with court rulings that are not in their favor** (Figure 30).
+- There is considerable variance across the EU Member States regarding government respect for judicial independence; for example, in Bulgaria 76.9% of respondents agree that government officials influence the promotion and removal of judges while only 14.7% say the same in Sweden.",ch02_sec02,
+sec02_R1F24,accordion_viz,<span>Figure 28</span> Government respect for judicial independence,ch02_sec02,expert
+,accordion_viz_category,Expert's Scorecard,sec02_R1F24,
+sec02_R1F24_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the national level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec02_R1F24,
+sec02_R1F24_i,accordion_viz_image,R1F24.svg,sec02_R1F24,
+sec02_R1F24_n,accordion_viz_note,,sec02_R1F24,
+sec02_R1F25,accordion_viz,<span>Figure 29</span> Government efforts to limit courts' competences,ch02_sec02,people
+,accordion_viz_category,People's Voices,sec02_R1F25,
+sec02_R1F25_d,accordion_viz_description,Percentage of respondents who agree that top government officials of the national government seek to limit the courts’ competences and freedom to interpret the law,sec02_R1F25,
+sec02_R1F25_i,accordion_viz_image,R1F25.svg,sec02_R1F25,
+sec02_R1F25_n,accordion_viz_note,,sec02_R1F25,
+sec02_R1F26,accordion_viz,<span>Figure 30</span> Government compliance with court rulings,ch02_sec02,people
+,accordion_viz_category,People's Voices,sec02_R1F26,
+sec02_R1F26_d,accordion_viz_description,Percentage of respondents who agree that top government officials of the national government refuse to comply with court rulings that are not in their favor,sec02_R1F26,
+sec02_R1F26_i,accordion_viz_image,R1F26.svg,sec02_R1F26,
+sec02_R1F26_n,accordion_viz_note,,sec02_R1F26,
+sec02_R1F27,accordion_viz,<span>Figure 31</span> Government efforts to influence judicial appointments and removals,ch02_sec02,people
+,accordion_viz_category,People's Voices,sec02_R1F27,
+sec02_R1F27_d,accordion_viz_description,Percentage of respondents who agree that top government officials of the national government seek to influence the promotion and removal of judges,sec02_R1F27,
+sec02_R1F27_i,accordion_viz_image,R1F27.svg,sec02_R1F27,
+sec02_R1F27_n,accordion_viz_note,,sec02_R1F27,
+ch02_sec03,sub_chapter,## Government respect for independent oversight,ch02,
+f_ch02_sec03,html,"This indicator explores the attention paid by the chief executive to the reports issued by human rights, anticorruption, and Supreme Audit Institutions, respect for the mechanisms for the appointment and removal of agents of these institutions, and absence of public attacks directed against them.
+
+- The average score for the expert indicator of **government respect for independent oversight** among the 27 EU Member States is 0.63 (Figure 32). Country-level scores range from 0.87 in Finland to 0.41 in Slovakia.",ch02_sec03,
+sec03_R1F28,accordion_viz,<span>Figure 32</span> Government respect for independent oversight,ch02_sec03,expert
+,accordion_viz_category,Expert's Scorecard,sec03_R1F28,
+sec03_R1F28_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the national level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec03_R1F28,
+sec03_R1F28_i,accordion_viz_image,R1F28.svg,sec03_R1F28,
+sec03_R1F28_n,accordion_viz_note,,sec03_R1F28,
+ch02_sec04,sub_chapter,## Government respect for independent prosecution,ch02,
+f_ch02_sec04,html,"This indicator measures the chief executive’s respect for the independence of the prosecutor’s office, including the mechanisms of assignment, promotion and discipline of its agents, the absence of public attacks against the integrity of its members, and the absence of political pressure to obtain favorable results.
+
+- The average score for the expert indicator of **government respect for independent prosecution** among the 27 EU Member States is 0.62 (Figure 33). Country-level scores range from 0.88 in Sweden and Luxembourg to 0.33 in Poland.",ch02_sec04,
+sec04_R1F29,accordion_viz,<span>Figure 33</span> Government respect for independent prosecution,ch02_sec04,expert
+,accordion_viz_category,Expert's Scorecard,sec04_R1F29,
+sec04_R1F29_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the national level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec04_R1F29,
+sec04_R1F29_i,accordion_viz_image,R1F29.svg,sec04_R1F29,
+sec04_R1F29_n,accordion_viz_note,,sec04_R1F29,
+ch02_sec05,sub_chapter,## Government respect for the electoral system,ch02,
+f_ch02_sec05,html,"This indicator examines whether the chief executive accepts the results of elections and refrains from discrediting electoral management bodies or supporting extra-constitutional means of transferring power.
+
+- The average score for the expert indicator of **government respect for the electoral system** among the 27 EU Member States is 0.76 (Figure 34). In all 27 EU Member States, the country-level expert score is above 0.50, with country-level scores ranging from 0.95 in Finland to 0.51 in Hungary.
+- In 10 Member States, the majority of respondents agree that **top government officials of the national government manipulate the election process to win power** (Figure 36) and in 7 Member States, the at least half of respondents agree that **top government officials attack or discredit the electoral system and the electoral supervisory organs** (Figure 35).
+- Finland, Luxembourg and Sweden had the lowest percentages of respondents agreeing their government manipulates or discredits the electoral bodies while Bulgaria, Croatia, and Romania had the highest percentages.",ch02_sec05,
+sec05_R1F30,accordion_viz,<span>Figure 34</span> Government respect for the electoral system,ch02_sec05,expert
+,accordion_viz_category,Expert's Scorecard,sec05_R1F30,
+sec05_R1F30_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the national level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec05_R1F30,
+sec05_R1F30_i,accordion_viz_image,R1F30.svg,sec05_R1F30,
+sec05_R1F30_n,accordion_viz_note,,sec05_R1F30,
+sec05_R1F31,accordion_viz,<span>Figure 35</span> Attacks on the electoral system and the electoral supervisory organs,ch02_sec05,people
+,accordion_viz_category,People's Voices,sec05_R1F31,
+sec05_R1F31_d,accordion_viz_description,Percentage of respondents who agree that top government officials of the national government attack or discredit the electoral system and the electoral supervisory organs,sec05_R1F31,
+sec05_R1F31_i,accordion_viz_image,R1F31.svg,sec05_R1F31,
+sec05_R1F31_n,accordion_viz_note,,sec05_R1F31,
+sec05_R1F32,accordion_viz,<span>Figure 36</span> Manipulation of electoral process,ch02_sec05,people
+,accordion_viz_category,People's Voices,sec05_R1F32,
+sec05_R1F32_d,accordion_viz_description,Percentage of respondents who agree that top government officials of the national government manipulate the election process to win power,sec05_R1F32,
+sec05_R1F32_i,accordion_viz_image,R1F32.svg,sec05_R1F32,
+sec05_R1F32_n,accordion_viz_note,,sec05_R1F32,
+ch02_sec06,sub_chapter,## Government respect for civil liberties,ch02,
+f_ch02_sec06,html,"This indicator evaluates the extent to which the chief executive's policies and actions recognize and enhance civil liberties. It focuses on restrictions on freedom of peaceful assembly and association, attacks on independent media and civil society organizations, and the strategic use of disinformation for political purposes.
+
+- The average score for the expert indicator of **government respect for civil liberties** among the 27 EU Member States is 0.69 (Figure 37). Country-level scores range from 0.91 in Finland to 0.40 in Hungary.
+- In 25 Member States, the majority of respondents agree that **top government officials attempt to undermine the credibility of government critics** (Figure 39). In 23 Member States, at least half of respondents agree that **government officials use misinformation to shape public opinion in their favor** (Figure 38), and in 18 Member States, the majority of respondents agree that **government officials attack or discredit the media and civil society organizations that criticize them** (Figure 40). 
+- Denmark, Luxembourg and the Netherlands had the lowest proportions of respondents agreeing that government officials undermine the credibility of critics, use misinformation to shape public opinion, and attack media and civil society, while Member States in Southern Europe tended to have the highest proportions.",ch02_sec06,
+sec06_R1F33,accordion_viz,<span>Figure 37</span> Government respect for civil liberties,ch02_sec06,expert
+,accordion_viz_category,Expert's Scorecard,sec06_R1F33,
+sec06_R1F33_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the national level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec06_R1F33,
+sec06_R1F33_i,accordion_viz_image,R1F33.svg,sec06_R1F33,
+sec06_R1F33_n,accordion_viz_note,,sec06_R1F33,
+sec06_R1F34,accordion_viz,<span>Figure 38</span> Use of misinformation to shape public opinion,ch02_sec06,people
+,accordion_viz_category,People's Voices,sec06_R1F34,
+sec06_R1F34_d,accordion_viz_description,Percentage of respondents who agree that top government officials of the national government use misinformation to shape public opinion in their favor,sec06_R1F34,
+sec06_R1F34_i,accordion_viz_image,R1F34.svg,sec06_R1F34,
+sec06_R1F34_n,accordion_viz_note,,sec06_R1F34,
+sec06_R1F35,accordion_viz,<span>Figure 39</span> Government efforts to undermine the credibility of its critics,ch02_sec06,people
+,accordion_viz_category,People's Voices,sec06_R1F35,
+sec06_R1F35_d,accordion_viz_description,"Percentage of respondents who agree that top government officials of the national government deny criticisms and facts, and undermine the credibility of those presenting them",sec06_R1F35,
+sec06_R1F35_i,accordion_viz_image,R1F35.svg,sec06_R1F35,
+sec06_R1F35_n,accordion_viz_note,,sec06_R1F35,
+sec06_R1F36,accordion_viz,<span>Figure 40</span> Attacks on media and civil society,ch02_sec06,people
+,accordion_viz_category,People's Voices,sec06_R1F36,
+sec06_R1F36_d,accordion_viz_description,Percentage of respondents who agree that top government officials of the national government attack or discredit the media and civil society organizations that criticize them,sec06_R1F36,
+sec06_R1F36_i,accordion_viz_image,R1F36.svg,sec06_R1F36,
+sec06_R1F36_n,accordion_viz_note,,sec06_R1F36,
+ch03,chapter,# Civic Participation,,
+ch03_f,findings,"- The majority of people feel free to organize and take their concerns to local government officials in all but two EU countries: Slovenia and Cyprus. 
+- Across the EU, people do not feel heard.  Most people say their local government fails to consider their views when making decisions. 
+- Too often, governments work in isolation. In 19 EU Member States, most people say the government fails to collaborate with civil society in policy design.",ch03,
+ch03_sec01,sub_chapter,## Civic participation,ch03,
+f_ch03_sec01,html,"This indicator evaluates people’s perceptions and experiences related to their freedom to participate in public and political life. This includes the freedom of peaceful assembly and association, which allows citizens to organize and express their views collectively. It also covers freedom of the media, guarantees that the press can operate without censorship or retaliation, and the freedom of civil society organizations to operate and contribute to public discourse. In addition, this category assesses the freedom of expression of political opposition and whether all voices, including dissenting ones, can be heard. Lastly, it includes information on the right to petition, public consultations, and collaborations.
+
+- The average score for the expert indicator of **civic participation** among the 27 EU Member States is 0.70 (Figure 41). Country-level scores range from 0.88 in Finland to 0.46 in Hungary.
+- In all 27 Member States, fewer than half of respondents agree that **the local government considers the views of people like them when making decisions** (Figure 49) and in 19 Member States, fewer than half agree **the government collaborates with civil society organizations in designing public policy** (Figure 46).  
+- In only 6 Member States, the majority of respondents agree that **the local government provides effective ways to handle complaints against local government officials** (Figure 43), while in 10 Member States, most respondents agree **the local government provides ways to make complaints about public services** (Figure 42). 
+- In 25 Member States, the majority of respondents agree that **people can get together with others and present their concerns to local government officials**, and in 21 Member States, at least half of respondents believe that **people can present their concerns to Members of Parliament/Congress** (Figure 45). 
+- In 19 Member States, at least 20% of respondents mentioned **engaging with civil society organizations in the last year by volunteering, engaging online or on social networks, or donating money** (Figure 52).",ch03_sec01,
+sec01_R1F37,accordion_viz,<span>Figure 41</span> Civis participation,ch03_sec01,expert
+,accordion_viz_category,Expert's Scorecard,sec01_R1F37,
+sec01_R1F37_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec01_R1F37,
+sec01_R1F37_i,accordion_viz_image,R1F37.svg,sec01_R1F37,
+sec01_R1F37_n,accordion_viz_note,,sec01_R1F37,
+sec01_R1F38,accordion_viz,<span>Figure 42</span> Existence of complaint mechanisms about public services,ch03_sec01,people
+,accordion_viz_category,People's Voices,sec01_R1F38,
+sec01_R1F38_d,accordion_viz_description,Percentage of respondents who agree that the local government provides effective ways to make complaints about public services,sec01_R1F38,
+sec01_R1F38_i,accordion_viz_image,R1F38.svg,sec01_R1F38,
+sec01_R1F38_n,accordion_viz_note,,sec01_R1F38,
+sec01_R1F39,accordion_viz,<span>Figure 43</span> Existence of complaint mechanisms against local government officials,ch03_sec01,people
+,accordion_viz_category,People's Voices,sec01_R1F39,
+sec01_R1F39_d,accordion_viz_description,Percentage of respondents who agree that the local government provides effective ways to handle complaints against local government officials,sec01_R1F39,
+sec01_R1F39_i,accordion_viz_image,R1F39.svg,sec01_R1F39,
+sec01_R1F39_n,accordion_viz_note,,sec01_R1F39,
+sec01_R1F40,accordion_viz,<span>Figure 44</span> Freedom to join political organizations,ch03_sec01,people
+,accordion_viz_category,People's Voices,sec01_R1F40,
+sec01_R1F40_d,accordion_viz_description,Percentage of respondents who agree that people can freely join any unforbidden political organization they want,sec01_R1F40,
+sec01_R1F40_i,accordion_viz_image,R1F40.svg,sec01_R1F40,
+sec01_R1F40_n,accordion_viz_note,,sec01_R1F40,
+sec01_R1F41,accordion_viz,<span>Figure 45</span> Freedom to present concerns to Parliament/Congress or local government officials,ch03_sec01,people
+,accordion_viz_category,People's Voices,sec01_R1F41,
+sec01_R1F41_d,accordion_viz_description,Percentage of respondents who agree that people in their neighborhood can get together with others and present their concerns to members of Parliament/Congress or local government officials,sec01_R1F41,
+sec01_R1F41_i,accordion_viz_image,R1F41.svg,sec01_R1F41,
+sec01_R1F41_n,accordion_viz_note,,sec01_R1F41,
+sec01_R1F42,accordion_viz,<span>Figure 46</span> Government collaboration with civil society,ch03_sec01,people
+,accordion_viz_category,People's Voices,sec01_R1F42,
+sec01_R1F42_d,accordion_viz_description,Percentage of respondents who agree that the government collaborates with civil society organizations in designing public policy,sec01_R1F42,
+sec01_R1F42_i,accordion_viz_image,R1F42.svg,sec01_R1F42,
+sec01_R1F42_n,accordion_viz_note,,sec01_R1F42,
+sec01_R1F43,accordion_viz,<span>Figure 47</span> Freedom to assemble and draw attention to an issue,ch03_sec01,people
+,accordion_viz_category,People's Voices,sec01_R1F43,
+sec01_R1F43_d,accordion_viz_description,Percentage of respondents who agree that people can freely join together with others to draw attention to an issue or sign a petition,sec01_R1F43,
+sec01_R1F43_i,accordion_viz_image,R1F43.svg,sec01_R1F43,
+sec01_R1F43_n,accordion_viz_note,,sec01_R1F43,
+sec01_R1F44,accordion_viz,<span>Figure 48</span> Freedom to attend community meetings,ch03_sec01,people
+,accordion_viz_category,People's Voices,sec01_R1F44,
+sec01_R1F44_d,accordion_viz_description,Percentage of respondents who agree that people can freely attend community meetings,sec01_R1F44,
+sec01_R1F44_i,accordion_viz_image,R1F44.svg,sec01_R1F44,
+sec01_R1F44_n,accordion_viz_note,,sec01_R1F44,
+sec01_R1F45,accordion_viz,<span>Figure 49</span> Inclusion of general public views in local government decisions,ch03_sec01,people
+,accordion_viz_category,People's Voices,sec01_R1F45,
+sec01_R1F45_d,accordion_viz_description,Percentage of respondents who agree that the local government considers the views of people like them when making decisions,sec01_R1F45,
+sec01_R1F45_i,accordion_viz_image,R1F45.svg,sec01_R1F45,
+sec01_R1F45_n,accordion_viz_note,,sec01_R1F45,
+sec01_R1F46,accordion_viz,<span>Figure 50</span> Participation in legal demonstrations and protests,ch03_sec01,people
+,accordion_viz_category,People's Voices,sec01_R1F46,
+sec01_R1F46_d,accordion_viz_description,Percentage of respondents who have attended a legal demonstration or protest march during the past 12 months,sec01_R1F46,
+sec01_R1F46_i,accordion_viz_image,R1F46.svg,sec01_R1F46,
+sec01_R1F46_n,accordion_viz_note,,sec01_R1F46,
+sec01_R1F47,accordion_viz,<span>Figure 51</span> Participation in public consultations,ch03_sec01,people
+,accordion_viz_category,People's Voices,sec01_R1F47,
+sec01_R1F47_d,accordion_viz_description,Percentage of respondents who have participated in a public consultation in person or online during the past 12 months,sec01_R1F47,
+sec01_R1F47_i,accordion_viz_image,R1F47.svg,sec01_R1F47,
+sec01_R1F47_n,accordion_viz_note,,sec01_R1F47,
+sec01_R1F48,accordion_viz,<span>Figure 52</span> Engagement with civil society organizations,ch03_sec01,people
+,accordion_viz_category,People's Voices,sec01_R1F48,
+sec01_R1F48_d,accordion_viz_description,"Percentage of respondents who have engaged with civil society organizations by volunteering, engaging with them online or on social networks, or donating money during the past 12 months",sec01_R1F48,
+sec01_R1F48_i,accordion_viz_image,R1F48.svg,sec01_R1F48,
+sec01_R1F48_n,accordion_viz_note,,sec01_R1F48,
+ch04,chapter,# Fundamental Rights,,
+ch04_f,findings,"- According to experts, freedom of assembly and association and freedom of expression are generally strong in the EU, with the exception of Bulgaria and Hungary. Hungary is the only EU country where most people feel they cannot express opinions against government policies.
+- At least one in five people face discrimination in 22 EU countries.
+- Working conditions vary widely across the EU. In Denmark, more than three out of four people believe working conditions are good, compared to roughly one out of four in Hungary. Expert scores also vary, with Sweden scoring 0.85 and Greece scoring 0.50. 
+- Refugees and asylum seekers face the greatest hurdles in Hungary, followed by Greece. 
+- In only 6 Member States do the majority of respondents agree that equality between women and men is effectively guaranteed in all areas of public and private life, including employment, work, and pay.",ch04,
+ch04_sec01,sub_chapter,## Prohibition of torture and inhuman treatment,ch04,
+f_ch04_sec01,html,"This indicator measures whether people are free from torture, cruel and unusual punishment, or any other degrading treatment.
+
+- The average score for the expert indicator of **prohibition of torture and inhuman treatment** among the 27 EU Member States is 0.82 (Figure 53). Country-level scores range from 0.97 in Finland and Denmark to 0.63 in Bulgaria.",ch04_sec01,
+sec01_R1F49,accordion_viz,<span>Figure 53</span> Prohibition of torture and inhuman treatment,ch04_sec01,expert
+,accordion_viz_category,Expert's Scorecard,sec01_R1F49,
+sec01_R1F49_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec01_R1F49,
+sec01_R1F49_i,accordion_viz_image,R1F49.svg,sec01_R1F49,
+sec01_R1F49_n,accordion_viz_note,,sec01_R1F49,
+ch04_sec02,sub_chapter,## Prohibition of slavery and forced labor,ch04,
+f_ch04_sec02,html,"This indicator assesses whether all people are free from any form of slavery, servitude, or forced labor.
+
+- The average score for the expert indicator of **prohibition of slavery and forced labor** among the 27 EU Member States is 0.74 (Figure 54). While Austria (0.92) and Denmark (0.90) have the highest scores, all 27 EU Member States have country-level scores above 0.50.",ch04_sec02,
+sec02_R1F50,accordion_viz,<span>Figure 54</span> Prohibition of slavery and forced labor,ch04_sec02,expert
+,accordion_viz_category,Expert's Scorecard,sec02_R1F50,
+sec02_R1F50_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec02_R1F50,
+sec02_R1F50_i,accordion_viz_image,R1F50.svg,sec02_R1F50,
+sec02_R1F50_n,accordion_viz_note,,sec02_R1F50,
+ch04_sec03,sub_chapter,"## Freedom of thought, conscience and religion",ch04,
+f_ch04_sec03,html,"This indicator captures the right of people to hold, adopt, and change their religious beliefs and practice their religion freely. 
+
+- The average score for the expert indicator of **freedom of thought, conscience and religion** among the 27 EU Member States is 0.80 (Figure 55). Country-level scores range from 0.91 in Austria and Estonia to 0.67 in Greece and Cyprus.",ch04_sec03,
+sec03_R1F51,accordion_viz,"<span>Figure 55</span> Freedom of thought, conscience and religion",ch04_sec03,expert
+,accordion_viz_category,Expert's Scorecard,sec03_R1F51,
+sec03_R1F51_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec03_R1F51,
+sec03_R1F51_i,accordion_viz_image,R1F51.svg,sec03_R1F51,
+sec03_R1F51_n,accordion_viz_note,,sec03_R1F51,
+ch04_sec04,sub_chapter,## Freedom of assembly and association,ch04,
+f_ch04_sec04,html,"This indicator examines the right of all people to organize, debate, and demonstrate collectively, as well as the right to assemble and form associations without unjustified governmental obstacles or arbitrary interference by security forces or other powers.
+
+- The average score for the expert indicator of **freedom of peaceful assembly and association** among the 27 EU Member States is 0.75 (Figure 56). Country-level scores range from 0.90 in Denmark to 0.58 in Hungary. 
+- In 26 Member States, the majority of respondents agree that people can **freely participate in peaceful protests and demonstrations without fear of reprisal** (Figure 59), the exception is Hungary (45.7%). 
+- Despite high perceptions that people can freely participate in protests and demonstrations, in 25 Member States, fewer than 20% **attended a legal demonstration or protest march during the past 12 months** (Figure 60). The exceptions are Spain (26.0%) and Germany (21.6%).",ch04_sec04,
+sec04_R1F52,accordion_viz,<span>Figure 56</span> Freedom of peaceful assembly and association,ch04_sec04,expert
+,accordion_viz_category,Expert's Scorecard,sec04_R1F52,
+sec04_R1F52_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec04_R1F52,
+sec04_R1F52_i,accordion_viz_image,R1F52.svg,sec04_R1F52,
+sec04_R1F52_n,accordion_viz_note,,sec04_R1F52,
+sec04_R1F53,accordion_viz,<span>Figure 57</span> Freedom to join political organizations,ch04_sec04,people
+,accordion_viz_category,People's Voices,sec04_R1F53,
+sec04_R1F53_d,accordion_viz_description,Percentage of respondents who agree that people can freely join any unforbidden political organization they want,sec04_R1F53,
+sec04_R1F53_i,accordion_viz_image,R1F53.svg,sec04_R1F53,
+sec04_R1F53_n,accordion_viz_note,,sec04_R1F53,
+sec04_R1F54,accordion_viz,<span>Figure 58</span> Freedom to attend community meetings,ch04_sec04,people
+,accordion_viz_category,People's Voices,sec04_R1F54,
+sec04_R1F54_d,accordion_viz_description,Percentage of respondents who agree that people can freely attend community meetings,sec04_R1F54,
+sec04_R1F54_i,accordion_viz_image,R1F54.svg,sec04_R1F54,
+sec04_R1F54_n,accordion_viz_note,,sec04_R1F54,
+sec04_R1F55,accordion_viz,<span>Figure 59</span> Freedom to participate in peaceful protests,ch04_sec04,people
+,accordion_viz_category,People's Voices,sec04_R1F55,
+sec04_R1F55_d,accordion_viz_description,Percentage of respondents who agree that people can freely participate in peaceful protests and demonstrations without fear of reprisal,sec04_R1F55,
+sec04_R1F55_i,accordion_viz_image,R1F55.svg,sec04_R1F55,
+sec04_R1F55_n,accordion_viz_note,,sec04_R1F55,
+sec04_R1F56,accordion_viz,<span>Figure 60</span> Participation in legal demonstrations and protests,ch04_sec04,people
+,accordion_viz_category,People's Voices,sec04_R1F56,
+sec04_R1F56_d,accordion_viz_description,Percentage of respondents who have attended a legal demonstration or protest march during the past 12 months,sec04_R1F56,
+sec04_R1F56_i,accordion_viz_image,R1F56.svg,sec04_R1F56,
+sec04_R1F56_n,accordion_viz_note,,sec04_R1F56,
+ch04_sec05,sub_chapter,## Freedom of opinion and expression,ch04,
+f_ch04_sec05,html,"This indicator evaluates the right of all people to express their opinions without censorship, including the media, civil society organizations, and political opposition. 
+
+- The average score for the expert indicator of **freedom of opinion and expression** among the 27 EU Member States is 0.70 (Figure 61). Country-level scores range from 0.90 in Finland to 0.41 in Hungary.
+- In 19 Member States, the majority of respondents agree the **media can freely express opinions against government officials, policies and actions without fear of retaliation** (Figure 62) and in 13 Member States, the majority of respondents agree the **media is able to expose cases of corruption by high-ranking government officers without fear of retaliation** (Figure 63). Perceptions of media freedoms are highest in Denmark, Finland, and Portugal, and lowest in Greece and Hungary. 
+- In 26 Member States (the exception being Hungary), the majority of respondents agree that **people can express opinions against the government** (Figure 66) and that **political parties can express opinions against government policies and actions** (Figure 65), while in 21 Member States, the majority of respondents agree that **civil society organizations can express opinions against government policies and actions** (Figure 64). Perceptions in Hungary  were significantly below the EU average regarding individuals', political parties', and CSOs' ability to freely express opinions against the government.",ch04_sec05,
+sec05_R1F57,accordion_viz,<span>Figure 61</span> Freedom of opinion and expression,ch04_sec05,expert
+,accordion_viz_category,Expert's Scorecard,sec05_R1F57,
+sec05_R1F57_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec05_R1F57,
+sec05_R1F57_i,accordion_viz_image,R1F57.svg,sec05_R1F57,
+sec05_R1F57_n,accordion_viz_note,,sec05_R1F57,
+sec05_R1F58,accordion_viz,<span>Figure 62</span> Freedom of the media to criticize government policies,ch04_sec05,people
+,accordion_viz_category,People's Voices,sec05_R1F58,
+sec05_R1F58_d,accordion_viz_description,"Percentage of respondents who agree that the media can freely express opinions against government officials, policies and actions without fear of retaliation",sec05_R1F58,
+sec05_R1F58_i,accordion_viz_image,R1F58.svg,sec05_R1F58,
+sec05_R1F58_n,accordion_viz_note,,sec05_R1F58,
+sec05_R1F59,accordion_viz,<span>Figure 63</span> Freedom of media to expose cases of corruption,ch04_sec05,people
+,accordion_viz_category,People's Voices,sec05_R1F59,
+sec05_R1F59_d,accordion_viz_description,Percentage of respondents who agree that can freely expose cases of corruption by high-ranking government officers without fear of retaliation,sec05_R1F59,
+sec05_R1F59_i,accordion_viz_image,R1F59.svg,sec05_R1F59,
+sec05_R1F59_n,accordion_viz_note,,sec05_R1F59,
+sec05_R1F60,accordion_viz,<span>Figure 64</span> Freedom of civil society organizations to criticize government policies,ch04_sec05,people
+,accordion_viz_category,People's Voices,sec05_R1F60,
+sec05_R1F60_d,accordion_viz_description,Percentage of respondents who agree that civil society organizations can freely express opinions against government policies and actions without fear of retaliation,sec05_R1F60,
+sec05_R1F60_i,accordion_viz_image,R1F60.svg,sec05_R1F60,
+sec05_R1F60_n,accordion_viz_note,,sec05_R1F60,
+sec05_R1F61,accordion_viz,<span>Figure 65</span> Political parties' freedom to express opposition to government policies,ch04_sec05,people
+,accordion_viz_category,People's Voices,sec05_R1F61,
+sec05_R1F61_d,accordion_viz_description,Percentage of respondents who agree that political parties can freely express opinions against government policies and actions without fear of retaliation,sec05_R1F61,
+sec05_R1F61_i,accordion_viz_image,R1F61.svg,sec05_R1F61,
+sec05_R1F61_n,accordion_viz_note,,sec05_R1F61,
+sec05_R1F62,accordion_viz,<span>Figure 66</span> Freedom to express opinions against the government,ch04_sec05,people
+,accordion_viz_category,People's Voices,sec05_R1F62,
+sec05_R1F62_d,accordion_viz_description,Percentage of respondents who agree that people can freely express opinions against the government,sec05_R1F62,
+sec05_R1F62_i,accordion_viz_image,R1F62.svg,sec05_R1F62,
+sec05_R1F62_n,accordion_viz_note,,sec05_R1F62,
+ch04_sec06,sub_chapter,## Right to property,ch04,
+f_ch04_sec06,html,"This indicator evaluates whether all people have the right to acquire, own, and dispose of property to the extent permitted by law and in alignment with other fundamental rights. It also examines whether expropriation and other proceedings with similar results are conducted legally and solely for public benefit.
+
+- The average score for the expert indicator of **right to property** among the 27 EU Member States is 0.66 (Figure 67). Country-level scores range from 0.82 in Sweden to 0.53 in Bulgaria.",ch04_sec06,
+sec06_R1F63,accordion_viz,<span>Figure 67</span> Right to property,ch04_sec06,expert
+,accordion_viz_category,Expert's Scorecard,sec06_R1F63,
+sec06_R1F63_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec06_R1F63,
+sec06_R1F63_i,accordion_viz_image,R1F63.svg,sec06_R1F63,
+sec06_R1F63_n,accordion_viz_note,,sec06_R1F63,
+ch04_sec07,sub_chapter,## Right to asylum,ch04,
+f_ch04_sec07,html,"This indicator assesses whether refugees seeking asylum have access to public services and equitable economic opportunities.
+
+- The average score for the expert indicator of **right to asylum** among the 27 EU Member States is 0.69 (Figure 68). Country-level scores range from 0.80 in Czechia to 0.50 in Hungary.",ch04_sec07,
+sec07_R1F64,accordion_viz,<span>Figure 68</span> Right to asylum,ch04_sec07,expert
+,accordion_viz_category,Expert's Scorecard,sec07_R1F64,
+sec07_R1F64_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec07_R1F64,
+sec07_R1F64_i,accordion_viz_image,R1F64.svg,sec07_R1F64,
+sec07_R1F64_n,accordion_viz_note,,sec07_R1F64,
+ch04_sec08,sub_chapter,## Equality before the law,ch04,
+f_ch04_sec08,html,"This indicator captures whether all people enjoy the same legal and political rights and access to public services. Additionally, it includes information on equality between women and men in both public and private life.
+
+- The average score for the expert indicator of **equality before the law** across the 27 EU Member States is 0.71 (Figure 69). Country-level scores range from 0.88 in Estonia to 0.59 in Poland, Croatia, and Hungary.
+- In 22 Member States, over 20% of respondents reported **experiencing some form of discrimination or harassment in the last 12 months** (Figure 70). The **primary grounds for experiencing discrimination** were age and political opinion (Figure 71), while the primary situations for experiencing discrimination were public transport or place, social media, and work related (Figure 72).
+- In only 6 Member States do the majority of respondents agree that **equality between women and men is effectively guaranteed in all areas of public and private life, including employment, work and pay** (Figure 73).",ch04_sec08,
+sec08_R1F65,accordion_viz,<span>Figure 69</span> Equality before the law,ch04_sec08,expert
+,accordion_viz_category,Expert's Scorecard,sec08_R1F65,
+sec08_R1F65_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec08_R1F65,
+sec08_R1F65_i,accordion_viz_image,R1F65.svg,sec08_R1F65,
+sec08_R1F65_n,accordion_viz_note,,sec08_R1F65,
+sec08_R1F66,accordion_viz,<span>Figure 70</span> Experiences of discrimination,ch04_sec08,people
+,accordion_viz_category,People's Voices,sec08_R1F66,
+sec08_R1F66_d,accordion_viz_description,Percentage of respondents who reported experiencing discrimination or harassment during the past 12 months,sec08_R1F66,
+sec08_R1F66_i,accordion_viz_image,R1F66.svg,sec08_R1F66,
+sec08_R1F66_n,accordion_viz_note,,sec08_R1F66,
+sec08_R1F67,accordion_viz,<span>Figure 71</span> Primary reasons for experiencing discrimination,ch04_sec08,people
+,accordion_viz_category,People's Voices,sec08_R1F67,
+sec08_R1F67_d,accordion_viz_description,Main reason reported by respondents for which they have felt discriminated,sec08_R1F67,
+sec08_R1F67_i,accordion_viz_image,R1F67.svg,sec08_R1F67,
+sec08_R1F67_n,accordion_viz_note,,sec08_R1F67,
+sec08_R1F68,accordion_viz,<span>Figure 72</span> Primary situations for experiencing discrimination,ch04_sec08,people
+,accordion_viz_category,People's Voices,sec08_R1F68,
+sec08_R1F68_d,accordion_viz_description,Main situation in which respondents affirmed to have experienced discrimination,sec08_R1F68,
+sec08_R1F68_i,accordion_viz_image,R1F68.svg,sec08_R1F68,
+sec08_R1F68_n,accordion_viz_note,,sec08_R1F68,
+sec08_R1F69,accordion_viz,<span>Figure 73</span> Equality between women and men,ch04_sec08,people
+,accordion_viz_category,People's Voices,sec08_R1F69,
+sec08_R1F69_d,accordion_viz_description,"Percentage of respondents who agree that equality between women and men is effectively guaranteed in all areas of public and private life, including employment, work and pay",sec08_R1F69,
+sec08_R1F69_i,accordion_viz_image,R1F69.svg,sec08_R1F69,
+sec08_R1F69_n,accordion_viz_note,,sec08_R1F69,
+ch04_sec09,sub_chapter,## Workers' rights,ch04,
+f_ch04_sec09,html,"This indicator examines the right of workers to information and consultation within the undertaking   , the right to collective bargaining and action, access to job placement services and protection in the event of unjustified dismissal, and the prohibition of child labor.
+
+- The average score for the expert indicator of **workers’ rights** among the 27 EU Member States is 0.67 (Figure 74). Country-level scores range from 0.85  in Sweden to 0.50 in Greece.
+- In 26 Member States, the majority of respondents agree that **workers can freely form labor unions and bargain for their rights with their employers** (Figure 75), compared to only 36.6% of respondents in Hungary.  
+- In 14 Member States, the majority of respondents agree that **consumer rights are effectively protected**, including protection from fraudulent practices and defective or dangerous products and the right to redress if something goes wrong (Figure 76).
+- In 14 Member States, the majority of respondents agree that **working conditions are good, including working time, work organization, health and safety at work, employee representation, and relations with the employer** (Figure 77), with figures ranging from 78.0% in Denmark to 26.5% in Hungary.",ch04_sec09,
+sec09_R1F70,accordion_viz,<span>Figure 74</span> Workers' rights,ch04_sec09,expert
+,accordion_viz_category,Expert's Scorecard,sec09_R1F70,
+sec09_R1F70_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec09_R1F70,
+sec09_R1F70_i,accordion_viz_image,R1F70.svg,sec09_R1F70,
+sec09_R1F70_n,accordion_viz_note,,sec09_R1F70,
+sec09_R1F71,accordion_viz,<span>Figure 75</span> Workers' freedom to form unions,ch04_sec09,people
+,accordion_viz_category,People's Voices,sec09_R1F71,
+sec09_R1F71_d,accordion_viz_description,Percentage of respondents who agree that workers can freely form labor unions and bargain for their rights with their employers,sec09_R1F71,
+sec09_R1F71_i,accordion_viz_image,R1F71.svg,sec09_R1F71,
+sec09_R1F71_n,accordion_viz_note,,sec09_R1F71,
+sec09_R1F72,accordion_viz,<span>Figure 76</span> Consumer rights,ch04_sec09,people
+,accordion_viz_category,People's Voices,sec09_R1F72,
+sec09_R1F72_d,accordion_viz_description,"Percentage of respondents who agree that consumer rights are effectively protected, including protection from fraudulent practices and defective or dangerous products, and the right to redress",sec09_R1F72,
+sec09_R1F72_i,accordion_viz_image,R1F72.svg,sec09_R1F72,
+sec09_R1F72_n,accordion_viz_note,,sec09_R1F72,
+sec09_R1F73,accordion_viz,<span>Figure 77</span> Working conditions,ch04_sec09,people
+,accordion_viz_category,People's Voices,sec09_R1F73,
+sec09_R1F73_d,accordion_viz_description,"Percentage of respondents who agree that working conditions are good, including working time, work organization, health and safety at work, employee representation, and relation with the employer",sec09_R1F73,
+sec09_R1F73_i,accordion_viz_image,R1F73.svg,sec09_R1F73,
+sec09_R1F73_n,accordion_viz_note,,sec09_R1F73,
+ch04_sec10,sub_chapter,## Right to vote and to stand as a candidate at elections,ch04,
+f_ch04_sec10,html,"This indicator assesses whether all citizens have the right to participate in free and fair elections, as both voters and candidates.
+
+- The average score for the expert indicator of **right to vote and to stand as a candidate at elections** among the 27 EU Member States is 0.79 (Figure 78). Country-level scores range from 0.91 in Finland, Czechia, and Denmark to 0.54 in Hungary.
+- In 25 Member States, over two thirds of respondents agree that **people can vote freely without feeling harassed or pressured** (Figure 79). The highest perceptions are found in Luxembourg (91.8%) , while Hungary (47.4%) and Cyprus (55.4%) have a comparatively low perception of the freedom to vote without harassment or pressure.",ch04_sec10,
+sec10_R1F74,accordion_viz,<span>Figure 78</span> Right to vote and to stand as a candidate at elections,ch04_sec10,expert
+,accordion_viz_category,Expert's Scorecard,sec10_R1F74,
+sec10_R1F74_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec10_R1F74,
+sec10_R1F74_i,accordion_viz_image,R1F74.svg,sec10_R1F74,
+sec10_R1F74_n,accordion_viz_note,,sec10_R1F74,
+sec10_R1F75,accordion_viz,<span>Figure 79</span> Freedom to vote without harassment or pressure,ch04_sec10,people
+,accordion_viz_category,People's Voices,sec10_R1F75,
+sec10_R1F75_d,accordion_viz_description,Percentage of respondents who agree that people can vote freely without feeling harassed or pressured,sec10_R1F75,
+sec10_R1F75_i,accordion_viz_image,R1F75.svg,sec10_R1F75,
+sec10_R1F75_n,accordion_viz_note,,sec10_R1F75,
+ch04_sec11,sub_chapter,## Right of access to documents,ch04,
+f_ch04_sec11,html,"This indicator evaluates public institutions’ proactive transparency measures and the accessibility of different types of public information. In addition, it includes information on the publicity of laws, and whether the right to request information is effectively guaranteed.
+
+- The average score for the expert indicator of **right of access to documents** among the 27 EU Member States is 0.67 (Figure 80). Country-level scores range from 0.83 in Sweden to 0.52 in Romania.
+- In 14 Member States, the majority of respondents agree that **local authorities provide people with information about their rights** (Figure 81), while in 9 EU countries, most respondents believe that **local authorities provide information in a simple, easy-to-read way** (Figure 82). 
+- In 21 Member States, the majority of respondents agree that **local authorities make information easy to find online**, yet only in 1 Member State, Poland do the majority of people agree that this **information is easy to find without using the internet, such as using leaflets or posters** (Figure 83). 
+- Fewer than half of respondents in every country surveyed (data was not collected in Ireland for these questions) believe it is likely that **government agencies would grant information requests related to copies of government contracts or to detailed budget figures of government agencies** (Figure 84). In most Member States, people tend to agree it is easier  to access budget figures than government contracts.",ch04_sec11,
+sec11_R1F76,accordion_viz,<span>Figure 80</span> Right of access to documents,ch04_sec11,expert
+,accordion_viz_category,Expert's Scorecard,sec11_R1F76,
+sec11_R1F76_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec11_R1F76,
+sec11_R1F76_i,accordion_viz_image,R1F76.svg,sec11_R1F76,
+sec11_R1F76_n,accordion_viz_note,,sec11_R1F76,
+sec11_R1F77,accordion_viz,<span>Figure 81</span> Access to information on people's rights,ch04_sec11,people
+,accordion_viz_category,People's Voices,sec11_R1F77,
+sec11_R1F77_d,accordion_viz_description,Percentage of respondents who agree that local authorities provide people with information about their rights,sec11_R1F77,
+sec11_R1F77_i,accordion_viz_image,R1F77.svg,sec11_R1F77,
+sec11_R1F77_n,accordion_viz_note,,sec11_R1F77,
+sec11_R1F78,accordion_viz,<span>Figure 82</span> Access to information in simple formats,ch04_sec11,people
+,accordion_viz_category,People's Voices,sec11_R1F78,
+sec11_R1F78_d,accordion_viz_description,"Percentage of respondents who agree that local authorities provide information for people in a simple, easy-to-read way",sec11_R1F78,
+sec11_R1F78_i,accordion_viz_image,R1F78.svg,sec11_R1F78,
+sec11_R1F78_n,accordion_viz_note,,sec11_R1F78,
+sec11_R1F79,accordion_viz,<span>Figure 83</span> Access to information through various formats,ch04_sec11,people
+,accordion_viz_category,People's Voices,sec11_R1F79,
+sec11_R1F79_d,accordion_viz_description,"Percentage of respondents who agree that local authorities make information easy to find online or without using the internet, such as using leaflets or posters",sec11_R1F79,
+sec11_R1F79_i,accordion_viz_image,R1F79.svg,sec11_R1F79,
+sec11_R1F79_n,accordion_viz_note,,sec11_R1F79,
+sec11_R1F80,accordion_viz,<span>Figure 84</span> Access to public information through requests,ch04_sec11,people
+,accordion_viz_category,People's Voices,sec11_R1F80,
+sec11_R1F80_d,accordion_viz_description,Percentage of respondents who believe it is likely or very likely that government agencies would grant information requests related to detailed budget figures of government agencies and copies of government contracts.,sec11_R1F80,
+sec11_R1F80_i,accordion_viz_image,R1F80.svg,sec11_R1F80,
+sec11_R1F80_n,accordion_viz_note,,sec11_R1F80,
+ch04_sec12,sub_chapter,## Right to petition,ch04,
+f_ch04_sec12,html,"This indicator measures the right of any person to petition public authorities, specifically members of Congress/Parliament  and local authorities, to express their needs, concerns, and demands.
+
+- The average score for the expert indicator of **right to petition** across the 27 EU Member States is 0.80 (Figure 85). Country-level scores range from 0.94 in Finland to 0.62 in Hungary. 
+- In 25 Member States, the majority of respondents agree that **people in their neighborhood can join others and present their concerns to local government officials** (Figure 86). Perceptions that people can present their concerns to local government officials are comparatively low in Cyprus (39.5%) and Slovenia (49.0%).
+- In 21 Member States, at least half of respondents agree that **people can get together with others to present their concerns to members of Parliament/Congress** (Figure 86), with figures ranging from 77.5% in Finland to 33.0% in Belgium. 
+- In every Member State except Slovenia, more people agree that they can present their concerns to local government officials than to members of Parliament/Congress .",ch04_sec12,
+sec12_R1F81,accordion_viz,<span>Figure 85</span> Right to petition,ch04_sec12,expert
+,accordion_viz_category,Expert's Scorecard,sec12_R1F81,
+sec12_R1F81_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec12_R1F81,
+sec12_R1F81_i,accordion_viz_image,R1F81.svg,sec12_R1F81,
+sec12_R1F81_n,accordion_viz_note,,sec12_R1F81,
+sec12_R1F82,accordion_viz,<span>Figure 86</span> Freedom to Present Concerns to Congress or Local Government Officials,ch04_sec12,people
+,accordion_viz_category,People's Voices,sec12_R1F82,
+sec12_R1F82_d,accordion_viz_description,Percentage of respondents who agree that people in their neighborhood can get together with others and present their concerns to members of Congress or Local Government Officials,sec12_R1F82,
+sec12_R1F82_i,accordion_viz_image,R1F82.svg,sec12_R1F82,
+sec12_R1F82_n,accordion_viz_note,,sec12_R1F82,
+ch04_sec13,sub_chapter,## Right of movement and of residence,ch04,
+f_ch04_sec13,html,"This indicator explores the ability of legal residents to move freely within a country’s territory, the right of citizens to travel outside their country, and the duration and proportionality of travel bans.  
+
+- The average score for the expert indicator of **right to movement and of residence** among the 27 EU Member States EU is 0.85 (Figure 87). All 27 EU Member States have country-level scores above 0.70. Country-level scores range from 0.95 in Finland to 0.74 in Bulgaria.",ch04_sec13,
+sec13_R1F83,accordion_viz,<span>Figure 87</span> Right of movement and of residence,ch04_sec13,expert
+,accordion_viz_category,Expert's Scorecard,sec13_R1F83,
+sec13_R1F83_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec13_R1F83,
+sec13_R1F83_i,accordion_viz_image,R1F83.svg,sec13_R1F83,
+sec13_R1F83_n,accordion_viz_note,,sec13_R1F83,
+ch04_sec14,sub_chapter,## Due process of law,ch04,
+f_ch04_sec14,html,"This indicator measures adherence to due process in criminal matters, including presumption of innocence, impartiality and non-discrimination, and respect for the rights of the accused, including legal assistance, the right of defense, and the right to an effective remedy and a fair trial.
+
+- The average score for the expert indicator of **respect for the due process of law** among the 27 EU Member States is 0.63 (Figure 88). Country-level scores range from 0.75 in Finland to 0.52 in Bulgaria.
+- In 13 Member States, the majority of respondents agree that **public defenders do everything they can to defend poor people that are accused of committing a crime** (Figure 91), figures range from 61.9% to Spain to 28.9% in Slovenia.
+- In 26 Member States (Slovakia is the exception, with 49.5%), the majority of respondents agree that the **basic rights of suspects are respected by the police** (Figure 89), and in 20 Member States, the majority of respondents agree that **members of the police do not use excessive or unnecessary force** (Figure 90). 
+- In 15 Member States, the majority of respondents are confident that that **the criminal justice system allows equal access to a fair trial** (Figure 92) and in 17 Member States, the majority of respondents are confident that **the criminal justice system treats those accused of crime as 'innocent until proven guilty'** (Figure 93). Perceptions in Slovakia were comparatively low regarding equal access to a fair trial (26.7%) and respect for the presumption of innocence (28.0%).",ch04_sec14,
+sec14_R1F84,accordion_viz,<span>Figure 88</span> Due process of law,ch04_sec14,expert
+,accordion_viz_category,Expert's Scorecard,sec14_R1F84,
+sec14_R1F84_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec14_R1F84,
+sec14_R1F84_i,accordion_viz_image,R1F84.svg,sec14_R1F84,
+sec14_R1F84_n,accordion_viz_note,,sec14_R1F84,
+sec14_R1F85,accordion_viz,<span>Figure 89</span> Respect for suspects' basic rights,ch04_sec14,people
+,accordion_viz_category,People's Voices,sec14_R1F85,
+sec14_R1F85_d,accordion_viz_description,Percentage of respondents who agree that the basic rights of suspects are respected by the police,sec14_R1F85,
+sec14_R1F85_i,accordion_viz_image,R1F85.svg,sec14_R1F85,
+sec14_R1F85_n,accordion_viz_note,,sec14_R1F85,
+sec14_R1F86,accordion_viz,<span>Figure 90</span> Absence of excessive use of force by the police,ch04_sec14,people
+,accordion_viz_category,People's Voices,sec14_R1F86,
+sec14_R1F86_d,accordion_viz_description,Percentage of respondents who agree that members of the police do not use excessive or unnecessary force,sec14_R1F86,
+sec14_R1F86_i,accordion_viz_image,R1F86.svg,sec14_R1F86,
+sec14_R1F86_n,accordion_viz_note,,sec14_R1F86,
+sec14_R1F87,accordion_viz,<span>Figure 91</span> Public defense for poor people,ch04_sec14,people
+,accordion_viz_category,People's Voices,sec14_R1F87,
+sec14_R1F87_d,accordion_viz_description,Percentage of respondents who agree that public defenders do everything they can to defend poor people that are accused of committing a crime,sec14_R1F87,
+sec14_R1F87_i,accordion_viz_image,R1F87.svg,sec14_R1F87,
+sec14_R1F87_n,accordion_viz_note,,sec14_R1F87,
+sec14_R1F88,accordion_viz,<span>Figure 92</span> Equal access to fair trial,ch04_sec14,people
+,accordion_viz_category,People's Voices,sec14_R1F88,
+sec14_R1F88_d,accordion_viz_description,Percentage of respondents who agree that the criminal justice system allows all those accused of crimes to get a fair trial regardless of who they are,sec14_R1F88,
+sec14_R1F88_i,accordion_viz_image,R1F88.svg,sec14_R1F88,
+sec14_R1F88_n,accordion_viz_note,,sec14_R1F88,
+sec14_R1F89,accordion_viz,<span>Figure 93</span> Presumption of innocence,ch04_sec14,people
+,accordion_viz_category,People's Voices,sec14_R1F89,
+sec14_R1F89_d,accordion_viz_description,Percentage of respondents who agree that the criminal justice system treats those accused of crime as 'innocent until proven guilty',sec14_R1F89,
+sec14_R1F89_i,accordion_viz_image,R1F89.svg,sec14_R1F89,
+sec14_R1F89_n,accordion_viz_note,,sec14_R1F89,
+appendix,appendix,"### List of Country and Region Abbreviations
+
+<div id=""abbreviations"">
+<div class=""table-container"">    
+    <table border=""1"">
+        <thead>
+            <tr>
+                <th><i>Label</i></th>
+                <th><i>Country</i></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td><b>AT</b></td><td>Austria</td></tr>
+            <tr><td><b>BE</b></td><td>Belgium</td></tr>
+            <tr><td><b>BG</b></td><td>Bulgaria</td></tr>
+            <tr><td><b>CY</b></td><td>Cyprus</td></tr>
+            <tr><td><b>CZ</b></td><td>Czechia</td></tr>
+            <tr><td><b>DE</b></td><td>Germany</td></tr>
+            <tr><td><b>DK</b></td><td>Denmark</td></tr>
+            <tr><td><b>EE</b></td><td>Estonia</td></tr>
+            <tr><td><b>EL</b></td><td>Greece</td></tr>
+            <tr><td><b>ES</b></td><td>Spain</td></tr>
+            <tr><td><b>FI</b></td><td>Finland</td></tr>
+            <tr><td><b>FR</b></td><td>France</td></tr>
+            <tr><td><b>HR</b></td><td>Croatia</td></tr>
+            <tr><td><b>HU</b></td><td>Hungary</td></tr>
+            <tr><td><b>IE</b></td><td>Ireland</td></tr>
+            <tr><td><b>IT</b></td><td>Italy</td></tr>
+            <tr><td><b>LT</b></td><td>Lithuania</td></tr>
+            <tr><td><b>LU</b></td><td>Luxembourg</td></tr>
+            <tr><td><b>LV</b></td><td>Latvia</td></tr>
+            <tr><td><b>MT</b></td><td>Malta</td></tr>
+            <tr><td><b>NL</b></td><td>Netherlands</td></tr>
+            <tr><td><b>PL</b></td><td>Poland</td></tr>
+            <tr><td><b>PT</b></td><td>Portugal</td></tr>
+            <tr><td><b>RO</b></td><td>Romania</td></tr>
+            <tr><td><b>SE</b></td><td>Sweden</td></tr>
+            <tr><td><b>SI</b></td><td>Slovenia</td></tr>
+            <tr><td><b>SK</b></td><td>Slovakia</td></tr>
+        </tbody>
+    </table>
+</div>
+
+<div class=""table-container"">
+    <table border=""1"">
+        <thead>
+            <tr>
+                <th><i>Label</i></th>
+                <th><i>Region</i></th>
+            </tr>
+        </thead>
+        <tbody>
+                    <tr><td><b>AT1</b></td><td>East Austria</td></tr>
+                    <tr><td><b>AT2</b></td><td>South Austria</td></tr>
+                    <tr><td><b>AT3</b></td><td>West Austria</td></tr>
+                    <tr><td><b>BE1</b></td><td>Brussels Region</td></tr>
+                    <tr><td><b>BE2</b></td><td>Flemish Region</td></tr>
+                    <tr><td><b>BE3</b></td><td>Walloon Region</td></tr>
+                    <tr><td><b>BG3</b></td><td>North and South-East</td></tr>
+                    <tr><td><b>BG4</b></td><td>South -West/-Central</td></tr>
+                    <tr><td><b>CY0</b></td><td>Cyprus</td></tr>
+                    <tr><td><b>CZ01</b></td><td>Prague</td></tr>
+                    <tr><td><b>CZ020304</b></td><td>Western and Central Bohemia</td></tr>
+                    <tr><td><b>CZ0506</b></td><td>North-East and South-East</td></tr>
+                    <tr><td><b>CZ0708</b></td><td>Central Moravia and Silesia</td></tr>
+                    <tr><td><b>DE1</b></td><td>Baden-Württemberg</td></tr>
+                    <tr><td><b>DE2</b></td><td>Bavaria</td></tr>
+                    <tr><td><b>DE3</b></td><td>Berlin</td></tr>
+                    <tr><td><b>DE4</b></td><td>Brandenburg</td></tr>
+                    <tr><td><b>DE5</b></td><td>Bremen</td></tr>
+                    <tr><td><b>DE6</b></td><td>Hamburg</td></tr>
+                    <tr><td><b>DE7</b></td><td>Hessen</td></tr>
+                    <tr><td><b>DE8</b></td><td>Mecklenburg-Vorpommern</td></tr>
+                    <tr><td><b>DE9</b></td><td>Lower Saxony</td></tr>
+                    <tr><td><b>DEA</b></td><td>North Rhine-Westphalia</td></tr>
+                    <tr><td><b>DEB</b></td><td>Rhineland-Palatinate</td></tr>
+                    <tr><td><b>DEC</b></td><td>Saarland</td></tr>
+                    <tr><td><b>DED</b></td><td>Saxony</td></tr>
+                    <tr><td><b>DEE</b></td><td>Saxony-Anhalt</td></tr>
+                    <tr><td><b>DEF</b></td><td>Schleswig-Holstein</td></tr>
+                    <tr><td><b>DEG</b></td><td>Thuringia</td></tr>
+                    <tr><td><b>DK01</b></td><td>Capital (region)</td></tr>
+                    <tr><td><b>DK02</b></td><td>Zealand</td></tr>
+                    <tr><td><b>DK03</b></td><td>South Denmark</td></tr>
+                    <tr><td><b>DK04</b></td><td>Central Jutland</td></tr>
+                    <tr><td><b>DK05</b></td><td>North Jutland</td></tr>
+                    <tr><td><b>EE0</b></td><td>Estonia</td></tr>
+                    <tr><td><b>EL3</b></td><td>Attica</td></tr>
+                    <tr><td><b>EL4</b></td><td>Aegean Islands, Crete</td></tr>
+                    <tr><td><b>EL5</b></td><td>North Greece</td></tr>
+                    <tr><td><b>EL6</b></td><td>Central Greece</td></tr>
+                    <tr><td><b>ES1</b></td><td>North-West</td></tr>
+                    <tr><td><b>ES2</b></td><td>North-East</td></tr>
+                    <tr><td><b>ES3</b></td><td>Madrid</td></tr>
+                    <tr><td><b>ES4</b></td><td>Centre</td></tr>
+                    <tr><td><b>ES5</b></td><td>East</td></tr>
+                    <tr><td><b>ES6</b></td><td>South</td></tr>
+                    <tr><td><b>ES7</b></td><td>Canary Islands</td></tr>
+                    <tr><td><b>FI19</b></td><td>West Finland</td></tr>
+                    <tr><td><b>FI1B</b></td><td>Helsinki-Uusimaa</td></tr>
+                    <tr><td><b>FI1C20</b></td><td>South Finland and Åland</td></tr>
+                    <tr><td><b>FI1D</b></td><td>North and East Finland</td></tr>
+                    <tr><td><b>FR1</b></td><td>Île-de-France</td></tr>
+                    <tr><td><b>FRB</b></td><td>Centre-Val de Loire</td></tr>
+                    <tr><td><b>FRC</b></td><td>Burgundy-Franche-Comté</td></tr>
+                    <tr><td><b>FRD</b></td><td>Normandy</td></tr>
+                    <tr><td><b>FRE</b></td><td>Hauts-de-France</td></tr>
+                    <tr><td><b>FRF</b></td><td>Grand Est</td></tr>
+                    <tr><td><b>FRG</b></td><td>Loire Region</td></tr>
+                    <tr><td><b>FRH</b></td><td>Brittany </td></tr>
+                    <tr><td><b>FRI</b></td><td>New Aquitaine</td></tr>
+                    <tr><td><b>FRJ</b></td><td>Occitania</td></tr>
+                    <tr><td><b>FRK</b></td><td>Auvergne-Rhône-Alpes</td></tr>
+                    <tr><td><b>FRL</b></td><td>PACA</td></tr>
+                    <tr><td><b>FRM</b></td><td>Corsica </td></tr>
+                    <tr><td><b>HR02</b></td><td>Pannonian Croatia</td></tr>
+                    <tr><td><b>HR03</b></td><td>Adriatic Croatia</td></tr>
+                    <tr><td><b>HR05</b></td><td>Zagreb</td></tr>
+                    <tr><td><b>HR06</b></td><td>Northern Croatia</td></tr>
+                    <tr><td><b>HU1</b></td><td>Central Hungary</td></tr>
+                    <tr><td><b>HU2</b></td><td>Transdanubia</td></tr>
+                    <tr><td><b>HU3</b></td><td>Great Plain and North</td></tr>
+                    <tr><td><b>IE04</b></td><td>Northern and Western</td></tr>
+                    <tr><td><b>IE05</b></td><td>Southern</td></tr>
+                    <tr><td><b>IE06</b></td><td>Eastern and Midland</td></tr>
+                    <tr><td><b>ITC</b></td><td>North-West</td></tr>
+                    <tr><td><b>ITF</b></td><td>South</td></tr>
+                    <tr><td><b>ITG</b></td><td>Islands</td></tr>
+                    <tr><td><b>ITH</b></td><td>North-East</td></tr>
+                    <tr><td><b>ITI</b></td><td>Centre</td></tr>
+                    <tr><td><b>LT01</b></td><td>Capital Region</td></tr>
+                    <tr><td><b>LT02</b></td><td>Central/Western Region</td></tr>
+                    <tr><td><b>LU00</b></td><td>Luxembourg</td></tr>
+                    <tr><td><b>LV00</b></td><td>Latvia</td></tr>
+                    <tr><td><b>MT00</b></td><td>Malta</td></tr>
+                    <tr><td><b>NL1</b></td><td>North Netherlands</td></tr>
+                    <tr><td><b>NL2</b></td><td>East Netherlands</td></tr>
+                    <tr><td><b>NL3</b></td><td>West Netherlands</td></tr>
+                    <tr><td><b>NL4</b></td><td>South Netherlands</td></tr>
+                    <tr><td><b>PL2</b></td><td>Southern</td></tr>
+                    <tr><td><b>PL4</b></td><td>North-Western</td></tr>
+                    <tr><td><b>PL5</b></td><td>South-Western</td></tr>
+                    <tr><td><b>PL6</b></td><td>Northern</td></tr>
+                    <tr><td><b>PL7</b></td><td>Central</td></tr>
+                    <tr><td><b>PL8</b></td><td>Eastern</td></tr>
+                    <tr><td><b>PL9</b></td><td>Mazowieckie</td></tr>
+                    <tr><td><b>PT1</b></td><td>Continental Portugal</td></tr>
+                    <tr><td><b>PT2</b></td><td>Azores</td></tr>
+                    <tr><td><b>PT3</b></td><td>Madeira</td></tr>
+                    <tr><td><b>RO1</b></td><td>Macroregion One</td></tr>
+                    <tr><td><b>RO2</b></td><td>Macroregion Two</td></tr>
+                    <tr><td><b>RO3</b></td><td>Macroregion Three</td></tr>
+                    <tr><td><b>RO4</b></td><td>Macroregion Four</td></tr>
+                    <tr><td><b>SE1</b></td><td>Eastern Sweden</td></tr>
+                    <tr><td><b>SE2</b></td><td>Southern Sweden</td></tr>
+                    <tr><td><b>SE3</b></td><td>Northern Sweden</td></tr>
+                    <tr><td><b>SI03</b></td><td>East Slovenia</td></tr>
+                    <tr><td><b>SI04</b></td><td>West Slovenia</td></tr>
+                    <tr><td><b>SK01</b></td><td>Bratislava</td></tr>
+                    <tr><td><b>SK02</b></td><td>West Slovakia</td></tr>
+                    <tr><td><b>SK03</b></td><td>Central Slovakia</td></tr>
+                    <tr><td><b>SK04</b></td><td>East Slovakia</td></tr>
+        </tbody>
+    </table>
+</div>
+</div>",,
+methodology,methodological,"The production of World Justice Project EUROVOICES can be summarized in the following stages:
+
+### Conceptual design
+
+To develop a comprehensive methodological framework, WJP first defined the observable outcomes of a society’s adherence to the rule of law and the ways rule of law impacts people’s everyday lives. Building upon the proven methodology of the World Justice Project Rule of Law Index®, the team focused the conceptual design of EUROVOICES on capturing people’s perceptions and experiences of justice, governance, and the rule of law in their daily lives. 
+
+The team then conducted an extensive literature review and held consultations with experts from various sectors (including academia and international organizations) to adapt the project’s methodology to the current reality and challenges faced by the European Union. The resulting framework defines 51 rule of law indicators organized into ten pillars: 1) constraints on government powers; 2) government respect for constraints on power; 3) civic participation; 4) fundamental rights; 5) civil justice; 6) criminal justice; 7) safety; 8) control of corruption; 9) transparency and access to information; and 10) administrative proceedings and regulatory enforcement. 
+
+Once these pillars and indicators were established, WJP drafted survey questions measure different aspects of each conceptual category included in the framework. This process resulted in a selection of 610 expert survey questions and 330 general population survey questions. To maintain reasonable survey length and improve response rates, the expert questions were organized into four separate questionnaires (one on criminal justice, two on civil and commercial justice, and one on governance).
+
+### Data collection
+
+World Justice Project EUROVOICES presents original survey data from two sources: expert surveys and household surveys.
+
+#### Expert Surveys
+
+Expert survey data collection for the EUROVOICES project was conducted by the WJP’s research team. The surveys were administered online between October 2023 and April 2024 using Alchemer, a user-friendly and highly secure survey administration platform. The expert surveys were administered in twelve languages: Bulgarian, Czech, English, French, German, Greek, Hungarian, Italian, Polish, Portuguese, Romanian, and Spanish.
+
+The expert survey respondents, representing the 110 subnational regions across all 27 EU Member States, included independent legal practitioners and academics selected from directories of law firms, universities and colleges, research organizations, and non-governmental organizations (NGOs), as well as through referrals from the WJP global network of practitioners. All expert respondents were vetted by WJP staff to ensure their qualifications.
+
+Over the course of QRQ data collection, WJP’s research team regularly sent survey invitations and reminder emails to potential respondents using publicly available online contact information, collected through a systematic review of the websites of law firms, bar associations, universities, and other organizations. To expand WJP’s network of expert respondents in the EU, the research team collaborated with local organizations and firms to identify and invite potential participants. As a result of this exercise, WJP’s team generated a database with contact information for more than 250,000 experts. In total, the WJP team obtained a total of 8,042 expert survey responses.
+
+#### Household Surveys
+
+Household survey data collection was conducted by leading local polling companies. The survey was translated into over 20 local languages, adapted to common local expressions, and administered in pilot tests in each country.  After conducting, reviewing, and validating the pilot tests, the survey was administered to respondents in 110 regions of the 27 EU Member States, using both face-to-face (in 10 countries) and online (in 17 countries) polling methodologies. Survey respondents in each country were selected through a probability sampling method that ensures representativeness based on age, sex, income level, and degree of urbanization. During the full-fieldwork stage of data collection, which took place between December 2023 and April 2024, a total of 64,089 EU residents were surveyed.
+
+#### Selecting Territorial Units
+
+For the purposes of the EUROVOICES project, WJP selected territorial units based on the EU’s Nomenclature of Territorial Units for Statistics (NUTS) system, resulting in 110 regions for analysis. These regions are a combination of NUTS level 1 and NUTS level 2 regions, with some adjustments for Czechia (merging 8 regions into 4), Finland (combining 5 regions into 4), and France (dropping the overseas territories). The complete list of regions is presented in the annex.
+
+### Data analysis
+
+Household survey responses were processed into a database that displays question-level results by collapsing the two most positive options on a four-level Likert scale in each case (e.g., strongly agree and agree, very likely and likely, among others, depending on the response scale of the question and the options that represent the most positive outcome). This data can be disaggregated by age group, sex, income, and degree of urbanization.
+
+The expert survey data was calculated into scores using the following steps: first, the survey responses were normalized and codified into numeric values on a scale of 0 to 1, where 1 indicates the highest possible score; second, the data was mapped into the pillars and indicators, as defined in the conceptual framework; and third, the normalized data was aggregated at the NUTS and country levels using simple averages. The complete variable map detailing which questions from the expert surveys were aggregated into each score can be downloaded at link.
+
+For both the household and the expert surveys, the respondent-level data was edited to exclude partially completed surveys, suspicious data, and outliers (which were detected using the Z-score method).
+
+A series of quantitative and qualitative tests were conducted to identify biases and errors. The first process was a quantitative cross-check in which results were systematically compared to selected indicators from trusted third-party sources, including other organizations' measurement projects, such as the V-Dem Dataset by the V-Dem Institute, and the Quality of Government database by the University of Gothenburg; and official indicator systems, such as Eurobarometer surveys and the EU Justice Scoreboard. 
+In addition, three qualitative information tools were developed to test the data across all EU Member States: a compendium of news stories collected from diverse sources across the EU; syntheses of information from national and international reports published by peer organizations; and semi-structured interviews with over 30 EU experts. These tools allowed WJP to enrich the survey data with trends, issues, improvements, and regional differences in a variety of rule of law topics and contextualize the survey results.
+As a result of this work, World Justice Project EUROVOICES presents a library of people-centered indicators with new data on justice, governance, and the rule of law in the EU, at both the regional and national level. Data from the expert surveys is presented at the indicator level, while household survey data is presented at the question level, with options to disaggregate by different socioeconomic and demographic variables. This data is presented in different formats, including thematic reports with maps and graphs, interactive dashboards, and databases available for download. This information allows region-to-region comparisons, detecting relative strengths and weaknesses, and identifying best practices and policies that can become reference points.
+
+### Additional Considerations
+
+#### Comparisons with the WJP Rule of Law Index
+
+The results of World Justice Project EUROVOICES cannot be directly compared to the WJP Rule of Law Index® for several reasons. First, the Index scores are calculated by aggregating three sources of information: expert surveys, household surveys, and third-party data. In contrast, EUROVOICES presents findings in two separate categories: the Expert Scorecards, comprised of aggregated expert data, and People’s Voices, which displays question-level data from the household surveys.
+
+Second, although the WJP Rule of Law Index and EUROVOICES both use the Min-Max method to normalize expert data (so that all values are presented on a scale of 0 to 1), the Index’s longitudinal analysis requires an extra normalization (with a base year of 2015) to ensure scores are comparable across previous editions of the report.
+
+Lastly, while EUROVOICES builds upon the Index’s methodology, the two projects have distinct conceptual frameworks. Key differences include the internal organization of the pillars, the inclusion of new questions to assess independent checks on government powers, a new category on the executive’s behavior towards constraints on its power, the expansion of the chapter on fundamental rights based on the EU Charter of Fundamental Rights, and the separation of the transparency and civic participation pillars.
+
+#### Methodological Strengths and Weaknesses
+
+All information tools have advantages and limitations that need to be considered when using them, and World Justice Project EUROVOICES is no exception. This project organizes its findings into clearly defined indicators that allow for the easy and efficient interpretation of multi-dimensional rule of law definition. Moreover, WJP’s output-oriented approach facilitates comparisons between countries and subnationally.
+
+However, this accessibility does require WJP to consolidate the unique and complicated realities different individuals experience into coherent findings at the national and regional levels. As such, interpretation of the data presented in this report requires a familiarity with the project’s basic conceptual framework, including WJP’s definitions for each indicator and explanations regarding which topics are and are not included in our findings.
+
+Likewise, these indicators do not establish causality or contextualize the findings. Thus, it will be necessary to use the EUROVOICES reports in combination with other analytical tools to provide a full picture of causes and potential solutions.
+
+Additionally, the information presented on these indicators may be sensitive to specific events that took place during the data collection period or may be subject to measurement errors due in part to the limited number of experts interviewed in some regions.
+
+#### More Information
+
+For more information on the conceptual and measurement framework of this project, including more technical details on the data collection process, please refer to the complete methodological summary at link.",,
+about,about,"**The World Justice Project (WJP)** is an independent, multidisciplinary organization working to create knowledge, build awareness, and stimulate action to advance the rule of law worldwide. Effective rule of law is the foundation for communities of justice, opportunity, and peace–underpinning development, accountable government, and respect for fundamental rights.
+
+The WJP builds and supports a global, multidisciplinary movement for the rule of law through three lines of work: collecting, organizing, and analyzing original, independent rule of law data, including the World Justice Project Rule of Law Index; supporting research, scholarship, and teaching about the importance of the rule of law, its relationship to development, and effective strategies to strengthen it; and connecting and building an engaged global network of policymakers and advocates to advance the rule of law through strategic partnerships, convenings, coordinated advocacy, and support for locally led initiatives.
+
+Learn more at: <a href=""https://worldjusticeproject.org/"" target=""_blank"">_worldjusticeproject.org._</a>",,
+acknowledgements,acknowledgements,"The World Justice Project EUROVOICES 2024 thematic reports (Democracy & Fundamental Rights, Justice & Safety, and Transparency & Corruption) were produced by the World Justice Project under the research oversight of Alejandro Ponce and the executive direction of Elizabeth Andersen.
+
+**Conceptual Design**: Horacio Ortiz, Alejandro Ponce, and Leslie Solís, building upon the WJP Rule of Law Index, with adaptations to reflect the institutional architecture in the European Union.
+
+**Data Collection**: Giacomo D’Urbano and Erin Campbell (Expert Surveys Co-Leads), Alicia Evangelides and Joshua Fuller (Household Surveys Co-Leads), Ana María Montoya (Data Analytics Lead), Marta Basystiuk, Allison Bostrom, Lucía Estefanía González, Pablo González Barón, Lauren Littlejohn, Alejandra Nava, Santiago Pardo, Natalia Rodríguez Cajamarca, Kirssy Rodríguez, Carlos Toruño, and Katrina Wanner, with the assistance of Said Aarji, Lloyd Cleary, John Cullen, Dalia Habiby, Skye Jacobs, Aleksandra Kozovic, Jaehee Lee, Andrea Marín Núñez de Arce, Abigail Skalka, Helen Souki Reyes, Holly West, and Moss Woodbury. The team also received support from Amy Gryskiewicz, Mario Rodríguez, Juan Salgado, and Victoria Thomaides during this stage.
+
+**Data Analysis**: Ana María Montoya (Lead), Santiago Pardo and Natalia Rodríguez Cajamarca (Expert Surveys Data Co-Leads), and Carlos Toruño (Household Surveys Data Co-Lead), with support from Isabella Coddington, Dalia Habiby, and Artha Pillai.
+ 
+**Research**: Horacio Ortiz and Leslie Solís (Leads), Jacob Alabab-Moser, Marta Basystiuk, Allison Bostrom, Erin Campbell, Giacomo D’Urbano, Lauren Littlejohn, Ana María Montoya, Gustavo Núñez Peralta, Santiago Pardo, Natalia Rodríguez Cajamarca, Kirssy Rodríguez, Carlos Toruño, and Katrina Wanner, with support from Aleksandra Kozovic, Andrea Marín Núñez de Arce, Abigail Skalka, and Holly West. Finally, the team received feedback from Daniela Barba, Shallum David, Natalia Jardón, Stephanie Presch, and Tanya Weinberg.
+
+**Data Visualization**: Mariana López and Carlos Toruño (Leads), Ana María Montoya, and Santiago Pardo, with the assistance of Isabella Coddington.
+
+**Design**: Mariana López (Lead), Irene Heras, Raquel Medina, and Enrique Paulin.
+
+**Website Design**: Natalia Jardón (Lead) and Mariana López.
+
+**Website Production**: Gobierno Fácil.
+
+**Engagement Strategy**: Alejandro González and Alejandro Ponce (Leads), Marta Basystiuk, Natalia Jardón, Lauren Kitz, Jan Kleijssen, Mark Lewis, Leslie Solís, James van der Klok, and Tanya Weinberg.
+
+**Operations and Administrative Support**: Amy Gryskiewicz, Shakhlo Hasanova, and Richard Schorr.
+
+These reports were made possible by the generous support of the European Union. Any opinions, findings, and conclusions are those of the author(s) and do not necessarily reflect the views of the European Union.
+
+<br>
+
+**_Requests to reproduce this document should be sent to_**:
+
+Alejandro Ponce<br>
+*World Justice Project*<br>
+1025 Vermont Avenue NW, Suite 1200<br>
+Washington, DC 20005, USA<br>
+E-mail: *wjp@worldjusticeproject.org*",,
