@@ -4,7 +4,7 @@ front_page_title,front_page_title,Justice & Safety,,
 front_page_image,front_page_image,cover.jpg,,
 front_page_year,front_page_year,2024,,
 front_page_source,front_page_source,World Justice Project EUROVOICES,,
-title,title,We asked 72000 Europeans what they thought of transparency and corruption Most people thought,,
+title,title,"We asked 72,000 Europeans if they feel safe and if justice is met. Most people",,
 scroll1,scrollytelling,"## feel safe at night,",,
 scroll2,scrollytelling,"## see the police as a force for good,",,
 scroll3,scrollytelling,## cannot afford legal assistance.,,
@@ -42,18 +42,18 @@ This report, Justice and Safety, consists of three chapters: (I) **Civil justice
 
 1. **_Civil Justice_**: The first chapter of this report focuses on civil justice, defined as the array of services and mechanisms people use to resolve non-criminal disputes, including family, labor, commercial, environmental, administrative, and financial disputes, as well as consumer issues. 
 
-Indicators for civil justice include (1) legal capability, (2) access to legal aid and representation in case of civil disputes, (3) accessible, appropriate, and timely dispute resolution, (4) impartial and independent dispute resolution, (5) outcome-oriented and effective dispute resolution, and (6) alternative dispute resolution mechanisms. 
+    Indicators for civil justice include (1) legal capability, (2) access to legal aid and representation in case of civil disputes, (3) accessible, appropriate, and timely dispute resolution, (4) impartial and independent dispute resolution, (5) outcome-oriented and effective dispute resolution, and (6) alternative dispute resolution mechanisms. 
 
-To further explore these issues, the chapter concludes with new, region-specific findings from the *WJP Global Legal Needs Survey* (a special module included in the household surveys), which provides in-depth insights into the prevalence of civil and administrative legal problems and the efficacy of the justice system for resolving those problems, as experienced by individuals seeking justice.
+    To further explore these issues, the chapter concludes with new, region-specific findings from the *WJP Global Legal Needs Survey* (a special module included in the household surveys), which provides in-depth insights into the prevalence of civil and administrative legal problems and the efficacy of the justice system for resolving those problems, as experienced by individuals seeking justice.
 
 
 2. **_Criminal Justice_**: Strong rule of law systems depend on the ability of impartial and independent criminal justice mechanisms to redress grievances and bring action against individuals for offenses against society. Effective criminal justice mechanisms ensure that victims of criminal acts have access to competent, prompt, and effective mechanisms for criminal investigation, prosecution, and adjudication. Moreover, these justice services must be accessible to all members of society, regardless of where they live or their personal characteristics. 
 
-Additionally, the criminal justice system must follow due process and uphold the rights of all involved parties, including victims, individuals accused of a crime, persons deprived of their liberty. This chapter includes indicators on (1) effective and impartial criminal investigation, (2) effective and impartial prosecution and pre-trial proceedings, (3) effective and impartial criminal adjudication, (4) alternative criminal justice mechanisms, (5) victims’ rights, (6) due process of law, and (7) right of persons deprived of liberty.
+    Additionally, the criminal justice system must follow due process and uphold the rights of all involved parties, including victims, individuals accused of a crime, persons deprived of their liberty. This chapter includes indicators on (1) effective and impartial criminal investigation, (2) effective and impartial prosecution and pre-trial proceedings, (3) effective and impartial criminal adjudication, (4) alternative criminal justice mechanisms, (5) victims’ rights, (6) due process of law, and (7) right of persons deprived of liberty.
 
 3. **_Safety_**: Security is one of the defining aspects of any rule of law society and is a fundamental function of the state. It is also a precondition for the realization of the rights and freedoms that the rule of law seeks to advance. Thus, effective crime control and the reduction of violence are key components of the rule of law. 
 
-This chapter examines how well governments meet these safety objectives by focusing on two indicators from the general population poll  : (1) perceptions of safety and (2) control of violence.",,
+    This chapter examines how well governments meet these safety objectives by focusing on two indicators from the general population poll  : (1) perceptions of safety and (2) control of violence.",,
 ch01,chapter,# Civil Justice,,
 ch01_f,findings,"- People perceive justice as being too expensive.  Malta    is the only EU Member State where most people believe dispute resolution mechanisms are affordable.
 - Across the EU, backlogs and delays are widespread in civil and commercial courts.
@@ -184,11 +184,66 @@ sec06_R2F18,accordion_viz,<span>Figure 18</span> Access to alternative justice m
 sec06_R2F18_d,accordion_viz_description,"Percentage of respondents who agree that people in their country can easily turn to alternative justice mechanisms (mediation, arbitration, restorative justice, etc.) when they face a legal problem",sec06_R2F18,
 sec06_R2F18_i,accordion_viz_image,R2F18.svg,sec06_R2F18,
 sec06_R2F18_n,accordion_viz_note,,sec06_R2F18,
-ch01_sec07,sub_chapter,## *WJP Global Legal Needs Survey* module,ch01,
+ch01_sec07,sub_chapter,## WJP Global Legal Needs Survey module,ch01,
 f_ch01_sec07,html,"- In 15 Member States*  , over half  of respondents experienced one or **more non-trivial legal problems****  in the past two years, with prevalence at the country-level ranging from 15.6% in Portugal to 71.0% in Hungary (Figure 19). Across the EU, the most **commonly reported legal problems** were related to consumer protection, housing, and public services (Figure 20).    
 - Among all  respondents who reported experiencing non-trivial legal problems, at least half  had **access to good information and advice** (Figure 23) and, in 18 Member States, the majority of respondents had **access to adequate assistance and representation***** (Figure 24). However, Malta and Bulgaria were the only two Member States in which the majority of respondents who experienced a non-trivial legal problem had **access to a dispute resolution mechanism** (Figure 25).       
 - Among respondents who experienced a non-trivial legal problem and reported that the problem’s resolution process has concluded, most say that **their legal problems have been solved**. This is true in all Member States except Czechia, where the majority of respondents say their legal problems persist.  
 - In a majority of EU Member States, out of respondents who experienced a non-trivial legal problem and reported that the problem’s resolution process has concluded, over two-thirds say that the **resolution process concluded in less than a year** (Figure 26) and that they were **able to afford the costs to solve their problem, or did not incur any costs at all** (Figure 27).  However, this group of respondents did not think their experiences were fair – in only 5 Member States did the majority of respondents agree that the **resolution process was fair, regardless of the outcome** (Figure 28).",ch01_sec07,
+sec07_R2F19,accordion_viz,<span>Figure 19</span> Prevalence of all and non-trivial legal problems,ch01_sec07,people
+,accordion_viz_category,People's Voices,sec07_R2F19,
+sec07_R2F19_d,accordion_viz_description,"Percentage of respondents who experienced at least one legal problem and those with a non-trivial problem, meaning a problem of self-reported seriousness of 4 or more in a scale of 0 to 10.",sec07_R2F19,
+sec07_R2F19_i,accordion_viz_image,R2F19.svg,sec07_R2F19,
+sec07_R2F19_n,accordion_viz_note,,sec07_R2F19,
+sec07_R2F20,accordion_viz,<span>Figure 20</span> Prevalence by category of legal problems,ch01_sec07,people
+,accordion_viz_category,People's Voices,sec07_R2F20,
+sec07_R2F20_d,accordion_viz_description,Percentage of respondents who experienced at least one non-trivial legal problem by problem category,sec07_R2F20,
+sec07_R2F20_i,accordion_viz_image,R2F20.svg,sec07_R2F20,
+sec07_R2F20_n,accordion_viz_note,,sec07_R2F20,
+sec07_R2F21,accordion_viz,<span>Figure 21</span> Legal vulnerability: official proof of identity,ch01_sec07,people
+,accordion_viz_category,People's Voices,sec07_R2F21,
+sec07_R2F21_d,accordion_viz_description,Percentage of respondents who report having an official proof of identity,sec07_R2F21,
+sec07_R2F21_i,accordion_viz_image,R2F21.svg,sec07_R2F21,
+sec07_R2F21_n,accordion_viz_note,,sec07_R2F21,
+sec07_R2F22,accordion_viz,<span>Figure 22</span> Legal vulnerability: official proof of housing or land tenure,ch01_sec07,people
+,accordion_viz_category,People's Voices,sec07_R2F22,
+sec07_R2F22_d,accordion_viz_description,Percentage of respondents who report having an official proof of housing or land tenure,sec07_R2F22,
+sec07_R2F22_i,accordion_viz_image,R2F22.svg,sec07_R2F22,
+sec07_R2F22_n,accordion_viz_note,,sec07_R2F22,
+sec07_R2F23,accordion_viz,<span>Figure 23</span> Access to appropriate information and advice,ch01_sec07,people
+,accordion_viz_category,People's Voices,sec07_R2F23,
+sec07_R2F23_d,accordion_viz_description,Percentage of respondents who had access to good information and advice out of those who experienced a non-trivial problem,sec07_R2F23,
+sec07_R2F23_i,accordion_viz_image,R2F23.svg,sec07_R2F23,
+sec07_R2F23_n,accordion_viz_note,,sec07_R2F23,
+sec07_R2F24,accordion_viz,<span>Figure 24</span> Access to appropriate assistance and representation,ch01_sec07,people
+,accordion_viz_category,People's Voices,sec07_R2F24,
+sec07_R2F24_d,accordion_viz_description,"Percentage of respondents who had access to adequate assistance and representation out of those who experienced a non-trivial legal problem. Adequate assistance and representation include those obtained from any of the following entities: a lawyer, a professional advisor, an advice service, a government legal aid office, a court or government body, the police, a health or welfare professional, a trade union or employer, a civil society organization, or a charity.",sec07_R2F24,
+sec07_R2F24_i,accordion_viz_image,R2F24.svg,sec07_R2F24,
+sec07_R2F24_n,accordion_viz_note,,sec07_R2F24,
+sec07_R2F25,accordion_viz,<span>Figure 25</span> Access to a dispute resolution mechanism,ch01_sec07,people
+,accordion_viz_category,People's Voices,sec07_R2F25,
+sec07_R2F25_d,accordion_viz_description,Percentage of respondents who had access to a dispute resolution mechanism out of those who experienced a non-trivial legal problem and needed access,sec07_R2F25,
+sec07_R2F25_i,accordion_viz_image,R2F25.svg,sec07_R2F25,
+sec07_R2F25_n,accordion_viz_note,,sec07_R2F25,
+sec07_R2F26,accordion_viz,<span>Figure 26</span> Timeliness of the resolution process,ch01_sec07,people
+,accordion_viz_category,People's Voices,sec07_R2F26,
+sec07_R2F26_d,accordion_viz_description,"Percentage of respondents whose process concluded in less than a year, out of those who experienced a non-trivial legal problem and whose problem resolution process has concluded",sec07_R2F26,
+sec07_R2F26_i,accordion_viz_image,R2F26.svg,sec07_R2F26,
+sec07_R2F26_n,accordion_viz_note,,sec07_R2F26,
+sec07_R2F27,accordion_viz,<span>Figure 27</span> Costliness of the resolution process,ch01_sec07,people
+,accordion_viz_category,People's Voices,sec07_R2F27,
+sec07_R2F27_d,accordion_viz_description,"Percentage of respondents who did not incur costs to solve their problem, or did and could afford them, out of those who experienced a non-trivial legal problem and whose problem resolution process has concluded",sec07_R2F27,
+sec07_R2F27_i,accordion_viz_image,R2F27.svg,sec07_R2F27,
+sec07_R2F27_n,accordion_viz_note,,sec07_R2F27,
+sec07_R2F28,accordion_viz,<span>Figure 28</span> Fairness of the resolution process,ch01_sec07,people
+,accordion_viz_category,People's Voices,sec07_R2F28,
+sec07_R2F28_d,accordion_viz_description,"Percentage of respondents who think the process was fair, regardless of the outcome,  out of those who experienced a non-trivial legal problem and whose problem resolution process has concluded",sec07_R2F28,
+sec07_R2F28_i,accordion_viz_image,R2F28.svg,sec07_R2F28,
+sec07_R2F28_n,accordion_viz_note,,sec07_R2F28,
+sec07_R2F29,accordion_viz,<span>Figure 29</span> Outcome of the resolution process,ch01_sec07,people
+,accordion_viz_category,People's Voices,sec07_R2F29,
+sec07_R2F29_d,accordion_viz_description,"Percentage of respondents whose resolution process is done and whose legal problem is solved, out of those who experienced a non-trivial legal problem and whose problem resolution process has concluded",sec07_R2F29,
+sec07_R2F29_i,accordion_viz_image,R2F29.svg,sec07_R2F29,
+sec07_R2F29_n,accordion_viz_note,,sec07_R2F29,
 ch02,chapter,# Criminal Justice,,
 ch02_f,findings,"- While experts in most EU countries say their justice systems conduct effective and impartial criminal investigations and prosecutions, these positive perceptions are not shared among respondents in Bulgaria, Cyprus, and Greece. 
 - Confidence in police conduct is high among respondents in most of the EU. In 26 Member States (excepting Slovakia), most people say police respect the basic rights of suspects, and in 20 Member States, most people say the police do not use excessive or unnecessary force. 

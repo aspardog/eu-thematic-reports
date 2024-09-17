@@ -61,7 +61,7 @@ This indicator explores non-formal and abridged dispute resolution methods that 
 - In 6 Member States, the majority of respondents agree that **people can easily turn to alternative justice mechanisms** (mediation, arbitration, restorative justice, etc.) when they face a legal problem (Figure 18). 
 
 
-### *WJP Global Legal Needs Survey* module
+### WJP Global Legal Needs Survey module
 
 - In 15 Member States*  , over half  of respondents experienced one or **more non-trivial legal problems****  in the past two years, with prevalence at the country-level ranging from 15.6% in Portugal to 71.0% in Hungary (Figure 19). Across the EU, the most **commonly reported legal problems** were related to consumer protection, housing, and public services (Figure 20).    
 - Among all  respondents who reported experiencing non-trivial legal problems, at least half  had **access to good information and advice** (Figure 23) and, in 18 Member States, the majority of respondents had **access to adequate assistance and representation***** (Figure 24). However, Malta and Bulgaria were the only two Member States in which the majority of respondents who experienced a non-trivial legal problem had **access to a dispute resolution mechanism** (Figure 25).       
@@ -160,9 +160,4 @@ This indicator explores people’s sense of security and their subjective evalua
 
 This indicator captures the public’s  perceptions of the prevalence of different violent behaviors in their communities. It records whether people witnessed different types of violent acts. 
 
-- In 26 Member States,* fewer than half of respondents witnessed street violence (Figure 58), violence against women (Figure 59), and racially motivated violence (Figure 60).  
-
-
-
-
-
+- In 26 Member States,* fewer than half of respondents witnessed street violence (Figure 58), violence against women (Figure 59), and racially motivated violence (Figure 60). 

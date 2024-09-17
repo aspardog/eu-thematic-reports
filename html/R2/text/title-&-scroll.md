@@ -1,4 +1,4 @@
-# We asked 72000 Europeans what they thought of transparency and corruption Most people thought
+# We asked 72,000 Europeans if they feel safe and if justice is met. Most people
 
 ## feel safe at night,
 
