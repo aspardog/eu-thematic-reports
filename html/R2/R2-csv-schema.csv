@@ -5,9 +5,9 @@ front_page_image,front_page_image,cover.jpg,,
 front_page_year,front_page_year,2024,,
 front_page_source,front_page_source,World Justice Project EUROVOICES,,
 title,title,We asked 72000 Europeans what they thought of transparency and corruption Most people thought,,
-scroll1,scrollytelling,"## anticorruption measures to be ineffective,",,
-scroll2,scrollytelling,"## political parties as the most corrupt,",,
-scroll3,scrollytelling,## businesses face unnecessary red tape.,,
+scroll1,scrollytelling,"## feel safe at night,",,
+scroll2,scrollytelling,"## see the police as a force for good,",,
+scroll3,scrollytelling,## cannot afford legal assistance.,,
 ,scrollytelling_img,scroll1.png,scroll1,
 ,scrollytelling_img,scroll2.png,scroll2,
 ,scrollytelling_img,scroll3.png,scroll3,
@@ -60,23 +60,63 @@ ch01_f,findings,"- People perceive justice as being too expensive.  Malta    is 
 - People are not aware of their legal rights. Romania  , Poland, and Greece are the only EU Member States in which the majority of respondents feel aware of their rights when facing a legal problem.
 - In 15 Member States*, a majority of respondents experienced at least one non-trivial legal problem** in the past two years      . The prevalence of legal problems varies widely across the EU, as just 15.6% of respondents experienced a recent legal problem in Portugal, while 71.0% did in Hungary. For respondents in all countries, the most common legal problems were related to consumer protection.
 - Most EU residents who had a non-trivial legal issue were unable to access appropriate dispute resolution mechanisms. This finding presents a major challenge to many EU countries aiming to meet the United Nations Sustainable Development Goals target on access to justice for all (SDG 16.3.3).",ch01,
-ch01_sec01,sub_chapter,## Legal Capability,ch01,
+ch01_sec01,sub_chapter,## Legal capability,ch01,
 f_ch01_sec01,html,"This indicator refers to an individual's ability to navigate the legal system and, by doing so, readily access justice while upholding their rights. This indicator examines people's awareness of their rights and knowledge of where to obtain legal information and advice.
 
 - The average score for the expert indicator  of **legal capability** among the 27 EU Member States is 0.58 (Figure 1). Country-level scores range from 0.69 in Finland to 0.47 in Greece and Poland.
 - Most EU residents feel that people lack legal awareness. Romania, Poland, and Greece are the only EU Member States in which the majority of respondents agree that **people are aware of their legal rights** (Figure 2).    
 - In just 6 Member States, the majority of respondents agree that **people know where to get legal information and advice when they face a legal problem** (Figure 3).",ch01_sec01,
+sec01_R2F01,accordion_viz,<span>Figure 1</span> Legal capability,ch01_sec01,expert
+,accordion_viz_category,Expert's Scorecard,sec01_R2F01,
+sec01_R2F01_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec01_R2F01,
+sec01_R2F01_i,accordion_viz_image,R2F1.svg,sec01_R2F01,
+sec01_R2F01_n,accordion_viz_note,,sec01_R2F01,
+sec01_R2F02,accordion_viz,<span>Figure 2</span> Awareness of legal rights,ch01_sec01,people
+,accordion_viz_category,People's Voices,sec01_R2F02,
+sec01_R2F02_d,accordion_viz_description,Percentage of respondents who agree that people in their country are aware of their rights when they face a legal problem,sec01_R2F02,
+sec01_R2F02_i,accordion_viz_image,R2F2.svg,sec01_R2F02,
+sec01_R2F02_n,accordion_viz_note,,sec01_R2F02,
+sec01_R2F03,accordion_viz,<span>Figure 3</span> Access to legal information and advice,ch01_sec01,people
+,accordion_viz_category,People's Voices,sec01_R2F03,
+sec01_R2F03_d,accordion_viz_description,Percentage of respondents who agree that people in their country know where to get information and advice when they face a legal problem,sec01_R2F03,
+sec01_R2F03_i,accordion_viz_image,R2F3.svg,sec01_R2F03,
+sec01_R2F03_n,accordion_viz_note,,sec01_R2F03,
 ch01_sec02,sub_chapter,## Access to legal aid and representation in civil disputes,ch01,
 f_ch01_sec02,html,"This indicator explores the accessibility and quality of legal aid services in civil disputes as reported by users, including the affordability of legal aid and the availability of pro bono services.
 
 - The average score for the expert indicator of **access to legal aid and representation in civil cases** among the 27 EU Member States is 0.64 (Figure 4). Country-level scores range from 0.78 in Germany to 0.57 in Cyprus and Hungary. 
 - In only 7 Member States, most respondents agree that **people have access to affordable legal assistance and representation when they face a legal problem** (Figure 5).",ch01_sec02,
+sec02_R2F04,accordion_viz,<span>Figure 4</span> Access to legal aid and representation in case of civil disputes,ch01_sec02,expert
+,accordion_viz_category,Expert's Scorecard,sec02_R2F04,
+sec02_R2F04_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec02_R2F04,
+sec02_R2F04_i,accordion_viz_image,R2F4.svg,sec02_R2F04,
+sec02_R2F04_n,accordion_viz_note,,sec02_R2F04,
+sec02_R2F05,accordion_viz,<span>Figure 5</span> Access to affordable legal assistance and representation,ch01_sec02,people
+,accordion_viz_category,People's Voices,sec02_R2F05,
+sec02_R2F05_d,accordion_viz_description,Percentage of respondents who agree that people in their country have access to affordable legal assistance and representation when they face a legal problem,sec02_R2F05,
+sec02_R2F05_i,accordion_viz_image,R2F5.svg,sec02_R2F05,
+sec02_R2F05_n,accordion_viz_note,,sec02_R2F05,
 ch01_sec03,sub_chapter,"## Accessible, appropriate, and timely dispute resolution",ch01,
 f_ch01_sec03,html,"This indicator focuses on the conditions necessary for effective dispute resolution via state-sponsored, formal mechanisms  or alternative dispute resolution mechanisms. It assesses whether these services are available to all people regardless of socioeconomic status, responsive to different types of problems, and not subject to unreasonable delays.
 
 - The average score for the expert indicator of **accessible, appropriate and timely dispute resolution** among the 27 EU Member States is 0.49 (Figure 6). Country-level scores range from 0.64 in Estonia to 0.38 in Poland. 
 - Lengthy court proceedings are an issue throughout the EU. In all EU Member States, fewer than half of respondents agree that **civil and commercial courts adjudicate disputes quickly** (Figure 8) . 
 - In 26 Member States (excepting Malta  ), fewer than half of respondents agree that **people can easily meet the costs of state dispute resolution mechanisms** (courts, small claims courts, administrative agencies, etc.) when they face a legal problem (Figure 7).",ch01_sec03,
+sec03_R2F06,accordion_viz,"<span>Figure 6</span> Accessible, appropriate and timely dispute resolution",ch01_sec03,expert
+,accordion_viz_category,Expert's Scorecard,sec03_R2F06,
+sec03_R2F06_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec03_R2F06,
+sec03_R2F06_i,accordion_viz_image,R2F6.svg,sec03_R2F06,
+sec03_R2F06_n,accordion_viz_note,,sec03_R2F06,
+sec03_R2F07,accordion_viz,<span>Figure 7</span> Affordability of state dispute resolution mechanisms,ch01_sec03,people
+,accordion_viz_category,People's Voices,sec03_R2F07,
+sec03_R2F07_d,accordion_viz_description,"Percentage of respondents who agree that people in their country can easily meet the costs of turning to a state dispute resolution mechanism (courts, small claims courts, administrative agencies, etc.) when they face a legal problem",sec03_R2F07,
+sec03_R2F07_i,accordion_viz_image,R2F7.svg,sec03_R2F07,
+sec03_R2F07_n,accordion_viz_note,,sec03_R2F07,
+sec03_R2F08,accordion_viz,<span>Figure 8</span> Timely adjudication by civil and commercial courts,ch01_sec03,people
+,accordion_viz_category,People's Voices,sec03_R2F08,
+sec03_R2F08_d,accordion_viz_description,Percentage of respondents who agree that civil and commercial courts in their country adjudicate disputes quickly,sec03_R2F08,
+sec03_R2F08_i,accordion_viz_image,R2F8.svg,sec03_R2F08,
+sec03_R2F08_n,accordion_viz_note,,sec03_R2F08,
 ch01_sec04,sub_chapter,## Impartial and independent dispute resolution,ch01,
 f_ch01_sec04,html,"To assess the procedural fairness of dispute resolution in civil matters, this indicator evaluates various components of a trustworthy justice system, including the absence of discrimination or bias in judicial decisions, corruption, and undue political influence in the delivery of justice.
 
@@ -84,6 +124,36 @@ f_ch01_sec04,html,"To assess the procedural fairness of dispute resolution in ci
 - Only in Denmark  do the majority of respondents agree that **state dispute resolution mechanisms (courts, small claims courts, administrative agencies, etc.) produce fair outcomes for each involved party** (Figure 10). In just 4 Member States (Denmark, the Netherlands, Finland, and Luxembourg), the majority of respondents agree that **all parties are treated equally and fairly within the civil justice system** (Figure 11).
 - Denmark and Finland are the only two EU Member States in which the majority  of respondents agree that **local courts are free of corruption** (Figure 12). At the country level, the percentage of respondents who agree with this statement ranges from 70.5% in Denmark to approximately   11% in Lithuania, Slovakia, and Bulgaria.  
 - In 5 Member States, the majority of respondents agree that **judges decide cases in an independent manner** (Figure 14), while Denmark and the Netherlands are the only Member States in which the majority of respondents agree that **local courts are free of political influence in their application of power** (Figure 13).",ch01_sec04,
+sec04_R2F09,accordion_viz,<span>Figure 9</span> Impartial and independent dispute resolution in the civil justice system,ch01_sec04,expert
+,accordion_viz_category,Expert's Scorecard,sec04_R2F09,
+sec04_R2F09_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec04_R2F09,
+sec04_R2F09_i,accordion_viz_image,R2F9.svg,sec04_R2F09,
+sec04_R2F09_n,accordion_viz_note,,sec04_R2F09,
+sec04_R2F10,accordion_viz,<span>Figure 10</span> Fairness in state dispute resolution,ch01_sec04,people
+,accordion_viz_category,People's Voices,sec04_R2F10,
+sec04_R2F10_d,accordion_viz_description,"Percentage of respondents who agree that state dispute resolution mechanisms in their country (courts, small claims courts, administrative agencies, etc.) produce fair outcomes for each involved party",sec04_R2F10,
+sec04_R2F10_i,accordion_viz_image,R2F10.svg,sec04_R2F10,
+sec04_R2F10_n,accordion_viz_note,,sec04_R2F10,
+sec04_R2F11,accordion_viz,<span>Figure 11</span> Equality and fair treatment in the civil justice system,ch01_sec04,people
+,accordion_viz_category,People's Voices,sec04_R2F11,
+sec04_R2F11_d,accordion_viz_description,Percentage of respondents who agree that all parties are treated equally and fairly within the civil justice system of their country,sec04_R2F11,
+sec04_R2F11_i,accordion_viz_image,R2F11.svg,sec04_R2F11,
+sec04_R2F11_n,accordion_viz_note,,sec04_R2F11,
+sec04_R2F12,accordion_viz,<span>Figure 12</span> Absence of corruption in local courts,ch01_sec04,people
+,accordion_viz_category,People's Voices,sec04_R2F12,
+sec04_R2F12_d,accordion_viz_description,Percentage of respondents who agree that local courts are free of corruption,sec04_R2F12,
+sec04_R2F12_i,accordion_viz_image,R2F12.svg,sec04_R2F12,
+sec04_R2F12_n,accordion_viz_note,,sec04_R2F12,
+sec04_R2F13,accordion_viz,<span>Figure 13</span> Independence of local courts,ch01_sec04,people
+,accordion_viz_category,People's Voices,sec04_R2F13,
+sec04_R2F13_d,accordion_viz_description,Percentage of respondents who agree that local courts are free of political influence in their application of power,sec04_R2F13,
+sec04_R2F13_i,accordion_viz_image,R2F13.svg,sec04_R2F13,
+sec04_R2F13_n,accordion_viz_note,,sec04_R2F13,
+sec04_R2F14,accordion_viz,<span>Figure 14</span> Independence of judges,ch01_sec04,people
+,accordion_viz_category,People's Voices,sec04_R2F14,
+sec04_R2F14_d,accordion_viz_description,Percentage of respondents who agree that judges decide cases in an independent manner and are not subject to any sort of pressure,sec04_R2F14,
+sec04_R2F14_i,accordion_viz_image,R2F14.svg,sec04_R2F14,
+sec04_R2F14_n,accordion_viz_note,,sec04_R2F14,
 ch01_sec05,sub_chapter,## Effective and outcome-oriented dispute resolution,ch01,
 f_ch01_sec05,html,"This indicator assesses how justice system users perceive the outcomes of their legal proceedings, including the extent to which civil justice processes aim  to achieve meaningful and satisfactory outcomes for all parties involved and whether those outcomes are effectively enforced.
 
@@ -206,13 +276,38 @@ sec04_R2F41,accordion_viz,<span>Figure 41</span> Alternative criminal justice me
 sec04_R2F41_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec04_R2F41,
 sec04_R2F41_i,accordion_viz_image,R2F41.svg,sec04_R2F41,
 sec04_R2F41_n,accordion_viz_note,,sec04_R2F41,
-ch02_sec05,sub_chapter,## Victims’ rights,ch02,
+ch02_sec05,sub_chapter,## Victims' rights,ch02,
 f_ch02_sec05,html,"This indicator measures whether victims of crime are treated respectfully by agents of the criminal justice system and whether they have access to justice and any required support throughout their legal process.
 
 - The average score for the expert indicator of **respect for victims’ rights** among all the Member States* is 0.52 (Figure 42). Country-level scores range from 0.70 in Luxembourg to 0.38 in Hungary.
 - In 13 Member States, the majority of respondents agree that the **criminal justice system respects the rights of victims**, with country-level figures ranging from 70.6% or respondents in Denmark to 29.3% in Slovakia (Figure 44).
 - In 18 Member States, the majority of respondents agree that the **criminal justice system allows all victims of crime to seek justice regardless of who they are** (Figure 45), while in 12 Member States, the majority of respondents agree the **justice system functions the same regardless of where people live** (Figure 43).   
 - In just 6 Member States, the majority of respondents agree that the **criminal justice system provides victims of crime with the service and support they need** (Figure 46).",ch02_sec05,
+sec05_R2F42,accordion_viz,<span>Figure 42</span> Victims' rights,ch02_sec05,expert
+,accordion_viz_category,Expert's Scorecard,sec05_R2F42,
+sec05_R2F42_d,accordion_viz_description,"Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec05_R2F42,
+sec05_R2F42_i,accordion_viz_image,R2F42.svg,sec05_R2F42,
+sec05_R2F42_n,accordion_viz_note,,sec05_R2F42,
+sec05_R2F43,accordion_viz,<span>Figure 43</span> Equal functioning of the justice system regardless of where people live,ch02_sec05,people
+,accordion_viz_category,People's Voices,sec05_R2F43,
+sec05_R2F43_d,accordion_viz_description,Percentage of respondents who agree the justice system functions the same regardless of where they live,sec05_R2F43,
+sec05_R2F43_i,accordion_viz_image,R2F43.svg,sec05_R2F43,
+sec05_R2F43_n,accordion_viz_note,,sec05_R2F43,
+sec05_R2F44,accordion_viz,<span>Figure 44</span> Respect for the rights of victims,ch02_sec05,people
+,accordion_viz_category,People's Voices,sec05_R2F44,
+sec05_R2F44_d,accordion_viz_description,Percentage of respondents who agree that the criminal justice system respects the rights of victims,sec05_R2F44,
+sec05_R2F44_i,accordion_viz_image,R2F44.svg,sec05_R2F44,
+sec05_R2F44_n,accordion_viz_note,,sec05_R2F44,
+sec05_R2F45,accordion_viz,<span>Figure 45</span> Equal access to justice for all victims of crime,ch02_sec05,people
+,accordion_viz_category,People's Voices,sec05_R2F45,
+sec05_R2F45_d,accordion_viz_description,Percentage of respondents who agree that the criminal justice system allows all victims of crime to seek justice regardless of who they are,sec05_R2F45,
+sec05_R2F45_i,accordion_viz_image,R2F45.svg,sec05_R2F45,
+sec05_R2F45_n,accordion_viz_note,,sec05_R2F45,
+sec05_R2F46,accordion_viz,<span>Figure 46</span> Adequate attention and support for victims of crime,ch02_sec05,people
+,accordion_viz_category,People's Voices,sec05_R2F46,
+sec05_R2F46_d,accordion_viz_description,Percentage of respondents who agree that the criminal justice system provides victims of crime with the service and support they need,sec05_R2F46,
+sec05_R2F46_i,accordion_viz_image,R2F46.svg,sec05_R2F46,
+sec05_R2F46_n,accordion_viz_note,,sec05_R2F46,
 ch02_sec06,sub_chapter,## Due process of law,ch02,
 f_ch02_sec06,html,"This indicator measures adherence to due process in criminal matters, including presumption of innocence, impartiality, and non-discrimination, as well as the respect for the rights of the accused, including legal assistance, the right of defense, and the right to an effective remedy and a fair trial.
 
@@ -290,10 +385,25 @@ sec01_R2F57,accordion_viz,<span>Figure 57</span> Police and community safety,ch0
 sec01_R2F57_d,accordion_viz_description,Percentage of respondents who agree that the police resolves safety problems in their communities and treat all people with kindness and respect,sec01_R2F57,
 sec01_R2F57_i,accordion_viz_image,R2F57.svg,sec01_R2F57,
 sec01_R2F57_n,accordion_viz_note,,sec01_R2F57,
-ch03_sec02,sub_chapter,## Control of Violence,ch03,
+ch03_sec02,sub_chapter,## Control of violence,ch03,
 f_ch03_sec02,html,"This indicator captures the public’s  perceptions of the prevalence of different violent behaviors in their communities. It records whether people witnessed different types of violent acts. 
 
 - In 26 Member States,* fewer than half of respondents witnessed street violence (Figure 58), violence against women (Figure 59), and racially motivated violence (Figure 60).",ch03_sec02,
+sec02_R2F58,accordion_viz,<span>Figure 58</span> Witnessing of street violence,ch03_sec02,people
+,accordion_viz_category,People's Voices,sec02_R2F58,
+sec02_R2F58_d,accordion_viz_description,Percentage of respondents who have heard or know about street violence occurring around their home,sec02_R2F58,
+sec02_R2F58_i,accordion_viz_image,R2F58.svg,sec02_R2F58,
+sec02_R2F58_n,accordion_viz_note,,sec02_R2F58,
+sec02_R2F59,accordion_viz,<span>Figure 59</span> Witnessing of violence against women,ch03_sec02,people
+,accordion_viz_category,People's Voices,sec02_R2F59,
+sec02_R2F59_d,accordion_viz_description,Percentage of respondents who have heard or know about violence against women occurring around their home,sec02_R2F59,
+sec02_R2F59_i,accordion_viz_image,R2F59.svg,sec02_R2F59,
+sec02_R2F59_n,accordion_viz_note,,sec02_R2F59,
+sec02_R2F60,accordion_viz,<span>Figure 60</span> Witnessing of racially motivated violence,ch03_sec02,people
+,accordion_viz_category,People's Voices,sec02_R2F60,
+sec02_R2F60_d,accordion_viz_description,Percentage of respondents who have heard or know about racially motivated violence occurring around their home,sec02_R2F60,
+sec02_R2F60_i,accordion_viz_image,R2F60.svg,sec02_R2F60,
+sec02_R2F60_n,accordion_viz_note,,sec02_R2F60,
 appendix,appendix,"### List of Country and Region Abbreviations
 
 <div id=""abbreviations"">

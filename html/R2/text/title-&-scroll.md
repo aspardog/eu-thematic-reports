@@ -1,7 +1,7 @@
 # We asked 72000 Europeans what they thought of transparency and corruption Most people thought
 
-## anticorruption measures to be ineffective,
+## feel safe at night,
 
-## political parties as the most corrupt,
+## see the police as a force for good,
 
-## businesses face unnecessary red tape.
+## cannot afford legal assistance.

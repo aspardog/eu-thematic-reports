@@ -9,7 +9,7 @@
 - Most EU residents who had a non-trivial legal issue were unable to access appropriate dispute resolution mechanisms. This finding presents a major challenge to many EU countries aiming to meet the United Nations Sustainable Development Goals target on access to justice for all (SDG 16.3.3). 
 
 
-### Legal Capability
+### Legal capability
 
 This indicator refers to an individual's ability to navigate the legal system and, by doing so, readily access justice while upholding their rights. This indicator examines people's awareness of their rights and knowledge of where to obtain legal information and advice.
 
@@ -18,7 +18,7 @@ This indicator refers to an individual's ability to navigate the legal system an
 - In just 6 Member States, the majority of respondents agree that **people know where to get legal information and advice when they face a legal problem** (Figure 3).  
 
 
-### Access to legal aid and representation in civil disputes 
+### Access to legal aid and representation in civil disputes
 
 This indicator explores the accessibility and quality of legal aid services in civil disputes as reported by users, including the affordability of legal aid and the availability of pro bono services.
 
@@ -112,7 +112,7 @@ This indicator assesses the mechanisms that provide complementary and restorativ
 - The average score for the expert indicator of **alternative criminal justice mechanisms** among all Member States* is 0.52 (Figure 41). Country-level scores range from 0.68 in Finland to 0.41 in Bulgaria. 
 
 
-### Victims’ rights
+### Victims' rights
 
 This indicator measures whether victims of crime are treated respectfully by agents of the criminal justice system and whether they have access to justice and any required support throughout their legal process.
 
@@ -156,7 +156,7 @@ This indicator explores people’s sense of security and their subjective evalua
 - In 24 Member States, the majority of respondents agree that **the police resolve safety problems in their communities and treat all people with kindness and respect**, with country-level figures ranging from 93.4% of respondents in Finland to 42.1% in Cyprus (Figure 57).
 
 
-### Control of Violence
+### Control of violence
 
 This indicator captures the public’s  perceptions of the prevalence of different violent behaviors in their communities. It records whether people witnessed different types of violent acts. 
 
