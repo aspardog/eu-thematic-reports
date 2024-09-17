@@ -147,7 +147,7 @@ genDumbbells <- function(dta) {
     ) +
     scale_y_continuous(
       expand   = c(0, 0),
-      limits   = c(-.1, 1),
+      limits   = c(-.1, 1.05),
       breaks   = seq(0, 1, .2),
       # labels   = round(seq(0, 1, .2), 2),
       labels = scales::number_format(accuracy = 0.01),

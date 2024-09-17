@@ -202,9 +202,9 @@ data_points <- imap(
         wrangled_data <- wrangleData(figid = chart, source = source)
         
         # Imputing low counts for these specific special charts
-        if (chart %in% c("R1F68", "R3F14")) {
-          wrangled_data <- impute_values(wrangled_data)
-        }
+        # if (chart %in% c("R1F68", "R3F14")) {
+        #   wrangled_data <- impute_values(wrangled_data)
+        # }
         
         return(wrangled_data)
       }

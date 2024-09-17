@@ -71,8 +71,9 @@ gen_qrq_bars <- function(data, direction) {
     scale_color_manual(values = label_color,
                        guide  = "none") + 
     scale_y_continuous(limits = c(0, 1.05), 
-                       labels = scales::number_format(accuracy = 0.1),
+                       labels = scales::number_format(accuracy = 0.01),
                        expand = c(0,0),
+                       breaks = c(0, 0.25, 0.5, 0.75, 1),
                        position = "right") +
     coord_flip() +
     theme(
