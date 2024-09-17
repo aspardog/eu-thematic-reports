@@ -1,79 +1,168 @@
 # Thematic Findings
 
-## Control of corruption
+## Civil Justice
 
-- Across the EU, local legal experts say high-level corruption—including corrupt public procurement practices and political graft—is a more prevalent issue than street-level corruption.
-- People in the EU believe political parties and members of the legislature are more corrupt than the police and local and national government officials. However, there is considerable variation in the level of concern between respondents of different EU Member States. In Sweden, only 5% of people think that police officers are corrupt, while at least 30% think so in Romania, Bulgaria, Cyprus, and Croatia.
-- The majority of people in all EU Member States believe government actions to control corruption are ineffective and applied selectively.
+- People perceive justice as being too expensive.  Malta    is the only EU Member State where most people believe dispute resolution mechanisms are affordable.
+- Across the EU, backlogs and delays are widespread in civil and commercial courts.
+- People are not aware of their legal rights. Romania  , Poland, and Greece are the only EU Member States in which the majority of respondents feel aware of their rights when facing a legal problem.
+- In 15 Member States*, a majority of respondents experienced at least one non-trivial legal problem** in the past two years      . The prevalence of legal problems varies widely across the EU, as just 15.6% of respondents experienced a recent legal problem in Portugal, while 71.0% did in Hungary. For respondents in all countries, the most common legal problems were related to consumer protection.
+- Most EU residents who had a non-trivial legal issue were unable to access appropriate dispute resolution mechanisms. This finding presents a major challenge to many EU countries aiming to meet the United Nations Sustainable Development Goals target on access to justice for all (SDG 16.3.3). 
 
-### 1. Absence of bribery
 
-This indicator explores the absence of bribery in administrative procedures and interactions with the police and court personnel. It assesses whether individuals who interact with the police and court staff have to make informal payments or gifts to receive a public service or expedite a process.
+### Legal Capability
 
-- The average score for the expert indicator of **absence of bribery** across the 27 EU Member States is 0.74 (Figure 1). Country-level scores range from 0.98 in Denmark to 0.46 in Bulgaria (graded on a scale from 0 to 1, where 1 signifies the best possible score).
-- In all 27 Member States, the majority of respondents from the general population believe that their **national government's efforts to combat corruption are ineffective** (Figure 17) and that **measures against corruption are not applied impartially** (Figure 18).
-- In 5 Member States, the majority of respondents agree that they are **personally affected by corruption in their daily lives**. At the country level, the percentage of respondents who agree they are personally affected by corruption ranges from just 10.9% in Denmark to 68.6% in Cyprus (Figure 15).
-- Compared to a selection of government institutions, perceptions of corruption are highest regarding political parties: in 17 Member States, the majority of respondents believe that most or all **political parties** are involved in corrupt practices (Figure 11). Meanwhile, in 9 Member States, the majority of respondents believe that most or all **Members of Parliament/Congress** are corrupt (Figure 2), and in 6 Member States, the majority believe most or all **officials in the national government are corrupt** (Figure 3). In contrast, respondents across the EU report that perceptions of corruption are the lowest regarding **car registration officers** (Figure 10), **land registry officers** (Figure 9), and **police officers** (Figure 8).
+This indicator refers to an individual's ability to navigate the legal system and, by doing so, readily access justice while upholding their rights. This indicator examines people's awareness of their rights and knowledge of where to obtain legal information and advice.
 
-### 2. Absence of corrupt procurement practices
+- The average score for the expert indicator  of **legal capability** among the 27 EU Member States is 0.58 (Figure 1). Country-level scores range from 0.69 in Finland to 0.47 in Greece and Poland.
+- Most EU residents feel that people lack legal awareness. Romania, Poland, and Greece are the only EU Member States in which the majority of respondents agree that **people are aware of their legal rights** (Figure 2).    
+- In just 6 Member States, the majority of respondents agree that **people know where to get legal information and advice when they face a legal problem** (Figure 3).  
 
-This indicator evaluates the prevalence of grand corruption, specifically in public procurement (graft) and political processes. This includes instances where high-ranking officials use their influence to award government contracts without competitive bidding or purchase goods at inflated prices. Additionally, this indicator examines whether high-ranking officials solicit or receive informal payments in exchange for political favors, including favorable treatment, favorable votes, and access to policymakers.
 
-- The average score among the 27 EU Member States for the expert indicator that evaluates the extent of practices of grand corruption, including graft in public procurement and the political process, is 0.54 (Figure 19). Country-level scores range from 0.89 in Finland to 0.25 in Bulgaria.
-- In 21 Member States, the majority of respondents agree that **the only way to succeed in business is to have political connections**. At the country level, the percentage of respondents who agree ranges from 19.5% in Sweden to 75.5% in Croatia (Figure 20).
+### Access to legal aid and representation in civil disputes 
 
-### 3. Absence of embezzlement
+This indicator explores the accessibility and quality of legal aid services in civil disputes as reported by users, including the affordability of legal aid and the availability of pro bono services.
 
-This indicator measures the prevalence of theft or misappropriation of public funds or other state resources for personal use by public sector employees or elected officials.
+- The average score for the expert indicator of **access to legal aid and representation in civil cases** among the 27 EU Member States is 0.64 (Figure 4). Country-level scores range from 0.78 in Germany to 0.57 in Cyprus and Hungary. 
+- In only 7 Member States, most respondents agree that **people have access to affordable legal assistance and representation when they face a legal problem** (Figure 5). 
 
-- The average score for the expert indicator of **absence of embezzlement** among the 27 EU Member States is 0.60 (Figure 21). Country-level scores range from 0.90 in Finland to 0.32 in Bulgaria.
 
-### 4. Absence of favoritism
+### Accessible, appropriate, and timely dispute resolution
 
-This indicator refers to the practice of using positions of public authority to benefit friends or family members, without necessarily requiring the exchange of political favors for money or gifts.
+This indicator focuses on the conditions necessary for effective dispute resolution via state-sponsored, formal mechanisms  or alternative dispute resolution mechanisms. It assesses whether these services are available to all people regardless of socioeconomic status, responsive to different types of problems, and not subject to unreasonable delays.
 
-- The average score for the expert indicator of **absence of favoritism** among the 27 EU Member States is 0.53 (Figure 22). Country-level scores range from 0.84 in Finland and Sweden to 0.27 in Bulgaria.
+- The average score for the expert indicator of **accessible, appropriate and timely dispute resolution** among the 27 EU Member States is 0.49 (Figure 6). Country-level scores range from 0.64 in Estonia to 0.38 in Poland. 
+- Lengthy court proceedings are an issue throughout the EU. In all EU Member States, fewer than half of respondents agree that **civil and commercial courts adjudicate disputes quickly** (Figure 8) . 
+- In 26 Member States (excepting Malta  ), fewer than half of respondents agree that **people can easily meet the costs of state dispute resolution mechanisms** (courts, small claims courts, administrative agencies, etc.) when they face a legal problem (Figure 7). 
 
-### 5. Absence of corrupt electoral practices
 
-This indicator examines the prevalence of the misuse of public funds to benefit a political campaign or to interfere with the electoral process. It includes vote buying and cases where election officials request or receive bribes to benefit a candidate.
+### Impartial and independent dispute resolution
 
-- The average score for the expert indicator of **absence of corrupt electoral practices** across the 27 EU Member States is 0.57 (Figure 23). Country-level scores range from 0.90 in Finland to 0.24 in Bulgaria.
-- In all 27 Member States, the vast majority of people think **it is unacceptable for an elected official to take public funds for private use**. At the country-level, the percentage of respondents who say corrupt practices among elected officials are unacceptable range from 97.0% in Finland to 79.1% in Romania (Figure 24). 
-- Most people across the EU believe **it is unacceptable for a public officer to be recruited on the basis of family ties and friendship networks**. Figures range from 85.6% in Italy to 49.9% in Luxembourg (Figure 25).
+To assess the procedural fairness of dispute resolution in civil matters, this indicator evaluates various components of a trustworthy justice system, including the absence of discrimination or bias in judicial decisions, corruption, and undue political influence in the delivery of justice.
 
-## Transparency and Access to Information
+- The average score for the expert indicator of **impartial and independent dispute resolution** among the 27 EU Member States is 0.70 (Figure 9). Country-level scores range from 0.89 in Denmark to 0.55 in Bulgaria.
+- Only in Denmark  do the majority of respondents agree that **state dispute resolution mechanisms (courts, small claims courts, administrative agencies, etc.) produce fair outcomes for each involved party** (Figure 10). In just 4 Member States (Denmark, the Netherlands, Finland, and Luxembourg), the majority of respondents agree that **all parties are treated equally and fairly within the civil justice system** (Figure 11).
+- Denmark and Finland are the only two EU Member States in which the majority  of respondents agree that **local courts are free of corruption** (Figure 12). At the country level, the percentage of respondents who agree with this statement ranges from 70.5% in Denmark to approximately   11% in Lithuania, Slovakia, and Bulgaria.  
+- In 5 Member States, the majority of respondents agree that **judges decide cases in an independent manner** (Figure 14), while Denmark and the Netherlands are the only Member States in which the majority of respondents agree that **local courts are free of political influence in their application of power** (Figure 13). 
 
-- Perceptions of transparency vary considerably across the EU, with experts in Sweden reporting the highest levels of positivity and experts in Romania reporting the lowest.
-- People lack confidence in their ability to access detailed public information from government agencies in a majority of EU countries.
 
-### 1. Transparency and access to information
+### Effective and outcome-oriented dispute resolution
 
-This indicator includes information on public institutions’ transparency measures and the accessibility of different types of public information. Additionally, it covers the publicity of laws and whether the right to request information is effectively guaranteed.
+This indicator assesses how justice system users perceive the outcomes of their legal proceedings, including the extent to which civil justice processes aim  to achieve meaningful and satisfactory outcomes for all parties involved and whether those outcomes are effectively enforced.
 
-- The average score for the expert indicator to the right of **transparency and access to information** across the 27 EU Member States is 0.67 (Figure 26). Country-level scores range from 0.83 in Sweden to 0.52 in Romania.
-- In 14 Member States, the majority of respondents agree that **local authorities provide people with information about their rights** (Figure 27), and in 9 EU countries, the majority of respondents believe that **local authorities provide information in a simple, easy-to-read way** (Figure 28).
-- In 21 Member States, the majority of respondents agree that local authorities make **information easy to find online** (Figure 29), yet only in Poland do the majority of people agree that this **information is easy to find without using the internet** (i.e., by using leaflets or posters) (Figure 30).
-- In 26 Member States (data was not collected in Ireland for these questions), fewer than half of respondents believe it is likely or very likely that **government agencies would grant information requests related to copies of government contracts or to detailed budget figures of government agencies** (Figure 31). In most Member States, people tend to agree it is more likely to be granted information on budget figures than government contracts.
+- The average score for the expert indicator of **effective and outcome-oriented dispute resolution** among the 27 EU Member States is 0.57 (Figure 15). Country-level scores range from 0.73 in Finland to 0.46 in Italy.
+- In all 27 Member States, fewer than half of respondents agree that **winning parties can enforce court decisions quickly and effectively**. At the country level, the percentage of respondents who agree with this statement ranges from 45.9% in Poland to 20.3% in Slovenia (Figure 16). 
 
-## Administrative proceedings, regulatory enforcement, and right to property
 
-- While legal experts in the EU believe business regulation is predictable and evenly enforced, they say that starting and operating a business in the EU is unnecessarily complicated.
+### Alternative dispute resolution mechanisms
 
-### 1. Simple, predictable, and timely administrative proceedings
+This indicator explores non-formal and abridged dispute resolution methods that exist outside the formal judicial system, such as mediation, conciliation, or arbitration. The following category  assess the accessibility, fairness, and effectiveness of alternative dispute mechanisms in solving people’s legal problems.
 
-This indicator captures public experiences and perceptions regarding the efficiency and integrity of administrative proceedings. It evaluates the clarity, accessibility, and predictability of the legal framework for businesses, as well as the simplicity and timeliness of administrative proceedings.
+- The average score for the expert indicator of **alternative dispute resolution mechanisms** among the 27 EU Member States is 0.58 (Figure 17). Country-level scores range from 0.73 in Finland to 0.49 in Romania, Czechia, Bulgaria and Slovakia. 
+- In 6 Member States, the majority of respondents agree that **people can easily turn to alternative justice mechanisms** (mediation, arbitration, restorative justice, etc.) when they face a legal problem (Figure 18). 
 
-- The average score for the expert indicator of **simple, predictable, and timely administrative proceedings** among the 27 EU Member States is 0.61 (Figure 32). Country-level scores range from 0.86 in Finland to 0.43 in Romania.
 
-### 2. Right to property
+### *WJP Global Legal Needs Survey* module
 
-This indicator evaluates whether all people have the right to acquire, own, and dispose of property to the extent permitted by law. It also examines whether expropriation and other proceedings with similar results are conducted legally and solely for public benefit.
+- In 15 Member States*  , over half  of respondents experienced one or **more non-trivial legal problems****  in the past two years, with prevalence at the country-level ranging from 15.6% in Portugal to 71.0% in Hungary (Figure 19). Across the EU, the most **commonly reported legal problems** were related to consumer protection, housing, and public services (Figure 20).    
+- Among all  respondents who reported experiencing non-trivial legal problems, at least half  had **access to good information and advice** (Figure 23) and, in 18 Member States, the majority of respondents had **access to adequate assistance and representation***** (Figure 24). However, Malta and Bulgaria were the only two Member States in which the majority of respondents who experienced a non-trivial legal problem had **access to a dispute resolution mechanism** (Figure 25).       
+- Among respondents who experienced a non-trivial legal problem and reported that the problem’s resolution process has concluded, most say that **their legal problems have been solved**. This is true in all Member States except Czechia, where the majority of respondents say their legal problems persist.  
+- In a majority of EU Member States, out of respondents who experienced a non-trivial legal problem and reported that the problem’s resolution process has concluded, over two-thirds say that the **resolution process concluded in less than a year** (Figure 26) and that they were **able to afford the costs to solve their problem, or did not incur any costs at all** (Figure 27).  However, this group of respondents did not think their experiences were fair – in only 5 Member States did the majority of respondents agree that the **resolution process was fair, regardless of the outcome** (Figure 28).
 
-- The average score for the expert indicator of **right to property** across the 27 EU Member States is 0.66 (Figure 33). Country-level scores range from 0.84 in Denmark to 0.53 in Bulgaria.
 
-### 3. Regulatory enforcement
+## Criminal Justice
 
-This indicator assesses the regularity and effectiveness of audits and inspections to ensure they are conducted lawfully and without corruption. It also evaluates the accessibility and simplicity of complaint mechanisms, the impartiality and effectiveness of regulatory investigations, and the appropriateness of sanctions for violations.
+- While experts in most EU countries say their justice systems conduct effective and impartial criminal investigations and prosecutions, these positive perceptions are not shared among respondents in Bulgaria, Cyprus, and Greece. 
+- Confidence in police conduct is high among respondents in most of the EU. In 26 Member States (excepting Slovakia), most people say police respect the basic rights of suspects, and in 20 Member States, most people say the police do not use excessive or unnecessary force. 
+However, the majority of respondents in 10 Member States doubt that authorities respect the presumption of innocence, and in 12 EU Member States, most people do not believe everyone has access to a fair trial.  Perceptions on both of these issues are especially low among Slovakian respondents.
+- Across the EU, most respondents say that people living in poverty continue to face challenges related to public legal defense – in 14 Member States, fewer than half agree there is adequate public defense. 
 
-- The average score for the expert indicator which assesses regulatory enforcement, or the regularity and effectiveness of audits and inspections, among the 27 EU Member States is 0.66 (Figure 34). Country-level scores range from 0.79 in Austria to 0.46 in Malta.
+
+### Effective and impartial criminal investigation
+
+This indicator measures whether the criminal justice system is effective and prompt in gathering evidence on reported crimes. It also examines whether criminal investigations are conducted without bias, corruption, or undue influence from the government.
+
+- The average score for the expert indicator of **effective and impartial criminal investigation** among the 27 EU Member States is 0.60 (Figure 30). Country-level scores range from 0.75 in Finland to 0.41 in Cyprus.
+- In 26 Member States, the majority of respondents express having a lot or some **trust in the police**. Moreover, fewer than half of respondents in all 27 Member States believe that most or all **police officers are involved in corrupt practices** (Figure 31). 
+- Findings on public attitudes toward law enforcement indicate that levels of trust in the police tend to be inversely correlated with perceptions of corruption. For instance, in Finland, 91% of respondents have a lot or some trust in the police, while only 5.8% believe that most or all police officers engage in corrupt activities. In contrast, Cypriots report lower levels of trust in the police (33.8%) and higher perceptions of corruption (33.3%).
+- In 26 Member States, the majority of respondents agree that **police investigators perform serious and law-abiding investigations to find the perpetrators of a crime** (Figure 32); however, in only 8 Member States do the majority of respondents agree that **police investigators investigate crimes in an independent manner, without any sort of pressure** (Figure 33). 
+
+
+
+### Effective and impartial prosecution and pre-trial proceedings
+
+This indicator examines the effectiveness of the criminal justice system in bringing people who commit crimes to justice. This category assesses the timeliness and effectiveness  of criminal prosecution, determining whether cases are handled promptly and efficiently to deliver justice without unreasonable delay.
+
+- The average score for the expert indicator of **effective and impartial prosecution and pre-trial proceedings** among the 27 EU Member States is 0.60 (Figure 34). Country-level scores range from 0.76 in Finland to 0.43 in Bulgaria.
+- In 20 Member States, the majority of respondents express a lot or some **trust in prosecutors in charge of criminal investigations**, and in 26 Member States, fewer than half of respondents believe that most or all **prosecutors are involved in corrupt practices** (Figure 35). Compared to other EU Member States, respondents in Bulgaria report the lowest levels of trust in prosecutors (31.2%) and the highest perception of corruption of prosecutors (60.0%).   
+- In 12 Member States, the majority of respondents agree that **the criminal justice system is effective in bringing people who commit crimes to justice**. At the country level, the percentage of respondents who agree with this statement ranges from 67.9% in Finland to 23.4% in Slovakia (Figure 37). In 8 Member States  , at least half of respondents agree that **crimes are prosecuted in an independent manner**. At the country level, the percentage of respondents who agree with this statement ranges from 71.2% in Finland to 18.1% in Slovakia (Figure 36). 
+
+
+### Effective and impartial criminal adjudication
+
+This indicator measures whether criminal court decisions are timely and unbiased by examining the impartiality and integrity of the adjudication process, which ensures that decisions are impartial and free of corruption or undue influence.
+
+- The average score for the expert indicator of **effective and impartial criminal adjudication** among the 27 EU Member States is 0.63 (Figure 38). Country-level scores range from 0.78 in Sweden to 0.48 in Greece.
+- In 21 Member States, the majority of respondents express a lot or some **trust in judges and magistrates**, and in 26 Member States , fewer than half agree that most **judges and magistrates are involved in corrupt practices** (excepting Bulgaria) (Figure 39). 
+
+
+### Alternative criminal justice mechanisms 
+
+This indicator assesses the mechanisms that provide complementary and restorative approaches to resolving criminal matters, offering accessible and timely solutions outside criminal courts.
+
+- The average score for the expert indicator of **alternative criminal justice mechanisms** among all Member States* is 0.52 (Figure 41). Country-level scores range from 0.68 in Finland to 0.41 in Bulgaria. 
+
+
+### Victims’ rights
+
+This indicator measures whether victims of crime are treated respectfully by agents of the criminal justice system and whether they have access to justice and any required support throughout their legal process.
+
+- The average score for the expert indicator of **respect for victims’ rights** among all the Member States* is 0.52 (Figure 42). Country-level scores range from 0.70 in Luxembourg to 0.38 in Hungary.
+- In 13 Member States, the majority of respondents agree that the **criminal justice system respects the rights of victims**, with country-level figures ranging from 70.6% or respondents in Denmark to 29.3% in Slovakia (Figure 44).
+- In 18 Member States, the majority of respondents agree that the **criminal justice system allows all victims of crime to seek justice regardless of who they are** (Figure 45), while in 12 Member States, the majority of respondents agree the **justice system functions the same regardless of where people live** (Figure 43).   
+- In just 6 Member States, the majority of respondents agree that the **criminal justice system provides victims of crime with the service and support they need** (Figure 46).
+
+
+### Due process of law
+
+This indicator measures adherence to due process in criminal matters, including presumption of innocence, impartiality, and non-discrimination, as well as the respect for the rights of the accused, including legal assistance, the right of defense, and the right to an effective remedy and a fair trial.
+
+- The average score for the expert indicator of the **due process of law** among the 27 EU Member States is 0.63 (Figure 47). Country-level scores range from 0.75 in Finland to 0.52 in Bulgaria.
+- In 17  Member States, at least half of respondents express a lot or some **trust in public defense attorneys**, and in all 27 Member States, fewer than half believe **public defense attorneys are involved in corrupt practices** (Figure 48).
+- In 13 Member States, the majority of respondents agree that **public defenders do everything they can to defend poor people that are accused of committing a crime** (Figure 51). At the country level, the percentage of respondents that agree with this statement ranges from 61.9% to Spain to 28.9% in Slovenia.  
+- In 26 Member States, the majority of respondents agree that the **basic rights of suspects are respected by the police** – with just below half (49.5%) of respondents agreeing the same Slovakia is the only Member State that does not meet this trend (Figure 49). In 20 Member States, the majority of respondents agree that members of the **police do not use excessive or unnecessary force** (Figure 50). 
+- In 15 Member States, the majority of respondents are confident   that the **criminal justice system allows equal access to a fair trial** (Figure 52), and in 17 Member States, the majority of respondents are confident  that **the criminal justice system treats those accused of crime as 'innocent until proven guilty'** (Figure 53). These perceptions are comparatively negative among Slovakian respondents, with just 26.7% reporting confidence in equal access to a fair trial and 28.0% reporting confidence in respect for the presumption of innocence.  
+
+
+### Rights of persons deprived of liberty
+
+This indicator measures the conditions of detention to determine if individuals, whether sentenced or in pretrial detention, are treated with dignity and respect.
+
+- The average score for the expert indicator of respect for the **rights of persons deprived of liberty** among all the Member States*is  0.66 (Figure 54). Country-level scores range from 0.83 in Luxembourg to 0.43 in Greece.
+- In 16 Members States, the majority of respondents agree that the **criminal justice system guarantees the safety and human rights of people deprived of their liberty**, with country-level figures ranging from 72.9% of respondents in Luxembourg to 29.9% in Slovakia (Figure 55).
+
+
+## Safety
+
+- People throughout the EU feel safe in their communities. In most EU  Member States, at least two-thirds of respondents feel safe walking in their neighborhood at night.  
+- Women are less likely than men  to feel safe in every Member State except Poland.
+- Most people across the EU trust the police to solve community safety problems and to treat everyone with respect. However, respondents in Ireland, Slovakia, Hungary, and Cyprus hold comparatively negative views.
+
+
+### Perceptions of safety
+
+This indicator explores people’s sense of security and their subjective evaluation of their risk of becoming a victim of a crime. Understanding safety perceptions is crucial for identifying situations in which people feel the most vulnerable.
+
+- In 26 Member States, the majority of respondents feel safe walking in their neighborhood at night, with country-level figures ranging from 88.4% of respondents in Denmark to 47.7% in Italy (Figure 56). However, **perceptions of safety among women** are lower than men  in every EU country, except Poland (Box 2).
+- In 24 Member States, the majority of respondents agree that **the police resolve safety problems in their communities and treat all people with kindness and respect**, with country-level figures ranging from 93.4% of respondents in Finland to 42.1% in Cyprus (Figure 57).
+
+
+### Control of Violence
+
+This indicator captures the public’s  perceptions of the prevalence of different violent behaviors in their communities. It records whether people witnessed different types of violent acts. 
+
+- In 26 Member States,* fewer than half of respondents witnessed street violence (Figure 58), violence against women (Figure 59), and racially motivated violence (Figure 60).  
+
+
+
+
+

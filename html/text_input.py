@@ -3,10 +3,10 @@ import pandas as pd
 
 class text_input:
 
-    def __init__ (self, report, input_type, path2SP):
+    def __init__ (self, report, input_type):
         self.report     = report
         self.input_type = input_type[:-3]
-        self.filepath   = f"{path2SP}/html/{report}/text/{input_type}"
+        self.filepath   = f"{report}/text/{input_type}"
         self.text       = self._load_input()
 
 
