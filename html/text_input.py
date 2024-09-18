@@ -9,7 +9,6 @@ class text_input:
         self.filepath   = f"{report}/text/{input_type}"
         self.text       = self._load_input()
 
-
     def _load_input(self):
         with open(self.filepath, "r", encoding="utf-8") as file:
             txt = file.read()
@@ -41,7 +40,7 @@ class text_input:
 
         return output
 
-    def get_csv(self, chartsdata):
+    def get_csv(self, chartsdata, pdfver = False):
 
         if self.input_type == "title-&-scroll":
             title   = re.search(r"^# (.*)", self.text, re.MULTILINE).group(1)
@@ -99,7 +98,7 @@ class text_input:
             
             # Creating an empty list to store the results
             data = []
-
+            
             # Cleaning text and splitting chapters
             clean_text = self._clean_text()
             chapters = (
@@ -136,8 +135,18 @@ class text_input:
                     "belongs_to" : f"ch{chapter_n}",
                     "settings"   : None
                 }
+                findings_data_1_pdfv = {
+                    "id"         : f"ch{chapter_n}_f",
+                    "type"       : "findings",
+                    "content"    : chapter_content[1].strip(),
+                    "belongs_to" : f"ch{chapter_n}",
+                    "settings"   : None
+                }
 
-                data.extend([chapter_data, findings_data_1])
+                if not pdfver:
+                    data.extend([chapter_data, findings_data_1])
+                else:
+                    data.extend([chapter_data, findings_data_1_pdfv])
 
                 sections = (
                     re.compile(r"(### .+?)(?=\n### |\n## |\Z)", re.DOTALL)
@@ -150,8 +159,6 @@ class text_input:
                     sub_lines  = sub_section.split('\n', 1)
                     sub_header = sub_lines[0].strip('### ').strip()
                     sub_text   = sub_lines[1].strip() if len(sub_lines) > 1 else ""
-                    # section_n  = re.match(r"^\d+", sub_header).group().strip() 
-                    # section_n  =  re.sub("\.", "", re.search(r'<span[^>]*>(.*?)</span>', sub_header).group(1).strip())
                     section_n = f"{section_no}"
                     if section_no < 10:
                         section_n = f"0{section_n}"
@@ -170,18 +177,26 @@ class text_input:
                         "belongs_to" : f"ch{chapter_n}_sec{section_n}",
                         "settings"   : None
                     }
+                    findings_data_2_pdfv = {
+                        "id"         : f"f_ch{chapter_n}_sec{section_n}",
+                        "type"       : "html",
+                        "content"    : "\n",
+                        "belongs_to" : f"ch{chapter_n}_sec{section_n}",
+                        "settings"   : None
+                    }
+                    
+                    if not pdfver:
+                        data.extend([section_data, findings_data_2])
+                    else:
+                        data.extend([section_data, findings_data_2_pdfv])
 
-                    data.extend([section_data, findings_data_2])
-
-                    # match_in_outline = re.match(r"\d+\.\s*(.*)", sub_header).group(1).strip()
-                    # match_in_outline = re.split(r'</span>', sub_header)[1].strip()
                     charts4section = (
                         chartsdata.copy()
                         .loc[(chartsdata["report"] == title) & (chartsdata["section"] == sub_header)]
                     )
 
                     # Looping over charts
-                    for index, row in charts4section.iterrows():
+                    for _, row in charts4section.iterrows():
                         if row["description"] == "QRQ":
                             category = "Expert's Scorecard"
                             setting  = "expert"
