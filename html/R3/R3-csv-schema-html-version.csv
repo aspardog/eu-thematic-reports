@@ -4,7 +4,7 @@ front_page_title,front_page_title,Corruption & Transparency,,
 front_page_image,front_page_image,cover.jpg,,
 front_page_year,front_page_year,2024,,
 front_page_source,front_page_source,World Justice Project EUROVOICES,,
-title,title,We asked 72000 Europeans what they thought of transparency and corruption Most people thought,,
+title,title,"We asked 72,000 Europeans what they thought of transparency and corruption. Most people thought",,
 scroll1,scrollytelling,"## anticorruption measures to be ineffective,",,
 scroll2,scrollytelling,"## political parties as the most corrupt,",,
 scroll3,scrollytelling,## businesses face unnecessary red tape.,,
@@ -27,7 +27,7 @@ Each report focuses on a selection of pillars of the rule of law, comprised of i
 
 The Expert Scorecard captures legal experts’ assessments of composite indicators with scores ranging from 0 to 1, where 1 is the highest possible score and 0 is the lowest possible score. Each score is calculated by aggregating a set of questions that are relevant to various dimensions of the concept being measured. This expert data allows for a deeper examination of the technical aspects that determine how people interact with a complex network of institutions and the justice system. In contrast, findings from the People’s Voices database, presented at the question level using percentages (0 to 100%), reflect the beliefs and experiences of the general population.  
   
-The project’s conceptual framework builds upon the tested and proven methodology of the *WJP Rule of Law Index®*—a rigorous quantitative tool that evaluates and ranks 142 countries across key dimensions of the rule of law— with adaptations to reflect the institutional architecture in the EU. It should be noted that the results of both tools are not comparable, because this project presents data from its household surveys separately from its Expert Scorecards, whereas the Index integrates the General Population Poll into each country’s aggregate scores. Additionally, adjustments have been made to the conceptual framework and to the data analysis protocol, including changes in the methods used to calculate scores. For more information on the methodology of *World Justice Project EUROVOICES*, refer to the methodology section at the end of this report.
+The project’s conceptual framework builds upon the tested and proven methodology of the *WJP Rule of Law Index®*—a rigorous quantitative tool that evaluates and ranks 142 countries across key dimensions of the rule of law—with adaptations to reflect the institutional architecture in the EU. It should be noted that the results of both tools are not comparable, because this project presents data from its household surveys separately from its Expert Scorecards, whereas the Index integrates the General Population Poll into each country’s aggregate scores. Additionally, adjustments have been made to the conceptual framework and to the data analysis protocol, including changes in the methods used to calculate scores. For more information on the methodology of *World Justice Project EUROVOICES*, refer to the methodology section at the end of this report.
 
 Given the diversity of institutional design across EU Member States, the questions in this project’s surveys mainly focus on the outcomes experienced by individuals concerning different issues related to justice, governance, and the rule of law. These outcomes result from their interactions with a complex network of institutions at local, national, and supranational levels. In this sense, the questionnaires minimized references to government institutions, focusing instead on the perceptions and experiences of people in the city, town, or village where they live. Regional information was produced following the framework of territorial divisions of the Nomenclature of Territorial Units for Statistics (NUTS) system.
 
@@ -35,7 +35,7 @@ This project is funded by the EU and complements other research activities condu
 
 ### About this Report
 
-This report, Transparency and Corruption, includes three chapters: (I) Control of corruption, (II) Transparency and access to information, and (III) Administrative proceedings, regulatory enforcement, and right to property.  Each chapter contains thematic findings, definitions for each indicator included, as well as graphs with data from both the expert and household surveys (Expert Scorecard and People’s Voices, respectively).
+This report, Transparency and Corruption, includes three chapters: (I) Control of corruption, (II) Transparency and access to information, and (III) Administrative proceedings, regulatory enforcement, and right to property.  Each chapter contains thematic findings, definitions for each indicator, and graphs with data from both the expert and household surveys (Expert Scorecard and People’s Voices, respectively).
 
 1. **_Control of corruption_**: Commonly defined as the abuse of entrusted power for private gain, corruption encompasses various malpractices. This chapter  measures the prevalence of five distinct types of corruption within the public sector. The first two categories distinguish between petty corruption, typically involving bribes to lower-ranking public agents, and grand corruption, which affects high-level decision making and includes political corruption and corrupt procurement practices. In addition, this chapter examines three special types of corruption: embezzlement of public funds, favoritism, and electoral corruption. In total, this chapter includes the following indicators: (1) absence of bribery, (2) absence of corrupt procurement practices, (3) absence of embezzlement, (4) absence of favoritism, and (5) absence of corrupt electoral practices.
 
@@ -58,93 +58,103 @@ sec01_R3F01_i,accordion_viz_image,R3F1.svg,sec01_R3F01,
 sec01_R3F01_n,accordion_viz_note,,sec01_R3F01,
 sec01_R3F02,accordion_viz,<span>Figure 2</span> Perception of corruption in Parliament/Congress,ch01_sec01,people
 ,accordion_viz_category,People's Voices,sec01_R3F02,
-sec01_R3F02_d,accordion_viz_description,Percentage of respondents who believe that most or all members of Parliament/Congress are involved in corrupt practices,sec01_R3F02,
+sec01_R3F02_d,accordion_viz_description,Percentage of respondents who believe that most or all members of Parliament/Congress are involved in corrupt practices.,sec01_R3F02,
 sec01_R3F02_i,accordion_viz_image,R3F2.svg,sec01_R3F02,
 sec01_R3F02_n,accordion_viz_note,,sec01_R3F02,
 sec01_R3F03,accordion_viz,<span>Figure 3</span> Perception of corruption in the national government,ch01_sec01,people
 ,accordion_viz_category,People's Voices,sec01_R3F03,
-sec01_R3F03_d,accordion_viz_description,Percentage of respondents who believe that most or all officials working in the national government are involved in corrupt practices,sec01_R3F03,
+sec01_R3F03_d,accordion_viz_description,Percentage of respondents who believe that most or all officials working in the national government are involved in corrupt practices.,sec01_R3F03,
 sec01_R3F03_i,accordion_viz_image,R3F3.svg,sec01_R3F03,
 sec01_R3F03_n,accordion_viz_note,,sec01_R3F03,
 sec01_R3F04,accordion_viz,<span>Figure 4</span> Perception of corruption in the local government,ch01_sec01,people
 ,accordion_viz_category,People's Voices,sec01_R3F04,
-sec01_R3F04_d,accordion_viz_description,Percentage of respondents who believe that most or all officials working in the local government are involved in corrupt practices,sec01_R3F04,
+sec01_R3F04_d,accordion_viz_description,Percentage of respondents who believe that most or all officials working in the local government are involved in corrupt practices.,sec01_R3F04,
 sec01_R3F04_i,accordion_viz_image,R3F4.svg,sec01_R3F04,
 sec01_R3F04_n,accordion_viz_note,,sec01_R3F04,
 sec01_R3F05,accordion_viz,<span>Figure 5</span> Perception of corruption of judges and magistrates,ch01_sec01,people
 ,accordion_viz_category,People's Voices,sec01_R3F05,
-sec01_R3F05_d,accordion_viz_description,Percentage of respondents who believe that most or all judges and magistrates are involved in corrupt practices,sec01_R3F05,
+sec01_R3F05_d,accordion_viz_description,Percentage of respondents who believe that most or all judges and magistrates are involved in corrupt practices.,sec01_R3F05,
 sec01_R3F05_i,accordion_viz_image,R3F5.svg,sec01_R3F05,
 sec01_R3F05_n,accordion_viz_note,,sec01_R3F05,
 sec01_R3F06,accordion_viz,<span>Figure 6</span> Perception of corruption of criminal investigation prosecutors,ch01_sec01,people
 ,accordion_viz_category,People's Voices,sec01_R3F06,
 sec01_R3F06_d,accordion_viz_description,"Percentage of respondents who believe that most or all prosecutors in charge of criminal investigations are involved in
-corrupt practices",sec01_R3F06,
+corrupt practices.",sec01_R3F06,
 sec01_R3F06_i,accordion_viz_image,R3F6.svg,sec01_R3F06,
 sec01_R3F06_n,accordion_viz_note,,sec01_R3F06,
 sec01_R3F07,accordion_viz,<span>Figure 7</span> Perception of corruption of public defense attorneys,ch01_sec01,people
 ,accordion_viz_category,People's Voices,sec01_R3F07,
-sec01_R3F07_d,accordion_viz_description,Percentage of respondents who believe that most or all public defense attorneys are involved in corrupt practices,sec01_R3F07,
+sec01_R3F07_d,accordion_viz_description,Percentage of respondents who believe that most or all public defense attorneys are involved in corrupt practices.,sec01_R3F07,
 sec01_R3F07_i,accordion_viz_image,R3F7.svg,sec01_R3F07,
 sec01_R3F07_n,accordion_viz_note,,sec01_R3F07,
 sec01_R3F08,accordion_viz,<span>Figure 8</span> Perception of corruption of police officers,ch01_sec01,people
 ,accordion_viz_category,People's Voices,sec01_R3F08,
-sec01_R3F08_d,accordion_viz_description,Percentage of respondents who believe that most or all police officers are involved in corrupt practices,sec01_R3F08,
+sec01_R3F08_d,accordion_viz_description,Percentage of respondents who believe that most or all police officers are involved in corrupt practices.,sec01_R3F08,
 sec01_R3F08_i,accordion_viz_image,R3F8.svg,sec01_R3F08,
 sec01_R3F08_n,accordion_viz_note,,sec01_R3F08,
 sec01_R3F09,accordion_viz,<span>Figure 9</span> Perception of corruption of land registry officers,ch01_sec01,people
 ,accordion_viz_category,People's Voices,sec01_R3F09,
-sec01_R3F09_d,accordion_viz_description,Percentage of respondents who believe that most or all land registry officers are involved in corrupt practices,sec01_R3F09,
+sec01_R3F09_d,accordion_viz_description,Percentage of respondents who believe that most or all land registry officers are involved in corrupt practices.,sec01_R3F09,
 sec01_R3F09_i,accordion_viz_image,R3F9.svg,sec01_R3F09,
 sec01_R3F09_n,accordion_viz_note,,sec01_R3F09,
 sec01_R3F10,accordion_viz,<span>Figure 10</span> Perception of corruption of car registration or driver license agency officers,ch01_sec01,people
 ,accordion_viz_category,People's Voices,sec01_R3F10,
-sec01_R3F10_d,accordion_viz_description,Percentage of respondents who believe that most or all car registration or driver license agency officers are involved in corrupt practices,sec01_R3F10,
+sec01_R3F10_d,accordion_viz_description,Percentage of respondents who believe that most or all car registration or driver license agency officers are involved in corrupt practices.,sec01_R3F10,
 sec01_R3F10_i,accordion_viz_image,R3F10.svg,sec01_R3F10,
 sec01_R3F10_n,accordion_viz_note,,sec01_R3F10,
 sec01_R3F11,accordion_viz,<span>Figure 11</span> Perception of corruption in political parties,ch01_sec01,people
 ,accordion_viz_category,People's Voices,sec01_R3F11,
-sec01_R3F11_d,accordion_viz_description,Percentage of respondents who believe that most or all political parties are involved in corrupt practices,sec01_R3F11,
+sec01_R3F11_d,accordion_viz_description,Percentage of respondents who believe that most or all political parties are involved in corrupt practices.,sec01_R3F11,
 sec01_R3F11_i,accordion_viz_image,R3F11.svg,sec01_R3F11,
 sec01_R3F11_n,accordion_viz_note,,sec01_R3F11,
 sec01_R3F12,accordion_viz,<span>Figure 12</span> Perception of corruption in EU's institutions and agencies,ch01_sec01,people
 ,accordion_viz_category,People's Voices,sec01_R3F12,
-sec01_R3F12_d,accordion_viz_description,Percentage of respondents who believe that most or all officials working in the EU's institutions and agencies are involved in corrupt practices,sec01_R3F12,
+sec01_R3F12_d,accordion_viz_description,Percentage of respondents who believe that most or all officials working in the EU's institutions and agencies are involved in corrupt practices.,sec01_R3F12,
 sec01_R3F12_i,accordion_viz_image,R3F12.svg,sec01_R3F12,
 sec01_R3F12_n,accordion_viz_note,,sec01_R3F12,
 sec01_R3F13,accordion_viz,<span>Figure 13</span> Experiences of corruption in government services,ch01_sec01,people
 ,accordion_viz_category,People's Voices,sec01_R3F13,
-sec01_R3F13_d,accordion_viz_description,Percentage of respondents who had to pay a bribe to receive a government service or expedite the process out of those who requested the service,sec01_R3F13,
+sec01_R3F13_d,accordion_viz_description,Percentage of respondents who had to pay a bribe to receive a government service or expedite the process out of those who requested the service.,sec01_R3F13,
 sec01_R3F13_i,accordion_viz_image,R3F13.svg,sec01_R3F13,
 sec01_R3F13_n,accordion_viz_note,,sec01_R3F13,
 sec01_R3F14,accordion_viz,<span>Figure 14</span> Main government service in which people experienced corruption,ch01_sec01,people
 ,accordion_viz_category,People's Voices,sec01_R3F14,
-sec01_R3F14_d,accordion_viz_description,Most frequent service in which respondents reported to have paid a bribe to receive the service or expedite the process,sec01_R3F14,
+sec01_R3F14_d,accordion_viz_description,Most frequent service in which respondents reported to have paid a bribe to receive the service or expedite the process.,sec01_R3F14,
 sec01_R3F14_i,accordion_viz_image,R3F14.svg,sec01_R3F14,
 sec01_R3F14_n,accordion_viz_note,,sec01_R3F14,
 sec01_R3F15,accordion_viz,<span>Figure 15</span> Perception of corruption affecting people's daily lives,ch01_sec01,people
 ,accordion_viz_category,People's Voices,sec01_R3F15,
-sec01_R3F15_d,accordion_viz_description,Percentage of respondents who agree that they are personally affected by corruption in their daily lives,sec01_R3F15,
+sec01_R3F15_d,accordion_viz_description,Percentage of respondents who agree that they are personally affected by corruption in their daily lives.,sec01_R3F15,
 sec01_R3F15_i,accordion_viz_image,R3F15.svg,sec01_R3F15,
 sec01_R3F15_n,accordion_viz_note,,sec01_R3F15,
 sec01_R3F16,accordion_viz,<span>Figure 16</span> Perception that citizens can make a difference in the fight against corruption,ch01_sec01,people
 ,accordion_viz_category,People's Voices,sec01_R3F16,
-sec01_R3F16_d,accordion_viz_description,Percentage of respondents who believe citizens can make a difference in the fight against corruption,sec01_R3F16,
+sec01_R3F16_d,accordion_viz_description,Percentage of respondents who believe citizens can make a difference in the fight against corruption.,sec01_R3F16,
 sec01_R3F16_i,accordion_viz_image,R3F16.svg,sec01_R3F16,
 sec01_R3F16_n,accordion_viz_note,,sec01_R3F16,
 sec01_R3F17,accordion_viz,<span>Figure 17</span> Effectiveness of measures against corruption,ch01_sec01,people
 ,accordion_viz_category,People's Voices,sec01_R3F17,
-sec01_R3F17_d,accordion_viz_description,Percentage of respondents who agree that the national government's measures to combat corruption are effective,sec01_R3F17,
+sec01_R3F17_d,accordion_viz_description,Percentage of respondents who agree that the national government's measures to combat corruption are effective.,sec01_R3F17,
 sec01_R3F17_i,accordion_viz_image,R3F17.svg,sec01_R3F17,
 sec01_R3F17_n,accordion_viz_note,,sec01_R3F17,
 sec01_R3F18,accordion_viz,<span>Figure 18</span> Impartiality in measures against corruption,ch01_sec01,people
 ,accordion_viz_category,People's Voices,sec01_R3F18,
-sec01_R3F18_d,accordion_viz_description,Percentage of respondents who agree that measures against corruption are applied impartially,sec01_R3F18,
+sec01_R3F18_d,accordion_viz_description,Percentage of respondents who agree that measures against corruption are applied impartially.,sec01_R3F18,
 sec01_R3F18_i,accordion_viz_image,R3F18.svg,sec01_R3F18,
 sec01_R3F18_n,accordion_viz_note,,sec01_R3F18,
-ch01_sec02,sub_chapter,## Absence of corrupt procurement practices and graft,ch01,
-f_ch01_sec02,html,"- The average score for the expert indicator of absence of corrupt procurement practices among the 27 EU Member States is 0.54 (Figure 19). Country-level scores range from 0.89 in Finland to 0.25 in Bulgaria.
+ch01_sec02,sub_chapter,## Absence of graft and corrupt procurement practices,ch01,
+f_ch01_sec02,html,"- The average score for the expert indicator of absence of graft and corrupt procurement practices among the 27 EU Member States is 0.54 (Figure 19). Country-level scores range from 0.89 in Finland to 0.25 in Bulgaria.
 - In 21 Member States, the majority of respondents agree that **the only way to succeed in business is to have political connections**. At the country level, the percentage of respondents who agree ranges from 19.5% in Sweden to 75.5% in Croatia (Figure 20).",ch01_sec02,
+sec02_R3F19,accordion_viz,<span>Figure 19</span> Absence of graft and corrupt procurement practices,ch01_sec02,expert
+,accordion_viz_category,Expert's Scorecard,sec02_R3F19,
+sec02_R3F19_d,accordion_viz_description,"This indicator evaluates the prevalence of grand corruption, specifically in public procurement (graft) and political processes. This includes instances where high-ranking officials use their influence to award government contracts without competitive bidding or purchase goods at inflated prices. Additionally, this indicator examines whether high-ranking officials solicit or receive informal payments in exchange for political favors, including favorable treatment, favorable votes, and access to policymakers.",sec02_R3F19,
+sec02_R3F19_i,accordion_viz_image,R3F19.svg,sec02_R3F19,
+sec02_R3F19_n,accordion_viz_note,,sec02_R3F19,
+sec02_R3F20,accordion_viz,<span>Figure 20</span> Perception that political connections are key to succeed in business,ch01_sec02,people
+,accordion_viz_category,People's Voices,sec02_R3F20,
+sec02_R3F20_d,accordion_viz_description,Percentage of respondents who agree that the only way to succeed in business is to have political connections.,sec02_R3F20,
+sec02_R3F20_i,accordion_viz_image,R3F20.svg,sec02_R3F20,
+sec02_R3F20_n,accordion_viz_note,,sec02_R3F20,
 ch01_sec03,sub_chapter,## Absence of embezzlement,ch01,
 f_ch01_sec03,html,- The average score for the expert indicator of **absence of embezzlement** among the 27 EU Member States is 0.60 (Figure 21). Country-level scores range from 0.90 in Finland to 0.32 in Bulgaria.,ch01_sec03,
 sec03_R3F21,accordion_viz,<span>Figure 21</span> Absence of embezzlement,ch01_sec03,expert
@@ -170,12 +180,12 @@ sec05_R3F23_i,accordion_viz_image,R3F23.svg,sec05_R3F23,
 sec05_R3F23_n,accordion_viz_note,,sec05_R3F23,
 sec05_R3F24,accordion_viz,<span>Figure 24</span> Disagreement with elected officials taking public funds for private use,ch01_sec05,people
 ,accordion_viz_category,People's Voices,sec05_R3F24,
-sec05_R3F24_d,accordion_viz_description,Percentage of respondents who answered it is unacceptable for an elected official to take public funds for private use,sec05_R3F24,
+sec05_R3F24_d,accordion_viz_description,Percentage of respondents who answered it is unacceptable for an elected official to take public funds for private use.,sec05_R3F24,
 sec05_R3F24_i,accordion_viz_image,R3F24.svg,sec05_R3F24,
 sec05_R3F24_n,accordion_viz_note,,sec05_R3F24,
 sec05_R3F25,accordion_viz,<span>Figure 25</span> Disagreement with public officers recruited on account of family ties or friendship networks,ch01_sec05,people
 ,accordion_viz_category,People's Voices,sec05_R3F25,
-sec05_R3F25_d,accordion_viz_description,Percentage of respondents who answered it is unacceptable for a public officer to be recruited on the basis of family ties and friendship networks,sec05_R3F25,
+sec05_R3F25_d,accordion_viz_description,Percentage of respondents who answered it is unacceptable for a public officer to be recruited on the basis of family ties and friendship networks.,sec05_R3F25,
 sec05_R3F25_i,accordion_viz_image,R3F25.svg,sec05_R3F25,
 sec05_R3F25_n,accordion_viz_note,,sec05_R3F25,
 ch02,chapter,# Transparency and access to information,,
@@ -185,7 +195,7 @@ ch02_sec01,sub_chapter,## Transparency and access to information,ch02,
 f_ch02_sec01,html,"- The average score for the expert indicator to the right of **transparency and access to information** among the 27 EU Member States is 0.67 (Figure 26). Country-level scores range from 0.83 in Sweden to 0.52 in Romania.
 - In 14 Member States, the majority of respondents agree that **local authorities provide people with information about their rights** (Figure 27), and in 9 EU countries, the majority of respondents believe that **local authorities provide information in a simple, easy-to-read way** (Figure 28).
 - In 21 Member States, the majority of respondents agree that local authorities make **information easy to find online** (Figure 29), yet only in Poland do the majority of people agree that this **information is easy to find without using the internet** (i.e., by using leaflets or posters) (Figure 30).
-- In 26 Member States (data was not collected in Ireland for these questions), fewer than half of respondents believe it is likely or very likely that **government agencies would grant information requests related to copies of government contracts or to detailed budget figures of government agencies** (Figure 31). In most Member States, people tend to agree it is more likely to be granted information on budget figures than government contracts.",ch02_sec01,
+- In 26 Member States (data was not collected in Ireland for these questions), fewer than half of respondents believe it is likely or very likely that **government agencies would grant information requests related to copies of government contracts or to detailed budget figures of government agencies** (Figure 31). In most Member States, people tend to agree they are more likely to be granted information on budget figures than government contracts.",ch02_sec01,
 sec01_R3F26,accordion_viz,<span>Figure 26</span> Transparency and access to information,ch02_sec01,expert
 ,accordion_viz_category,Expert's Scorecard,sec01_R3F26,
 sec01_R3F26_d,accordion_viz_description,"This indicator includes information on public institutions’ transparency measures and the accessibility of different types of public information. Additionally, it covers the publicity of laws and whether the right to request information is effectively guaranteed.",sec01_R3F26,
@@ -193,27 +203,27 @@ sec01_R3F26_i,accordion_viz_image,R3F26.svg,sec01_R3F26,
 sec01_R3F26_n,accordion_viz_note,,sec01_R3F26,
 sec01_R3F27,accordion_viz,<span>Figure 27</span> Access to information on people's rights,ch02_sec01,people
 ,accordion_viz_category,People's Voices,sec01_R3F27,
-sec01_R3F27_d,accordion_viz_description,Percentage of respondents who agree that local authorities provide people with information about their rights,sec01_R3F27,
+sec01_R3F27_d,accordion_viz_description,Percentage of respondents who agree that local authorities provide people with information about their rights.,sec01_R3F27,
 sec01_R3F27_i,accordion_viz_image,R3F27.svg,sec01_R3F27,
 sec01_R3F27_n,accordion_viz_note,,sec01_R3F27,
 sec01_R3F28,accordion_viz,<span>Figure 28</span> Access to information in simple formats,ch02_sec01,people
 ,accordion_viz_category,People's Voices,sec01_R3F28,
-sec01_R3F28_d,accordion_viz_description,"Percentage of respondents who agree that local authorities provide information for people in a simple, easy-to-read way",sec01_R3F28,
+sec01_R3F28_d,accordion_viz_description,"Percentage of respondents who agree that local authorities provide information for people in a simple, easy-to-read way.",sec01_R3F28,
 sec01_R3F28_i,accordion_viz_image,R3F28.svg,sec01_R3F28,
 sec01_R3F28_n,accordion_viz_note,,sec01_R3F28,
 sec01_R3F29,accordion_viz,<span>Figure 29</span> Access to information online,ch02_sec01,people
 ,accordion_viz_category,People's Voices,sec01_R3F29,
-sec01_R3F29_d,accordion_viz_description,Percentage of respondents who agree that local authorities make information easy to find online,sec01_R3F29,
+sec01_R3F29_d,accordion_viz_description,Percentage of respondents who agree that local authorities make information easy to find online.,sec01_R3F29,
 sec01_R3F29_i,accordion_viz_image,R3F29.svg,sec01_R3F29,
 sec01_R3F29_n,accordion_viz_note,,sec01_R3F29,
 sec01_R3F30,accordion_viz,<span>Figure 30</span> Access to information without using the internet,ch02_sec01,people
 ,accordion_viz_category,People's Voices,sec01_R3F30,
-sec01_R3F30_d,accordion_viz_description,"Percentage of respondents who agree that local authorities make information easy to find without using the internet, such as using leaflets or posters",sec01_R3F30,
+sec01_R3F30_d,accordion_viz_description,"Percentage of respondents who agree that local authorities make information easy to find without using the internet, such as using leaflets or posters.",sec01_R3F30,
 sec01_R3F30_i,accordion_viz_image,R3F30.svg,sec01_R3F30,
 sec01_R3F30_n,accordion_viz_note,,sec01_R3F30,
 sec01_R3F31,accordion_viz,<span>Figure 31</span> Access to public information through requests,ch02_sec01,people
 ,accordion_viz_category,People's Voices,sec01_R3F31,
-sec01_R3F31_d,accordion_viz_description,Percentage of respondents who believe it is likely or very likely that government agencies would grant information requests related to detailed budget figures of government agencies and copies of government contracts,sec01_R3F31,
+sec01_R3F31_d,accordion_viz_description,Percentage of respondents who believe it is likely or very likely that government agencies would grant information requests related to detailed budget figures of government agencies and copies of government contracts.,sec01_R3F31,
 sec01_R3F31_i,accordion_viz_image,R3F31.svg,sec01_R3F31,
 sec01_R3F31_n,accordion_viz_note,,sec01_R3F31,
 ch03,chapter,"# Administrative proceedings, regulatory enforcement, and right to property",,
@@ -405,27 +415,27 @@ appendix,appendix,"### List of Country and Region Abbreviations
     </table>
 </div>
 </div>",,
-methodology,methodological,"The production of World Justice Project EUROVOICES can be summarized in the following stages:
+methodology,methodological,"The production of *World Justice Project EUROVOICES* can be summarized in the following stages:
 
-### Conceptual design
+### Conceptual Design
 
-To develop a comprehensive methodological framework, WJP first defined the observable outcomes of a society’s adherence to the rule of law and the ways rule of law impacts people’s everyday lives. Building upon the proven methodology of the World Justice Project Rule of Law Index®, the team focused the conceptual design of EUROVOICES on capturing people’s perceptions and experiences of justice, governance, and the rule of law in their daily lives. 
+To develop a comprehensive methodological framework, WJP first defined the observable outcomes of a society’s adherence to the rule of law and the ways rule of law impacts people’s everyday lives. Building upon the proven methodology of the *World Justice Project Rule of Law Index®*, the team focused the conceptual design of *World Justice Project EUROVOICES* on capturing people’s perceptions and experiences of justice, governance, and the rule of law in their daily lives. 
 
 The team then conducted an extensive literature review and held consultations with experts from various sectors (including academia and international organizations) to adapt the project’s methodology to the current reality and challenges faced by the European Union. The resulting framework defines 51 rule of law indicators organized into ten pillars: 1) constraints on government powers; 2) government respect for constraints on power; 3) civic participation; 4) fundamental rights; 5) civil justice; 6) criminal justice; 7) safety; 8) control of corruption; 9) transparency and access to information; and 10) administrative proceedings and regulatory enforcement. 
 
-Once these pillars and indicators were established, WJP drafted survey questions measure different aspects of each conceptual category included in the framework. This process resulted in a selection of 610 expert survey questions and 330 general population survey questions. To maintain reasonable survey length and improve response rates, the expert questions were organized into four separate questionnaires (one on criminal justice, two on civil and commercial justice, and one on governance).
+After establishing these pillars and indicators, WJP drafted survey questions to measure different aspects of each conceptual category included in the framework. This process resulted in a selection of 610 expert survey questions and 330 general population survey questions. To maintain reasonable survey length and improve response rates, the expert questions were organized into four separate questionnaires (one on criminal justice, two on civil and commercial justice, and one on governance).
 
-### Data collection
+### Data Collection
 
-World Justice Project EUROVOICES presents original survey data from two sources: expert surveys and household surveys.
+*World Justice Project EUROVOICES* presents original survey data from two sources: expert surveys and household surveys.
 
 #### Expert Surveys
 
-Expert survey data collection for the EUROVOICES project was conducted by the WJP’s research team. The surveys were administered online between October 2023 and April 2024 using Alchemer, a user-friendly and highly secure survey administration platform. The expert surveys were administered in twelve languages: Bulgarian, Czech, English, French, German, Greek, Hungarian, Italian, Polish, Portuguese, Romanian, and Spanish.
+Expert survey data collection for *World Justice Project EUROVOICES* project was conducted by the WJP’s research team. The surveys were administered online between October 2023 and April 2024 using Alchemer, a user-friendly and highly secure survey administration platform. The expert surveys were administered in twelve languages: Bulgarian, Czech, English, French, German, Greek, Hungarian, Italian, Polish, Portuguese, Romanian, and Spanish.
 
 The expert survey respondents, representing the 110 subnational regions across all 27 EU Member States, included independent legal practitioners and academics selected from directories of law firms, universities and colleges, research organizations, and non-governmental organizations (NGOs), as well as through referrals from the WJP global network of practitioners. All expert respondents were vetted by WJP staff to ensure their qualifications.
 
-Over the course of QRQ data collection, WJP’s research team regularly sent survey invitations and reminder emails to potential respondents using publicly available online contact information, collected through a systematic review of the websites of law firms, bar associations, universities, and other organizations. To expand WJP’s network of expert respondents in the EU, the research team collaborated with local organizations and firms to identify and invite potential participants. As a result of this exercise, WJP’s team generated a database with contact information for more than 250,000 experts. In total, the WJP team obtained a total of 8,042 expert survey responses.
+Over the course of the expert survey data collection, WJP’s research team regularly sent survey invitations and reminder emails to potential respondents using publicly available online contact information, collected through a systematic review of the websites of law firms, bar associations, universities, and other organizations. To expand WJP’s network of expert respondents in the EU, the research team collaborated with local organizations and firms to identify and invite potential participants. As a result of this exercise, WJP’s team generated a database with contact information for more than 250,000 experts. In total, the WJP team obtained 8,042 expert survey responses.
 
 #### Household Surveys
 
@@ -433,49 +443,49 @@ Household survey data collection was conducted by leading local polling companie
 
 #### Selecting Territorial Units
 
-For the purposes of the EUROVOICES project, WJP selected territorial units based on the EU’s Nomenclature of Territorial Units for Statistics (NUTS) system, resulting in 110 regions for analysis. These regions are a combination of NUTS level 1 and NUTS level 2 regions, with some adjustments for Czechia (merging 8 regions into 4), Finland (combining 5 regions into 4), and France (dropping the overseas territories). The complete list of regions is presented in the annex.
+For the purposes of *World Justice Project EUROVOICES*, WJP selected territorial units based on the EU’s Nomenclature of Territorial Units for Statistics (NUTS) system, resulting in 110 regions for analysis. These regions are a combination of NUTS level 1 and NUTS level 2 regions, with some adjustments for Czechia (merging 8 regions into 4), Finland (combining 5 regions into 4), and France (dropping the overseas territories). The complete list of regions is presented in the annex.
 
-### Data analysis
+### Data Analysis
 
 Household survey responses were processed into a database that displays question-level results by collapsing the two most positive options on a four-level Likert scale in each case (e.g., strongly agree and agree, very likely and likely, among others, depending on the response scale of the question and the options that represent the most positive outcome). This data can be disaggregated by age group, sex, income, and degree of urbanization.
 
-The expert survey data was calculated into scores using the following steps: first, the survey responses were normalized and codified into numeric values on a scale of 0 to 1, where 1 indicates the highest possible score; second, the data was mapped into the pillars and indicators, as defined in the conceptual framework; and third, the normalized data was aggregated at the NUTS and country levels using simple averages. The complete variable map detailing which questions from the expert surveys were aggregated into each score can be downloaded at link.
+The expert survey data was calculated into scores using the following steps: first, the survey responses were normalized and codified into numeric values on a scale of 0 to 1, where 1 indicates the highest possible score; second, the data was mapped into the pillars and indicators, as defined in the conceptual framework; and third, the normalized data was aggregated at the NUTS and country levels using simple averages. The complete variable map detailing which questions from the expert surveys were aggregated into each score can be downloaded at the following link.
 
 For both the household and the expert surveys, the respondent-level data was edited to exclude partially completed surveys, suspicious data, and outliers (which were detected using the Z-score method).
 
 A series of quantitative and qualitative tests were conducted to identify biases and errors. The first process was a quantitative cross-check in which results were systematically compared to selected indicators from trusted third-party sources, including other organizations' measurement projects, such as the V-Dem Dataset by the V-Dem Institute, and the Quality of Government database by the University of Gothenburg; and official indicator systems, such as Eurobarometer surveys and the EU Justice Scoreboard. 
 In addition, three qualitative information tools were developed to test the data across all EU Member States: a compendium of news stories collected from diverse sources across the EU; syntheses of information from national and international reports published by peer organizations; and semi-structured interviews with over 30 EU experts. These tools allowed WJP to enrich the survey data with trends, issues, improvements, and regional differences in a variety of rule of law topics and contextualize the survey results.
-As a result of this work, World Justice Project EUROVOICES presents a library of people-centered indicators with new data on justice, governance, and the rule of law in the EU, at both the regional and national level. Data from the expert surveys is presented at the indicator level, while household survey data is presented at the question level, with options to disaggregate by different socioeconomic and demographic variables. This data is presented in different formats, including thematic reports with maps and graphs, interactive dashboards, and databases available for download. This information allows region-to-region comparisons, detecting relative strengths and weaknesses, and identifying best practices and policies that can become reference points.
+As a result of this work, *World Justice Project EUROVOICES* presents a library of people-centered indicators with new data on justice, governance, and the rule of law in the EU, at both the regional and national level. Data from the expert surveys is presented at the indicator level, while household survey data is presented at the question level, with options to disaggregate by different socioeconomic and demographic variables. This data is presented in different formats, including thematic reports with maps and graphs, interactive dashboards, and databases available for download. This information allows region-to-region comparisons, detecting relative strengths and weaknesses, and identifying best practices and policies that can become reference points.
 
 ### Additional Considerations
 
-#### Comparisons with the WJP Rule of Law Index
+#### Comparisons with the *WJP Rule of Law Index*
 
-The results of World Justice Project EUROVOICES cannot be directly compared to the WJP Rule of Law Index® for several reasons. First, the Index scores are calculated by aggregating three sources of information: expert surveys, household surveys, and third-party data. In contrast, EUROVOICES presents findings in two separate categories: the Expert Scorecards, comprised of aggregated expert data, and People’s Voices, which displays question-level data from the household surveys.
+The results of *World Justice Project EUROVOICES* cannot be directly compared to the *WJP Rule of Law Index®* for several reasons. First, the Index scores are calculated by aggregating three sources of information: expert surveys, household surveys, and third-party data. In contrast, *EUROVOICES WJP* presents findings in two separate categories: the Expert Scorecards, comprised of aggregated expert data, and People’s Voices, which displays question-level data from the household surveys.
 
-Second, although the WJP Rule of Law Index and EUROVOICES both use the Min-Max method to normalize expert data (so that all values are presented on a scale of 0 to 1), the Index’s longitudinal analysis requires an extra normalization (with a base year of 2015) to ensure scores are comparable across previous editions of the report.
+Second, although the *WJP Rule of Law Index* and *EUROVOICES WJP* both use the Min-Max method to normalize expert data (so that all values are presented on a scale of 0 to 1), the Index’s longitudinal analysis requires an extra normalization (with a base year of 2015) to ensure scores are comparable across previous editions of the report.
 
-Lastly, while EUROVOICES builds upon the Index’s methodology, the two projects have distinct conceptual frameworks. Key differences include the internal organization of the pillars, the inclusion of new questions to assess independent checks on government powers, a new category on the executive’s behavior towards constraints on its power, the expansion of the chapter on fundamental rights based on the EU Charter of Fundamental Rights, and the separation of the transparency and civic participation pillars.
+Lastly, while *EUROVOICES WJP* builds upon the Index’s methodology, the two projects have distinct conceptual frameworks. Key differences include the internal organization of the pillars, the inclusion of new questions to assess independent checks on government powers, a new category on the executive’s behavior towards constraints on its power, the expansion of the chapter on fundamental rights based on the EU Charter of Fundamental Rights, and the separation of the transparency and civic participation pillars.
 
 #### Methodological Strengths and Weaknesses
 
-All information tools have advantages and limitations that need to be considered when using them, and World Justice Project EUROVOICES is no exception. This project organizes its findings into clearly defined indicators that allow for the easy and efficient interpretation of multi-dimensional rule of law definition. Moreover, WJP’s output-oriented approach facilitates comparisons between countries and subnationally.
+All information tools have advantages and limitations that need to be considered when using them, and *World Justice Project EUROVOICES* is no exception. This project organizes its findings into clearly defined indicators that allow for the easy and efficient interpretation of a multi-dimensional rule of law definition. Moreover, WJP’s output-oriented approach facilitates comparisons between countries and regions.
 
 However, this accessibility does require WJP to consolidate the unique and complicated realities different individuals experience into coherent findings at the national and regional levels. As such, interpretation of the data presented in this report requires a familiarity with the project’s basic conceptual framework, including WJP’s definitions for each indicator and explanations regarding which topics are and are not included in our findings.
 
-Likewise, these indicators do not establish causality or contextualize the findings. Thus, it will be necessary to use the EUROVOICES reports in combination with other analytical tools to provide a full picture of causes and potential solutions.
+Likewise, these indicators do not establish causality or contextualize the findings. Thus, it will be necessary to use the *EUROVOICES WJP* reports in combination with other analytical tools to provide a full picture of causes and potential solutions.
 
 Additionally, the information presented on these indicators may be sensitive to specific events that took place during the data collection period or may be subject to measurement errors due in part to the limited number of experts interviewed in some regions.
 
 #### More Information
 
-For more information on the conceptual and measurement framework of this project, including more technical details on the data collection process, please refer to the complete methodological summary at link.",,
-about,about,"**The World Justice Project (WJP)** is an independent, multidisciplinary organization working to create knowledge, build awareness, and stimulate action to advance the rule of law worldwide. Effective rule of law is the foundation for communities of justice, opportunity, and peace–underpinning development, accountable government, and respect for fundamental rights.
+For more information on the conceptual and measurement framework of this project, including more technical details on the data collection process, please refer to the complete methodological summary at the following link.",,
+about,about,"**The World Justice Project (WJP)** is an independent, multidisciplinary organization working to create knowledge, build awareness, and stimulate action to advance the rule of law worldwide. Effective rule of law is the foundation for communities of justice, opportunity, and peace—underpinning development, accountable government, and respect for fundamental rights.
 
-The WJP builds and supports a global, multidisciplinary movement for the rule of law through three lines of work: collecting, organizing, and analyzing original, independent rule of law data, including the World Justice Project Rule of Law Index; supporting research, scholarship, and teaching about the importance of the rule of law, its relationship to development, and effective strategies to strengthen it; and connecting and building an engaged global network of policymakers and advocates to advance the rule of law through strategic partnerships, convenings, coordinated advocacy, and support for locally led initiatives.
+The WJP builds and supports a global, multidisciplinary movement for the rule of law through three lines of work: collecting, organizing, and analyzing original, independent rule of law data, including the *World Justice Project Rule of Law Index*; supporting research, scholarship, and teaching about the importance of the rule of law, its relationship to development, and effective strategies to strengthen it; and connecting and building an engaged global network of policymakers and advocates to advance the rule of law through strategic partnerships, convenings, coordinated advocacy, and support for locally led initiatives.
 
 Learn more at: <a href=""https://worldjusticeproject.org/"" target=""_blank"">_worldjusticeproject.org._</a>",,
-acknowledgements,acknowledgements,"The World Justice Project EUROVOICES 2024 thematic reports (Democracy & Fundamental Rights, Justice & Safety, and Transparency & Corruption) were produced by the World Justice Project under the research oversight of Alejandro Ponce and the executive direction of Elizabeth Andersen.
+acknowledgements,acknowledgements,"The *World Justice Project EUROVOICES 2024 thematic reports* (Democracy & Fundamental Rights, Justice & Safety, and Transparency & Corruption) were produced by the World Justice Project under the research oversight of Alejandro Ponce and the executive direction of Elizabeth Andersen.
 
 **Conceptual Design**: Horacio Ortiz, Alejandro Ponce, and Leslie Solís, building upon the WJP Rule of Law Index, with adaptations to reflect the institutional architecture in the European Union.
 
