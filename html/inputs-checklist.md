@@ -17,7 +17,7 @@ In order to create a EU Thematic Report, we need the following elements:
         - [ ] Subtitles
         - [ ] SVGs
         - [ ] Notes and footnotes
-- [ ] Appendix [REMOVED!!!]
+- [ ] Appendix
 - [ ] About the WJP
 - [ ] Methodology
     - [ ] Text
