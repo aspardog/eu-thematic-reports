@@ -1,8 +1,8 @@
 # Acknowledgements
 
-The World Justice Project EUROVOICES 2024 thematic reports (Democracy & Fundamental Rights, Justice & Safety, and Transparency & Corruption) were produced by the World Justice Project under the research oversight of Alejandro Ponce and the executive direction of Elizabeth Andersen.
+The *World Justice Project EUROVOICES* 2024 thematic reports (Democracy & Fundamental Rights, Justice & Safety, and Transparency & Corruption) were produced by the World Justice Project under the research oversight of Alejandro Ponce and the executive direction of Elizabeth Andersen.
 
-**Conceptual Design**: Horacio Ortiz, Alejandro Ponce, and Leslie Solís, building upon the WJP Rule of Law Index, with adaptations to reflect the institutional architecture in the European Union.
+**Conceptual Design**: Horacio Ortiz, Alejandro Ponce, and Leslie Solís, building upon the *WJP Rule of Law Index*, with adaptations to reflect the institutional architecture in the European Union.
 
 **Data Collection**: Giacomo D’Urbano and Erin Campbell (Expert Surveys Co-Leads), Alicia Evangelides and Joshua Fuller (Household Surveys Co-Leads), Ana María Montoya (Data Analytics Lead), Marta Basystiuk, Allison Bostrom, Lucía Estefanía González, Pablo González Barón, Lauren Littlejohn, Alejandra Nava, Santiago Pardo, Natalia Rodríguez Cajamarca, Kirssy Rodríguez, Carlos Toruño, and Katrina Wanner, with the assistance of Said Aarji, Lloyd Cleary, John Cullen, Dalia Habiby, Skye Jacobs, Aleksandra Kozovic, Jaehee Lee, Andrea Marín Núñez de Arce, Abigail Skalka, Helen Souki Reyes, Holly West, and Moss Woodbury. The team also received support from Amy Gryskiewicz, Mario Rodríguez, Juan Salgado, and Victoria Thomaides during this stage.
 

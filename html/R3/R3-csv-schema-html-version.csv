@@ -53,7 +53,7 @@ f_ch01_sec01,html,"- The average score for the expert indicator of **absence of 
 - Compared to a selection of government institutions, perceptions of corruption are highest regarding political parties: in 17 Member States, the majority of respondents believe that most or all **political parties are involved in corrupt practices** (Figure 11). Meanwhile, in 9 Member States, the majority of respondents believe that most or all **members of Parliament/Congress are corrupt** (Figure 2), and in 6 Member States, the majority believe most or all **officials in the national government are corrupt** (Figure 3). In contrast, respondents across the EU report that perceptions of corruption are the lowest regarding **car registration officers** (Figure 10), **land registry officers** (Figure 9), and **police officers** (Figure 8).",ch01_sec01,
 sec01_R3F01,accordion_viz,<span>Figure 1</span> Absence of bribery,ch01_sec01,expert
 ,accordion_viz_category,Expert's Scorecard,sec01_R3F01,
-sec01_R3F01_d,accordion_viz_description,This indicator explores the absence of bribery in administrative procedures and interactions with the police and court personnel. It assesses whether individuals who interact with the police and court staff have to make informal payments or gifts to receive a public service or expedite a process.,sec01_R3F01,
+sec01_R3F01_d,accordion_viz_description,"This indicator explores the absence of bribery in administrative procedures and interactions with the police and court personnel. It assesses whether individuals who interact with the police and court staff have to make informal payments or gifts to receive a public service or expedite a process. Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec01_R3F01,
 sec01_R3F01_i,accordion_viz_image,R3F1.svg,sec01_R3F01,
 sec01_R3F01_n,accordion_viz_note,,sec01_R3F01,
 sec01_R3F02,accordion_viz,<span>Figure 2</span> Perception of corruption in Parliament/Congress,ch01_sec01,people
@@ -147,7 +147,7 @@ f_ch01_sec02,html,"- The average score for the expert indicator of absence of gr
 - In 21 Member States, the majority of respondents agree that **the only way to succeed in business is to have political connections**. At the country level, the percentage of respondents who agree ranges from 19.5% in Sweden to 75.5% in Croatia (Figure 20).",ch01_sec02,
 sec02_R3F19,accordion_viz,<span>Figure 19</span> Absence of graft and corrupt procurement practices,ch01_sec02,expert
 ,accordion_viz_category,Expert's Scorecard,sec02_R3F19,
-sec02_R3F19_d,accordion_viz_description,"This indicator evaluates the prevalence of grand corruption, specifically in public procurement (graft) and political processes. This includes instances where high-ranking officials use their influence to award government contracts without competitive bidding or purchase goods at inflated prices. Additionally, this indicator examines whether high-ranking officials solicit or receive informal payments in exchange for political favors, including favorable treatment, favorable votes, and access to policymakers.",sec02_R3F19,
+sec02_R3F19_d,accordion_viz_description,"This indicator evaluates the prevalence of grand corruption, specifically in public procurement (graft) and political processes. This includes instances where high-ranking officials use their influence to award government contracts without competitive bidding or purchase goods at inflated prices. Additionally, this indicator examines whether high-ranking officials solicit or receive informal payments in exchange for political favors, including favorable treatment, favorable votes, and access to policymakers. Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec02_R3F19,
 sec02_R3F19_i,accordion_viz_image,R3F19.svg,sec02_R3F19,
 sec02_R3F19_n,accordion_viz_note,,sec02_R3F19,
 sec02_R3F20,accordion_viz,<span>Figure 20</span> Perception that political connections are key to succeed in business,ch01_sec02,people
@@ -159,14 +159,14 @@ ch01_sec03,sub_chapter,## Absence of embezzlement,ch01,
 f_ch01_sec03,html,- The average score for the expert indicator of **absence of embezzlement** among the 27 EU Member States is 0.60 (Figure 21). Country-level scores range from 0.90 in Finland to 0.32 in Bulgaria.,ch01_sec03,
 sec03_R3F21,accordion_viz,<span>Figure 21</span> Absence of embezzlement,ch01_sec03,expert
 ,accordion_viz_category,Expert's Scorecard,sec03_R3F21,
-sec03_R3F21_d,accordion_viz_description,This indicator measures the prevalence of theft or misappropriation of public funds or other state resources for personal use by public sector employees or elected officials.,sec03_R3F21,
+sec03_R3F21_d,accordion_viz_description,"This indicator measures the prevalence of theft or misappropriation of public funds or other state resources for personal use by public sector employees or elected officials. Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec03_R3F21,
 sec03_R3F21_i,accordion_viz_image,R3F21.svg,sec03_R3F21,
 sec03_R3F21_n,accordion_viz_note,,sec03_R3F21,
 ch01_sec04,sub_chapter,## Absence of favoritism,ch01,
 f_ch01_sec04,html,- The average score for the expert indicator of **absence of favoritism** among the 27 EU Member States is 0.53 (Figure 22). Country-level scores range from 0.84 in Finland and Sweden to 0.27 in Bulgaria.,ch01_sec04,
 sec04_R3F22,accordion_viz,<span>Figure 22</span> Absence of favoritism,ch01_sec04,expert
 ,accordion_viz_category,Expert's Scorecard,sec04_R3F22,
-sec04_R3F22_d,accordion_viz_description,"This indicator refers to the practice of using positions of public authority to benefit friends or family members, without necessarily requiring the exchange of political favors for money or gifts.",sec04_R3F22,
+sec04_R3F22_d,accordion_viz_description,"This indicator refers to the practice of using positions of public authority to benefit friends or family members, without necessarily requiring the exchange of political favors for money or gifts. Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec04_R3F22,
 sec04_R3F22_i,accordion_viz_image,R3F22.svg,sec04_R3F22,
 sec04_R3F22_n,accordion_viz_note,,sec04_R3F22,
 ch01_sec05,sub_chapter,## Absence of corrupt electoral practices,ch01,
@@ -175,7 +175,7 @@ f_ch01_sec05,html,"- The average score for the expert indicator of **absence of 
 - Most people across the EU believe **it is unacceptable for a public officer to be recruited on the basis of family ties and friendship networks** (Figure 25). Figures range from 85.6% in Italy to 49.9% in Luxembourg.",ch01_sec05,
 sec05_R3F23,accordion_viz,<span>Figure 23</span> Absence of corrupt electoral practices,ch01_sec05,expert
 ,accordion_viz_category,Expert's Scorecard,sec05_R3F23,
-sec05_R3F23_d,accordion_viz_description,This indicator examines the prevalence of the misuse of public funds to benefit a political campaign or to interfere with the electoral process. It includes vote buying and cases where election officials request or receive bribes to benefit a candidate.,sec05_R3F23,
+sec05_R3F23_d,accordion_viz_description,"This indicator examines the prevalence of the misuse of public funds to benefit a political campaign or to interfere with the electoral process. It includes vote buying and cases where election officials request or receive bribes to benefit a candidate. Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec05_R3F23,
 sec05_R3F23_i,accordion_viz_image,R3F23.svg,sec05_R3F23,
 sec05_R3F23_n,accordion_viz_note,,sec05_R3F23,
 sec05_R3F24,accordion_viz,<span>Figure 24</span> Disagreement with elected officials taking public funds for private use,ch01_sec05,people
@@ -198,7 +198,7 @@ f_ch02_sec01,html,"- The average score for the expert indicator to the right of 
 - In 26 Member States (data was not collected in Ireland for these questions), fewer than half of respondents believe it is likely or very likely that **government agencies would grant information requests related to copies of government contracts or to detailed budget figures of government agencies** (Figure 31). In most Member States, people tend to agree they are more likely to be granted information on budget figures than government contracts.",ch02_sec01,
 sec01_R3F26,accordion_viz,<span>Figure 26</span> Transparency and access to information,ch02_sec01,expert
 ,accordion_viz_category,Expert's Scorecard,sec01_R3F26,
-sec01_R3F26_d,accordion_viz_description,"This indicator includes information on public institutions’ transparency measures and the accessibility of different types of public information. Additionally, it covers the publicity of laws and whether the right to request information is effectively guaranteed.",sec01_R3F26,
+sec01_R3F26_d,accordion_viz_description,"This indicator includes information on public institutions’ transparency measures and the accessibility of different types of public information. Additionally, it covers the publicity of laws and whether the right to request information is effectively guaranteed. Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec01_R3F26,
 sec01_R3F26_i,accordion_viz_image,R3F26.svg,sec01_R3F26,
 sec01_R3F26_n,accordion_viz_note,,sec01_R3F26,
 sec01_R3F27,accordion_viz,<span>Figure 27</span> Access to information on people's rights,ch02_sec01,people
@@ -232,21 +232,21 @@ ch03_sec01,sub_chapter,"## Simple, predictable, and timely administrative procee
 f_ch03_sec01,html,"- The average score for the expert indicator of **simple, predictable, and timely administrative proceedings** among the 27 EU Member States is 0.61 (Figure 32). Country-level scores range from 0.86 in Finland to 0.43 in Romania.",ch03_sec01,
 sec01_R3F32,accordion_viz,"<span>Figure 32</span> Simple, predictable, and timely administrative proceedings",ch03_sec01,expert
 ,accordion_viz_category,Expert's Scorecard,sec01_R3F32,
-sec01_R3F32_d,accordion_viz_description,"This indicator captures public experiences and perceptions regarding the efficiency and integrity of administrative proceedings. It evaluates the clarity, accessibility, and predictability of the legal framework for businesses, as well as the simplicity and timeliness of administrative proceedings.",sec01_R3F32,
+sec01_R3F32_d,accordion_viz_description,"This indicator captures public experiences and perceptions regarding the efficiency and integrity of administrative proceedings. It evaluates the clarity, accessibility, and predictability of the legal framework for businesses, as well as the simplicity and timeliness of administrative proceedings. Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec01_R3F32,
 sec01_R3F32_i,accordion_viz_image,R3F32.svg,sec01_R3F32,
 sec01_R3F32_n,accordion_viz_note,,sec01_R3F32,
 ch03_sec02,sub_chapter,## Right to property,ch03,
 f_ch03_sec02,html,- The average score for the expert indicator of **right to property** among the 27 EU Member States is 0.66 (Figure 33). Country-level scores range from 0.84 in Denmark to 0.53 in Bulgaria.,ch03_sec02,
 sec02_R3F33,accordion_viz,<span>Figure 33</span> Right to property,ch03_sec02,expert
 ,accordion_viz_category,Expert's Scorecard,sec02_R3F33,
-sec02_R3F33_d,accordion_viz_description,"This indicator evaluates whether all people have the right to acquire, own, and dispose of property to the extent permitted by law. It also examines whether expropriation and other proceedings with similar results are conducted legally and solely for public benefit.",sec02_R3F33,
+sec02_R3F33_d,accordion_viz_description,"This indicator evaluates whether all people have the right to acquire, own, and dispose of property to the extent permitted by law. It also examines whether expropriation and other proceedings with similar results are conducted legally and solely for public benefit. Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec02_R3F33,
 sec02_R3F33_i,accordion_viz_image,R3F33.svg,sec02_R3F33,
 sec02_R3F33_n,accordion_viz_note,,sec02_R3F33,
 ch03_sec03,sub_chapter,## Regulatory enforcement,ch03,
 f_ch03_sec03,html,"- The average score for the expert indicator which assesses regulatory enforcement, or the **regularity and effectiveness of audits and inspections**, among the 27 EU Member States is 0.66 (Figure 34). Country-level scores range from 0.79 in Austria to 0.46 in Malta.",ch03_sec03,
 sec03_R3F34,accordion_viz,<span>Figure 34</span> Regulatory enforcement,ch03_sec03,expert
 ,accordion_viz_category,Expert's Scorecard,sec03_R3F34,
-sec03_R3F34_d,accordion_viz_description,"This indicator assesses the regularity and effectiveness of audits and inspections to ensure they are conducted lawfully and without corruption. It also evaluates the accessibility and simplicity of complaint mechanisms, the impartiality and effectiveness of regulatory investigations, and the appropriateness of sanctions for violations.",sec03_R3F34,
+sec03_R3F34_d,accordion_viz_description,"This indicator assesses the regularity and effectiveness of audits and inspections to ensure they are conducted lawfully and without corruption. It also evaluates the accessibility and simplicity of complaint mechanisms, the impartiality and effectiveness of regulatory investigations, and the appropriateness of sanctions for violations. Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec03_R3F34,
 sec03_R3F34_i,accordion_viz_image,R3F34.svg,sec03_R3F34,
 sec03_R3F34_n,accordion_viz_note,,sec03_R3F34,
 appendix,appendix,"### List of Country and Region Abbreviations
