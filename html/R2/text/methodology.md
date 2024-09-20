@@ -54,7 +54,7 @@ Lastly, while EUROVOICES builds upon the Index’s methodology, the two projects
 
 #### Methodological Strengths and Weaknesses
 
-All information tools have advantages and limitations that need to be considered when using them, and *World Justice Project EUROVOICES* is no exception. This project organizes its findings into clearly defined indicators that allow for the easy and efficient interpretation of multi-dimensional rule of law definition. Moreover, WJP’s output-oriented approach facilitates comparisons between countries and subnationally.
+All information tools have advantages and limitations that need to be considered when using them, and *World Justice Project EUROVOICES* is no exception. This project organizes its findings into clearly defined indicators that allow for the easy and efficient interpretation of a multi-dimensional rule of law definition. Moreover, WJP’s output-oriented approach facilitates comparisons between countries and subnationally.
 
 However, this accessibility does require WJP to consolidate the unique and complicated realities different individuals experience into coherent findings at the national and regional levels. As such, interpretation of the data presented in this report requires a familiarity with the project’s basic conceptual framework, including WJP’s definitions for each indicator and explanations regarding which topics are and are not included in our findings.
 

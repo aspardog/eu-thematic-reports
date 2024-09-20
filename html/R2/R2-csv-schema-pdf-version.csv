@@ -1,0 +1,807 @@
+id,tipo de elemento,contenido (markdown),pertenece a ,settings
+front_page_theme,front_page_theme,Thematic Report,,
+front_page_title,front_page_title,Justice & Safety,,
+front_page_image,front_page_image,cover.jpg,,
+front_page_year,front_page_year,2024,,
+front_page_source,front_page_source,World Justice Project EUROVOICES,,
+title,title,"We asked 72,000 Europeans if they feel safe and if justice is met. Most people",,
+scroll1,scrollytelling,"## feel safe at night,",,
+scroll2,scrollytelling,"## see the police as a force for good,",,
+scroll3,scrollytelling,## cannot afford legal assistance.,,
+,scrollytelling_img,scroll1.png,scroll1,
+,scrollytelling_img,scroll2.png,scroll2,
+,scrollytelling_img,scroll3.png,scroll3,
+introduction,introduction,"The rule of law is one of the fundamental values upon which the European Union (EU) is founded and represents a constitutional priority shared by all Member States (Article 2 of the Treaty on EU). The rule of law is essential for the proper functioning of democratic societies and the protection of human rights. Furthermore, the rule of law plays a pivotal role in shaping the potential for sustainable regional growth and development.
+
+Adherence to this principle requires effective democratic institutions that ensure public accountability and the separation of powers. It also mandates access to independent and impartial courts that protect people's fundamental rights and guarantee equality before the law. Upholding the rule of law further requires implementing targeted, evidence-informed strategies at both national and subnational levels, which are tailored to meet the diverse needs of people across different regions.
+
+In this context, *World Justice Project EUROVOICES* provides new data that captures the perceptions and experiences of people living in 110 subnational regions across the 27 EU Member States in the areas of justice, democratic governance, and the rule of law. The report series draws upon surveys responses from more than 8,000 local and independent legal experts, as well as regionally representative household surveys administered to more than 64,000 respondents across the EU. With this data, the World Justice Project (WJP) seeks to contribute to evidence-based decision-making at all government levels by helping decision-makers identify strengths, weaknesses, and policy priorities in their regions.  
+
+This data is organized into three **thematic reports**: 
+
+1. Democracy and Fundamental Rights
+2. Justice and Safety
+3. Transparency and Corruption
+  
+Each report focuses on a selection of pillars of the rule of law, comprised of indicators that cover specific dimensions of each concept. Findings for each indicator are categorized into **Expert Scorecards**, calculated using expert survey responses, and **People’s Voices**, highlighting complementary question-level data from WJP’s household surveys. These two categories are presented side-by-side, offering a comprehensive view of how EU residents perceive and experience justice, governance, and the rule of law in their respective regions.  
+
+The Expert Scorecard captures legal experts’ assessments of composite indicators with scores ranging from 0 to 1, where 1 is the highest possible score and 0 is the lowest possible score. Each score is calculated by aggregating a set of questions that are relevant to various dimensions of the concept being measured. This expert data allows for a deeper examination of the technical aspects that determine how people interact with a complex network of institutions and the justice system. In contrast, findings from the People’s Voices database, presented at the question level using percentages (0 to 100%), reflect the beliefs and experiences of the general population.  
+  
+The project’s conceptual framework builds upon the tested and proven methodology of the *WJP Rule of Law Index®*—a rigorous quantitative tool that evaluates and ranks 142 countries across key dimensions of the rule of law—with adaptations to reflect the institutional architecture in the EU. It should be noted that the results of both tools are not comparable, because this project presents data from its household surveys separately from its Expert Scorecards, whereas the Index integrates the General Population Poll into each country’s aggregate scores. Additionally, adjustments have been made to the conceptual framework and to the data analysis protocol, including changes in the methods used to calculate scores. For more information on the methodology of *World Justice Project EUROVOICES*, refer to the methodology section at the end of this report.
+
+Given the diversity of institutional design across EU Member States, the questions in this project’s surveys mainly focus on the outcomes experienced by individuals concerning different issues related to justice, governance, and the rule of law. These outcomes result from their interactions with a complex network of institutions at local, national, and supranational levels. In this sense, the questionnaires minimized references to government institutions, focusing instead on the perceptions and experiences of people in the city, town, or village where they live. Regional information was produced following the framework of territorial divisions of the Nomenclature of Territorial Units for Statistics (NUTS) system.
+
+This project is funded by the EU and complements other research activities conducted by the WJP with the mission of advancing the rule of law worldwide. This data may also complement other monitoring tools that aim to promote a rule of law culture and enhance economic, social, and territorial cohesion in the EU, such as the European Commission’s yearly Rule of Law Report, the EU Justice Scoreboard, and the Cohesion Report, among others.
+
+### About this Report
+
+When the rule of law prevails, both governing authorities and the people they serve respect the rights of others, contributing to a secure and just society. Additionally, people should have access to effective legal mechanisms to resolve their legal issues or seek redress for violations of their rights.
+In conceptualizing safety and access to justice, WJP uses a people-centered approach, focusing on individuals’ justice journeys. This approach seeks to analytically reconstruct people’s experiences as they navigate different justice services in their quest to resolve their legal disputes.    
+
+This report, Justice and Safety, consists of three chapters: (I) **Civil Justice**, (II) **Criminal Justice**, and (III) **Safety**. Each chapter contains thematic findings, definitions for each indicator included, as well as graphs with data from both the expert and household surveys (Expert Scorecard and People’s Voices, respectively). 
+
+1. **_Civil Justice_**: The first chapter of this report focuses on civil justice, defined as the array of services and mechanisms people use to resolve non-criminal disputes, including family, labor, commercial, environmental, administrative, and financial disputes, as well as consumer issues. 
+
+    Indicators for civil justice include (1) legal capability, (2) access to legal aid and representation in case of civil disputes, (3) accessible, appropriate, and timely dispute resolution, (4) impartial and independent dispute resolution, (5) outcome-oriented and effective dispute resolution, and (6) alternative dispute resolution mechanisms. 
+
+    To further explore these issues, the chapter concludes with new, region-specific findings from the *WJP Global Legal Needs Survey* (a special module included in the household surveys), which provides in-depth insights into the prevalence of civil and administrative legal problems and the efficacy of the justice system for resolving those problems, as experienced by individuals seeking justice.
+
+
+2. **_Criminal Justice_**: Strong rule of law systems depend on the ability of impartial and independent criminal justice mechanisms to redress grievances and bring action against individuals for offenses against society. Effective criminal justice mechanisms ensure that victims of criminal acts have access to competent, prompt, and effective mechanisms for criminal investigation, prosecution, and adjudication. Moreover, these justice services must be accessible to all members of society, regardless of where they live or their personal characteristics. 
+
+    Additionally, the criminal justice system must follow due process and uphold the rights of all involved parties, including victims, individuals accused of a crime, and persons deprived of their liberty. This chapter includes indicators on (1) effective and impartial criminal investigation, (2) effective and impartial prosecution and pre-trial proceedings, (3) effective and impartial criminal adjudication, (4) alternative criminal justice mechanisms, (5) victims’ rights, (6) due process of law, and (7) right of persons deprived of liberty.
+
+3. **_Safety_**: Security is one of the defining aspects of any rule of law society and is a fundamental function of the state. It is also a precondition for the realization of the rights and freedoms that the rule of law seeks to advance. Thus, effective crime control and the reduction of violence are key components of the rule of law. 
+
+    This chapter examines how well governments meet these safety objectives by focusing on two indicators from the general population poll: (1) perceptions of safety and (2) control of violence.",,
+ch01,chapter,# Civil Justice,,
+ch01_f,findings,"- People perceive justice as being too expensive.  Malta is the only EU Member State where most people believe dispute resolution mechanisms are affordable.
+- Across the EU, backlogs and delays are widespread in civil and commercial courts.
+- People are not aware of their legal rights. Romania, Poland, and Greece are the only EU Member States in which the majority of respondents feel aware of their rights when facing a legal problem.
+- In 15 Member States\*, a majority of respondents experienced at least one non-trivial legal problem\*\* in the past two years. The prevalence of legal problems varies widely across the EU, as just 15.6% of respondents experienced a recent legal problem in Portugal, while 71.0% did in Hungary. For respondents in all countries, the most common legal problems were related to consumer protection.
+- Most EU residents who had a non-trivial legal issue were unable to access appropriate dispute resolution mechanisms. This finding presents a major challenge to many EU countries aiming to meet the United Nations Sustainable Development Goals target on access to justice for all (SDG 16.3.3). 
+
+\*The module on legal needs covers 26 out of the 27 EU Member States; this data was not collected in Ireland.
+\*\*We understand non-trivial legal problems as those that respondents label with a seriousness larger than or equal to 4 on a scale of 0 to 10.
+
+### Legal capability
+
+- The average score for the expert indicator  of **legal capability** among the 27 EU Member States is 0.58 (Figure 1). Country-level scores range from 0.69 in Finland to 0.47 in Greece and Poland.
+- Most EU residents feel that people lack legal awareness. Romania, Poland, and Greece are the only EU Member States in which the majority of respondents agree that **people are aware of their legal rights** (Figure 2).    
+- In just 6 Member States, the majority of respondents agree that **people know where to get legal information and advice when they face a legal problem** (Figure 3).  
+
+
+### Access to legal aid and representation in civil disputes
+
+- The average score for the expert indicator of **access to legal aid and representation in civil cases** among the 27 EU Member States is 0.64 (Figure 4). Country-level scores range from 0.78 in Germany to 0.57 in Cyprus and Hungary. 
+- In only 7 Member States, most respondents agree that **people have access to affordable legal assistance and representation when they face a legal problem** (Figure 5). 
+
+
+### Accessible, appropriate, and timely dispute resolution
+
+- The average score for the expert indicator of **accessible, appropriate, and timely dispute resolution** among the 27 EU Member States is 0.49 (Figure 6). Country-level scores range from 0.64 in Estonia to 0.38 in Poland. 
+- Lengthy court proceedings are an issue throughout the EU. In all EU Member States, fewer than half of respondents agree that **civil and commercial courts adjudicate disputes quickly** (Figure 8). 
+- In 26 Member States (except Malta), fewer than half of respondents agree that **people can easily meet the costs of state dispute resolution mechanisms** (courts, small claims courts, administrative agencies, etc.) when they face a legal problem (Figure 7). 
+
+
+### Impartial and independent dispute resolution
+
+- The average score for the expert indicator of **impartial and independent dispute resolution** among the 27 EU Member States is 0.70 (Figure 9). Country-level scores range from 0.89 in Denmark to 0.55 in Bulgaria.
+- Only in Denmark  do the majority of respondents agree that **state dispute resolution mechanisms (courts, small claims courts, administrative agencies, etc.) produce fair outcomes for each involved party** (Figure 10). In just 4 Member States (Denmark, the Netherlands, Finland, and Luxembourg), the majority of respondents agree that **all parties are treated equally and fairly within the civil justice system** (Figure 11).
+- Denmark and Finland are the only two EU Member States in which the majority  of respondents agree that **local courts are free of corruption** (Figure 12). At the country level, the percentage of respondents who agree with this statement ranges from 70.5% in Denmark to approximately   11% in Lithuania, Slovakia, and Bulgaria.  
+- In 5 Member States, the majority of respondents agree that **judges decide cases in an independent manner** (Figure 14), while Denmark and the Netherlands are the only Member States in which the majority of respondents agree that **local courts are free of political influence in their application of power** (Figure 13). 
+
+
+### Effective and outcome-oriented dispute resolution
+
+- The average score for the expert indicator of **effective and outcome-oriented dispute resolution** among the 27 EU Member States is 0.57 (Figure 15). Country-level scores range from 0.73 in Finland to 0.46 in Italy.
+- In all 27 Member States, fewer than half of respondents agree that **winning parties can enforce court decisions quickly and effectively**. At the country level, the percentage of respondents who agree with this statement ranges from 45.9% in Poland to 20.3% in Slovenia (Figure 16). 
+
+
+### Alternative dispute resolution mechanisms
+
+- The average score for the expert indicator of **alternative dispute resolution mechanisms** among the 27 EU Member States is 0.58 (Figure 17). Country-level scores range from 0.73 in Finland to 0.49 in Romania, Czechia, Bulgaria, and Slovakia. 
+- In 6 Member States, the majority of respondents agree that **people can easily turn to alternative justice mechanisms** (mediation, arbitration, restorative justice, etc.) when they face a legal problem (Figure 18). 
+
+
+### WJP Global Legal Needs Survey module
+
+- In 15 Member States\*, over half  of respondents experienced one or more **non-trivial legal problems\*\* in the past two years**, with prevalence at the country-level ranging from 15.6% in Portugal to 71.0% in Hungary (Figure 19). Across the EU, the most **commonly reported legal problems** were related to consumer protection, housing, and public services (Figure 20).    
+- Among all  respondents who reported experiencing non-trivial legal problems, at least half  had **access to good information and advice** (Figure 23) and, in 18 Member States, the majority of respondents had **access to adequate assistance and representation**\*\*\* (Figure 24). However, Malta and Bulgaria were the only two Member States in which the majority of respondents who experienced a non-trivial legal problem had **access to a dispute resolution mechanism** (Figure 25).       
+- Out of the people who experienced a non-trivial legal problem and whose problem's resolution process has concluded, in 25 Member States (all except for Czechia), six out of every ten respondents' **legal problems have been solved** (Figure 29).
+- In a majority of EU Member States, out of respondents who experienced a non-trivial legal problem and reported that the problem’s resolution process has concluded, over two-thirds said that the **resolution process concluded in less than a year** (Figure 26) and that they were **able to afford the costs to solve their problem, or did not incur any costs at all** (Figure 27).  However, this group of respondents did not think their experiences were fair—in only 5 Member States did the majority of respondents agree that the **resolution process was fair, regardless of the outcome** (Figure 28).
+
+\*The module on legal needs covers 26 out of the 27 EU member states; this data was not collected in Ireland.
+\*\*We understand non-trivial legal problems as those that respondents label with a severity larger than or equal to 4 on a scale of 0 to 10.
+\*\*\*Adequate assistance and representation include those obtained from any of the following entities: a lawyer, a professional advisor, an advice service, a government legal aid office, a court or government body, the police, a health or welfare professional, a trade union or employer, a civil society organization, or a charity.",ch01,
+ch01_sec01,sub_chapter,## Legal capability,ch01,
+f_ch01_sec01,html,"
+",ch01_sec01,
+sec01_R2F01,accordion_viz,<span>Figure 1</span> Legal capability,ch01_sec01,expert
+,accordion_viz_category,Expert's Scorecard,sec01_R2F01,
+sec01_R2F01_d,accordion_viz_description,"This indicator refers to an individual's ability to navigate the legal system and readily access justice while upholding their rights. This indicator examines people's awareness of their rights and knowledge of where to obtain legal information and advice. Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec01_R2F01,
+sec01_R2F01_i,accordion_viz_image,R2F1.svg,sec01_R2F01,
+sec01_R2F01_n,accordion_viz_note,,sec01_R2F01,
+sec01_R2F02,accordion_viz,<span>Figure 2</span> Awareness of legal rights,ch01_sec01,people
+,accordion_viz_category,People's Voices,sec01_R2F02,
+sec01_R2F02_d,accordion_viz_description,Percentage of respondents who agree that people in their country are aware of their rights when they face a legal problem.,sec01_R2F02,
+sec01_R2F02_i,accordion_viz_image,R2F2.svg,sec01_R2F02,
+sec01_R2F02_n,accordion_viz_note,,sec01_R2F02,
+sec01_R2F03,accordion_viz,<span>Figure 3</span> Access to legal information and advice,ch01_sec01,people
+,accordion_viz_category,People's Voices,sec01_R2F03,
+sec01_R2F03_d,accordion_viz_description,Percentage of respondents who agree that people in their country know where to get information and advice when they face a legal problem.,sec01_R2F03,
+sec01_R2F03_i,accordion_viz_image,R2F3.svg,sec01_R2F03,
+sec01_R2F03_n,accordion_viz_note,,sec01_R2F03,
+ch01_sec02,sub_chapter,## Access to legal aid and representation in civil disputes,ch01,
+f_ch01_sec02,html,"
+",ch01_sec02,
+sec02_R2F04,accordion_viz,<span>Figure 4</span> Access to legal aid and representation in case of civil disputes,ch01_sec02,expert
+,accordion_viz_category,Expert's Scorecard,sec02_R2F04,
+sec02_R2F04_d,accordion_viz_description,"This indicator explores the accessibility and quality of legal aid services in civil disputes as reported by users, including the affordability of legal aid and the availability of pro bono services. Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec02_R2F04,
+sec02_R2F04_i,accordion_viz_image,R2F4.svg,sec02_R2F04,
+sec02_R2F04_n,accordion_viz_note,,sec02_R2F04,
+sec02_R2F05,accordion_viz,<span>Figure 5</span> Access to affordable legal assistance and representation,ch01_sec02,people
+,accordion_viz_category,People's Voices,sec02_R2F05,
+sec02_R2F05_d,accordion_viz_description,Percentage of respondents who agree that people in their country have access to affordable legal assistance and representation when they face a legal problem.,sec02_R2F05,
+sec02_R2F05_i,accordion_viz_image,R2F5.svg,sec02_R2F05,
+sec02_R2F05_n,accordion_viz_note,,sec02_R2F05,
+ch01_sec03,sub_chapter,"## Accessible, appropriate, and timely dispute resolution",ch01,
+f_ch01_sec03,html,"
+",ch01_sec03,
+sec03_R2F06,accordion_viz,"<span>Figure 6</span> Accessible, appropriate, and timely dispute resolution",ch01_sec03,expert
+,accordion_viz_category,Expert's Scorecard,sec03_R2F06,
+sec03_R2F06_d,accordion_viz_description,"This indicator focuses on the conditions necessary for effective dispute resolution via state-sponsored, formal mechanisms,  or alternative dispute resolution mechanisms. It assesses whether these services are available to all people regardless of socioeconomic status, responsive to different types of problems, and not subject to unreasonable delays. Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec03_R2F06,
+sec03_R2F06_i,accordion_viz_image,R2F6.svg,sec03_R2F06,
+sec03_R2F06_n,accordion_viz_note,,sec03_R2F06,
+sec03_R2F07,accordion_viz,<span>Figure 7</span> Affordability of state dispute resolution mechanisms,ch01_sec03,people
+,accordion_viz_category,People's Voices,sec03_R2F07,
+sec03_R2F07_d,accordion_viz_description,"Percentage of respondents who agree that people in their country can easily meet the costs of turning to a state dispute resolution mechanism (courts, small claims courts, administrative agencies, etc.) when they face a legal problem.",sec03_R2F07,
+sec03_R2F07_i,accordion_viz_image,R2F7.svg,sec03_R2F07,
+sec03_R2F07_n,accordion_viz_note,,sec03_R2F07,
+sec03_R2F08,accordion_viz,<span>Figure 8</span> Timely adjudication by civil and commercial courts,ch01_sec03,people
+,accordion_viz_category,People's Voices,sec03_R2F08,
+sec03_R2F08_d,accordion_viz_description,Percentage of respondents who agree that civil and commercial courts in their country adjudicate disputes quickly.,sec03_R2F08,
+sec03_R2F08_i,accordion_viz_image,R2F8.svg,sec03_R2F08,
+sec03_R2F08_n,accordion_viz_note,,sec03_R2F08,
+ch01_sec04,sub_chapter,## Impartial and independent dispute resolution,ch01,
+f_ch01_sec04,html,"
+",ch01_sec04,
+sec04_R2F09,accordion_viz,<span>Figure 9</span> Impartial and independent dispute resolution in the civil justice system,ch01_sec04,expert
+,accordion_viz_category,Expert's Scorecard,sec04_R2F09,
+sec04_R2F09_d,accordion_viz_description,"To assess the procedural fairness of dispute resolution in civil matters, this indicator evaluates various components of a trustworthy justice system, including the absence of discrimination or bias in judicial decisions, corruption, and undue political influence in the delivery of justice. Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec04_R2F09,
+sec04_R2F09_i,accordion_viz_image,R2F9.svg,sec04_R2F09,
+sec04_R2F09_n,accordion_viz_note,,sec04_R2F09,
+sec04_R2F10,accordion_viz,<span>Figure 10</span> Fairness in state dispute resolution,ch01_sec04,people
+,accordion_viz_category,People's Voices,sec04_R2F10,
+sec04_R2F10_d,accordion_viz_description,"Percentage of respondents who agree that state dispute resolution mechanisms in their country (courts, small claims courts, administrative agencies, etc.) produce fair outcomes for each involved party.",sec04_R2F10,
+sec04_R2F10_i,accordion_viz_image,R2F10.svg,sec04_R2F10,
+sec04_R2F10_n,accordion_viz_note,,sec04_R2F10,
+sec04_R2F11,accordion_viz,<span>Figure 11</span> Equality and fair treatment in the civil justice system,ch01_sec04,people
+,accordion_viz_category,People's Voices,sec04_R2F11,
+sec04_R2F11_d,accordion_viz_description,Percentage of respondents who agree that all parties are treated equally and fairly within the civil justice system of their country.,sec04_R2F11,
+sec04_R2F11_i,accordion_viz_image,R2F11.svg,sec04_R2F11,
+sec04_R2F11_n,accordion_viz_note,,sec04_R2F11,
+sec04_R2F12,accordion_viz,<span>Figure 12</span> Absence of corruption in local courts,ch01_sec04,people
+,accordion_viz_category,People's Voices,sec04_R2F12,
+sec04_R2F12_d,accordion_viz_description,Percentage of respondents who agree that local courts are free of corruption.,sec04_R2F12,
+sec04_R2F12_i,accordion_viz_image,R2F12.svg,sec04_R2F12,
+sec04_R2F12_n,accordion_viz_note,,sec04_R2F12,
+sec04_R2F13,accordion_viz,<span>Figure 13</span> Independence of local courts,ch01_sec04,people
+,accordion_viz_category,People's Voices,sec04_R2F13,
+sec04_R2F13_d,accordion_viz_description,Percentage of respondents who agree that local courts are free of political influence in their application of power.,sec04_R2F13,
+sec04_R2F13_i,accordion_viz_image,R2F13.svg,sec04_R2F13,
+sec04_R2F13_n,accordion_viz_note,,sec04_R2F13,
+sec04_R2F14,accordion_viz,<span>Figure 14</span> Independence of judges,ch01_sec04,people
+,accordion_viz_category,People's Voices,sec04_R2F14,
+sec04_R2F14_d,accordion_viz_description,Percentage of respondents who agree that judges decide cases in an independent manner and are not subject to any sort of pressure.,sec04_R2F14,
+sec04_R2F14_i,accordion_viz_image,R2F14.svg,sec04_R2F14,
+sec04_R2F14_n,accordion_viz_note,,sec04_R2F14,
+ch01_sec05,sub_chapter,## Effective and outcome-oriented dispute resolution,ch01,
+f_ch01_sec05,html,"
+",ch01_sec05,
+sec05_R2F15,accordion_viz,<span>Figure 15</span> Effective and outcome-oriented dispute resolution,ch01_sec05,expert
+,accordion_viz_category,Expert's Scorecard,sec05_R2F15,
+sec05_R2F15_d,accordion_viz_description,"This indicator assesses how justice system users perceive the outcomes of their legal proceedings, including the extent to which civil justice processes aim  to achieve meaningful and satisfactory outcomes for all parties involved and whether those outcomes are effectively enforced. Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec05_R2F15,
+sec05_R2F15_i,accordion_viz_image,R2F15.svg,sec05_R2F15,
+sec05_R2F15_n,accordion_viz_note,,sec05_R2F15,
+sec05_R2F16,accordion_viz,<span>Figure 16</span> Enforcement of court decisions in the civil justice system,ch01_sec05,people
+,accordion_viz_category,People's Voices,sec05_R2F16,
+sec05_R2F16_d,accordion_viz_description,Percentage of respondents who agree that winning parties can enforce court decisions quickly and effectively in their country.,sec05_R2F16,
+sec05_R2F16_i,accordion_viz_image,R2F16.svg,sec05_R2F16,
+sec05_R2F16_n,accordion_viz_note,,sec05_R2F16,
+ch01_sec06,sub_chapter,## Alternative dispute resolution mechanisms,ch01,
+f_ch01_sec06,html,"
+",ch01_sec06,
+sec06_R2F17,accordion_viz,<span>Figure 17</span> Alternative dispute resolution mechanisms,ch01_sec06,expert
+,accordion_viz_category,Expert's Scorecard,sec06_R2F17,
+sec06_R2F17_d,accordion_viz_description,"This indicator explores non-formal and abridged dispute resolution methods that exist outside the formal judicial system, such as mediation, conciliation, or arbitration. The following category  assesses the accessibility, fairness, and effectiveness of alternative dispute mechanisms in solving people’s legal problems. Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec06_R2F17,
+sec06_R2F17_i,accordion_viz_image,R2F17.svg,sec06_R2F17,
+sec06_R2F17_n,accordion_viz_note,,sec06_R2F17,
+sec06_R2F18,accordion_viz,<span>Figure 18</span> Access to alternative justice mechanisms,ch01_sec06,people
+,accordion_viz_category,People's Voices,sec06_R2F18,
+sec06_R2F18_d,accordion_viz_description,"Percentage of respondents who agree that people in their country can easily turn to alternative justice mechanisms (mediation, arbitration, restorative justice, etc.) when they face a legal problem.",sec06_R2F18,
+sec06_R2F18_i,accordion_viz_image,R2F18.svg,sec06_R2F18,
+sec06_R2F18_n,accordion_viz_note,,sec06_R2F18,
+ch01_sec07,sub_chapter,## WJP Global Legal Needs Survey module,ch01,
+f_ch01_sec07,html,"
+",ch01_sec07,
+sec07_R2F19,accordion_viz,<span>Figure 19</span> Prevalence of all and non-trivial legal problems,ch01_sec07,people
+,accordion_viz_category,People's Voices,sec07_R2F19,
+sec07_R2F19_d,accordion_viz_description,"Percentage of respondents who experienced at least one legal problem and those with a non-trivial problem, meaning a problem of self-reported seriousness of 4 or more in a scale of 0 to 10.",sec07_R2F19,
+sec07_R2F19_i,accordion_viz_image,R2F19.svg,sec07_R2F19,
+sec07_R2F19_n,accordion_viz_note,,sec07_R2F19,
+sec07_R2F20,accordion_viz,<span>Figure 20</span> Prevalence by category of legal problems,ch01_sec07,people
+,accordion_viz_category,People's Voices,sec07_R2F20,
+sec07_R2F20_d,accordion_viz_description,Percentage of respondents who experienced at least one non-trivial legal problem by problem category.,sec07_R2F20,
+sec07_R2F20_i,accordion_viz_image,R2F20.svg,sec07_R2F20,
+sec07_R2F20_n,accordion_viz_note,,sec07_R2F20,
+sec07_R2F21,accordion_viz,<span>Figure 21</span> Legal vulnerability: official proof of identity,ch01_sec07,people
+,accordion_viz_category,People's Voices,sec07_R2F21,
+sec07_R2F21_d,accordion_viz_description,Percentage of respondents who report having an official proof of identity.,sec07_R2F21,
+sec07_R2F21_i,accordion_viz_image,R2F21.svg,sec07_R2F21,
+sec07_R2F21_n,accordion_viz_note,,sec07_R2F21,
+sec07_R2F22,accordion_viz,<span>Figure 22</span> Legal vulnerability: official proof of housing or land tenure,ch01_sec07,people
+,accordion_viz_category,People's Voices,sec07_R2F22,
+sec07_R2F22_d,accordion_viz_description,Percentage of respondents who report having an official proof of housing or land tenure.,sec07_R2F22,
+sec07_R2F22_i,accordion_viz_image,R2F22.svg,sec07_R2F22,
+sec07_R2F22_n,accordion_viz_note,,sec07_R2F22,
+sec07_R2F23,accordion_viz,<span>Figure 23</span> Access to appropriate information and advice,ch01_sec07,people
+,accordion_viz_category,People's Voices,sec07_R2F23,
+sec07_R2F23_d,accordion_viz_description,Percentage of respondents who had access to good information and advice out of those who experienced a non-trivial problem.,sec07_R2F23,
+sec07_R2F23_i,accordion_viz_image,R2F23.svg,sec07_R2F23,
+sec07_R2F23_n,accordion_viz_note,,sec07_R2F23,
+sec07_R2F24,accordion_viz,<span>Figure 24</span> Access to appropriate assistance and representation,ch01_sec07,people
+,accordion_viz_category,People's Voices,sec07_R2F24,
+sec07_R2F24_d,accordion_viz_description,"Percentage of respondents who had access to adequate assistance and representation out of those who experienced a non-trivial legal problem. Adequate assistance and representation include services obtained from any of the following entities: a lawyer, a professional advisor, an advice service, a government legal aid office, a court or government body, the police, a health or welfare professional, a trade union or employer, a civil society organization, or a charity.",sec07_R2F24,
+sec07_R2F24_i,accordion_viz_image,R2F24.svg,sec07_R2F24,
+sec07_R2F24_n,accordion_viz_note,,sec07_R2F24,
+sec07_R2F25,accordion_viz,<span>Figure 25</span> Access to a dispute resolution mechanism,ch01_sec07,people
+,accordion_viz_category,People's Voices,sec07_R2F25,
+sec07_R2F25_d,accordion_viz_description,Percentage of respondents who had access to a dispute resolution mechanism out of those who experienced a non-trivial legal problem and needed access.,sec07_R2F25,
+sec07_R2F25_i,accordion_viz_image,R2F25.svg,sec07_R2F25,
+sec07_R2F25_n,accordion_viz_note,,sec07_R2F25,
+sec07_R2F26,accordion_viz,<span>Figure 26</span> Timeliness of the resolution process,ch01_sec07,people
+,accordion_viz_category,People's Voices,sec07_R2F26,
+sec07_R2F26_d,accordion_viz_description,"Percentage of respondents whose process concluded in less than a year, out of those who experienced a non-trivial legal problem and whose problem resolution process had concluded.",sec07_R2F26,
+sec07_R2F26_i,accordion_viz_image,R2F26.svg,sec07_R2F26,
+sec07_R2F26_n,accordion_viz_note,,sec07_R2F26,
+sec07_R2F27,accordion_viz,<span>Figure 27</span> Costliness of the resolution process,ch01_sec07,people
+,accordion_viz_category,People's Voices,sec07_R2F27,
+sec07_R2F27_d,accordion_viz_description,"Percentage of respondents who did not incur costs to solve their problem, or did and could afford them, out of those who experienced a non-trivial legal problem and whose problem resolution process had concluded.",sec07_R2F27,
+sec07_R2F27_i,accordion_viz_image,R2F27.svg,sec07_R2F27,
+sec07_R2F27_n,accordion_viz_note,,sec07_R2F27,
+sec07_R2F28,accordion_viz,<span>Figure 28</span> Fairness of the resolution process,ch01_sec07,people
+,accordion_viz_category,People's Voices,sec07_R2F28,
+sec07_R2F28_d,accordion_viz_description,"Percentage of respondents who think the process was fair, regardless of the outcome,  out of those who experienced a non-trivial legal problem and whose problem resolution process had concluded.",sec07_R2F28,
+sec07_R2F28_i,accordion_viz_image,R2F28.svg,sec07_R2F28,
+sec07_R2F28_n,accordion_viz_note,,sec07_R2F28,
+sec07_R2F29,accordion_viz,<span>Figure 29</span> Outcome of the resolution process,ch01_sec07,people
+,accordion_viz_category,People's Voices,sec07_R2F29,
+sec07_R2F29_d,accordion_viz_description,"Percentage of respondents whose resolution process is done and whose legal problem was solved, out of those who experienced a non-trivial legal problem and whose problem resolution process had concluded.",sec07_R2F29,
+sec07_R2F29_i,accordion_viz_image,R2F29.svg,sec07_R2F29,
+sec07_R2F29_n,accordion_viz_note,,sec07_R2F29,
+ch02,chapter,# Criminal Justice,,
+ch02_f,findings,"- While experts in most EU countries say their justice systems conduct effective and impartial criminal investigations and prosecutions, these positive perceptions are not shared among respondents in Bulgaria, Cyprus, and Greece. 
+- Confidence in police conduct is high among respondents in most of the EU. In 26 Member States (Slovakia is the exception), most people say police respect the basic rights of suspects, and in 20 Member States, most people say the police do not use excessive or unnecessary force. 
+However, the majority of respondents in 10 Member States doubt that authorities respect the presumption of innocence, and in 12 EU Member States, most people do not believe everyone has access to a fair trial.  Perceptions on both of these issues are especially low among Slovakian respondents.
+- Across the EU, most respondents say that people living in poverty continue to face challenges related to public legal defense—in 14 Member States, fewer than half agree there is adequate public defense. 
+
+
+### Effective and impartial criminal investigation
+
+- The average score for the expert indicator of **effective and impartial criminal investigation** among the 27 EU Member States is 0.60 (Figure 30). Country-level scores range from 0.75 in Finland to 0.41 in Cyprus.
+- In 26 Member States, the majority of respondents express having a lot or some **trust in the police**. Fewer than half of respondents in all 27 Member States believe that most or all **police officers are involved in corrupt practices** (Figure 31). 
+- Findings on public attitudes toward law enforcement indicate that levels of trust in the police tend to be inversely correlated with perceptions of corruption. For instance, in Finland, 91% of respondents have a lot or some trust in the police, while only 5.8% believe that most or all police officers engage in corrupt activities (Figure 31). In contrast, Cypriots report lower levels of trust in the police (33.8%) and higher perceptions of corruption (33.3%).
+- In 26 Member States, the majority of respondents agree that **the police perform serious and law-abiding investigations to find the perpetrators of a crime** (Figure 32). However, in only 8 Member States do the majority of respondents agree that **the police investigate crimes in an independent manner, without any sort of pressure** (Figure 33).
+
+
+
+### Effective and impartial prosecution and pre-trial proceedings
+
+- The average score for the expert indicator of **effective and impartial prosecution and pre-trial proceedings** among the 27 EU Member States is 0.60 (Figure 34). Country-level scores range from 0.76 in Finland to 0.43 in Bulgaria.
+- In 20 Member States, the majority of respondents express a lot or some **trust in prosecutors in charge of criminal investigations**, and in 26 Member States, fewer than half of respondents believe that most or all **prosecutors are involved in corrupt practices** (Figure 35). Compared to other EU Member States, respondents in Bulgaria report the lowest levels of trust in prosecutors (31.2%) and the highest perception of corruption of prosecutors (60.0%).   
+- In 12 Member States, the majority of respondents agree that **the criminal justice system is effective in bringing people who commit crimes to justice**. At the country level, the percentage of respondents who agree with this statement ranges from 67.9% in Finland to 23.4% in Slovakia (Figure 37). In 8 Member States, at least half of respondents agree that **crimes are prosecuted in an independent manner**. At the country level, the percentage of respondents who agree with this statement ranges from 71.2% in Finland to 18.1% in Slovakia (Figure 36). 
+
+
+### Effective and impartial criminal adjudication
+
+- The average score for the expert indicator of **effective and impartial criminal adjudication** among the 27 EU Member States is 0.63 (Figure 38). Country-level scores range from 0.78 in Sweden to 0.48 in Greece.
+- In 21 Member States, the majority of respondents express a lot or some **trust in judges and magistrates**, and in 26 Member States, fewer than half agree that most **judges and magistrates are involved in corrupt practices** (Bulgaria is the exception) (Figure 39). 
+
+
+### Alternative criminal justice mechanisms 
+
+- The average score for the expert indicator of **alternative criminal justice mechanisms** among all Member States\* is 0.52 (Figure 41). Country-level scores range from 0.68 in Finland to 0.41 in Bulgaria. 
+
+\*This finding on alternative criminal justice mechanisms covers 26 out of the 27 EU Member States; this data was not collected in Malta.
+
+### Victims' rights
+
+- The average score for the expert indicator of **respect for victims’ rights** among all the Member States\* is 0.52 (Figure 42). Country-level scores range from 0.70 in Luxembourg to 0.38 in Hungary.
+- In 13 Member States, the majority of respondents agree that the **criminal justice system respects the rights of victims**, with country-level figures ranging from 70.6% of respondents in Denmark to 29.3% in Slovakia (Figure 44).
+- In 18 Member States, the majority of respondents agree that the **criminal justice system allows all victims of crime to seek justice regardless of who they are** (Figure 45), while in 12 Member States, the majority of respondents agree the **justice system functions the same regardless of where people live** (Figure 43).   
+- In just 6 Member States, the majority of respondents agree that the **criminal justice system provides victims of crime with the service and support they need** (Figure 46).
+
+\*The finding on victims’ rights covers 25 out of the 27 EU Member States; this data was not collected in Denmark and Malta.
+
+### Due process of law
+
+- The average score for the expert indicator of the **due process of law** among the 27 EU Member States is 0.63 (Figure 47). Country-level scores range from 0.75 in Finland to 0.52 in Bulgaria.
+- In 17  Member States, at least half of respondents express a lot or some **trust in public defense attorneys**, and in all 27 Member States, fewer than half believe **public defense attorneys are involved in corrupt practices** (Figure 48).
+- In 13 Member States, the majority of respondents agree that **public defenders do everything they can to defend poor people who are accused of committing a crime** (Figure 51). At the country level, the percentage of respondents that agree with this statement ranges from 61.9% in Spain to 28.9% in Slovenia.  
+- In 26 Member States, the majority of respondents agree that the **basic rights of suspects are respected by the police**—with just below half (49.5%) of respondents agreeing the same Slovakia is the only Member State that does not meet this trend (Figure 49). In 20 Member States, the majority of respondents agree that members of the **police do not use excessive or unnecessary force** (Figure 50). 
+- In 15 Member States, the majority of respondents are confident that the **criminal justice system allows equal access to a fair trial** (Figure 52), and in 17 Member States, the majority of respondents are confident that **the criminal justice system treats those accused of a crime as 'innocent until proven guilty'** (Figure 53). These perceptions are comparatively negative among Slovakian respondents, with just 26.7% reporting confidence in equal access to a fair trial and 28.0% reporting confidence in respect for the presumption of innocence.  
+
+
+### Rights of persons deprived of liberty
+
+- The average score for the expert indicator of respect for the **rights of persons deprived of liberty** among all the Member States is  0.66 (Figure 54). Country-level scores range from 0.83 in Luxembourg to 0.43 in Greece.
+- In 16 Members States, the majority of respondents agree that the **criminal justice system guarantees the safety and human rights of people deprived of their liberty**, with country-level figures ranging from 72.9% of respondents in Luxembourg to 29.9% in Slovakia (Figure 55).",ch02,
+ch02_sec01,sub_chapter,## Effective and impartial criminal investigation,ch02,
+f_ch02_sec01,html,"
+",ch02_sec01,
+sec01_R2F30,accordion_viz,<span>Figure 30</span> Effective and impartial criminal investigation,ch02_sec01,expert
+,accordion_viz_category,Expert's Scorecard,sec01_R2F30,
+sec01_R2F30_d,accordion_viz_description,"This indicator measures whether the criminal justice system is effective and prompt in gathering evidence on reported crimes. It also examines whether criminal investigations are conducted without bias, corruption, or undue influence from the government. Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec01_R2F30,
+sec01_R2F30_i,accordion_viz_image,R2F30.svg,sec01_R2F30,
+sec01_R2F30_n,accordion_viz_note,,sec01_R2F30,
+sec01_R2F31,accordion_viz,<span>Figure 31</span> Trust in the police and perceptions of corruption,ch02_sec01,people
+,accordion_viz_category,People's Voices,sec01_R2F31,
+sec01_R2F31_d,accordion_viz_description,Percentage of respondents who express a lot or some trust in the police and percentage of respondents who believe that most or all police officers are involved in corrupt practices.,sec01_R2F31,
+sec01_R2F31_i,accordion_viz_image,R2F31.svg,sec01_R2F31,
+sec01_R2F31_n,accordion_viz_note,,sec01_R2F31,
+sec01_R2F32,accordion_viz,<span>Figure 32</span> Serious and law-abiding criminal investigations,ch02_sec01,people
+,accordion_viz_category,People's Voices,sec01_R2F32,
+sec01_R2F32_d,accordion_viz_description,Percentage of respondents who agree that police investigators perform serious and law-abiding investigations to find the perpetrators of a crime.,sec01_R2F32,
+sec01_R2F32_i,accordion_viz_image,R2F32.svg,sec01_R2F32,
+sec01_R2F32_n,accordion_viz_note,,sec01_R2F32,
+sec01_R2F33,accordion_viz,<span>Figure 33</span> Independence of criminal investigations,ch02_sec01,people
+,accordion_viz_category,People's Voices,sec01_R2F33,
+sec01_R2F33_d,accordion_viz_description,Percentage of respondents who agree that police investigators investigate crimes in an independent manner and are not subject to any sort of pressure.,sec01_R2F33,
+sec01_R2F33_i,accordion_viz_image,R2F33.svg,sec01_R2F33,
+sec01_R2F33_n,accordion_viz_note,,sec01_R2F33,
+ch02_sec02,sub_chapter,## Effective and impartial prosecution and pre-trial proceedings,ch02,
+f_ch02_sec02,html,"
+",ch02_sec02,
+sec02_R2F34,accordion_viz,<span>Figure 34</span> Effective and impartial prosecution and pre-trial proceedings,ch02_sec02,expert
+,accordion_viz_category,Expert's Scorecard,sec02_R2F34,
+sec02_R2F34_d,accordion_viz_description,"This indicator examines the effectiveness of the criminal justice system in bringing people who commit crimes to justice. This category assesses the timeliness and effectiveness  of criminal prosecution, determining whether cases are handled promptly and efficiently to deliver justice without unreasonable delay. Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec02_R2F34,
+sec02_R2F34_i,accordion_viz_image,R2F34.svg,sec02_R2F34,
+sec02_R2F34_n,accordion_viz_note,,sec02_R2F34,
+sec02_R2F35,accordion_viz,<span>Figure 35</span> Trust in prosecutors and perceptions of corruption,ch02_sec02,people
+,accordion_viz_category,People's Voices,sec02_R2F35,
+sec02_R2F35_d,accordion_viz_description,Percentage of respondents who express a lot or some trust in prosecutors in charge of criminal investigations and percentage of respondents who believe that most or all prosecutors are involved in corrupt practices.,sec02_R2F35,
+sec02_R2F35_i,accordion_viz_image,R2F35.svg,sec02_R2F35,
+sec02_R2F35_n,accordion_viz_note,,sec02_R2F35,
+sec02_R2F36,accordion_viz,<span>Figure 36</span> Independence of criminal prosecution,ch02_sec02,people
+,accordion_viz_category,People's Voices,sec02_R2F36,
+sec02_R2F36_d,accordion_viz_description,"Percentage of respondents who agree that crimes are prosecuted in an independent and committed manner, without any sort of pressure.",sec02_R2F36,
+sec02_R2F36_i,accordion_viz_image,R2F36.svg,sec02_R2F36,
+sec02_R2F36_n,accordion_viz_note,,sec02_R2F36,
+sec02_R2F37,accordion_viz,<span>Figure 37</span> Effectiveness of criminal prosecution,ch02_sec02,people
+,accordion_viz_category,People's Voices,sec02_R2F37,
+sec02_R2F37_d,accordion_viz_description,Percentage of respondents who agree that the criminal justice system is effective in bringing people who commit crimes to justice.,sec02_R2F37,
+sec02_R2F37_i,accordion_viz_image,R2F37.svg,sec02_R2F37,
+sec02_R2F37_n,accordion_viz_note,,sec02_R2F37,
+ch02_sec03,sub_chapter,## Effective and impartial criminal adjudication,ch02,
+f_ch02_sec03,html,"
+",ch02_sec03,
+sec03_R2F38,accordion_viz,<span>Figure 38</span> Effective and impartial criminal adjudication,ch02_sec03,expert
+,accordion_viz_category,Expert's Scorecard,sec03_R2F38,
+sec03_R2F38_d,accordion_viz_description,"This indicator measures whether criminal court decisions are timely and unbiased by examining the impartiality and integrity of the adjudication process. Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec03_R2F38,
+sec03_R2F38_i,accordion_viz_image,R2F38.svg,sec03_R2F38,
+sec03_R2F38_n,accordion_viz_note,,sec03_R2F38,
+sec03_R2F39,accordion_viz,<span>Figure 39</span> Trust in judges and magistrates and perceptions of corruption,ch02_sec03,people
+,accordion_viz_category,People's Voices,sec03_R2F39,
+sec03_R2F39_d,accordion_viz_description,Percentage of respondents who express a lot or some trust in judges and magistrates and percentage of respondents who believe that most or all judges and magistrates are involved in corrupt practices.,sec03_R2F39,
+sec03_R2F39_i,accordion_viz_image,R2F39.svg,sec03_R2F39,
+sec03_R2F39_n,accordion_viz_note,,sec03_R2F39,
+sec03_R2F40,accordion_viz,<span>Figure 40</span> Efficiency of the criminal justice system,ch02_sec03,people
+,accordion_viz_category,People's Voices,sec03_R2F40,
+sec03_R2F40_d,accordion_viz_description,Percentage of respondents who agree that the criminal justice system deals with cases promptly and efficiently.,sec03_R2F40,
+sec03_R2F40_i,accordion_viz_image,R2F40.svg,sec03_R2F40,
+sec03_R2F40_n,accordion_viz_note,,sec03_R2F40,
+ch02_sec04,sub_chapter,## Alternative criminal justice mechanisms,ch02,
+f_ch02_sec04,html,"
+",ch02_sec04,
+sec04_R2F41,accordion_viz,<span>Figure 41</span> Alternative criminal justice mechanisms,ch02_sec04,expert
+,accordion_viz_category,Expert's Scorecard,sec04_R2F41,
+sec04_R2F41_d,accordion_viz_description,"This indicator assesses the mechanisms that provide complementary and restorative approaches to resolving criminal matters, offering accessible and timely solutions outside criminal courts. This indicator examines the availability, accessibility, effectiveness, and impartiality of such mechanisms. Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec04_R2F41,
+sec04_R2F41_i,accordion_viz_image,R2F41.svg,sec04_R2F41,
+sec04_R2F41_n,accordion_viz_note,,sec04_R2F41,
+ch02_sec05,sub_chapter,## Victims' rights,ch02,
+f_ch02_sec05,html,"
+",ch02_sec05,
+sec05_R2F42,accordion_viz,<span>Figure 42</span> Victims' rights,ch02_sec05,expert
+,accordion_viz_category,Expert's Scorecard,sec05_R2F42,
+sec05_R2F42_d,accordion_viz_description,"This indicator measures whether victims of crime are treated respectfully by agents of the criminal justice system and whether they have access to justice and any required support throughout their legal process. Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec05_R2F42,
+sec05_R2F42_i,accordion_viz_image,R2F42.svg,sec05_R2F42,
+sec05_R2F42_n,accordion_viz_note,,sec05_R2F42,
+sec05_R2F43,accordion_viz,<span>Figure 43</span> Equal functioning of the justice system regardless of where people live,ch02_sec05,people
+,accordion_viz_category,People's Voices,sec05_R2F43,
+sec05_R2F43_d,accordion_viz_description,Percentage of respondents who agree the justice system functions the same regardless of where they live.,sec05_R2F43,
+sec05_R2F43_i,accordion_viz_image,R2F43.svg,sec05_R2F43,
+sec05_R2F43_n,accordion_viz_note,,sec05_R2F43,
+sec05_R2F44,accordion_viz,<span>Figure 44</span> Respect for the rights of victims,ch02_sec05,people
+,accordion_viz_category,People's Voices,sec05_R2F44,
+sec05_R2F44_d,accordion_viz_description,Percentage of respondents who agree that the criminal justice system respects the rights of victims.,sec05_R2F44,
+sec05_R2F44_i,accordion_viz_image,R2F44.svg,sec05_R2F44,
+sec05_R2F44_n,accordion_viz_note,,sec05_R2F44,
+sec05_R2F45,accordion_viz,<span>Figure 45</span> Equal access to justice for all victims of crime,ch02_sec05,people
+,accordion_viz_category,People's Voices,sec05_R2F45,
+sec05_R2F45_d,accordion_viz_description,Percentage of respondents who agree that the criminal justice system allows all victims of crime to seek justice regardless of who they are.,sec05_R2F45,
+sec05_R2F45_i,accordion_viz_image,R2F45.svg,sec05_R2F45,
+sec05_R2F45_n,accordion_viz_note,,sec05_R2F45,
+sec05_R2F46,accordion_viz,<span>Figure 46</span> Adequate attention and support for victims of crime,ch02_sec05,people
+,accordion_viz_category,People's Voices,sec05_R2F46,
+sec05_R2F46_d,accordion_viz_description,Percentage of respondents who agree that the criminal justice system provides victims of crime with the service and support they need.,sec05_R2F46,
+sec05_R2F46_i,accordion_viz_image,R2F46.svg,sec05_R2F46,
+sec05_R2F46_n,accordion_viz_note,,sec05_R2F46,
+ch02_sec06,sub_chapter,## Due process of law,ch02,
+f_ch02_sec06,html,"
+",ch02_sec06,
+sec06_R2F47,accordion_viz,<span>Figure 47</span> Due process of law,ch02_sec06,expert
+,accordion_viz_category,Expert's Scorecard,sec06_R2F47,
+sec06_R2F47_d,accordion_viz_description,"This indicator measures adherence to due process in criminal matters, including presumption of innocence, impartiality, and non-discrimination, as well as the respect for the rights of the accused, including legal assistance, the right of defense, and the right to an effective remedy and a fair trial. Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec06_R2F47,
+sec06_R2F47_i,accordion_viz_image,R2F47.svg,sec06_R2F47,
+sec06_R2F47_n,accordion_viz_note,,sec06_R2F47,
+sec06_R2F48,accordion_viz,<span>Figure 48</span> Trust in public defense attorneys and perceptions of corruption,ch02_sec06,people
+,accordion_viz_category,People's Voices,sec06_R2F48,
+sec06_R2F48_d,accordion_viz_description,Percentage of respondents who express a lot or some trust in public defense attorneys and percentage of respondents who believe that most or all public defense attorneys are involved in corrupt practices.,sec06_R2F48,
+sec06_R2F48_i,accordion_viz_image,R2F48.svg,sec06_R2F48,
+sec06_R2F48_n,accordion_viz_note,,sec06_R2F48,
+sec06_R2F49,accordion_viz,<span>Figure 49</span> Respect for suspects' basic rights,ch02_sec06,people
+,accordion_viz_category,People's Voices,sec06_R2F49,
+sec06_R2F49_d,accordion_viz_description,Percentage of respondents who agree that the basic rights of suspects are respected by the police.,sec06_R2F49,
+sec06_R2F49_i,accordion_viz_image,R2F49.svg,sec06_R2F49,
+sec06_R2F49_n,accordion_viz_note,,sec06_R2F49,
+sec06_R2F50,accordion_viz,<span>Figure 50</span> Absence of excessive use of force by the police,ch02_sec06,people
+,accordion_viz_category,People's Voices,sec06_R2F50,
+sec06_R2F50_d,accordion_viz_description,Percentage of respondents who agree that members of the police do not use excessive or unnecessary force.,sec06_R2F50,
+sec06_R2F50_i,accordion_viz_image,R2F50.svg,sec06_R2F50,
+sec06_R2F50_n,accordion_viz_note,,sec06_R2F50,
+sec06_R2F51,accordion_viz,<span>Figure 51</span> Public defense for poor people,ch02_sec06,people
+,accordion_viz_category,People's Voices,sec06_R2F51,
+sec06_R2F51_d,accordion_viz_description,Percentage of respondents who agree that public defenders do everything they can to defend poor people who are accused of committing a crime.,sec06_R2F51,
+sec06_R2F51_i,accordion_viz_image,R2F51.svg,sec06_R2F51,
+sec06_R2F51_n,accordion_viz_note,,sec06_R2F51,
+sec06_R2F52,accordion_viz,<span>Figure 52</span> Equal access to fair trial,ch02_sec06,people
+,accordion_viz_category,People's Voices,sec06_R2F52,
+sec06_R2F52_d,accordion_viz_description,Percentage of respondents who agree that the criminal justice system allows all those accused of crimes to get a fair trial regardless of who they are.,sec06_R2F52,
+sec06_R2F52_i,accordion_viz_image,R2F52.svg,sec06_R2F52,
+sec06_R2F52_n,accordion_viz_note,,sec06_R2F52,
+sec06_R2F53,accordion_viz,<span>Figure 53</span> Presumption of innocence,ch02_sec06,people
+,accordion_viz_category,People's Voices,sec06_R2F53,
+sec06_R2F53_d,accordion_viz_description,Percentage of respondents who agree that the criminal justice system treats those accused of a crime as 'innocent until proven guilty'.,sec06_R2F53,
+sec06_R2F53_i,accordion_viz_image,R2F53.svg,sec06_R2F53,
+sec06_R2F53_n,accordion_viz_note,,sec06_R2F53,
+ch02_sec07,sub_chapter,## Rights of persons deprived of liberty,ch02,
+f_ch02_sec07,html,"
+",ch02_sec07,
+sec07_R2F54,accordion_viz,<span>Figure 54</span> Rights of persons deprived of liberty,ch02_sec07,expert
+,accordion_viz_category,Expert's Scorecard,sec07_R2F54,
+sec07_R2F54_d,accordion_viz_description,"This indicator measures the conditions of detention to determine if individuals, whether sentenced or in pre-trial detention, are treated with dignity and respect. Results reflect the evaluation of experts across the 27 EU Member States at the subnational level. The expert scorecard ranges from 0 to 1, where 1 signifies the highest possible score and 0 signifies the lowest possible score.",sec07_R2F54,
+sec07_R2F54_i,accordion_viz_image,R2F54.svg,sec07_R2F54,
+sec07_R2F54_n,accordion_viz_note,,sec07_R2F54,
+sec07_R2F55,accordion_viz,<span>Figure 55</span> Respect for the rights of persons deprived of liberty,ch02_sec07,people
+,accordion_viz_category,People's Voices,sec07_R2F55,
+sec07_R2F55_d,accordion_viz_description,Percentage of respondents who agree that the criminal justice system guarantees the safety and human rights of people deprived of their liberty.,sec07_R2F55,
+sec07_R2F55_i,accordion_viz_image,R2F55.svg,sec07_R2F55,
+sec07_R2F55_n,accordion_viz_note,,sec07_R2F55,
+ch03,chapter,# Safety,,
+ch03_f,findings,"- People throughout the EU feel safe in their communities. In most EU  Member States, at least two-thirds of respondents **feel safe walking in their neighborhood at night**.  
+- Women are less likely than men  to feel safe in every Member State except Poland.
+- Most people across the EU trust the police to **solve community safety problems and to treat everyone with respect**. However, respondents in Ireland, Slovakia, Hungary, and Cyprus hold comparatively negative views.
+
+
+### Perceptions of safety
+
+- In 26 Member States, the majority of respondents feel safe walking in their neighborhood at night, with country-level figures ranging from 88.4% of respondents in Denmark to 47.7% in Italy (Figure 56). However, **perceptions of safety among women** are lower than men  in every EU country, except Poland (Box 2).
+- In 24 Member States, the majority of respondents agree that **the police resolve safety problems in their communities and treat all people with kindness and respect**, with country-level figures ranging from 93.4% of respondents in Finland to 42.1% in Cyprus (Figure 57).
+
+
+### Control of violence
+
+- In 26 Member States\*, fewer than half of respondents **witnessed street violence** (Figure 58), **violence against women** (Figure 59), and **racially motivated violence** (Figure 60).
+
+\*This finding on control of violence covers 26 out of the 27 EU Member States; this data was not collected in Ireland.",ch03,
+ch03_sec01,sub_chapter,## Perceptions of safety,ch03,
+f_ch03_sec01,html,"
+",ch03_sec01,
+sec01_R2F56,accordion_viz,<span>Figure 56</span> Perceptions of safety when walking in the neighborhood at night,ch03_sec01,people
+,accordion_viz_category,People's Voices,sec01_R2F56,
+sec01_R2F56_d,accordion_viz_description,Percentage of respondents who feel safe walking in their neighborhood at night.,sec01_R2F56,
+sec01_R2F56_i,accordion_viz_image,R2F56.svg,sec01_R2F56,
+sec01_R2F56_n,accordion_viz_note,,sec01_R2F56,
+sec01_R2F57,accordion_viz,<span>Figure 57</span> Police and community safety,ch03_sec01,people
+,accordion_viz_category,People's Voices,sec01_R2F57,
+sec01_R2F57_d,accordion_viz_description,Percentage of respondents who agree that the police resolve safety problems in their communities and treat all people with kindness and respect.,sec01_R2F57,
+sec01_R2F57_i,accordion_viz_image,R2F57.svg,sec01_R2F57,
+sec01_R2F57_n,accordion_viz_note,,sec01_R2F57,
+ch03_sec02,sub_chapter,## Control of violence,ch03,
+f_ch03_sec02,html,"
+",ch03_sec02,
+sec02_R2F58,accordion_viz,<span>Figure 58</span> Witnessing of street violence,ch03_sec02,people
+,accordion_viz_category,People's Voices,sec02_R2F58,
+sec02_R2F58_d,accordion_viz_description,Percentage of respondents who have heard of or know about street violence occurring around their home.,sec02_R2F58,
+sec02_R2F58_i,accordion_viz_image,R2F58.svg,sec02_R2F58,
+sec02_R2F58_n,accordion_viz_note,,sec02_R2F58,
+sec02_R2F59,accordion_viz,<span>Figure 59</span> Witnessing of violence against women,ch03_sec02,people
+,accordion_viz_category,People's Voices,sec02_R2F59,
+sec02_R2F59_d,accordion_viz_description,Percentage of respondents who have heard of or know about violence against women occurring around their home.,sec02_R2F59,
+sec02_R2F59_i,accordion_viz_image,R2F59.svg,sec02_R2F59,
+sec02_R2F59_n,accordion_viz_note,,sec02_R2F59,
+sec02_R2F60,accordion_viz,<span>Figure 60</span> Witnessing of racially motivated violence,ch03_sec02,people
+,accordion_viz_category,People's Voices,sec02_R2F60,
+sec02_R2F60_d,accordion_viz_description,Percentage of respondents who have heard of or know about racially motivated violence occurring around their home.,sec02_R2F60,
+sec02_R2F60_i,accordion_viz_image,R2F60.svg,sec02_R2F60,
+sec02_R2F60_n,accordion_viz_note,,sec02_R2F60,
+appendix,appendix,"### List of Country and Region Abbreviations
+
+<div id=""abbreviations"">
+<div class=""table-container"">    
+    <table border=""1"">
+        <thead>
+            <tr>
+                <th><i>Label</i></th>
+                <th><i>Country</i></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td><b>AT</b></td><td>Austria</td></tr>
+            <tr><td><b>BE</b></td><td>Belgium</td></tr>
+            <tr><td><b>BG</b></td><td>Bulgaria</td></tr>
+            <tr><td><b>CY</b></td><td>Cyprus</td></tr>
+            <tr><td><b>CZ</b></td><td>Czechia</td></tr>
+            <tr><td><b>DE</b></td><td>Germany</td></tr>
+            <tr><td><b>DK</b></td><td>Denmark</td></tr>
+            <tr><td><b>EE</b></td><td>Estonia</td></tr>
+            <tr><td><b>EL</b></td><td>Greece</td></tr>
+            <tr><td><b>ES</b></td><td>Spain</td></tr>
+            <tr><td><b>FI</b></td><td>Finland</td></tr>
+            <tr><td><b>FR</b></td><td>France</td></tr>
+            <tr><td><b>HR</b></td><td>Croatia</td></tr>
+            <tr><td><b>HU</b></td><td>Hungary</td></tr>
+            <tr><td><b>IE</b></td><td>Ireland</td></tr>
+            <tr><td><b>IT</b></td><td>Italy</td></tr>
+            <tr><td><b>LT</b></td><td>Lithuania</td></tr>
+            <tr><td><b>LU</b></td><td>Luxembourg</td></tr>
+            <tr><td><b>LV</b></td><td>Latvia</td></tr>
+            <tr><td><b>MT</b></td><td>Malta</td></tr>
+            <tr><td><b>NL</b></td><td>Netherlands</td></tr>
+            <tr><td><b>PL</b></td><td>Poland</td></tr>
+            <tr><td><b>PT</b></td><td>Portugal</td></tr>
+            <tr><td><b>RO</b></td><td>Romania</td></tr>
+            <tr><td><b>SE</b></td><td>Sweden</td></tr>
+            <tr><td><b>SI</b></td><td>Slovenia</td></tr>
+            <tr><td><b>SK</b></td><td>Slovakia</td></tr>
+        </tbody>
+    </table>
+</div>
+
+<div class=""table-container"">
+    <table border=""1"">
+        <thead>
+            <tr>
+                <th><i>Label</i></th>
+                <th><i>Region</i></th>
+            </tr>
+        </thead>
+        <tbody>
+                    <tr><td><b>AT1</b></td><td>East Austria</td></tr>
+                    <tr><td><b>AT2</b></td><td>South Austria</td></tr>
+                    <tr><td><b>AT3</b></td><td>West Austria</td></tr>
+                    <tr><td><b>BE1</b></td><td>Brussels Region</td></tr>
+                    <tr><td><b>BE2</b></td><td>Flemish Region</td></tr>
+                    <tr><td><b>BE3</b></td><td>Walloon Region</td></tr>
+                    <tr><td><b>BG3</b></td><td>North and South-East</td></tr>
+                    <tr><td><b>BG4</b></td><td>South -West/-Central</td></tr>
+                    <tr><td><b>CY0</b></td><td>Cyprus</td></tr>
+                    <tr><td><b>CZ01</b></td><td>Prague</td></tr>
+                    <tr><td><b>CZ020304</b></td><td>Western and Central Bohemia</td></tr>
+                    <tr><td><b>CZ0506</b></td><td>North-East and South-East</td></tr>
+                    <tr><td><b>CZ0708</b></td><td>Central Moravia and Silesia</td></tr>
+                    <tr><td><b>DE1</b></td><td>Baden-Württemberg</td></tr>
+                    <tr><td><b>DE2</b></td><td>Bavaria</td></tr>
+                    <tr><td><b>DE3</b></td><td>Berlin</td></tr>
+                    <tr><td><b>DE4</b></td><td>Brandenburg</td></tr>
+                    <tr><td><b>DE5</b></td><td>Bremen</td></tr>
+                    <tr><td><b>DE6</b></td><td>Hamburg</td></tr>
+                    <tr><td><b>DE7</b></td><td>Hessen</td></tr>
+                    <tr><td><b>DE8</b></td><td>Mecklenburg-Vorpommern</td></tr>
+                    <tr><td><b>DE9</b></td><td>Lower Saxony</td></tr>
+                    <tr><td><b>DEA</b></td><td>North Rhine-Westphalia</td></tr>
+                    <tr><td><b>DEB</b></td><td>Rhineland-Palatinate</td></tr>
+                    <tr><td><b>DEC</b></td><td>Saarland</td></tr>
+                    <tr><td><b>DED</b></td><td>Saxony</td></tr>
+                    <tr><td><b>DEE</b></td><td>Saxony-Anhalt</td></tr>
+                    <tr><td><b>DEF</b></td><td>Schleswig-Holstein</td></tr>
+                    <tr><td><b>DEG</b></td><td>Thuringia</td></tr>
+                    <tr><td><b>DK01</b></td><td>Capital (region)</td></tr>
+                    <tr><td><b>DK02</b></td><td>Zealand</td></tr>
+                    <tr><td><b>DK03</b></td><td>South Denmark</td></tr>
+                    <tr><td><b>DK04</b></td><td>Central Jutland</td></tr>
+                    <tr><td><b>DK05</b></td><td>North Jutland</td></tr>
+                    <tr><td><b>EE0</b></td><td>Estonia</td></tr>
+                    <tr><td><b>EL3</b></td><td>Attica</td></tr>
+                    <tr><td><b>EL4</b></td><td>Aegean Islands, Crete</td></tr>
+                    <tr><td><b>EL5</b></td><td>North Greece</td></tr>
+                    <tr><td><b>EL6</b></td><td>Central Greece</td></tr>
+                    <tr><td><b>ES1</b></td><td>North-West</td></tr>
+                    <tr><td><b>ES2</b></td><td>North-East</td></tr>
+                    <tr><td><b>ES3</b></td><td>Madrid</td></tr>
+                    <tr><td><b>ES4</b></td><td>Centre</td></tr>
+                    <tr><td><b>ES5</b></td><td>East</td></tr>
+                    <tr><td><b>ES6</b></td><td>South</td></tr>
+                    <tr><td><b>ES7</b></td><td>Canary Islands</td></tr>
+                    <tr><td><b>FI19</b></td><td>West Finland</td></tr>
+                    <tr><td><b>FI1B</b></td><td>Helsinki-Uusimaa</td></tr>
+                    <tr><td><b>FI1C20</b></td><td>South Finland and Åland</td></tr>
+                    <tr><td><b>FI1D</b></td><td>North and East Finland</td></tr>
+                    <tr><td><b>FR1</b></td><td>Île-de-France</td></tr>
+                    <tr><td><b>FRB</b></td><td>Centre-Val de Loire</td></tr>
+                    <tr><td><b>FRC</b></td><td>Burgundy-Franche-Comté</td></tr>
+                    <tr><td><b>FRD</b></td><td>Normandy</td></tr>
+                    <tr><td><b>FRE</b></td><td>Hauts-de-France</td></tr>
+                    <tr><td><b>FRF</b></td><td>Grand Est</td></tr>
+                    <tr><td><b>FRG</b></td><td>Loire Region</td></tr>
+                    <tr><td><b>FRH</b></td><td>Brittany </td></tr>
+                    <tr><td><b>FRI</b></td><td>New Aquitaine</td></tr>
+                    <tr><td><b>FRJ</b></td><td>Occitania</td></tr>
+                    <tr><td><b>FRK</b></td><td>Auvergne-Rhône-Alpes</td></tr>
+                    <tr><td><b>FRL</b></td><td>PACA</td></tr>
+                    <tr><td><b>FRM</b></td><td>Corsica </td></tr>
+                    <tr><td><b>HR02</b></td><td>Pannonian Croatia</td></tr>
+                    <tr><td><b>HR03</b></td><td>Adriatic Croatia</td></tr>
+                    <tr><td><b>HR05</b></td><td>Zagreb</td></tr>
+                    <tr><td><b>HR06</b></td><td>Northern Croatia</td></tr>
+                    <tr><td><b>HU1</b></td><td>Central Hungary</td></tr>
+                    <tr><td><b>HU2</b></td><td>Transdanubia</td></tr>
+                    <tr><td><b>HU3</b></td><td>Great Plain and North</td></tr>
+                    <tr><td><b>IE04</b></td><td>Northern and Western</td></tr>
+                    <tr><td><b>IE05</b></td><td>Southern</td></tr>
+                    <tr><td><b>IE06</b></td><td>Eastern and Midland</td></tr>
+                    <tr><td><b>ITC</b></td><td>North-West</td></tr>
+                    <tr><td><b>ITF</b></td><td>South</td></tr>
+                    <tr><td><b>ITG</b></td><td>Islands</td></tr>
+                    <tr><td><b>ITH</b></td><td>North-East</td></tr>
+                    <tr><td><b>ITI</b></td><td>Centre</td></tr>
+                    <tr><td><b>LT01</b></td><td>Capital Region</td></tr>
+                    <tr><td><b>LT02</b></td><td>Central/Western Region</td></tr>
+                    <tr><td><b>LU00</b></td><td>Luxembourg</td></tr>
+                    <tr><td><b>LV00</b></td><td>Latvia</td></tr>
+                    <tr><td><b>MT00</b></td><td>Malta</td></tr>
+                    <tr><td><b>NL1</b></td><td>North Netherlands</td></tr>
+                    <tr><td><b>NL2</b></td><td>East Netherlands</td></tr>
+                    <tr><td><b>NL3</b></td><td>West Netherlands</td></tr>
+                    <tr><td><b>NL4</b></td><td>South Netherlands</td></tr>
+                    <tr><td><b>PL2</b></td><td>Southern</td></tr>
+                    <tr><td><b>PL4</b></td><td>North-Western</td></tr>
+                    <tr><td><b>PL5</b></td><td>South-Western</td></tr>
+                    <tr><td><b>PL6</b></td><td>Northern</td></tr>
+                    <tr><td><b>PL7</b></td><td>Central</td></tr>
+                    <tr><td><b>PL8</b></td><td>Eastern</td></tr>
+                    <tr><td><b>PL9</b></td><td>Mazowieckie</td></tr>
+                    <tr><td><b>PT1</b></td><td>Continental Portugal</td></tr>
+                    <tr><td><b>PT2</b></td><td>Azores</td></tr>
+                    <tr><td><b>PT3</b></td><td>Madeira</td></tr>
+                    <tr><td><b>RO1</b></td><td>Macroregion One</td></tr>
+                    <tr><td><b>RO2</b></td><td>Macroregion Two</td></tr>
+                    <tr><td><b>RO3</b></td><td>Macroregion Three</td></tr>
+                    <tr><td><b>RO4</b></td><td>Macroregion Four</td></tr>
+                    <tr><td><b>SE1</b></td><td>Eastern Sweden</td></tr>
+                    <tr><td><b>SE2</b></td><td>Southern Sweden</td></tr>
+                    <tr><td><b>SE3</b></td><td>Northern Sweden</td></tr>
+                    <tr><td><b>SI03</b></td><td>East Slovenia</td></tr>
+                    <tr><td><b>SI04</b></td><td>West Slovenia</td></tr>
+                    <tr><td><b>SK01</b></td><td>Bratislava</td></tr>
+                    <tr><td><b>SK02</b></td><td>West Slovakia</td></tr>
+                    <tr><td><b>SK03</b></td><td>Central Slovakia</td></tr>
+                    <tr><td><b>SK04</b></td><td>East Slovakia</td></tr>
+        </tbody>
+    </table>
+</div>
+</div>",,
+methodology,methodological,"The production of *World Justice Project EUROVOICES* can be summarized in the following stages:
+
+### Conceptual design
+
+To develop a comprehensive methodological framework, WJP first defined the observable outcomes of a society’s adherence to the rule of law and the ways rule of law impacts people’s everyday lives. Building upon the proven methodology of the World Justice Project Rule of Law Index®, the team focused the conceptual design of EUROVOICES on capturing people’s perceptions and experiences of justice, governance, and the rule of law in their daily lives. 
+
+The team then conducted an extensive literature review and held consultations with experts from various sectors (including academia and international organizations) to adapt the project’s methodology to the current reality and challenges faced by the European Union. The resulting framework defines 51 rule of law indicators organized into ten pillars: 1) constraints on government powers; 2) government respect for constraints on power; 3) civic participation; 4) fundamental rights; 5) civil justice; 6) criminal justice; 7) safety; 8) control of corruption; 9) transparency and access to information; and 10) administrative proceedings and regulatory enforcement. 
+
+After establishing these pillars and indicators, WJP drafted survey questions to measure different aspects of each conceptual category included in the framework. This process resulted in a selection of 610 expert survey questions and 330 general population survey questions. To maintain reasonable survey length and improve response rates, the expert questions were organized into four separate questionnaires (one on criminal justice, two on civil and commercial justice, and one on governance).
+
+### Data collection
+
+*World Justice Project EUROVOICES* presents original survey data from two sources: expert surveys and household surveys.
+
+#### Expert Surveys
+
+Expert survey data collection for the EUROVOICES project was conducted by the WJP’s research team. The surveys were administered online between October 2023 and April 2024 using Alchemer, a user-friendly and highly secure survey administration platform. The expert surveys were administered in twelve languages: Bulgarian, Czech, English, French, German, Greek, Hungarian, Italian, Polish, Portuguese, Romanian, and Spanish.
+
+The expert survey respondents, representing the 110 subnational regions across all 27 EU Member States, included independent legal practitioners and academics selected from directories of law firms, universities and colleges, research organizations, and non-governmental organizations (NGOs), as well as through referrals from the WJP global network of practitioners. All expert respondents were vetted by WJP staff to ensure their qualifications.
+
+Over the course of expert survey data collection, WJP’s research team regularly sent survey invitations and reminder emails to potential respondents using publicly available online contact information, collected through a systematic review of the websites of law firms, bar associations, universities, and other organizations. To expand WJP’s network of expert respondents in the EU, the research team collaborated with local organizations and firms to identify and invite potential participants. As a result of this exercise, WJP’s team generated a database with contact information for more than 250,000 experts. In total, the WJP team obtained a total of 8,042 expert survey responses.
+
+#### Household Surveys
+
+Household survey data collection was conducted by leading local polling companies. The survey was translated into over 20 local languages, adapted to common local expressions, and administered in pilot tests in each country.  After conducting, reviewing, and validating the pilot tests, the survey was administered to respondents in 110 regions of the 27 EU Member States, using both face-to-face (in 10 countries) and online (in 17 countries) polling methodologies. Survey respondents in each country were selected through a probability sampling method that ensures representativeness based on age, sex, income level, and degree of urbanization. During the full-fieldwork stage of data collection, which took place between December 2023 and April 2024, a total of 64,089 EU residents were surveyed.
+
+#### Selecting Territorial Units
+
+For the purposes of the EUROVOICES project, WJP selected territorial units based on the EU’s Nomenclature of Territorial Units for Statistics (NUTS) system, resulting in 110 regions for analysis. These regions are a combination of NUTS level 1 and NUTS level 2 regions, with some adjustments for Czechia (merging 8 regions into 4), Finland (combining 5 regions into 4), and France (dropping the overseas territories). The complete list of regions is presented in the annex.
+
+### Data analysis
+
+Household survey responses were processed into a database that displays question-level results by collapsing the two most positive options on a four-level Likert scale in each case (e.g., strongly agree and agree, very likely and likely, among others, depending on the response scale of the question and the options that represent the most positive outcome). This data can be disaggregated by age group, sex, income, and degree of urbanization.
+
+The expert survey data was calculated into scores using the following steps: first, the survey responses were normalized and codified into numeric values on a scale of 0 to 1, where 1 indicates the highest possible score; second, the data was mapped into the pillars and indicators, as defined in the conceptual framework; and third, the normalized data was aggregated at the NUTS and country levels using simple averages. The complete variable map detailing which questions from the expert surveys were aggregated into each score can be downloaded at link.
+
+For both the household and the expert surveys, the respondent-level data was edited to exclude partially completed surveys, suspicious data, and outliers (which were detected using the Z-score method).
+
+A series of quantitative and qualitative tests were conducted to identify biases and errors. The first process was a quantitative cross-check in which results were systematically compared to selected indicators from trusted third-party sources, including other organizations' measurement projects, such as the V-Dem Dataset by the V-Dem Institute, and the Quality of Government database by the University of Gothenburg; and official indicator systems, such as Eurobarometer surveys and the EU Justice Scoreboard. 
+In addition, three qualitative information tools were developed to test the data across all EU Member States: a compendium of news stories collected from diverse sources across the EU; syntheses of information from national and international reports published by peer organizations; and semi-structured interviews with over 30 EU experts. These tools allowed WJP to enrich the survey data with trends, issues, improvements, and regional differences in a variety of rule of law topics and contextualize the survey results.
+As a result of this work, *World Justice Project EUROVOICES* presents a library of people-centered indicators with new data on justice, governance, and the rule of law in the EU, at both the regional and national level. Data from the expert surveys is presented at the indicator level, while household survey data is presented at the question level, with options to disaggregate by different socioeconomic and demographic variables. This data is presented in different formats, including thematic reports with maps and graphs, interactive dashboards, and databases available for download. This information allows region-to-region comparisons, detecting relative strengths and weaknesses, and identifying best practices and policies that can become reference points.
+
+### Additional Considerations
+
+#### Comparisons with the WJP Rule of Law Index
+
+The results of *World Justice Project EUROVOICES* cannot be directly compared to the WJP Rule of Law Index® for several reasons. First, the Index scores are calculated by aggregating three sources of information: expert surveys, household surveys, and third-party data. In contrast, EUROVOICES presents findings in two separate categories: the Expert Scorecards, comprised of aggregated expert data, and People’s Voices, which displays question-level data from the household surveys.
+
+Second, although the *WJP Rule of Law Index* and EUROVOICES both use the Min-Max method to normalize expert data (so that all values are presented on a scale of 0 to 1), the Index’s longitudinal analysis requires an extra normalization (with a base year of 2015) to ensure scores are comparable across previous editions of the report.
+
+Lastly, while EUROVOICES builds upon the Index’s methodology, the two projects have distinct conceptual frameworks. Key differences include the internal organization of the pillars, the inclusion of new questions to assess independent checks on government powers, a new category on the executive’s behavior towards constraints on its power, the expansion of the chapter on fundamental rights based on the EU Charter of Fundamental Rights, and the separation of the transparency and civic participation pillars.
+
+#### Methodological Strengths and Weaknesses
+
+All information tools have advantages and limitations that need to be considered when using them, and *World Justice Project EUROVOICES* is no exception. This project organizes its findings into clearly defined indicators that allow for the easy and efficient interpretation of multi-dimensional rule of law definition. Moreover, WJP’s output-oriented approach facilitates comparisons between countries and subnationally.
+
+However, this accessibility does require WJP to consolidate the unique and complicated realities different individuals experience into coherent findings at the national and regional levels. As such, interpretation of the data presented in this report requires a familiarity with the project’s basic conceptual framework, including WJP’s definitions for each indicator and explanations regarding which topics are and are not included in our findings.
+
+Likewise, these indicators do not establish causality or contextualize the findings. Thus, it will be necessary to use the EUROVOICES reports in combination with other analytical tools to provide a full picture of causes and potential solutions.
+
+Additionally, the information presented on these indicators may be sensitive to specific events that took place during the data collection period or may be subject to measurement errors due in part to the limited number of experts interviewed in some regions.
+
+#### More Information
+
+For more information on the conceptual and measurement framework of this project, including more technical details on the data collection process, please refer to the complete methodological summary at link.",,
+about,about,"**The World Justice Project (WJP)** is an independent, multidisciplinary organization working to create knowledge, build awareness, and stimulate action to advance the rule of law worldwide. Effective rule of law is the foundation for communities of justice, opportunity, and peace—underpinning development, accountable government, and respect for fundamental rights.
+
+The WJP builds and supports a global, multidisciplinary movement for the rule of law through three lines of work: collecting, organizing, and analyzing original, independent rule of law data, including the World Justice Project Rule of Law Index; supporting research, scholarship, and teaching about the importance of the rule of law, its relationship to development, and effective strategies to strengthen it; and connecting and building an engaged global network of policymakers and advocates to advance the rule of law through strategic partnerships, convenings, coordinated advocacy, and support for locally led initiatives.
+
+Learn more at: <a href=""https://worldjusticeproject.org/"" target=""_blank"">_worldjusticeproject.org._</a>",,
+acknowledgements,acknowledgements,"The World Justice Project EUROVOICES 2024 thematic reports (Democracy & Fundamental Rights, Justice & Safety, and Transparency & Corruption) were produced by the World Justice Project under the research oversight of Alejandro Ponce and the executive direction of Elizabeth Andersen.
+
+**Conceptual Design**: Horacio Ortiz, Alejandro Ponce, and Leslie Solís, building upon the WJP Rule of Law Index, with adaptations to reflect the institutional architecture in the European Union.
+
+**Data Collection**: Giacomo D’Urbano and Erin Campbell (Expert Surveys Co-Leads), Alicia Evangelides and Joshua Fuller (Household Surveys Co-Leads), Ana María Montoya (Data Analytics Lead), Marta Basystiuk, Allison Bostrom, Lucía Estefanía González, Pablo González Barón, Lauren Littlejohn, Alejandra Nava, Santiago Pardo, Natalia Rodríguez Cajamarca, Kirssy Rodríguez, Carlos Toruño, and Katrina Wanner, with the assistance of Said Aarji, Lloyd Cleary, John Cullen, Dalia Habiby, Skye Jacobs, Aleksandra Kozovic, Jaehee Lee, Andrea Marín Núñez de Arce, Abigail Skalka, Helen Souki Reyes, Holly West, and Moss Woodbury. The team also received support from Amy Gryskiewicz, Mario Rodríguez, Juan Salgado, and Victoria Thomaides during this stage.
+
+**Data Analysis**: Ana María Montoya (Lead), Santiago Pardo and Natalia Rodríguez Cajamarca (Expert Surveys Data Co-Leads), and Carlos Toruño (Household Surveys Data Co-Lead), with support from Isabella Coddington, Dalia Habiby, and Artha Pillai.
+ 
+**Research**: Horacio Ortiz and Leslie Solís (Leads), Jacob Alabab-Moser, Marta Basystiuk, Allison Bostrom, Erin Campbell, Giacomo D’Urbano, Lauren Littlejohn, Ana María Montoya, Gustavo Núñez Peralta, Santiago Pardo, Natalia Rodríguez Cajamarca, Kirssy Rodríguez, Carlos Toruño, and Katrina Wanner, with support from Aleksandra Kozovic, Andrea Marín Núñez de Arce, Abigail Skalka, and Holly West. Finally, the team received feedback from Daniela Barba, Shallum David, Natalia Jardón, Stephanie Presch, and Tanya Weinberg.
+
+**Data Visualization**: Mariana López and Carlos Toruño (Leads), Ana María Montoya, and Santiago Pardo, with the assistance of Isabella Coddington.
+
+**Design**: Mariana López (Lead), Irene Heras, Raquel Medina, and Enrique Paulin.
+
+**Website Design**: Natalia Jardón (Lead) and Mariana López.
+
+**Website Production**: Gobierno Fácil.
+
+**Engagement Strategy**: Alejandro González and Alejandro Ponce (Leads), Marta Basystiuk, Natalia Jardón, Lauren Kitz, Jan Kleijssen, Mark Lewis, Leslie Solís, James van der Klok, and Tanya Weinberg.
+
+**Operations and Administrative Support**: Amy Gryskiewicz, Shakhlo Hasanova, and Richard Schorr.
+
+These reports were made possible by the generous support of the European Union. Any opinions, findings, and conclusions are those of the author(s) and do not necessarily reflect the views of the European Union.
+
+<br>
+
+**_Requests to reproduce this document should be sent to_**:
+
+Alejandro Ponce<br>
+*World Justice Project*<br>
+1025 Vermont Avenue NW, Suite 1200<br>
+Washington, DC 20005, USA<br>
+E-mail: *wjp@worldjusticeproject.org*",,
