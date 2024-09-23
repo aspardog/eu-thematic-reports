@@ -1,5 +1,5 @@
 gen_dots <- function(data, legend) {
-  
+
   country_avg <- data %>%
     left_join(region_names %>% select(nuts_id, pop_weight), 
               by = "nuts_id") %>%
@@ -49,7 +49,7 @@ gen_dots <- function(data, legend) {
   value2_data <- country_avg %>% filter(category == "Value 2")
   
   # Generate the plot
-  plt <- ggplot(country_avg) +
+  plt <- ggplot(country_avg %>% filter(country_name_ltn != "Ireland")) +
     geom_point(
       aes(x = country_name_ltn, 
           y = value2plot, 
@@ -77,7 +77,7 @@ gen_dots <- function(data, legend) {
       linewidth  = 0.15
     ) +
     geom_richtext(
-      data = hover_data,
+      data = (hover_data %>% filter(country_name_ltn != "Ireland")),
       aes(x = country_name_ltn, 
           y = label_pos, 
           label = paste0(
@@ -118,7 +118,7 @@ gen_dots <- function(data, legend) {
     ) +
     scale_x_discrete(
       limits = rev(levels(factor(
-        country_avg %>%
+        country_avg %>% filter(country_name_ltn != "Ireland") %>%
           pull(country_name_ltn)
       )))
     ) + 

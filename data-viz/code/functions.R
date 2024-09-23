@@ -97,7 +97,7 @@ callVisualizer <- function(figid) {
   }
   # Special legends for Scatterplots
   if (figid %in% c("R1F79")) {
-    params[["legend_labels"]] <- c("Easy to find offline", "Easy to find online")
+    params[["legend_labels"]] <- c("Easy to find online", "Easy to find offline")
   }
   if (figid %in% c("R2F31", "R2F35", "R2F39", "R2F48")) {
     params[["legend_labels"]] <- c("Trust", "Perceptions of Corruption")
@@ -154,6 +154,10 @@ callVisualizer <- function(figid) {
     h = 192.8467
   } else {
     h = 168.7007
+  }
+  
+  if (params$type == "Table"){
+    h = 194
   }
   
   

@@ -31,12 +31,12 @@ gen_catMap <- function(dta, break_legend = F) {
   
   inset_dimensions <- list(
     # y range longer than x
-    "Canarias/Madeira" = list(
+    "Canaries/Madeira" = list(
       "x" = c(1491672, 2091880.2),
       "y" = c(941748.3, 1541956.5)
     ),
     # the y range is longer than the x
-    "Açores"  = list(
+    "Azores"  = list(
       "x" = c(864542.6, 1407344),
       "y" = c(2250319.3, 2793120.7)
     ),

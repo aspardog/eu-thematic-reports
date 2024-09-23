@@ -95,12 +95,12 @@ genMap <- function(dta, direction){
   # Defining inset dimensions
   inset_dimensions <- list(
     # y range longer than x
-    "Canarias/Madeira" = list(
+    "Canaries/Madeira" = list(
       "x" = c(1491672, 2091880.2),
       "y" = c(941748.3, 1541956.5 )
     ),
     # the y range is longer than the x
-    "Açores"  = list(
+    "Azores"  = list(
       "x" = c(864542.6, 1407344),
       "y" = c(2250319.3, 2793120.7)
     ),
@@ -294,7 +294,7 @@ genMap <- function(dta, direction){
   
   # Inserting inset map boxes
   main_map <- panels[["Main"]]
-  insets   <- list(panels[["Canarias/Madeira"]], panels[["Açores"]], panels[["Cyprus"]])
+  insets   <- list(panels[["Canaries/Madeira"]], panels[["Azores"]], panels[["Cyprus"]])
   inset_grobs <- lapply(insets, ggplotGrob)
   
   main_map_with_insets <- main_map +
