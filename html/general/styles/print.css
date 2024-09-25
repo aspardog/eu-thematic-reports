@@ -1,0 +1,742 @@
+/* no mostrar al imprimir */  
+@media print {
+    .no_print {
+        display: none;
+    }
+
+    h1, h2, h3, h4, h5, h6, .cta, blockquote.feature,
+    #access, #insidenav, #pagination, .bloglist .more, blockquote, button {
+    font-family: "Lato", sans-serif;
+    margin-bottom: 10px;
+    }
+
+    strong { font-weight: 700;}
+      
+      /* = HEADINGS */
+      h1, h2, h3, h4, h5, h6 {
+        font-weight: 700;
+        font-style:normal;
+        line-height: 1;
+      }
+      h1 { font-size: 24pt;}
+      h2 {font-size: 20pt;}
+      h3 {font-size: 12pt;}
+      h4 { font-size: 12pt; }
+      h5 {  
+        font-size: 12pt;
+        font-weight: 500;
+      }
+      
+      h6 { /* 13px */
+        font-size: 12pt;
+        text-transform: none;
+      }
+
+      h2, h4 {
+        color: #001A6C;
+      }
+      
+      em {
+        font-style: italic;
+      }
+
+      /* = TEXT */
+    p, ul, ol, dl, table, form { /* 13px */
+        font: 400 11pt/1.3 "Lato", sans-serif;
+        margin: 0 0 1.5em 0;
+    }
+
+    ul,ol {
+      margin-left: 0;
+      padding-left: 0.4cm;
+    }
+
+    img, object, embed, video {
+        max-width: 100%;
+        vertical-align: top;
+    }
+
+    @page {
+        size: A4;
+        background: #ffffff;
+        margin: 20mm 15mm 20mm 15mm; 
+        counter-increment: page;
+    }
+
+    @page :right {
+      @bottom-left{
+        content:  counter(page) " | World Justice Project EUROVOICES 2024" ;
+        font-family: "Lato", sans-serif;
+        font-size: 10pt;
+        font-weight: 300;
+        color: #4d4d4f;
+      }
+    }
+  
+    @page :left {
+      @bottom-right{
+        content:  "World Justice Project EUROVOICES 2024 | " counter(page);
+        font-family: "Lato", sans-serif;
+        font-size: 10pt;
+        font-weight: 300;
+        color: #4d4d4f;
+      }
+    }
+
+    @page :first {
+        size: A4;
+        margin: 0;
+        background: #ccc!important; /* Color de fondo para la portada */
+        background-color: #ccc !important; /* Color de fondo para la portada */
+        print-color-adjust: exact; 
+        @bottom-left{
+            content: "";
+        }
+    }
+
+    @page ch_1 {
+        size: A4;
+        margin: 20mm 15mm 20mm 15mm;
+        background: #2DAEB4 !important; /* Color de fondo para la portada */
+        background-color: #2DAEB4 !important; /* Color de fondo para la portada */
+        background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiCgkgdmlld0JveD0iMCAwIDQwOSA1NjIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQwOSA1NjI7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7ZmlsbDojRjRCMTJBO30KCS5zdDF7ZmlsbDojQTJEOEQ5O30KCS5zdDJ7ZmlsbDojRTVFRkVFO30KCS5zdDN7ZGlzcGxheTpub25lO30KCS5zdDR7ZGlzcGxheTppbmxpbmU7ZmlsbDojM0VBMkFDO30KCS5zdDV7ZGlzcGxheTppbmxpbmU7ZmlsbDojQzVCOUQzO30KCS5zdDZ7ZGlzcGxheTppbmxpbmU7ZmlsbDojRkZGRkZGO30KPC9zdHlsZT4KPGcgaWQ9IkxheWVyXzEiPgoJPHBhdGggY2xhc3M9InN0MCIgZD0iTTE1OC42LDczLjNsMjIzLDEzNy4yYzAsMCw2Ni45LTk5LjYtMzUuNC0xNzUuMkMzMDAuMiwxLjIsMjUwLjcsNy40LDIxOC40LDIxLjYKCQlDMTc2LjksMzkuOCwxNTguNiw3My4zLDE1OC42LDczLjN6Ii8+Cgk8cGF0aCBpZD0iVHJhemFkb180MTU3NyIgY2xhc3M9InN0MSIgZD0iTTM0MC43LDQ1MS45Yy0xNC44LDYwLTE0Mi40LDE0My40LTEzNS41LDgxLjljNS4xLTQ1LjQtNTEtOTctODEuOS0xMzUuNQoJCWMtMzguNy00OC4zLDc1LjUtOTYuNywxMzUuNS04MS45YzQ5LjIsMTIuMSw4NC4zLDU2LjIsODUuMSwxMDYuOUMzNDQuMSw0MzIuOSwzNDMsNDQyLjUsMzQwLjcsNDUxLjkiLz4KCTxwYXRoIGlkPSJUcmF6YWRvXzQxNTc4IiBjbGFzcz0ic3QyIiBkPSJNMTQxLjEsMzIxLjJjLTc4LjUsNDEuNS01Mi41LDE0OS43LTEwMi45LDU0LjRTMTAuNiwxNjkuNSw4OS4yLDEyOAoJCWM3OC41LTQxLjUsMTgzLDIsMjMzLjQsOTcuMkMzNzIuOSwzMjAuNCwyMTkuNiwyNzkuNiwxNDEuMSwzMjEuMiIvPgo8L2c+CjxnIGlkPSJMYXllcl8yIiBjbGFzcz0ic3QzIj4KCTxwYXRoIGNsYXNzPSJzdDQiIGQ9Ik0xNTguNiw3My4zbDIyMywxMzcuMmMwLDAsNjYuOS05OS42LTM1LjQtMTc1LjJDMzAwLjIsMS4yLDI1MC43LDcuNCwyMTguNCwyMS42CgkJQzE3Ni45LDM5LjgsMTU4LjYsNzMuMywxNTguNiw3My4zeiIvPgoJPHBhdGggaWQ9IlRyYXphZG9fNDE1NzdfMV8iIGNsYXNzPSJzdDUiIGQ9Ik0zNDAuNyw0NTEuOWMtMTQuOCw2MC0xNDIuNCwxNDMuNC0xMzUuNSw4MS45YzUuMS00NS40LTUxLTk3LTgxLjktMTM1LjUKCQljLTM4LjctNDguMyw3NS41LTk2LjcsMTM1LjUtODEuOWM0OS4yLDEyLjEsODQuMyw1Ni4yLDg1LjEsMTA2LjlDMzQ0LjEsNDMyLjksMzQzLDQ0Mi41LDM0MC43LDQ1MS45Ii8+Cgk8cGF0aCBpZD0iVHJhemFkb180MTU3OF8xXyIgY2xhc3M9InN0NiIgZD0iTTE0MS4xLDMyMS4yYy03OC41LDQxLjUtNTIuNSwxNDkuNy0xMDIuOSw1NC40UzEwLjYsMTY5LjUsODkuMiwxMjgKCQljNzguNS00MS41LDE4MywyLDIzMy40LDk3LjJDMzcyLjksMzIwLjQsMjE5LjYsMjc5LjYsMTQxLjEsMzIxLjIiLz4KPC9nPgo8L3N2Zz4K")!important;
+        background-repeat: no-repeat !important;
+        background-position: 100% 0 !important;
+        background-size: 11cm auto !important;
+        print-color-adjust: exact; 
+        @bottom-right{
+            content: "";
+        }
+        @bottom-left{
+          content: "";
+        }
+      }
+      @page ch_2 {
+        size: A4;
+        margin: 20mm 15mm 20mm 15mm;
+        background: #360082 !important; /* Color de fondo para la portada */
+        background-color: #360082 !important; /* Color de fondo para la portada */
+        background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA0MDkgNTYyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0MDkgNTYyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6IzNFQTJBQzt9Cgkuc3Qxe2ZpbGw6I0M1QjlEMzt9Cgkuc3Qye2ZpbGw6I0ZGRkZGRjt9Cjwvc3R5bGU+CjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xNTguNiw3My4zbDIyMywxMzcuMmMwLDAsNjYuOS05OS42LTM1LjQtMTc1LjJDMzAwLjIsMS4yLDI1MC43LDcuNCwyMTguNCwyMS42CglDMTc2LjksMzkuOCwxNTguNiw3My4zLDE1OC42LDczLjN6Ii8+CjxwYXRoIGlkPSJUcmF6YWRvXzQxNTc3XzFfIiBjbGFzcz0ic3QxIiBkPSJNMzQwLjcsNDUxLjljLTE0LjgsNjAtMTQyLjQsMTQzLjQtMTM1LjUsODEuOWM1LjEtNDUuNC01MS05Ny04MS45LTEzNS41CgljLTM4LjctNDguMyw3NS41LTk2LjcsMTM1LjUtODEuOWM0OS4yLDEyLjEsODQuMyw1Ni4yLDg1LjEsMTA2LjlDMzQ0LjEsNDMyLjksMzQzLDQ0Mi41LDM0MC43LDQ1MS45Ii8+CjxwYXRoIGlkPSJUcmF6YWRvXzQxNTc4XzFfIiBjbGFzcz0ic3QyIiBkPSJNMTQxLjEsMzIxLjJjLTc4LjUsNDEuNS01Mi41LDE0OS43LTEwMi45LDU0LjRTMTAuNiwxNjkuNSw4OS4yLDEyOAoJYzc4LjUtNDEuNSwxODMsMiwyMzMuNCw5Ny4yQzM3Mi45LDMyMC40LDIxOS42LDI3OS42LDE0MS4xLDMyMS4yIi8+Cjwvc3ZnPgo=")!important;
+        background-repeat: no-repeat !important;
+        background-position: 100% 0 !important;
+        background-size: 11cm auto !important;
+        print-color-adjust: exact; 
+        @bottom-right{
+            content: "";
+        }
+        @bottom-left{
+          content: "";
+        }
+      }
+      @page ch_3 {
+        size: A4;
+        margin: 20mm 15mm 20mm 15mm;
+        background: #FAA700 !important; /* Color de fondo para la portada */
+        background-color: #FAA700 !important; /* Color de fondo para la portada */
+        background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA0MDkgNTYyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0MDkgNTYyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6IzMxMDA3Rjt9Cgkuc3Qxe2ZpbGw6I0ZGRkZGRjt9Cgkuc3Qye2ZpbGw6I0Y1RTRDNDt9Cjwvc3R5bGU+CjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xNTguNiw3My4zbDIyMywxMzcuMmMwLDAsNjYuOS05OS42LTM1LjQtMTc1LjJjLTQ2LTM0LjEtOTUuNS0yNy45LTEyNy44LTEzLjcKCUMxNzYuOSwzOS44LDE1OC42LDczLjMsMTU4LjYsNzMuM3oiLz4KPHBhdGggaWQ9IlRyYXphZG9fNDE1NzdfMV8iIGNsYXNzPSJzdDEiIGQ9Ik0zNDAuNyw0NTEuOWMtMTQuOCw2MC0xNDIuNCwxNDMuNC0xMzUuNSw4MS45YzUuMS00NS40LTUxLTk3LTgxLjktMTM1LjUKCWMtMzguNy00OC4zLDc1LjUtOTYuNywxMzUuNS04MS45YzQ5LjIsMTIuMSw4NC4zLDU2LjIsODUuMSwxMDYuOUMzNDQuMSw0MzIuOSwzNDMsNDQyLjUsMzQwLjcsNDUxLjkiLz4KPHBhdGggaWQ9IlRyYXphZG9fNDE1NzhfMV8iIGNsYXNzPSJzdDIiIGQ9Ik0xNDEuMSwzMjEuMmMtNzguNSw0MS41LTUyLjUsMTQ5LjctMTAyLjksNTQuNFMxMC42LDE2OS41LDg5LjIsMTI4CgljNzguNS00MS41LDE4MywyLDIzMy40LDk3LjJDMzcyLjksMzIwLjQsMjE5LjYsMjc5LjYsMTQxLjEsMzIxLjIiLz4KPC9zdmc+Cg==")!important;
+        background-repeat: no-repeat !important;
+        background-position: 100% 0 !important;
+        background-size: 11cm auto !important;
+        print-color-adjust: exact; 
+        @bottom-right{
+          content: "";
+        }
+        @bottom-left{
+          content: "";
+        }
+      }
+      @page ch_4 {
+        size: A4;
+        margin: 20mm 15mm 20mm 15mm;
+        background: #E54967 !important; /* Color de fondo para la portada */
+        background-color: #E54967 !important; /* Color de fondo para la portada */
+        background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA0MDkgNTYyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0MDkgNTYyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6IzAwMjM5MTt9Cgkuc3Qxe2ZpbGw6I0Y3QzhEMTt9Cgkuc3Qye2ZpbGw6I0ZGRkZGRjt9Cjwvc3R5bGU+CjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xNTguNiw3My4zbDIyMywxMzcuMmMwLDAsNjYuOS05OS42LTM1LjQtMTc1LjJjLTQ2LTM0LjEtOTUuNS0yNy45LTEyNy44LTEzLjcKCUMxNzYuOSwzOS44LDE1OC42LDczLjMsMTU4LjYsNzMuM3oiLz4KPHBhdGggaWQ9IlRyYXphZG9fNDE1NzdfMV8iIGNsYXNzPSJzdDEiIGQ9Ik0zNDAuNyw0NTEuOWMtMTQuOCw2MC0xNDIuNCwxNDMuNC0xMzUuNSw4MS45YzUuMS00NS40LTUxLTk3LTgxLjktMTM1LjUKCWMtMzguNy00OC4zLDc1LjUtOTYuNywxMzUuNS04MS45YzQ5LjIsMTIuMSw4NC4zLDU2LjIsODUuMSwxMDYuOUMzNDQuMSw0MzIuOSwzNDMsNDQyLjUsMzQwLjcsNDUxLjkiLz4KPHBhdGggaWQ9IlRyYXphZG9fNDE1NzhfMV8iIGNsYXNzPSJzdDIiIGQ9Ik0xNDEuMSwzMjEuMmMtNzguNSw0MS41LTUyLjUsMTQ5LjctMTAyLjksNTQuNFMxMC42LDE2OS41LDg5LjIsMTI4CgljNzguNS00MS41LDE4MywyLDIzMy40LDk3LjJDMzcyLjksMzIwLjQsMjE5LjYsMjc5LjYsMTQxLjEsMzIxLjIiLz4KPC9zdmc+Cg==")!important;
+        background-repeat: no-repeat !important;
+        background-position: 100% 0 !important;
+        background-size: 11cm auto !important;
+        print-color-adjust: exact; 
+        @bottom-right{
+            content: "";
+        }
+        @bottom-left{
+          content: "";
+        }
+      }
+      @page ch_1_findings {
+        size: A4;
+        margin: 20mm 15mm 20mm 15mm;
+        background: rgba(45, 174, 180, 0.2) !important; /* Color de fondo para la portada */
+        background-color: rgba(45, 174, 180, 0.2) !important; /* Color de fondo para la portada */
+        print-color-adjust: exact; 
+        /* @bottom-right{
+          content: "";
+        } */
+      }
+      @page ch_2_findings {
+        size: A4;
+        margin: 20mm 15mm 20mm 15mm;
+        background: #EEEAF5 !important; /* Color de fondo para la portada */;
+        background-color: #EEEAF5 !important; /* Color de fondo para la portada */;
+        print-color-adjust: exact; 
+        /* @bottom-right{
+          content: "";
+        } */
+      }
+      @page ch_3_findings {
+        size: A4;
+        margin: 20mm 15mm 20mm 15mm;
+        background: #FFF7E6 !important; /* Color de fondo para la portada */;
+        background-color: #FFF7E6 !important; /* Color de fondo para la portada */;
+        print-color-adjust: exact; 
+        /* @bottom-right{
+          content: "";
+        } */
+      }
+      @page ch_4_findings {
+        size: A4;
+        margin: 20mm 15mm 20mm 15mm;
+        background: #FDECEF !important; /* Color de fondo para la portada */;
+        background-color: #FDECEF !important; /* Color de fondo para la portada */;
+        print-color-adjust: exact; 
+        /* @bottom-right{
+          content: "";
+        } */
+      }
+
+      #ch_1 {
+        page: ch_1;
+        page-break-before: always;
+        height: 100vh;
+        width: 100vw;
+      }
+
+
+      #ch_2 {
+        page: ch_2;
+        page-break-before: always;
+        height: 100vh;
+        width: 100vw;
+      }
+      #ch_3 {
+        page: ch_3;
+        page-break-before: always;
+        height: 100vh;
+        width: 100vw;
+      }
+      #ch_4 {
+        page: ch_4;
+        page-break-before: always;
+        height: 100vh;
+        width: 100vw;
+      }
+      #ch_1_findings {
+        page: ch_1_findings;
+        page-break-before: always;
+        height: 100vh;
+        width: 100vw;
+      }
+
+      #ch_2_findings {
+        page: ch_2_findings;
+        page-break-before: always;
+      }
+      #ch_3_findings {
+        page: ch_3_findings;
+        page-break-before: always;
+      }
+      #ch_4_findings {
+        page: ch_4_findings;
+        page-break-before: always;
+      }
+
+      .cover_bgd .rp_cover {
+        margin-top: 7cm;
+      }
+
+      
+     
+      .c_findings {
+        margin: 0 15mm;
+        padding: 20mm 15mm 20mm 15px;
+        width: 90%;
+      }
+
+    .page_break {
+        page-break-after: always;
+        break-after: page;
+        position: relative;
+    }
+    
+
+
+    .page_cover {
+        background: transparent !important; /* Color de fondo de la portada */
+        color: white;
+        width: 100vw;
+        height: 100vh;        
+    }
+    .page_cover img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Asegura que la imagen cubra toda la página */
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+    .page_cover .rp_source {
+        display: none;
+        /*
+        font-weight: 500;
+        margin-bottom: 0;
+        padding-top: 4%;
+        padding-right: 5%;
+        text-align: right;
+        text-transform: uppercase;
+        letter-spacing: 3px;*/
+    }
+    .page_cover .rp_year {
+        display: none;
+        /*
+        text-align: right;
+        padding-right: 5%;*/
+    }
+    /*
+    .page_cover .rp_year .c_year {
+        background-color: #E54967;
+        border-radius: 0 0 35px 0;
+        padding: 0.1cm 0.5cm 0.1cm 0.2cm;
+    }*/
+    .page_cover .rp_cover_title {
+        display: none;
+        padding-left: 5%;
+    }
+    /*
+    .page_cover .rp_cover_title h1 {
+        font-size: 50px !important;
+        line-height: 1.1;
+    }
+    .page_cover .rp_cover_title h1 span {
+        display: block;
+    }*/
+    .page_cover .rp_cover_title .rp_thematic {
+        display: none;
+       /* font-size: 16pt;
+        font-weight: 500;
+        text-transform: uppercase;
+        padding-right: 0.8cm;
+        border-radius: 0 35px 0 0;*/
+    }
+
+    /******** titles**/
+    h6.rp_thematic {
+        background-color: #F05F76;
+        color: white;
+        display: inline-block;
+        padding: 4px 8px;
+        margin-bottom: 0;
+    }
+    h1.rp_thematic_title,
+    h1.rp_thematic_title p {
+        font-size: 50pt !important;
+        margin-top: 0;
+    }
+
+    .rp_cover.aqua .rp_thematic {
+      background-color: #FFAB00;
+    }
+
+    /******** index navigation**/
+    .index-main-item{
+        color: #001A6C;;
+        font-weight: 700;  
+    }
+    .index-item {
+        color: #001A6C;;
+    }
+    .index-main-item::before,
+    .index-item::before,
+    .nav_internal_link:before {
+        content: target-counter(attr(href), page);
+        color: black;
+        font-weight: 700;
+        position: absolute;
+        text-align: right;
+        left: 10px;
+    }
+
+    .nav_internal_link:before {
+        font-weight: 500;
+    }
+
+    .index-main-item span.item_text_chap {
+      display: block;
+      color: black;
+      margin-top: 0.3cm;
+      margin-bottom: 0.5cm;
+    }
+
+    ul.index-container {
+        padding: 0 0 0 40px;
+        list-style: none;
+        margin: .5cm 0 0 !important;
+    }
+    ul.index-container li {
+        margin: 0 0 0.5cm;
+    }
+
+    ul.index-container li ul.chapter_container  {
+      margin: 0 0 0.5cm!important;
+  }
+
+    ul.index-container li ul.chapter_container li {
+        margin: 0 0 0.3cm!important;
+    }
+
+    ul.index-container li ul.chapter_container li ol li {
+      margin: 0 0 0.1cm!important;
+    }
+
+    .index-container a:link,
+    .index-container a:visited {
+        text-decoration: none;
+    }
+    ul.chapter_container {
+      margin: 0.5cm 0 0.5cm;
+      padding: 0;
+    }
+    ul.chapter_container li  {
+      list-style: none;
+    }
+    ul.chapter_container li a {
+      font-weight: 700;
+      text-transform: uppercase;
+      margin: 0 0 0.5cm;
+    }
+
+    /***** lista numerada del contenido del capítulo */
+
+    ul.chapter_container li ol  {
+      margin: 0;
+      padding: 0 0 0 10px;
+    }
+
+   /***** elimina numeración romana
+    ul.chapter_container li ol li {
+      list-style: lower-roman;
+    } */
+
+    ul.chapter_container li ol li a {
+      color: #444;
+      text-transform: none;
+      font-weight: 500;
+      margin: 0;
+    }
+
+    ul.chapter_container li ol li a {
+      font-weight: 500;
+      margin: 0;
+    }
+
+    ul.chapter_container li a#ch_1_link {
+      color: #2DAEB4;
+    }
+    ul.chapter_container li a#ch_2_link {
+      color: #360082;
+    }
+    ul.chapter_container li a#ch_3_link {
+      color: #FAA700;
+    }
+    ul.chapter_container li a#ch_4_link {
+      color: #E54967;
+    }
+
+    /******** colores **/
+    .rp_pg_section._gray {
+        background-color: #F5F5F5;
+        padding: 30px 30px 80px;
+      }
+
+      /* =covers
+.rp_cover es el contenedor
+
+-------------------------------------------------------------- */
+.rp_cover {
+  color: white;
+  padding: 98px 0;
+}
+.rp_cover h1 {
+  font-size: 50pt;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 80px;
+}
+.rp_cover p {
+  color: white !important;
+  font-weight: 700;
+}
+.rp_cover ol {
+  counter-reset: section;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.rp_cover ol li {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.rp_cover.purple {
+  background-color: #99006E;
+}
+.rp_cover.purple .rp_thematic {
+  background-color: #FFAB00;
+}
+
+#ch_1 .rp_cover .rp_thematic {
+  background-color: #FFAB00;
+}
+.rp_cover.gdm {
+  background-color: #360082;
+}
+#ch_2 .rp_cover .rp_thematic {
+  background-color: #2DAEB4;
+}
+.rp_cover.yellow {
+  background-color: #FAA700;
+}
+.rp_cover.yellow .rp_thematic {
+  background-color: #360082;
+}
+.rp_cover.red {
+  background-color: #E54967;
+}
+.rp_cover.red .rp_thematic {
+  background-color: #002391;
+}
+/**** portada findings ***/
+.rp_cover.c_findings {
+  color: #4D4D4D;
+  padding-top: 0;
+  margin: 0;
+  width: 100%;
+}
+.rp_cover.c_findings p {
+  color: #4D4D4D !important;
+  font-weight: 400;
+}
+.rp_cover.c_findings.pink_gray {
+  background-color: #F2D5EA;
+}
+
+.rp_cover.c_findings.gdm_gray {
+  background-color: #EEEAF5;
+}
+.rp_cover.c_findings.yellow_gray {
+  background-color: #FFF7E6;
+}
+.rp_cover.c_findings.red_gray {
+  background-color: #FDECEF;
+}
+.rp_cover a:link,
+.rp_cover a:visited {
+  counter-increment: section;
+  color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 8px;
+  text-decoration: none;
+}
+/** elimina numeración romana
+.rp_cover a:link:before,
+.rp_cover a:visited:before {
+  content: counter(section, upper-roman) ". ";
+}**/
+
+  /* =accordion
+  -------------------------------------------------------------- */
+
+  .rt_accordion_title {
+    border-left: 3px solid #ccc;
+    padding: 0 10px;
+  }
+  .rt_accordion_title h4 {
+    color: #5C5C5C;
+    font-size: 12pt !important;
+    font-weight: 500;
+    margin-top: 5px;
+    line-height: 1;
+  }
+  .rt_accordion_title h4 span {
+    font-weight: 700;
+  }
+  .rt_accordion_title h6.rp_thematic {
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .rt_accordion_title.expert {
+    border-left-color: #00665F;
+  }
+  .rt_accordion_title.expert h6.rp_thematic {
+    background-color: #00665F;
+  }
+  .rt_accordion_title.expert h4 span {
+    color: #00665F;
+  }
+  .rt_accordion_title.people {
+    border-left-color: #99006E;
+  }
+  .rt_accordion_title.people h6.rp_thematic {
+    background-color: #99006E;
+  }
+  .rt_accordion_title.people h4 span {
+    color: #99006E;
+  }
+  .rt_accordion_desc {
+    font: 400 14px / 1.5 "Lato", sans-serif;
+    margin: 0 0 1.5em 0;
+  }
+  .rt_accordion_image_note p {
+    font-size: 10pt;
+    color: #999;
+    font-weight: 300;
+  }
+
+  /* NEW CSS CARLOS */
+
+  /* Removing gray background from sections */
+  .rp_pg_section._gray {
+      background-color: #FFFFFF !important;
+  }
+
+  /* Standardizing the paddle-top */
+  #intro > div.rp_page_sec, #executive, #appendix, #about, #acknowledgements {
+      padding-top: 1rem !important;
+  }
+
+  /* Table of abbreviations */
+  #abbreviations {
+      column-count: 2;
+      column-gap: 10px;
+  }
+  #abbreviations.table-container {
+      break-inside: avoid; /* Avoid breaking the table across columns */
+      display: block;
+      width: 100%;
+  }
+  #abbreviations table {
+      font-size: 10pt !important;
+      width: 100%;
+  }
+  #abbreviations th, #abbreviations td {
+      padding: 3px 10px;
+      border-bottom: 1px solid black !important;
+  }
+  #abbreviations th {
+    border-bottom: 2px solid black !important;
+  }
+
+  #acknowledgements p , #methodological p {
+    font-size: 14px;
+  }
+
+  /* Removing blank spaces */
+  .rp_pg_section.sub_chapter div.page_break {
+    display: none;
+  }
+  .rp_pg_section.sub_chapter div.rt_accordion.page_break {
+    display: block;
+  }
+
+  /* Adjusting table of contents */
+  ul.chapter_container li a {
+    color: black !important;
+  }
+  ul.chapter_container li ol  {
+    margin: 10px 0 10px 0 !important;
+    padding: 0;
+  }
+  ul.chapter_container li ol li {
+    list-style: none;
+  }
+  ul.index-container li:first-child {
+    padding: 0px !important;
+  }
+
+  /* Changing chapter header image */
+  @page ch_2 {
+    background-image: url("https://raw.githubusercontent.com/WJP-DAU/eu-thematic-reports/main/html/general/ch2.svg") !important;
+  }
+  @page ch_3 {
+    background-image: url("https://raw.githubusercontent.com/WJP-DAU/eu-thematic-reports/main/html/general/ch3.svg") !important;
+  }
+  @page ch_4 {
+    background-image: url("https://raw.githubusercontent.com/WJP-DAU/eu-thematic-reports/main/html/general/ch4.svg") !important;
+  }
+
+  /* Chapter headers box color */
+  #ch_3 .rp_cover .rp_thematic {
+    background-color: #360082;
+  }
+  #ch_4 .rp_cover .rp_thematic {
+    background-color: #002391;
+  }
+
+  /* Chapter topics enumerator */
+  .rp_cover a:link:before,
+  .rp_cover a:visited:before {
+    content: counter(section) ". ";
+  }
+
+  /* REPORT 1 UNIQUE CSS */
+  /* #ch_4 h1 {
+    font-size: 40px;
+  }
+  .rp_cover ol li {
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+  .rp_cover {
+    color: white;
+    padding: 10px 0 !important;
+  }
+  .rp_cover h1 {
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+  @page :first {
+    background: rgb(0,153,158) !important;
+    background-color: rgb(0,153,158) !important;
+  }
+  .page_cover {
+    background: rgb(0,153,158) !important;
+    background-color: rgb(0,153,158) !important;    
+  } */
+
+  /* REPORT 2 UNIQUE CSS */
+  @page :first {
+    background: rgb(0, 55, 93) !important;
+    background-color: rgb(0, 55, 93) !important;
+  }
+  .page_cover {
+    background: rgb(0, 55, 93) !important;
+    background-color: rgb(0, 55, 93) !important;    
+  }
+  
+  /* REPORT 3 UNIQUE CSS */
+  /* #ch_3 h1 {
+    font-size: 40px;
+  }
+  @page :first {
+    background: rgb(54,0,130) !important;
+    background-color: rgb(54,0,130) !important;
+  }
+  .page_cover {
+    background: rgb(54,0,130) !important;
+    background-color: rgb(54,0,130) !important;    
+  } */
+
+}
