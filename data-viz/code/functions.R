@@ -381,13 +381,15 @@ save4web <- function(data, source){
   }
   
   # Saving data locally
-  write_csv(
+  write.csv(
     data4web,
-    file.path(
+    file = file.path(
       path2EU,
       "EU-S Data/reports/eu-thematic-reports/data-viz/output",
       paste0("data4web_", tolower(source), ".csv")
-    )
+    ),
+    fileEncoding = "UTF-8",
+    row.names    = FALSE
   )
   # writexl::write_xlsx(
   #   write_csv(
