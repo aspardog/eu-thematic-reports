@@ -1,4 +1,4 @@
-gen_bars <- function(data, direction) {
+gen_bars <- function(data, direction, static = FALSE) {
   
   data <- data %>% filter(demographic == "Total Sample")
   
@@ -54,8 +54,9 @@ gen_bars <- function(data, direction) {
     scale_fill_manual(name   = "",
                       values = cpal,
                       drop   = FALSE) +
-    new_scale_color() + 
-    geom_richtext(
+    new_scale_color() 
+    if (static == FALSE){
+    plt <- plt + geom_richtext(
       aes(x = reorder(country_name_ltn, value2plot),
           y = value2plot,
           colour = country_name_ltn,
@@ -69,11 +70,11 @@ gen_bars <- function(data, direction) {
       fill  = "white"
     ) +
     scale_color_manual(values = label_color,
-                       guide  = "none") + 
-    scale_y_continuous(limits = c(0, 1.05), 
+                       guide  = "none") }
+    plt <- plt + scale_y_continuous(limits = c(0, 1.05), 
                        labels = scales::percent_format(accuracy = 1),
                        expand = c(0,0),
-                       position = "right") +
+                       position = "right") + 
     coord_flip() +
     theme(
       axis.text.x      = element_text(family = "Lato Full", 

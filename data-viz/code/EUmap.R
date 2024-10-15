@@ -1,4 +1,4 @@
-genMap <- function(dta, direction){
+genMap <- function(dta, direction, static = FALSE){
   
   # Creating flextable
   table <- dta %>%
@@ -200,8 +200,10 @@ genMap <- function(dta, direction){
                             values   = border_color,
                             na.value = "#ABA1A7",
                             guide    = "none") +
-        new_scale_colour() + 
-        geom_textbox(
+        new_scale_colour() 
+      
+        if (static == FALSE){
+        p <- p + geom_textbox(
           data = centroids,
           aes(
             y      = lat,
@@ -216,11 +218,11 @@ genMap <- function(dta, direction){
           width    = unit(1.25, "inch"),
           size     = 3,
           fill     = "white"
-        ) +
-        scale_colour_manual("",
-                            values   = label_color,
-                            na.value = "#212429",
-                            guide    = "none")
+        )+ scale_colour_manual("",
+                               values   = label_color,
+                               na.value = "#212429",
+                               guide    = "none")} 
+
       
       if (panel_name == "Main"){
         p <- p +

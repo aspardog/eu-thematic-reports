@@ -1,4 +1,4 @@
-gen_catMap <- function(dta, break_legend = F) {
+gen_catMap <- function(dta, break_legend = F, static = F) {
   
   # Define the colors for categories
   unique_categories <- c(sort(setdiff(unique(dta$value2plot), "Other")), "Other")
@@ -92,8 +92,9 @@ gen_catMap <- function(dta, break_legend = F) {
                           guide      = "none") +
       scale_fill_manual(values       = category_colors, 
                         na.value     = "#d8d8d8") +
-      new_scale_colour() +
-      geom_textbox(
+      new_scale_colour() 
+      if (static == FALSE){
+      gg_inset <- gg_inset + geom_textbox(
         data = centroids,
         aes(
           y      = lat,
@@ -108,9 +109,11 @@ gen_catMap <- function(dta, break_legend = F) {
         width    = unit(1.25, "inch"),
         size     = 3,
         fill     = "white"
-      ) +
-      scale_colour_manual(values     = label_color,
-                          guide      = "none") +
+      )+ scale_colour_manual(
+        values     = label_color,
+        guide      = "none")} 
+    
+      gg_inset <- gg_inset +
       scale_y_continuous(limits  = inset_dimensions[[inset_name]][["y"]]) + 
       scale_x_continuous(limits  = inset_dimensions[[inset_name]][["x"]]) +
       coord_sf(clip = "off") +
@@ -190,8 +193,9 @@ gen_catMap <- function(dta, break_legend = F) {
                       na.value     = "#d8d8d8",
                       drop         = F,
                       na.translate = F) +
-    new_scale_colour() +
-    geom_textbox(
+    new_scale_colour() 
+    if (static == FALSE){
+    p <- p + geom_textbox(
       data = centroids,
       aes(
         y      = lat,
@@ -209,8 +213,8 @@ gen_catMap <- function(dta, break_legend = F) {
     ) +
     # coord_sf(crs = st_crs(base_map)) +
     scale_colour_manual(values = label_color,
-                        guide  = "none") +
-    scale_y_continuous(limits  = c(1442631, 5323487)) +
+                        guide  = "none")} 
+    p <- p + scale_y_continuous(limits  = c(1442631, 5323487)) +
     scale_x_continuous(limits  = c(2581570, 6017160)) +
     theme_minimal() +
     theme(

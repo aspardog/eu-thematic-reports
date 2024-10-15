@@ -1,4 +1,4 @@
-scatterPlot <- function(dta, legend) {
+scatterPlot <- function(dta, legend, static = FALSE) {
   
   legend_labels <- color_range %>% filter(level == "national") %>% 
     select(country_name_ltn = country, label = nuts_id)
@@ -63,8 +63,9 @@ scatterPlot <- function(dta, legend) {
       size   = 2,
       stroke = .025,
       show.legend = c(fill = TRUE)
-    ) %>% rename_geom_aes(new_aes = c("colour" = "colour1")) +
-    geom_richtext(aes(x = value2plot_id1,
+    ) %>% rename_geom_aes(new_aes = c("colour" = "colour1")) 
+    if (static == FALSE){
+    plot <- plot + geom_richtext(aes(x = value2plot_id1,
                       y = value2plot_id2,
                       colour2 = nuts_id,
                       label   = tooltip,
@@ -72,7 +73,9 @@ scatterPlot <- function(dta, legend) {
                   vjust = "inward",
                   size  = 3,
                   hjust = "inward",
-                  fill  = "white") %>% rename_geom_aes(new_aes = c("colour" = "colour2")) +
+                  fill  = "white") %>% rename_geom_aes(new_aes = c("colour" = "colour2"))}
+  
+  plot <- plot +
     labs(
       x = paste(legend[1], "(%)"),
       y = paste(legend[2], "(%)")

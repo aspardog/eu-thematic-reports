@@ -1,4 +1,4 @@
-gen_dots <- function(data, legend) {
+gen_dots <- function(data, legend, static = FALSE) {
 
   country_avg <- data %>%
     left_join(region_names %>% select(nuts_id, pop_weight), 
@@ -75,8 +75,9 @@ gen_dots <- function(data, legend) {
       color      = "#a0a0a0",
       linetype   = "solid",
       linewidth  = 0.15
-    ) +
-    geom_richtext(
+    ) 
+    if (static == FALSE){
+    plt <- plt + geom_richtext(
       data = (hover_data %>% filter(country_name_ltn != "Ireland")),
       aes(x = country_name_ltn, 
           y = label_pos, 
@@ -97,8 +98,9 @@ gen_dots <- function(data, legend) {
       vjust = "inward", 
       fill = "white",
       show.legend = FALSE
-    ) %>% rename_geom_aes(new_aes = c("colour" = "colour3")) +
-    scale_fill_manual("",
+    ) %>% rename_geom_aes(new_aes = c("colour" = "colour3"))}
+  
+    plt <- plt + scale_fill_manual("",
                       values = dots_palette,
                       labels = legend) + 
     scale_colour_manual(aesthetics = "colour1",

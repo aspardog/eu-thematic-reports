@@ -1,4 +1,4 @@
-genLollipop <- function(dta) {
+genLollipop <- function(dta, static = FALSE) {
   
   dta <- dta %>% filter(demographic == "Total Sample") %>% ungroup()
   
@@ -76,8 +76,9 @@ genLollipop <- function(dta) {
         scale_colour_manual(aesthetics = "colour2",
                             values = border_color) +
         scale_fill_manual(values = lpop_palette) +
-        new_scale_colour() +
-        geom_textbox(
+        new_scale_colour() 
+        if (static == FALSE){
+        bchart <- bchart + geom_textbox(
           data = subset_data,
           aes(
             y       = value2plot,
@@ -92,8 +93,9 @@ genLollipop <- function(dta) {
           width     = grid::unit(0.85, "inches"),
           size      = 3,
           fill      = "white"
-        ) +
-        scale_colour_manual(values  = label_color) + 
+        )}
+      
+        bchart <- bchart + scale_colour_manual(values  = label_color) + 
         # %>% rename_geom_aes(new_aes = c("colour" = "colour3")) +
         # scale_colour_manual(aesthetics = "colour3",
         #                     values  = label_color) + 

@@ -138,8 +138,8 @@ base_map <- st_read(
   filter(!(polID %in% c("GL", "IS")))
 
 insets <- getInsets(list(
-  "Canarias/Madeira" = c("ES7", "PT3"),
-  "Açores"           = "PT2",
+  "Canaries/Madeira" = c("ES7", "PT3"),
+  "Azores"           = "PT2",
   "Cyprus"           = "CY0"
 ))
 
@@ -279,10 +279,7 @@ write_csv(
 
 # Calling the visualizer for each chart
 charts <- lapply(
-  outline %>%
-    filter(
-      thematic_reports == T & report == "Justice & Safety"
-    ) %>%
+  outline %>% 
     pull(chart_id),
   # c("R1F79", "R1F40", "R1F53", "R1F45", "R1F44", "R1F54", "R1F43", "R1F38", "R1F86", "R1F10", "R1F75",
   #   "R1F90", "R1F88", "R1F42", "R1F39", "R1F15", "R1F61", "R1F91", "R1F69", "R1F4", "R1F3", "R1F48",

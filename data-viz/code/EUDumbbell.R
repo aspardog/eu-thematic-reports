@@ -1,4 +1,4 @@
-genDumbbells <- function(dta) {
+genDumbbells <- function(dta, static = FALSE) {
   
   #  defining unique colors
   border_color        <- c(region_names$unique_border)
@@ -118,8 +118,9 @@ genDumbbells <- function(dta) {
                       drop   = FALSE) +
     scale_colour_manual(values = border_color,
                         guide  = "none") +
-    new_scale_colour() +
-    geom_richtext(
+    new_scale_colour() 
+    if (static == FALSE){
+    chart <- chart + geom_richtext(
       data = data2plot,
       aes(
         x = country_name_ltn,
@@ -135,8 +136,8 @@ genDumbbells <- function(dta) {
       size  = 2.5,
       hjust = "inward",
       fill  = "white"
-    ) +
-    scale_colour_manual(values = label_color,
+    )} 
+    chart <- chart + scale_colour_manual(values = label_color,
                         guide  = "none") +
     scale_x_discrete(
       limits = rev(levels(factor(

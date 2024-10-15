@@ -42,7 +42,8 @@ resetDirs <- function(){
 }
 
  
-saveIT <- function(chart, figid, w, h) {
+saveIT <- function(chart, static = F, figid, w, h) {
+  if (static == FALSE){
    ggsave(
      plot   = chart,
      file   = 
@@ -61,6 +62,27 @@ saveIT <- function(chart, figid, w, h) {
      dpi    = 72,
      device = "svg"
    )
+  }
+  else{
+    ggsave(
+      plot   = chart,
+      file   = 
+        file.path(
+          path2EU,
+          paste0(
+            "EU-S Data/reports/eu-thematic-reports/final-charts/no-tooltip/",
+            str_match(figid, "R[^F]"), "/",
+            figid, ".svg"
+          ),
+          fsep = "/"
+        ),
+      width  = w, 
+      height = h,
+      units  = "mm",
+      dpi    = 72,
+      device = "svg"
+    )
+  }
  } 
 
 getInsets <- function(targets){
@@ -113,34 +135,45 @@ callVisualizer <- function(figid) {
 
   if (params$type == "Map") {
     chart <- genMap(data4chart, direction = params[["direction"]])
+    chart_static <- genMap(data4chart, direction = params[["direction"]], static = TRUE)
   }
   if (params$type == "Dumbbells") {
     chart <- genDumbbells(data4chart)
+    chart_static <- genDumbbells(data4chart, static = TRUE)
   }
   if (params$type == "QRQ Bars"){
     chart <- gen_qrq_bars(data4chart, direction = params[["direction"]])
+    chart_static <- gen_qrq_bars(data4chart, direction = params[["direction"]], static = TRUE)
   }
   if (params$type == "Table") {
     chart <- genTable(data4chart)
+    chart_static <- genTable(data4chart, static = TRUE)
   }
   if (params$type == "Map (Categorical)") {
     if (figid == "R3F14"){
       chart <- gen_catMap(data4chart, break_legend = T)
+      chart_static <- gen_catMap(data4chart, break_legend = T, static = TRUE)
     } else{
       chart <- gen_catMap(data4chart)
+      chart_static <- gen_catMap(data4chart, static = TRUE)
     }
   }
   if (params$type == "Scatterplot") {
     chart <- scatterPlot(data4chart, legend = params[["legend_labels"]])
+    chart_static <- scatterPlot(data4chart, legend = params[["legend_labels"]], static = TRUE)
   }
   if (params$type == "Dots") {
     chart <- gen_dots(data4chart, legend = params[["legend_labels"]])
+    chart_static <- gen_dots(data4chart, legend = params[["legend_labels"]], static = TRUE)
+    
   }
   if (params$type == "Bars") {
     chart <- gen_bars(data4chart, direction = params[["direction"]])
+    chart_static <- gen_bars(data4chart, direction = params[["direction"]], static = TRUE)
   }
   if (params$type == "Lollipop") {
     chart <- genLollipop(data4chart)
+    chart_static <- genLollipop(data4chart, static = T)
   }
   
   
@@ -168,6 +201,16 @@ callVisualizer <- function(figid) {
     w = 189.7883,
     h = h
   )
+  
+  # Save static charts
+  saveIT(
+    chart = chart_static,
+    static = T,
+    figid = figid,
+    w = 189.7883,
+    h = h
+  )
+  
   
   return(
     list(

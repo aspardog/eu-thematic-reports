@@ -1,4 +1,4 @@
-gen_qrq_bars <- function(data, direction) {
+gen_qrq_bars <- function(data, direction, static = FALSE) {
   
   data <- data %>% filter(demographic == "Total Sample")
   
@@ -54,8 +54,10 @@ gen_qrq_bars <- function(data, direction) {
     scale_fill_manual(name   = "",
                       values = cpal,
                       drop   = FALSE) +
-    new_scale_color() + 
-    geom_richtext(
+    new_scale_color() 
+  
+    if (static == FALSE){
+    plt <- plt + geom_richtext(
       aes(x = reorder(country_name_ltn, value2plot),
           y = value2plot,
           colour = country_name_ltn,
@@ -74,8 +76,10 @@ gen_qrq_bars <- function(data, direction) {
                        labels = scales::number_format(accuracy = 0.01),
                        expand = c(0,0),
                        breaks = c(0, 0.25, 0.5, 0.75, 1),
-                       position = "right") +
-    coord_flip() +
+                       position = "right") 
+  }
+  
+    plt <- plt + coord_flip() +
     theme(
       axis.text.x      = element_text(family = "Lato Full", 
                                       face   = "plain", 
