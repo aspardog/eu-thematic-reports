@@ -147,7 +147,7 @@ callVisualizer <- function(figid) {
   }
   if (params$type == "Table") {
     chart <- genTable(data4chart)
-    chart_static <- genTable(data4chart, static = TRUE)
+    chart_static <- genTable(data4chart)
   }
   if (params$type == "Map (Categorical)") {
     if (figid == "R3F14"){

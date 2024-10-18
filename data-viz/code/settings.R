@@ -26,7 +26,7 @@ library(pacman)
 p_load(char = c(
   # Visualizations
   "showtext", "ggtext", "grid", "patchwork", "cowplot", "flextable", "officer", "ggnewscale", 
-  "ggExtra", "relayer",
+  "ggExtra",
   
   # Data Loading
   "haven", "writexl", "openxlsx",
@@ -39,8 +39,8 @@ p_load(char = c(
   
   # Good 'ol Tidyverse
   "tidyverse"
-  
 ))
+p_load_gh("clauswilke/relayer")
 
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -52,9 +52,9 @@ p_load(char = c(
 if (Sys.info()["user"] == "ctoruno") {
   path2EU <- "/Users/ctoruno/OneDrive - World Justice Project/EU Subnational"
   path2DA <- "/Users/ctoruno/OneDrive - World Justice Project/Data Analytics"
-} else if (Sys.info()["user"]=="Dhabiby"){
-  path2EU <- "/Users/Dhabiby/World Justice Project/Research - EU Subnational"
-  path2DA <- "/Users/Dhabiby/World Justice Project/Research - Data Analytics"
+} else if (Sys.info()["user"]=="carlostoruno"){
+  path2EU <- "/Users/carlostoruno/Library/CloudStorage/OneDrive-WorldJusticeProject/EU Subnational"
+  path2DA <- "/Users/carlostoruno/Library/CloudStorage/OneDrive-WorldJusticeProject/Data Analytics"
 } else if(Sys.info()["user"] == "icoddington"){
   path2EU <- "/Users/icoddington/OneDrive - World Justice Project/EU Subnational"
   path2DA <- "/Users/icoddington/OneDrive - World Justice Project/Data Analytics"
