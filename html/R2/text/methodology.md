@@ -60,7 +60,7 @@ However, this accessibility does require WJP to consolidate the unique and compl
 
 Likewise, these indicators do not establish causality or contextualize the findings. Thus, it will be necessary to use the EUROVOICES reports in combination with other analytical tools to provide a full picture of causes and potential solutions.
 
-Additionally, the information presented on these indicators may be sensitive to specific events that took place during the data collection period or may be subject to measurement errors due in part to the limited number of experts interviewed in some regions.
+The data presented in EUROVOICES captures the perceptions and experiences of people living in the EU at the time the data was collected. In addition, the WJP team confirmed the validity of this data using quantitative and qualitative checks. However, the results may be sensitive to contextual factors, including expectations, as well as cultural and social influences, which may affect people's responses. In addition, this information may be sensitive to specific events that took place during the data collection period or may be subject to measurement errors due in part to the limited number of experts interviewed in some regions.
 
 #### More Information
 

@@ -1,5 +1,5 @@
 
-groupings4analysis <- c("female", "urban", "young")
+groupings4analysis <- c("female", "urban", "young", "fintight")
 
 capitals <- c(
   "AT1","BE1","BG4","HR05","CY0","CZ01","DK01","EE0","FI1B","FR1",
@@ -62,7 +62,7 @@ trfunc6 <- function(value){
 }
 
 # Sub-setting data and applying transformation functions
-base_variables <- c("country_name_ltn", "nuts_id", "age_groups", "gender", "iq_groups", "urban_string", "edu")
+base_variables <- c("country_name_ltn", "nuts_id", "age_groups", "gender", "iq_groups", "urban_string", "edu", "fin")
 data4tests <- master_data_gpp %>%
   select(
     all_of(base_variables), 
@@ -133,77 +133,101 @@ data4tests <- master_data_gpp %>%
       edu < 4  ~ 1,
       edu < 98 ~ 0
     ),
-    capital = case_when(
-      nuts_id %in% capitals ~ 1,
-      TRUE ~ 0
-    )
+    fintight = case_when(
+      fin < 3  ~ 1,
+      fin < 99 ~ 0
+    ),
+    area = "EU"
   )
 
 # Generating complete roaster of results
-results_country <- diffmeans(data4tests, vars, groupings4analysis, "country_name_ltn")
-results_region  <- diffmeans(data4tests, vars, groupings4analysis, "nuts_id")
+results_eu      <- diffmeans(data4tests, vars, groupings4analysis, "area")
+results_country <- diffmeans(data4tests, vars, groupings4analysis, "country_name_ltn", collapse = F)
+results_region  <- diffmeans(data4tests, vars, groupings4analysis, "nuts_id", collapse = F)
 
 # Summary and saving data
 summary <- lapply(
-  c("country" = "country", "region" = "region"),
+  c(
+    "EU"      = "EU",
+    "country" = "country",
+    "region"  = "region"
+  ),
   function(level){
     
-    if (level == "country"){
-      data = results_country
-    }
-    if (level == "region"){
-      data = results_region
-    }
-    
-    # Generating summary
-    map_dfc(
-      groupings4analysis %>% set_names(groupings4analysis),
-      function(macrogroup){
-        
-        new_names <- c("variable" = macrogroup, 
-                       "chapter"  = paste0("chapter_", macrogroup),
-                       "section"  = paste0("section_", macrogroup),
-                       "nsigs"    = paste0("nsigs_", macrogroup),
-                       "avgdiff"  = paste0("avgdiff_", macrogroup),
-                       "maxdiff"  = paste0("maxdiff_", macrogroup))
-        
-        map_dfr(
-          vars,
-          function(variable){
-            
-            chapter <- outline %>%
-              filter(
-                target_var_1 == variable
-              ) %>%
-              distinct(chapter) %>%
-              pull(chapter)
-            
-            section <- outline %>%
-              filter(
-                target_var_1 == variable
-              ) %>%
-              distinct(section) %>%
-              pull(section)
-            
-            data[[macrogroup]][[variable]] %>% 
-              ungroup() %>% 
-              summarise(
-                variable = variable,
-                chapter  = chapter,
-                section  = section,
-                nsigs    = sum(stat_sig),
-                avgdiff  = mean(diff, na.rm = T)*100,
-                maxdiff  = max(abs(diff), na.rm = T)*100
-              )
-          }
-        ) %>%
-          arrange(desc(nsigs)) %>%
-          rename(
-            !!!set_names(names(new_names), new_names)
-          )
-        
+    if(level == "EU"){
+      lapply(
+        groupings4analysis %>% set_names(groupings4analysis),
+        function(macrogrouping){
+          results_eu[[macrogrouping]] %>%
+            right_join(
+              outline %>%
+                select(target_var_1, chapter, section),
+              by = c("variable" = "target_var_1")
+            ) %>%
+            filter(
+              !is.na(geovar)
+            )
+        }
+      )
+
+    } else {
+      
+      if (level == "country"){
+        data = results_country
       }
-    )
+      if (level == "region"){
+        data = results_region
+      }
+      
+      # Generating summary
+      map_dfc(
+        groupings4analysis %>% set_names(groupings4analysis),
+        function(macrogroup){
+          
+          new_names <- c("variable" = macrogroup, 
+                         "chapter"  = paste0("chapter_", macrogroup),
+                         "section"  = paste0("section_", macrogroup),
+                         "nsigs"    = paste0("nsigs_", macrogroup),
+                         "avgdiff"  = paste0("avgdiff_", macrogroup),
+                         "maxdiff"  = paste0("maxdiff_", macrogroup))
+          
+          map_dfr(
+            vars,
+            function(variable){
+              
+              chapter <- outline %>%
+                filter(
+                  target_var_1 == variable
+                ) %>%
+                distinct(chapter) %>%
+                pull(chapter)
+              
+              section <- outline %>%
+                filter(
+                  target_var_1 == variable
+                ) %>%
+                distinct(section) %>%
+                pull(section)
+              
+              data[[macrogroup]][[variable]] %>% 
+                ungroup() %>% 
+                summarise(
+                  variable = variable,
+                  chapter  = chapter,
+                  section  = section,
+                  nsigs    = sum(stat_sig),
+                  avgdiff  = mean(diff, na.rm = T)*100,
+                  maxdiff  = max(abs(diff), na.rm = T)*100
+                )
+            }
+          ) %>%
+            arrange(desc(nsigs)) %>%
+            rename(
+              !!!set_names(names(new_names), new_names)
+            )
+        }
+      )
+    }
   }
 )
 
