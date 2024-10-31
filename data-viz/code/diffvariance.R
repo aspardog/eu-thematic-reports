@@ -36,9 +36,9 @@ diffvariance <- function(df) {
   summary <- data_country %>%
     ungroup() %>%
     summarise(across(all_of(voi), var, na.rm = TRUE)) %>%
-    pivot_longer(cols = everything(), names_to = "target_variable", values_to = "intercountry_var")
+    pivot_longer(cols = everything(), names_to = "target_variable", values_to = "between_countries_var")
   
-  # variance within regions
+  # variance within regions - at the individual level
   variance_within_nuts <- df %>%
     group_by(country_name_ltn, nuts_id) %>%
     summarise(across(all_of(voi), var, na.rm = TRUE), .groups = 'drop') %>%
@@ -46,7 +46,7 @@ diffvariance <- function(df) {
   
   avg_nuts_variance <- variance_within_nuts %>%
     summarise(across(all_of(voi), mean, na.rm = TRUE)) %>%
-    pivot_longer(cols = everything(), names_to = "target_variable", values_to = "avg_regional_var")
+    pivot_longer(cols = everything(), names_to = "target_variable", values_to = "avg_within_region_var")
   
   # min and max nuts region
   max_variance_region <- variance_within_nuts %>%
@@ -67,15 +67,24 @@ diffvariance <- function(df) {
     summarise(min_var_region_val = min(variance, na.rm = TRUE),
               .groups = 'drop')
   
+  # variance between regions in the same country
+  variance_between_regions <- data_nuts %>%
+    group_by(country_name_ltn) %>%
+    summarise(across(all_of(voi), ~var(.x, na.rm = T))) %>%
+    ungroup() %>%
+    summarise(across(all_of(voi), mean, na.rm = T)) %>%
+    pivot_longer(cols = all_of(voi), names_to = "target_variable", values_to = "avg_between_region_variance")
+  
+  
   # variance within country (each region an observation)
-  variance_within_country <- data_nuts %>%
+  variance_within_country <- df %>%
     group_by(country_name_ltn) %>%
     summarise(across(all_of(voi), var, na.rm = TRUE), .groups = 'drop') %>%
     ungroup()
   
   avg_within_country_variance <- variance_within_country %>%
     summarise(across(all_of(voi), mean, na.rm = TRUE)) %>%
-    pivot_longer(cols = everything(), names_to = "target_variable", values_to = "avg_national_var") 
+    pivot_longer(cols = everything(), names_to = "target_variable", values_to = "avg_within_country_var") 
   
   # min and max country variance
   max_variance_country <- variance_within_country %>%
@@ -99,6 +108,7 @@ diffvariance <- function(df) {
   # combine results
   variance_summary <- summary %>%
     left_join(avg_nuts_variance, by = "target_variable") %>%
+    left_join(variance_between_regions, by = "target_variable") %>%
     left_join(min_variance_region, by = "target_variable") %>%
     left_join(min_variance_region_value, by = "target_variable") %>%
     left_join(max_variance_region, by = "target_variable") %>%
