@@ -34,7 +34,7 @@ gen_qrq_bars <- function(data, direction, static = FALSE) {
       color_group = factor(
         color_group, 
         levels = c("0-0.1",  "0.1-0.25", "0.25-0.5", 
-                                   "0.5-0.75", "0.75-0.9", "0.9-1")
+                   "0.5-0.75", "0.75-0.9", "0.9-1")
       )
     ) %>%
     arrange(value2plot) %>% ungroup()
@@ -56,7 +56,22 @@ gen_qrq_bars <- function(data, direction, static = FALSE) {
                       drop   = FALSE) +
     new_scale_color() 
   
-    if (static == FALSE){
+  if (static == TRUE){
+    plt <- plt +
+      geom_text(
+        aes(x = reorder(country_name_ltn, value2plot),
+            y = value2plot+0.025,
+            label  = scales::number(value2plot, 
+                                    accuracy = 0.01)
+        ),
+        fontface = "bold",
+        family = "Lato Full",
+        size   = 3,
+        colour = "#1A1C2F"
+      )
+  }
+  
+  if (static == FALSE){
     plt <- plt + geom_richtext(
       aes(x = reorder(country_name_ltn, value2plot),
           y = value2plot,
@@ -70,16 +85,18 @@ gen_qrq_bars <- function(data, direction, static = FALSE) {
       hjust = "inward", 
       fill  = "white"
     ) +
-    scale_color_manual(values = label_color,
-                       guide  = "none") + 
+      scale_color_manual(values = label_color,
+                         guide  = "none") 
+    
+  }
+  
+  plt <- plt + 
     scale_y_continuous(limits = c(0, 1.05), 
                        labels = scales::number_format(accuracy = 0.01),
                        expand = c(0,0),
                        breaks = c(0, 0.25, 0.5, 0.75, 1),
-                       position = "right") 
-  }
-  
-    plt <- plt + coord_flip() +
+                       position = "right") +
+    coord_flip() +
     theme(
       axis.text.x      = element_text(family = "Lato Full", 
                                       face   = "plain", 

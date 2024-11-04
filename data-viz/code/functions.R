@@ -204,9 +204,9 @@ callVisualizer <- function(figid) {
   
   # Save static charts
   saveIT(
-    chart = chart_static,
+    chart  = chart_static,
     static = T,
-    figid = figid,
+    figid  = figid,
     w = 189.7883,
     h = h
   )

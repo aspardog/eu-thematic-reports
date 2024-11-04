@@ -55,7 +55,23 @@ gen_bars <- function(data, direction, static = FALSE) {
                       values = cpal,
                       drop   = FALSE) +
     new_scale_color() 
-    if (static == FALSE){
+  
+  if (static == TRUE){
+    plt <- plt +
+      geom_text(
+        aes(x = reorder(country_name_ltn, value2plot),
+            y = value2plot+0.03,
+            label  = scales::percent(value2plot, 
+                                     accuracy = 0.1)
+        ),
+        fontface = "bold",
+        family = "Lato Full",
+        size   = 3,
+        colour = "#1A1C2F"
+      )
+  }
+  
+  if (static == FALSE){
     plt <- plt + geom_richtext(
       aes(x = reorder(country_name_ltn, value2plot),
           y = value2plot,
@@ -69,9 +85,12 @@ gen_bars <- function(data, direction, static = FALSE) {
       hjust = "inward", 
       fill  = "white"
     ) +
-    scale_color_manual(values = label_color,
-                       guide  = "none") }
-    plt <- plt + scale_y_continuous(limits = c(0, 1.05), 
+      scale_color_manual(values = label_color,
+                         guide  = "none")
+  }
+  
+  plt <- plt + 
+    scale_y_continuous(limits = c(0, 1.05), 
                        labels = scales::percent_format(accuracy = 1),
                        expand = c(0,0),
                        position = "right") + 
