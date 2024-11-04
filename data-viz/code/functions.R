@@ -434,16 +434,14 @@ save4web <- function(data, source){
     fileEncoding = "UTF-8",
     row.names    = FALSE
   )
-  # writexl::write_xlsx(
-  #   write_csv(
-  #     data4web,
-  #     file.path(
-  #       path2EU,
-  #       "EU-S Data/reports/eu-thematic-reports/data-viz/output",
-  #       paste0("data4web_", tolower(source), ".xlsx")
-  #     )
-  #   )
-  # )
+  writexl::write_xlsx(
+    data4web,
+    file.path(
+      path2EU,
+      "EU-S Data/reports/eu-thematic-reports/data-viz/output",
+      paste0("data4web_", tolower(source), ".xlsx")
+    )
+  )
   
   print("data4web successfully saved in /outputs/ folder")
 }
