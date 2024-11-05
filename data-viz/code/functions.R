@@ -377,13 +377,14 @@ save4web <- function(data, source){
         level, 
         nuts_ltn  = nameSHORT,
         nuts_id,
-        indicator = target_var,
+        # indicator = target_var,
         score     = value2plot
       ) %>%
       left_join(
         outline %>%
           select(
             chart_id,
+            indicator      = target_var_1,
             theme          = report,
             pillar_id      = pillar,
             pillar_name    = chapter,
@@ -404,9 +405,12 @@ save4web <- function(data, source){
       ) 
     
     # using NEW TARGET VARS (this is what is stored in indicator field)
+    # qrq_imputation_indicators <- c("p_1_01", "p_1_02", "p_1_03", "p_1_04", "p_1_05", "p_1_06",
+    #                                "p_1_07", "p_1_08", "p_1_09", "p_1_10", "p_1_11", "p_1_12", 
+    #                                "p_2_2")
     qrq_imputation_indicators <- c("p_1_01", "p_1_02", "p_1_03", "p_1_04", "p_1_05", "p_1_06",
-                                   "p_1_07", "p_1_08", "p_1_09", "p_1_10", "p_1_11", "p_1_12", 
-                                   "p_2_2")
+                                   "p_2_1", "p_2_2", "p_2_3", "p_2_4", "p_2_5", "p_2_6", 
+                                   "p_8_2")
       
     # grab only the national values for the given indicators
     national_values <- data4web %>%
