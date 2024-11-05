@@ -1,5 +1,6 @@
 import os
 import shutil 
+import getpass
 import pandas as pd
 from lxml import etree as ET
 
@@ -26,9 +27,9 @@ class svg:
         
     def addInteractivity(self, unique_colors):
 
-        path2SP = f"/Users/{os.getlogin()}/OneDrive - World Justice Project/EU Subnational/EU-S Data/reports/eu-thematic-reports"
+        path2SP = f"/Users/{getpass.getuser()}/OneDrive - World Justice Project/EU Subnational/EU-S Data/reports/eu-thematic-reports"
         source = f"{path2SP}/data-viz/output/charts/{self.report}/{self.id}.svg"
-        target = f"{path2SP}/final-charts/{self.report}/{self.id}.svg"
+        target = f"{path2SP}/final-charts/with-tooltip/{self.report}/{self.id}.svg"
 
         if self.type in ["Table"]:
 

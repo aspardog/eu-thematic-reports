@@ -206,6 +206,8 @@ class text_input:
                     .loc[(chartsdata["report"] == title) & (chartsdata["section"] == sub_header)]
                 )
 
+                counter4config = 1
+
                 # Looping over charts
                 for _, row in charts4section.iterrows():
                     if row["description"] == "QRQ":
@@ -221,6 +223,7 @@ class text_input:
                         figid = row["chart_id"]
                     figid = id_counter
                     id_counter += 1
+                    counter4config += 1
 
                     accordion_viz = {
                         "id"         : figid,
@@ -249,7 +252,8 @@ class text_input:
                         "type"       : "accordion_viz_image",
                         "content"    : f"{row['chart_id']}.svg",
                         "belongs_to" : figid,
-                        "settings"   : None
+                        "settings"   : None,
+                        "id4config"  : re.sub(r"\.0", "", f"image_{chapter_id}_{section_id}_{counter4config}")
                     }
                     id_counter += 1
                     accordion_viz_note = {

@@ -22,6 +22,27 @@ Given the diversity of institutional design across EU Member States, the questio
 
 This project is funded by the EU and complements other research activities conducted by the WJP with the mission of advancing the rule of law worldwide. This data may also complement other monitoring tools that aim to promote a rule of law culture and enhance economic, social, and territorial cohesion in the EU, such as the European Commission’s yearly Rule of Law Report, and the EU Justice Scoreboard, and the Cohesion Report, among others.
 
+### Key Findings
+
+Democracy and Fundamental Rights:
+- Most people across the EU perceive that judges lack independence, and expert assessments on judicial independence reveal stark disparities between countries.
+- While freedom of assembly, association, and expression are robust across most of the EU, some regions are falling short in upholding these essential rights.
+- Most people in the EU believe senior government officials use misinformation to shape public opinion in their favor.
+- Discrimination remains a pervasive challenge across the EU. At least 1 in 5 people faced discrimination during the past year in 22 EU countries.
+- Most people in the EU agree that they can vote freely, without feeling harassed or pressured.
+
+Justice and Safety
+- Across the EU, most people perceive that civil and commercial courts do not resolve cases in a timely manner.
+- Across the EU, most people do not think they can easily meet the costs of turning to a state dispute resolution mechanism when they face a legal problem. Furthermore, most respondents believe people in their country do not have access to affordable legal assistance and representation when they face a legal problem.
+- Legal problems are ubiquitous across the EU, and most people who needed a dispute resolution mechanism did not have access to it. This finding presents a major challenge to many EU countries aiming to meet the United Nations Sustainable Development Goals target on access to justice for all (SDG 16.3.3).
+- In most EU regions, people believe that the criminal justice system does not work the same for everyone, regardless of where they live.
+
+Transparency and Corruption
+- Among different institutions, people in the EU perceive political parties as the most corrupt.
+- Across the EU, most respondents believe government actions to control corruption are ineffective.
+- Across the EU, most people believe that local authorities provide accessible information.
+- Although legal experts see business regulations in the EU as predictable and evenly enforced, they agree that navigating the startup process remains unnecessarily cumbersome.
+
 ### About this Report
 
 This report, Democracy and Fundamental Rights, includes four chapters: (I) **Checks on government power**, (II) **Government respect for checks on power**, (III) **Civic participation**, and (IV) **Fundamental rights**. Each chapter contains thematic findings, definitions for each indicator included, and graphs depicting both expert and household responses (Expert Scorecard and People’s Voices, respectively).
