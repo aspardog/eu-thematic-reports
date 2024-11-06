@@ -25,7 +25,7 @@ class text_input:
         if self.report == "R2":
             title = "Justice & Safety"
         if self.report == "R3":
-            title = "Corruption & Transparency"
+            title = "Transparency & Corruption"
 
         elements = ["front_page_theme", "front_page_title", "front_page_image", "front_page_year", "front_page_source"]
         ids      = [1,2,3,4,5]
@@ -106,7 +106,7 @@ class text_input:
         if self.report == "R2":
             title = "Justice & Safety"
         if self.report == "R3":
-            title = "Corruption & Transparency"
+            title = "Transparency & Corruption"
 
         id_counter = id_start
         
@@ -216,11 +216,11 @@ class text_input:
                     if row["description"] == "GPP":
                         category = "People's Voices"
                         setting  = "people"
-                    chart_n = re.search("(?<=F).+", row["chart_id"]).group()
-                    if len(chart_n) < 2:
-                        figid = re.sub("(?<=F).+", f"0{chart_n}", row["chart_id"])
-                    else:
-                        figid = row["chart_id"]
+                    # chart_n = re.search("(?<=F).+", row["chart_id"]).group()
+                    # if len(chart_n) < 2:
+                    #     figid = re.sub("(?<=F).+", f"0{chart_n}", row["chart_id"])
+                    # else:
+                    #     figid = row["chart_id"]
                     figid = id_counter
                     id_counter += 1
                     counter4config += 1

@@ -45,10 +45,12 @@ Transparency and Corruption
 
 ### About this Report
 
-When the rule of law prevails, both governing authorities and the people they serve respect the rights of others, contributing to a secure and just society. Additionally, people should have access to effective legal mechanisms to resolve their legal issues or seek redress for violations of their rights.
-In conceptualizing safety and access to justice, WJP uses a people-centered approach, focusing on individuals’ justice journeys. This approach seeks to analytically reconstruct people’s experiences as they navigate different justice services in their quest to resolve their legal disputes.    
+EUROVOICES presents two different types of indicators: Expert Scorecard and People’s Voices. The Expert Scorecard provides an aggregated score at either the subnational or national level, depending on the topic, based on data from WJP’s survey of local and independent legal experts and practitioners from different disciplines. Explore the variable map, found in the “downloads” section, with information on the individual expert survey questions that make up each aggregated score. People’s Voices presents selected question-level data from household surveys to representative samples across the EU on each topic. Additional data and sociodemographic breakdowns of the People’s Voices indicators can be explored on the EUROVOICES dashboard. 
 
-This report, Justice and Safety, consists of three chapters: (I) **Civil Justice**, (II) **Criminal Justice**, and (III) **Safety**. Each chapter contains thematic findings, definitions for each indicator included, as well as graphs with data from both the expert and household surveys (Expert Scorecard and People’s Voices, respectively). 
+This report, Justice and Safety, consists of three chapters: (I) **Civil Justice**, (II) **Criminal Justice**, and (III) **Safety**. Each chapter contains thematic findings, definitions for each indicator included, as well as graphs with data from both the expert and household surveys (Expert Scorecard and People’s Voices, respectively).
+
+When the rule of law prevails, both governing authorities and the people they serve respect the rights of others, contributing to a secure and just society. Additionally, people should have access to effective legal mechanisms to resolve their legal issues or seek redress for violations of their rights.
+In conceptualizing safety and access to justice, WJP uses a people-centered approach, focusing on individuals’ justice journeys. This approach seeks to analytically reconstruct people’s experiences as they navigate different justice services in their quest to resolve their legal disputes. 
 
 1. **_Civil Justice_**: The first chapter of this report focuses on civil justice, defined as the array of services and mechanisms people use to resolve non-criminal disputes, including family, labor, commercial, environmental, administrative, and financial disputes, as well as consumer issues. 
 

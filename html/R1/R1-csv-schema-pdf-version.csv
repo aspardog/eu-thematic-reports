@@ -37,7 +37,30 @@ Given the diversity of institutional design across EU Member States, the questio
 
 This project is funded by the EU and complements other research activities conducted by the WJP with the mission of advancing the rule of law worldwide. This data may also complement other monitoring tools that aim to promote a rule of law culture and enhance economic, social, and territorial cohesion in the EU, such as the European Commission’s yearly Rule of Law Report, and the EU Justice Scoreboard, and the Cohesion Report, among others.
 
+### Key Findings
+
+Democracy and Fundamental Rights:
+- Most people across the EU perceive that judges lack independence, and expert assessments on judicial independence reveal stark disparities between countries.
+- While freedom of assembly, association, and expression are robust across most of the EU, some regions are falling short in upholding these essential rights.
+- Most people in the EU believe senior government officials use misinformation to shape public opinion in their favor.
+- Discrimination remains a pervasive challenge across the EU. At least 1 in 5 people faced discrimination during the past year in 22 EU countries.
+- Most people in the EU agree that they can vote freely, without feeling harassed or pressured.
+
+Justice and Safety
+- Across the EU, most people perceive that civil and commercial courts do not resolve cases in a timely manner.
+- Across the EU, most people do not think they can easily meet the costs of turning to a state dispute resolution mechanism when they face a legal problem. Furthermore, most respondents believe people in their country do not have access to affordable legal assistance and representation when they face a legal problem.
+- Legal problems are ubiquitous across the EU, and most people who needed a dispute resolution mechanism did not have access to it. This finding presents a major challenge to many EU countries aiming to meet the United Nations Sustainable Development Goals target on access to justice for all (SDG 16.3.3).
+- In most EU regions, people believe that the criminal justice system does not work the same for everyone, regardless of where they live.
+
+Transparency and Corruption
+- Among different institutions, people in the EU perceive political parties as the most corrupt.
+- Across the EU, most respondents believe government actions to control corruption are ineffective.
+- Across the EU, most people believe that local authorities provide accessible information.
+- Although legal experts see business regulations in the EU as predictable and evenly enforced, they agree that navigating the startup process remains unnecessarily cumbersome.
+
 ### About this Report
+
+EUROVOICES presents two different types of indicators: Expert Scorecard and People’s Voices. The Expert Scorecard provides an aggregated score at either the subnational or national level, depending on the topic, based on data from WJP’s survey of local and independent legal experts and practitioners from different disciplines. Explore the variable map, found in the “downloads” section, with information on the individual expert survey questions that make up each aggregated score. People’s Voices presents selected question-level data from household surveys to representative samples across the EU on each topic. Additional data and sociodemographic breakdowns of the People’s Voices indicators can be explored on the EUROVOICES dashboard. 
 
 This report, Democracy and Fundamental Rights, includes four chapters: (I) **Checks on government power**, (II) **Government respect for checks on power**, (III) **Civic participation**, and (IV) **Fundamental rights**. Each chapter contains thematic findings, definitions for each indicator included, and graphs depicting both expert and household responses (Expert Scorecard and People’s Voices, respectively).
 
@@ -181,7 +204,7 @@ This report, Democracy and Fundamental Rights, includes four chapters: (I) **Che
 88,accordion_viz_note,,85,
 89,accordion_viz,<span>Figure 16</span> Freedom of the media to criticize government policies,83,people
 ,accordion_viz_category,People's Voices,89,
-90,accordion_viz_description,"Percentage of respondents who agree that the media can freely express opinions against government officials, policies and actions without fear of retaliation.",89,
+90,accordion_viz_description,"Percentage of respondents who agree that the media can freely express opinions against government officials, policies, and actions without fear of retaliation.",89,
 91,accordion_viz_image,R1F12.svg,89,
 92,accordion_viz_note,,89,
 93,accordion_viz,<span>Figure 17</span> Freedom of media to expose cases of corruption,83,people
@@ -747,7 +770,12 @@ This report, Democracy and Fundamental Rights, includes four chapters: (I) **Che
 434,accordion_viz_description,Percentage of respondents who agree that the criminal justice system treats those accused of crime as 'innocent until proven guilty'.,433,
 435,accordion_viz_image,R1F89.svg,433,
 436,accordion_viz_note,,433,
-437,appendix,"### List of Country and Region Abbreviations
+437,accordion_viz,<span>Box 1</span> Environmental protection,411,people
+,accordion_viz_category,People's Voices,437,
+438,accordion_viz_description,Percentage of respondents who agree that the government carries out effective actions to protect the environment and prevent and respond to climate change and displacement.,437,
+439,accordion_viz_image,R1B1.svg,437,
+440,accordion_viz_note,,437,
+441,appendix,"### List of Country and Region Abbreviations
 
 <div id=""abbreviations"">
 <div class=""table-container"">    
@@ -913,7 +941,7 @@ This report, Democracy and Fundamental Rights, includes four chapters: (I) **Che
     </table>
 </div>
 </div>",,
-438,methodological,"The production of *World Justice Project EUROVOICES* can be summarized in the following stages:
+442,methodological,"The production of *World Justice Project EUROVOICES* can be summarized in the following stages:
 
 ### Conceptual Design
 
@@ -978,12 +1006,12 @@ The data presented in EUROVOICES captures the perceptions and experiences of peo
 #### More Information
 
 For more information on the conceptual and measurement framework of this project, including more technical details on the data collection process, please refer to the complete methodological summary at the following link.",,
-439,about,"**The World Justice Project (WJP)** is an independent, multidisciplinary organization working to create knowledge, build awareness, and stimulate action to advance the rule of law worldwide. Effective rule of law is the foundation for communities of justice, opportunity, and peace—underpinning development, accountable government, and respect for fundamental rights.
+443,about,"**The World Justice Project (WJP)** is an independent, multidisciplinary organization working to create knowledge, build awareness, and stimulate action to advance the rule of law worldwide. Effective rule of law is the foundation for communities of justice, opportunity, and peace—underpinning development, accountable government, and respect for fundamental rights.
 
 The WJP builds and supports a global, multidisciplinary movement for the rule of law through three lines of work: collecting, organizing, and analyzing original, independent rule of law data, including the *World Justice Project Rule of Law Index*; supporting research, scholarship, and teaching about the importance of the rule of law, its relationship to development, and effective strategies to strengthen it; and connecting and building an engaged global network of policymakers and advocates to advance the rule of law through strategic partnerships, convenings, coordinated advocacy, and support for locally led initiatives.
 
 Learn more at: <a href=""https://worldjusticeproject.org/"" target=""_blank"">_worldjusticeproject.org._</a>",,
-440,acknowledgements,"The *World Justice Project EUROVOICES* 2024 thematic reports (Democracy & Fundamental Rights, Justice & Safety, and Transparency & Corruption) were produced by the World Justice Project under the research oversight of Alejandro Ponce and the executive direction of Elizabeth Andersen.
+444,acknowledgements,"The *World Justice Project EUROVOICES* 2024 thematic reports (Democracy & Fundamental Rights, Justice & Safety, and Transparency & Corruption) were produced by the World Justice Project under the research oversight of Alejandro Ponce and the executive direction of Elizabeth Andersen.
 
 **Conceptual Design**: Horacio Ortiz, Alejandro Ponce, and Leslie Solís, building upon the *WJP Rule of Law Index*, with adaptations to reflect the institutional architecture in the European Union.
 
