@@ -1,10 +1,10 @@
-# We asked 72,000 Europeans their perceptions about democratic governance and fundamental rights. The majority
+# We asked 72,000 people in the EU about their perceptions on democratic governance and fundamental rights. The majority...
 
-## trusts the electoral process, 
+## agree that they can vote freely, 
 
-## worries about the impact of misinformation, 
+## perceive discrimination as a pervasive challenge, 
 
-## don’t feel listened to by their local governments.
+## worry the use of misinformation is widespread.
 
 #### Perceptions on judicial independence vary widely across the EU but are strongest in Finland and Denmark for both legal experts and the general population.
 

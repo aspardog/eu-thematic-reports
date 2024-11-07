@@ -59,7 +59,7 @@
                     <tr><td><b>BE2</b></td><td>Flemish Region</td></tr>
                     <tr><td><b>BE3</b></td><td>Walloon Region</td></tr>
                     <tr><td><b>BG3</b></td><td>North and South-East</td></tr>
-                    <tr><td><b>BG4</b></td><td>South -West/-Central</td></tr>
+                    <tr><td><b>BG4</b></td><td>South-West and South-Central</td></tr>
                     <tr><td><b>CY0</b></td><td>Cyprus</td></tr>
                     <tr><td><b>CZ01</b></td><td>Prague</td></tr>
                     <tr><td><b>CZ020304</b></td><td>Western and Central Bohemia</td></tr>
@@ -113,7 +113,7 @@
                     <tr><td><b>FRI</b></td><td>New Aquitaine</td></tr>
                     <tr><td><b>FRJ</b></td><td>Occitania</td></tr>
                     <tr><td><b>FRK</b></td><td>Auvergne-Rhône-Alpes</td></tr>
-                    <tr><td><b>FRL</b></td><td>PACA</td></tr>
+                    <tr><td><b>FRL</b></td><td>Provence-Alpes-Côte d’Azur (PACA)</td></tr>
                     <tr><td><b>FRM</b></td><td>Corsica </td></tr>
                     <tr><td><b>HR02</b></td><td>Pannonian Croatia</td></tr>
                     <tr><td><b>HR03</b></td><td>Adriatic Croatia</td></tr>

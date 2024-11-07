@@ -324,9 +324,10 @@ impute_values <- function(data) {
       value2plot = if_else(
         low_count, NA, value2plot
       )
-    )
+    ) %>% 
+    select(-low_count)
   
-  return(data %>% select(-low_count))
+  return(data)
 }
 
 
@@ -377,13 +378,14 @@ save4web <- function(data, source){
         level, 
         nuts_ltn  = nameSHORT,
         nuts_id,
-        indicator = target_var,
+        # indicator = target_var,
         score     = value2plot
       ) %>%
       left_join(
         outline %>%
           select(
             chart_id,
+            indicator      = target_var_1,
             theme          = report,
             pillar_id      = pillar,
             pillar_name    = chapter,
@@ -404,9 +406,12 @@ save4web <- function(data, source){
       ) 
     
     # using NEW TARGET VARS (this is what is stored in indicator field)
+    # qrq_imputation_indicators <- c("p_1_01", "p_1_02", "p_1_03", "p_1_04", "p_1_05", "p_1_06",
+    #                                "p_1_07", "p_1_08", "p_1_09", "p_1_10", "p_1_11", "p_1_12", 
+    #                                "p_2_2")
     qrq_imputation_indicators <- c("p_1_01", "p_1_02", "p_1_03", "p_1_04", "p_1_05", "p_1_06",
-                                   "p_1_07", "p_1_08", "p_1_09", "p_1_10", "p_1_11", "p_1_12", 
-                                   "p_2_2")
+                                   "p_2_1", "p_2_2", "p_2_3", "p_2_4", "p_2_5", "p_2_6", 
+                                   "p_8_2")
       
     # grab only the national values for the given indicators
     national_values <- data4web %>%
@@ -1201,18 +1206,45 @@ wrangleData <- function(figid, source){
       c("total_anchor", "age_groups", "gender", "iq_groups", "urban_string"), 
       function(gvar, demograph){
         
-        data_subset %>%
+        results <- data_subset %>%
           select(
             country_name_ltn, nuts_id, demographic = all_of(gvar), target
           ) %>%
           group_by(
             country_name_ltn, nuts_id, demographic
-          ) %>% mutate(counter = if_else(!is.na(target), 1, 0)) %>%
+          ) %>% 
+          mutate(
+            counter = if_else(!is.na(target), 1, 0)
+          ) %>%
           summarise(
             value2plot = mean(target, na.rm = T),
             count      = sum(counter, na.rm = T),
             .groups = "keep"
           )
+        
+        # Ensuring that regions with no demographics are still present in the data
+        dem_values <- names(table(results$demographic))
+        control_df <- merge(
+          region_names %>% 
+            select(country_name_ltn, nuts_id), 
+          data.frame(demographic = dem_values), 
+          by = NULL
+        ) %>%
+          mutate(
+            value2plot = NA_real_,
+            count = 0
+          )
+        
+        results <- results %>%
+          bind_rows(
+            anti_join(
+              control_df,
+              results,
+              by = c("nuts_id", "demographic")
+            )
+          )
+        
+        return(results)
       }
     )
     

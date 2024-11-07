@@ -22,12 +22,42 @@ Given the diversity of institutional design across EU Member States, the questio
 
 This project is funded by the EU and complements other research activities conducted by the WJP with the mission of advancing the rule of law worldwide. This data may also complement other monitoring tools that aim to promote a rule of law culture and enhance economic, social, and territorial cohesion in the EU, such as the European Commission’s yearly Rule of Law Report, the EU Justice Scoreboard, and the Cohesion Report, among others.
 
+### Key Findings
+
+Democracy and Fundamental Rights:
+- Most people across the EU believe that judges lack independence, and expert assessments on judicial independence reveal stark disparities between countries. 
+- While the freedoms of assembly, association, and expression are well-protected across most of the EU, some regions are falling short in upholding these essential rights.
+- Most people in the EU believe senior government officials use misinformation to shape public opinion in their favor. 
+- Discrimination remains a pervasive challenge across the EU. At least one in five people faced discrimination during the past year in 22 EU countries.
+- Most people in the EU agree that they can vote freely, without feeling harassed or pressured.
+
+Justice and Safety
+- Across the EU, most people believe that civil and commercial courts do not resolve cases in a timely manner.
+- Across the EU, respondents think that most people cannot easily meet the costs of state dispute resolution mechanisms if they faced a legal problem. Furthermore, most respondents believe people in their country do not have access to affordable legal assistance and representation when they face a legal problem.
+- Legal problems are ubiquitous across the EU, and most people who needed a dispute resolution mechanism in the last two years did not have access to one. This finding presents a major challenge to many EU countries aiming to meet the United Nations Sustainable Development Goals target on access to justice for all (SDG 16.3.3).
+- In most EU regions, people believe that the criminal justice system does not work the same for everyone, regardless of where they live.
+
+Transparency and Corruption
+- Among different state institutions, people in the EU perceive political parties as the most corrupt.
+- Across the EU, most respondents believe government actions to control corruption are ineffective.
+- Most people across the EU believe that local authorities provide accessible information.
+- Although legal experts say business regulations in the EU are predictable and evenly enforced, they agree that navigating the startup process remains unnecessarily cumbersome.
+
+General Trends Across Regions
+- Across EU regions, democratic governance is positively correlated with economic development.
+- Reported levels of public trust are markedly higher for local authorities than for national governments. Across the EU, 52% of respondents reported having a lot or some trust in their local governments, compared to 41% who expressed the same level of trust in their national governments.
+- Regional perceptions within countries tend to align closely with each other across most rule of law dimensions, showing less variation compared to differences seen between countries.
+- Across the EU, urban and rural residents have similar views on the state of justice and the rule of law, although some differences appear across specific regions, countries, population groups, and topics.
+- Across the EU, women tend to share similar views to men on the performance of government institutions, though they have more negative views regarding gender equality in public and private life.
+
 ### About this Report
 
-When the rule of law prevails, both governing authorities and the people they serve respect the rights of others, contributing to a secure and just society. Additionally, people should have access to effective legal mechanisms to resolve their legal issues or seek redress for violations of their rights.
-In conceptualizing safety and access to justice, WJP uses a people-centered approach, focusing on individuals’ justice journeys. This approach seeks to analytically reconstruct people’s experiences as they navigate different justice services in their quest to resolve their legal disputes.    
+EUROVOICES presents two different types of indicators: Expert Scorecard and People’s Voices. The Expert Scorecard provides an aggregated score at either the subnational or national level, depending on the topic, based on data from WJP’s survey of local and independent legal experts and practitioners from different disciplines. Explore the variable map, found in the “downloads” section, with information on the individual expert survey questions that make up each aggregated score. People’s Voices presents selected question-level data from household surveys to representative samples across the EU on each topic. Additional data and sociodemographic breakdowns of the People’s Voices indicators can be explored on the EUROVOICES dashboard. 
 
-This report, Justice and Safety, consists of three chapters: (I) **Civil Justice**, (II) **Criminal Justice**, and (III) **Safety**. Each chapter contains thematic findings, definitions for each indicator included, as well as graphs with data from both the expert and household surveys (Expert Scorecard and People’s Voices, respectively). 
+This report, Justice and Safety, consists of three chapters: (I) **Civil Justice**, (II) **Criminal Justice**, and (III) **Safety**. Each chapter contains thematic findings, definitions for each indicator included, as well as graphs with data from both the expert and household surveys (Expert Scorecard and People’s Voices, respectively).
+
+When the rule of law prevails, both governing authorities and the people they serve respect the rights of others, contributing to a secure and just society. Additionally, people should have access to effective legal mechanisms to resolve their legal issues or seek redress for violations of their rights.
+In conceptualizing safety and access to justice, WJP uses a people-centered approach, focusing on individuals’ justice journeys. This approach seeks to analytically reconstruct people’s experiences as they navigate different justice services in their quest to resolve their legal disputes. 
 
 1. **_Civil Justice_**: The first chapter of this report focuses on civil justice, defined as the array of services and mechanisms people use to resolve non-criminal disputes, including family, labor, commercial, environmental, administrative, and financial disputes, as well as consumer issues. 
 

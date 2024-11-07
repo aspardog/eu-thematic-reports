@@ -7580,53 +7580,6 @@ Spain,regional,ES3,Madrid,R1F45,CPA_cons_citizen,Rural,NA,12
 Spain,regional,ES5,East,R1F45,CPA_cons_citizen,Rural,NA,25
 Spain,regional,ES6,South,R1F45,CPA_cons_citizen,Rural,NA,23
 Spain,regional,ES7,Canary Islands,R1F45,CPA_cons_citizen,Rural,NA,14
-Czechia,regional,CZ01,Prague,R1F46,CP_protest,18-24,NA,17
-France,regional,FRM,Corsica ,R1F46,CP_protest,18-24,NA,17
-France,regional,FRM,Corsica ,R1F46,CP_protest,25-34,NA,26
-France,regional,FRM,Corsica ,R1F46,CP_protest,35-44,NA,28
-Hungary,regional,HU2,Transdanubia ,R1F46,CP_protest,18-24,NA,27
-Ireland,regional,IE04,Northern and Western,R1F46,CP_protest,18-24,NA,23
-Slovakia,regional,SK01,Bratislava,R1F46,CP_protest,18-24,NA,21
-Czechia,regional,CZ01,Prague,R1F46,CP_protest,Income Quintile 1,NA,12
-France,regional,FRM,Corsica ,R1F46,CP_protest,Income Quintile 1,NA,25
-Greece,regional,EL3,Attica,R1F46,CP_protest,Income Quintile 5,NA,25
-Greece,regional,EL4,"Aegean Islands, Crete",R1F46,CP_protest,Income Quintile 5,NA,17
-Greece,regional,EL5,North Greece,R1F46,CP_protest,Income Quintile 5,NA,8
-Greece,regional,EL6,Central Greece,R1F46,CP_protest,Income Quintile 5,NA,17
-Hungary,regional,HU1,Central Hungary,R1F46,CP_protest,Income Quintile 1,NA,19
-Hungary,regional,HU2,Transdanubia ,R1F46,CP_protest,Income Quintile 1,NA,29
-Poland,regional,PL4,North-Western,R1F46,CP_protest,Income Quintile 1,NA,29
-Poland,regional,PL8,Eastern,R1F46,CP_protest,Income Quintile 4,NA,21
-Poland,regional,PL8,Eastern,R1F46,CP_protest,Income Quintile 5,NA,8
-Spain,regional,ES2,North-East,R1F46,CP_protest,Income Quintile 1,NA,29
-Denmark,regional,DK01,Capital (region),R1F46,CP_protest,Rural,NA,22
-France,regional,FR1,Île-de-France,R1F46,CP_protest,Rural,NA,23
-Germany,regional,DEA,North Rhine-Westphalia,R1F46,CP_protest,Rural,NA,21
-Malta,regional,MT00,Malta,R1F46,CP_protest,Rural,NA,20
-Spain,regional,ES3,Madrid,R1F46,CP_protest,Rural,NA,17
-Czechia,regional,CZ01,Prague,R1F47,CP_consultation,18-24,NA,17
-France,regional,FRM,Corsica ,R1F47,CP_consultation,18-24,NA,16
-France,regional,FRM,Corsica ,R1F47,CP_consultation,25-34,NA,26
-France,regional,FRM,Corsica ,R1F47,CP_consultation,35-44,NA,28
-Hungary,regional,HU2,Transdanubia ,R1F47,CP_consultation,18-24,NA,28
-Ireland,regional,IE04,Northern and Western,R1F47,CP_consultation,18-24,NA,23
-Slovakia,regional,SK01,Bratislava,R1F47,CP_consultation,18-24,NA,20
-Czechia,regional,CZ01,Prague,R1F47,CP_consultation,Income Quintile 1,NA,12
-France,regional,FRM,Corsica ,R1F47,CP_consultation,Income Quintile 1,NA,25
-Greece,regional,EL3,Attica,R1F47,CP_consultation,Income Quintile 5,NA,25
-Greece,regional,EL4,"Aegean Islands, Crete",R1F47,CP_consultation,Income Quintile 5,NA,17
-Greece,regional,EL5,North Greece,R1F47,CP_consultation,Income Quintile 5,NA,8
-Greece,regional,EL6,Central Greece,R1F47,CP_consultation,Income Quintile 5,NA,17
-Hungary,regional,HU1,Central Hungary,R1F47,CP_consultation,Income Quintile 1,NA,19
-Hungary,regional,HU2,Transdanubia ,R1F47,CP_consultation,Income Quintile 1,NA,29
-Poland,regional,PL4,North-Western,R1F47,CP_consultation,Income Quintile 1,NA,29
-Poland,regional,PL8,Eastern,R1F47,CP_consultation,Income Quintile 4,NA,21
-Poland,regional,PL8,Eastern,R1F47,CP_consultation,Income Quintile 5,NA,8
-Denmark,regional,DK01,Capital (region),R1F47,CP_consultation,Rural,NA,22
-France,regional,FR1,Île-de-France,R1F47,CP_consultation,Rural,NA,22
-Germany,regional,DEA,North Rhine-Westphalia,R1F47,CP_consultation,Rural,NA,21
-Malta,regional,MT00,Malta,R1F47,CP_consultation,Rural,NA,20
-Spain,regional,ES3,Madrid,R1F47,CP_consultation,Rural,NA,19
 Czechia,regional,CZ01,Prague,R1F48,CP_cso,18-24,NA,17
 France,regional,FRM,Corsica ,R1F48,CP_cso,18-24,NA,17
 France,regional,FRM,Corsica ,R1F48,CP_cso,25-34,NA,26
@@ -8306,30 +8259,6 @@ Spain,regional,ES5,East,R1F55,CPB_freeassem,Rural,NA,19
 Spain,regional,ES6,South,R1F55,CPB_freeassem,Rural,NA,22
 Spain,regional,ES7,Canary Islands,R1F55,CPB_freeassem,Rural,NA,19
 Sweden,regional,SE1,Eastern Sweden,R1F55,CPB_freeassem,Rural,NA,28
-Czechia,regional,CZ01,Prague,R1F56,CP_protest,18-24,NA,17
-France,regional,FRM,Corsica ,R1F56,CP_protest,18-24,NA,17
-France,regional,FRM,Corsica ,R1F56,CP_protest,25-34,NA,26
-France,regional,FRM,Corsica ,R1F56,CP_protest,35-44,NA,28
-Hungary,regional,HU2,Transdanubia ,R1F56,CP_protest,18-24,NA,27
-Ireland,regional,IE04,Northern and Western,R1F56,CP_protest,18-24,NA,23
-Slovakia,regional,SK01,Bratislava,R1F56,CP_protest,18-24,NA,21
-Czechia,regional,CZ01,Prague,R1F56,CP_protest,Income Quintile 1,NA,12
-France,regional,FRM,Corsica ,R1F56,CP_protest,Income Quintile 1,NA,25
-Greece,regional,EL3,Attica,R1F56,CP_protest,Income Quintile 5,NA,25
-Greece,regional,EL4,"Aegean Islands, Crete",R1F56,CP_protest,Income Quintile 5,NA,17
-Greece,regional,EL5,North Greece,R1F56,CP_protest,Income Quintile 5,NA,8
-Greece,regional,EL6,Central Greece,R1F56,CP_protest,Income Quintile 5,NA,17
-Hungary,regional,HU1,Central Hungary,R1F56,CP_protest,Income Quintile 1,NA,19
-Hungary,regional,HU2,Transdanubia ,R1F56,CP_protest,Income Quintile 1,NA,29
-Poland,regional,PL4,North-Western,R1F56,CP_protest,Income Quintile 1,NA,29
-Poland,regional,PL8,Eastern,R1F56,CP_protest,Income Quintile 4,NA,21
-Poland,regional,PL8,Eastern,R1F56,CP_protest,Income Quintile 5,NA,8
-Spain,regional,ES2,North-East,R1F56,CP_protest,Income Quintile 1,NA,29
-Denmark,regional,DK01,Capital (region),R1F56,CP_protest,Rural,NA,22
-France,regional,FR1,Île-de-France,R1F56,CP_protest,Rural,NA,23
-Germany,regional,DEA,North Rhine-Westphalia,R1F56,CP_protest,Rural,NA,21
-Malta,regional,MT00,Malta,R1F56,CP_protest,Rural,NA,20
-Spain,regional,ES3,Madrid,R1F56,CP_protest,Rural,NA,17
 Belgium,regional,BE1,Brussels Region,R1F58,CPA_media_freeop,18-24,NA,21
 Belgium,regional,BE2,Flemish Region,R1F58,CPA_media_freeop,18-24,NA,28
 Belgium,regional,BE3,Waloon Region,R1F58,CPA_media_freeop,18-24,NA,29
@@ -24081,69 +24010,6 @@ Spain,regional,ES5,East,R2F57,psafe1,Rural,NA,14
 Spain,regional,ES6,South,R2F57,psafe1,Rural,NA,12
 Spain,regional,ES7,Canary Islands,R2F57,psafe1,Rural,NA,8
 Sweden,regional,SE1,Eastern Sweden,R2F57,psafe1,Rural,NA,12
-Czechia,regional,CZ01,Prague,R2F58,SEC_street,18-24,NA,17
-France,regional,FRM,Corsica ,R2F58,SEC_street,18-24,NA,17
-France,regional,FRM,Corsica ,R2F58,SEC_street,25-34,NA,26
-France,regional,FRM,Corsica ,R2F58,SEC_street,35-44,NA,28
-Hungary,regional,HU2,Transdanubia ,R2F58,SEC_street,18-24,NA,29
-Slovakia,regional,SK01,Bratislava,R2F58,SEC_street,18-24,NA,21
-Czechia,regional,CZ01,Prague,R2F58,SEC_street,Income Quintile 1,NA,12
-France,regional,FRM,Corsica ,R2F58,SEC_street,Income Quintile 1,NA,25
-Greece,regional,EL3,Attica,R2F58,SEC_street,Income Quintile 5,NA,25
-Greece,regional,EL4,"Aegean Islands, Crete",R2F58,SEC_street,Income Quintile 5,NA,17
-Greece,regional,EL5,North Greece,R2F58,SEC_street,Income Quintile 5,NA,8
-Greece,regional,EL6,Central Greece,R2F58,SEC_street,Income Quintile 5,NA,17
-Hungary,regional,HU1,Central Hungary,R2F58,SEC_street,Income Quintile 1,NA,19
-Poland,regional,PL4,North-Western,R2F58,SEC_street,Income Quintile 1,NA,29
-Poland,regional,PL8,Eastern,R2F58,SEC_street,Income Quintile 4,NA,21
-Poland,regional,PL8,Eastern,R2F58,SEC_street,Income Quintile 5,NA,8
-Denmark,regional,DK01,Capital (region),R2F58,SEC_street,Rural,NA,22
-France,regional,FR1,Île-de-France,R2F58,SEC_street,Rural,NA,23
-Germany,regional,DEA,North Rhine-Westphalia,R2F58,SEC_street,Rural,NA,21
-Malta,regional,MT00,Malta,R2F58,SEC_street,Rural,NA,20
-Spain,regional,ES3,Madrid,R2F58,SEC_street,Rural,NA,19
-Czechia,regional,CZ01,Prague,R2F59,SEC_women,18-24,NA,16
-France,regional,FRM,Corsica ,R2F59,SEC_women,18-24,NA,17
-France,regional,FRM,Corsica ,R2F59,SEC_women,25-34,NA,26
-France,regional,FRM,Corsica ,R2F59,SEC_women,35-44,NA,28
-Hungary,regional,HU2,Transdanubia ,R2F59,SEC_women,18-24,NA,29
-Slovakia,regional,SK01,Bratislava,R2F59,SEC_women,18-24,NA,21
-Czechia,regional,CZ01,Prague,R2F59,SEC_women,Income Quintile 1,NA,12
-France,regional,FRM,Corsica ,R2F59,SEC_women,Income Quintile 1,NA,25
-Greece,regional,EL3,Attica,R2F59,SEC_women,Income Quintile 5,NA,25
-Greece,regional,EL4,"Aegean Islands, Crete",R2F59,SEC_women,Income Quintile 5,NA,17
-Greece,regional,EL5,North Greece,R2F59,SEC_women,Income Quintile 5,NA,8
-Greece,regional,EL6,Central Greece,R2F59,SEC_women,Income Quintile 5,NA,17
-Hungary,regional,HU1,Central Hungary,R2F59,SEC_women,Income Quintile 1,NA,19
-Poland,regional,PL4,North-Western,R2F59,SEC_women,Income Quintile 1,NA,29
-Poland,regional,PL8,Eastern,R2F59,SEC_women,Income Quintile 4,NA,21
-Poland,regional,PL8,Eastern,R2F59,SEC_women,Income Quintile 5,NA,8
-Denmark,regional,DK01,Capital (region),R2F59,SEC_women,Rural,NA,22
-France,regional,FR1,Île-de-France,R2F59,SEC_women,Rural,NA,23
-Germany,regional,DEA,North Rhine-Westphalia,R2F59,SEC_women,Rural,NA,21
-Malta,regional,MT00,Malta,R2F59,SEC_women,Rural,NA,20
-Spain,regional,ES3,Madrid,R2F59,SEC_women,Rural,NA,19
-Czechia,regional,CZ01,Prague,R2F60,SEC_race,18-24,NA,17
-France,regional,FRM,Corsica ,R2F60,SEC_race,18-24,NA,17
-France,regional,FRM,Corsica ,R2F60,SEC_race,25-34,NA,26
-France,regional,FRM,Corsica ,R2F60,SEC_race,35-44,NA,28
-Hungary,regional,HU2,Transdanubia ,R2F60,SEC_race,18-24,NA,29
-Slovakia,regional,SK01,Bratislava,R2F60,SEC_race,18-24,NA,21
-Czechia,regional,CZ01,Prague,R2F60,SEC_race,Income Quintile 1,NA,12
-France,regional,FRM,Corsica ,R2F60,SEC_race,Income Quintile 1,NA,25
-Greece,regional,EL3,Attica,R2F60,SEC_race,Income Quintile 5,NA,25
-Greece,regional,EL4,"Aegean Islands, Crete",R2F60,SEC_race,Income Quintile 5,NA,17
-Greece,regional,EL5,North Greece,R2F60,SEC_race,Income Quintile 5,NA,8
-Greece,regional,EL6,Central Greece,R2F60,SEC_race,Income Quintile 5,NA,17
-Hungary,regional,HU1,Central Hungary,R2F60,SEC_race,Income Quintile 1,NA,19
-Poland,regional,PL4,North-Western,R2F60,SEC_race,Income Quintile 1,NA,29
-Poland,regional,PL8,Eastern,R2F60,SEC_race,Income Quintile 4,NA,21
-Poland,regional,PL8,Eastern,R2F60,SEC_race,Income Quintile 5,NA,8
-Denmark,regional,DK01,Capital (region),R2F60,SEC_race,Rural,NA,22
-France,regional,FR1,Île-de-France,R2F60,SEC_race,Rural,NA,23
-Germany,regional,DEA,North Rhine-Westphalia,R2F60,SEC_race,Rural,NA,21
-Malta,regional,MT00,Malta,R2F60,SEC_race,Rural,NA,20
-Spain,regional,ES3,Madrid,R2F60,SEC_race,Rural,NA,19
 Czechia,regional,CZ01,Prague,R3F2,COR_parliament,18-24,NA,17
 France,regional,FRM,Corsica ,R3F2,COR_parliament,18-24,NA,17
 France,regional,FRM,Corsica ,R3F2,COR_parliament,25-34,NA,26
@@ -24391,51 +24257,6 @@ France,regional,FR1,Île-de-France,R3F12,COR_inst_eu,Rural,NA,22
 Germany,regional,DEA,North Rhine-Westphalia,R3F12,COR_inst_eu,Rural,NA,21
 Malta,regional,MT00,Malta,R3F12,COR_inst_eu,Rural,NA,20
 Spain,regional,ES3,Madrid,R3F12,COR_inst_eu,Rural,NA,19
-Czechia,regional,CZ01,Prague,R3F13,bribery1,18-24,NA,14
-France,regional,FRM,Corsica ,R3F13,bribery1,18-24,NA,17
-France,regional,FRM,Corsica ,R3F13,bribery1,25-34,NA,24
-France,regional,FRM,Corsica ,R3F13,bribery1,35-44,NA,26
-France,regional,FRM,Corsica ,R3F13,bribery1,55-64,NA,26
-Greece,regional,EL3,Attica,R3F13,bribery1,18-24,NA,18
-Greece,regional,EL4,"Aegean Islands, Crete",R3F13,bribery1,18-24,NA,27
-Greece,regional,EL5,North Greece,R3F13,bribery1,18-24,NA,21
-Greece,regional,EL6,Central Greece,R3F13,bribery1,18-24,NA,13
-Hungary,regional,HU2,Transdanubia ,R3F13,bribery1,18-24,NA,22
-Ireland,regional,IE04,Northern and Western,R3F13,bribery1,18-24,NA,22
-Slovakia,regional,SK01,Bratislava,R3F13,bribery1,18-24,NA,21
-Czechia,regional,CZ01,Prague,R3F13,bribery1,Income Quintile 1,NA,11
-France,regional,FRM,Corsica ,R3F13,bribery1,Income Quintile 1,NA,23
-France,regional,FRM,Corsica ,R3F13,bribery1,Income Quintile 2,NA,29
-Greece,regional,EL3,Attica,R3F13,bribery1,Income Quintile 5,NA,14
-Greece,regional,EL4,"Aegean Islands, Crete",R3F13,bribery1,Income Quintile 4,NA,28
-Greece,regional,EL4,"Aegean Islands, Crete",R3F13,bribery1,Income Quintile 5,NA,15
-Greece,regional,EL5,North Greece,R3F13,bribery1,Income Quintile 5,NA,4
-Greece,regional,EL6,Central Greece,R3F13,bribery1,Income Quintile 5,NA,10
-Hungary,regional,HU1,Central Hungary,R3F13,bribery1,Income Quintile 1,NA,11
-Hungary,regional,HU1,Central Hungary,R3F13,bribery1,Income Quintile 2,NA,27
-Hungary,regional,HU1,Central Hungary,R3F13,bribery1,Income Quintile 3,NA,28
-Hungary,regional,HU2,Transdanubia ,R3F13,bribery1,Income Quintile 1,NA,23
-Poland,regional,PL2,Southern,R3F13,bribery1,Income Quintile 4,NA,25
-Poland,regional,PL4,North-Western,R3F13,bribery1,Income Quintile 1,NA,24
-Poland,regional,PL6,Northern,R3F13,bribery1,Income Quintile 5,NA,23
-Poland,regional,PL7,Central,R3F13,bribery1,Income Quintile 1,NA,29
-Poland,regional,PL8,Eastern,R3F13,bribery1,Income Quintile 1,NA,22
-Poland,regional,PL8,Eastern,R3F13,bribery1,Income Quintile 2,NA,24
-Poland,regional,PL8,Eastern,R3F13,bribery1,Income Quintile 4,NA,10
-Poland,regional,PL8,Eastern,R3F13,bribery1,Income Quintile 5,NA,3
-Portugal,regional,PT1,Continental Portugal,R3F13,bribery1,Income Quintile 5,NA,25
-Portugal,regional,PT2,Azores,R3F13,bribery1,Income Quintile 5,NA,27
-Romania,regional,RO4,Macroregion Four,R3F13,bribery1,Income Quintile 5,NA,28
-Spain,regional,ES2,North-East,R3F13,bribery1,Income Quintile 1,NA,26
-Spain,regional,ES3,Madrid,R3F13,bribery1,Income Quintile 1,NA,26
-Belgium,regional,BE2,Flemish Region,R3F13,bribery1,Rural,NA,25
-Denmark,regional,DK01,Capital (region),R3F13,bribery1,Rural,NA,19
-France,regional,FR1,Île-de-France,R3F13,bribery1,Rural,NA,17
-Germany,regional,DEA,North Rhine-Westphalia,R3F13,bribery1,Rural,NA,20
-Greece,regional,EL3,Attica,R3F13,bribery1,Rural,NA,4
-Malta,regional,MT00,Malta,R3F13,bribery1,Rural,NA,18
-Netherlands,regional,NL2,East Netherlands,R3F13,bribery1,Rural,NA,28
-Spain,regional,ES3,Madrid,R3F13,bribery1,Rural,NA,15
 Czechia,regional,CZ01,Prague,R3F15,ORC_corimpact,18-24,NA,16
 France,regional,FRM,Corsica ,R3F15,ORC_corimpact,18-24,NA,17
 France,regional,FRM,Corsica ,R3F15,ORC_corimpact,25-34,NA,26

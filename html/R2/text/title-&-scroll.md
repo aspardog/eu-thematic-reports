@@ -1,10 +1,10 @@
-# We asked 72,000 Europeans if they feel safe and if justice is met. Most people
+# We asked 72,000 people in the EU if they feel safe and if justice is met. Most people...
 
-## feel safe at night,
+## believe that courts do not resolve cases in a timely manner,
 
-## see the police as a force for good,
+## think people cannot access affordable legal assistance,
 
-## cannot afford legal assistance.
+## believe that the criminal justice system does not function equally for everyone.
 
 #### Across the EU, backlogs and delays are widespread in civil and commercial courts. 
 

@@ -26,3 +26,8 @@ final-charts/.DS_Store
 .DS_Store
 data-viz/output/variance_analysis
 data-viz/output/variance_analysis.csv
+/final-charts/with-tooltip
+/final-charts/mini-tables
+/html/R1/assets
+/html/R3/assets
+html/R2/assets/R2B2.svg

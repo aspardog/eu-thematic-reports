@@ -2,21 +2,22 @@
 
 ## Civil Justice
 
-- People perceive justice as being too expensive.  Malta is the only EU Member State where most people believe dispute resolution mechanisms are affordable.
-- Across the EU, backlogs and delays are widespread in civil and commercial courts.
+Outlined below are the findings for this section. First, we present the main findings for the chapter, emphasizing notable insights in the data. This is followed by summaries of individual indicators organized by topic.
+
+- People perceive justice as being too expensive. Malta is the only EU Member State where most people agree they can easily meet the costs of turning to a state dispute resolution mechanism when they face a legal problem.
+- Across the EU, most people perceive that civil and commercial courts do not resolve cases in a timely manner.
 - People are not aware of their legal rights. Romania, Poland, and Greece are the only EU Member States in which the majority of respondents feel aware of their rights when facing a legal problem.
 - In 15 Member States\*, a majority of respondents experienced at least one non-trivial legal problem\*\* in the past two years. The prevalence of legal problems varies widely across the EU, as just 15.6% of respondents experienced a recent legal problem in Portugal, while 71.0% did in Hungary. For respondents in all countries, the most common legal problems were related to consumer protection.
-- Most EU residents who had a non-trivial legal issue were unable to access appropriate dispute resolution mechanisms. This finding presents a major challenge to many EU countries aiming to meet the United Nations Sustainable Development Goals target on access to justice for all (SDG 16.3.3). 
+- Most EU residents who experienced a non-trivial legal issue** and needed access to a dispute resolution mechanism did not have access to it. This finding presents a major challenge to many EU countries aiming to meet the United Nations Sustainable Development Goals target on access to justice for all (SDG 16.3.3). 
 
 \*The module on legal needs covers 26 out of the 27 EU Member States; this data was not collected in Ireland.
 \*\*We understand non-trivial legal problems as those that respondents label with a seriousness larger than or equal to 4 on a scale of 0 to 10.
 
 ### Legal capability
 
-- The average score for the expert indicator  of **legal capability** among the 27 EU Member States is 0.58 (Figure 1). Country-level scores range from 0.69 in Finland to 0.47 in Greece and Poland.
-- Most EU residents feel that people lack legal awareness. Romania, Poland, and Greece are the only EU Member States in which the majority of respondents agree that **people are aware of their legal rights** (Figure 2).    
+- The average score for the expert indicator  of **legal capability** among the 27 EU Member States is 0.58 (Figure 1). Country-level scores range from 0.69 in Finland and Ireland to 0.47 in Greece and Poland.
+- Most EU residents feel that people lack legal awareness. Romania, Poland, and Greece are the only EU Member States in which the majority of respondents agree that **people are aware of their legal rights** (Figure 2).   
 - In just 6 Member States, the majority of respondents agree that **people know where to get legal information and advice when they face a legal problem** (Figure 3).  
-
 
 ### Access to legal aid and representation in civil disputes
 
@@ -54,7 +55,7 @@
 ### WJP Global Legal Needs Survey module
 
 - In 15 Member States\*, over half  of respondents experienced one or more **non-trivial legal problems\*\* in the past two years**, with prevalence at the country-level ranging from 15.6% in Portugal to 71.0% in Hungary (Figure 19). Across the EU, the most **commonly reported legal problems** were related to consumer protection, housing, and public services (Figure 20).    
-- Among all  respondents who reported experiencing non-trivial legal problems, at least half  had **access to good information and advice** (Figure 23) and, in 18 Member States, the majority of respondents had **access to adequate assistance and representation**\*\*\* (Figure 24). However, Malta and Bulgaria were the only two Member States in which the majority of respondents who experienced a non-trivial legal problem had **access to a dispute resolution mechanism** (Figure 25).       
+- Among all  respondents who reported experiencing non-trivial legal problems, at least half  had **access to good information and advice** (Figure 23) and, in 18 Member States, the majority of respondents had **access to adequate assistance and representation**\*\*\* (Figure 24). However, Malta and Bulgaria were the only two Member States in which the majority of respondents, out of those who experienced a non-trivial legal problem and needed access, had **access to a dispute resolution mechanism** (Figure 25).       
 - Out of the people who experienced a non-trivial legal problem and whose problem's resolution process has concluded, in 25 Member States (all except for Czechia), six out of every ten respondents' **legal problems have been solved** (Figure 29).
 - In a majority of EU Member States, out of respondents who experienced a non-trivial legal problem and reported that the problem’s resolution process has concluded, over two-thirds said that the **resolution process concluded in less than a year** (Figure 26) and that they were **able to afford the costs to solve their problem, or did not incur any costs at all** (Figure 27).  However, this group of respondents did not think their experiences were fair—in only 5 Member States did the majority of respondents agree that the **resolution process was fair, regardless of the outcome** (Figure 28).
 
@@ -65,7 +66,9 @@
 
 ## Criminal Justice
 
-- While experts in most EU countries say their justice systems conduct effective and impartial criminal investigations and prosecutions, these positive perceptions are not shared among respondents in Bulgaria, Cyprus, and Greece. 
+Outlined below are the findings for this section. First, we present the main findings for the chapter, emphasizing notable insights in the data. This is followed by summaries of individual indicators organized by topic.
+
+- While experts in most EU countries say their justice systems conduct effective and impartial criminal investigations, these positive perceptions are not shared among respondents in Cyprus, Bulgaria and Greece. 
 - Confidence in police conduct is high among respondents in most of the EU. In 26 Member States (Slovakia is the exception), most people say police respect the basic rights of suspects, and in 20 Member States, most people say the police do not use excessive or unnecessary force. 
 However, the majority of respondents in 10 Member States doubt that authorities respect the presumption of innocence, and in 12 EU Member States, most people do not believe everyone has access to a fair trial.  Perceptions on both of these issues are especially low among Slovakian respondents.
 - Across the EU, most respondents say that people living in poverty continue to face challenges related to public legal defense—in 14 Member States, fewer than half agree there is adequate public defense. 
@@ -119,10 +122,14 @@ However, the majority of respondents in 10 Member States doubt that authorities 
 
 ### Rights of persons deprived of liberty
 
-- The average score for the expert indicator of respect for the **rights of persons deprived of liberty** among all the Member States is  0.66 (Figure 54). Country-level scores range from 0.83 in Luxembourg to 0.43 in Greece.
+- The average score for the expert indicator of respect for the **rights of persons deprived of liberty** among all the Member States\* is  0.66 (Figure 54). Country-level scores range from 0.83 in Luxembourg to 0.43 in Greece.
 - In 16 Members States, the majority of respondents agree that the **criminal justice system guarantees the safety and human rights of people deprived of their liberty**, with country-level figures ranging from 72.9% of respondents in Luxembourg to 29.9% in Slovakia (Figure 55).
 
+\*This finding on the rights of persons deprived of liberty covers 26 out of the 27 EU Member States; this data was not collected in Malta.
+
 ## Safety
+
+Outlined below are the findings for this section. First, we present the main findings for the chapter, emphasizing notable insights in the data. This is followed by summaries of individual indicators organized by topic.
 
 - People throughout the EU feel safe in their communities. In most EU  Member States, at least two-thirds of respondents **feel safe walking in their neighborhood at night**.  
 - Women are less likely than men  to feel safe in every Member State except Poland.
@@ -132,11 +139,8 @@ However, the majority of respondents in 10 Member States doubt that authorities 
 ### Perceptions of safety
 
 - In 26 Member States, the majority of respondents feel safe walking in their neighborhood at night, with country-level figures ranging from 88.4% of respondents in Denmark to 47.7% in Italy (Figure 56). However, **perceptions of safety among women** are lower than men  in every EU country, except Poland (Box 2).
-- In 24 Member States, the majority of respondents agree that **the police resolve safety problems in their communities and treat all people with kindness and respect**, with country-level figures ranging from 93.4% of respondents in Finland to 42.1% in Cyprus (Figure 57).
 
 
 ### Control of violence
 
-- In 26 Member States\*, fewer than half of respondents **witnessed street violence** (Figure 58), **violence against women** (Figure 59), and **racially motivated violence** (Figure 60).
-
-\*This finding on control of violence covers 26 out of the 27 EU Member States; this data was not collected in Ireland.
+- In 24 Member States, the majority of respondents agree that **the police resolve safety problems in their communities and treat all people with kindness and respect**, with country-level figures ranging from 93.4% of respondents in Finland to 42.1% in Cyprus (Figure 57).
