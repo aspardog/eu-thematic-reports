@@ -259,7 +259,7 @@ class text_input:
                     accordion_viz_note = {
                         "id"         : id_counter,
                         "type"       : "accordion_viz_note",
-                        "content"    : None,
+                        "content"    : row["footnote"],
                         "belongs_to" : figid,
                         "settings"   : None
                     }

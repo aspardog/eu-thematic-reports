@@ -1,8 +1,8 @@
-# We asked 72,000 Europeans what they thought of transparency and corruption. Most people thought
+# We asked 72,000 people in the EU what they thought of transparency and corruption. Most people believe...
 
-## anticorruption measures to be ineffective,
+## anticorruption measures are ineffective,
 
-## political parties as the most corrupt,
+## political parties are the most corrupt,
 
 ## businesses face unnecessary red tape.
 

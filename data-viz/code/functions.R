@@ -324,9 +324,10 @@ impute_values <- function(data) {
       value2plot = if_else(
         low_count, NA, value2plot
       )
-    )
+    ) %>% 
+    select(-low_count)
   
-  return(data %>% select(-low_count))
+  return(data)
 }
 
 
@@ -1205,18 +1206,45 @@ wrangleData <- function(figid, source){
       c("total_anchor", "age_groups", "gender", "iq_groups", "urban_string"), 
       function(gvar, demograph){
         
-        data_subset %>%
+        results <- data_subset %>%
           select(
             country_name_ltn, nuts_id, demographic = all_of(gvar), target
           ) %>%
           group_by(
             country_name_ltn, nuts_id, demographic
-          ) %>% mutate(counter = if_else(!is.na(target), 1, 0)) %>%
+          ) %>% 
+          mutate(
+            counter = if_else(!is.na(target), 1, 0)
+          ) %>%
           summarise(
             value2plot = mean(target, na.rm = T),
             count      = sum(counter, na.rm = T),
             .groups = "keep"
           )
+        
+        # Ensuring that regions with no demographics are still present in the data
+        dem_values <- names(table(results$demographic))
+        control_df <- merge(
+          region_names %>% 
+            select(country_name_ltn, nuts_id), 
+          data.frame(demographic = dem_values), 
+          by = NULL
+        ) %>%
+          mutate(
+            value2plot = NA_real_,
+            count = 0
+          )
+        
+        results <- results %>%
+          bind_rows(
+            anti_join(
+              control_df,
+              results,
+              by = c("nuts_id", "demographic")
+            )
+          )
+        
+        return(results)
       }
     )
     
