@@ -50,7 +50,7 @@ These reports were also made possible by the work of the polling companies who c
 
 <br>
 
-**_Requests to reproduce this document should be sent to_**:
+<!-- **_Requests to reproduce this document should be sent to_**:
 
 Alejandro Ponce<br>
 *World Justice Project*<br>
@@ -60,4 +60,4 @@ E-mail: *wjp@worldjusticeproject.org*
 
 World Justice Project EUROVOICES 2024: Democracy & Fundamental Rights<br>
 Print: ISBN: 978-1-951330-68-2<br>
-Digital: ISBN: 978-1-951330-69-9
+Digital: ISBN: 978-1-951330-69-9 -->
