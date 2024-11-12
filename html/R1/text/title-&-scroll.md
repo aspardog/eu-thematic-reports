@@ -1,15 +1,17 @@
-# We asked 72,000 people in the EU about their perceptions on democratic governance and fundamental rights. The majority...
+# We asked 72,000 people in the EU their views on democratic governance and fundamental rights. Most... 
 
 ## agree that they can vote freely, 
 
-## perceive discrimination as a pervasive challenge, 
+## perceive discrimination as a challenge,
 
-## worry the use of misinformation is widespread.
+## worry about the use of misinformation.
 
-#### Perceptions on judicial independence vary widely across the EU but are strongest in Finland and Denmark for both legal experts and the general population.
+##### Most people across the EU believe that judges lack independence, and expert assessments on judicial independence reveal stark disparities between countries.
 
-#### Freedom of assembly and association, as well as freedom of expression, are generally strong across the EU, although some regions show persistent challenges.
+##### While the freedoms of assembly, association, and expression are well-protected across most of the EU, some regions are falling short in upholding these essential rights.
 
-#### Most people in the EU believe senior government officials use misinformation to shape public opinion in their favor. 
+##### Most people in the EU believe senior government officials use misinformation to shape public opinion in their favor. 
 
-#### Discrimination is widespread in the EU, with at least 1 in 5 people experiencing some form of discrimination or harassment over the last year in 95 out of 110 regions.
+##### Discrimination remains a pervasive challenge across the EU. At least one in five people faced discrimination during the past year in 22 EU countries.
+
+##### Most people in the EU agree that they can vote freely, without feeling harassed or pressured.

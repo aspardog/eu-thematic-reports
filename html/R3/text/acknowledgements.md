@@ -57,3 +57,7 @@ Alejandro Ponce<br>
 1025 Vermont Avenue NW, Suite 1200<br>
 Washington, DC 20005, USA<br>
 E-mail: *wjp@worldjusticeproject.org*
+
+World Justice Project EUROVOICES 2024: Transparency & Corruption<br>
+Print: ISBN: 978-1-951330-72-9<br>
+Digital: ISBN: 978-1-951330-73-6

@@ -8,21 +8,126 @@ To develop a comprehensive methodological framework, WJP first defined the obser
 
 The team then conducted an extensive literature review and held consultations with experts from various sectors (including academia and international organizations) to adapt the project's methodology to the current reality and challenges faced by the European Union (EU) Member States. The resulting framework defines 51 rule of law indicators organized into ten pillars: 1) checks on government powers; 2) government respect for checks on power; 3) civic participation; 4) fundamental rights; 5) civil justice; 6) criminal justice; 7) safety; 8) control of corruption; 9) transparency and access to information; and 10) administrative proceedings and regulatory enforcement.
 
-| Pillars | Indicators |
-|---------|------------|
-| **Report 1. Democracy and Fundamental Rights** |
-| 1. Checks on government powers | 1.1. Legislative oversight<br>1.2. Judicial independence<br>1.3. Independent oversight<br>1.4. Independent prosecution<br>1.5. Free, fair, and secure elections<br>1.6. Non-governmental checks |
-| 2. Government respect for checks on power | 2.1. Government respect for the constitution and political opponents<br>2.2. Government respect for judicial independence<br>2.3. Government respect for independent oversight<br>2.4. Government respect for independent prosecution<br>2.5. Government respect for the electoral system<br>2.6. Government respect for civil liberties |
-| 3. Civic participation | 3.1. Civic participation |
-| 4. Fundamental rights | 4.1. Prohibition of torture and inhuman treatment<br>4.2. Prohibition of slavery and forced labor<br>4.3. Freedom of thought, conscience, and religion<br>4.4. Freedom of peaceful assembly and association<br>4.5. Freedom of opinion and expression<br>4.6. Right to property<br>4.7. Right to asylum<br>4.8. Equality before the law<br>4.9. Workers’ rights<br>4.10. Right to vote and to stand as a candidate at elections<br>4.11. Right of access to documents<br>4.12. Right to petition<br>4.13. Right of movement and of residence<br>4.14. Due process of law |
-| **Report 2. Justice and Safety** |
-| 5. Civil justice | 5.1. Legal capability<br>5.2. Access to legal aid and representation in cases of civil disputes<br>5.3. Accessible, appropriate, and timely dispute resolution<br>5.4. Impartial and independent dispute resolution<br>5.5. Outcome-oriented and effective dispute resolution<br>5.6. Alternative dispute resolution mechanisms |
-| 6. Criminal justice | 6.1. Effective and impartial criminal investigation<br>6.2. Effective and impartial prosecution and pre-trial proceedings<br>6.3. Effective and impartial criminal adjudication<br>6.4. Alternative criminal justice mechanisms<br>6.5. Victims’ rights<br>6.6. Due process of law<br>6.7. Rights of persons deprived of liberty |
-| 7. Safety | 7.1. Perceptions of safety<br>7.2. Control of violence |
-| **Report 3. Transparency and Corruption** |
-| 8. Control of corruption | 8.1. Absence of bribery<br>8.2. Absence of corrupt procurement practices<br>8.3. Absence of embezzlement<br>8.4. Absence of favoritism<br>8.5. Absence of corrupt electoral practices |
-| 9. Transparency and access to information | 9.1. Transparency and access to information |
-| 10. Administrative proceedings, regulatory enforcement, and right to property | 10.1. Clear, predictable, and timely administrative proceedings<br>10.2. Right to property<br>10.3. Regulatory enforcement |
+<div id="varmap">
+    <div class="table-container"> 
+        <table>
+            <thead>
+                <tr>
+                    <th>Pillars</th>
+                    <th>Indicators</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2"><strong>Report 1. Democracy and Fundamental Rights</strong></td>
+                </tr>
+                <tr>
+                    <td>1. Checks on government powers</td>
+                    <td>
+                    1.1. Legislative oversight<br>
+                    1.2. Judicial independence<br>
+                    1.3. Independent oversight<br>
+                    1.4. Independent prosecution<br>
+                    1.5. Free, fair, and secure elections<br>
+                    1.6. Non-governmental checks
+                    </td>
+                </tr>
+                <tr>
+                    <td>2. Government respect for checks on power</td>
+                    <td>
+                    2.1. Government respect for the constitution and political opponents<br>
+                    2.2. Government respect for judicial independence<br>
+                    2.3. Government respect for independent oversight<br>
+                    2.4. Government respect for independent prosecution<br>
+                    2.5. Government respect for the electoral system<br>
+                    2.6. Government respect for civil liberties
+                    </td>
+                </tr>
+                <tr>
+                    <td>3. Civic participation</td>
+                    <td>3.1. Civic participation</td>
+                </tr>
+                <tr>
+                    <td>4. Fundamental rights</td>
+                    <td>
+                    4.1. Prohibition of torture and inhuman treatment<br>
+                    4.2. Prohibition of slavery and forced labor<br>
+                    4.3. Freedom of thought, conscience, and religion<br>
+                    4.4. Freedom of peaceful assembly and association<br>
+                    4.5. Freedom of opinion and expression<br>
+                    4.6. Right to property<br>
+                    4.7. Right to asylum<br>
+                    4.8. Equality before the law<br>
+                    4.9. Workers’ rights<br>
+                    4.10. Right to vote and to stand as a candidate at elections<br>
+                    4.11. Right of access to documents<br>
+                    4.12. Right to petition<br>
+                    4.13. Right of movement and of residence<br>
+                    4.14. Due process of law
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><strong>Report 2. Justice and Safety</strong></td>
+                </tr>
+                <tr>
+                    <td>5. Civil justice</td>
+                    <td>
+                    5.1. Legal capability<br>
+                    5.2. Access to legal aid and representation in cases of civil disputes<br>
+                    5.3. Accessible, appropriate, and timely dispute resolution<br>
+                    5.4. Impartial and independent dispute resolution<br>
+                    5.5. Outcome-oriented and effective dispute resolution<br>
+                    5.6. Alternative dispute resolution mechanisms
+                    </td>
+                </tr>
+                <tr>
+                    <td>6. Criminal justice</td>
+                    <td>
+                    6.1. Effective and impartial criminal investigation<br>
+                    6.2. Effective and impartial prosecution and pre-trial proceedings<br>
+                    6.3. Effective and impartial criminal adjudication<br>
+                    6.4. Alternative criminal justice mechanisms<br>
+                    6.5. Victims’ rights<br>
+                    6.6. Due process of law<br>
+                    6.7. Rights of persons deprived of liberty
+                    </td>
+                </tr>
+                <tr>
+                    <td>7. Safety</td>
+                    <td>
+                    7.1. Perceptions of safety<br>
+                    7.2. Control of violence
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><strong>Report 3. Transparency and Corruption</strong></td>
+                </tr>
+                <tr>
+                    <td>8. Control of corruption</td>
+                    <td>
+                    8.1. Absence of bribery<br>
+                    8.2. Absence of corrupt procurement practices<br>
+                    8.3. Absence of embezzlement<br>
+                    8.4. Absence of favoritism<br>
+                    8.5. Absence of corrupt electoral practices
+                    </td>
+                </tr>
+                <tr>
+                    <td>9. Transparency and access to information</td>
+                    <td>9.1. Transparency and access to information</td>
+                </tr>
+                <tr>
+                    <td>10. Administrative proceedings, regulatory enforcement, and right to property</td>
+                    <td>
+                    10.1. Clear, predictable, and timely administrative proceedings<br>
+                    10.2. Right to property<br>
+                    10.3. Regulatory enforcement
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
 
 After establishing these pillars and indicators, WJP drafted survey questions to measure different aspects of each conceptual category included in the framework. This process resulted in a selection of 610 expert survey questions and 330 general population survey questions. To maintain reasonable survey length and improve response rates, the expert questions were organized into four separate questionnaires (one on criminal justice, two on civil and commercial justice, and one on governance).
 

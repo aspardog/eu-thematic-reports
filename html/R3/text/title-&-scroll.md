@@ -6,8 +6,10 @@
 
 ## businesses face unnecessary red tape.
 
-#### While legal experts give high scores to transparency across the EU, people’s confidence in their ability to obtain public information through requests is generally low.
+##### Among different state institutions, people in the EU perceive political parties as the most corrupt.
 
-#### While legal experts in the EU believe business regulation is predictable and evenly enforced, they say that starting and operating a business in the EU is unnecessarily complicated.
+##### Across the EU, most respondents believe government actions to control corruption are ineffective.
 
-#### Regions with higher levels of development have higher expert scores in indicators related to administrative proceedings, regulatory enforcement, and property rights. 
+##### Most people across the EU believe that local authorities provide accessible information.
+
+##### Although legal experts say business regulations in the EU are predictable and evenly enforced, they agree that navigating the startup process remains unnecessarily cumbersome.

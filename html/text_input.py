@@ -41,7 +41,7 @@ class text_input:
 
         title    = re.search(r"^# (.*)", self.text, re.MULTILINE).group(1)
         scrolls  = re.findall(r"^(## .*)", self.text, re.MULTILINE)
-        keyfinds = re.findall(r"^(#### .*)", self.text, re.MULTILINE)
+        keyfinds = re.findall(r"^(##### .*)", self.text, re.MULTILINE)
 
         id_1 = [6,7,8,9]
         type_1 = ["title"] + ["scrollytelling"] * len(scrolls)
@@ -228,7 +228,9 @@ class text_input:
                     accordion_viz = {
                         "id"         : figid,
                         "type"       : "accordion_viz",
-                        "content"    : f"<span>{row['figure']}</span> {row['title']}",
+                        "content"    : f"""
+                        <span id="{row['chart_id']}">{row['figure']}</span> {row['title']}
+                        """,
                         "belongs_to" : section_id,
                         "settings"   : setting
                     }
